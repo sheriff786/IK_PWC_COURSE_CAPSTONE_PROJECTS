@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>ContractIQ — Product UI Mockup</title>
+<style>
+  :root{
+    --bg:#f6f7fb; --panel:#ffffff; --ink:#0f172a; --muted:#64748b;
+    --line:#e6e8f0; --brand:#6d5efc; --brand2:#9b8cff; --brand-soft:#eef0ff;
+    --green:#12b76a; --green-soft:#e7f8f0; --amber:#f79009; --amber-soft:#fff4e5;
+    --red:#f04438; --red-soft:#feecea; --blue:#2e90fa; --blue-soft:#e8f2ff;
+    --shadow:0 1px 2px rgba(16,24,40,.04), 0 8px 24px rgba(16,24,40,.06);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{
+    font-family:'Inter',-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
+    background:var(--bg); color:var(--ink); -webkit-font-smoothing:antialiased;
+  }
+  .app{display:grid; grid-template-columns:248px 1fr; min-height:100vh;}
+
+  /* Sidebar */
+  .side{background:#0f1222; color:#cdd3e1; padding:22px 16px; display:flex; flex-direction:column; gap:6px;}
+  .brand{display:flex; align-items:center; gap:11px; padding:6px 8px 20px;}
+  .logo{width:36px;height:36px;border-radius:10px;background:linear-gradient(135deg,var(--brand),var(--brand2));
+        display:grid;place-items:center;font-weight:800;color:#fff;font-size:18px;box-shadow:0 6px 16px rgba(109,94,252,.5);}
+  .brand b{color:#fff;font-size:17px;letter-spacing:.2px}
+  .brand span{display:block;font-size:11px;color:#8891a8;font-weight:500}
+  .nav-label{font-size:11px;text-transform:uppercase;letter-spacing:.12em;color:#5c6580;margin:14px 10px 6px;}
+  .nav a{display:flex;align-items:center;gap:12px;padding:10px 12px;border-radius:10px;color:#c2c8d6;
+         text-decoration:none;font-size:14px;font-weight:500;transition:.15s;}
+  .nav a .ic{width:18px;height:18px;opacity:.9}
+  .nav a:hover{background:#1a1e33;color:#fff}
+  .nav a.active{background:linear-gradient(90deg,rgba(109,94,252,.22),rgba(109,94,252,.06));color:#fff;
+                box-shadow:inset 3px 0 0 var(--brand)}
+  .side-foot{margin-top:auto;display:flex;align-items:center;gap:10px;padding:10px;border-top:1px solid #1c2136;}
+  .side-foot .av{width:34px;height:34px;border-radius:50%;background:linear-gradient(135deg,#22c55e,#16a34a);
+                 display:grid;place-items:center;color:#fff;font-weight:700;font-size:13px}
+  .side-foot small{color:#8891a8;font-size:11px;display:block}
+
+  /* Main */
+  .main{padding:22px 28px 40px;overflow:hidden}
+  .topbar{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:22px}
+  .topbar h1{font-size:22px;font-weight:700;letter-spacing:-.2px}
+  .topbar p{color:var(--muted);font-size:13px;margin-top:3px}
+  .search{flex:1;max-width:420px;display:flex;align-items:center;gap:9px;background:#fff;border:1px solid var(--line);
+          border-radius:11px;padding:10px 14px;color:var(--muted);font-size:13px;box-shadow:var(--shadow)}
+  .btn{background:var(--brand);color:#fff;border:none;border-radius:10px;padding:10px 16px;font-weight:600;
+       font-size:13px;cursor:pointer;display:flex;align-items:center;gap:8px;box-shadow:0 6px 16px rgba(109,94,252,.35)}
+
+  /* KPI cards */
+  .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-bottom:20px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:18px;box-shadow:var(--shadow)}
+  .kpi .top{display:flex;align-items:center;justify-content:space-between}
+  .kpi .badge{width:40px;height:40px;border-radius:11px;display:grid;place-items:center;font-size:18px}
+  .kpi h2{font-size:30px;font-weight:800;margin-top:14px;letter-spacing:-.5px}
+  .kpi .lbl{color:var(--muted);font-size:13px;margin-top:2px}
+  .kpi .delta{font-size:12px;font-weight:600;padding:3px 8px;border-radius:20px}
+  .up{color:var(--green);background:var(--green-soft)}
+  .down{color:var(--red);background:var(--red-soft)}
+
+  .grid{display:grid;grid-template-columns:1.15fr 1fr;gap:16px;margin-bottom:20px}
+  .panel-h{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px}
+  .panel-h h3{font-size:15px;font-weight:700}
+  .panel-h a{font-size:12px;color:var(--brand);text-decoration:none;font-weight:600}
+
+  /* donut */
+  .donut-wrap{display:flex;align-items:center;gap:26px}
+  .legend li{list-style:none;display:flex;align-items:center;gap:10px;font-size:13px;color:#334155;margin:10px 0}
+  .legend .dot{width:11px;height:11px;border-radius:3px}
+  .legend b{margin-left:auto;font-weight:700;color:var(--ink)}
+
+  /* bars */
+  .bars{display:flex;flex-direction:column;gap:14px}
+  .bar-row{display:flex;align-items:center;gap:12px;font-size:13px}
+  .bar-row .nm{width:150px;color:#334155}
+  .track{flex:1;height:9px;background:#eef1f6;border-radius:6px;overflow:hidden}
+  .fill{height:100%;border-radius:6px;background:linear-gradient(90deg,var(--brand),var(--brand2))}
+  .bar-row .vv{width:26px;text-align:right;font-weight:700;color:var(--muted)}
+
+  /* table */
+  table{width:100%;border-collapse:collapse;font-size:13px}
+  thead th{text-align:left;color:var(--muted);font-weight:600;font-size:11.5px;text-transform:uppercase;
+           letter-spacing:.06em;padding:0 12px 12px}
+  tbody td{padding:13px 12px;border-top:1px solid var(--line)}
+  tbody tr:hover{background:#fafbff}
+  .tag{font-size:11.5px;font-weight:700;padding:4px 10px;border-radius:20px;display:inline-block}
+  .t-crit{color:var(--red);background:var(--red-soft)}
+  .t-high{color:var(--amber);background:var(--amber-soft)}
+  .t-med{color:var(--blue);background:var(--blue-soft)}
+  .t-low{color:var(--green);background:var(--green-soft)}
+  .cat{font-size:11px;color:var(--muted);background:#f1f3f9;padding:3px 9px;border-radius:6px}
+  .score{font-weight:800}
+  .cell-strong{font-weight:600}
+
+  /* chat teaser */
+  .chat{display:flex;flex-direction:column;gap:12px}
+  .msg{max-width:82%;padding:11px 14px;border-radius:14px;font-size:13px;line-height:1.5}
+  .msg.u{align-self:flex-end;background:var(--brand);color:#fff;border-bottom-right-radius:4px}
+  .msg.a{align-self:flex-start;background:#f3f4fb;color:#1f2937;border-bottom-left-radius:4px}
+  .cite{margin-top:8px;font-size:11px;color:var(--brand);background:var(--brand-soft);padding:5px 9px;border-radius:7px;display:inline-block}
+  .chat-in{display:flex;align-items:center;gap:9px;border:1px solid var(--line);border-radius:12px;padding:10px 12px;color:var(--muted);font-size:13px;margin-top:4px}
+</style>
+</head>
+<body>
+<div class="app">
+  <!-- SIDEBAR -->
+  <aside class="side">
+    <div class="brand">
+      <div class="logo">◆</div>
+      <div><b>ContractIQ</b><span>AI Contract Intelligence</span></div>
+    </div>
+    <div class="nav-label">Workspace</div>
+    <nav class="nav">
+      <a class="active" href="#"><span class="ic">▣</span> Dashboard</a>
+      <a href="#"><span class="ic">⬆</span> Upload Contracts</a>
+      <a href="#"><span class="ic">⚠</span> Risk Analysis</a>
+      <a href="#"><span class="ic">💬</span> Ask ContractIQ</a>
+      <a href="#"><span class="ic">🕸</span> Knowledge Graph</a>
+      <a href="#"><span class="ic">📑</span> Reports</a>
+    </nav>
+    <div class="nav-label">Agents</div>
+    <nav class="nav">
+      <a href="#"><span class="ic">⚖</span> Legal Risk Agent</a>
+      <a href="#"><span class="ic">💰</span> Financial Risk Agent</a>
+      <a href="#"><span class="ic">🔧</span> Operational Agent</a>
+    </nav>
+    <div class="side-foot">
+      <div class="av">SS</div>
+      <div><b style="color:#fff;font-size:13px">Sheriff S.</b><small>Contract Manager</small></div>
+    </div>
+  </aside>
+
+  <!-- MAIN -->
+  <main class="main">
+    <div class="topbar">
+      <div>
+        <h1>Portfolio Overview</h1>
+        <p>36 contracts · 8 categories · last analyzed just now</p>
+      </div>
+      <div class="search">🔍 Ask anything… “Show contracts expiring in 90 days”</div>
+      <button class="btn">⬆ Upload Contract</button>
+    </div>
+
+    <!-- KPIs -->
+    <section class="kpis">
+      <div class="card kpi">
+        <div class="top"><div class="badge" style="background:var(--brand-soft)">📄</div><span class="delta up">▲ 4</span></div>
+        <h2>36</h2><div class="lbl">Total Contracts</div>
+      </div>
+      <div class="card kpi">
+        <div class="top"><div class="badge" style="background:var(--red-soft)">⚠</div><span class="delta down">▲ 2</span></div>
+        <h2>7</h2><div class="lbl">High-Risk Contracts</div>
+      </div>
+      <div class="card kpi">
+        <div class="top"><div class="badge" style="background:var(--amber-soft)">⏰</div><span class="delta up">3 soon</span></div>
+        <h2>5</h2><div class="lbl">Expiring in 90 Days</div>
+      </div>
+      <div class="card kpi">
+        <div class="top"><div class="badge" style="background:var(--green-soft)">✔</div><span class="delta up">92%</span></div>
+        <h2>6.4</h2><div class="lbl">Avg. Risk Score /10</div>
+      </div>
+    </section>
+
+    <!-- Row: donut + bars -->
+    <section class="grid">
+      <div class="card">
+        <div class="panel-h"><h3>Risk Distribution by Dimension</h3><a href="#">View report →</a></div>
+        <div class="donut-wrap">
+          <svg width="170" height="170" viewBox="0 0 42 42">
+            <circle cx="21" cy="21" r="15.9" fill="none" stroke="#eef1f6" stroke-width="6"></circle>
+            <circle cx="21" cy="21" r="15.9" fill="none" stroke="#f04438" stroke-width="6"
+                    stroke-dasharray="42 58" stroke-dashoffset="25"></circle>
+            <circle cx="21" cy="21" r="15.9" fill="none" stroke="#f79009" stroke-width="6"
+                    stroke-dasharray="33 67" stroke-dashoffset="-17"></circle>
+            <circle cx="21" cy="21" r="15.9" fill="none" stroke="#2e90fa" stroke-width="6"
+                    stroke-dasharray="25 75" stroke-dashoffset="-50"></circle>
+            <text x="21" y="20" text-anchor="middle" font-size="7" font-weight="800" fill="#0f172a">36</text>
+            <text x="21" y="26" text-anchor="middle" font-size="3.2" fill="#64748b">contracts</text>
+          </svg>
+          <ul class="legend" style="flex:1">
+            <li><span class="dot" style="background:#f04438"></span> Legal Risk <b>42%</b></li>
+            <li><span class="dot" style="background:#f79009"></span> Financial Risk <b>33%</b></li>
+            <li><span class="dot" style="background:#2e90fa"></span> Operational Risk <b>25%</b></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="panel-h"><h3>Contracts by Category</h3><a href="#">All →</a></div>
+        <div class="bars">
+          <div class="bar-row"><span class="nm">Master Agreements</span><div class="track"><div class="fill" style="width:100%"></div></div><span class="vv">6</span></div>
+          <div class="bar-row"><span class="nm">Compliance Docs</span><div class="track"><div class="fill" style="width:100%"></div></div><span class="vv">6</span></div>
+          <div class="bar-row"><span class="nm">Negotiation History</span><div class="track"><div class="fill" style="width:100%"></div></div><span class="vv">6</span></div>
+          <div class="bar-row"><span class="nm">Financial & Billing</span><div class="track"><div class="fill" style="width:66%"></div></div><span class="vv">4</span></div>
+          <div class="bar-row"><span class="nm">Operational Docs</span><div class="track"><div class="fill" style="width:66%"></div></div><span class="vv">4</span></div>
+          <div class="bar-row"><span class="nm">Transaction Contracts</span><div class="track"><div class="fill" style="width:66%"></div></div><span class="vv">4</span></div>
+          <div class="bar-row"><span class="nm">Governance</span><div class="track"><div class="fill" style="width:66%"></div></div><span class="vv">4</span></div>
+          <div class="bar-row"><span class="nm">Commercial Docs</span><div class="track"><div class="fill" style="width:33%"></div></div><span class="vv">2</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Row: table + chat -->
+    <section class="grid" style="grid-template-columns:1.5fr 1fr">
+      <div class="card">
+        <div class="panel-h"><h3>High-Risk Contracts</h3><a href="#">See all →</a></div>
+        <table>
+          <thead><tr><th>Contract</th><th>Category</th><th>Severity</th><th>Score</th><th>Expiry</th></tr></thead>
+          <tbody>
+            <tr><td class="cell-strong">Acme Corp MSA</td><td><span class="cat">Master</span></td><td><span class="tag t-crit">Critical</span></td><td class="score" style="color:var(--red)">9.1</td><td>12 Oct 2026</td></tr>
+            <tr><td class="cell-strong">CloudCorp SOW-04</td><td><span class="cat">Transaction</span></td><td><span class="tag t-high">High</span></td><td class="score" style="color:var(--amber)">7.8</td><td>28 Nov 2026</td></tr>
+            <tr><td class="cell-strong">TechVendor SLA</td><td><span class="cat">Operational</span></td><td><span class="tag t-high">High</span></td><td class="score" style="color:var(--amber)">7.3</td><td>05 Dec 2026</td></tr>
+            <tr><td class="cell-strong">Global NDA 2026</td><td><span class="cat">Master</span></td><td><span class="tag t-med">Medium</span></td><td class="score" style="color:var(--blue)">5.6</td><td>19 Jan 2027</td></tr>
+            <tr><td class="cell-strong">Vendor Rate Card</td><td><span class="cat">Commercial</span></td><td><span class="tag t-low">Low</span></td><td class="score" style="color:var(--green)">3.2</td><td>30 Mar 2027</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="card">
+        <div class="panel-h"><h3>💬 Ask ContractIQ</h3><a href="#">Open chat →</a></div>
+        <div class="chat">
+          <div class="msg u">What are the payment terms in the Acme Corp MSA?</div>
+          <div class="msg a">Payment is <b>Net-45 days</b> from invoice date. A <b>2% late-payment penalty</b> applies per month. Early termination triggers a fee equal to 3 months of service.
+            <span class="cite">📎 Acme Corp MSA · §7 “Payment Terms”</span>
+          </div>
+          <div class="chat-in">✎ Ask a follow-up… “Compare SLA terms vs CloudCorp”</div>
+        </div>
+      </div>
+    </section>
+  </main>
+</div>
+</body>
+</html>
