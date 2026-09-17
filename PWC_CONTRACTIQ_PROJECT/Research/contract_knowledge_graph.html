@@ -1,0 +1,155 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 600px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#3498db", "id": "MSA", "label": "MSA", "shape": "dot", "title": "Type: CONTRACT_TYPE"}, {"color": "#3498db", "id": "SOW", "label": "SOW", "shape": "dot", "title": "Type: CONTRACT_TYPE"}, {"color": "#3498db", "id": "NDA", "label": "NDA", "shape": "dot", "title": "Type: CONTRACT_TYPE"}, {"color": "#3498db", "id": "RATE_CARD", "label": "RATE_CARD", "shape": "dot", "title": "Type: CONTRACT_TYPE"}, {"color": "#3498db", "id": "INVOICE", "label": "INVOICE", "shape": "dot", "title": "Type: CONTRACT_TYPE"}, {"color": "#3498db", "id": "SERVICE_REPORT", "label": "SERVICE_REPORT", "shape": "dot", "title": "Type: CONTRACT_TYPE"}, {"color": "#3498db", "id": "CHANGE_ORDER", "label": "CHANGE_ORDER", "shape": "dot", "title": "Type: CONTRACT_TYPE"}, {"color": "#3498db", "id": "CONFIDENTIAL_INFO", "label": "CONFIDENTIAL_INFO", "shape": "dot", "title": "Type: CONTRACT_TYPE"}, {"color": "#3498db", "id": "PRICING_TABLE", "label": "PRICING_TABLE", "shape": "dot", "title": "Type: CONTRACT_TYPE"}, {"color": "#e74c3c", "id": "INDEMNIFICATION", "label": "INDEMNIFICATION", "shape": "dot", "title": "Type: CLAUSE_TYPE"}, {"color": "#f39c12", "id": "liability_exposure", "label": "liability_exposure", "shape": "dot", "title": "Type: CONCERN"}, {"color": "#f39c12", "id": "legal_cost", "label": "legal_cost", "shape": "dot", "title": "Type: CONCERN"}, {"color": "#f39c12", "id": "third_party_claims", "label": "third_party_claims", "shape": "dot", "title": "Type: CONCERN"}, {"color": "#e74c3c", "id": "LIABILITY_LIMITATION", "label": "LIABILITY_LIMITATION", "shape": "dot", "title": "Type: CLAUSE_TYPE"}, {"color": "#f39c12", "id": "financial_cap", "label": "financial_cap", "shape": "dot", "title": "Type: CONCERN"}, {"color": "#f39c12", "id": "damage_types", "label": "damage_types", "shape": "dot", "title": "Type: CONCERN"}, {"color": "#f39c12", "id": "exclusions", "label": "exclusions", "shape": "dot", "title": "Type: CONCERN"}, {"color": "#e74c3c", "id": "CONFIDENTIALITY", "label": "CONFIDENTIALITY", "shape": "dot", "title": "Type: CLAUSE_TYPE"}, {"color": "#f39c12", "id": "data_protection", "label": "data_protection", "shape": "dot", "title": "Type: CONCERN"}, {"color": "#f39c12", "id": "trade_secret", "label": "trade_secret", "shape": "dot", "title": "Type: CONCERN"}, {"color": "#f39c12", "id": "disclosure_rules", "label": "disclosure_rules", "shape": "dot", "title": "Type: CONCERN"}, {"color": "#e74c3c", "id": "TERMINATION", "label": "TERMINATION", "shape": "dot", "title": "Type: CLAUSE_TYPE"}, {"color": "#f39c12", "id": "exit_rights", "label": "exit_rights", "shape": "dot", "title": "Type: CONCERN"}, {"color": "#f39c12", "id": "cure_period", "label": "cure_period", "shape": "dot", "title": "Type: CONCERN"}, {"color": "#f39c12", "id": "notice_requirements", "label": "notice_requirements", "shape": "dot", "title": "Type: CONCERN"}, {"color": "#e74c3c", "id": "IP_RIGHTS", "label": "IP_RIGHTS", "shape": "dot", "title": "Type: CLAUSE_TYPE"}, {"color": "#f39c12", "id": "ownership", "label": "ownership", "shape": "dot", "title": "Type: CONCERN"}, {"color": "#f39c12", "id": "licensing", "label": "licensing", "shape": "dot", "title": "Type: CONCERN"}, {"color": "#f39c12", "id": "work_product", "label": "work_product", "shape": "dot", "title": "Type: CONCERN"}, {"color": "#e74c3c", "id": "PAYMENT_TERMS", "label": "PAYMENT_TERMS", "shape": "dot", "title": "Type: CLAUSE_TYPE"}, {"color": "#f39c12", "id": "billing_cycle", "label": "billing_cycle", "shape": "dot", "title": "Type: CONCERN"}, {"color": "#f39c12", "id": "late_fees", "label": "late_fees", "shape": "dot", "title": "Type: CONCERN"}, {"color": "#f39c12", "id": "currency", "label": "currency", "shape": "dot", "title": "Type: CONCERN"}, {"color": "#9b59b6", "id": "UNLIMITED_LIABILITY", "label": "UNLIMITED_LIABILITY", "shape": "dot", "title": "Type: RISK"}, {"color": "#9b59b6", "id": "IP_INFRINGEMENT", "label": "IP_INFRINGEMENT", "shape": "dot", "title": "Type: RISK"}, {"color": "#9b59b6", "id": "DATA_BREACH", "label": "DATA_BREACH", "shape": "dot", "title": "Type: RISK"}, {"color": "#9b59b6", "id": "PAYMENT_DEFAULT", "label": "PAYMENT_DEFAULT", "shape": "dot", "title": "Type: RISK"}, {"color": "#9b59b6", "id": "SCOPE_CREEP", "label": "SCOPE_CREEP", "shape": "dot", "title": "Type: RISK"}, {"color": "#2ecc71", "id": "MASTER_AGREEMENTS-001", "label": "MASTER_AGREEMENTS-00", "shape": "dot", "title": "Type: CONTRACT"}, {"color": "#1abc9c", "id": "master_agreements", "label": "master_agreements", "shape": "dot", "title": "Type: CATEGORY"}, {"color": "#2ecc71", "id": "MASTER_AGREEMENTS-002", "label": "MASTER_AGREEMENTS-00", "shape": "dot", "title": "Type: CONTRACT"}, {"color": "#2ecc71", "id": "MASTER_AGREEMENTS-003", "label": "MASTER_AGREEMENTS-00", "shape": "dot", "title": "Type: CONTRACT"}, {"color": "#2ecc71", "id": "MASTER_AGREEMENTS-004", "label": "MASTER_AGREEMENTS-00", "shape": "dot", "title": "Type: CONTRACT"}, {"color": "#2ecc71", "id": "MASTER_AGREEMENTS-005", "label": "MASTER_AGREEMENTS-00", "shape": "dot", "title": "Type: CONTRACT"}, {"color": "#2ecc71", "id": "MASTER_AGREEMENTS-006", "label": "MASTER_AGREEMENTS-00", "shape": "dot", "title": "Type: CONTRACT"}, {"color": "#2ecc71", "id": "TRANSACTION_CONTRACTS-001", "label": "TRANSACTION_CONTRACT", "shape": "dot", "title": "Type: CONTRACT"}, {"color": "#1abc9c", "id": "transaction_contracts", "label": "transaction_contract", "shape": "dot", "title": "Type: CATEGORY"}, {"color": "#2ecc71", "id": "TRANSACTION_CONTRACTS-002", "label": "TRANSACTION_CONTRACT", "shape": "dot", "title": "Type: CONTRACT"}, {"color": "#2ecc71", "id": "TRANSACTION_CONTRACTS-003", "label": "TRANSACTION_CONTRACT", "shape": "dot", "title": "Type: CONTRACT"}, {"color": "#2ecc71", "id": "TRANSACTION_CONTRACTS-004", "label": "TRANSACTION_CONTRACT", "shape": "dot", "title": "Type: CONTRACT"}, {"color": "#2ecc71", "id": "COMMERCIAL_DOCS-001", "label": "COMMERCIAL_DOCS-001", "shape": "dot", "title": "Type: CONTRACT"}, {"color": "#1abc9c", "id": "commercial_docs", "label": "commercial_docs", "shape": "dot", "title": "Type: CATEGORY"}, {"color": "#2ecc71", "id": "COMMERCIAL_DOCS-002", "label": "COMMERCIAL_DOCS-002", "shape": "dot", "title": "Type: CONTRACT"}, {"color": "#2ecc71", "id": "FINANCIAL_BILLING-001", "label": "FINANCIAL_BILLING-00", "shape": "dot", "title": "Type: CONTRACT"}, {"color": "#1abc9c", "id": "financial_billing", "label": "financial_billing", "shape": "dot", "title": "Type: CATEGORY"}, {"color": "#2ecc71", "id": "FINANCIAL_BILLING-002", "label": "FINANCIAL_BILLING-00", "shape": "dot", "title": "Type: CONTRACT"}, {"color": "#2ecc71", "id": "FINANCIAL_BILLING-003", "label": "FINANCIAL_BILLING-00", "shape": "dot", "title": "Type: CONTRACT"}, {"color": "#2ecc71", "id": "FINANCIAL_BILLING-004", "label": "FINANCIAL_BILLING-00", "shape": "dot", "title": "Type: CONTRACT"}, {"color": "#2ecc71", "id": "OPERATIONAL_DOCS-001", "label": "OPERATIONAL_DOCS-001", "shape": "dot", "title": "Type: CONTRACT"}, {"color": "#1abc9c", "id": "operational_docs", "label": "operational_docs", "shape": "dot", "title": "Type: CATEGORY"}, {"color": "#2ecc71", "id": "OPERATIONAL_DOCS-002", "label": "OPERATIONAL_DOCS-002", "shape": "dot", "title": "Type: CONTRACT"}, {"color": "#2ecc71", "id": "OPERATIONAL_DOCS-003", "label": "OPERATIONAL_DOCS-003", "shape": "dot", "title": "Type: CONTRACT"}, {"color": "#2ecc71", "id": "OPERATIONAL_DOCS-004", "label": "OPERATIONAL_DOCS-004", "shape": "dot", "title": "Type: CONTRACT"}, {"color": "#2ecc71", "id": "COMPLIANCE_DOCS-001", "label": "COMPLIANCE_DOCS-001", "shape": "dot", "title": "Type: CONTRACT"}, {"color": "#1abc9c", "id": "compliance_docs", "label": "compliance_docs", "shape": "dot", "title": "Type: CATEGORY"}, {"color": "#2ecc71", "id": "COMPLIANCE_DOCS-002", "label": "COMPLIANCE_DOCS-002", "shape": "dot", "title": "Type: CONTRACT"}, {"color": "#2ecc71", "id": "COMPLIANCE_DOCS-003", "label": "COMPLIANCE_DOCS-003", "shape": "dot", "title": "Type: CONTRACT"}, {"color": "#2ecc71", "id": "COMPLIANCE_DOCS-004", "label": "COMPLIANCE_DOCS-004", "shape": "dot", "title": "Type: CONTRACT"}, {"color": "#2ecc71", "id": "COMPLIANCE_DOCS-005", "label": "COMPLIANCE_DOCS-005", "shape": "dot", "title": "Type: CONTRACT"}, {"color": "#2ecc71", "id": "COMPLIANCE_DOCS-006", "label": "COMPLIANCE_DOCS-006", "shape": "dot", "title": "Type: CONTRACT"}, {"color": "#2ecc71", "id": "NEGOTIATION_HISTORY-001", "label": "NEGOTIATION_HISTORY-", "shape": "dot", "title": "Type: CONTRACT"}, {"color": "#1abc9c", "id": "negotiation_history", "label": "negotiation_history", "shape": "dot", "title": "Type: CATEGORY"}, {"color": "#2ecc71", "id": "NEGOTIATION_HISTORY-002", "label": "NEGOTIATION_HISTORY-", "shape": "dot", "title": "Type: CONTRACT"}, {"color": "#2ecc71", "id": "NEGOTIATION_HISTORY-003", "label": "NEGOTIATION_HISTORY-", "shape": "dot", "title": "Type: CONTRACT"}, {"color": "#2ecc71", "id": "NEGOTIATION_HISTORY-004", "label": "NEGOTIATION_HISTORY-", "shape": "dot", "title": "Type: CONTRACT"}, {"color": "#2ecc71", "id": "NEGOTIATION_HISTORY-005", "label": "NEGOTIATION_HISTORY-", "shape": "dot", "title": "Type: CONTRACT"}, {"color": "#2ecc71", "id": "NEGOTIATION_HISTORY-006", "label": "NEGOTIATION_HISTORY-", "shape": "dot", "title": "Type: CONTRACT"}, {"color": "#2ecc71", "id": "GOVERNANCE-001", "label": "GOVERNANCE-001", "shape": "dot", "title": "Type: CONTRACT"}, {"color": "#1abc9c", "id": "governance", "label": "governance", "shape": "dot", "title": "Type: CATEGORY"}, {"color": "#2ecc71", "id": "GOVERNANCE-002", "label": "GOVERNANCE-002", "shape": "dot", "title": "Type: CONTRACT"}, {"color": "#2ecc71", "id": "GOVERNANCE-003", "label": "GOVERNANCE-003", "shape": "dot", "title": "Type: CONTRACT"}, {"color": "#2ecc71", "id": "GOVERNANCE-004", "label": "GOVERNANCE-004", "shape": "dot", "title": "Type: CONTRACT"}]);
+                  edges = new vis.DataSet([{"arrows": "to", "from": "MSA", "title": "GOVERNS", "to": "SOW"}, {"arrows": "to", "from": "MSA", "title": "GOVERNS", "to": "NDA"}, {"arrows": "to", "from": "MSA", "title": "GOVERNS", "to": "RATE_CARD"}, {"arrows": "to", "from": "SOW", "title": "GOVERNS", "to": "INVOICE"}, {"arrows": "to", "from": "SOW", "title": "GOVERNS", "to": "SERVICE_REPORT"}, {"arrows": "to", "from": "SOW", "title": "GOVERNS", "to": "CHANGE_ORDER"}, {"arrows": "to", "from": "NDA", "title": "GOVERNS", "to": "CONFIDENTIAL_INFO"}, {"arrows": "to", "from": "RATE_CARD", "title": "GOVERNS", "to": "PRICING_TABLE"}, {"arrows": "to", "from": "INDEMNIFICATION", "title": "ADDRESSES", "to": "liability_exposure"}, {"arrows": "to", "from": "INDEMNIFICATION", "title": "ADDRESSES", "to": "legal_cost"}, {"arrows": "to", "from": "INDEMNIFICATION", "title": "ADDRESSES", "to": "third_party_claims"}, {"arrows": "to", "from": "INDEMNIFICATION", "title": "MITIGATES", "to": "UNLIMITED_LIABILITY"}, {"arrows": "to", "from": "INDEMNIFICATION", "title": "MITIGATES", "to": "IP_INFRINGEMENT"}, {"arrows": "to", "from": "INDEMNIFICATION", "title": "MITIGATES", "to": "DATA_BREACH"}, {"arrows": "to", "from": "LIABILITY_LIMITATION", "title": "ADDRESSES", "to": "financial_cap"}, {"arrows": "to", "from": "LIABILITY_LIMITATION", "title": "ADDRESSES", "to": "damage_types"}, {"arrows": "to", "from": "LIABILITY_LIMITATION", "title": "ADDRESSES", "to": "exclusions"}, {"arrows": "to", "from": "LIABILITY_LIMITATION", "title": "MITIGATES", "to": "UNLIMITED_LIABILITY"}, {"arrows": "to", "from": "CONFIDENTIALITY", "title": "ADDRESSES", "to": "data_protection"}, {"arrows": "to", "from": "CONFIDENTIALITY", "title": "ADDRESSES", "to": "trade_secret"}, {"arrows": "to", "from": "CONFIDENTIALITY", "title": "ADDRESSES", "to": "disclosure_rules"}, {"arrows": "to", "from": "CONFIDENTIALITY", "title": "MITIGATES", "to": "DATA_BREACH"}, {"arrows": "to", "from": "TERMINATION", "title": "ADDRESSES", "to": "exit_rights"}, {"arrows": "to", "from": "TERMINATION", "title": "ADDRESSES", "to": "cure_period"}, {"arrows": "to", "from": "TERMINATION", "title": "ADDRESSES", "to": "notice_requirements"}, {"arrows": "to", "from": "TERMINATION", "title": "MITIGATES", "to": "PAYMENT_DEFAULT"}, {"arrows": "to", "from": "TERMINATION", "title": "MITIGATES", "to": "SCOPE_CREEP"}, {"arrows": "to", "from": "IP_RIGHTS", "title": "ADDRESSES", "to": "ownership"}, {"arrows": "to", "from": "IP_RIGHTS", "title": "ADDRESSES", "to": "licensing"}, {"arrows": "to", "from": "IP_RIGHTS", "title": "ADDRESSES", "to": "work_product"}, {"arrows": "to", "from": "IP_RIGHTS", "title": "MITIGATES", "to": "IP_INFRINGEMENT"}, {"arrows": "to", "from": "PAYMENT_TERMS", "title": "ADDRESSES", "to": "billing_cycle"}, {"arrows": "to", "from": "PAYMENT_TERMS", "title": "ADDRESSES", "to": "late_fees"}, {"arrows": "to", "from": "PAYMENT_TERMS", "title": "ADDRESSES", "to": "currency"}, {"arrows": "to", "from": "PAYMENT_TERMS", "title": "MITIGATES", "to": "PAYMENT_DEFAULT"}, {"arrows": "to", "from": "PAYMENT_TERMS", "title": "MITIGATES", "to": "SCOPE_CREEP"}, {"arrows": "to", "from": "MASTER_AGREEMENTS-001", "title": "BELONGS_TO", "to": "master_agreements"}, {"arrows": "to", "from": "MASTER_AGREEMENTS-002", "title": "BELONGS_TO", "to": "master_agreements"}, {"arrows": "to", "from": "MASTER_AGREEMENTS-003", "title": "BELONGS_TO", "to": "master_agreements"}, {"arrows": "to", "from": "MASTER_AGREEMENTS-004", "title": "BELONGS_TO", "to": "master_agreements"}, {"arrows": "to", "from": "MASTER_AGREEMENTS-005", "title": "BELONGS_TO", "to": "master_agreements"}, {"arrows": "to", "from": "MASTER_AGREEMENTS-006", "title": "BELONGS_TO", "to": "master_agreements"}, {"arrows": "to", "from": "TRANSACTION_CONTRACTS-001", "title": "BELONGS_TO", "to": "transaction_contracts"}, {"arrows": "to", "from": "TRANSACTION_CONTRACTS-002", "title": "BELONGS_TO", "to": "transaction_contracts"}, {"arrows": "to", "from": "TRANSACTION_CONTRACTS-003", "title": "BELONGS_TO", "to": "transaction_contracts"}, {"arrows": "to", "from": "TRANSACTION_CONTRACTS-004", "title": "BELONGS_TO", "to": "transaction_contracts"}, {"arrows": "to", "from": "COMMERCIAL_DOCS-001", "title": "BELONGS_TO", "to": "commercial_docs"}, {"arrows": "to", "from": "COMMERCIAL_DOCS-002", "title": "BELONGS_TO", "to": "commercial_docs"}, {"arrows": "to", "from": "FINANCIAL_BILLING-001", "title": "BELONGS_TO", "to": "financial_billing"}, {"arrows": "to", "from": "FINANCIAL_BILLING-002", "title": "BELONGS_TO", "to": "financial_billing"}, {"arrows": "to", "from": "FINANCIAL_BILLING-003", "title": "BELONGS_TO", "to": "financial_billing"}, {"arrows": "to", "from": "FINANCIAL_BILLING-004", "title": "BELONGS_TO", "to": "financial_billing"}, {"arrows": "to", "from": "OPERATIONAL_DOCS-001", "title": "BELONGS_TO", "to": "operational_docs"}, {"arrows": "to", "from": "OPERATIONAL_DOCS-002", "title": "BELONGS_TO", "to": "operational_docs"}, {"arrows": "to", "from": "OPERATIONAL_DOCS-003", "title": "BELONGS_TO", "to": "operational_docs"}, {"arrows": "to", "from": "OPERATIONAL_DOCS-004", "title": "BELONGS_TO", "to": "operational_docs"}, {"arrows": "to", "from": "COMPLIANCE_DOCS-001", "title": "BELONGS_TO", "to": "compliance_docs"}, {"arrows": "to", "from": "COMPLIANCE_DOCS-002", "title": "BELONGS_TO", "to": "compliance_docs"}, {"arrows": "to", "from": "COMPLIANCE_DOCS-003", "title": "BELONGS_TO", "to": "compliance_docs"}, {"arrows": "to", "from": "COMPLIANCE_DOCS-004", "title": "BELONGS_TO", "to": "compliance_docs"}, {"arrows": "to", "from": "COMPLIANCE_DOCS-005", "title": "BELONGS_TO", "to": "compliance_docs"}, {"arrows": "to", "from": "COMPLIANCE_DOCS-006", "title": "BELONGS_TO", "to": "compliance_docs"}, {"arrows": "to", "from": "NEGOTIATION_HISTORY-001", "title": "BELONGS_TO", "to": "negotiation_history"}, {"arrows": "to", "from": "NEGOTIATION_HISTORY-002", "title": "BELONGS_TO", "to": "negotiation_history"}, {"arrows": "to", "from": "NEGOTIATION_HISTORY-003", "title": "BELONGS_TO", "to": "negotiation_history"}, {"arrows": "to", "from": "NEGOTIATION_HISTORY-004", "title": "BELONGS_TO", "to": "negotiation_history"}, {"arrows": "to", "from": "NEGOTIATION_HISTORY-005", "title": "BELONGS_TO", "to": "negotiation_history"}, {"arrows": "to", "from": "NEGOTIATION_HISTORY-006", "title": "BELONGS_TO", "to": "negotiation_history"}, {"arrows": "to", "from": "GOVERNANCE-001", "title": "BELONGS_TO", "to": "governance"}, {"arrows": "to", "from": "GOVERNANCE-002", "title": "BELONGS_TO", "to": "governance"}, {"arrows": "to", "from": "GOVERNANCE-003", "title": "BELONGS_TO", "to": "governance"}, {"arrows": "to", "from": "GOVERNANCE-004", "title": "BELONGS_TO", "to": "governance"}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>
