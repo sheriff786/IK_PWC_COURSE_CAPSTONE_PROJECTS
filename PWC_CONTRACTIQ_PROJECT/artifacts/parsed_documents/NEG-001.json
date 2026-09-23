@@ -1,0 +1,743 @@
+{
+  "doc_id": "NEG-001",
+  "clauses": [
+    {
+      "clause_id": "NEG-001-p0",
+      "doc_id": "NEG-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Sample 1 \u2013 Email Negotiation Trail",
+      "source_location": {
+        "doc_id": "NEG-001",
+        "kind": "paragraph",
+        "locator": "paragraph:0",
+        "excerpt": "Sample 1 \u2013 Email Negotiation Trail"
+      }
+    },
+    {
+      "clause_id": "NEG-001-p1",
+      "doc_id": "NEG-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Subject: Proposal for Hardware Supply & Maintenance Agreement",
+      "source_location": {
+        "doc_id": "NEG-001",
+        "kind": "paragraph",
+        "locator": "paragraph:1",
+        "excerpt": "Subject: Proposal for Hardware Supply & Maintenance Agreement"
+      }
+    },
+    {
+      "clause_id": "NEG-001-p3",
+      "doc_id": "NEG-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Email 1: Vendor \u2192 Client\nDate: Feb 10, 2024\nFrom: contracts@primevolta.com\nTo: procurement@finsecure.com",
+      "source_location": {
+        "doc_id": "NEG-001",
+        "kind": "paragraph",
+        "locator": "paragraph:3",
+        "excerpt": "Email 1: Vendor \u2192 Client\nDate: Feb 10, 2024\nFrom: contracts@primevolta.com\nTo: procurement@finsecure.com"
+      }
+    },
+    {
+      "clause_id": "NEG-001-p4",
+      "doc_id": "NEG-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Dear [Client Contact Name],",
+      "source_location": {
+        "doc_id": "NEG-001",
+        "kind": "paragraph",
+        "locator": "paragraph:4",
+        "excerpt": "Dear [Client Contact Name],"
+      }
+    },
+    {
+      "clause_id": "NEG-001-p5",
+      "doc_id": "NEG-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Please find attached our proposed Hardware Supply and Maintenance Agreement for your review. Key highlights:",
+      "source_location": {
+        "doc_id": "NEG-001",
+        "kind": "paragraph",
+        "locator": "paragraph:5",
+        "excerpt": "Please find attached our proposed Hardware Supply and Maintenance Agreement for your review. Key highlights:"
+      }
+    },
+    {
+      "clause_id": "NEG-001-p6",
+      "doc_id": "NEG-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Supply of servers, ATMs, and secure transaction devices as per Annexure A.",
+      "source_location": {
+        "doc_id": "NEG-001",
+        "kind": "paragraph",
+        "locator": "paragraph:6",
+        "excerpt": "Supply of servers, ATMs, and secure transaction devices as per Annexure A."
+      }
+    },
+    {
+      "clause_id": "NEG-001-p7",
+      "doc_id": "NEG-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "36-month hardware warranty.",
+      "source_location": {
+        "doc_id": "NEG-001",
+        "kind": "paragraph",
+        "locator": "paragraph:7",
+        "excerpt": "36-month hardware warranty."
+      }
+    },
+    {
+      "clause_id": "NEG-001-p8",
+      "doc_id": "NEG-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "On-site technical support within 24 hours for critical devices.",
+      "source_location": {
+        "doc_id": "NEG-001",
+        "kind": "paragraph",
+        "locator": "paragraph:8",
+        "excerpt": "On-site technical support within 24 hours for critical devices."
+      }
+    },
+    {
+      "clause_id": "NEG-001-p9",
+      "doc_id": "NEG-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Payment: 30% advance, 50% on delivery, 20% on completion of installation.",
+      "source_location": {
+        "doc_id": "NEG-001",
+        "kind": "paragraph",
+        "locator": "paragraph:9",
+        "excerpt": "Payment: 30% advance, 50% on delivery, 20% on completion of installation."
+      }
+    },
+    {
+      "clause_id": "NEG-001-p10",
+      "doc_id": "NEG-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "We look forward to your feedback and are open to discussing adjustments to align with your operational requirements.",
+      "source_location": {
+        "doc_id": "NEG-001",
+        "kind": "paragraph",
+        "locator": "paragraph:10",
+        "excerpt": "We look forward to your feedback and are open to discussing adjustments to align with your operational requirements."
+      }
+    },
+    {
+      "clause_id": "NEG-001-p11",
+      "doc_id": "NEG-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Best regards,\n[Vendor Legal & Sales Team]\nPrimevolta Hardware Solutions",
+      "source_location": {
+        "doc_id": "NEG-001",
+        "kind": "paragraph",
+        "locator": "paragraph:11",
+        "excerpt": "Best regards,\n[Vendor Legal & Sales Team]\nPrimevolta Hardware Solutions"
+      }
+    },
+    {
+      "clause_id": "NEG-001-p13",
+      "doc_id": "NEG-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Email 2: Client \u2192 Vendor\nDate: Feb 12, 2024\nFrom: procurement@finsecure.com\nTo: contracts@primevolta.com",
+      "source_location": {
+        "doc_id": "NEG-001",
+        "kind": "paragraph",
+        "locator": "paragraph:13",
+        "excerpt": "Email 2: Client \u2192 Vendor\nDate: Feb 12, 2024\nFrom: procurement@finsecure.com\nTo: contracts@primevolta.com"
+      }
+    },
+    {
+      "clause_id": "NEG-001-p14",
+      "doc_id": "NEG-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Dear [Vendor Team],",
+      "source_location": {
+        "doc_id": "NEG-001",
+        "kind": "paragraph",
+        "locator": "paragraph:14",
+        "excerpt": "Dear [Vendor Team],"
+      }
+    },
+    {
+      "clause_id": "NEG-001-p15",
+      "doc_id": "NEG-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Thank you for your proposal. Our initial observations:",
+      "source_location": {
+        "doc_id": "NEG-001",
+        "kind": "paragraph",
+        "locator": "paragraph:15",
+        "excerpt": "Thank you for your proposal. Our initial observations:"
+      }
+    },
+    {
+      "clause_id": "NEG-001-p16",
+      "doc_id": "NEG-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Warranty period: We require 24 months instead of 36, with SLA for critical devices within 24 hours.",
+      "source_location": {
+        "doc_id": "NEG-001",
+        "kind": "paragraph",
+        "locator": "paragraph:16",
+        "excerpt": "Warranty period: We require 24 months instead of 36, with SLA for critical devices within 24 hours."
+      }
+    },
+    {
+      "clause_id": "NEG-001-p17",
+      "doc_id": "NEG-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Payment milestones: We prefer payments tied to site-specific acceptance tests rather than delivery.",
+      "source_location": {
+        "doc_id": "NEG-001",
+        "kind": "paragraph",
+        "locator": "paragraph:17",
+        "excerpt": "Payment milestones: We prefer payments tied to site-specific acceptance tests rather than delivery."
+      }
+    },
+    {
+      "clause_id": "NEG-001-p18",
+      "doc_id": "NEG-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Liability: Please clarify limits for data loss or security breaches.",
+      "source_location": {
+        "doc_id": "NEG-001",
+        "kind": "paragraph",
+        "locator": "paragraph:18",
+        "excerpt": "Liability: Please clarify limits for data loss or security breaches."
+      }
+    },
+    {
+      "clause_id": "NEG-001-p19",
+      "doc_id": "NEG-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Kindly review and provide a revised draft addressing these points.",
+      "source_location": {
+        "doc_id": "NEG-001",
+        "kind": "paragraph",
+        "locator": "paragraph:19",
+        "excerpt": "Kindly review and provide a revised draft addressing these points."
+      }
+    },
+    {
+      "clause_id": "NEG-001-p20",
+      "doc_id": "NEG-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Regards,\n[Client Legal & Procurement Team]\nFinSecure Services",
+      "source_location": {
+        "doc_id": "NEG-001",
+        "kind": "paragraph",
+        "locator": "paragraph:20",
+        "excerpt": "Regards,\n[Client Legal & Procurement Team]\nFinSecure Services"
+      }
+    },
+    {
+      "clause_id": "NEG-001-p22",
+      "doc_id": "NEG-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Email 3: Vendor \u2192 Client\nDate: Feb 14, 2024\nFrom: contracts@primevolta.com\nTo: procurement@finsecure.com",
+      "source_location": {
+        "doc_id": "NEG-001",
+        "kind": "paragraph",
+        "locator": "paragraph:22",
+        "excerpt": "Email 3: Vendor \u2192 Client\nDate: Feb 14, 2024\nFrom: contracts@primevolta.com\nTo: procurement@finsecure.com"
+      }
+    },
+    {
+      "clause_id": "NEG-001-p23",
+      "doc_id": "NEG-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Dear [Client Team],",
+      "source_location": {
+        "doc_id": "NEG-001",
+        "kind": "paragraph",
+        "locator": "paragraph:23",
+        "excerpt": "Dear [Client Team],"
+      }
+    },
+    {
+      "clause_id": "NEG-001-p24",
+      "doc_id": "NEG-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "We have reviewed your feedback. Our responses:",
+      "source_location": {
+        "doc_id": "NEG-001",
+        "kind": "paragraph",
+        "locator": "paragraph:24",
+        "excerpt": "We have reviewed your feedback. Our responses:"
+      }
+    },
+    {
+      "clause_id": "NEG-001-p25",
+      "doc_id": "NEG-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Warranty: We can agree to 36 months but will provide an option for critical devices to have a 24-month warranty if required.",
+      "source_location": {
+        "doc_id": "NEG-001",
+        "kind": "paragraph",
+        "locator": "paragraph:25",
+        "excerpt": "Warranty: We can agree to 36 months but will provide an option for critical devices to have a 24-month warranty if required."
+      }
+    },
+    {
+      "clause_id": "NEG-001-p26",
+      "doc_id": "NEG-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Payment: We can accommodate milestone-based payments linked to UAT at each site.",
+      "source_location": {
+        "doc_id": "NEG-001",
+        "kind": "paragraph",
+        "locator": "paragraph:26",
+        "excerpt": "Payment: We can accommodate milestone-based payments linked to UAT at each site."
+      }
+    },
+    {
+      "clause_id": "NEG-001-p27",
+      "doc_id": "NEG-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Liability: Vendor accepts responsibility for hardware defects and gross negligence. However, indirect losses and consequential damages are excluded. We can include limited data breach coverage per site.",
+      "source_location": {
+        "doc_id": "NEG-001",
+        "kind": "paragraph",
+        "locator": "paragraph:27",
+        "excerpt": "Liability: Vendor accepts responsibility for hardware defects and gross negligence. However, indirect losses and consequential damages are excluded. We can include limited data breach coverage per site."
+      }
+    },
+    {
+      "clause_id": "NEG-001-p28",
+      "doc_id": "NEG-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Attached is a revised draft reflecting these changes.",
+      "source_location": {
+        "doc_id": "NEG-001",
+        "kind": "paragraph",
+        "locator": "paragraph:28",
+        "excerpt": "Attached is a revised draft reflecting these changes."
+      }
+    },
+    {
+      "clause_id": "NEG-001-p29",
+      "doc_id": "NEG-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Best regards,\n[Vendor Legal & Sales Team]",
+      "source_location": {
+        "doc_id": "NEG-001",
+        "kind": "paragraph",
+        "locator": "paragraph:29",
+        "excerpt": "Best regards,\n[Vendor Legal & Sales Team]"
+      }
+    },
+    {
+      "clause_id": "NEG-001-p31",
+      "doc_id": "NEG-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Email 4: Client \u2192 Vendor\nDate: Feb 16, 2024\nFrom: procurement@finsecure.com\nTo: contracts@primevolta.com",
+      "source_location": {
+        "doc_id": "NEG-001",
+        "kind": "paragraph",
+        "locator": "paragraph:31",
+        "excerpt": "Email 4: Client \u2192 Vendor\nDate: Feb 16, 2024\nFrom: procurement@finsecure.com\nTo: contracts@primevolta.com"
+      }
+    },
+    {
+      "clause_id": "NEG-001-p32",
+      "doc_id": "NEG-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Dear [Vendor Team],",
+      "source_location": {
+        "doc_id": "NEG-001",
+        "kind": "paragraph",
+        "locator": "paragraph:32",
+        "excerpt": "Dear [Vendor Team],"
+      }
+    },
+    {
+      "clause_id": "NEG-001-p33",
+      "doc_id": "NEG-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "The revised draft is closer to our expectations. Additional points:",
+      "source_location": {
+        "doc_id": "NEG-001",
+        "kind": "paragraph",
+        "locator": "paragraph:33",
+        "excerpt": "The revised draft is closer to our expectations. Additional points:"
+      }
+    },
+    {
+      "clause_id": "NEG-001-p34",
+      "doc_id": "NEG-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "SLA: On-site response for ATMs must be 5 business days maximum.",
+      "source_location": {
+        "doc_id": "NEG-001",
+        "kind": "paragraph",
+        "locator": "paragraph:34",
+        "excerpt": "SLA: On-site response for ATMs must be 5 business days maximum."
+      }
+    },
+    {
+      "clause_id": "NEG-001-p35",
+      "doc_id": "NEG-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Compliance: All devices must comply with PCI DSS and ISO 27001, with audit rights for FinSecure.",
+      "source_location": {
+        "doc_id": "NEG-001",
+        "kind": "paragraph",
+        "locator": "paragraph:35",
+        "excerpt": "Compliance: All devices must comply with PCI DSS and ISO 27001, with audit rights for FinSecure."
+      }
+    },
+    {
+      "clause_id": "NEG-001-p36",
+      "doc_id": "NEG-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Confidentiality: Extend obligations to 5 years post-termination.",
+      "source_location": {
+        "doc_id": "NEG-001",
+        "kind": "paragraph",
+        "locator": "paragraph:36",
+        "excerpt": "Confidentiality: Extend obligations to 5 years post-termination."
+      }
+    },
+    {
+      "clause_id": "NEG-001-p37",
+      "doc_id": "NEG-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Please incorporate these into the next revision.",
+      "source_location": {
+        "doc_id": "NEG-001",
+        "kind": "paragraph",
+        "locator": "paragraph:37",
+        "excerpt": "Please incorporate these into the next revision."
+      }
+    },
+    {
+      "clause_id": "NEG-001-p38",
+      "doc_id": "NEG-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Regards,\n[Client Legal & Procurement Team]",
+      "source_location": {
+        "doc_id": "NEG-001",
+        "kind": "paragraph",
+        "locator": "paragraph:38",
+        "excerpt": "Regards,\n[Client Legal & Procurement Team]"
+      }
+    },
+    {
+      "clause_id": "NEG-001-p40",
+      "doc_id": "NEG-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Email 5: Vendor \u2192 Client\nDate: Feb 18, 2024\nFrom: contracts@primevolta.com\nTo: procurement@finsecure.com",
+      "source_location": {
+        "doc_id": "NEG-001",
+        "kind": "paragraph",
+        "locator": "paragraph:40",
+        "excerpt": "Email 5: Vendor \u2192 Client\nDate: Feb 18, 2024\nFrom: contracts@primevolta.com\nTo: procurement@finsecure.com"
+      }
+    },
+    {
+      "clause_id": "NEG-001-p41",
+      "doc_id": "NEG-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Dear [Client Team],",
+      "source_location": {
+        "doc_id": "NEG-001",
+        "kind": "paragraph",
+        "locator": "paragraph:41",
+        "excerpt": "Dear [Client Team],"
+      }
+    },
+    {
+      "clause_id": "NEG-001-p42",
+      "doc_id": "NEG-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "We have incorporated your requested changes:",
+      "source_location": {
+        "doc_id": "NEG-001",
+        "kind": "paragraph",
+        "locator": "paragraph:42",
+        "excerpt": "We have incorporated your requested changes:"
+      }
+    },
+    {
+      "clause_id": "NEG-001-p43",
+      "doc_id": "NEG-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "SLA for ATMs: 5 business days",
+      "source_location": {
+        "doc_id": "NEG-001",
+        "kind": "paragraph",
+        "locator": "paragraph:43",
+        "excerpt": "SLA for ATMs: 5 business days"
+      }
+    },
+    {
+      "clause_id": "NEG-001-p44",
+      "doc_id": "NEG-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Compliance: PCI DSS & ISO 27001 included, audit rights granted",
+      "source_location": {
+        "doc_id": "NEG-001",
+        "kind": "paragraph",
+        "locator": "paragraph:44",
+        "excerpt": "Compliance: PCI DSS & ISO 27001 included, audit rights granted"
+      }
+    },
+    {
+      "clause_id": "NEG-001-p45",
+      "doc_id": "NEG-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Confidentiality extended to 5 years",
+      "source_location": {
+        "doc_id": "NEG-001",
+        "kind": "paragraph",
+        "locator": "paragraph:45",
+        "excerpt": "Confidentiality extended to 5 years"
+      }
+    },
+    {
+      "clause_id": "NEG-001-p46",
+      "doc_id": "NEG-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Minor edits to payment milestones for clarity",
+      "source_location": {
+        "doc_id": "NEG-001",
+        "kind": "paragraph",
+        "locator": "paragraph:46",
+        "excerpt": "Minor edits to payment milestones for clarity"
+      }
+    },
+    {
+      "clause_id": "NEG-001-p47",
+      "doc_id": "NEG-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Please review the attached redline version for final comments. We believe this version addresses all your concerns and positions us for a smooth execution.",
+      "source_location": {
+        "doc_id": "NEG-001",
+        "kind": "paragraph",
+        "locator": "paragraph:47",
+        "excerpt": "Please review the attached redline version for final comments. We believe this version addresses all your concerns and positions us for a smooth execution."
+      }
+    },
+    {
+      "clause_id": "NEG-001-p48",
+      "doc_id": "NEG-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Best regards,\n[Vendor Legal & Sales Team]",
+      "source_location": {
+        "doc_id": "NEG-001",
+        "kind": "paragraph",
+        "locator": "paragraph:48",
+        "excerpt": "Best regards,\n[Vendor Legal & Sales Team]"
+      }
+    },
+    {
+      "clause_id": "NEG-001-p50",
+      "doc_id": "NEG-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Email 6: Client \u2192 Vendor\nDate: Feb 20, 2024\nFrom: procurement@finsecure.com\nTo: contracts@primevolta.com",
+      "source_location": {
+        "doc_id": "NEG-001",
+        "kind": "paragraph",
+        "locator": "paragraph:50",
+        "excerpt": "Email 6: Client \u2192 Vendor\nDate: Feb 20, 2024\nFrom: procurement@finsecure.com\nTo: contracts@primevolta.com"
+      }
+    },
+    {
+      "clause_id": "NEG-001-p51",
+      "doc_id": "NEG-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Dear [Vendor Team],",
+      "source_location": {
+        "doc_id": "NEG-001",
+        "kind": "paragraph",
+        "locator": "paragraph:51",
+        "excerpt": "Dear [Vendor Team],"
+      }
+    },
+    {
+      "clause_id": "NEG-001-p52",
+      "doc_id": "NEG-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "The redline looks acceptable. Pending final legal review, we are prepared to proceed with signing once the last confirmation on early payment discount (2%) is finalized.",
+      "source_location": {
+        "doc_id": "NEG-001",
+        "kind": "paragraph",
+        "locator": "paragraph:52",
+        "excerpt": "The redline looks acceptable. Pending final legal review, we are prepared to proceed with signing once the last confirmation on early payment discount (2%) is finalized."
+      }
+    },
+    {
+      "clause_id": "NEG-001-p53",
+      "doc_id": "NEG-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Thank you for your collaboration.",
+      "source_location": {
+        "doc_id": "NEG-001",
+        "kind": "paragraph",
+        "locator": "paragraph:53",
+        "excerpt": "Thank you for your collaboration."
+      }
+    },
+    {
+      "clause_id": "NEG-001-p54",
+      "doc_id": "NEG-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Regards,\n[Client Legal & Procurement Team]",
+      "source_location": {
+        "doc_id": "NEG-001",
+        "kind": "paragraph",
+        "locator": "paragraph:54",
+        "excerpt": "Regards,\n[Client Legal & Procurement Team]"
+      }
+    }
+  ],
+  "tables": [],
+  "parse_status": "parsed",
+  "parse_error": null
+}

@@ -1,0 +1,1058 @@
+{
+  "doc_id": "GOV-004",
+  "clauses": [
+    {
+      "clause_id": "GOV-004-p0",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Renewal Negotiation Notes \u2013 Sample 2 (PrimeVolta Hardware Solutions & FinSecure Services)",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:0",
+        "excerpt": "Renewal Negotiation Notes \u2013 Sample 2 (PrimeVolta Hardware Solutions & FinSecure Services)"
+      }
+    },
+    {
+      "clause_id": "GOV-004-p1",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Client: FinSecure Services\nVendor: PrimeVolta Hardware Solutions\nAgreement Type: Hardware Supply, Maintenance & Support Services\nContract Review Period: MM/YYYY \u2013 MM/YYYY\nDocument Purpose: This document serves as a detailed reference for negotiating the renewal of the Master Service Agreement (MSA) between PrimeVolta Hardware Solutions (Vendor) and FinSecure Services (Client). It captures historical performance, lessons learned, risk mitigation strategies, revenue assurance considerations, SLA revisions, and governance improvements to support a structured and informed renewal negotiation.",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:1",
+        "excerpt": "Client: FinSecure Services\nVendor: PrimeVolta Hardware Solutions\nAgreement Type: Hardware Supply, Maintenance & Support Services\nContract Review Period: MM/YYYY \u2013 MM/YYYY\nDocument Purpose: This document serves as a detailed reference for negotiating the renewal of the Master Service Agreement (MSA) between PrimeVolta Hardware Solutions (Vendor) and FinSecure Services (Client). It captures historical performance, lessons learned, risk mitigation strategies, revenue assurance considerations, SLA revisions, and governance improvements to support a structured and informed renewal negotiation."
+      }
+    },
+    {
+      "clause_id": "GOV-004-p3",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "1. Executive Summary",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:3",
+        "excerpt": "1. Executive Summary"
+      }
+    },
+    {
+      "clause_id": "GOV-004-p4",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Overall Vendor performance has been satisfactory, with delivery compliance at 97% and SLA adherence at 95% for mission-critical services.",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:4",
+        "excerpt": "Overall Vendor performance has been satisfactory, with delivery compliance at 97% and SLA adherence at 95% for mission-critical services."
+      }
+    },
+    {
+      "clause_id": "GOV-004-p5",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Revenue leakage incidents have occurred in less than 1% of total invoices, largely due to human errors in invoice generation and missed linkage to obligation tracking.",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:5",
+        "excerpt": "Revenue leakage incidents have occurred in less than 1% of total invoices, largely due to human errors in invoice generation and missed linkage to obligation tracking."
+      }
+    },
+    {
+      "clause_id": "GOV-004-p6",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Dispute resolution timelines have improved over the last contract term but require further reduction to minimize operational and financial risk.",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:6",
+        "excerpt": "Dispute resolution timelines have improved over the last contract term but require further reduction to minimize operational and financial risk."
+      }
+    },
+    {
+      "clause_id": "GOV-004-p7",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Key negotiation focus areas include SLA revisions, invoice automation, revenue assurance, governance strengthening, and proactive dispute prevention.",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:7",
+        "excerpt": "Key negotiation focus areas include SLA revisions, invoice automation, revenue assurance, governance strengthening, and proactive dispute prevention."
+      }
+    },
+    {
+      "clause_id": "GOV-004-p9",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "2. Historical Performance & Lessons Learned",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:9",
+        "excerpt": "2. Historical Performance & Lessons Learned"
+      }
+    },
+    {
+      "clause_id": "GOV-004-p10",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "2.1 Obligation Fulfillment",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:10",
+        "excerpt": "2.1 Obligation Fulfillment"
+      }
+    },
+    {
+      "clause_id": "GOV-004-p11",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Hardware deliveries were largely on schedule; delays occurred during peak demand months due to supply chain constraints.",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:11",
+        "excerpt": "Hardware deliveries were largely on schedule; delays occurred during peak demand months due to supply chain constraints."
+      }
+    },
+    {
+      "clause_id": "GOV-004-p12",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Preventive maintenance obligations were occasionally delayed due to limited technician availability; mitigation includes advanced scheduling and resource allocation planning.",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:12",
+        "excerpt": "Preventive maintenance obligations were occasionally delayed due to limited technician availability; mitigation includes advanced scheduling and resource allocation planning."
+      }
+    },
+    {
+      "clause_id": "GOV-004-p13",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Client satisfaction scores indicate high approval (>90%) for support response times, but a few complaints were raised regarding delayed escalation resolution.",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:13",
+        "excerpt": "Client satisfaction scores indicate high approval (>90%) for support response times, but a few complaints were raised regarding delayed escalation resolution."
+      }
+    },
+    {
+      "clause_id": "GOV-004-p14",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "2.2 Revenue Leakage & Invoice Alignment",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:14",
+        "excerpt": "2.2 Revenue Leakage & Invoice Alignment"
+      }
+    },
+    {
+      "clause_id": "GOV-004-p15",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Three billing discrepancies occurred in the last term: duplicate billing, misapplied taxes, and missing line items.",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:15",
+        "excerpt": "Three billing discrepancies occurred in the last term: duplicate billing, misapplied taxes, and missing line items."
+      }
+    },
+    {
+      "clause_id": "GOV-004-p16",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Average resolution time for invoice disputes: 12 business days.",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:16",
+        "excerpt": "Average resolution time for invoice disputes: 12 business days."
+      }
+    },
+    {
+      "clause_id": "GOV-004-p17",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Root cause analysis: manual invoice reconciliation, lack of automated alerts, and insufficient cross-reference with obligation tracking.",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:17",
+        "excerpt": "Root cause analysis: manual invoice reconciliation, lack of automated alerts, and insufficient cross-reference with obligation tracking."
+      }
+    },
+    {
+      "clause_id": "GOV-004-p18",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "2.3 Dispute Management",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:18",
+        "excerpt": "2.3 Dispute Management"
+      }
+    },
+    {
+      "clause_id": "GOV-004-p19",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Most disputes were resolved within acceptable timelines; however, two escalated disputes exceeded SLA limits due to delayed information sharing.",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:19",
+        "excerpt": "Most disputes were resolved within acceptable timelines; however, two escalated disputes exceeded SLA limits due to delayed information sharing."
+      }
+    },
+    {
+      "clause_id": "GOV-004-p20",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Disputes have highlighted the need for tighter documentation standards, including obligation register integration and audit-ready reporting.",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:20",
+        "excerpt": "Disputes have highlighted the need for tighter documentation standards, including obligation register integration and audit-ready reporting."
+      }
+    },
+    {
+      "clause_id": "GOV-004-p22",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3. Strategic Renewal Considerations",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:22",
+        "excerpt": "3. Strategic Renewal Considerations"
+      }
+    },
+    {
+      "clause_id": "GOV-004-p23",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3.1 SLA Enhancements",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:23",
+        "excerpt": "3.1 SLA Enhancements"
+      }
+    },
+    {
+      "clause_id": "GOV-004-p24",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Reduce delivery SLA breach tolerance from 5% to 2% for critical hardware components.",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:24",
+        "excerpt": "Reduce delivery SLA breach tolerance from 5% to 2% for critical hardware components."
+      }
+    },
+    {
+      "clause_id": "GOV-004-p25",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Introduce a rapid-response SLA for high-priority maintenance requests: target resolution within 24 hours.",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:25",
+        "excerpt": "Introduce a rapid-response SLA for high-priority maintenance requests: target resolution within 24 hours."
+      }
+    },
+    {
+      "clause_id": "GOV-004-p26",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Include penalties for repeated SLA breaches beyond three instances per contract year.",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:26",
+        "excerpt": "Include penalties for repeated SLA breaches beyond three instances per contract year."
+      }
+    },
+    {
+      "clause_id": "GOV-004-p27",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3.2 Revenue Assurance Measures",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:27",
+        "excerpt": "3.2 Revenue Assurance Measures"
+      }
+    },
+    {
+      "clause_id": "GOV-004-p28",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Mandatory cross-verification of invoices against the obligation register before submission to Client Finance team.",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:28",
+        "excerpt": "Mandatory cross-verification of invoices against the obligation register before submission to Client Finance team."
+      }
+    },
+    {
+      "clause_id": "GOV-004-p29",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Implement automated alerts for missing or duplicate invoices.",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:29",
+        "excerpt": "Implement automated alerts for missing or duplicate invoices."
+      }
+    },
+    {
+      "clause_id": "GOV-004-p30",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Quarterly reconciliation meetings with Finance and Operations teams to identify potential revenue leakage proactively.",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:30",
+        "excerpt": "Quarterly reconciliation meetings with Finance and Operations teams to identify potential revenue leakage proactively."
+      }
+    },
+    {
+      "clause_id": "GOV-004-p31",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3.3 Invoice Automation & Alignment",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:31",
+        "excerpt": "3.3 Invoice Automation & Alignment"
+      }
+    },
+    {
+      "clause_id": "GOV-004-p32",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Standardize invoice templates to include obligation IDs, delivery confirmations, and SLA references.",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:32",
+        "excerpt": "Standardize invoice templates to include obligation IDs, delivery confirmations, and SLA references."
+      }
+    },
+    {
+      "clause_id": "GOV-004-p33",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Deploy a digital invoice approval workflow accessible to both Vendor and Client to minimize manual errors.",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:33",
+        "excerpt": "Deploy a digital invoice approval workflow accessible to both Vendor and Client to minimize manual errors."
+      }
+    },
+    {
+      "clause_id": "GOV-004-p34",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Include a clause requiring both parties to review and approve automated adjustments for billing disputes.",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:34",
+        "excerpt": "Include a clause requiring both parties to review and approve automated adjustments for billing disputes."
+      }
+    },
+    {
+      "clause_id": "GOV-004-p35",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3.4 Governance & Reporting",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:35",
+        "excerpt": "3.4 Governance & Reporting"
+      }
+    },
+    {
+      "clause_id": "GOV-004-p36",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Monthly operational dashboards detailing delivery status, SLA compliance, invoice alignment, and dispute trends.",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:36",
+        "excerpt": "Monthly operational dashboards detailing delivery status, SLA compliance, invoice alignment, and dispute trends."
+      }
+    },
+    {
+      "clause_id": "GOV-004-p37",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Quarterly executive review meetings to discuss recurring issues, risk mitigation strategies, and financial impact assessments.",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:37",
+        "excerpt": "Quarterly executive review meetings to discuss recurring issues, risk mitigation strategies, and financial impact assessments."
+      }
+    },
+    {
+      "clause_id": "GOV-004-p38",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Maintain a dispute register with root cause analysis for every issue, linked to the obligation register for audit purposes.",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:38",
+        "excerpt": "Maintain a dispute register with root cause analysis for every issue, linked to the obligation register for audit purposes."
+      }
+    },
+    {
+      "clause_id": "GOV-004-p39",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3.5 Risk Mitigation",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:39",
+        "excerpt": "3.5 Risk Mitigation"
+      }
+    },
+    {
+      "clause_id": "GOV-004-p40",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Identify high-risk obligations or hardware categories and establish pre-approved contingency plans.",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:40",
+        "excerpt": "Identify high-risk obligations or hardware categories and establish pre-approved contingency plans."
+      }
+    },
+    {
+      "clause_id": "GOV-004-p41",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Introduce risk-sharing clauses for critical hardware shortages or unexpected delivery delays.",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:41",
+        "excerpt": "Introduce risk-sharing clauses for critical hardware shortages or unexpected delivery delays."
+      }
+    },
+    {
+      "clause_id": "GOV-004-p42",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Include a clear escalation path to senior management for urgent operational or financial disputes.",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:42",
+        "excerpt": "Include a clear escalation path to senior management for urgent operational or financial disputes."
+      }
+    },
+    {
+      "clause_id": "GOV-004-p44",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "4. Proposed Renewal Terms",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:44",
+        "excerpt": "4. Proposed Renewal Terms"
+      }
+    },
+    {
+      "clause_id": "GOV-004-p45",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "4.1 Contract Term & Pricing",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:45",
+        "excerpt": "4.1 Contract Term & Pricing"
+      }
+    },
+    {
+      "clause_id": "GOV-004-p46",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Proposed extension: 24 months with an optional 12-month renewal based on mutual agreement.",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:46",
+        "excerpt": "Proposed extension: 24 months with an optional 12-month renewal based on mutual agreement."
+      }
+    },
+    {
+      "clause_id": "GOV-004-p47",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Pricing adjustment: 5\u20137% increase reflecting inflation, supply chain escalation, and service enhancement investments.",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:47",
+        "excerpt": "Pricing adjustment: 5\u20137% increase reflecting inflation, supply chain escalation, and service enhancement investments."
+      }
+    },
+    {
+      "clause_id": "GOV-004-p48",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "4.2 Termination & Exit Clauses",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:48",
+        "excerpt": "4.2 Termination & Exit Clauses"
+      }
+    },
+    {
+      "clause_id": "GOV-004-p49",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Early termination: 90-day notice with full reconciliation of outstanding invoices and obligations.",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:49",
+        "excerpt": "Early termination: 90-day notice with full reconciliation of outstanding invoices and obligations."
+      }
+    },
+    {
+      "clause_id": "GOV-004-p50",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Transition plan to ensure uninterrupted service continuity if either party exercises termination rights.",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:50",
+        "excerpt": "Transition plan to ensure uninterrupted service continuity if either party exercises termination rights."
+      }
+    },
+    {
+      "clause_id": "GOV-004-p51",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "4.3 Key Performance Indicators (KPIs)",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:51",
+        "excerpt": "4.3 Key Performance Indicators (KPIs)"
+      }
+    },
+    {
+      "clause_id": "GOV-004-p52",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Delivery SLA compliance \u2265 98%",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:52",
+        "excerpt": "Delivery SLA compliance \u2265 98%"
+      }
+    },
+    {
+      "clause_id": "GOV-004-p53",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Preventive maintenance completion \u2265 95%",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:53",
+        "excerpt": "Preventive maintenance completion \u2265 95%"
+      }
+    },
+    {
+      "clause_id": "GOV-004-p54",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Invoice error rate \u2264 0.5%",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:54",
+        "excerpt": "Invoice error rate \u2264 0.5%"
+      }
+    },
+    {
+      "clause_id": "GOV-004-p55",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Dispute resolution average \u2264 10 business days",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:55",
+        "excerpt": "Dispute resolution average \u2264 10 business days"
+      }
+    },
+    {
+      "clause_id": "GOV-004-p57",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "5. Action Items for Negotiation",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:57",
+        "excerpt": "5. Action Items for Negotiation"
+      }
+    },
+    {
+      "clause_id": "GOV-004-p58",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Vendor Action Items",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:58",
+        "excerpt": "Vendor Action Items"
+      }
+    },
+    {
+      "clause_id": "GOV-004-p59",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Prepare updated obligation register with automated reconciliation capabilities.",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:59",
+        "excerpt": "Prepare updated obligation register with automated reconciliation capabilities."
+      }
+    },
+    {
+      "clause_id": "GOV-004-p60",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Implement digital invoice approval and alert system.",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:60",
+        "excerpt": "Implement digital invoice approval and alert system."
+      }
+    },
+    {
+      "clause_id": "GOV-004-p61",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Draft proposed SLA revisions and penalty clauses.",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:61",
+        "excerpt": "Draft proposed SLA revisions and penalty clauses."
+      }
+    },
+    {
+      "clause_id": "GOV-004-p62",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Client Action Items",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:62",
+        "excerpt": "Client Action Items"
+      }
+    },
+    {
+      "clause_id": "GOV-004-p63",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Review historical dispute data and provide feedback on pain points.",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:63",
+        "excerpt": "Review historical dispute data and provide feedback on pain points."
+      }
+    },
+    {
+      "clause_id": "GOV-004-p64",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Assess acceptance of revised KPIs and SLA penalties.",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:64",
+        "excerpt": "Assess acceptance of revised KPIs and SLA penalties."
+      }
+    },
+    {
+      "clause_id": "GOV-004-p65",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Confirm governance and reporting requirements for dashboards and quarterly reviews.",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:65",
+        "excerpt": "Confirm governance and reporting requirements for dashboards and quarterly reviews."
+      }
+    },
+    {
+      "clause_id": "GOV-004-p66",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Joint Action Items",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:66",
+        "excerpt": "Joint Action Items"
+      }
+    },
+    {
+      "clause_id": "GOV-004-p67",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Schedule negotiation workshops with cross-functional teams (Finance, Operations, Legal).",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:67",
+        "excerpt": "Schedule negotiation workshops with cross-functional teams (Finance, Operations, Legal)."
+      }
+    },
+    {
+      "clause_id": "GOV-004-p68",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Align on revenue leakage prevention mechanisms and audit rights.",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:68",
+        "excerpt": "Align on revenue leakage prevention mechanisms and audit rights."
+      }
+    },
+    {
+      "clause_id": "GOV-004-p69",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Finalize renewal agreement draft by [Target Date].",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:69",
+        "excerpt": "Finalize renewal agreement draft by [Target Date]."
+      }
+    },
+    {
+      "clause_id": "GOV-004-p71",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "6. Observations for Continuous Improvement",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:71",
+        "excerpt": "6. Observations for Continuous Improvement"
+      }
+    },
+    {
+      "clause_id": "GOV-004-p72",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Automating invoice tracking and SLA monitoring is expected to reduce disputes and revenue leakage significantly.",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:72",
+        "excerpt": "Automating invoice tracking and SLA monitoring is expected to reduce disputes and revenue leakage significantly."
+      }
+    },
+    {
+      "clause_id": "GOV-004-p73",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Quarterly executive reviews create accountability and improve transparency for both parties.",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:73",
+        "excerpt": "Quarterly executive reviews create accountability and improve transparency for both parties."
+      }
+    },
+    {
+      "clause_id": "GOV-004-p74",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Clearer escalation procedures, combined with real-time reporting, will prevent recurring operational or financial issues.",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:74",
+        "excerpt": "Clearer escalation procedures, combined with real-time reporting, will prevent recurring operational or financial issues."
+      }
+    },
+    {
+      "clause_id": "GOV-004-p76",
+      "doc_id": "GOV-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Prepared by: [Name, Role, PrimeVolta Hardware Solutions]\nReviewed by: [Name, Role, FinSecure Services]\nDate: December 11, 2025",
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:76",
+        "excerpt": "Prepared by: [Name, Role, PrimeVolta Hardware Solutions]\nReviewed by: [Name, Role, FinSecure Services]\nDate: December 11, 2025"
+      }
+    }
+  ],
+  "tables": [],
+  "parse_status": "parsed",
+  "parse_error": null
+}

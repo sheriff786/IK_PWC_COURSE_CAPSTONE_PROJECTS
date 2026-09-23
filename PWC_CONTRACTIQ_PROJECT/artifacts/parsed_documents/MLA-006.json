@@ -1,0 +1,413 @@
+{
+  "doc_id": "MLA-006",
+  "clauses": [
+    {
+      "clause_id": "MLA-006-p0",
+      "doc_id": "MLA-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "RATE CARD AGREEMENT \u2013 SAMPLE 1",
+      "source_location": {
+        "doc_id": "MLA-006",
+        "kind": "paragraph",
+        "locator": "paragraph:0",
+        "excerpt": "RATE CARD AGREEMENT \u2013 SAMPLE 1"
+      }
+    },
+    {
+      "clause_id": "MLA-006-p1",
+      "doc_id": "MLA-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Between PrimeVolta Hardware Solutions & FinSecure Services",
+      "source_location": {
+        "doc_id": "MLA-006",
+        "kind": "paragraph",
+        "locator": "paragraph:1",
+        "excerpt": "Between PrimeVolta Hardware Solutions & FinSecure Services"
+      }
+    },
+    {
+      "clause_id": "MLA-006-p3",
+      "doc_id": "MLA-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "1. PURPOSE AND OBJECTIVE OF THE RATE CARD AGREEMENT",
+      "source_location": {
+        "doc_id": "MLA-006",
+        "kind": "paragraph",
+        "locator": "paragraph:3",
+        "excerpt": "1. PURPOSE AND OBJECTIVE OF THE RATE CARD AGREEMENT"
+      }
+    },
+    {
+      "clause_id": "MLA-006-p4",
+      "doc_id": "MLA-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "This Rate Card Agreement (\u201cAgreement\u201d) is executed between PrimeVolta Hardware Solutions (\u201cVendor\u201d) and FinSecure Services (\u201cClient\u201d) for the purpose of defining a transparent, predictable, and mutually accepted pricing structure governing the supply of hardware devices, managed services, deployment activities, warranty handling, field support, software licensing, and other associated activities required for BFSI-grade infrastructure projects. The Parties recognize that the success of long-term collaboration depends on establishing clear pricing baselines that will guide budgeting processes, procurement approvals, financial planning cycles, and operational feasibility assessments. The intent of this Agreement is to consolidate all device-level and service-level price specifications under a single authoritative document, ensuring standardization, preventing pricing disputes, and enabling the Client to forecast expenses with accuracy. The Parties mutually agree that the rate card established under this Agreement shall serve as the exclusive reference for all pricing discussions for the duration of the contractual period unless revised through a formal amendment executed in writing.",
+      "source_location": {
+        "doc_id": "MLA-006",
+        "kind": "paragraph",
+        "locator": "paragraph:4",
+        "excerpt": "This Rate Card Agreement (\u201cAgreement\u201d) is executed between PrimeVolta Hardware Solutions (\u201cVendor\u201d) and FinSecure Services (\u201cClient\u201d) for the purpose of defining a transparent, predictable, and mutually accepted pricing structure governing the supply of hardware devices, managed services, deployment activities, warranty handling, field support, software licensing, and other associated activities required for BFSI-grade infrastructure projects. The Parties recognize that the success of long-term collaboration depends on establishing clear pricing baselines that will guide budgeting processes, procurement approvals, financial planning cycles, and operational feasibility assessments. The intent of this Agreement is to consolidate all device-level and service-level price specifications under a single authoritative document, ensuring standardization, preventing pricing disputes, and enabling the Client to forecast expenses with accuracy. The Parties mutually agree that the rate card established under this Agreement shall serve as the exclusive reference for all pricing discussions for the duration of the contractual period unless revised through a formal amendment executed in writing."
+      }
+    },
+    {
+      "clause_id": "MLA-006-p6",
+      "doc_id": "MLA-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "2. SCOPE OF PRODUCTS, SERVICES, AND CHARGEABLE COMPONENTS",
+      "source_location": {
+        "doc_id": "MLA-006",
+        "kind": "paragraph",
+        "locator": "paragraph:6",
+        "excerpt": "2. SCOPE OF PRODUCTS, SERVICES, AND CHARGEABLE COMPONENTS"
+      }
+    },
+    {
+      "clause_id": "MLA-006-p7",
+      "doc_id": "MLA-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "The scope of this Agreement extends to all categories of hardware devices manufactured, supplied, assembled, or configured by the Vendor for the Client, including biometric authentication units, KYC verification terminals, payment controller modules, secure embedded hardware, IoT gateway systems, HSM interface boards, branch automation hardware, and any related peripherals, cables, adaptors, mounting kits, or installation accessories required for deployment. The Agreement also covers service-related charges such as installation fees, travel and accommodation charges for field engineers, preventive maintenance fees, onsite support fees, replacement part charges, extended warranty fees, annual maintenance contract fees, remote monitoring charges, firmware lifecycle management charges, and technician visit charges. The Parties acknowledge that BFSI operations require a high degree of predictability and operational assurance; therefore, every component that constitutes a chargeable item\u2014whether hardware, service, labour, logistics, or recovery cost\u2014shall be governed strictly by the pricing provisions laid out in this Agreement.",
+      "source_location": {
+        "doc_id": "MLA-006",
+        "kind": "paragraph",
+        "locator": "paragraph:7",
+        "excerpt": "The scope of this Agreement extends to all categories of hardware devices manufactured, supplied, assembled, or configured by the Vendor for the Client, including biometric authentication units, KYC verification terminals, payment controller modules, secure embedded hardware, IoT gateway systems, HSM interface boards, branch automation hardware, and any related peripherals, cables, adaptors, mounting kits, or installation accessories required for deployment. The Agreement also covers service-related charges such as installation fees, travel and accommodation charges for field engineers, preventive maintenance fees, onsite support fees, replacement part charges, extended warranty fees, annual maintenance contract fees, remote monitoring charges, firmware lifecycle management charges, and technician visit charges. The Parties acknowledge that BFSI operations require a high degree of predictability and operational assurance; therefore, every component that constitutes a chargeable item\u2014whether hardware, service, labour, logistics, or recovery cost\u2014shall be governed strictly by the pricing provisions laid out in this Agreement."
+      }
+    },
+    {
+      "clause_id": "MLA-006-p9",
+      "doc_id": "MLA-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3. RATE STRUCTURE FOR HARDWARE SUPPLY AND DEVICE CATEGORIES",
+      "source_location": {
+        "doc_id": "MLA-006",
+        "kind": "paragraph",
+        "locator": "paragraph:9",
+        "excerpt": "3. RATE STRUCTURE FOR HARDWARE SUPPLY AND DEVICE CATEGORIES"
+      }
+    },
+    {
+      "clause_id": "MLA-006-p10",
+      "doc_id": "MLA-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "The Vendor shall provide the Client with a comprehensive pricing structure comprising the unit costs of all hardware models that may be procured by the Client under ongoing or future BFSI deployment requirements. Each device category shall be assigned a per-unit price that includes manufacturing costs, assembly, pre-deployment testing, packaging, standard accessories, and quality assurance. These prices shall remain firm throughout the contract tenure unless modified through a written amendment mutually endorsed by both Parties. The Vendor confirms that all hardware pricing presented to the Client under this Agreement reflects genuine manufacturing and component costs, considering raw material fluctuations, semiconductor availability trends, and industry-standard margins. The Vendor also affirms that devices supplied at the agreed per-unit price shall always match the specifications, quality parameters, and build standards referenced during the formal evaluation and approval processes. Any subsequent hardware revisions that materially alter capabilities, features, or performance parameters shall require renegotiation of the associated rate structure before supply.",
+      "source_location": {
+        "doc_id": "MLA-006",
+        "kind": "paragraph",
+        "locator": "paragraph:10",
+        "excerpt": "The Vendor shall provide the Client with a comprehensive pricing structure comprising the unit costs of all hardware models that may be procured by the Client under ongoing or future BFSI deployment requirements. Each device category shall be assigned a per-unit price that includes manufacturing costs, assembly, pre-deployment testing, packaging, standard accessories, and quality assurance. These prices shall remain firm throughout the contract tenure unless modified through a written amendment mutually endorsed by both Parties. The Vendor confirms that all hardware pricing presented to the Client under this Agreement reflects genuine manufacturing and component costs, considering raw material fluctuations, semiconductor availability trends, and industry-standard margins. The Vendor also affirms that devices supplied at the agreed per-unit price shall always match the specifications, quality parameters, and build standards referenced during the formal evaluation and approval processes. Any subsequent hardware revisions that materially alter capabilities, features, or performance parameters shall require renegotiation of the associated rate structure before supply."
+      }
+    },
+    {
+      "clause_id": "MLA-006-p12",
+      "doc_id": "MLA-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "4. SERVICE RATE STRUCTURE FOR INSTALLATION, SUPPORT, AND FIELD OPERATIONS",
+      "source_location": {
+        "doc_id": "MLA-006",
+        "kind": "paragraph",
+        "locator": "paragraph:12",
+        "excerpt": "4. SERVICE RATE STRUCTURE FOR INSTALLATION, SUPPORT, AND FIELD OPERATIONS"
+      }
+    },
+    {
+      "clause_id": "MLA-006-p13",
+      "doc_id": "MLA-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "The Vendor shall extend a structured service pricing model covering all labour-intensive, field-oriented, and support-driven activities that the Client may require during the lifecycle of the supplied hardware devices. Installation charges shall reflect the effort associated with device mounting, network configuration, software integration, firmware activation, security provisioning, and post-installation testing. Field support charges shall account for the travel time, engineering expertise, onsite diagnostics, repair activities, training support, and troubleshooting efforts provided by Vendor personnel. The Vendor may also levy charges for after-hours support, remote troubleshooting, emergency on-site dispatch, extended labour involvement, or multi-day deployment activities. The Client acknowledges that certain geographical regions, particularly remote zones or locations that involve complex travel logistics, may necessitate premium charges due to extended travel time or additional resource allocation. However, all such charges shall remain consistent with the rate card provisions and shall not be altered unilaterally during the contract tenure.",
+      "source_location": {
+        "doc_id": "MLA-006",
+        "kind": "paragraph",
+        "locator": "paragraph:13",
+        "excerpt": "The Vendor shall extend a structured service pricing model covering all labour-intensive, field-oriented, and support-driven activities that the Client may require during the lifecycle of the supplied hardware devices. Installation charges shall reflect the effort associated with device mounting, network configuration, software integration, firmware activation, security provisioning, and post-installation testing. Field support charges shall account for the travel time, engineering expertise, onsite diagnostics, repair activities, training support, and troubleshooting efforts provided by Vendor personnel. The Vendor may also levy charges for after-hours support, remote troubleshooting, emergency on-site dispatch, extended labour involvement, or multi-day deployment activities. The Client acknowledges that certain geographical regions, particularly remote zones or locations that involve complex travel logistics, may necessitate premium charges due to extended travel time or additional resource allocation. However, all such charges shall remain consistent with the rate card provisions and shall not be altered unilaterally during the contract tenure."
+      }
+    },
+    {
+      "clause_id": "MLA-006-p15",
+      "doc_id": "MLA-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "5. WARRANTY, AMC, AND EXTENDED SUPPORT PRICING",
+      "source_location": {
+        "doc_id": "MLA-006",
+        "kind": "paragraph",
+        "locator": "paragraph:15",
+        "excerpt": "5. WARRANTY, AMC, AND EXTENDED SUPPORT PRICING"
+      }
+    },
+    {
+      "clause_id": "MLA-006-p16",
+      "doc_id": "MLA-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "The Vendor shall provide warranty coverage for all hardware supplied under this Agreement in accordance with the standard warranty terms mutually agreed upon under the Master Services Agreement or relevant annexures. The cost for extended warranty coverage shall be defined clearly under this rate card, establishing the per-year price applicable for extending warranty protection beyond the standard period. The Vendor shall also define the pricing for Annual Maintenance Contracts, which may encompass comprehensive services such as preventive maintenance, scheduled audits, device health reporting, firmware updates, on-site inspection visits, and proactive hardware optimization services. The AMC pricing shall be structured based on the nature of hardware, criticality within BFSI workflows, expected life cycles, and the level of support required. It is agreed that once an AMC or extended warranty price is published in this rate card, it shall remain applicable for devices procured within the contractual period, regardless of future market fluctuations or component shortages.",
+      "source_location": {
+        "doc_id": "MLA-006",
+        "kind": "paragraph",
+        "locator": "paragraph:16",
+        "excerpt": "The Vendor shall provide warranty coverage for all hardware supplied under this Agreement in accordance with the standard warranty terms mutually agreed upon under the Master Services Agreement or relevant annexures. The cost for extended warranty coverage shall be defined clearly under this rate card, establishing the per-year price applicable for extending warranty protection beyond the standard period. The Vendor shall also define the pricing for Annual Maintenance Contracts, which may encompass comprehensive services such as preventive maintenance, scheduled audits, device health reporting, firmware updates, on-site inspection visits, and proactive hardware optimization services. The AMC pricing shall be structured based on the nature of hardware, criticality within BFSI workflows, expected life cycles, and the level of support required. It is agreed that once an AMC or extended warranty price is published in this rate card, it shall remain applicable for devices procured within the contractual period, regardless of future market fluctuations or component shortages."
+      }
+    },
+    {
+      "clause_id": "MLA-006-p18",
+      "doc_id": "MLA-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "6. LOGISTICS, PACKAGING, TRANSPORTATION, AND REVERSE PICKUP COSTS",
+      "source_location": {
+        "doc_id": "MLA-006",
+        "kind": "paragraph",
+        "locator": "paragraph:18",
+        "excerpt": "6. LOGISTICS, PACKAGING, TRANSPORTATION, AND REVERSE PICKUP COSTS"
+      }
+    },
+    {
+      "clause_id": "MLA-006-p19",
+      "doc_id": "MLA-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "The Vendor shall be entitled to charge logistics and transportation fees based on the mutually accepted pricing provisions defined within this Agreement. These fees shall cover packaging materials, secure boxing, tamper-proof sealing, logistics coordination, dispatch handling, forward freight charges, and shipment tracking. Reverse logistics pricing, applicable for devices being returned for repair, replacement, or quality inspection, shall also be governed strictly by this Agreement. The Vendor shall ensure that all logistics pricing adheres to rational, cost-based principles that reflect genuine market transportation charges. The Client shall not be required to bear any additional logistical costs not expressly captured within the rate card. The Parties agree that transportation pricing may vary based on shipment weight, volume, destination, and urgency; however, such variance shall always remain within the ceiling limits defined in this Agreement unless revised through formal amendment.",
+      "source_location": {
+        "doc_id": "MLA-006",
+        "kind": "paragraph",
+        "locator": "paragraph:19",
+        "excerpt": "The Vendor shall be entitled to charge logistics and transportation fees based on the mutually accepted pricing provisions defined within this Agreement. These fees shall cover packaging materials, secure boxing, tamper-proof sealing, logistics coordination, dispatch handling, forward freight charges, and shipment tracking. Reverse logistics pricing, applicable for devices being returned for repair, replacement, or quality inspection, shall also be governed strictly by this Agreement. The Vendor shall ensure that all logistics pricing adheres to rational, cost-based principles that reflect genuine market transportation charges. The Client shall not be required to bear any additional logistical costs not expressly captured within the rate card. The Parties agree that transportation pricing may vary based on shipment weight, volume, destination, and urgency; however, such variance shall always remain within the ceiling limits defined in this Agreement unless revised through formal amendment."
+      }
+    },
+    {
+      "clause_id": "MLA-006-p21",
+      "doc_id": "MLA-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "7. ANNUAL REVISION MECHANISM AND PRICE VALIDITY PERIOD",
+      "source_location": {
+        "doc_id": "MLA-006",
+        "kind": "paragraph",
+        "locator": "paragraph:21",
+        "excerpt": "7. ANNUAL REVISION MECHANISM AND PRICE VALIDITY PERIOD"
+      }
+    },
+    {
+      "clause_id": "MLA-006-p22",
+      "doc_id": "MLA-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "All prices defined under this Agreement shall remain firm for a period of twelve months from the date of execution unless otherwise specified in writing. At the conclusion of each twelve-month cycle, the Parties may jointly review the rate card to determine if any adjustments are necessary based on raw material cost fluctuations, semiconductor market volatility, logistics cost changes, or macroeconomic factors. The Vendor agrees that any proposed changes shall be supported by credible, industry-validated evidence such as supplier quotations, market fluctuation reports, or component index variations. Price adjustments shall not be arbitrary and shall only take effect upon mutual approval and formal amendment of the Agreement. The Client shall at all times retain the right to seek justification for proposed adjustments and may request additional documentation if necessary.",
+      "source_location": {
+        "doc_id": "MLA-006",
+        "kind": "paragraph",
+        "locator": "paragraph:22",
+        "excerpt": "All prices defined under this Agreement shall remain firm for a period of twelve months from the date of execution unless otherwise specified in writing. At the conclusion of each twelve-month cycle, the Parties may jointly review the rate card to determine if any adjustments are necessary based on raw material cost fluctuations, semiconductor market volatility, logistics cost changes, or macroeconomic factors. The Vendor agrees that any proposed changes shall be supported by credible, industry-validated evidence such as supplier quotations, market fluctuation reports, or component index variations. Price adjustments shall not be arbitrary and shall only take effect upon mutual approval and formal amendment of the Agreement. The Client shall at all times retain the right to seek justification for proposed adjustments and may request additional documentation if necessary."
+      }
+    },
+    {
+      "clause_id": "MLA-006-p24",
+      "doc_id": "MLA-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "8. INVOICING, PAYMENT TERMS, AND FINANCIAL GOVERNANCE",
+      "source_location": {
+        "doc_id": "MLA-006",
+        "kind": "paragraph",
+        "locator": "paragraph:24",
+        "excerpt": "8. INVOICING, PAYMENT TERMS, AND FINANCIAL GOVERNANCE"
+      }
+    },
+    {
+      "clause_id": "MLA-006-p25",
+      "doc_id": "MLA-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "The Vendor shall issue invoices strictly in accordance with the rate structures defined in this Agreement, ensuring absolute alignment between delivered items, approved quantities, service activities performed, and the pricing committed within the rate card. The Client shall process such invoices in accordance with the payment timelines and processes outlined under the Master Services Agreement. Invoices shall clearly reference the purchase order number, device model, component type, quantity supplied, unit price, total cost, applicable taxes, and any applicable service or logistics charges approved under this Agreement. The Parties agree that no invoice shall include any unlisted, unapproved, or non-rate-card price components. The Client may request clarification or supporting documentation for any line item, and the Vendor shall provide such clarification without delaying or obstructing the invoicing process. Any disputes in invoicing shall be resolved amicably through reconciliation discussions held within a reasonable time frame.",
+      "source_location": {
+        "doc_id": "MLA-006",
+        "kind": "paragraph",
+        "locator": "paragraph:25",
+        "excerpt": "The Vendor shall issue invoices strictly in accordance with the rate structures defined in this Agreement, ensuring absolute alignment between delivered items, approved quantities, service activities performed, and the pricing committed within the rate card. The Client shall process such invoices in accordance with the payment timelines and processes outlined under the Master Services Agreement. Invoices shall clearly reference the purchase order number, device model, component type, quantity supplied, unit price, total cost, applicable taxes, and any applicable service or logistics charges approved under this Agreement. The Parties agree that no invoice shall include any unlisted, unapproved, or non-rate-card price components. The Client may request clarification or supporting documentation for any line item, and the Vendor shall provide such clarification without delaying or obstructing the invoicing process. Any disputes in invoicing shall be resolved amicably through reconciliation discussions held within a reasonable time frame."
+      }
+    },
+    {
+      "clause_id": "MLA-006-p27",
+      "doc_id": "MLA-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "9. NON-EXCLUSIVITY, MARKET FAIRNESS, AND COMPETITIVE INTEGRITY",
+      "source_location": {
+        "doc_id": "MLA-006",
+        "kind": "paragraph",
+        "locator": "paragraph:27",
+        "excerpt": "9. NON-EXCLUSIVITY, MARKET FAIRNESS, AND COMPETITIVE INTEGRITY"
+      }
+    },
+    {
+      "clause_id": "MLA-006-p28",
+      "doc_id": "MLA-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "The Parties acknowledge that this Agreement does not create exclusivity in procurement or supply unless explicitly stated in separate contractual documents. The Client retains the right to engage with other vendors for hardware, services, or support, provided such procurements do not violate any existing contractual obligations. The Vendor affirms that the pricing detailed in this Agreement represents fair market pricing and is not discriminatory or preferential in a manner that compromises competitive integrity. The Vendor shall not provide substantially lower pricing for identical devices or services to other BFSI entities without offering the Client an opportunity for revision, unless such pricing differences are justified by order volume, long-term commitments, or unique commercial terms.",
+      "source_location": {
+        "doc_id": "MLA-006",
+        "kind": "paragraph",
+        "locator": "paragraph:28",
+        "excerpt": "The Parties acknowledge that this Agreement does not create exclusivity in procurement or supply unless explicitly stated in separate contractual documents. The Client retains the right to engage with other vendors for hardware, services, or support, provided such procurements do not violate any existing contractual obligations. The Vendor affirms that the pricing detailed in this Agreement represents fair market pricing and is not discriminatory or preferential in a manner that compromises competitive integrity. The Vendor shall not provide substantially lower pricing for identical devices or services to other BFSI entities without offering the Client an opportunity for revision, unless such pricing differences are justified by order volume, long-term commitments, or unique commercial terms."
+      }
+    },
+    {
+      "clause_id": "MLA-006-p30",
+      "doc_id": "MLA-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "10. LIMITATION OF CHANGES AND PROTECTION AGAINST HIDDEN COSTS",
+      "source_location": {
+        "doc_id": "MLA-006",
+        "kind": "paragraph",
+        "locator": "paragraph:30",
+        "excerpt": "10. LIMITATION OF CHANGES AND PROTECTION AGAINST HIDDEN COSTS"
+      }
+    },
+    {
+      "clause_id": "MLA-006-p31",
+      "doc_id": "MLA-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "The Parties jointly agree that one of the primary intents of this Agreement is to eliminate ambiguity, prevent hidden charges, and ensure transparent financial interactions. The Vendor shall not introduce any new pricing component, surcharge, documentation fee, device activation cost, diagnostic fee, expedited service cost, or any form of add-on pricing that is not explicitly defined in this Agreement. Should the Vendor identify any legitimate need to introduce a new charge category due to evolving market or regulatory requirements, such introductions shall only occur after written approval from the Client. Under no circumstances shall the Vendor raise disputes or delay commitments based on pricing categories not approved under this Agreement.",
+      "source_location": {
+        "doc_id": "MLA-006",
+        "kind": "paragraph",
+        "locator": "paragraph:31",
+        "excerpt": "The Parties jointly agree that one of the primary intents of this Agreement is to eliminate ambiguity, prevent hidden charges, and ensure transparent financial interactions. The Vendor shall not introduce any new pricing component, surcharge, documentation fee, device activation cost, diagnostic fee, expedited service cost, or any form of add-on pricing that is not explicitly defined in this Agreement. Should the Vendor identify any legitimate need to introduce a new charge category due to evolving market or regulatory requirements, such introductions shall only occur after written approval from the Client. Under no circumstances shall the Vendor raise disputes or delay commitments based on pricing categories not approved under this Agreement."
+      }
+    },
+    {
+      "clause_id": "MLA-006-p33",
+      "doc_id": "MLA-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "11. CONFIDENTIALITY OF RATE CARD AND PRICE SENSITIVE INFORMATION",
+      "source_location": {
+        "doc_id": "MLA-006",
+        "kind": "paragraph",
+        "locator": "paragraph:33",
+        "excerpt": "11. CONFIDENTIALITY OF RATE CARD AND PRICE SENSITIVE INFORMATION"
+      }
+    },
+    {
+      "clause_id": "MLA-006-p34",
+      "doc_id": "MLA-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Both Parties agree that the pricing structures, commercial terms, discounts, device-level costs, service-level costs, and any negotiated financial arrangements documented under this Agreement constitute highly sensitive and confidential business information. Neither Party shall disclose, publish, share, or replicate any pricing detail with external organizations, competitors, suppliers, or unauthorized internal stakeholders without explicit written consent. The confidentiality obligations defined under this Agreement shall survive termination for a minimum of five years. The Client shall maintain secure internal handling of the rate card, limiting access only to employees engaged in procurement, budgeting, audit, legal review, or operational planning. The Vendor shall likewise prevent inadvertent disclosure of commercial arrangements with the Client to third parties not governed by confidentiality obligations.",
+      "source_location": {
+        "doc_id": "MLA-006",
+        "kind": "paragraph",
+        "locator": "paragraph:34",
+        "excerpt": "Both Parties agree that the pricing structures, commercial terms, discounts, device-level costs, service-level costs, and any negotiated financial arrangements documented under this Agreement constitute highly sensitive and confidential business information. Neither Party shall disclose, publish, share, or replicate any pricing detail with external organizations, competitors, suppliers, or unauthorized internal stakeholders without explicit written consent. The confidentiality obligations defined under this Agreement shall survive termination for a minimum of five years. The Client shall maintain secure internal handling of the rate card, limiting access only to employees engaged in procurement, budgeting, audit, legal review, or operational planning. The Vendor shall likewise prevent inadvertent disclosure of commercial arrangements with the Client to third parties not governed by confidentiality obligations."
+      }
+    },
+    {
+      "clause_id": "MLA-006-p36",
+      "doc_id": "MLA-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "12. VALIDITY, TERM, TERMINATION, AND AMENDMENT CONDITIONS",
+      "source_location": {
+        "doc_id": "MLA-006",
+        "kind": "paragraph",
+        "locator": "paragraph:36",
+        "excerpt": "12. VALIDITY, TERM, TERMINATION, AND AMENDMENT CONDITIONS"
+      }
+    },
+    {
+      "clause_id": "MLA-006-p37",
+      "doc_id": "MLA-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "This Agreement shall become effective from the date of execution and shall remain valid until terminated or superseded by a revised rate card agreement mutually signed by both Parties. Either Party may request amendments to the pricing structure, but such amendments shall only be effective upon formal written approval. Termination of this Agreement shall not affect the validity of invoices already raised or delivered items already supplied under the rate card. Upon termination, the Vendor shall honour all procurement requests previously acknowledged under the existing pricing until such orders are fully executed or mutually cancelled. The Client may request a fresh rate card for new projects or future procurement cycles, and the Vendor shall cooperate fully in revising the pricing where appropriate.",
+      "source_location": {
+        "doc_id": "MLA-006",
+        "kind": "paragraph",
+        "locator": "paragraph:37",
+        "excerpt": "This Agreement shall become effective from the date of execution and shall remain valid until terminated or superseded by a revised rate card agreement mutually signed by both Parties. Either Party may request amendments to the pricing structure, but such amendments shall only be effective upon formal written approval. Termination of this Agreement shall not affect the validity of invoices already raised or delivered items already supplied under the rate card. Upon termination, the Vendor shall honour all procurement requests previously acknowledged under the existing pricing until such orders are fully executed or mutually cancelled. The Client may request a fresh rate card for new projects or future procurement cycles, and the Vendor shall cooperate fully in revising the pricing where appropriate."
+      }
+    },
+    {
+      "clause_id": "MLA-006-p39",
+      "doc_id": "MLA-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "SIGNED:\nPrimeVolta Hardware Solutions\nFinSecure Services",
+      "source_location": {
+        "doc_id": "MLA-006",
+        "kind": "paragraph",
+        "locator": "paragraph:39",
+        "excerpt": "SIGNED:\nPrimeVolta Hardware Solutions\nFinSecure Services"
+      }
+    }
+  ],
+  "tables": [],
+  "parse_status": "parsed",
+  "parse_error": null
+}

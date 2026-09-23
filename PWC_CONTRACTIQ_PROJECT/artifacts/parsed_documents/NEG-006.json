@@ -1,0 +1,1191 @@
+{
+  "doc_id": "NEG-006",
+  "clauses": [
+    {
+      "clause_id": "NEG-006-p0",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "HISTORICAL NEGOTIATION DATA \u2013 SAMPLE 2",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:0",
+        "excerpt": "HISTORICAL NEGOTIATION DATA \u2013 SAMPLE 2"
+      }
+    },
+    {
+      "clause_id": "NEG-006-p1",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Type: Risk Assessments by Legal/Commercial Teams\nVendor: PrimeVolta Hardware Solutions\nClient: FinSecure Services\nDate: July 2024",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:1",
+        "excerpt": "Type: Risk Assessments by Legal/Commercial Teams\nVendor: PrimeVolta Hardware Solutions\nClient: FinSecure Services\nDate: July 2024"
+      }
+    },
+    {
+      "clause_id": "NEG-006-p3",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "1. Introduction and Context",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:3",
+        "excerpt": "1. Introduction and Context"
+      }
+    },
+    {
+      "clause_id": "NEG-006-p4",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "This document records the risk assessment performed by PrimeVolta\u2019s and FinSecure\u2019s legal and commercial teams during mid-stage negotiations for a supply of secure financial hardware devices. Unlike the previous assessment, this review emphasizes operational risks, cybersecurity vulnerabilities, and technical performance concerns.",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:4",
+        "excerpt": "This document records the risk assessment performed by PrimeVolta\u2019s and FinSecure\u2019s legal and commercial teams during mid-stage negotiations for a supply of secure financial hardware devices. Unlike the previous assessment, this review emphasizes operational risks, cybersecurity vulnerabilities, and technical performance concerns."
+      }
+    },
+    {
+      "clause_id": "NEG-006-p5",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "The supply scope includes next-generation POS terminals, biometric authentication devices, and encrypted communication modules designed for FinSecure branches and partner networks. The BFSI regulatory environment, including RBI guidelines and ISO/IEC 27001 standards, mandates stringent operational and data security requirements.",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:5",
+        "excerpt": "The supply scope includes next-generation POS terminals, biometric authentication devices, and encrypted communication modules designed for FinSecure branches and partner networks. The BFSI regulatory environment, including RBI guidelines and ISO/IEC 27001 standards, mandates stringent operational and data security requirements."
+      }
+    },
+    {
+      "clause_id": "NEG-006-p6",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "The risk assessment objectives were:",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:6",
+        "excerpt": "The risk assessment objectives were:"
+      }
+    },
+    {
+      "clause_id": "NEG-006-p7",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Identify operational bottlenecks and failure points in hardware deployment.",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:7",
+        "excerpt": "Identify operational bottlenecks and failure points in hardware deployment."
+      }
+    },
+    {
+      "clause_id": "NEG-006-p8",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Assess cybersecurity threats associated with the devices and network connectivity.",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:8",
+        "excerpt": "Assess cybersecurity threats associated with the devices and network connectivity."
+      }
+    },
+    {
+      "clause_id": "NEG-006-p9",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Evaluate vendor capabilities for ongoing maintenance, updates, and incident response.",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:9",
+        "excerpt": "Evaluate vendor capabilities for ongoing maintenance, updates, and incident response."
+      }
+    },
+    {
+      "clause_id": "NEG-006-p10",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Recommend mitigation measures that could be incorporated into contract clauses and SLAs.",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:10",
+        "excerpt": "Recommend mitigation measures that could be incorporated into contract clauses and SLAs."
+      }
+    },
+    {
+      "clause_id": "NEG-006-p12",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "2. Legal Risk Assessment",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:12",
+        "excerpt": "2. Legal Risk Assessment"
+      }
+    },
+    {
+      "clause_id": "NEG-006-p13",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "2.1 Data Privacy and Cybersecurity Compliance",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:13",
+        "excerpt": "2.1 Data Privacy and Cybersecurity Compliance"
+      }
+    },
+    {
+      "clause_id": "NEG-006-p14",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Devices handle sensitive financial and personally identifiable information (PII). Legal teams identified key risks:",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:14",
+        "excerpt": "Devices handle sensitive financial and personally identifiable information (PII). Legal teams identified key risks:"
+      }
+    },
+    {
+      "clause_id": "NEG-006-p15",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Unauthorized access: Potential for insider or external attacks leading to data breaches.",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:15",
+        "excerpt": "Unauthorized access: Potential for insider or external attacks leading to data breaches."
+      }
+    },
+    {
+      "clause_id": "NEG-006-p16",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Regulatory exposure: Non-compliance with RBI cybersecurity guidelines and GDPR could result in fines and reputational damage.",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:16",
+        "excerpt": "Regulatory exposure: Non-compliance with RBI cybersecurity guidelines and GDPR could result in fines and reputational damage."
+      }
+    },
+    {
+      "clause_id": "NEG-006-p17",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Mitigation: Legal teams proposed mandatory adherence to FinSecure\u2019s internal cybersecurity policies, contractual obligations for breach notification within 24 hours, and periodic audits.",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:17",
+        "excerpt": "Mitigation: Legal teams proposed mandatory adherence to FinSecure\u2019s internal cybersecurity policies, contractual obligations for breach notification within 24 hours, and periodic audits."
+      }
+    },
+    {
+      "clause_id": "NEG-006-p18",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Negotiation Insight: Legal teams emphasized that PrimeVolta\u2019s liability for cybersecurity incidents should include costs for regulatory fines, customer notification, forensic investigation, and remediation.",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:18",
+        "excerpt": "Negotiation Insight: Legal teams emphasized that PrimeVolta\u2019s liability for cybersecurity incidents should include costs for regulatory fines, customer notification, forensic investigation, and remediation."
+      }
+    },
+    {
+      "clause_id": "NEG-006-p20",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "2.2 Contractual Obligations for Technical Support",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:20",
+        "excerpt": "2.2 Contractual Obligations for Technical Support"
+      }
+    },
+    {
+      "clause_id": "NEG-006-p21",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Legal review identified gaps in support and escalation clauses:",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:21",
+        "excerpt": "Legal review identified gaps in support and escalation clauses:"
+      }
+    },
+    {
+      "clause_id": "NEG-006-p22",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Ambiguity around response times for network outages or device malfunctions.",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:22",
+        "excerpt": "Ambiguity around response times for network outages or device malfunctions."
+      }
+    },
+    {
+      "clause_id": "NEG-006-p23",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "No penalties defined for prolonged downtime impacting customer transactions.",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:23",
+        "excerpt": "No penalties defined for prolonged downtime impacting customer transactions."
+      }
+    },
+    {
+      "clause_id": "NEG-006-p24",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Mitigation: The final contract should include:",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:24",
+        "excerpt": "Mitigation: The final contract should include:"
+      }
+    },
+    {
+      "clause_id": "NEG-006-p25",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Tiered SLA response times: Critical \u2013 2 hours; High \u2013 4 hours; Medium \u2013 24 hours.",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:25",
+        "excerpt": "Tiered SLA response times: Critical \u2013 2 hours; High \u2013 4 hours; Medium \u2013 24 hours."
+      }
+    },
+    {
+      "clause_id": "NEG-006-p26",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Liquidated damages for extended downtime.",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:26",
+        "excerpt": "Liquidated damages for extended downtime."
+      }
+    },
+    {
+      "clause_id": "NEG-006-p27",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Escalation protocol linking technical and legal teams for disputes.",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:27",
+        "excerpt": "Escalation protocol linking technical and legal teams for disputes."
+      }
+    },
+    {
+      "clause_id": "NEG-006-p29",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "2.3 Liability and Indemnification for Cybersecurity Failures",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:29",
+        "excerpt": "2.3 Liability and Indemnification for Cybersecurity Failures"
+      }
+    },
+    {
+      "clause_id": "NEG-006-p30",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Legal risk assessment identified the need for specific clauses covering:",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:30",
+        "excerpt": "Legal risk assessment identified the need for specific clauses covering:"
+      }
+    },
+    {
+      "clause_id": "NEG-006-p31",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Liability for ransomware attacks, malware insertion, or device tampering.",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:31",
+        "excerpt": "Liability for ransomware attacks, malware insertion, or device tampering."
+      }
+    },
+    {
+      "clause_id": "NEG-006-p32",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Indemnification for third-party claims arising from compromised financial data.",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:32",
+        "excerpt": "Indemnification for third-party claims arising from compromised financial data."
+      }
+    },
+    {
+      "clause_id": "NEG-006-p33",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Negotiation Insight: Unlimited liability for willful misconduct and gross negligence is critical, while indirect damages may be capped.",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:33",
+        "excerpt": "Negotiation Insight: Unlimited liability for willful misconduct and gross negligence is critical, while indirect damages may be capped."
+      }
+    },
+    {
+      "clause_id": "NEG-006-p35",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3. Commercial Risk Assessment",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:35",
+        "excerpt": "3. Commercial Risk Assessment"
+      }
+    },
+    {
+      "clause_id": "NEG-006-p36",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3.1 Technical Performance Risks",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:36",
+        "excerpt": "3.1 Technical Performance Risks"
+      }
+    },
+    {
+      "clause_id": "NEG-006-p37",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "PrimeVolta\u2019s devices were tested for durability, encryption performance, and network resilience. Risks identified:",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:37",
+        "excerpt": "PrimeVolta\u2019s devices were tested for durability, encryption performance, and network resilience. Risks identified:"
+      }
+    },
+    {
+      "clause_id": "NEG-006-p38",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Hardware failure: Device malfunction due to environmental factors (temperature, humidity).",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:38",
+        "excerpt": "Hardware failure: Device malfunction due to environmental factors (temperature, humidity)."
+      }
+    },
+    {
+      "clause_id": "NEG-006-p39",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Software performance: Delays in transaction processing or failure under peak loads.",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:39",
+        "excerpt": "Software performance: Delays in transaction processing or failure under peak loads."
+      }
+    },
+    {
+      "clause_id": "NEG-006-p40",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Firmware updates: Potential disruption during remote updates.",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:40",
+        "excerpt": "Firmware updates: Potential disruption during remote updates."
+      }
+    },
+    {
+      "clause_id": "NEG-006-p41",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Mitigation:",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:41",
+        "excerpt": "Mitigation:"
+      }
+    },
+    {
+      "clause_id": "NEG-006-p42",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Extended testing under BFSI branch conditions.",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:42",
+        "excerpt": "Extended testing under BFSI branch conditions."
+      }
+    },
+    {
+      "clause_id": "NEG-006-p43",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Firmware rollback capability for failed updates.",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:43",
+        "excerpt": "Firmware rollback capability for failed updates."
+      }
+    },
+    {
+      "clause_id": "NEG-006-p44",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "On-site spares and replacement units available within 24 hours.",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:44",
+        "excerpt": "On-site spares and replacement units available within 24 hours."
+      }
+    },
+    {
+      "clause_id": "NEG-006-p46",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3.2 Deployment and Scalability Risks",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:46",
+        "excerpt": "3.2 Deployment and Scalability Risks"
+      }
+    },
+    {
+      "clause_id": "NEG-006-p47",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Operational risks were assessed for large-scale rollout:",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:47",
+        "excerpt": "Operational risks were assessed for large-scale rollout:"
+      }
+    },
+    {
+      "clause_id": "NEG-006-p48",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Delays in installation due to logistical or staffing constraints.",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:48",
+        "excerpt": "Delays in installation due to logistical or staffing constraints."
+      }
+    },
+    {
+      "clause_id": "NEG-006-p49",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Training gaps for branch personnel leading to incorrect device usage.",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:49",
+        "excerpt": "Training gaps for branch personnel leading to incorrect device usage."
+      }
+    },
+    {
+      "clause_id": "NEG-006-p50",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Scalability challenges if branch network expands rapidly.",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:50",
+        "excerpt": "Scalability challenges if branch network expands rapidly."
+      }
+    },
+    {
+      "clause_id": "NEG-006-p51",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Mitigation:",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:51",
+        "excerpt": "Mitigation:"
+      }
+    },
+    {
+      "clause_id": "NEG-006-p52",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Staggered deployment with pilot testing.",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:52",
+        "excerpt": "Staggered deployment with pilot testing."
+      }
+    },
+    {
+      "clause_id": "NEG-006-p53",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Vendor-provided training sessions and manuals.",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:53",
+        "excerpt": "Vendor-provided training sessions and manuals."
+      }
+    },
+    {
+      "clause_id": "NEG-006-p54",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Remote monitoring tools to track device performance and usage.",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:54",
+        "excerpt": "Remote monitoring tools to track device performance and usage."
+      }
+    },
+    {
+      "clause_id": "NEG-006-p56",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3.3 Maintenance and Upgrade Risks",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:56",
+        "excerpt": "3.3 Maintenance and Upgrade Risks"
+      }
+    },
+    {
+      "clause_id": "NEG-006-p57",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Assessment identified risks related to ongoing device support:",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:57",
+        "excerpt": "Assessment identified risks related to ongoing device support:"
+      }
+    },
+    {
+      "clause_id": "NEG-006-p58",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Delayed response to hardware faults.",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:58",
+        "excerpt": "Delayed response to hardware faults."
+      }
+    },
+    {
+      "clause_id": "NEG-006-p59",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Software patches not applied timely.",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:59",
+        "excerpt": "Software patches not applied timely."
+      }
+    },
+    {
+      "clause_id": "NEG-006-p60",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Inadequate tracking of warranty coverage across multiple sites.",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:60",
+        "excerpt": "Inadequate tracking of warranty coverage across multiple sites."
+      }
+    },
+    {
+      "clause_id": "NEG-006-p61",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Mitigation:",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:61",
+        "excerpt": "Mitigation:"
+      }
+    },
+    {
+      "clause_id": "NEG-006-p62",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Centralized ticketing system for all support requests.",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:62",
+        "excerpt": "Centralized ticketing system for all support requests."
+      }
+    },
+    {
+      "clause_id": "NEG-006-p63",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Mandatory patch deployment within predefined timelines.",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:63",
+        "excerpt": "Mandatory patch deployment within predefined timelines."
+      }
+    },
+    {
+      "clause_id": "NEG-006-p64",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "SLA-based escalation with penalties for non-compliance.",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:64",
+        "excerpt": "SLA-based escalation with penalties for non-compliance."
+      }
+    },
+    {
+      "clause_id": "NEG-006-p66",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3.4 Supply Chain and Component Security Risks",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:66",
+        "excerpt": "3.4 Supply Chain and Component Security Risks"
+      }
+    },
+    {
+      "clause_id": "NEG-006-p67",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "PrimeVolta\u2019s supply chain includes multiple subcontractors. Risks identified:",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:67",
+        "excerpt": "PrimeVolta\u2019s supply chain includes multiple subcontractors. Risks identified:"
+      }
+    },
+    {
+      "clause_id": "NEG-006-p68",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Counterfeit components infiltrating production.",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:68",
+        "excerpt": "Counterfeit components infiltrating production."
+      }
+    },
+    {
+      "clause_id": "NEG-006-p69",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Single-source dependency for encryption chips.",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:69",
+        "excerpt": "Single-source dependency for encryption chips."
+      }
+    },
+    {
+      "clause_id": "NEG-006-p70",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Insider threats at subcontracting facilities.",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:70",
+        "excerpt": "Insider threats at subcontracting facilities."
+      }
+    },
+    {
+      "clause_id": "NEG-006-p71",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Mitigation:",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:71",
+        "excerpt": "Mitigation:"
+      }
+    },
+    {
+      "clause_id": "NEG-006-p72",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Dual-source critical components.",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:72",
+        "excerpt": "Dual-source critical components."
+      }
+    },
+    {
+      "clause_id": "NEG-006-p73",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Regular vendor audits and secure storage of sensitive components.",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:73",
+        "excerpt": "Regular vendor audits and secure storage of sensitive components."
+      }
+    },
+    {
+      "clause_id": "NEG-006-p74",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "NDAs and background verification for subcontractor staff.",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:74",
+        "excerpt": "NDAs and background verification for subcontractor staff."
+      }
+    },
+    {
+      "clause_id": "NEG-006-p76",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "4. Risk Mitigation Recommendations",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:76",
+        "excerpt": "4. Risk Mitigation Recommendations"
+      }
+    },
+    {
+      "clause_id": "NEG-006-p77",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Integrated Operational and Legal Strategy:",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:77",
+        "excerpt": "Integrated Operational and Legal Strategy:"
+      }
+    },
+    {
+      "clause_id": "NEG-006-p79",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "5. Observations and Lessons Learned",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:79",
+        "excerpt": "5. Observations and Lessons Learned"
+      }
+    },
+    {
+      "clause_id": "NEG-006-p80",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Early identification of cybersecurity risks helped incorporate stricter legal clauses and operational SLAs.",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:80",
+        "excerpt": "Early identification of cybersecurity risks helped incorporate stricter legal clauses and operational SLAs."
+      }
+    },
+    {
+      "clause_id": "NEG-006-p81",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Integration of technical and commercial teams ensured mitigation strategies were realistic and enforceable.",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:81",
+        "excerpt": "Integration of technical and commercial teams ensured mitigation strategies were realistic and enforceable."
+      }
+    },
+    {
+      "clause_id": "NEG-006-p82",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Pilot deployments and training significantly reduced operational risks.",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:82",
+        "excerpt": "Pilot deployments and training significantly reduced operational risks."
+      }
+    },
+    {
+      "clause_id": "NEG-006-p83",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Detailed documentation of supply chain and subcontractor controls supported regulatory compliance.",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:83",
+        "excerpt": "Detailed documentation of supply chain and subcontractor controls supported regulatory compliance."
+      }
+    },
+    {
+      "clause_id": "NEG-006-p85",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "6. Conclusion",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:85",
+        "excerpt": "6. Conclusion"
+      }
+    },
+    {
+      "clause_id": "NEG-006-p86",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "This comprehensive assessment emphasizes operational, technical, and cybersecurity risks in hardware deployment. It guided both parties in drafting a contract that balances accountability, regulatory compliance, and operational feasibility. These lessons are critical for future AI training models, ensuring nuanced negotiation strategies for complex BFSI hardware supply contracts.",
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:86",
+        "excerpt": "This comprehensive assessment emphasizes operational, technical, and cybersecurity risks in hardware deployment. It guided both parties in drafting a contract that balances accountability, regulatory compliance, and operational feasibility. These lessons are critical for future AI training models, ensuring nuanced negotiation strategies for complex BFSI hardware supply contracts."
+      }
+    }
+  ],
+  "tables": [
+    {
+      "table_id": "NEG-006-t0",
+      "doc_id": "NEG-006",
+      "doc_version": "1",
+      "table_index": 0,
+      "rows": [
+        [
+          "Risk Category",
+          "Mitigation Measures"
+        ],
+        [
+          "Cybersecurity & Data Privacy",
+          "Mandatory compliance with RBI and GDPR; breach notification within 24 hours; regular audits"
+        ],
+        [
+          "Technical Performance",
+          "Pilot testing; firmware rollback; spares on-site; stress tests under real conditions"
+        ],
+        [
+          "Operational Deployment",
+          "Staggered rollout; training programs; remote monitoring tools"
+        ],
+        [
+          "Maintenance & Upgrades",
+          "SLA-based maintenance; centralized ticketing; defined patch deployment timelines"
+        ],
+        [
+          "Supply Chain Security",
+          "Dual-sourcing; subcontractor audits; personnel background checks"
+        ],
+        [
+          "Liability & Indemnification",
+          "Unlimited liability for gross negligence; indemnification for data breaches; capped indirect damages"
+        ]
+      ],
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "table",
+        "locator": "table:0",
+        "excerpt": null
+      }
+    }
+  ],
+  "parse_status": "parsed",
+  "parse_error": null
+}

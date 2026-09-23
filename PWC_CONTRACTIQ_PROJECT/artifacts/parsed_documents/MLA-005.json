@@ -1,0 +1,533 @@
+{
+  "doc_id": "MLA-005",
+  "clauses": [
+    {
+      "clause_id": "MLA-005-p0",
+      "doc_id": "MLA-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "RATE CARD AGREEMENT \u2013 SAMPLE 2",
+      "source_location": {
+        "doc_id": "MLA-005",
+        "kind": "paragraph",
+        "locator": "paragraph:0",
+        "excerpt": "RATE CARD AGREEMENT \u2013 SAMPLE 2"
+      }
+    },
+    {
+      "clause_id": "MLA-005-p1",
+      "doc_id": "MLA-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Between PrimeVolta Hardware Solutions & FinSecure Services",
+      "source_location": {
+        "doc_id": "MLA-005",
+        "kind": "paragraph",
+        "locator": "paragraph:1",
+        "excerpt": "Between PrimeVolta Hardware Solutions & FinSecure Services"
+      }
+    },
+    {
+      "clause_id": "MLA-005-p3",
+      "doc_id": "MLA-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "1. PURPOSE, INTENT, AND STRATEGIC OBJECTIVE OF THIS AGREEMENT",
+      "source_location": {
+        "doc_id": "MLA-005",
+        "kind": "paragraph",
+        "locator": "paragraph:3",
+        "excerpt": "1. PURPOSE, INTENT, AND STRATEGIC OBJECTIVE OF THIS AGREEMENT"
+      }
+    },
+    {
+      "clause_id": "MLA-005-p4",
+      "doc_id": "MLA-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "This Rate Card Agreement (\u201cAgreement\u201d) is entered into between PrimeVolta Hardware Solutions (\u201cVendor\u201d) and FinSecure Services (\u201cClient\u201d) with the intention of establishing a transparent, structured, and long-term pricing governance model for the procurement of secure electronic hardware, embedded systems, field engineering services, annual maintenance programs, technical support resources, logistics operations, and the complete lifecycle management activities associated with BFSI-oriented deployments. The Parties acknowledge that banking and financial service environments demand high predictability, cost clarity, and audit-ready financial structures; accordingly, this Agreement is designed to function as the definitive and authoritative reference document for all pricing-related matters. By mutually agreeing to the pricing principles, device costs, service rates, warranty charges, and cost-escalation limits as set forth herein, the Parties intend to eliminate ambiguity, protect budgeting accuracy, minimize invoice-level disputes, and preserve long-term commercial stability across the duration of their cooperation. The Parties further affirm that this Agreement serves not merely as a static price sheet but as a dynamic governance framework that ensures cost accountability, regulatory compliance, and alignment with real-world operational demands.",
+      "source_location": {
+        "doc_id": "MLA-005",
+        "kind": "paragraph",
+        "locator": "paragraph:4",
+        "excerpt": "This Rate Card Agreement (\u201cAgreement\u201d) is entered into between PrimeVolta Hardware Solutions (\u201cVendor\u201d) and FinSecure Services (\u201cClient\u201d) with the intention of establishing a transparent, structured, and long-term pricing governance model for the procurement of secure electronic hardware, embedded systems, field engineering services, annual maintenance programs, technical support resources, logistics operations, and the complete lifecycle management activities associated with BFSI-oriented deployments. The Parties acknowledge that banking and financial service environments demand high predictability, cost clarity, and audit-ready financial structures; accordingly, this Agreement is designed to function as the definitive and authoritative reference document for all pricing-related matters. By mutually agreeing to the pricing principles, device costs, service rates, warranty charges, and cost-escalation limits as set forth herein, the Parties intend to eliminate ambiguity, protect budgeting accuracy, minimize invoice-level disputes, and preserve long-term commercial stability across the duration of their cooperation. The Parties further affirm that this Agreement serves not merely as a static price sheet but as a dynamic governance framework that ensures cost accountability, regulatory compliance, and alignment with real-world operational demands."
+      }
+    },
+    {
+      "clause_id": "MLA-005-p6",
+      "doc_id": "MLA-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "2. EXTENDED SCOPE OF PRODUCTS, SERVICES, COMPONENTS, AND CHARGEABLE LINE ITEMS",
+      "source_location": {
+        "doc_id": "MLA-005",
+        "kind": "paragraph",
+        "locator": "paragraph:6",
+        "excerpt": "2. EXTENDED SCOPE OF PRODUCTS, SERVICES, COMPONENTS, AND CHARGEABLE LINE ITEMS"
+      }
+    },
+    {
+      "clause_id": "MLA-005-p7",
+      "doc_id": "MLA-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "The scope of this Agreement is intentionally broad, covering every category of hardware, firmware, software-adjacent service, engineering activity, logistical operation, and maintenance initiative likely to arise throughout the lifecycle of BFSI deployments. This includes advanced authentication terminals, biometric KYC devices, secure microcontroller-based embedded systems, smart payment controllers, IoT-enabled branch infrastructure devices, encryption modules, kiosk-grade hardware, branch automation components, networking accessories, and any ancillary peripherals necessary to complete a deployment. The scope also encompasses technical services such as field installations, device audits, configuration sessions, firmware upgrades, security patch deployments, preventive maintenance visits, on-demand technical support, and compliance-driven hardware inspections.",
+      "source_location": {
+        "doc_id": "MLA-005",
+        "kind": "paragraph",
+        "locator": "paragraph:7",
+        "excerpt": "The scope of this Agreement is intentionally broad, covering every category of hardware, firmware, software-adjacent service, engineering activity, logistical operation, and maintenance initiative likely to arise throughout the lifecycle of BFSI deployments. This includes advanced authentication terminals, biometric KYC devices, secure microcontroller-based embedded systems, smart payment controllers, IoT-enabled branch infrastructure devices, encryption modules, kiosk-grade hardware, branch automation components, networking accessories, and any ancillary peripherals necessary to complete a deployment. The scope also encompasses technical services such as field installations, device audits, configuration sessions, firmware upgrades, security patch deployments, preventive maintenance visits, on-demand technical support, and compliance-driven hardware inspections."
+      }
+    },
+    {
+      "clause_id": "MLA-005-p8",
+      "doc_id": "MLA-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Furthermore, the Parties acknowledge that other cost components such as reverse logistics, spare parts provisioning, battery replacements, display modules, cable assemblies, and board-level repairs are inherently part of BFSI device lifecycle management. Therefore, every such component shall be considered under the governance of this Agreement. The Vendor agrees that no cost component, however minor or situational, may exist outside this Agreement unless formally introduced through an amendment. This assures complete transparency and prevents unexpected expenditure for the Client at any stage of project execution.",
+      "source_location": {
+        "doc_id": "MLA-005",
+        "kind": "paragraph",
+        "locator": "paragraph:8",
+        "excerpt": "Furthermore, the Parties acknowledge that other cost components such as reverse logistics, spare parts provisioning, battery replacements, display modules, cable assemblies, and board-level repairs are inherently part of BFSI device lifecycle management. Therefore, every such component shall be considered under the governance of this Agreement. The Vendor agrees that no cost component, however minor or situational, may exist outside this Agreement unless formally introduced through an amendment. This assures complete transparency and prevents unexpected expenditure for the Client at any stage of project execution."
+      }
+    },
+    {
+      "clause_id": "MLA-005-p10",
+      "doc_id": "MLA-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3. DEVICE PRICING FRAMEWORK, COMPONENT COST TRANSPARENCY, AND VERSION-BASED PRICING ASSURANCE",
+      "source_location": {
+        "doc_id": "MLA-005",
+        "kind": "paragraph",
+        "locator": "paragraph:10",
+        "excerpt": "3. DEVICE PRICING FRAMEWORK, COMPONENT COST TRANSPARENCY, AND VERSION-BASED PRICING ASSURANCE"
+      }
+    },
+    {
+      "clause_id": "MLA-005-p11",
+      "doc_id": "MLA-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "The Vendor shall provide the Client with a meticulously detailed device pricing framework that lists the per-unit cost of every hardware category supplied under this collaboration. Each price defined herein shall inherently include raw material costs, semiconductor procurement expenses, assembly costs, PCB fabrication costs, firmware flashing costs, functional testing, device-level quality assurance, standard accessories, and packaging prepared for BFSI shipment standards. The Vendor assures the Client that every listed unit price corresponds to a fully functional device that undergoes verification against production checklists, quality metrics, and security compliance benchmarks relevant to the BFSI sector.",
+      "source_location": {
+        "doc_id": "MLA-005",
+        "kind": "paragraph",
+        "locator": "paragraph:11",
+        "excerpt": "The Vendor shall provide the Client with a meticulously detailed device pricing framework that lists the per-unit cost of every hardware category supplied under this collaboration. Each price defined herein shall inherently include raw material costs, semiconductor procurement expenses, assembly costs, PCB fabrication costs, firmware flashing costs, functional testing, device-level quality assurance, standard accessories, and packaging prepared for BFSI shipment standards. The Vendor assures the Client that every listed unit price corresponds to a fully functional device that undergoes verification against production checklists, quality metrics, and security compliance benchmarks relevant to the BFSI sector."
+      }
+    },
+    {
+      "clause_id": "MLA-005-p12",
+      "doc_id": "MLA-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "The Parties acknowledge that hardware devices may evolve over time due to component end-of-life situations, regulatory hardware certification changes, or manufacturing-level revisions. The Vendor shall not alter unit pricing merely due to version changes or hardware revisions unless a revision introduces material improvements or additional functionalities. For any revision that necessitates a price adjustment, the Vendor shall provide the Client with detailed impact documentation, technical comparison sheets, and justification evidencing the cost elements driving the adjustment. Until such justification is reviewed and approved by the Client, the Vendor shall continue to supply the hardware at the existing rate card pricing.",
+      "source_location": {
+        "doc_id": "MLA-005",
+        "kind": "paragraph",
+        "locator": "paragraph:12",
+        "excerpt": "The Parties acknowledge that hardware devices may evolve over time due to component end-of-life situations, regulatory hardware certification changes, or manufacturing-level revisions. The Vendor shall not alter unit pricing merely due to version changes or hardware revisions unless a revision introduces material improvements or additional functionalities. For any revision that necessitates a price adjustment, the Vendor shall provide the Client with detailed impact documentation, technical comparison sheets, and justification evidencing the cost elements driving the adjustment. Until such justification is reviewed and approved by the Client, the Vendor shall continue to supply the hardware at the existing rate card pricing."
+      }
+    },
+    {
+      "clause_id": "MLA-005-p14",
+      "doc_id": "MLA-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "4. PRICING MODEL FOR INSTALLATION, INTEGRATION, AND FIELD ENGINEERING SERVICES",
+      "source_location": {
+        "doc_id": "MLA-005",
+        "kind": "paragraph",
+        "locator": "paragraph:14",
+        "excerpt": "4. PRICING MODEL FOR INSTALLATION, INTEGRATION, AND FIELD ENGINEERING SERVICES"
+      }
+    },
+    {
+      "clause_id": "MLA-005-p15",
+      "doc_id": "MLA-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "The Vendor shall maintain a comprehensive pricing structure governing the cost of installation, device commissioning, software-hardware integration, firmware onboarding, branch-level workflow configuration, and technical validation. Each deployment assignment performed by the Vendor\u2019s engineering resources shall be chargeable based on clear criteria such as location, complexity, device volume, installation readiness, access timelines, and operational dependencies. The Vendor shall ensure that the installation rate is inclusive of labour charges, travel arrangements, onsite diagnostics, sanitation of previous configurations, training for branch personnel, validation testing, and documentation of installation reports.",
+      "source_location": {
+        "doc_id": "MLA-005",
+        "kind": "paragraph",
+        "locator": "paragraph:15",
+        "excerpt": "The Vendor shall maintain a comprehensive pricing structure governing the cost of installation, device commissioning, software-hardware integration, firmware onboarding, branch-level workflow configuration, and technical validation. Each deployment assignment performed by the Vendor\u2019s engineering resources shall be chargeable based on clear criteria such as location, complexity, device volume, installation readiness, access timelines, and operational dependencies. The Vendor shall ensure that the installation rate is inclusive of labour charges, travel arrangements, onsite diagnostics, sanitation of previous configurations, training for branch personnel, validation testing, and documentation of installation reports."
+      }
+    },
+    {
+      "clause_id": "MLA-005-p16",
+      "doc_id": "MLA-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "If integration services involve advanced tasks such as secure firmware provisioning, custom encryption key loading, proprietary protocol configuration, or enterprise-level network pairing, the Vendor may apply premium engineering charges only if such charges are explicitly captured within this Agreement. The Vendor shall not levy any hidden fees related to onsite complexity, unexpected delays, or additional man-hours unless such situations are approved by the Client and documented under appropriate service records. All installation and engineering charges remain strictly bound to the rate card structure and cannot be modified on a per-project basis unless formally approved through amendment.",
+      "source_location": {
+        "doc_id": "MLA-005",
+        "kind": "paragraph",
+        "locator": "paragraph:16",
+        "excerpt": "If integration services involve advanced tasks such as secure firmware provisioning, custom encryption key loading, proprietary protocol configuration, or enterprise-level network pairing, the Vendor may apply premium engineering charges only if such charges are explicitly captured within this Agreement. The Vendor shall not levy any hidden fees related to onsite complexity, unexpected delays, or additional man-hours unless such situations are approved by the Client and documented under appropriate service records. All installation and engineering charges remain strictly bound to the rate card structure and cannot be modified on a per-project basis unless formally approved through amendment."
+      }
+    },
+    {
+      "clause_id": "MLA-005-p18",
+      "doc_id": "MLA-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "5. ADVANCED WARRANTY PRICING, EXTENDED DEVICE COVERAGE, AND AMC COST STRUCTURE",
+      "source_location": {
+        "doc_id": "MLA-005",
+        "kind": "paragraph",
+        "locator": "paragraph:18",
+        "excerpt": "5. ADVANCED WARRANTY PRICING, EXTENDED DEVICE COVERAGE, AND AMC COST STRUCTURE"
+      }
+    },
+    {
+      "clause_id": "MLA-005-p19",
+      "doc_id": "MLA-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Given the long operational life of BFSI hardware, the Parties agree that warranty pricing must reflect actual lifecycle support, predictable service obligations, and transparent repair economics. The Vendor shall specify warranty extension prices for each hardware type, ensuring that the pricing covers all critical components including sensors, display modules, PCBs, connectors, and embedded chips. The Vendor also agrees that extended warranty pricing shall not exclude any component unless explicitly stated in writing. Any component-based exclusions must be clearly disclosed at the time of device supply.",
+      "source_location": {
+        "doc_id": "MLA-005",
+        "kind": "paragraph",
+        "locator": "paragraph:19",
+        "excerpt": "Given the long operational life of BFSI hardware, the Parties agree that warranty pricing must reflect actual lifecycle support, predictable service obligations, and transparent repair economics. The Vendor shall specify warranty extension prices for each hardware type, ensuring that the pricing covers all critical components including sensors, display modules, PCBs, connectors, and embedded chips. The Vendor also agrees that extended warranty pricing shall not exclude any component unless explicitly stated in writing. Any component-based exclusions must be clearly disclosed at the time of device supply."
+      }
+    },
+    {
+      "clause_id": "MLA-005-p20",
+      "doc_id": "MLA-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Annual Maintenance Contracts (AMC) shall also be priced under this Agreement, ensuring that AMC charges reflect industry-aligned maintenance obligations such as scheduled preventive visits, firmware patch cycles, device uptime monitoring, remote diagnostics, onsite support availability, real-time support desk access, and performance analytics reporting. The Vendor shall ensure that AMC pricing remains fixed for all devices purchased under this Agreement, regardless of future fluctuations in manpower costs, component scarcity, or macroeconomic factors. The Client shall always retain the right to review AMC inclusions and exclusions before opting into AMC coverage, and the Vendor shall provide clarifications without delay.",
+      "source_location": {
+        "doc_id": "MLA-005",
+        "kind": "paragraph",
+        "locator": "paragraph:20",
+        "excerpt": "Annual Maintenance Contracts (AMC) shall also be priced under this Agreement, ensuring that AMC charges reflect industry-aligned maintenance obligations such as scheduled preventive visits, firmware patch cycles, device uptime monitoring, remote diagnostics, onsite support availability, real-time support desk access, and performance analytics reporting. The Vendor shall ensure that AMC pricing remains fixed for all devices purchased under this Agreement, regardless of future fluctuations in manpower costs, component scarcity, or macroeconomic factors. The Client shall always retain the right to review AMC inclusions and exclusions before opting into AMC coverage, and the Vendor shall provide clarifications without delay."
+      }
+    },
+    {
+      "clause_id": "MLA-005-p22",
+      "doc_id": "MLA-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "6. LOGISTICS COST STRUCTURE, STORAGE HANDLING, SHIPPING GOVERNANCE, AND REVERSE FREIGHT ECONOMICS",
+      "source_location": {
+        "doc_id": "MLA-005",
+        "kind": "paragraph",
+        "locator": "paragraph:22",
+        "excerpt": "6. LOGISTICS COST STRUCTURE, STORAGE HANDLING, SHIPPING GOVERNANCE, AND REVERSE FREIGHT ECONOMICS"
+      }
+    },
+    {
+      "clause_id": "MLA-005-p23",
+      "doc_id": "MLA-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "The Vendor shall apply logistics pricing that reflects actual transportation, handling, and packaging costs associated with secure BFSI hardware. This includes multi-layer protective packaging, anti-static shielding, tamper-evident sealing, warehouse handling, dispatch oversight, and shipment tracking. The Vendor shall charge shipping fees based on weight brackets, distance tiers, and packaging complexity but agrees that such charges shall not exceed the ceilings defined under this Agreement. If the Client requests expedited shipping or same-day dispatch for urgent deployments, the Vendor shall follow the pricing structure recorded in this Agreement and shall not add unapproved surcharges.",
+      "source_location": {
+        "doc_id": "MLA-005",
+        "kind": "paragraph",
+        "locator": "paragraph:23",
+        "excerpt": "The Vendor shall apply logistics pricing that reflects actual transportation, handling, and packaging costs associated with secure BFSI hardware. This includes multi-layer protective packaging, anti-static shielding, tamper-evident sealing, warehouse handling, dispatch oversight, and shipment tracking. The Vendor shall charge shipping fees based on weight brackets, distance tiers, and packaging complexity but agrees that such charges shall not exceed the ceilings defined under this Agreement. If the Client requests expedited shipping or same-day dispatch for urgent deployments, the Vendor shall follow the pricing structure recorded in this Agreement and shall not add unapproved surcharges."
+      }
+    },
+    {
+      "clause_id": "MLA-005-p24",
+      "doc_id": "MLA-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Reverse logistics charges shall be governed by a similarly structured model. This includes the cost of collecting defective devices, RMA units, out-of-warranty equipment, or items scheduled for repair or inspection. The Vendor shall manage packaging for reverse pickup, ensure safe transit, and coordinate with logistics partners to minimize delays that could disrupt BFSI operations. Under no circumstances shall the Vendor impose reverse logistics charges beyond the limits codified within this Agreement, even in cases of sudden market fluctuations or fuel price surges.",
+      "source_location": {
+        "doc_id": "MLA-005",
+        "kind": "paragraph",
+        "locator": "paragraph:24",
+        "excerpt": "Reverse logistics charges shall be governed by a similarly structured model. This includes the cost of collecting defective devices, RMA units, out-of-warranty equipment, or items scheduled for repair or inspection. The Vendor shall manage packaging for reverse pickup, ensure safe transit, and coordinate with logistics partners to minimize delays that could disrupt BFSI operations. Under no circumstances shall the Vendor impose reverse logistics charges beyond the limits codified within this Agreement, even in cases of sudden market fluctuations or fuel price surges."
+      }
+    },
+    {
+      "clause_id": "MLA-005-p26",
+      "doc_id": "MLA-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "7. RESOURCE PRICING FOR ON-SITE SUPPORT, MANAGED SERVICES, AND SPECIALIST OPERATIONS",
+      "source_location": {
+        "doc_id": "MLA-005",
+        "kind": "paragraph",
+        "locator": "paragraph:26",
+        "excerpt": "7. RESOURCE PRICING FOR ON-SITE SUPPORT, MANAGED SERVICES, AND SPECIALIST OPERATIONS"
+      }
+    },
+    {
+      "clause_id": "MLA-005-p27",
+      "doc_id": "MLA-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "The Vendor shall define clear rate structures for deploying technical personnel to Client premises for ongoing support, specialist engineering assistance, compliance inspections, infrastructure migration activities, branch audits, device health assessments, or firmware standardization drives. On-site personnel pricing shall include but not be limited to daily engineer rates, per-visit charges, remote session escalation charges, night-time or holiday support charges, temporary staffing for project surges, and dedicated full-time resource charges where applicable. The Vendor shall ensure that all resource prices align with market norms and remain competitive for BFSI sector engagements.",
+      "source_location": {
+        "doc_id": "MLA-005",
+        "kind": "paragraph",
+        "locator": "paragraph:27",
+        "excerpt": "The Vendor shall define clear rate structures for deploying technical personnel to Client premises for ongoing support, specialist engineering assistance, compliance inspections, infrastructure migration activities, branch audits, device health assessments, or firmware standardization drives. On-site personnel pricing shall include but not be limited to daily engineer rates, per-visit charges, remote session escalation charges, night-time or holiday support charges, temporary staffing for project surges, and dedicated full-time resource charges where applicable. The Vendor shall ensure that all resource prices align with market norms and remain competitive for BFSI sector engagements."
+      }
+    },
+    {
+      "clause_id": "MLA-005-p28",
+      "doc_id": "MLA-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "If the Client requires manpower for complex operations such as security sandbox testing, PSU audit compliance support, mass firmware rollout campaigns, or large-scale device refresh cycles, such activities shall also be covered under the pricing model established in this Agreement. Any requirement for specialized engineers\u2014such as firmware developers, hardware analysts, or network security specialists\u2014shall be priced in accordance with mutually agreed rates and shall remain binding for the tenure of this Agreement.",
+      "source_location": {
+        "doc_id": "MLA-005",
+        "kind": "paragraph",
+        "locator": "paragraph:28",
+        "excerpt": "If the Client requires manpower for complex operations such as security sandbox testing, PSU audit compliance support, mass firmware rollout campaigns, or large-scale device refresh cycles, such activities shall also be covered under the pricing model established in this Agreement. Any requirement for specialized engineers\u2014such as firmware developers, hardware analysts, or network security specialists\u2014shall be priced in accordance with mutually agreed rates and shall remain binding for the tenure of this Agreement."
+      }
+    },
+    {
+      "clause_id": "MLA-005-p30",
+      "doc_id": "MLA-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "8. PRICE PROTECTION, ESCALATION CONSTRAINTS, AND ANNUAL REVIEW MECHANISM",
+      "source_location": {
+        "doc_id": "MLA-005",
+        "kind": "paragraph",
+        "locator": "paragraph:30",
+        "excerpt": "8. PRICE PROTECTION, ESCALATION CONSTRAINTS, AND ANNUAL REVIEW MECHANISM"
+      }
+    },
+    {
+      "clause_id": "MLA-005-p31",
+      "doc_id": "MLA-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "The Parties recognize that long-term BFSI deployment programs require cost stability and predictable future planning. Accordingly, all hardware prices, deployment prices, and service prices defined within this Agreement shall remain protected for a minimum of twelve months from the date of execution. The Vendor may request a price review at the completion of the annual cycle, but only if supported by objective cost evidence such as component market movements, semiconductor inflation indexes, or logistics rate fluctuations. The Vendor shall not request escalation based on general operational costs or internal budgeting issues. Any escalation beyond five percent per annum shall require deep commercial justification and may be accepted or rejected at the Client\u2019s discretion.",
+      "source_location": {
+        "doc_id": "MLA-005",
+        "kind": "paragraph",
+        "locator": "paragraph:31",
+        "excerpt": "The Parties recognize that long-term BFSI deployment programs require cost stability and predictable future planning. Accordingly, all hardware prices, deployment prices, and service prices defined within this Agreement shall remain protected for a minimum of twelve months from the date of execution. The Vendor may request a price review at the completion of the annual cycle, but only if supported by objective cost evidence such as component market movements, semiconductor inflation indexes, or logistics rate fluctuations. The Vendor shall not request escalation based on general operational costs or internal budgeting issues. Any escalation beyond five percent per annum shall require deep commercial justification and may be accepted or rejected at the Client\u2019s discretion."
+      }
+    },
+    {
+      "clause_id": "MLA-005-p32",
+      "doc_id": "MLA-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "The Parties may jointly conduct annual price benchmarking to ensure that the rate card remains aligned with market conditions while preserving long-term viability. Any approved changes shall be documented through a formal amendment signed by both Parties and shall not take effect until mutual execution.",
+      "source_location": {
+        "doc_id": "MLA-005",
+        "kind": "paragraph",
+        "locator": "paragraph:32",
+        "excerpt": "The Parties may jointly conduct annual price benchmarking to ensure that the rate card remains aligned with market conditions while preserving long-term viability. Any approved changes shall be documented through a formal amendment signed by both Parties and shall not take effect until mutual execution."
+      }
+    },
+    {
+      "clause_id": "MLA-005-p34",
+      "doc_id": "MLA-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "9. INVOICE ALIGNMENT REQUIREMENTS, FINANCIAL TRANSPARENCY, AND AUDIT COMPLIANCE",
+      "source_location": {
+        "doc_id": "MLA-005",
+        "kind": "paragraph",
+        "locator": "paragraph:34",
+        "excerpt": "9. INVOICE ALIGNMENT REQUIREMENTS, FINANCIAL TRANSPARENCY, AND AUDIT COMPLIANCE"
+      }
+    },
+    {
+      "clause_id": "MLA-005-p35",
+      "doc_id": "MLA-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "All invoices raised by the Vendor shall strictly correspond to the pricing categories and values stated in this Agreement. No invoice may include line items that deviate from or exceed the approved rate card. Each invoice shall clearly document the items delivered, services performed, quantities involved, timelines, and calculations used. The Client shall retain the right to request supporting documentation such as installation logs, deployment reports, RMA receipts, or travel proofs for verification. The Vendor agrees to cooperate fully with any internal audits, financial reconciliations, or compliance checks performed by the Client or any regulatory authorities governing BFSI operations.",
+      "source_location": {
+        "doc_id": "MLA-005",
+        "kind": "paragraph",
+        "locator": "paragraph:35",
+        "excerpt": "All invoices raised by the Vendor shall strictly correspond to the pricing categories and values stated in this Agreement. No invoice may include line items that deviate from or exceed the approved rate card. Each invoice shall clearly document the items delivered, services performed, quantities involved, timelines, and calculations used. The Client shall retain the right to request supporting documentation such as installation logs, deployment reports, RMA receipts, or travel proofs for verification. The Vendor agrees to cooperate fully with any internal audits, financial reconciliations, or compliance checks performed by the Client or any regulatory authorities governing BFSI operations."
+      }
+    },
+    {
+      "clause_id": "MLA-005-p36",
+      "doc_id": "MLA-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "If discrepancies arise between an invoice and the rate card, the Vendor shall immediately correct the invoice without delaying the overall billing cycle. The Parties commit to resolving all invoice disputes in a professional and timely manner to preserve the operational continuity of BFSI deployments.",
+      "source_location": {
+        "doc_id": "MLA-005",
+        "kind": "paragraph",
+        "locator": "paragraph:36",
+        "excerpt": "If discrepancies arise between an invoice and the rate card, the Vendor shall immediately correct the invoice without delaying the overall billing cycle. The Parties commit to resolving all invoice disputes in a professional and timely manner to preserve the operational continuity of BFSI deployments."
+      }
+    },
+    {
+      "clause_id": "MLA-005-p38",
+      "doc_id": "MLA-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "10. EXCLUSIONS, NON-ALLOWED CHARGES, AND PROHIBITION OF HIDDEN FEES",
+      "source_location": {
+        "doc_id": "MLA-005",
+        "kind": "paragraph",
+        "locator": "paragraph:38",
+        "excerpt": "10. EXCLUSIONS, NON-ALLOWED CHARGES, AND PROHIBITION OF HIDDEN FEES"
+      }
+    },
+    {
+      "clause_id": "MLA-005-p39",
+      "doc_id": "MLA-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "The Vendor acknowledges that under no circumstances shall it introduce any new financial charge outside this Agreement without explicit written approval. Charges such as diagnostic fees, incidental device handling fees, security activation fees, firmware revision surcharge, part scarcity surcharge, material crisis surcharge, or any other unilateral price addition shall be strictly prohibited. The Client shall not be obligated to pay for resource wait times, idle engineer hours, or vendor-driven deployment delays. This protects the Client from unexpected financial exposure and ensures absolute commercial predictability throughout the contract term.",
+      "source_location": {
+        "doc_id": "MLA-005",
+        "kind": "paragraph",
+        "locator": "paragraph:39",
+        "excerpt": "The Vendor acknowledges that under no circumstances shall it introduce any new financial charge outside this Agreement without explicit written approval. Charges such as diagnostic fees, incidental device handling fees, security activation fees, firmware revision surcharge, part scarcity surcharge, material crisis surcharge, or any other unilateral price addition shall be strictly prohibited. The Client shall not be obligated to pay for resource wait times, idle engineer hours, or vendor-driven deployment delays. This protects the Client from unexpected financial exposure and ensures absolute commercial predictability throughout the contract term."
+      }
+    },
+    {
+      "clause_id": "MLA-005-p41",
+      "doc_id": "MLA-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "11. CONFIDENTIALITY OF PRICING AND PROTECTION OF COMMERCIAL TERMS",
+      "source_location": {
+        "doc_id": "MLA-005",
+        "kind": "paragraph",
+        "locator": "paragraph:41",
+        "excerpt": "11. CONFIDENTIALITY OF PRICING AND PROTECTION OF COMMERCIAL TERMS"
+      }
+    },
+    {
+      "clause_id": "MLA-005-p42",
+      "doc_id": "MLA-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "The Parties agree that all pricing information captured within this Agreement constitutes confidential information of the highest commercial sensitivity. Both Parties shall handle the rate card under strict confidentiality controls and shall not disclose, replicate, publish, or share the contents with third parties without prior written approval. The Vendor shall maintain non-disclosure controls that prevent its sales teams, channel partners, or other clients from gaining unauthorized access to the Client\u2019s negotiated pricing. The Client likewise shall ensure that internal access is limited to procurement, finance, audit, and senior management stakeholders. This confidentiality obligation shall survive termination of this Agreement for a minimum of five years.",
+      "source_location": {
+        "doc_id": "MLA-005",
+        "kind": "paragraph",
+        "locator": "paragraph:42",
+        "excerpt": "The Parties agree that all pricing information captured within this Agreement constitutes confidential information of the highest commercial sensitivity. Both Parties shall handle the rate card under strict confidentiality controls and shall not disclose, replicate, publish, or share the contents with third parties without prior written approval. The Vendor shall maintain non-disclosure controls that prevent its sales teams, channel partners, or other clients from gaining unauthorized access to the Client\u2019s negotiated pricing. The Client likewise shall ensure that internal access is limited to procurement, finance, audit, and senior management stakeholders. This confidentiality obligation shall survive termination of this Agreement for a minimum of five years."
+      }
+    },
+    {
+      "clause_id": "MLA-005-p44",
+      "doc_id": "MLA-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "12. TERM, TERMINATION RIGHTS, RENEWAL, AND AMENDMENT FRAMEWORK",
+      "source_location": {
+        "doc_id": "MLA-005",
+        "kind": "paragraph",
+        "locator": "paragraph:44",
+        "excerpt": "12. TERM, TERMINATION RIGHTS, RENEWAL, AND AMENDMENT FRAMEWORK"
+      }
+    },
+    {
+      "clause_id": "MLA-005-p45",
+      "doc_id": "MLA-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "This Agreement shall come into effect on the date of signature and shall remain valid until terminated or replaced through a mutually executed revised rate card. Either Party may initiate a request for revision or termination; however, termination shall not invalidate any pricing commitments made for orders already placed. Any pricing amendments, additions, deletions, or adjustments must be documented through a written addendum signed by authorized representatives of both Parties. Verbal commitments, email confirmations, or informal discussions shall not constitute valid amendments under any circumstances. The Vendor shall continue to honour all accepted purchase orders based on the current rate card until the Parties formally transition to a new version.",
+      "source_location": {
+        "doc_id": "MLA-005",
+        "kind": "paragraph",
+        "locator": "paragraph:45",
+        "excerpt": "This Agreement shall come into effect on the date of signature and shall remain valid until terminated or replaced through a mutually executed revised rate card. Either Party may initiate a request for revision or termination; however, termination shall not invalidate any pricing commitments made for orders already placed. Any pricing amendments, additions, deletions, or adjustments must be documented through a written addendum signed by authorized representatives of both Parties. Verbal commitments, email confirmations, or informal discussions shall not constitute valid amendments under any circumstances. The Vendor shall continue to honour all accepted purchase orders based on the current rate card until the Parties formally transition to a new version."
+      }
+    },
+    {
+      "clause_id": "MLA-005-p47",
+      "doc_id": "MLA-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "SIGNED:\nPrimeVolta Hardware Solutions\nFinSecure Services",
+      "source_location": {
+        "doc_id": "MLA-005",
+        "kind": "paragraph",
+        "locator": "paragraph:47",
+        "excerpt": "SIGNED:\nPrimeVolta Hardware Solutions\nFinSecure Services"
+      }
+    }
+  ],
+  "tables": [],
+  "parse_status": "parsed",
+  "parse_error": null
+}

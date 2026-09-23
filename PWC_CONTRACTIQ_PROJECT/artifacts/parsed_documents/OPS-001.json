@@ -1,0 +1,1177 @@
+{
+  "doc_id": "OPS-001",
+  "clauses": [
+    {
+      "clause_id": "OPS-001-p0",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Primevolta Hardware Solutions",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:0",
+        "excerpt": "Primevolta Hardware Solutions"
+      }
+    },
+    {
+      "clause_id": "OPS-001-p1",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Incident & Problem Management Report\nClient: FinSecure Services\nReporting Period: November 2025",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:1",
+        "excerpt": "Incident & Problem Management Report\nClient: FinSecure Services\nReporting Period: November 2025"
+      }
+    },
+    {
+      "clause_id": "OPS-001-p3",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "1. Executive Summary",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:3",
+        "excerpt": "1. Executive Summary"
+      }
+    },
+    {
+      "clause_id": "OPS-001-p4",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "This report provides a detailed overview of all incidents and problems encountered, managed, and resolved by Primevolta Hardware Solutions for FinSecure Services during November 2025. The objective of this report is to track incident trends, analyze recurring problems, document resolutions, and provide recommendations to prevent recurrence, thereby maintaining high availability and operational efficiency across BFSI hardware systems.",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:4",
+        "excerpt": "This report provides a detailed overview of all incidents and problems encountered, managed, and resolved by Primevolta Hardware Solutions for FinSecure Services during November 2025. The objective of this report is to track incident trends, analyze recurring problems, document resolutions, and provide recommendations to prevent recurrence, thereby maintaining high availability and operational efficiency across BFSI hardware systems."
+      }
+    },
+    {
+      "clause_id": "OPS-001-p5",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "During this reporting period, 145 incidents were logged, including 12 critical incidents affecting core servers and network infrastructure. The report also includes problem management summaries, root cause analyses, corrective actions, and SLA performance metrics.",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:5",
+        "excerpt": "During this reporting period, 145 incidents were logged, including 12 critical incidents affecting core servers and network infrastructure. The report also includes problem management summaries, root cause analyses, corrective actions, and SLA performance metrics."
+      }
+    },
+    {
+      "clause_id": "OPS-001-p7",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "2. Scope of Incident & Problem Management",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:7",
+        "excerpt": "2. Scope of Incident & Problem Management"
+      }
+    },
+    {
+      "clause_id": "OPS-001-p8",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Primevolta Hardware Solutions provided the following incident and problem management services:",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:8",
+        "excerpt": "Primevolta Hardware Solutions provided the following incident and problem management services:"
+      }
+    },
+    {
+      "clause_id": "OPS-001-p9",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Incident Logging and Categorization",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:9",
+        "excerpt": "Incident Logging and Categorization"
+      }
+    },
+    {
+      "clause_id": "OPS-001-p10",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Captured all hardware, network, and end-user device incidents.",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:10",
+        "excerpt": "Captured all hardware, network, and end-user device incidents."
+      }
+    },
+    {
+      "clause_id": "OPS-001-p11",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Categorized by severity (Critical, High, Medium, Low).",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:11",
+        "excerpt": "Categorized by severity (Critical, High, Medium, Low)."
+      }
+    },
+    {
+      "clause_id": "OPS-001-p12",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Incident Investigation and Resolution",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:12",
+        "excerpt": "Incident Investigation and Resolution"
+      }
+    },
+    {
+      "clause_id": "OPS-001-p13",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Performed root cause analysis.",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:13",
+        "excerpt": "Performed root cause analysis."
+      }
+    },
+    {
+      "clause_id": "OPS-001-p14",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Implemented corrective and preventive measures.",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:14",
+        "excerpt": "Implemented corrective and preventive measures."
+      }
+    },
+    {
+      "clause_id": "OPS-001-p15",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Problem Management",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:15",
+        "excerpt": "Problem Management"
+      }
+    },
+    {
+      "clause_id": "OPS-001-p16",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Identified recurring incidents to determine systemic issues.",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:16",
+        "excerpt": "Identified recurring incidents to determine systemic issues."
+      }
+    },
+    {
+      "clause_id": "OPS-001-p17",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Recommended infrastructure improvements to prevent future occurrences.",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:17",
+        "excerpt": "Recommended infrastructure improvements to prevent future occurrences."
+      }
+    },
+    {
+      "clause_id": "OPS-001-p18",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "SLA Tracking and Reporting",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:18",
+        "excerpt": "SLA Tracking and Reporting"
+      }
+    },
+    {
+      "clause_id": "OPS-001-p19",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Monitored incident response and resolution times.",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:19",
+        "excerpt": "Monitored incident response and resolution times."
+      }
+    },
+    {
+      "clause_id": "OPS-001-p20",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Ensured compliance with agreed SLA thresholds.",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:20",
+        "excerpt": "Ensured compliance with agreed SLA thresholds."
+      }
+    },
+    {
+      "clause_id": "OPS-001-p22",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3. Incident Summary",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:22",
+        "excerpt": "3. Incident Summary"
+      }
+    },
+    {
+      "clause_id": "OPS-001-p23",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Analysis:",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:23",
+        "excerpt": "Analysis:"
+      }
+    },
+    {
+      "clause_id": "OPS-001-p24",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Majority of incidents were hardware-related (60%), followed by network issues (25%), and end-user devices (15%).",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:24",
+        "excerpt": "Majority of incidents were hardware-related (60%), followed by network issues (25%), and end-user devices (15%)."
+      }
+    },
+    {
+      "clause_id": "OPS-001-p25",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Critical incidents accounted for 8% of total tickets but were resolved within SLA.",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:25",
+        "excerpt": "Critical incidents accounted for 8% of total tickets but were resolved within SLA."
+      }
+    },
+    {
+      "clause_id": "OPS-001-p26",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Preventive maintenance activities reduced potential downtime and recurring failures.",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:26",
+        "excerpt": "Preventive maintenance activities reduced potential downtime and recurring failures."
+      }
+    },
+    {
+      "clause_id": "OPS-001-p28",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "4. Problem Management Summary",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:28",
+        "excerpt": "4. Problem Management Summary"
+      }
+    },
+    {
+      "clause_id": "OPS-001-p29",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "4.1 Problem Identification",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:29",
+        "excerpt": "4.1 Problem Identification"
+      }
+    },
+    {
+      "clause_id": "OPS-001-p30",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Recurring issues identified during this period include:",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:30",
+        "excerpt": "Recurring issues identified during this period include:"
+      }
+    },
+    {
+      "clause_id": "OPS-001-p31",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Server Disk Failures:",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:31",
+        "excerpt": "Server Disk Failures:"
+      }
+    },
+    {
+      "clause_id": "OPS-001-p32",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Multiple disk failures across legacy storage arrays.",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:32",
+        "excerpt": "Multiple disk failures across legacy storage arrays."
+      }
+    },
+    {
+      "clause_id": "OPS-001-p33",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Root Cause: Aging hardware and insufficient monitoring alerts.",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:33",
+        "excerpt": "Root Cause: Aging hardware and insufficient monitoring alerts."
+      }
+    },
+    {
+      "clause_id": "OPS-001-p34",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Network Latency in Branch A:",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:34",
+        "excerpt": "Network Latency in Branch A:"
+      }
+    },
+    {
+      "clause_id": "OPS-001-p35",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Intermittent latency affecting transaction processing.",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:35",
+        "excerpt": "Intermittent latency affecting transaction processing."
+      }
+    },
+    {
+      "clause_id": "OPS-001-p36",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Root Cause: Misconfigured routing on branch core switch; limited bandwidth.",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:36",
+        "excerpt": "Root Cause: Misconfigured routing on branch core switch; limited bandwidth."
+      }
+    },
+    {
+      "clause_id": "OPS-001-p37",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "UPS Alerts and Failures:",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:37",
+        "excerpt": "UPS Alerts and Failures:"
+      }
+    },
+    {
+      "clause_id": "OPS-001-p38",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Frequent UPS warnings in Head Office and Branch B.",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:38",
+        "excerpt": "Frequent UPS warnings in Head Office and Branch B."
+      }
+    },
+    {
+      "clause_id": "OPS-001-p39",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Root Cause: Batteries reaching end-of-life; environmental factors affecting power stability.",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:39",
+        "excerpt": "Root Cause: Batteries reaching end-of-life; environmental factors affecting power stability."
+      }
+    },
+    {
+      "clause_id": "OPS-001-p40",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "4.2 Corrective Actions",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:40",
+        "excerpt": "4.2 Corrective Actions"
+      }
+    },
+    {
+      "clause_id": "OPS-001-p41",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Replaced defective server drives and upgraded monitoring thresholds for early alert notifications.",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:41",
+        "excerpt": "Replaced defective server drives and upgraded monitoring thresholds for early alert notifications."
+      }
+    },
+    {
+      "clause_id": "OPS-001-p42",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Optimized network routing and upgraded bandwidth allocation to Branch A.",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:42",
+        "excerpt": "Optimized network routing and upgraded bandwidth allocation to Branch A."
+      }
+    },
+    {
+      "clause_id": "OPS-001-p43",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Scheduled UPS battery replacement and added redundant circuits for power stability.",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:43",
+        "excerpt": "Scheduled UPS battery replacement and added redundant circuits for power stability."
+      }
+    },
+    {
+      "clause_id": "OPS-001-p44",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "4.3 Preventive Measures",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:44",
+        "excerpt": "4.3 Preventive Measures"
+      }
+    },
+    {
+      "clause_id": "OPS-001-p45",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Proactive monitoring of critical hardware to detect early signs of failure.",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:45",
+        "excerpt": "Proactive monitoring of critical hardware to detect early signs of failure."
+      }
+    },
+    {
+      "clause_id": "OPS-001-p46",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Firmware upgrades for servers, network switches, and firewalls to improve stability.",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:46",
+        "excerpt": "Firmware upgrades for servers, network switches, and firewalls to improve stability."
+      }
+    },
+    {
+      "clause_id": "OPS-001-p47",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Documentation of recurring incidents and implementation of knowledge base for IT staff.",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:47",
+        "excerpt": "Documentation of recurring incidents and implementation of knowledge base for IT staff."
+      }
+    },
+    {
+      "clause_id": "OPS-001-p49",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "5. Incident & Problem Trends",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:49",
+        "excerpt": "5. Incident & Problem Trends"
+      }
+    },
+    {
+      "clause_id": "OPS-001-p50",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Critical Incidents Trend: 8% of total incidents, concentrated on core servers and security appliances.",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:50",
+        "excerpt": "Critical Incidents Trend: 8% of total incidents, concentrated on core servers and security appliances."
+      }
+    },
+    {
+      "clause_id": "OPS-001-p51",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Recurring Problems: Server disk failures and network latency accounted for 40% of repeated incidents.",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:51",
+        "excerpt": "Recurring Problems: Server disk failures and network latency accounted for 40% of repeated incidents."
+      }
+    },
+    {
+      "clause_id": "OPS-001-p52",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Time to Resolve: Average resolution time was 1.8 hours, meeting SLA targets.",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:52",
+        "excerpt": "Time to Resolve: Average resolution time was 1.8 hours, meeting SLA targets."
+      }
+    },
+    {
+      "clause_id": "OPS-001-p53",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "First-Time Resolution Rate: 88%, with remaining 12% requiring escalations or hardware replacement.",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:53",
+        "excerpt": "First-Time Resolution Rate: 88%, with remaining 12% requiring escalations or hardware replacement."
+      }
+    },
+    {
+      "clause_id": "OPS-001-p55",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "6. SLA Compliance",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:55",
+        "excerpt": "6. SLA Compliance"
+      }
+    },
+    {
+      "clause_id": "OPS-001-p57",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "7. Observations & Recommendations",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:57",
+        "excerpt": "7. Observations & Recommendations"
+      }
+    },
+    {
+      "clause_id": "OPS-001-p58",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Observations:",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:58",
+        "excerpt": "Observations:"
+      }
+    },
+    {
+      "clause_id": "OPS-001-p59",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Aging storage arrays and UPS systems are the primary contributors to recurring incidents.",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:59",
+        "excerpt": "Aging storage arrays and UPS systems are the primary contributors to recurring incidents."
+      }
+    },
+    {
+      "clause_id": "OPS-001-p60",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Branch A network latency is affecting operational efficiency during peak hours.",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:60",
+        "excerpt": "Branch A network latency is affecting operational efficiency during peak hours."
+      }
+    },
+    {
+      "clause_id": "OPS-001-p61",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "End-user hardware failures are mostly due to improper handling and aging devices.",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:61",
+        "excerpt": "End-user hardware failures are mostly due to improper handling and aging devices."
+      }
+    },
+    {
+      "clause_id": "OPS-001-p62",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Recommendations:",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:62",
+        "excerpt": "Recommendations:"
+      }
+    },
+    {
+      "clause_id": "OPS-001-p63",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Conduct server and storage hardware replacement program for legacy systems.",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:63",
+        "excerpt": "Conduct server and storage hardware replacement program for legacy systems."
+      }
+    },
+    {
+      "clause_id": "OPS-001-p64",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Upgrade UPS systems in critical locations to ensure uninterrupted operations.",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:64",
+        "excerpt": "Upgrade UPS systems in critical locations to ensure uninterrupted operations."
+      }
+    },
+    {
+      "clause_id": "OPS-001-p65",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Implement branch network optimization and bandwidth monitoring tools.",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:65",
+        "excerpt": "Implement branch network optimization and bandwidth monitoring tools."
+      }
+    },
+    {
+      "clause_id": "OPS-001-p66",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Provide end-user training sessions on proper handling and basic troubleshooting.",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:66",
+        "excerpt": "Provide end-user training sessions on proper handling and basic troubleshooting."
+      }
+    },
+    {
+      "clause_id": "OPS-001-p67",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Maintain a centralized incident knowledge base to reduce repeated escalations.",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:67",
+        "excerpt": "Maintain a centralized incident knowledge base to reduce repeated escalations."
+      }
+    },
+    {
+      "clause_id": "OPS-001-p69",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "8. Planned Actions for Next Month",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:69",
+        "excerpt": "8. Planned Actions for Next Month"
+      }
+    },
+    {
+      "clause_id": "OPS-001-p70",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Complete scheduled preventive maintenance for all critical hardware.",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:70",
+        "excerpt": "Complete scheduled preventive maintenance for all critical hardware."
+      }
+    },
+    {
+      "clause_id": "OPS-001-p71",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Review all recurring incidents and implement long-term problem management strategies.",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:71",
+        "excerpt": "Review all recurring incidents and implement long-term problem management strategies."
+      }
+    },
+    {
+      "clause_id": "OPS-001-p72",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Monitor SLA adherence and implement further optimization in incident resolution processes.",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:72",
+        "excerpt": "Monitor SLA adherence and implement further optimization in incident resolution processes."
+      }
+    },
+    {
+      "clause_id": "OPS-001-p73",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Conduct quarterly review with FinSecure IT management to align on improvements and infrastructure upgrades.",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:73",
+        "excerpt": "Conduct quarterly review with FinSecure IT management to align on improvements and infrastructure upgrades."
+      }
+    },
+    {
+      "clause_id": "OPS-001-p75",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "9. Acknowledgement",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:75",
+        "excerpt": "9. Acknowledgement"
+      }
+    },
+    {
+      "clause_id": "OPS-001-p76",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "This report is submitted for review and confirmation by the IT management team at FinSecure Services. Primevolta Hardware Solutions remains committed to reducing incident recurrence, improving resolution times, and ensuring continuous operational excellence.",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:76",
+        "excerpt": "This report is submitted for review and confirmation by the IT management team at FinSecure Services. Primevolta Hardware Solutions remains committed to reducing incident recurrence, improving resolution times, and ensuring continuous operational excellence."
+      }
+    },
+    {
+      "clause_id": "OPS-001-p77",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Prepared by:\nPrimevolta Hardware Solutions \u2013 Operations Team",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:77",
+        "excerpt": "Prepared by:\nPrimevolta Hardware Solutions \u2013 Operations Team"
+      }
+    },
+    {
+      "clause_id": "OPS-001-p78",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Date: 30-Nov-2025",
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:78",
+        "excerpt": "Date: 30-Nov-2025"
+      }
+    }
+  ],
+  "tables": [
+    {
+      "table_id": "OPS-001-t0",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "table_index": 0,
+      "rows": [
+        [
+          "Incident ID",
+          "Date",
+          "Category",
+          "Description",
+          "Severity",
+          "Resolution",
+          "Time to Resolve"
+        ],
+        [
+          "INC-1023",
+          "05-Nov",
+          "Server",
+          "Server R740 #4 failed to boot",
+          "Critical",
+          "Replaced HDD; restored backup",
+          "3 hours"
+        ],
+        [
+          "INC-1045",
+          "12-Nov",
+          "Network",
+          "Core switch packet drops",
+          "High",
+          "Firmware update & reboot",
+          "2 hours"
+        ],
+        [
+          "INC-1072",
+          "18-Nov",
+          "End-user",
+          "Laptop failure \u2013 Branch A",
+          "Medium",
+          "Hardware replacement",
+          "1.5 hours"
+        ],
+        [
+          "INC-1087",
+          "20-Nov",
+          "Server",
+          "Unexpected reboot of Server #2",
+          "High",
+          "PSU replacement and diagnostics",
+          "2.5 hours"
+        ],
+        [
+          "INC-1101",
+          "25-Nov",
+          "Security",
+          "Firewall intermittent downtime",
+          "Critical",
+          "Reconfigured firewall rules; firmware patch",
+          "3.5 hours"
+        ]
+      ],
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "table",
+        "locator": "table:0",
+        "excerpt": null
+      }
+    },
+    {
+      "table_id": "OPS-001-t1",
+      "doc_id": "OPS-001",
+      "doc_version": "1",
+      "table_index": 1,
+      "rows": [
+        [
+          "SLA Metric",
+          "Target",
+          "Achieved",
+          "Status"
+        ],
+        [
+          "Critical Incident Resolution",
+          "\u22644 hours",
+          "3.2 hours",
+          "Compliant"
+        ],
+        [
+          "High Incident Resolution",
+          "\u22646 hours",
+          "4.5 hours",
+          "Compliant"
+        ],
+        [
+          "Medium Incident Resolution",
+          "\u226412 hours",
+          "6 hours",
+          "Compliant"
+        ],
+        [
+          "Low Incident Resolution",
+          "\u226424 hours",
+          "12 hours",
+          "Compliant"
+        ],
+        [
+          "First-Time Resolution Rate",
+          "\u226590%",
+          "88%",
+          "Slightly Below"
+        ]
+      ],
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "table",
+        "locator": "table:1",
+        "excerpt": null
+      }
+    }
+  ],
+  "parse_status": "parsed",
+  "parse_error": null
+}

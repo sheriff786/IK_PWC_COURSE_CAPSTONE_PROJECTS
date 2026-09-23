@@ -1,0 +1,668 @@
+{
+  "doc_id": "CMP-001",
+  "clauses": [
+    {
+      "clause_id": "CMP-001-p0",
+      "doc_id": "CMP-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Sample 2: Industry-Specific Compliance Annexure \u2013 Annexure B",
+      "source_location": {
+        "doc_id": "CMP-001",
+        "kind": "paragraph",
+        "locator": "paragraph:0",
+        "excerpt": "Sample 2: Industry-Specific Compliance Annexure \u2013 Annexure B"
+      }
+    },
+    {
+      "clause_id": "CMP-001-p1",
+      "doc_id": "CMP-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "1. Purpose and Scope",
+      "source_location": {
+        "doc_id": "CMP-001",
+        "kind": "paragraph",
+        "locator": "paragraph:1",
+        "excerpt": "1. Purpose and Scope"
+      }
+    },
+    {
+      "clause_id": "CMP-001-p2",
+      "doc_id": "CMP-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "This Annexure (\u201cAnnexure B\u201d) forms an integral part of the Master Services Agreement (\u201cMSA\u201d) executed between PrimeVolta Hardware Solutions (\u201cVendor\u201d) and FinSecure Services (\u201cClient\u201d) dated [Insert Date]. The purpose of this Annexure is to establish comprehensive guidelines for regulatory compliance, operational governance, and IT security specifically related to electronic hardware solutions deployed in the BFSI environment. The scope encompasses the full lifecycle of all hardware provided under the MSA, including procurement, installation, operation, maintenance, upgrade, decommissioning, and disposal, in accordance with the relevant Indian laws, RBI guidelines, IT Act 2000, and industry best practices. This Annexure ensures that both Vendor and Client undertake shared responsibility for operational resilience, security compliance, and risk management in a mutually accountable framework.",
+      "source_location": {
+        "doc_id": "CMP-001",
+        "kind": "paragraph",
+        "locator": "paragraph:2",
+        "excerpt": "This Annexure (\u201cAnnexure B\u201d) forms an integral part of the Master Services Agreement (\u201cMSA\u201d) executed between PrimeVolta Hardware Solutions (\u201cVendor\u201d) and FinSecure Services (\u201cClient\u201d) dated [Insert Date]. The purpose of this Annexure is to establish comprehensive guidelines for regulatory compliance, operational governance, and IT security specifically related to electronic hardware solutions deployed in the BFSI environment. The scope encompasses the full lifecycle of all hardware provided under the MSA, including procurement, installation, operation, maintenance, upgrade, decommissioning, and disposal, in accordance with the relevant Indian laws, RBI guidelines, IT Act 2000, and industry best practices. This Annexure ensures that both Vendor and Client undertake shared responsibility for operational resilience, security compliance, and risk management in a mutually accountable framework."
+      }
+    },
+    {
+      "clause_id": "CMP-001-p4",
+      "doc_id": "CMP-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "2. Regulatory and Industry Compliance Requirements",
+      "source_location": {
+        "doc_id": "CMP-001",
+        "kind": "paragraph",
+        "locator": "paragraph:4",
+        "excerpt": "2. Regulatory and Industry Compliance Requirements"
+      }
+    },
+    {
+      "clause_id": "CMP-001-p5",
+      "doc_id": "CMP-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "a. RBI and SEBI Guidelines:\nThe parties acknowledge the mandatory compliance requirements issued by the Reserve Bank of India (RBI) and, where applicable, the Securities and Exchange Board of India (SEBI) for IT infrastructure and vendor management. The Vendor shall ensure that all hardware meets regulatory standards for operational continuity, business resilience, data security, and reporting. The Client shall provide timely updates regarding changes to guidelines affecting hardware operations.",
+      "source_location": {
+        "doc_id": "CMP-001",
+        "kind": "paragraph",
+        "locator": "paragraph:5",
+        "excerpt": "a. RBI and SEBI Guidelines:\nThe parties acknowledge the mandatory compliance requirements issued by the Reserve Bank of India (RBI) and, where applicable, the Securities and Exchange Board of India (SEBI) for IT infrastructure and vendor management. The Vendor shall ensure that all hardware meets regulatory standards for operational continuity, business resilience, data security, and reporting. The Client shall provide timely updates regarding changes to guidelines affecting hardware operations."
+      }
+    },
+    {
+      "clause_id": "CMP-001-p6",
+      "doc_id": "CMP-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "b. Data Protection and IT Security Compliance:\nBoth parties shall comply with the Information Technology Act, 2000, and any applicable rules under the IT (Reasonable Security Practices and Procedures and Sensitive Personal Data or Information) Rules, 2011. All hardware systems shall incorporate secure data storage, encryption of sensitive customer data, and access control mechanisms. Any breach of security or unauthorized access must be reported immediately to both parties and, if required, to the regulatory authorities within prescribed timelines.",
+      "source_location": {
+        "doc_id": "CMP-001",
+        "kind": "paragraph",
+        "locator": "paragraph:6",
+        "excerpt": "b. Data Protection and IT Security Compliance:\nBoth parties shall comply with the Information Technology Act, 2000, and any applicable rules under the IT (Reasonable Security Practices and Procedures and Sensitive Personal Data or Information) Rules, 2011. All hardware systems shall incorporate secure data storage, encryption of sensitive customer data, and access control mechanisms. Any breach of security or unauthorized access must be reported immediately to both parties and, if required, to the regulatory authorities within prescribed timelines."
+      }
+    },
+    {
+      "clause_id": "CMP-001-p7",
+      "doc_id": "CMP-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "c. Industry Standards Compliance:\nThe Vendor shall ensure compliance with globally recognized standards such as ISO/IEC 27001 (Information Security Management Systems), ISO/IEC 20000 (IT Service Management), and relevant ITIL practices. The Client shall have the right to verify compliance through evidence such as certification reports, internal audits, or third-party audits.",
+      "source_location": {
+        "doc_id": "CMP-001",
+        "kind": "paragraph",
+        "locator": "paragraph:7",
+        "excerpt": "c. Industry Standards Compliance:\nThe Vendor shall ensure compliance with globally recognized standards such as ISO/IEC 27001 (Information Security Management Systems), ISO/IEC 20000 (IT Service Management), and relevant ITIL practices. The Client shall have the right to verify compliance through evidence such as certification reports, internal audits, or third-party audits."
+      }
+    },
+    {
+      "clause_id": "CMP-001-p9",
+      "doc_id": "CMP-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3. Hardware Lifecycle Management",
+      "source_location": {
+        "doc_id": "CMP-001",
+        "kind": "paragraph",
+        "locator": "paragraph:9",
+        "excerpt": "3. Hardware Lifecycle Management"
+      }
+    },
+    {
+      "clause_id": "CMP-001-p10",
+      "doc_id": "CMP-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "a. Procurement and Quality Assurance:\nThe Vendor shall procure hardware components that are certified, compliant with Indian regulatory and industry standards, and free from malicious software. Quality assurance processes shall include thorough inspection, testing, and verification of compliance before delivery.",
+      "source_location": {
+        "doc_id": "CMP-001",
+        "kind": "paragraph",
+        "locator": "paragraph:10",
+        "excerpt": "a. Procurement and Quality Assurance:\nThe Vendor shall procure hardware components that are certified, compliant with Indian regulatory and industry standards, and free from malicious software. Quality assurance processes shall include thorough inspection, testing, and verification of compliance before delivery."
+      }
+    },
+    {
+      "clause_id": "CMP-001-p11",
+      "doc_id": "CMP-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "b. Installation and Configuration:\nAll hardware shall be installed according to mutually agreed standard operating procedures (SOPs) ensuring secure network configuration, physical security, and operational readiness. Change management procedures shall be documented, including configuration records and approvals from both parties.",
+      "source_location": {
+        "doc_id": "CMP-001",
+        "kind": "paragraph",
+        "locator": "paragraph:11",
+        "excerpt": "b. Installation and Configuration:\nAll hardware shall be installed according to mutually agreed standard operating procedures (SOPs) ensuring secure network configuration, physical security, and operational readiness. Change management procedures shall be documented, including configuration records and approvals from both parties."
+      }
+    },
+    {
+      "clause_id": "CMP-001-p12",
+      "doc_id": "CMP-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "c. Maintenance and Updates:\nThe Vendor shall provide timely updates, patches, and preventive maintenance services to ensure the hardware remains compliant and secure. Any updates or configuration changes must be communicated to the Client in advance, and rollback procedures must be established in case of operational disruptions.",
+      "source_location": {
+        "doc_id": "CMP-001",
+        "kind": "paragraph",
+        "locator": "paragraph:12",
+        "excerpt": "c. Maintenance and Updates:\nThe Vendor shall provide timely updates, patches, and preventive maintenance services to ensure the hardware remains compliant and secure. Any updates or configuration changes must be communicated to the Client in advance, and rollback procedures must be established in case of operational disruptions."
+      }
+    },
+    {
+      "clause_id": "CMP-001-p13",
+      "doc_id": "CMP-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "d. Decommissioning and Disposal:\nAt the end of the hardware lifecycle, the Vendor shall ensure secure decommissioning and disposal of all equipment in accordance with environmental and data privacy regulations. All sensitive data must be securely erased, and certificates of destruction shall be provided to the Client.",
+      "source_location": {
+        "doc_id": "CMP-001",
+        "kind": "paragraph",
+        "locator": "paragraph:13",
+        "excerpt": "d. Decommissioning and Disposal:\nAt the end of the hardware lifecycle, the Vendor shall ensure secure decommissioning and disposal of all equipment in accordance with environmental and data privacy regulations. All sensitive data must be securely erased, and certificates of destruction shall be provided to the Client."
+      }
+    },
+    {
+      "clause_id": "CMP-001-p15",
+      "doc_id": "CMP-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "4. Incident Management and Reporting",
+      "source_location": {
+        "doc_id": "CMP-001",
+        "kind": "paragraph",
+        "locator": "paragraph:15",
+        "excerpt": "4. Incident Management and Reporting"
+      }
+    },
+    {
+      "clause_id": "CMP-001-p16",
+      "doc_id": "CMP-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Both parties shall maintain a documented incident management process, covering hardware failure, security breaches, and regulatory non-compliance events.",
+      "source_location": {
+        "doc_id": "CMP-001",
+        "kind": "paragraph",
+        "locator": "paragraph:16",
+        "excerpt": "Both parties shall maintain a documented incident management process, covering hardware failure, security breaches, and regulatory non-compliance events."
+      }
+    },
+    {
+      "clause_id": "CMP-001-p17",
+      "doc_id": "CMP-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Incidents must be reported to the designated points of contact of both parties within mutually agreed timelines. Critical incidents affecting operations or regulatory compliance must be escalated immediately.",
+      "source_location": {
+        "doc_id": "CMP-001",
+        "kind": "paragraph",
+        "locator": "paragraph:17",
+        "excerpt": "Incidents must be reported to the designated points of contact of both parties within mutually agreed timelines. Critical incidents affecting operations or regulatory compliance must be escalated immediately."
+      }
+    },
+    {
+      "clause_id": "CMP-001-p18",
+      "doc_id": "CMP-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "The Vendor shall assist in root cause analysis, remediation, and preventive measures for recurring incidents.",
+      "source_location": {
+        "doc_id": "CMP-001",
+        "kind": "paragraph",
+        "locator": "paragraph:18",
+        "excerpt": "The Vendor shall assist in root cause analysis, remediation, and preventive measures for recurring incidents."
+      }
+    },
+    {
+      "clause_id": "CMP-001-p19",
+      "doc_id": "CMP-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "All incident records shall be retained for a minimum period of five years or longer if required by law.",
+      "source_location": {
+        "doc_id": "CMP-001",
+        "kind": "paragraph",
+        "locator": "paragraph:19",
+        "excerpt": "All incident records shall be retained for a minimum period of five years or longer if required by law."
+      }
+    },
+    {
+      "clause_id": "CMP-001-p21",
+      "doc_id": "CMP-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "5. Audit, Monitoring, and Compliance Verification",
+      "source_location": {
+        "doc_id": "CMP-001",
+        "kind": "paragraph",
+        "locator": "paragraph:21",
+        "excerpt": "5. Audit, Monitoring, and Compliance Verification"
+      }
+    },
+    {
+      "clause_id": "CMP-001-p22",
+      "doc_id": "CMP-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "The Client reserves the right to conduct periodic audits to verify Vendor compliance with this Annexure. Audits may include physical inspection, review of maintenance logs, vulnerability assessment reports, and testing of hardware security controls.",
+      "source_location": {
+        "doc_id": "CMP-001",
+        "kind": "paragraph",
+        "locator": "paragraph:22",
+        "excerpt": "The Client reserves the right to conduct periodic audits to verify Vendor compliance with this Annexure. Audits may include physical inspection, review of maintenance logs, vulnerability assessment reports, and testing of hardware security controls."
+      }
+    },
+    {
+      "clause_id": "CMP-001-p23",
+      "doc_id": "CMP-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "The Vendor shall provide full cooperation, including access to relevant systems, personnel, and documentation.",
+      "source_location": {
+        "doc_id": "CMP-001",
+        "kind": "paragraph",
+        "locator": "paragraph:23",
+        "excerpt": "The Vendor shall provide full cooperation, including access to relevant systems, personnel, and documentation."
+      }
+    },
+    {
+      "clause_id": "CMP-001-p24",
+      "doc_id": "CMP-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Both parties shall document and mutually agree on corrective actions for any identified non-compliance or operational risk.",
+      "source_location": {
+        "doc_id": "CMP-001",
+        "kind": "paragraph",
+        "locator": "paragraph:24",
+        "excerpt": "Both parties shall document and mutually agree on corrective actions for any identified non-compliance or operational risk."
+      }
+    },
+    {
+      "clause_id": "CMP-001-p25",
+      "doc_id": "CMP-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Audit findings and evidence shall be maintained securely and made available for regulatory inspections as required.",
+      "source_location": {
+        "doc_id": "CMP-001",
+        "kind": "paragraph",
+        "locator": "paragraph:25",
+        "excerpt": "Audit findings and evidence shall be maintained securely and made available for regulatory inspections as required."
+      }
+    },
+    {
+      "clause_id": "CMP-001-p27",
+      "doc_id": "CMP-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "6. Roles and Responsibilities",
+      "source_location": {
+        "doc_id": "CMP-001",
+        "kind": "paragraph",
+        "locator": "paragraph:27",
+        "excerpt": "6. Roles and Responsibilities"
+      }
+    },
+    {
+      "clause_id": "CMP-001-p28",
+      "doc_id": "CMP-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Vendor Responsibilities:",
+      "source_location": {
+        "doc_id": "CMP-001",
+        "kind": "paragraph",
+        "locator": "paragraph:28",
+        "excerpt": "Vendor Responsibilities:"
+      }
+    },
+    {
+      "clause_id": "CMP-001-p29",
+      "doc_id": "CMP-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Ensure hardware compliance with applicable Indian regulations and BFSI standards.",
+      "source_location": {
+        "doc_id": "CMP-001",
+        "kind": "paragraph",
+        "locator": "paragraph:29",
+        "excerpt": "Ensure hardware compliance with applicable Indian regulations and BFSI standards."
+      }
+    },
+    {
+      "clause_id": "CMP-001-p30",
+      "doc_id": "CMP-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Maintain secure and operational hardware throughout its lifecycle.",
+      "source_location": {
+        "doc_id": "CMP-001",
+        "kind": "paragraph",
+        "locator": "paragraph:30",
+        "excerpt": "Maintain secure and operational hardware throughout its lifecycle."
+      }
+    },
+    {
+      "clause_id": "CMP-001-p31",
+      "doc_id": "CMP-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Provide timely support, updates, and maintenance services.",
+      "source_location": {
+        "doc_id": "CMP-001",
+        "kind": "paragraph",
+        "locator": "paragraph:31",
+        "excerpt": "Provide timely support, updates, and maintenance services."
+      }
+    },
+    {
+      "clause_id": "CMP-001-p32",
+      "doc_id": "CMP-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Assist in regulatory reporting, audits, and incident management.",
+      "source_location": {
+        "doc_id": "CMP-001",
+        "kind": "paragraph",
+        "locator": "paragraph:32",
+        "excerpt": "Assist in regulatory reporting, audits, and incident management."
+      }
+    },
+    {
+      "clause_id": "CMP-001-p33",
+      "doc_id": "CMP-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Client Responsibilities:",
+      "source_location": {
+        "doc_id": "CMP-001",
+        "kind": "paragraph",
+        "locator": "paragraph:33",
+        "excerpt": "Client Responsibilities:"
+      }
+    },
+    {
+      "clause_id": "CMP-001-p34",
+      "doc_id": "CMP-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Provide Vendor with up-to-date regulatory and operational compliance requirements.",
+      "source_location": {
+        "doc_id": "CMP-001",
+        "kind": "paragraph",
+        "locator": "paragraph:34",
+        "excerpt": "Provide Vendor with up-to-date regulatory and operational compliance requirements."
+      }
+    },
+    {
+      "clause_id": "CMP-001-p35",
+      "doc_id": "CMP-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Facilitate access to sites and systems for audits and maintenance.",
+      "source_location": {
+        "doc_id": "CMP-001",
+        "kind": "paragraph",
+        "locator": "paragraph:35",
+        "excerpt": "Facilitate access to sites and systems for audits and maintenance."
+      }
+    },
+    {
+      "clause_id": "CMP-001-p36",
+      "doc_id": "CMP-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Notify Vendor of any changes in operational procedures or regulatory mandates.",
+      "source_location": {
+        "doc_id": "CMP-001",
+        "kind": "paragraph",
+        "locator": "paragraph:36",
+        "excerpt": "Notify Vendor of any changes in operational procedures or regulatory mandates."
+      }
+    },
+    {
+      "clause_id": "CMP-001-p37",
+      "doc_id": "CMP-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Cooperate in incident investigation and mitigation.",
+      "source_location": {
+        "doc_id": "CMP-001",
+        "kind": "paragraph",
+        "locator": "paragraph:37",
+        "excerpt": "Cooperate in incident investigation and mitigation."
+      }
+    },
+    {
+      "clause_id": "CMP-001-p38",
+      "doc_id": "CMP-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Mutual Responsibilities:",
+      "source_location": {
+        "doc_id": "CMP-001",
+        "kind": "paragraph",
+        "locator": "paragraph:38",
+        "excerpt": "Mutual Responsibilities:"
+      }
+    },
+    {
+      "clause_id": "CMP-001-p39",
+      "doc_id": "CMP-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Maintain confidentiality and integrity of all sensitive financial data.",
+      "source_location": {
+        "doc_id": "CMP-001",
+        "kind": "paragraph",
+        "locator": "paragraph:39",
+        "excerpt": "Maintain confidentiality and integrity of all sensitive financial data."
+      }
+    },
+    {
+      "clause_id": "CMP-001-p40",
+      "doc_id": "CMP-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Participate in joint risk assessment and mitigation exercises.",
+      "source_location": {
+        "doc_id": "CMP-001",
+        "kind": "paragraph",
+        "locator": "paragraph:40",
+        "excerpt": "Participate in joint risk assessment and mitigation exercises."
+      }
+    },
+    {
+      "clause_id": "CMP-001-p41",
+      "doc_id": "CMP-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Implement continuous monitoring and review of compliance effectiveness.",
+      "source_location": {
+        "doc_id": "CMP-001",
+        "kind": "paragraph",
+        "locator": "paragraph:41",
+        "excerpt": "Implement continuous monitoring and review of compliance effectiveness."
+      }
+    },
+    {
+      "clause_id": "CMP-001-p42",
+      "doc_id": "CMP-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Retain records of all compliance-related activities, incidents, audits, and corrective actions.",
+      "source_location": {
+        "doc_id": "CMP-001",
+        "kind": "paragraph",
+        "locator": "paragraph:42",
+        "excerpt": "Retain records of all compliance-related activities, incidents, audits, and corrective actions."
+      }
+    },
+    {
+      "clause_id": "CMP-001-p44",
+      "doc_id": "CMP-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "7. Confidentiality and Information Security",
+      "source_location": {
+        "doc_id": "CMP-001",
+        "kind": "paragraph",
+        "locator": "paragraph:44",
+        "excerpt": "7. Confidentiality and Information Security"
+      }
+    },
+    {
+      "clause_id": "CMP-001-p45",
+      "doc_id": "CMP-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Both parties recognize that hardware systems may process sensitive financial information and personal data. Each party shall implement controls to prevent unauthorized access, leakage, or misuse of such data. Any engagement of third-party support services must comply with the same confidentiality, security, and compliance standards. Breach of confidentiality or improper handling of sensitive data constitutes a material breach of this Annexure.",
+      "source_location": {
+        "doc_id": "CMP-001",
+        "kind": "paragraph",
+        "locator": "paragraph:45",
+        "excerpt": "Both parties recognize that hardware systems may process sensitive financial information and personal data. Each party shall implement controls to prevent unauthorized access, leakage, or misuse of such data. Any engagement of third-party support services must comply with the same confidentiality, security, and compliance standards. Breach of confidentiality or improper handling of sensitive data constitutes a material breach of this Annexure."
+      }
+    },
+    {
+      "clause_id": "CMP-001-p47",
+      "doc_id": "CMP-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "8. Amendments and Compliance Updates",
+      "source_location": {
+        "doc_id": "CMP-001",
+        "kind": "paragraph",
+        "locator": "paragraph:47",
+        "excerpt": "8. Amendments and Compliance Updates"
+      }
+    },
+    {
+      "clause_id": "CMP-001-p48",
+      "doc_id": "CMP-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "This Annexure may be amended to incorporate changes in applicable laws, regulatory guidelines, or industry standards. Any such amendments shall be mutually agreed in writing and shall form an integral part of the MSA.",
+      "source_location": {
+        "doc_id": "CMP-001",
+        "kind": "paragraph",
+        "locator": "paragraph:48",
+        "excerpt": "This Annexure may be amended to incorporate changes in applicable laws, regulatory guidelines, or industry standards. Any such amendments shall be mutually agreed in writing and shall form an integral part of the MSA."
+      }
+    },
+    {
+      "clause_id": "CMP-001-p50",
+      "doc_id": "CMP-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "9. Governing Law and Dispute Resolution",
+      "source_location": {
+        "doc_id": "CMP-001",
+        "kind": "paragraph",
+        "locator": "paragraph:50",
+        "excerpt": "9. Governing Law and Dispute Resolution"
+      }
+    },
+    {
+      "clause_id": "CMP-001-p51",
+      "doc_id": "CMP-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "This Annexure shall be governed by the laws of India. Any disputes arising in connection with this Annexure shall be resolved amicably through mutual discussion. Failing resolution, disputes shall be subject to the exclusive jurisdiction of courts in [City, State].",
+      "source_location": {
+        "doc_id": "CMP-001",
+        "kind": "paragraph",
+        "locator": "paragraph:51",
+        "excerpt": "This Annexure shall be governed by the laws of India. Any disputes arising in connection with this Annexure shall be resolved amicably through mutual discussion. Failing resolution, disputes shall be subject to the exclusive jurisdiction of courts in [City, State]."
+      }
+    }
+  ],
+  "tables": [],
+  "parse_status": "parsed",
+  "parse_error": null
+}

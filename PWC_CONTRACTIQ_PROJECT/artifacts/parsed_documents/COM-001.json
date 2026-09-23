@@ -1,0 +1,681 @@
+{
+  "doc_id": "COM-001",
+  "clauses": [
+    {
+      "clause_id": "COM-001-p0",
+      "doc_id": "COM-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Sample 1: Pricing Table Agreement",
+      "source_location": {
+        "doc_id": "COM-001",
+        "kind": "paragraph",
+        "locator": "paragraph:0",
+        "excerpt": "Sample 1: Pricing Table Agreement"
+      }
+    },
+    {
+      "clause_id": "COM-001-p1",
+      "doc_id": "COM-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Between: Primevolta Hardware Solutions (Vendor)\nAnd: FinSecure Services (Client)\nDate: 11 December 2025",
+      "source_location": {
+        "doc_id": "COM-001",
+        "kind": "paragraph",
+        "locator": "paragraph:1",
+        "excerpt": "Between: Primevolta Hardware Solutions (Vendor)\nAnd: FinSecure Services (Client)\nDate: 11 December 2025"
+      }
+    },
+    {
+      "clause_id": "COM-001-p3",
+      "doc_id": "COM-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "1. Introduction",
+      "source_location": {
+        "doc_id": "COM-001",
+        "kind": "paragraph",
+        "locator": "paragraph:3",
+        "excerpt": "1. Introduction"
+      }
+    },
+    {
+      "clause_id": "COM-001-p4",
+      "doc_id": "COM-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "This Pricing Table Agreement (\u201cAgreement\u201d) is entered into between Primevolta Hardware Solutions, having its principal office at [Vendor Address], herein referred to as \u201cVendor,\u201d and FinSecure Services, having its principal office at [Client Address], herein referred to as \u201cClient.\u201d This Agreement defines the pricing structure, terms, and conditions applicable to the sale and supply of electronic hardware products and related services provided by Vendor to Client.",
+      "source_location": {
+        "doc_id": "COM-001",
+        "kind": "paragraph",
+        "locator": "paragraph:4",
+        "excerpt": "This Pricing Table Agreement (\u201cAgreement\u201d) is entered into between Primevolta Hardware Solutions, having its principal office at [Vendor Address], herein referred to as \u201cVendor,\u201d and FinSecure Services, having its principal office at [Client Address], herein referred to as \u201cClient.\u201d This Agreement defines the pricing structure, terms, and conditions applicable to the sale and supply of electronic hardware products and related services provided by Vendor to Client."
+      }
+    },
+    {
+      "clause_id": "COM-001-p5",
+      "doc_id": "COM-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "The purpose of this Agreement is to ensure transparency, consistency, and mutual understanding regarding the pricing of hardware components, including but not limited to servers, networking devices, storage solutions, and ancillary peripherals, for the BFSI sector.",
+      "source_location": {
+        "doc_id": "COM-001",
+        "kind": "paragraph",
+        "locator": "paragraph:5",
+        "excerpt": "The purpose of this Agreement is to ensure transparency, consistency, and mutual understanding regarding the pricing of hardware components, including but not limited to servers, networking devices, storage solutions, and ancillary peripherals, for the BFSI sector."
+      }
+    },
+    {
+      "clause_id": "COM-001-p7",
+      "doc_id": "COM-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "2. Scope of Products Covered",
+      "source_location": {
+        "doc_id": "COM-001",
+        "kind": "paragraph",
+        "locator": "paragraph:7",
+        "excerpt": "2. Scope of Products Covered"
+      }
+    },
+    {
+      "clause_id": "COM-001-p8",
+      "doc_id": "COM-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "This Agreement covers the following categories of products supplied by Vendor to Client:",
+      "source_location": {
+        "doc_id": "COM-001",
+        "kind": "paragraph",
+        "locator": "paragraph:8",
+        "excerpt": "This Agreement covers the following categories of products supplied by Vendor to Client:"
+      }
+    },
+    {
+      "clause_id": "COM-001-p9",
+      "doc_id": "COM-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Servers (Rack-mounted, Blade, and Tower)",
+      "source_location": {
+        "doc_id": "COM-001",
+        "kind": "paragraph",
+        "locator": "paragraph:9",
+        "excerpt": "Servers (Rack-mounted, Blade, and Tower)"
+      }
+    },
+    {
+      "clause_id": "COM-001-p10",
+      "doc_id": "COM-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Networking Equipment (Switches, Routers, Firewalls)",
+      "source_location": {
+        "doc_id": "COM-001",
+        "kind": "paragraph",
+        "locator": "paragraph:10",
+        "excerpt": "Networking Equipment (Switches, Routers, Firewalls)"
+      }
+    },
+    {
+      "clause_id": "COM-001-p11",
+      "doc_id": "COM-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Storage Solutions (NAS, SAN, Cloud-enabled Storage)",
+      "source_location": {
+        "doc_id": "COM-001",
+        "kind": "paragraph",
+        "locator": "paragraph:11",
+        "excerpt": "Storage Solutions (NAS, SAN, Cloud-enabled Storage)"
+      }
+    },
+    {
+      "clause_id": "COM-001-p12",
+      "doc_id": "COM-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Peripheral Devices (UPS, Printers, Scanners)",
+      "source_location": {
+        "doc_id": "COM-001",
+        "kind": "paragraph",
+        "locator": "paragraph:12",
+        "excerpt": "Peripheral Devices (UPS, Printers, Scanners)"
+      }
+    },
+    {
+      "clause_id": "COM-001-p13",
+      "doc_id": "COM-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Consumables (Cables, Connectors, Batteries)",
+      "source_location": {
+        "doc_id": "COM-001",
+        "kind": "paragraph",
+        "locator": "paragraph:13",
+        "excerpt": "Consumables (Cables, Connectors, Batteries)"
+      }
+    },
+    {
+      "clause_id": "COM-001-p14",
+      "doc_id": "COM-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "All products supplied under this Agreement will conform to the technical specifications agreed upon in Annexure A.",
+      "source_location": {
+        "doc_id": "COM-001",
+        "kind": "paragraph",
+        "locator": "paragraph:14",
+        "excerpt": "All products supplied under this Agreement will conform to the technical specifications agreed upon in Annexure A."
+      }
+    },
+    {
+      "clause_id": "COM-001-p16",
+      "doc_id": "COM-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3. Pricing Structure",
+      "source_location": {
+        "doc_id": "COM-001",
+        "kind": "paragraph",
+        "locator": "paragraph:16",
+        "excerpt": "3. Pricing Structure"
+      }
+    },
+    {
+      "clause_id": "COM-001-p17",
+      "doc_id": "COM-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "The pricing of each product is established in Table 1: Base Pricing, which shall be effective for the duration of this Agreement, unless modified through mutual written consent.",
+      "source_location": {
+        "doc_id": "COM-001",
+        "kind": "paragraph",
+        "locator": "paragraph:17",
+        "excerpt": "The pricing of each product is established in Table 1: Base Pricing, which shall be effective for the duration of this Agreement, unless modified through mutual written consent."
+      }
+    },
+    {
+      "clause_id": "COM-001-p18",
+      "doc_id": "COM-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Table 1: Base Pricing",
+      "source_location": {
+        "doc_id": "COM-001",
+        "kind": "paragraph",
+        "locator": "paragraph:18",
+        "excerpt": "Table 1: Base Pricing"
+      }
+    },
+    {
+      "clause_id": "COM-001-p19",
+      "doc_id": "COM-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Notes: All prices are exclusive of taxes, duties, and levies, unless stated otherwise. Prices are valid for 90 days unless amended in writing.",
+      "source_location": {
+        "doc_id": "COM-001",
+        "kind": "paragraph",
+        "locator": "paragraph:19",
+        "excerpt": "Notes: All prices are exclusive of taxes, duties, and levies, unless stated otherwise. Prices are valid for 90 days unless amended in writing."
+      }
+    },
+    {
+      "clause_id": "COM-001-p21",
+      "doc_id": "COM-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "4. Terms of Payment",
+      "source_location": {
+        "doc_id": "COM-001",
+        "kind": "paragraph",
+        "locator": "paragraph:21",
+        "excerpt": "4. Terms of Payment"
+      }
+    },
+    {
+      "clause_id": "COM-001-p22",
+      "doc_id": "COM-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "All invoices shall be issued in INR within five (5) business days of order fulfillment.",
+      "source_location": {
+        "doc_id": "COM-001",
+        "kind": "paragraph",
+        "locator": "paragraph:22",
+        "excerpt": "All invoices shall be issued in INR within five (5) business days of order fulfillment."
+      }
+    },
+    {
+      "clause_id": "COM-001-p23",
+      "doc_id": "COM-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Payment shall be made by Client within thirty (30) days from the date of invoice.",
+      "source_location": {
+        "doc_id": "COM-001",
+        "kind": "paragraph",
+        "locator": "paragraph:23",
+        "excerpt": "Payment shall be made by Client within thirty (30) days from the date of invoice."
+      }
+    },
+    {
+      "clause_id": "COM-001-p24",
+      "doc_id": "COM-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Late payments shall attract interest at 1.5% per month, calculated from the due date until the date of actual payment.",
+      "source_location": {
+        "doc_id": "COM-001",
+        "kind": "paragraph",
+        "locator": "paragraph:24",
+        "excerpt": "Late payments shall attract interest at 1.5% per month, calculated from the due date until the date of actual payment."
+      }
+    },
+    {
+      "clause_id": "COM-001-p25",
+      "doc_id": "COM-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Vendor reserves the right to suspend deliveries in the event of delayed payments exceeding sixty (60) days.",
+      "source_location": {
+        "doc_id": "COM-001",
+        "kind": "paragraph",
+        "locator": "paragraph:25",
+        "excerpt": "Vendor reserves the right to suspend deliveries in the event of delayed payments exceeding sixty (60) days."
+      }
+    },
+    {
+      "clause_id": "COM-001-p27",
+      "doc_id": "COM-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "5. Pricing Revisions",
+      "source_location": {
+        "doc_id": "COM-001",
+        "kind": "paragraph",
+        "locator": "paragraph:27",
+        "excerpt": "5. Pricing Revisions"
+      }
+    },
+    {
+      "clause_id": "COM-001-p28",
+      "doc_id": "COM-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Vendor may revise the prices annually, subject to inflation, changes in raw material costs, or new technology adoption.",
+      "source_location": {
+        "doc_id": "COM-001",
+        "kind": "paragraph",
+        "locator": "paragraph:28",
+        "excerpt": "Vendor may revise the prices annually, subject to inflation, changes in raw material costs, or new technology adoption."
+      }
+    },
+    {
+      "clause_id": "COM-001-p29",
+      "doc_id": "COM-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Any proposed revision shall be communicated to Client at least sixty (60) days in advance.",
+      "source_location": {
+        "doc_id": "COM-001",
+        "kind": "paragraph",
+        "locator": "paragraph:29",
+        "excerpt": "Any proposed revision shall be communicated to Client at least sixty (60) days in advance."
+      }
+    },
+    {
+      "clause_id": "COM-001-p30",
+      "doc_id": "COM-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Revised pricing shall only take effect upon mutual written agreement.",
+      "source_location": {
+        "doc_id": "COM-001",
+        "kind": "paragraph",
+        "locator": "paragraph:30",
+        "excerpt": "Revised pricing shall only take effect upon mutual written agreement."
+      }
+    },
+    {
+      "clause_id": "COM-001-p32",
+      "doc_id": "COM-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "6. Confidentiality",
+      "source_location": {
+        "doc_id": "COM-001",
+        "kind": "paragraph",
+        "locator": "paragraph:32",
+        "excerpt": "6. Confidentiality"
+      }
+    },
+    {
+      "clause_id": "COM-001-p33",
+      "doc_id": "COM-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Both parties agree to maintain strict confidentiality regarding pricing information and discount structures.",
+      "source_location": {
+        "doc_id": "COM-001",
+        "kind": "paragraph",
+        "locator": "paragraph:33",
+        "excerpt": "Both parties agree to maintain strict confidentiality regarding pricing information and discount structures."
+      }
+    },
+    {
+      "clause_id": "COM-001-p34",
+      "doc_id": "COM-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Pricing tables shall not be disclosed to third parties without prior written consent from the other party.",
+      "source_location": {
+        "doc_id": "COM-001",
+        "kind": "paragraph",
+        "locator": "paragraph:34",
+        "excerpt": "Pricing tables shall not be disclosed to third parties without prior written consent from the other party."
+      }
+    },
+    {
+      "clause_id": "COM-001-p36",
+      "doc_id": "COM-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "7. Dispute Resolution",
+      "source_location": {
+        "doc_id": "COM-001",
+        "kind": "paragraph",
+        "locator": "paragraph:36",
+        "excerpt": "7. Dispute Resolution"
+      }
+    },
+    {
+      "clause_id": "COM-001-p37",
+      "doc_id": "COM-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Any dispute arising from this Agreement shall first be addressed through amicable discussions between the parties.",
+      "source_location": {
+        "doc_id": "COM-001",
+        "kind": "paragraph",
+        "locator": "paragraph:37",
+        "excerpt": "Any dispute arising from this Agreement shall first be addressed through amicable discussions between the parties."
+      }
+    },
+    {
+      "clause_id": "COM-001-p38",
+      "doc_id": "COM-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "If unresolved, the matter shall be referred to arbitration under the Indian Arbitration and Conciliation Act, 1996.",
+      "source_location": {
+        "doc_id": "COM-001",
+        "kind": "paragraph",
+        "locator": "paragraph:38",
+        "excerpt": "If unresolved, the matter shall be referred to arbitration under the Indian Arbitration and Conciliation Act, 1996."
+      }
+    },
+    {
+      "clause_id": "COM-001-p39",
+      "doc_id": "COM-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "The place of arbitration shall be [City, State], India, and the proceedings shall be conducted in English.",
+      "source_location": {
+        "doc_id": "COM-001",
+        "kind": "paragraph",
+        "locator": "paragraph:39",
+        "excerpt": "The place of arbitration shall be [City, State], India, and the proceedings shall be conducted in English."
+      }
+    },
+    {
+      "clause_id": "COM-001-p41",
+      "doc_id": "COM-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "8. Term and Termination",
+      "source_location": {
+        "doc_id": "COM-001",
+        "kind": "paragraph",
+        "locator": "paragraph:41",
+        "excerpt": "8. Term and Termination"
+      }
+    },
+    {
+      "clause_id": "COM-001-p42",
+      "doc_id": "COM-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "This Agreement shall remain in effect for a period of 24 months from the effective date.",
+      "source_location": {
+        "doc_id": "COM-001",
+        "kind": "paragraph",
+        "locator": "paragraph:42",
+        "excerpt": "This Agreement shall remain in effect for a period of 24 months from the effective date."
+      }
+    },
+    {
+      "clause_id": "COM-001-p43",
+      "doc_id": "COM-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Either party may terminate the Agreement by providing 60 days written notice to the other party.",
+      "source_location": {
+        "doc_id": "COM-001",
+        "kind": "paragraph",
+        "locator": "paragraph:43",
+        "excerpt": "Either party may terminate the Agreement by providing 60 days written notice to the other party."
+      }
+    },
+    {
+      "clause_id": "COM-001-p44",
+      "doc_id": "COM-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Termination does not absolve the Client from paying any outstanding invoices or commitments incurred prior to termination.",
+      "source_location": {
+        "doc_id": "COM-001",
+        "kind": "paragraph",
+        "locator": "paragraph:44",
+        "excerpt": "Termination does not absolve the Client from paying any outstanding invoices or commitments incurred prior to termination."
+      }
+    },
+    {
+      "clause_id": "COM-001-p46",
+      "doc_id": "COM-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "9. Signatures",
+      "source_location": {
+        "doc_id": "COM-001",
+        "kind": "paragraph",
+        "locator": "paragraph:46",
+        "excerpt": "9. Signatures"
+      }
+    }
+  ],
+  "tables": [
+    {
+      "table_id": "COM-001-t0",
+      "doc_id": "COM-001",
+      "doc_version": "1",
+      "table_index": 0,
+      "rows": [
+        [
+          "Product Category",
+          "Product Description",
+          "Unit Price (INR)",
+          "Volume Tier 1 (1\u201310 units)",
+          "Volume Tier 2 (11\u201350 units)",
+          "Volume Tier 3 (51+ units)",
+          "Notes"
+        ],
+        [
+          "Servers",
+          "Rack Server X100",
+          "1,25,000",
+          "1,25,000",
+          "1,20,000",
+          "1,15,000",
+          "Includes 3-year warranty"
+        ],
+        [
+          "Networking Equipment",
+          "Core Router R500",
+          "75,000",
+          "75,000",
+          "72,500",
+          "70,000",
+          "Annual maintenance optional"
+        ],
+        [
+          "Storage Solutions",
+          "SAN Storage S2000",
+          "2,00,000",
+          "2,00,000",
+          "1,95,000",
+          "1,90,000",
+          "Scalable up to 500TB"
+        ],
+        [
+          "Peripheral Devices",
+          "UPS 10kVA",
+          "50,000",
+          "50,000",
+          "48,000",
+          "46,000",
+          "Includes installation"
+        ],
+        [
+          "Consumables",
+          "Cat6 Ethernet Cable",
+          "500",
+          "500",
+          "480",
+          "450",
+          "Per meter"
+        ]
+      ],
+      "source_location": {
+        "doc_id": "COM-001",
+        "kind": "table",
+        "locator": "table:0",
+        "excerpt": null
+      }
+    },
+    {
+      "table_id": "COM-001-t1",
+      "doc_id": "COM-001",
+      "doc_version": "1",
+      "table_index": 1,
+      "rows": [
+        [
+          "Vendor: Primevolta Hardware Solutions",
+          "Client: FinSecure Services"
+        ],
+        [
+          "Name: ______________________________",
+          "Name: ___________________"
+        ],
+        [
+          "Designation: _______________________",
+          "Designation: ____________"
+        ],
+        [
+          "Date: ______________________________",
+          "Date: ___________________"
+        ],
+        [
+          "Signature: _________________________",
+          "Signature: ______________"
+        ]
+      ],
+      "source_location": {
+        "doc_id": "COM-001",
+        "kind": "table",
+        "locator": "table:1",
+        "excerpt": null
+      }
+    }
+  ],
+  "parse_status": "parsed",
+  "parse_error": null
+}

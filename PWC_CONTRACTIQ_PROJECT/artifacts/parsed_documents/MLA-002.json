@@ -1,0 +1,428 @@
+{
+  "doc_id": "MLA-002",
+  "clauses": [
+    {
+      "clause_id": "MLA-002-p0",
+      "doc_id": "MLA-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "MASTER SERVICES AGREEMENT (MSA SAMPLE 2)",
+      "source_location": {
+        "doc_id": "MLA-002",
+        "kind": "paragraph",
+        "locator": "paragraph:0",
+        "excerpt": "MASTER SERVICES AGREEMENT (MSA SAMPLE 2)"
+      }
+    },
+    {
+      "clause_id": "MLA-002-p1",
+      "doc_id": "MLA-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Between PrimeVolta Hardware Solutions & FinSecure Services\n(Advanced Embedded Hardware + Managed Warranty & Compliance Model)",
+      "source_location": {
+        "doc_id": "MLA-002",
+        "kind": "paragraph",
+        "locator": "paragraph:1",
+        "excerpt": "Between PrimeVolta Hardware Solutions & FinSecure Services\n(Advanced Embedded Hardware + Managed Warranty & Compliance Model)"
+      }
+    },
+    {
+      "clause_id": "MLA-002-p3",
+      "doc_id": "MLA-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "1. PURPOSE AND BACKGROUND",
+      "source_location": {
+        "doc_id": "MLA-002",
+        "kind": "paragraph",
+        "locator": "paragraph:3",
+        "excerpt": "1. PURPOSE AND BACKGROUND"
+      }
+    },
+    {
+      "clause_id": "MLA-002-p4",
+      "doc_id": "MLA-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "This Master Services Agreement (\u201cAgreement\u201d) is established to define and govern the comprehensive, long-term commercial and operational relationship between PrimeVolta Hardware Solutions (\u201cVendor\u201d) and FinSecure Services (\u201cClient\u201d). The Parties intend to collaborate on the design, manufacturing, supply, deployment, integration, warranty management, and ongoing support of advanced embedded hardware systems, secure authentication modules, payment-processing components, KYC terminals, biometric verification units, HSM-compatible micro-devices, and other BFSI-grade infrastructure products manufactured or supported by the Vendor. This Agreement aims to create a structured framework that ensures consistent quality, predictable timelines, financial transparency, high service reliability, and compliance with all regulatory obligations specific to the banking, financial services, and insurance sector. The Parties acknowledge that BFSI environments demand exceptionally high levels of continuity, data security, and operational integrity, and therefore, the Agreement establishes a unified mechanism for hardware lifecycle management, field support, preventive maintenance, device telemetry, warranty operations, and compliance-driven governance.",
+      "source_location": {
+        "doc_id": "MLA-002",
+        "kind": "paragraph",
+        "locator": "paragraph:4",
+        "excerpt": "This Master Services Agreement (\u201cAgreement\u201d) is established to define and govern the comprehensive, long-term commercial and operational relationship between PrimeVolta Hardware Solutions (\u201cVendor\u201d) and FinSecure Services (\u201cClient\u201d). The Parties intend to collaborate on the design, manufacturing, supply, deployment, integration, warranty management, and ongoing support of advanced embedded hardware systems, secure authentication modules, payment-processing components, KYC terminals, biometric verification units, HSM-compatible micro-devices, and other BFSI-grade infrastructure products manufactured or supported by the Vendor. This Agreement aims to create a structured framework that ensures consistent quality, predictable timelines, financial transparency, high service reliability, and compliance with all regulatory obligations specific to the banking, financial services, and insurance sector. The Parties acknowledge that BFSI environments demand exceptionally high levels of continuity, data security, and operational integrity, and therefore, the Agreement establishes a unified mechanism for hardware lifecycle management, field support, preventive maintenance, device telemetry, warranty operations, and compliance-driven governance."
+      }
+    },
+    {
+      "clause_id": "MLA-002-p6",
+      "doc_id": "MLA-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "2. SCOPE OF SERVICES AND PRODUCT CATEGORIES",
+      "source_location": {
+        "doc_id": "MLA-002",
+        "kind": "paragraph",
+        "locator": "paragraph:6",
+        "excerpt": "2. SCOPE OF SERVICES AND PRODUCT CATEGORIES"
+      }
+    },
+    {
+      "clause_id": "MLA-002-p7",
+      "doc_id": "MLA-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "The scope of this Agreement extends to a diverse and technologically advanced range of embedded hardware devices engineered for secure financial operations. The Vendor shall supply biometric authentication terminals, smart KYC devices, HSM interfacing modules, payment gateway controller boards, encrypted microcontroller units, secure IoT gateways, transaction authorization devices, branch automation equipment, and any other categories of hardware mutually agreed upon. The services included within the scope comprise installation, integration with banking software, device activation, firmware configuration, security provisioning, encryption module setup, and functional calibration tailored for BFSI workflows. The Vendor shall also undertake the comprehensive management of warranty operations, including device registration, claim verification, diagnosis, repair, spare parts allocation, and re-deployment. Additionally, the Vendor shall operate a managed service ecosystem for remote device telemetry, predictive maintenance analytics, health monitoring, firmware life-cycle management, and operational performance tracking across all Client locations. All such services shall be executed in accordance with industry best practices, statutory guidelines, and technology standards applicable to BFSI infrastructure.",
+      "source_location": {
+        "doc_id": "MLA-002",
+        "kind": "paragraph",
+        "locator": "paragraph:7",
+        "excerpt": "The scope of this Agreement extends to a diverse and technologically advanced range of embedded hardware devices engineered for secure financial operations. The Vendor shall supply biometric authentication terminals, smart KYC devices, HSM interfacing modules, payment gateway controller boards, encrypted microcontroller units, secure IoT gateways, transaction authorization devices, branch automation equipment, and any other categories of hardware mutually agreed upon. The services included within the scope comprise installation, integration with banking software, device activation, firmware configuration, security provisioning, encryption module setup, and functional calibration tailored for BFSI workflows. The Vendor shall also undertake the comprehensive management of warranty operations, including device registration, claim verification, diagnosis, repair, spare parts allocation, and re-deployment. Additionally, the Vendor shall operate a managed service ecosystem for remote device telemetry, predictive maintenance analytics, health monitoring, firmware life-cycle management, and operational performance tracking across all Client locations. All such services shall be executed in accordance with industry best practices, statutory guidelines, and technology standards applicable to BFSI infrastructure."
+      }
+    },
+    {
+      "clause_id": "MLA-002-p9",
+      "doc_id": "MLA-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3. PROJECT GOVERNANCE, REPORTING, AND COLLABORATION STRUCTURE",
+      "source_location": {
+        "doc_id": "MLA-002",
+        "kind": "paragraph",
+        "locator": "paragraph:9",
+        "excerpt": "3. PROJECT GOVERNANCE, REPORTING, AND COLLABORATION STRUCTURE"
+      }
+    },
+    {
+      "clause_id": "MLA-002-p10",
+      "doc_id": "MLA-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "A formal governance structure shall be maintained throughout the duration of this Agreement to ensure clear communication, timely resolution of issues, and alignment with strategic objectives. The Parties shall constitute a Joint Steering Committee, comprising senior representatives from both organizations, which shall convene periodically to review delivery progress, project milestones, ongoing issues, risk areas, compliance adherence, and roadmap planning. The Vendor shall provide comprehensive documentation packs including device architecture documents, firmware release notes, security certification evidence, and integration guidelines. Routine reporting shall include weekly operational reports, incident summaries, device uptime dashboards, RMA cycle logs, inventory status updates, performance efficiency analyses, and monthly service compliance metrics. Any deviation from agreed timelines, specifications, or quality benchmarks shall be immediately highlighted to the Steering Committee, accompanied by corrective action plans and revised delivery schedules. Both Parties shall maintain collaborative channels for communication, including escalation matrices, technical contact points, decision authorities, and emergency response contacts.",
+      "source_location": {
+        "doc_id": "MLA-002",
+        "kind": "paragraph",
+        "locator": "paragraph:10",
+        "excerpt": "A formal governance structure shall be maintained throughout the duration of this Agreement to ensure clear communication, timely resolution of issues, and alignment with strategic objectives. The Parties shall constitute a Joint Steering Committee, comprising senior representatives from both organizations, which shall convene periodically to review delivery progress, project milestones, ongoing issues, risk areas, compliance adherence, and roadmap planning. The Vendor shall provide comprehensive documentation packs including device architecture documents, firmware release notes, security certification evidence, and integration guidelines. Routine reporting shall include weekly operational reports, incident summaries, device uptime dashboards, RMA cycle logs, inventory status updates, performance efficiency analyses, and monthly service compliance metrics. Any deviation from agreed timelines, specifications, or quality benchmarks shall be immediately highlighted to the Steering Committee, accompanied by corrective action plans and revised delivery schedules. Both Parties shall maintain collaborative channels for communication, including escalation matrices, technical contact points, decision authorities, and emergency response contacts."
+      }
+    },
+    {
+      "clause_id": "MLA-002-p12",
+      "doc_id": "MLA-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "4. DELIVERY, LOGISTICS, AND DEPLOYMENT RESPONSIBILITIES",
+      "source_location": {
+        "doc_id": "MLA-002",
+        "kind": "paragraph",
+        "locator": "paragraph:12",
+        "excerpt": "4. DELIVERY, LOGISTICS, AND DEPLOYMENT RESPONSIBILITIES"
+      }
+    },
+    {
+      "clause_id": "MLA-002-p13",
+      "doc_id": "MLA-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "The Vendor shall be responsible for all aspects of hardware manufacturing, assembly, testing, and packaging, ensuring the delivery of devices that meet or exceed the quality and performance specifications captured in the relevant Statements of Work or annexures. Every unit shall undergo strict quality assurance procedures including stress testing, diagnostic validation, serial number recording, encryption key provisioning (where applicable), and secure packaging prepared for transit. The Vendor shall manage shipment coordination, transportation, logistics tracking, reverse logistics for RMA devices, and the secure handling of sensitive BFSI equipment throughout transit. The Client shall provide timely access to installation sites, ensure electrical and network readiness, and guarantee safe and authorized access for Vendor personnel and service representatives. Upon delivery, the Vendor shall oversee the full deployment process including unpacking, installation, onboarding of devices into the Client\u2019s operational systems, network integration, and verification of functional performance. Any device failures discovered at the time of installation shall be immediately recorded under DOA (Dead-On-Arrival) procedures and resolved in accordance with warranty commitments.",
+      "source_location": {
+        "doc_id": "MLA-002",
+        "kind": "paragraph",
+        "locator": "paragraph:13",
+        "excerpt": "The Vendor shall be responsible for all aspects of hardware manufacturing, assembly, testing, and packaging, ensuring the delivery of devices that meet or exceed the quality and performance specifications captured in the relevant Statements of Work or annexures. Every unit shall undergo strict quality assurance procedures including stress testing, diagnostic validation, serial number recording, encryption key provisioning (where applicable), and secure packaging prepared for transit. The Vendor shall manage shipment coordination, transportation, logistics tracking, reverse logistics for RMA devices, and the secure handling of sensitive BFSI equipment throughout transit. The Client shall provide timely access to installation sites, ensure electrical and network readiness, and guarantee safe and authorized access for Vendor personnel and service representatives. Upon delivery, the Vendor shall oversee the full deployment process including unpacking, installation, onboarding of devices into the Client\u2019s operational systems, network integration, and verification of functional performance. Any device failures discovered at the time of installation shall be immediately recorded under DOA (Dead-On-Arrival) procedures and resolved in accordance with warranty commitments."
+      }
+    },
+    {
+      "clause_id": "MLA-002-p15",
+      "doc_id": "MLA-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "5. SERVICE LEVEL COMMITMENTS AND PERFORMANCE EXPECTATIONS",
+      "source_location": {
+        "doc_id": "MLA-002",
+        "kind": "paragraph",
+        "locator": "paragraph:15",
+        "excerpt": "5. SERVICE LEVEL COMMITMENTS AND PERFORMANCE EXPECTATIONS"
+      }
+    },
+    {
+      "clause_id": "MLA-002-p16",
+      "doc_id": "MLA-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "The Vendor shall deliver all managed services in accordance with well-defined service level commitments that reflect the critical nature of financial operations. The Vendor shall ensure that DOA devices are replaced within a period not exceeding forty-eight hours from the time of formal acknowledgement. For devices requiring repairs under RMA, the Vendor shall ensure a complete repair and return cycle within seven to fourteen days depending on device type and parts availability. The Vendor shall offer on-site technical support, with response times tailored to the Client\u2019s geographical distribution: twelve hours for metropolitan locations, twenty-four hours for semi-urban or non-metro regions, and extended timelines for remote sites where travel logistics may necessitate slightly longer response periods. Remote support services shall be available on a continuous basis, enabling proactive monitoring and troubleshooting via telemetry data, firmware diagnostics, and device health analytics.",
+      "source_location": {
+        "doc_id": "MLA-002",
+        "kind": "paragraph",
+        "locator": "paragraph:16",
+        "excerpt": "The Vendor shall deliver all managed services in accordance with well-defined service level commitments that reflect the critical nature of financial operations. The Vendor shall ensure that DOA devices are replaced within a period not exceeding forty-eight hours from the time of formal acknowledgement. For devices requiring repairs under RMA, the Vendor shall ensure a complete repair and return cycle within seven to fourteen days depending on device type and parts availability. The Vendor shall offer on-site technical support, with response times tailored to the Client\u2019s geographical distribution: twelve hours for metropolitan locations, twenty-four hours for semi-urban or non-metro regions, and extended timelines for remote sites where travel logistics may necessitate slightly longer response periods. Remote support services shall be available on a continuous basis, enabling proactive monitoring and troubleshooting via telemetry data, firmware diagnostics, and device health analytics."
+      }
+    },
+    {
+      "clause_id": "MLA-002-p17",
+      "doc_id": "MLA-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "The Vendor shall maintain high operational availability standards for critical modules, with uptime expectations extending to ninety-nine percent for HSM-compatible hardware and secure authentication systems. Any disruptions, SLA breaches, or recurring faults shall be systematically recorded, analysed, and escalated in accordance with the defined escalation matrix. The Vendor shall undertake root-cause analysis, document the incident resolutions, and implement preventive actions to eliminate similar occurrences in the future. The Parties may mutually agree on service credits or compensatory remedies in case of repeated or significant SLA deviations.",
+      "source_location": {
+        "doc_id": "MLA-002",
+        "kind": "paragraph",
+        "locator": "paragraph:17",
+        "excerpt": "The Vendor shall maintain high operational availability standards for critical modules, with uptime expectations extending to ninety-nine percent for HSM-compatible hardware and secure authentication systems. Any disruptions, SLA breaches, or recurring faults shall be systematically recorded, analysed, and escalated in accordance with the defined escalation matrix. The Vendor shall undertake root-cause analysis, document the incident resolutions, and implement preventive actions to eliminate similar occurrences in the future. The Parties may mutually agree on service credits or compensatory remedies in case of repeated or significant SLA deviations."
+      }
+    },
+    {
+      "clause_id": "MLA-002-p19",
+      "doc_id": "MLA-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "6. CHANGE MANAGEMENT, VERSION CONTROL, AND IMPROVEMENT PROCESSES",
+      "source_location": {
+        "doc_id": "MLA-002",
+        "kind": "paragraph",
+        "locator": "paragraph:19",
+        "excerpt": "6. CHANGE MANAGEMENT, VERSION CONTROL, AND IMPROVEMENT PROCESSES"
+      }
+    },
+    {
+      "clause_id": "MLA-002-p20",
+      "doc_id": "MLA-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Given the evolving nature of embedded hardware, firmware, and BFSI regulatory expectations, any alteration to the scope, specifications, hardware design parameters, firmware baselines, delivery timelines, resource allocation, or warranty terms shall undergo a formal change management process. A Change Request (CR) shall be raised by either Party, detailing the proposed modification, the rationale behind the change, projected impact on costs and timelines, and any associated risks. The Steering Committee shall evaluate each CR and approve, reject, or request modifications before execution. The Vendor shall maintain proper version control systems for firmware, hardware revisions, microcontroller programming profiles, and diagnostic utilities, ensuring that only validated and authorized versions are deployed into production environments. Any improvement opportunities identified during audits, feedback cycles, or SLA reviews shall be documented and incorporated into future releases or operational enhancements.",
+      "source_location": {
+        "doc_id": "MLA-002",
+        "kind": "paragraph",
+        "locator": "paragraph:20",
+        "excerpt": "Given the evolving nature of embedded hardware, firmware, and BFSI regulatory expectations, any alteration to the scope, specifications, hardware design parameters, firmware baselines, delivery timelines, resource allocation, or warranty terms shall undergo a formal change management process. A Change Request (CR) shall be raised by either Party, detailing the proposed modification, the rationale behind the change, projected impact on costs and timelines, and any associated risks. The Steering Committee shall evaluate each CR and approve, reject, or request modifications before execution. The Vendor shall maintain proper version control systems for firmware, hardware revisions, microcontroller programming profiles, and diagnostic utilities, ensuring that only validated and authorized versions are deployed into production environments. Any improvement opportunities identified during audits, feedback cycles, or SLA reviews shall be documented and incorporated into future releases or operational enhancements."
+      }
+    },
+    {
+      "clause_id": "MLA-002-p22",
+      "doc_id": "MLA-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "7. SECURITY, REGULATORY COMPLIANCE, AND AUDIT SUPPORT",
+      "source_location": {
+        "doc_id": "MLA-002",
+        "kind": "paragraph",
+        "locator": "paragraph:22",
+        "excerpt": "7. SECURITY, REGULATORY COMPLIANCE, AND AUDIT SUPPORT"
+      }
+    },
+    {
+      "clause_id": "MLA-002-p23",
+      "doc_id": "MLA-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Recognizing the sensitivity of banking and financial operations, the Vendor agrees to adhere strictly to applicable security frameworks, including but not limited to the RBI Cybersecurity Framework, PCI-DSS guidelines (where relevant for payment-related devices), ISO 27001 principles, and other compliance directives issued by regulatory bodies. All hardware supplied shall incorporate secure boot processes, encryption capabilities, tamper-resistant architecture, and compliance-aligned firmware features conducive to secure BFSI functioning. The Vendor shall cooperate fully in any compliance audits initiated by the Client or mandated by regulators, providing necessary documentation, certification reports, testing evidence, and access to relevant systems or personnel. The Vendor shall maintain detailed logs of firmware releases, vulnerability mitigation activities, device serial number tracking, quality assurance tests, and RMA history for audit purposes. Any security incident or suspected compromise shall be reported to the Client without delay, accompanied by investigative details, mitigation steps, and a structured action plan.",
+      "source_location": {
+        "doc_id": "MLA-002",
+        "kind": "paragraph",
+        "locator": "paragraph:23",
+        "excerpt": "Recognizing the sensitivity of banking and financial operations, the Vendor agrees to adhere strictly to applicable security frameworks, including but not limited to the RBI Cybersecurity Framework, PCI-DSS guidelines (where relevant for payment-related devices), ISO 27001 principles, and other compliance directives issued by regulatory bodies. All hardware supplied shall incorporate secure boot processes, encryption capabilities, tamper-resistant architecture, and compliance-aligned firmware features conducive to secure BFSI functioning. The Vendor shall cooperate fully in any compliance audits initiated by the Client or mandated by regulators, providing necessary documentation, certification reports, testing evidence, and access to relevant systems or personnel. The Vendor shall maintain detailed logs of firmware releases, vulnerability mitigation activities, device serial number tracking, quality assurance tests, and RMA history for audit purposes. Any security incident or suspected compromise shall be reported to the Client without delay, accompanied by investigative details, mitigation steps, and a structured action plan."
+      }
+    },
+    {
+      "clause_id": "MLA-002-p25",
+      "doc_id": "MLA-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "8. LIABILITY, INDEMNIFICATION, AND INSURANCE COVERAGE",
+      "source_location": {
+        "doc_id": "MLA-002",
+        "kind": "paragraph",
+        "locator": "paragraph:25",
+        "excerpt": "8. LIABILITY, INDEMNIFICATION, AND INSURANCE COVERAGE"
+      }
+    },
+    {
+      "clause_id": "MLA-002-p26",
+      "doc_id": "MLA-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "The Vendor shall maintain appropriate insurance coverage, including product liability insurance, professional indemnity insurance, and transit insurance for shipped goods. The Vendor shall indemnify the Client against third-party claims, damages, or liabilities arising directly from manufacturing defects, faulty workmanship, or negligent acts attributable to the Vendor. The Client shall indemnify the Vendor against claims resulting from misuse of equipment, unauthorized modification of firmware or circuitry, breach of operational guidelines, or negligence by Client personnel. Indemnification obligations shall survive the expiration or termination of this Agreement. Except where arising from gross negligence or intentional misconduct, neither Party shall be liable for indirect or consequential damages such as lost revenue, business interruption, or reputational losses.",
+      "source_location": {
+        "doc_id": "MLA-002",
+        "kind": "paragraph",
+        "locator": "paragraph:26",
+        "excerpt": "The Vendor shall maintain appropriate insurance coverage, including product liability insurance, professional indemnity insurance, and transit insurance for shipped goods. The Vendor shall indemnify the Client against third-party claims, damages, or liabilities arising directly from manufacturing defects, faulty workmanship, or negligent acts attributable to the Vendor. The Client shall indemnify the Vendor against claims resulting from misuse of equipment, unauthorized modification of firmware or circuitry, breach of operational guidelines, or negligence by Client personnel. Indemnification obligations shall survive the expiration or termination of this Agreement. Except where arising from gross negligence or intentional misconduct, neither Party shall be liable for indirect or consequential damages such as lost revenue, business interruption, or reputational losses."
+      }
+    },
+    {
+      "clause_id": "MLA-002-p29",
+      "doc_id": "MLA-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "9. TERMINATION, EXIT MANAGEMENT, AND TRANSITION SUPPORT",
+      "source_location": {
+        "doc_id": "MLA-002",
+        "kind": "paragraph",
+        "locator": "paragraph:29",
+        "excerpt": "9. TERMINATION, EXIT MANAGEMENT, AND TRANSITION SUPPORT"
+      }
+    },
+    {
+      "clause_id": "MLA-002-p30",
+      "doc_id": "MLA-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Either Party may terminate this Agreement by providing ninety days\u2019 prior written notice. In cases involving fraud, regulatory non-compliance, severe SLA breaches, or security violations, termination may be executed with immediate effect. Upon termination, the Vendor shall extend full cooperation to ensure a seamless transition, including the return of Client-owned equipment, data handovers, transfer of operational knowledge, closure of pending service requests, completion of active repairs, and support for migration to a new service provider if appointed by the Client. All documentation, deployment records, firmware versions, and device lists shall be shared in a structured format to avoid operational disruption. Any outstanding payments shall be settled in accordance with the contractual terms.",
+      "source_location": {
+        "doc_id": "MLA-002",
+        "kind": "paragraph",
+        "locator": "paragraph:30",
+        "excerpt": "Either Party may terminate this Agreement by providing ninety days\u2019 prior written notice. In cases involving fraud, regulatory non-compliance, severe SLA breaches, or security violations, termination may be executed with immediate effect. Upon termination, the Vendor shall extend full cooperation to ensure a seamless transition, including the return of Client-owned equipment, data handovers, transfer of operational knowledge, closure of pending service requests, completion of active repairs, and support for migration to a new service provider if appointed by the Client. All documentation, deployment records, firmware versions, and device lists shall be shared in a structured format to avoid operational disruption. Any outstanding payments shall be settled in accordance with the contractual terms."
+      }
+    },
+    {
+      "clause_id": "MLA-002-p32",
+      "doc_id": "MLA-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "10. INTELLECTUAL PROPERTY RIGHTS AND USAGE LIMITATIONS",
+      "source_location": {
+        "doc_id": "MLA-002",
+        "kind": "paragraph",
+        "locator": "paragraph:32",
+        "excerpt": "10. INTELLECTUAL PROPERTY RIGHTS AND USAGE LIMITATIONS"
+      }
+    },
+    {
+      "clause_id": "MLA-002-p33",
+      "doc_id": "MLA-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "The Vendor shall retain full ownership of all intellectual property relating to device firmware, hardware design, embedded software, diagnostic tools, test scripts, SDKs, schematics, PCB designs, and proprietary algorithms associated with the supplied hardware. The Client shall be granted a restricted and non-transferable license solely for the purpose of operating the devices for its internal business workflows. The Client shall not attempt to reverse engineer, modify, decompile, or otherwise tamper with the Vendor\u2019s intellectual property unless expressly permitted under a separate written agreement. Custom developments undertaken specifically for the Client shall remain the intellectual property of the Vendor unless a separate transfer agreement is executed.",
+      "source_location": {
+        "doc_id": "MLA-002",
+        "kind": "paragraph",
+        "locator": "paragraph:33",
+        "excerpt": "The Vendor shall retain full ownership of all intellectual property relating to device firmware, hardware design, embedded software, diagnostic tools, test scripts, SDKs, schematics, PCB designs, and proprietary algorithms associated with the supplied hardware. The Client shall be granted a restricted and non-transferable license solely for the purpose of operating the devices for its internal business workflows. The Client shall not attempt to reverse engineer, modify, decompile, or otherwise tamper with the Vendor\u2019s intellectual property unless expressly permitted under a separate written agreement. Custom developments undertaken specifically for the Client shall remain the intellectual property of the Vendor unless a separate transfer agreement is executed."
+      }
+    },
+    {
+      "clause_id": "MLA-002-p35",
+      "doc_id": "MLA-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "11. CONFIDENTIALITY AND DATA PROTECTION",
+      "source_location": {
+        "doc_id": "MLA-002",
+        "kind": "paragraph",
+        "locator": "paragraph:35",
+        "excerpt": "11. CONFIDENTIALITY AND DATA PROTECTION"
+      }
+    },
+    {
+      "clause_id": "MLA-002-p36",
+      "doc_id": "MLA-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Both Parties shall treat all information exchanged under this Agreement\u2014including technical data, financial information, customer details, hardware configurations, and operational insights\u2014as strictly confidential. Such information shall be accessed only by authorized personnel and shall not be disclosed to third parties without prior written consent, except as required by law. The Vendor shall implement adequate data protection mechanisms, including encryption, controlled access policies, secure storage, and appropriate retention and disposal practices. These obligations shall remain in effect for five years following termination of this Agreement.",
+      "source_location": {
+        "doc_id": "MLA-002",
+        "kind": "paragraph",
+        "locator": "paragraph:36",
+        "excerpt": "Both Parties shall treat all information exchanged under this Agreement\u2014including technical data, financial information, customer details, hardware configurations, and operational insights\u2014as strictly confidential. Such information shall be accessed only by authorized personnel and shall not be disclosed to third parties without prior written consent, except as required by law. The Vendor shall implement adequate data protection mechanisms, including encryption, controlled access policies, secure storage, and appropriate retention and disposal practices. These obligations shall remain in effect for five years following termination of this Agreement."
+      }
+    },
+    {
+      "clause_id": "MLA-002-p39",
+      "doc_id": "MLA-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "12. GOVERNING LAW, DISPUTE RESOLUTION, AND GENERAL PROVISIONS",
+      "source_location": {
+        "doc_id": "MLA-002",
+        "kind": "paragraph",
+        "locator": "paragraph:39",
+        "excerpt": "12. GOVERNING LAW, DISPUTE RESOLUTION, AND GENERAL PROVISIONS"
+      }
+    },
+    {
+      "clause_id": "MLA-002-p40",
+      "doc_id": "MLA-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "This Agreement shall be governed by and construed in accordance with the laws of the jurisdiction specified in the relevant SOW or annexure. Any disputes arising out of or related to this Agreement shall be subjected to arbitration before a panel of arbitrators in accordance with governing arbitration procedures. The venue for arbitration shall be mutually agreed upon, and the arbitration award shall be final and binding. This Agreement contains the entire understanding between the Parties, superseding all prior communications, representations, or agreements. No amendment shall be valid unless executed in writing by authorized representatives of both Parties. If any term is deemed unenforceable, the remaining terms shall continue in effect. All notices shall be issued in writing and delivered through recognized postal, courier, or secured digital communication channels.",
+      "source_location": {
+        "doc_id": "MLA-002",
+        "kind": "paragraph",
+        "locator": "paragraph:40",
+        "excerpt": "This Agreement shall be governed by and construed in accordance with the laws of the jurisdiction specified in the relevant SOW or annexure. Any disputes arising out of or related to this Agreement shall be subjected to arbitration before a panel of arbitrators in accordance with governing arbitration procedures. The venue for arbitration shall be mutually agreed upon, and the arbitration award shall be final and binding. This Agreement contains the entire understanding between the Parties, superseding all prior communications, representations, or agreements. No amendment shall be valid unless executed in writing by authorized representatives of both Parties. If any term is deemed unenforceable, the remaining terms shall continue in effect. All notices shall be issued in writing and delivered through recognized postal, courier, or secured digital communication channels."
+      }
+    },
+    {
+      "clause_id": "MLA-002-p42",
+      "doc_id": "MLA-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "SIGNED:\nPrimeVolta Hardware Solutions\nFinSecure Services",
+      "source_location": {
+        "doc_id": "MLA-002",
+        "kind": "paragraph",
+        "locator": "paragraph:42",
+        "excerpt": "SIGNED:\nPrimeVolta Hardware Solutions\nFinSecure Services"
+      }
+    }
+  ],
+  "tables": [],
+  "parse_status": "parsed",
+  "parse_error": null
+}

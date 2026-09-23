@@ -1,0 +1,1798 @@
+{
+  "doc_id": "TXN-004",
+  "clauses": [
+    {
+      "clause_id": "TXN-004-p0",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "SAMPLE 2 \u2013 SIGNED STATEMENT OF WORK (SOW)",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:0",
+        "excerpt": "SAMPLE 2 \u2013 SIGNED STATEMENT OF WORK (SOW)"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p1",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "SOW No.: PVHS-FSS/2025/HAT-002\nBetween PrimeVolta Hardware Solutions (\u201cVendor\u201d) and FinSecure Services (\u201cClient\u201d)",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:1",
+        "excerpt": "SOW No.: PVHS-FSS/2025/HAT-002\nBetween PrimeVolta Hardware Solutions (\u201cVendor\u201d) and FinSecure Services (\u201cClient\u201d)"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p2",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Effective Date: //2025\nLocation: Nationwide (India)",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:2",
+        "excerpt": "Effective Date: //2025\nLocation: Nationwide (India)"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p4",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "1. Purpose and Background",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:4",
+        "excerpt": "1. Purpose and Background"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p5",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "1.1 This Statement of Work (\u201cSOW\u201d) is issued pursuant to the Master Services Agreement (\u201cMSA\u201d) executed between PrimeVolta Hardware Solutions, incorporated under the Companies Act, 2013 (\u201cVendor\u201d), and FinSecure Services, a BFSI company with headquarters at [Address] (\u201cClient\u201d).",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:5",
+        "excerpt": "1.1 This Statement of Work (\u201cSOW\u201d) is issued pursuant to the Master Services Agreement (\u201cMSA\u201d) executed between PrimeVolta Hardware Solutions, incorporated under the Companies Act, 2013 (\u201cVendor\u201d), and FinSecure Services, a BFSI company with headquarters at [Address] (\u201cClient\u201d)."
+      }
+    },
+    {
+      "clause_id": "TXN-004-p6",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "1.2 The purpose of this SOW is to define the detailed scope, technical specifications, deliverables, timelines, quality standards, acceptance criteria, training, warranties, and risk mitigation measures for the design, manufacture, supply, integration, and maintenance of Secure Hardware Authentication Terminals (HAT-900 Series) for FinSecure Services\u2019 branch offices and corporate operations.",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:6",
+        "excerpt": "1.2 The purpose of this SOW is to define the detailed scope, technical specifications, deliverables, timelines, quality standards, acceptance criteria, training, warranties, and risk mitigation measures for the design, manufacture, supply, integration, and maintenance of Secure Hardware Authentication Terminals (HAT-900 Series) for FinSecure Services\u2019 branch offices and corporate operations."
+      }
+    },
+    {
+      "clause_id": "TXN-004-p7",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "1.3 The SOW is supplemental to the MSA; in case of conflict, the MSA shall prevail except where explicitly modified herein.",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:7",
+        "excerpt": "1.3 The SOW is supplemental to the MSA; in case of conflict, the MSA shall prevail except where explicitly modified herein."
+      }
+    },
+    {
+      "clause_id": "TXN-004-p9",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "2. Definitions",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:9",
+        "excerpt": "2. Definitions"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p10",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "\u201cHardware Units\u201d: HAT-900 Series secure authentication terminals.",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:10",
+        "excerpt": "\u201cHardware Units\u201d: HAT-900 Series secure authentication terminals."
+      }
+    },
+    {
+      "clause_id": "TXN-004-p11",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "\u201cIntegration Services\u201d: Activities required to integrate Hardware Units with FinSecure\u2019s Identity Access Management (IAM) and transaction systems.",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:11",
+        "excerpt": "\u201cIntegration Services\u201d: Activities required to integrate Hardware Units with FinSecure\u2019s Identity Access Management (IAM) and transaction systems."
+      }
+    },
+    {
+      "clause_id": "TXN-004-p12",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "\u201cAcceptance Testing\u201d: Testing procedure described in Section 6, which must be completed prior to Client\u2019s formal acceptance.",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:12",
+        "excerpt": "\u201cAcceptance Testing\u201d: Testing procedure described in Section 6, which must be completed prior to Client\u2019s formal acceptance."
+      }
+    },
+    {
+      "clause_id": "TXN-004-p13",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "\u201cFirmware\u201d: Embedded software running on the HAT devices, including security modules, encryption protocols, and communication firmware.",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:13",
+        "excerpt": "\u201cFirmware\u201d: Embedded software running on the HAT devices, including security modules, encryption protocols, and communication firmware."
+      }
+    },
+    {
+      "clause_id": "TXN-004-p14",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "\u201cCR / Change Request\u201d: Any modification to scope, timeline, or cost requiring mutual written consent.",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:14",
+        "excerpt": "\u201cCR / Change Request\u201d: Any modification to scope, timeline, or cost requiring mutual written consent."
+      }
+    },
+    {
+      "clause_id": "TXN-004-p15",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "\u201cMaintenance Services\u201d: Activities related to preventive, corrective, and patch management support post-deployment.",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:15",
+        "excerpt": "\u201cMaintenance Services\u201d: Activities related to preventive, corrective, and patch management support post-deployment."
+      }
+    },
+    {
+      "clause_id": "TXN-004-p17",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3. Scope of Work",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:17",
+        "excerpt": "3. Scope of Work"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p18",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3.1 Hardware Design & Technical Specifications",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:18",
+        "excerpt": "3.1 Hardware Design & Technical Specifications"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p19",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3.1.1 Vendor shall design, manufacture, and deliver 1,200 units of HAT-900 Series terminals with the following specifications:",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:19",
+        "excerpt": "3.1.1 Vendor shall design, manufacture, and deliver 1,200 units of HAT-900 Series terminals with the following specifications:"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p20",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Biometric fingerprint module (FAP 30 certified)",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:20",
+        "excerpt": "Biometric fingerprint module (FAP 30 certified)"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p21",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "32-bit ARM Cortex-M33 processor with secure boot",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:21",
+        "excerpt": "32-bit ARM Cortex-M33 processor with secure boot"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p22",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "On-device Hardware Security Module (HSM Lite)",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:22",
+        "excerpt": "On-device Hardware Security Module (HSM Lite)"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p23",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "USB 3.0 and Ethernet connectivity",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:23",
+        "excerpt": "USB 3.0 and Ethernet connectivity"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p24",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "5\u201d color touchscreen with resistive/ capacitive input",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:24",
+        "excerpt": "5\u201d color touchscreen with resistive/ capacitive input"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p25",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "AES-256 encryption for all stored and transmitted data",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:25",
+        "excerpt": "AES-256 encryption for all stored and transmitted data"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p26",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Tamper detection switch with real-time alerts",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:26",
+        "excerpt": "Tamper detection switch with real-time alerts"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p27",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Endurance rating: \u22655 years with EEPROM write cycles \u2265100,000",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:27",
+        "excerpt": "Endurance rating: \u22655 years with EEPROM write cycles \u2265100,000"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p28",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3.1.2 Vendor shall ensure compliance with:",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:28",
+        "excerpt": "3.1.2 Vendor shall ensure compliance with:"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p29",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "ISO 9001:2015 (Quality Management Systems)",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:29",
+        "excerpt": "ISO 9001:2015 (Quality Management Systems)"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p30",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "ISO 27001:2022 (Information Security)",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:30",
+        "excerpt": "ISO 27001:2022 (Information Security)"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p31",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "IEC 61000-4-2/4-4/4-5 (EMI/EMC Standards)",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:31",
+        "excerpt": "IEC 61000-4-2/4-4/4-5 (EMI/EMC Standards)"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p32",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "RoHS-III environmental compliance",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:32",
+        "excerpt": "RoHS-III environmental compliance"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p33",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3.1.3 Vendor shall provide detailed technical drawings, PCB schematics, and Firmware Version Logs for each batch.",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:33",
+        "excerpt": "3.1.3 Vendor shall provide detailed technical drawings, PCB schematics, and Firmware Version Logs for each batch."
+      }
+    },
+    {
+      "clause_id": "TXN-004-p35",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3.2 Pre-Production Activities",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:35",
+        "excerpt": "3.2 Pre-Production Activities"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p36",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3.2.1 Prototyping: Vendor shall deliver 10 fully functional prototype units for Client evaluation, including:",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:36",
+        "excerpt": "3.2.1 Prototyping: Vendor shall deliver 10 fully functional prototype units for Client evaluation, including:"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p37",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Functional testing",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:37",
+        "excerpt": "Functional testing"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p38",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Integration with Client\u2019s IAM API",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:38",
+        "excerpt": "Integration with Client\u2019s IAM API"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p39",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Security validation and penetration testing",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:39",
+        "excerpt": "Security validation and penetration testing"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p40",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3.2.2 Review & Approval: Client shall review prototypes within 10 business days. Vendor may iterate up to 3 times to meet specifications.",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:40",
+        "excerpt": "3.2.2 Review & Approval: Client shall review prototypes within 10 business days. Vendor may iterate up to 3 times to meet specifications."
+      }
+    },
+    {
+      "clause_id": "TXN-004-p42",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3.3 Manufacturing & Quality Assurance",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:42",
+        "excerpt": "3.3 Manufacturing & Quality Assurance"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p43",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3.3.1 Vendor shall manufacture the remaining units in three batches of 400 units each, maintaining:",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:43",
+        "excerpt": "3.3.1 Vendor shall manufacture the remaining units in three batches of 400 units each, maintaining:"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p44",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Unit traceability via serial numbers",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:44",
+        "excerpt": "Unit traceability via serial numbers"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p45",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Functional and security testing for 100% of units",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:45",
+        "excerpt": "Functional and security testing for 100% of units"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p46",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Burn-in testing for 8 hours per unit",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:46",
+        "excerpt": "Burn-in testing for 8 hours per unit"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p47",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Random destructive testing for 1% of units",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:47",
+        "excerpt": "Random destructive testing for 1% of units"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p48",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3.3.2 Vendor shall submit Batch Quality Reports and Compliance Certificates with each delivery.",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:48",
+        "excerpt": "3.3.2 Vendor shall submit Batch Quality Reports and Compliance Certificates with each delivery."
+      }
+    },
+    {
+      "clause_id": "TXN-004-p50",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3.4 Delivery & Logistics",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:50",
+        "excerpt": "3.4 Delivery & Logistics"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p51",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3.4.1 Delivery will include secure packaging with anti-static protection and tamper-evident sealing.",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:51",
+        "excerpt": "3.4.1 Delivery will include secure packaging with anti-static protection and tamper-evident sealing."
+      }
+    },
+    {
+      "clause_id": "TXN-004-p52",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3.4.2 Vendor shall coordinate with Client\u2019s logistics teams to ensure delivery to designated branch offices and corporate locations as per approved schedule.",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:52",
+        "excerpt": "3.4.2 Vendor shall coordinate with Client\u2019s logistics teams to ensure delivery to designated branch offices and corporate locations as per approved schedule."
+      }
+    },
+    {
+      "clause_id": "TXN-004-p53",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3.4.3 Delivery Milestones:",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:53",
+        "excerpt": "3.4.3 Delivery Milestones:"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p55",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3.5 Integration & Configuration",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:55",
+        "excerpt": "3.5 Integration & Configuration"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p56",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Vendor shall integrate HAT devices with Client\u2019s IAM and transaction systems including:",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:56",
+        "excerpt": "Vendor shall integrate HAT devices with Client\u2019s IAM and transaction systems including:"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p57",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Authentication API configuration",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:57",
+        "excerpt": "Authentication API configuration"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p58",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Secure communication channel setup",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:58",
+        "excerpt": "Secure communication channel setup"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p59",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Firmware configuration and versioning",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:59",
+        "excerpt": "Firmware configuration and versioning"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p60",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Initial end-to-end functional tests",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:60",
+        "excerpt": "Initial end-to-end functional tests"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p61",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Documenting all integration steps in Integration Report",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:61",
+        "excerpt": "Documenting all integration steps in Integration Report"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p63",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3.6 Training & Documentation",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:63",
+        "excerpt": "3.6 Training & Documentation"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p64",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Vendor shall provide:",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:64",
+        "excerpt": "Vendor shall provide:"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p65",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "4 administrator-level training sessions",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:65",
+        "excerpt": "4 administrator-level training sessions"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p66",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "2 security awareness sessions for branch IT staff",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:66",
+        "excerpt": "2 security awareness sessions for branch IT staff"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p67",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "1 system integrator certification workshop",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:67",
+        "excerpt": "1 system integrator certification workshop"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p68",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Documentation including:",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:68",
+        "excerpt": "Documentation including:"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p69",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Technical Data Sheets",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:69",
+        "excerpt": "Technical Data Sheets"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p70",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Firmware Upgrade Procedures",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:70",
+        "excerpt": "Firmware Upgrade Procedures"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p71",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Integration Guides",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:71",
+        "excerpt": "Integration Guides"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p72",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "User Manuals",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:72",
+        "excerpt": "User Manuals"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p73",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Incident Handling SOPs",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:73",
+        "excerpt": "Incident Handling SOPs"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p75",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "4. Acceptance Testing",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:75",
+        "excerpt": "4. Acceptance Testing"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p76",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "4.1 Acceptance testing shall include:",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:76",
+        "excerpt": "4.1 Acceptance testing shall include:"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p77",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Device handshake with IAM API",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:77",
+        "excerpt": "Device handshake with IAM API"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p78",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Authentication latency \u2264 80 ms",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:78",
+        "excerpt": "Authentication latency \u2264 80 ms"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p79",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Stress test for 20,000 authentication cycles",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:79",
+        "excerpt": "Stress test for 20,000 authentication cycles"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p80",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Tamper detection functionality validation",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:80",
+        "excerpt": "Tamper detection functionality validation"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p81",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Maximum failure rate per batch \u2264 0.5%",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:81",
+        "excerpt": "Maximum failure rate per batch \u2264 0.5%"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p82",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "4.2 Client shall issue Acceptance Certificate for each batch after successful testing. Any units failing acceptance must be replaced or repaired within 7 business days at Vendor\u2019s cost.",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:82",
+        "excerpt": "4.2 Client shall issue Acceptance Certificate for each batch after successful testing. Any units failing acceptance must be replaced or repaired within 7 business days at Vendor\u2019s cost."
+      }
+    },
+    {
+      "clause_id": "TXN-004-p84",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "5. Maintenance & Support",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:84",
+        "excerpt": "5. Maintenance & Support"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p85",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "5.1 Warranty: 18 months from installation date, covering:",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:85",
+        "excerpt": "5.1 Warranty: 18 months from installation date, covering:"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p86",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Hardware defects",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:86",
+        "excerpt": "Hardware defects"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p87",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Firmware issues and bugs",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:87",
+        "excerpt": "Firmware issues and bugs"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p88",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Network connectivity problems",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:88",
+        "excerpt": "Network connectivity problems"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p89",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "5.2 Post-warranty support:",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:89",
+        "excerpt": "5.2 Post-warranty support:"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p90",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Preventive maintenance visits quarterly",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:90",
+        "excerpt": "Preventive maintenance visits quarterly"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p91",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Corrective maintenance within 6 hours of incident",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:91",
+        "excerpt": "Corrective maintenance within 6 hours of incident"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p92",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Remote firmware patch updates quarterly",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:92",
+        "excerpt": "Remote firmware patch updates quarterly"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p93",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Spare units replacement within 24 hours",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:93",
+        "excerpt": "Spare units replacement within 24 hours"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p94",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "5.3 Vendor shall maintain Maintenance Logs detailing:",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:94",
+        "excerpt": "5.3 Vendor shall maintain Maintenance Logs detailing:"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p95",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Firmware updates",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:95",
+        "excerpt": "Firmware updates"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p96",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Fault reports",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:96",
+        "excerpt": "Fault reports"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p97",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Preventive maintenance activities",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:97",
+        "excerpt": "Preventive maintenance activities"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p99",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "6. Pricing & Payment Terms",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:99",
+        "excerpt": "6. Pricing & Payment Terms"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p100",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Unit Price: \u20b9XX,XXX per HAT device",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:100",
+        "excerpt": "Unit Price: \u20b9XX,XXX per HAT device"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p101",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Integration Support: \u20b9X,XX,XXX (one-time)",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:101",
+        "excerpt": "Integration Support: \u20b9X,XX,XXX (one-time)"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p102",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Training Fees: Included",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:102",
+        "excerpt": "Training Fees: Included"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p103",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Payment Milestones:",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:103",
+        "excerpt": "Payment Milestones:"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p104",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "40% advance on SOW signing",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:104",
+        "excerpt": "40% advance on SOW signing"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p105",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "40% on delivery of Batch 2",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:105",
+        "excerpt": "40% on delivery of Batch 2"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p106",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "20% on final batch acceptance",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:106",
+        "excerpt": "20% on final batch acceptance"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p108",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "7. Change Management",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:108",
+        "excerpt": "7. Change Management"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p109",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "7.1 Any alterations to the SOW (scope, quantity, specifications, timelines) must be documented in a Change Request (CR) approved by authorized representatives.",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:109",
+        "excerpt": "7.1 Any alterations to the SOW (scope, quantity, specifications, timelines) must be documented in a Change Request (CR) approved by authorized representatives."
+      }
+    },
+    {
+      "clause_id": "TXN-004-p110",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "7.2 Change Requests may affect delivery schedules, cost, and acceptance milestones.",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:110",
+        "excerpt": "7.2 Change Requests may affect delivery schedules, cost, and acceptance milestones."
+      }
+    },
+    {
+      "clause_id": "TXN-004-p112",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "8. Risk Management & Compliance",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:112",
+        "excerpt": "8. Risk Management & Compliance"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p113",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "8.1 Vendor shall comply with all information security and regulatory requirements applicable to BFSI hardware, including:",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:113",
+        "excerpt": "8.1 Vendor shall comply with all information security and regulatory requirements applicable to BFSI hardware, including:"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p114",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Data confidentiality and secure storage",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:114",
+        "excerpt": "Data confidentiality and secure storage"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p115",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Tamper-proof and audit-ready device logs",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:115",
+        "excerpt": "Tamper-proof and audit-ready device logs"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p116",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Compliance with RBI IT security guidelines",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:116",
+        "excerpt": "Compliance with RBI IT security guidelines"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p117",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Physical security measures during transportation",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:117",
+        "excerpt": "Physical security measures during transportation"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p118",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "8.2 Vendor shall maintain insurance covering product liability, transit, and third-party damages.",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:118",
+        "excerpt": "8.2 Vendor shall maintain insurance covering product liability, transit, and third-party damages."
+      }
+    },
+    {
+      "clause_id": "TXN-004-p120",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "9. Intellectual Property & Confidentiality",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:120",
+        "excerpt": "9. Intellectual Property & Confidentiality"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p121",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Vendor retains ownership of designs, firmware, schematics, and diagnostic tools.",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:121",
+        "excerpt": "Vendor retains ownership of designs, firmware, schematics, and diagnostic tools."
+      }
+    },
+    {
+      "clause_id": "TXN-004-p122",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Client receives non-transferable usage rights for purchased devices.",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:122",
+        "excerpt": "Client receives non-transferable usage rights for purchased devices."
+      }
+    },
+    {
+      "clause_id": "TXN-004-p123",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "All technical and operational information shared by Client is strictly confidential.",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:123",
+        "excerpt": "All technical and operational information shared by Client is strictly confidential."
+      }
+    },
+    {
+      "clause_id": "TXN-004-p125",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "10. Termination",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:125",
+        "excerpt": "10. Termination"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p126",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Either Party may terminate this SOW upon 30-day written notice in case of material breach. All delivered and accepted units will be billed, and obligations for confidentiality and IP rights will survive termination.",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:126",
+        "excerpt": "Either Party may terminate this SOW upon 30-day written notice in case of material breach. All delivered and accepted units will be billed, and obligations for confidentiality and IP rights will survive termination."
+      }
+    },
+    {
+      "clause_id": "TXN-004-p128",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "11. Governing Law & Dispute Resolution",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:128",
+        "excerpt": "11. Governing Law & Dispute Resolution"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p129",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "This SOW is governed by the laws of India. Disputes will be resolved through arbitration under the Arbitration and Conciliation Act, 1996, conducted in New Delhi.",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:129",
+        "excerpt": "This SOW is governed by the laws of India. Disputes will be resolved through arbitration under the Arbitration and Conciliation Act, 1996, conducted in New Delhi."
+      }
+    },
+    {
+      "clause_id": "TXN-004-p131",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "12. Signatures",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:131",
+        "excerpt": "12. Signatures"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p132",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "PrimeVolta Hardware Solutions\nAuthorized Signatory: ___________________\nName:\nDesignation:",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:132",
+        "excerpt": "PrimeVolta Hardware Solutions\nAuthorized Signatory: ___________________\nName:\nDesignation:"
+      }
+    },
+    {
+      "clause_id": "TXN-004-p133",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "FinSecure Services\nAuthorized Signatory: ___________________\nName:\nDesignation:",
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:133",
+        "excerpt": "FinSecure Services\nAuthorized Signatory: ___________________\nName:\nDesignation:"
+      }
+    }
+  ],
+  "tables": [
+    {
+      "table_id": "TXN-004-t0",
+      "doc_id": "TXN-004",
+      "doc_version": "1",
+      "table_index": 0,
+      "rows": [
+        [
+          "Batch",
+          "Units",
+          "Target Delivery Date"
+        ],
+        [
+          "Batch 1",
+          "400",
+          "//2025"
+        ],
+        [
+          "Batch 2",
+          "400",
+          "//2025"
+        ],
+        [
+          "Batch 3",
+          "400",
+          "//2025"
+        ]
+      ],
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "table",
+        "locator": "table:0",
+        "excerpt": null
+      }
+    }
+  ],
+  "parse_status": "parsed",
+  "parse_error": null
+}

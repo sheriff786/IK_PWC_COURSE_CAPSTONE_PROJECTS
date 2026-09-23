@@ -1,0 +1,1349 @@
+{
+  "doc_id": "TXN-003",
+  "clauses": [
+    {
+      "clause_id": "TXN-003-p0",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "SAMPLE 1 \u2013 SIGNED STATEMENT OF WORK (SOW)",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:0",
+        "excerpt": "SAMPLE 1 \u2013 SIGNED STATEMENT OF WORK (SOW)"
+      }
+    },
+    {
+      "clause_id": "TXN-003-p1",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "SOW No.: PVHS-FSS/2025/PM-001\nBetween PrimeVolta Hardware Solutions (\u201cVendor\u201d) and FinSecure Services (\u201cClient\u201d)",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:1",
+        "excerpt": "SOW No.: PVHS-FSS/2025/PM-001\nBetween PrimeVolta Hardware Solutions (\u201cVendor\u201d) and FinSecure Services (\u201cClient\u201d)"
+      }
+    },
+    {
+      "clause_id": "TXN-003-p2",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Effective Date: //2025\nLocation: Nationwide (India)",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:2",
+        "excerpt": "Effective Date: //2025\nLocation: Nationwide (India)"
+      }
+    },
+    {
+      "clause_id": "TXN-003-p4",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "1. Purpose and Background",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:4",
+        "excerpt": "1. Purpose and Background"
+      }
+    },
+    {
+      "clause_id": "TXN-003-p5",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "1.1 This Statement of Work (\u201cSOW\u201d) is entered into pursuant to the Master Services Agreement (\u201cMSA\u201d) executed between PrimeVolta Hardware Solutions, a company incorporated under the Companies Act, 2013 with its registered office at [Address], (\u201cVendor\u201d) and FinSecure Services, a financial services provider engaged in banking, insurance, and fintech operations with its principal office at [Address], (\u201cClient\u201d).",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:5",
+        "excerpt": "1.1 This Statement of Work (\u201cSOW\u201d) is entered into pursuant to the Master Services Agreement (\u201cMSA\u201d) executed between PrimeVolta Hardware Solutions, a company incorporated under the Companies Act, 2013 with its registered office at [Address], (\u201cVendor\u201d) and FinSecure Services, a financial services provider engaged in banking, insurance, and fintech operations with its principal office at [Address], (\u201cClient\u201d)."
+      }
+    },
+    {
+      "clause_id": "TXN-003-p6",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "1.2 The purpose of this SOW is to define the scope, responsibilities, deliverables, timelines, pricing, acceptance criteria, and risk mitigation measures associated with the design, manufacture, supply, installation, commissioning, and post-installation maintenance of IoT-enabled smart power management modules for Client\u2019s branch offices nationwide.",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:6",
+        "excerpt": "1.2 The purpose of this SOW is to define the scope, responsibilities, deliverables, timelines, pricing, acceptance criteria, and risk mitigation measures associated with the design, manufacture, supply, installation, commissioning, and post-installation maintenance of IoT-enabled smart power management modules for Client\u2019s branch offices nationwide."
+      }
+    },
+    {
+      "clause_id": "TXN-003-p7",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "1.3 This SOW is supplemental to, and governed by, the terms of the MSA, except as expressly modified herein. All capitalized terms not defined in this SOW shall have the meanings assigned in the MSA.",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:7",
+        "excerpt": "1.3 This SOW is supplemental to, and governed by, the terms of the MSA, except as expressly modified herein. All capitalized terms not defined in this SOW shall have the meanings assigned in the MSA."
+      }
+    },
+    {
+      "clause_id": "TXN-003-p9",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "2. Definitions",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:9",
+        "excerpt": "2. Definitions"
+      }
+    },
+    {
+      "clause_id": "TXN-003-p10",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "For the purposes of this SOW, the following terms shall have the meanings set forth below:",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:10",
+        "excerpt": "For the purposes of this SOW, the following terms shall have the meanings set forth below:"
+      }
+    },
+    {
+      "clause_id": "TXN-003-p11",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "\u201cHardware Units\u201d means IoT-enabled Smart Power Modules Model PV-SPM-7200 manufactured and supplied under this SOW.",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:11",
+        "excerpt": "\u201cHardware Units\u201d means IoT-enabled Smart Power Modules Model PV-SPM-7200 manufactured and supplied under this SOW."
+      }
+    },
+    {
+      "clause_id": "TXN-003-p12",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "\u201cInstallation Services\u201d means all activities required to install, configure, and integrate the Hardware Units at the Client\u2019s branch offices.",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:12",
+        "excerpt": "\u201cInstallation Services\u201d means all activities required to install, configure, and integrate the Hardware Units at the Client\u2019s branch offices."
+      }
+    },
+    {
+      "clause_id": "TXN-003-p13",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "\u201cAcceptance Testing\u201d means the set of tests and validations described in Section 6 that must be performed before the Client formally accepts the Hardware Units.",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:13",
+        "excerpt": "\u201cAcceptance Testing\u201d means the set of tests and validations described in Section 6 that must be performed before the Client formally accepts the Hardware Units."
+      }
+    },
+    {
+      "clause_id": "TXN-003-p14",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "\u201cAMC\u201d means Annual Maintenance Contract covering preventive and corrective maintenance as described in Section 3.3.",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:14",
+        "excerpt": "\u201cAMC\u201d means Annual Maintenance Contract covering preventive and corrective maintenance as described in Section 3.3."
+      }
+    },
+    {
+      "clause_id": "TXN-003-p15",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "\u201cChange Request (CR)\u201d means any request for alteration in the scope, timeline, or cost agreed herein, subject to mutual written approval.",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:15",
+        "excerpt": "\u201cChange Request (CR)\u201d means any request for alteration in the scope, timeline, or cost agreed herein, subject to mutual written approval."
+      }
+    },
+    {
+      "clause_id": "TXN-003-p17",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3. Scope of Work",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:17",
+        "excerpt": "3. Scope of Work"
+      }
+    },
+    {
+      "clause_id": "TXN-003-p18",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3.1 Design and Manufacturing",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:18",
+        "excerpt": "3.1 Design and Manufacturing"
+      }
+    },
+    {
+      "clause_id": "TXN-003-p19",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3.1.1 Vendor shall design, engineer, manufacture, and test 2,500 units of IoT-enabled Smart Power Modules, incorporating the following features:",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:19",
+        "excerpt": "3.1.1 Vendor shall design, engineer, manufacture, and test 2,500 units of IoT-enabled Smart Power Modules, incorporating the following features:"
+      }
+    },
+    {
+      "clause_id": "TXN-003-p20",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "ARM Cortex M33 based controller",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:20",
+        "excerpt": "ARM Cortex M33 based controller"
+      }
+    },
+    {
+      "clause_id": "TXN-003-p21",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Power surge and over-voltage protection up to 10kV",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:21",
+        "excerpt": "Power surge and over-voltage protection up to 10kV"
+      }
+    },
+    {
+      "clause_id": "TXN-003-p22",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "AES-256 encrypted communication",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:22",
+        "excerpt": "AES-256 encrypted communication"
+      }
+    },
+    {
+      "clause_id": "TXN-003-p23",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "GSM + LTE fallback connectivity",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:23",
+        "excerpt": "GSM + LTE fallback connectivity"
+      }
+    },
+    {
+      "clause_id": "TXN-003-p24",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Overload, reverse polarity, and thermal protection circuits",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:24",
+        "excerpt": "Overload, reverse polarity, and thermal protection circuits"
+      }
+    },
+    {
+      "clause_id": "TXN-003-p25",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Firmware supporting remote diagnostics, reporting, and OTA updates",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:25",
+        "excerpt": "Firmware supporting remote diagnostics, reporting, and OTA updates"
+      }
+    },
+    {
+      "clause_id": "TXN-003-p26",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3.1.2 All manufacturing activities shall comply with ISO 9001:2015, ISO 14001:2015, and ISO 27001:2022 standards. Vendor shall maintain production logs, batch traceability, and serial numbering for each unit.",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:26",
+        "excerpt": "3.1.2 All manufacturing activities shall comply with ISO 9001:2015, ISO 14001:2015, and ISO 27001:2022 standards. Vendor shall maintain production logs, batch traceability, and serial numbering for each unit."
+      }
+    },
+    {
+      "clause_id": "TXN-003-p27",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3.1.3 Vendor shall conduct pre-shipment inspection, functional testing, and provide a detailed Manufacturing Quality Report to Client.",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:27",
+        "excerpt": "3.1.3 Vendor shall conduct pre-shipment inspection, functional testing, and provide a detailed Manufacturing Quality Report to Client."
+      }
+    },
+    {
+      "clause_id": "TXN-003-p29",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3.2 Installation & Commissioning",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:29",
+        "excerpt": "3.2 Installation & Commissioning"
+      }
+    },
+    {
+      "clause_id": "TXN-003-p30",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3.2.1 Vendor shall deploy a certified installation team for 180 Client branch offices across India. Installation services include:",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:30",
+        "excerpt": "3.2.1 Vendor shall deploy a certified installation team for 180 Client branch offices across India. Installation services include:"
+      }
+    },
+    {
+      "clause_id": "TXN-003-p31",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Site survey and electrical load assessment",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:31",
+        "excerpt": "Site survey and electrical load assessment"
+      }
+    },
+    {
+      "clause_id": "TXN-003-p32",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Integration of hardware with existing branch network, including BMS",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:32",
+        "excerpt": "Integration of hardware with existing branch network, including BMS"
+      }
+    },
+    {
+      "clause_id": "TXN-003-p33",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Installation of firmware version 7.2.1",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:33",
+        "excerpt": "Installation of firmware version 7.2.1"
+      }
+    },
+    {
+      "clause_id": "TXN-003-p34",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Configuration and calibration of sensors",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:34",
+        "excerpt": "Configuration and calibration of sensors"
+      }
+    },
+    {
+      "clause_id": "TXN-003-p35",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Connectivity verification with FinSecure Command Center",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:35",
+        "excerpt": "Connectivity verification with FinSecure Command Center"
+      }
+    },
+    {
+      "clause_id": "TXN-003-p36",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Preparation of Installation Completion Reports",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:36",
+        "excerpt": "Preparation of Installation Completion Reports"
+      }
+    },
+    {
+      "clause_id": "TXN-003-p37",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3.2.2 Vendor shall coordinate installation schedules with Client to minimize branch operational disruption. Installation shall adhere to local electrical safety standards, National Electrical Code, and EMI/EMC compliance.",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:37",
+        "excerpt": "3.2.2 Vendor shall coordinate installation schedules with Client to minimize branch operational disruption. Installation shall adhere to local electrical safety standards, National Electrical Code, and EMI/EMC compliance."
+      }
+    },
+    {
+      "clause_id": "TXN-003-p38",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3.2.3 Vendor shall provide on-site training for branch technical staff covering operation, troubleshooting, and preventive maintenance.",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:38",
+        "excerpt": "3.2.3 Vendor shall provide on-site training for branch technical staff covering operation, troubleshooting, and preventive maintenance."
+      }
+    },
+    {
+      "clause_id": "TXN-003-p40",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3.3 Warranty & Annual Maintenance Contract (AMC)",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:40",
+        "excerpt": "3.3 Warranty & Annual Maintenance Contract (AMC)"
+      }
+    },
+    {
+      "clause_id": "TXN-003-p41",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3.3.1 Warranty Period: Twelve (12) months from the date of installation, covering:",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:41",
+        "excerpt": "3.3.1 Warranty Period: Twelve (12) months from the date of installation, covering:"
+      }
+    },
+    {
+      "clause_id": "TXN-003-p42",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Hardware defects",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:42",
+        "excerpt": "Hardware defects"
+      }
+    },
+    {
+      "clause_id": "TXN-003-p43",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Firmware bugs",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:43",
+        "excerpt": "Firmware bugs"
+      }
+    },
+    {
+      "clause_id": "TXN-003-p44",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Network connectivity issues attributable to the hardware",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:44",
+        "excerpt": "Network connectivity issues attributable to the hardware"
+      }
+    },
+    {
+      "clause_id": "TXN-003-p45",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3.3.2 Post-warranty AMC for twenty-four (24) months including:",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:45",
+        "excerpt": "3.3.2 Post-warranty AMC for twenty-four (24) months including:"
+      }
+    },
+    {
+      "clause_id": "TXN-003-p46",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Preventive maintenance (quarterly)",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:46",
+        "excerpt": "Preventive maintenance (quarterly)"
+      }
+    },
+    {
+      "clause_id": "TXN-003-p47",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Corrective maintenance with maximum 6-hour response time",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:47",
+        "excerpt": "Corrective maintenance with maximum 6-hour response time"
+      }
+    },
+    {
+      "clause_id": "TXN-003-p48",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Replacement of faulty units within 24 hours",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:48",
+        "excerpt": "Replacement of faulty units within 24 hours"
+      }
+    },
+    {
+      "clause_id": "TXN-003-p49",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Remote diagnostic support 24\u00d77",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:49",
+        "excerpt": "Remote diagnostic support 24\u00d77"
+      }
+    },
+    {
+      "clause_id": "TXN-003-p50",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3.3.3 Vendor shall maintain a log of all maintenance activities, including parts replaced, firmware updates, and branch-wise service reports.",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:50",
+        "excerpt": "3.3.3 Vendor shall maintain a log of all maintenance activities, including parts replaced, firmware updates, and branch-wise service reports."
+      }
+    },
+    {
+      "clause_id": "TXN-003-p52",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "4. Deliverables",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:52",
+        "excerpt": "4. Deliverables"
+      }
+    },
+    {
+      "clause_id": "TXN-003-p53",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Vendor shall deliver the following:",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:53",
+        "excerpt": "Vendor shall deliver the following:"
+      }
+    },
+    {
+      "clause_id": "TXN-003-p54",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Hardware Units: 2,500 IoT-enabled modules",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:54",
+        "excerpt": "Hardware Units: 2,500 IoT-enabled modules"
+      }
+    },
+    {
+      "clause_id": "TXN-003-p55",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Installation Reports: 180 branch-wise reports",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:55",
+        "excerpt": "Installation Reports: 180 branch-wise reports"
+      }
+    },
+    {
+      "clause_id": "TXN-003-p56",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Firmware Versioning Log",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:56",
+        "excerpt": "Firmware Versioning Log"
+      }
+    },
+    {
+      "clause_id": "TXN-003-p57",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Maintenance Runbook",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:57",
+        "excerpt": "Maintenance Runbook"
+      }
+    },
+    {
+      "clause_id": "TXN-003-p58",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Training Material & User Manual",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:58",
+        "excerpt": "Training Material & User Manual"
+      }
+    },
+    {
+      "clause_id": "TXN-003-p59",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Spare Unit Inventory List",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:59",
+        "excerpt": "Spare Unit Inventory List"
+      }
+    },
+    {
+      "clause_id": "TXN-003-p60",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Compliance Certificates (ISO, EMC, EMI, Electrical Safety)",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:60",
+        "excerpt": "Compliance Certificates (ISO, EMC, EMI, Electrical Safety)"
+      }
+    },
+    {
+      "clause_id": "TXN-003-p62",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "5. Project Timelines",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:62",
+        "excerpt": "5. Project Timelines"
+      }
+    },
+    {
+      "clause_id": "TXN-003-p63",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Vendor shall provide weekly status reports to the Client project manager.",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:63",
+        "excerpt": "Vendor shall provide weekly status reports to the Client project manager."
+      }
+    },
+    {
+      "clause_id": "TXN-003-p65",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "6. Acceptance Testing",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:65",
+        "excerpt": "6. Acceptance Testing"
+      }
+    },
+    {
+      "clause_id": "TXN-003-p66",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "6.1 Hardware shall be accepted only after successful completion of the following tests:",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:66",
+        "excerpt": "6.1 Hardware shall be accepted only after successful completion of the following tests:"
+      }
+    },
+    {
+      "clause_id": "TXN-003-p67",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Branch-level functional test",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:67",
+        "excerpt": "Branch-level functional test"
+      }
+    },
+    {
+      "clause_id": "TXN-003-p68",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Uptime verification for 48 continuous hours",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:68",
+        "excerpt": "Uptime verification for 48 continuous hours"
+      }
+    },
+    {
+      "clause_id": "TXN-003-p69",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "EMI/EMC compliance verification",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:69",
+        "excerpt": "EMI/EMC compliance verification"
+      }
+    },
+    {
+      "clause_id": "TXN-003-p70",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Installation report sign-off by branch manager and Client representative",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:70",
+        "excerpt": "Installation report sign-off by branch manager and Client representative"
+      }
+    },
+    {
+      "clause_id": "TXN-003-p71",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "6.2 Any units failing acceptance criteria shall be rectified or replaced at Vendor\u2019s cost within seven (7) business days.",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:71",
+        "excerpt": "6.2 Any units failing acceptance criteria shall be rectified or replaced at Vendor\u2019s cost within seven (7) business days."
+      }
+    },
+    {
+      "clause_id": "TXN-003-p73",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "7. Change Management",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:73",
+        "excerpt": "7. Change Management"
+      }
+    },
+    {
+      "clause_id": "TXN-003-p74",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "7.1 Any modifications to scope, quantity, or specifications must be documented via a Change Request (CR), signed by both Parties.",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:74",
+        "excerpt": "7.1 Any modifications to scope, quantity, or specifications must be documented via a Change Request (CR), signed by both Parties."
+      }
+    },
+    {
+      "clause_id": "TXN-003-p75",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "7.2 CR approval may include revised timelines, cost adjustments, or updated SLAs.",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:75",
+        "excerpt": "7.2 CR approval may include revised timelines, cost adjustments, or updated SLAs."
+      }
+    },
+    {
+      "clause_id": "TXN-003-p77",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "8. Pricing & Payment Terms",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:77",
+        "excerpt": "8. Pricing & Payment Terms"
+      }
+    },
+    {
+      "clause_id": "TXN-003-p78",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "8.1 Hardware Cost: \u20b9XX,XXX per unit\n8.2 Installation Charges: \u20b9X,XXX per branch\n8.3 AMC Fee: \u20b9XX,XX,XXX annually",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:78",
+        "excerpt": "8.1 Hardware Cost: \u20b9XX,XXX per unit\n8.2 Installation Charges: \u20b9X,XXX per branch\n8.3 AMC Fee: \u20b9XX,XX,XXX annually"
+      }
+    },
+    {
+      "clause_id": "TXN-003-p79",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Payment Milestones:",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:79",
+        "excerpt": "Payment Milestones:"
+      }
+    },
+    {
+      "clause_id": "TXN-003-p80",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "30% advance on SOW signing",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:80",
+        "excerpt": "30% advance on SOW signing"
+      }
+    },
+    {
+      "clause_id": "TXN-003-p81",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "50% post-delivery of hardware units",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:81",
+        "excerpt": "50% post-delivery of hardware units"
+      }
+    },
+    {
+      "clause_id": "TXN-003-p82",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "20% post-installation and acceptance",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:82",
+        "excerpt": "20% post-installation and acceptance"
+      }
+    },
+    {
+      "clause_id": "TXN-003-p84",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "9. Confidentiality",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:84",
+        "excerpt": "9. Confidentiality"
+      }
+    },
+    {
+      "clause_id": "TXN-003-p85",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Vendor shall maintain strict confidentiality of Client data, branch network configurations, firmware code, and any proprietary information. Unauthorized disclosure is a material breach.",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:85",
+        "excerpt": "Vendor shall maintain strict confidentiality of Client data, branch network configurations, firmware code, and any proprietary information. Unauthorized disclosure is a material breach."
+      }
+    },
+    {
+      "clause_id": "TXN-003-p87",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "10. Intellectual Property Rights",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:87",
+        "excerpt": "10. Intellectual Property Rights"
+      }
+    },
+    {
+      "clause_id": "TXN-003-p88",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "10.1 Vendor retains ownership of firmware, hardware schematics, and designs.\n10.2 Client receives perpetual, non-transferable usage rights for purchased hardware only.",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:88",
+        "excerpt": "10.1 Vendor retains ownership of firmware, hardware schematics, and designs.\n10.2 Client receives perpetual, non-transferable usage rights for purchased hardware only."
+      }
+    },
+    {
+      "clause_id": "TXN-003-p90",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "11. Risk & Liability",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:90",
+        "excerpt": "11. Risk & Liability"
+      }
+    },
+    {
+      "clause_id": "TXN-003-p91",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "11.1 Vendor shall maintain insurance coverage for product liability and third-party damages.\n11.2 Vendor\u2019s liability for any loss arising under this SOW shall not exceed the total fees paid under this SOW.",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:91",
+        "excerpt": "11.1 Vendor shall maintain insurance coverage for product liability and third-party damages.\n11.2 Vendor\u2019s liability for any loss arising under this SOW shall not exceed the total fees paid under this SOW."
+      }
+    },
+    {
+      "clause_id": "TXN-003-p93",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "12. Termination",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:93",
+        "excerpt": "12. Termination"
+      }
+    },
+    {
+      "clause_id": "TXN-003-p94",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Either Party may terminate this SOW upon 30 days written notice if the other Party materially breaches its obligations and fails to remedy within the notice period.",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:94",
+        "excerpt": "Either Party may terminate this SOW upon 30 days written notice if the other Party materially breaches its obligations and fails to remedy within the notice period."
+      }
+    },
+    {
+      "clause_id": "TXN-003-p96",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "13. Governing Law & Dispute Resolution",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:96",
+        "excerpt": "13. Governing Law & Dispute Resolution"
+      }
+    },
+    {
+      "clause_id": "TXN-003-p97",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "This SOW shall be governed by the laws of India. Any disputes shall be resolved through arbitration under the Arbitration and Conciliation Act, 1996, conducted in New Delhi.",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:97",
+        "excerpt": "This SOW shall be governed by the laws of India. Any disputes shall be resolved through arbitration under the Arbitration and Conciliation Act, 1996, conducted in New Delhi."
+      }
+    },
+    {
+      "clause_id": "TXN-003-p99",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "14. Signatures",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:99",
+        "excerpt": "14. Signatures"
+      }
+    },
+    {
+      "clause_id": "TXN-003-p100",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "PrimeVolta Hardware Solutions\nAuthorized Signatory: ___________________\nName:\nDesignation:",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:100",
+        "excerpt": "PrimeVolta Hardware Solutions\nAuthorized Signatory: ___________________\nName:\nDesignation:"
+      }
+    },
+    {
+      "clause_id": "TXN-003-p101",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "FinSecure Services\nAuthorized Signatory: ___________________\nName:\nDesignation:",
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:101",
+        "excerpt": "FinSecure Services\nAuthorized Signatory: ___________________\nName:\nDesignation:"
+      }
+    }
+  ],
+  "tables": [
+    {
+      "table_id": "TXN-003-t0",
+      "doc_id": "TXN-003",
+      "doc_version": "1",
+      "table_index": 0,
+      "rows": [
+        [
+          "Phase",
+          "Activity",
+          "Duration",
+          "Completion Date"
+        ],
+        [
+          "Phase 1",
+          "Prototype Approval",
+          "2 weeks",
+          "//2025"
+        ],
+        [
+          "Phase 2",
+          "Manufacturing Batch 1",
+          "4 weeks",
+          "//2025"
+        ],
+        [
+          "Phase 3",
+          "Manufacturing Batch 2",
+          "4 weeks",
+          "//2025"
+        ],
+        [
+          "Phase 4",
+          "Installation Rollout",
+          "6 weeks",
+          "//2025"
+        ],
+        [
+          "Phase 5",
+          "Acceptance Testing",
+          "1 week",
+          "//2025"
+        ]
+      ],
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "table",
+        "locator": "table:0",
+        "excerpt": null
+      }
+    }
+  ],
+  "parse_status": "parsed",
+  "parse_error": null
+}

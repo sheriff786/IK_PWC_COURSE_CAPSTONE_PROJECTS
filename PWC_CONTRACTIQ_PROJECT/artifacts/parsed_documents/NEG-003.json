@@ -1,0 +1,863 @@
+{
+  "doc_id": "NEG-003",
+  "clauses": [
+    {
+      "clause_id": "NEG-003-p0",
+      "doc_id": "NEG-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Sample 1 \u2013 Redlined Contract between Primevolta Hardware Solutions and FinSecure Services",
+      "source_location": {
+        "doc_id": "NEG-003",
+        "kind": "paragraph",
+        "locator": "paragraph:0",
+        "excerpt": "Sample 1 \u2013 Redlined Contract between Primevolta Hardware Solutions and FinSecure Services"
+      }
+    },
+    {
+      "clause_id": "NEG-003-p1",
+      "doc_id": "NEG-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Agreement Title: Hardware Supply and Maintenance Agreement\nDate: January 15, 2024\nParties:",
+      "source_location": {
+        "doc_id": "NEG-003",
+        "kind": "paragraph",
+        "locator": "paragraph:1",
+        "excerpt": "Agreement Title: Hardware Supply and Maintenance Agreement\nDate: January 15, 2024\nParties:"
+      }
+    },
+    {
+      "clause_id": "NEG-003-p2",
+      "doc_id": "NEG-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Primevolta Hardware Solutions, a company incorporated under the laws of [Country], having its principal office at [Address], herein referred to as \u201cVendor.\u201d",
+      "source_location": {
+        "doc_id": "NEG-003",
+        "kind": "paragraph",
+        "locator": "paragraph:2",
+        "excerpt": "Primevolta Hardware Solutions, a company incorporated under the laws of [Country], having its principal office at [Address], herein referred to as \u201cVendor.\u201d"
+      }
+    },
+    {
+      "clause_id": "NEG-003-p3",
+      "doc_id": "NEG-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "FinSecure Services, a financial services company, incorporated under the laws of [Country], having its principal office at [Address], herein referred to as \u201cClient.\u201d",
+      "source_location": {
+        "doc_id": "NEG-003",
+        "kind": "paragraph",
+        "locator": "paragraph:3",
+        "excerpt": "FinSecure Services, a financial services company, incorporated under the laws of [Country], having its principal office at [Address], herein referred to as \u201cClient.\u201d"
+      }
+    },
+    {
+      "clause_id": "NEG-003-p5",
+      "doc_id": "NEG-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "1. Recitals",
+      "source_location": {
+        "doc_id": "NEG-003",
+        "kind": "paragraph",
+        "locator": "paragraph:5",
+        "excerpt": "1. Recitals"
+      }
+    },
+    {
+      "clause_id": "NEG-003-p6",
+      "doc_id": "NEG-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "This Agreement is entered into for the purpose of supplying, installing, and maintaining electronic hardware systems including servers, networking equipment, and secure transaction devices (hereinafter \u201cHardware\u201d) to support the Client\u2019s banking and financial operations.",
+      "source_location": {
+        "doc_id": "NEG-003",
+        "kind": "paragraph",
+        "locator": "paragraph:6",
+        "excerpt": "This Agreement is entered into for the purpose of supplying, installing, and maintaining electronic hardware systems including servers, networking equipment, and secure transaction devices (hereinafter \u201cHardware\u201d) to support the Client\u2019s banking and financial operations."
+      }
+    },
+    {
+      "clause_id": "NEG-003-p7",
+      "doc_id": "NEG-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Redline Notes:",
+      "source_location": {
+        "doc_id": "NEG-003",
+        "kind": "paragraph",
+        "locator": "paragraph:7",
+        "excerpt": "Redline Notes:"
+      }
+    },
+    {
+      "clause_id": "NEG-003-p8",
+      "doc_id": "NEG-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Vendor suggested adding a clause specifying warranty coverage duration as 36 months (Client requested 24 months).",
+      "source_location": {
+        "doc_id": "NEG-003",
+        "kind": "paragraph",
+        "locator": "paragraph:8",
+        "excerpt": "Vendor suggested adding a clause specifying warranty coverage duration as 36 months (Client requested 24 months)."
+      }
+    },
+    {
+      "clause_id": "NEG-003-p9",
+      "doc_id": "NEG-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Client requested inclusion of service uptime SLA of 99.9% (Vendor initially proposed 98%).",
+      "source_location": {
+        "doc_id": "NEG-003",
+        "kind": "paragraph",
+        "locator": "paragraph:9",
+        "excerpt": "Client requested inclusion of service uptime SLA of 99.9% (Vendor initially proposed 98%)."
+      }
+    },
+    {
+      "clause_id": "NEG-003-p11",
+      "doc_id": "NEG-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "2. Definitions",
+      "source_location": {
+        "doc_id": "NEG-003",
+        "kind": "paragraph",
+        "locator": "paragraph:11",
+        "excerpt": "2. Definitions"
+      }
+    },
+    {
+      "clause_id": "NEG-003-p12",
+      "doc_id": "NEG-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "\u201cHardware\u201d: All equipment specified in Annexure A.",
+      "source_location": {
+        "doc_id": "NEG-003",
+        "kind": "paragraph",
+        "locator": "paragraph:12",
+        "excerpt": "\u201cHardware\u201d: All equipment specified in Annexure A."
+      }
+    },
+    {
+      "clause_id": "NEG-003-p13",
+      "doc_id": "NEG-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "\u201cSoftware\u201d: Any firmware or embedded software included with the Hardware.",
+      "source_location": {
+        "doc_id": "NEG-003",
+        "kind": "paragraph",
+        "locator": "paragraph:13",
+        "excerpt": "\u201cSoftware\u201d: Any firmware or embedded software included with the Hardware."
+      }
+    },
+    {
+      "clause_id": "NEG-003-p14",
+      "doc_id": "NEG-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "\u201cDelivery\u201d: Date of physical arrival of Hardware at Client site.",
+      "source_location": {
+        "doc_id": "NEG-003",
+        "kind": "paragraph",
+        "locator": "paragraph:14",
+        "excerpt": "\u201cDelivery\u201d: Date of physical arrival of Hardware at Client site."
+      }
+    },
+    {
+      "clause_id": "NEG-003-p15",
+      "doc_id": "NEG-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Redline Notes:",
+      "source_location": {
+        "doc_id": "NEG-003",
+        "kind": "paragraph",
+        "locator": "paragraph:15",
+        "excerpt": "Redline Notes:"
+      }
+    },
+    {
+      "clause_id": "NEG-003-p16",
+      "doc_id": "NEG-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Vendor proposed that \u201cDelivery\u201d be defined as \u201cshipment from Vendor facility,\u201d Client insisted on arrival at site.",
+      "source_location": {
+        "doc_id": "NEG-003",
+        "kind": "paragraph",
+        "locator": "paragraph:16",
+        "excerpt": "Vendor proposed that \u201cDelivery\u201d be defined as \u201cshipment from Vendor facility,\u201d Client insisted on arrival at site."
+      }
+    },
+    {
+      "clause_id": "NEG-003-p18",
+      "doc_id": "NEG-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3. Scope of Supply",
+      "source_location": {
+        "doc_id": "NEG-003",
+        "kind": "paragraph",
+        "locator": "paragraph:18",
+        "excerpt": "3. Scope of Supply"
+      }
+    },
+    {
+      "clause_id": "NEG-003-p19",
+      "doc_id": "NEG-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3.1 Vendor shall supply the Hardware as per specifications in Annexure A.\n3.2 Vendor shall provide installation, configuration, and integration services.\n3.3 Vendor shall provide training to Client staff for a period of 2 weeks post-installation.",
+      "source_location": {
+        "doc_id": "NEG-003",
+        "kind": "paragraph",
+        "locator": "paragraph:19",
+        "excerpt": "3.1 Vendor shall supply the Hardware as per specifications in Annexure A.\n3.2 Vendor shall provide installation, configuration, and integration services.\n3.3 Vendor shall provide training to Client staff for a period of 2 weeks post-installation."
+      }
+    },
+    {
+      "clause_id": "NEG-003-p20",
+      "doc_id": "NEG-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Redline Notes:",
+      "source_location": {
+        "doc_id": "NEG-003",
+        "kind": "paragraph",
+        "locator": "paragraph:20",
+        "excerpt": "Redline Notes:"
+      }
+    },
+    {
+      "clause_id": "NEG-003-p21",
+      "doc_id": "NEG-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Client requested a clause for \u201cRemote troubleshooting within 24 hours.\u201d Vendor initially offered 48 hours.",
+      "source_location": {
+        "doc_id": "NEG-003",
+        "kind": "paragraph",
+        "locator": "paragraph:21",
+        "excerpt": "Client requested a clause for \u201cRemote troubleshooting within 24 hours.\u201d Vendor initially offered 48 hours."
+      }
+    },
+    {
+      "clause_id": "NEG-003-p22",
+      "doc_id": "NEG-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Vendor included optional yearly preventive maintenance services; Client requested it to be mandatory.",
+      "source_location": {
+        "doc_id": "NEG-003",
+        "kind": "paragraph",
+        "locator": "paragraph:22",
+        "excerpt": "Vendor included optional yearly preventive maintenance services; Client requested it to be mandatory."
+      }
+    },
+    {
+      "clause_id": "NEG-003-p24",
+      "doc_id": "NEG-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "4. Price and Payment Terms",
+      "source_location": {
+        "doc_id": "NEG-003",
+        "kind": "paragraph",
+        "locator": "paragraph:24",
+        "excerpt": "4. Price and Payment Terms"
+      }
+    },
+    {
+      "clause_id": "NEG-003-p25",
+      "doc_id": "NEG-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "4.1 Total Contract Value: $2,500,000 USD.\n4.2 Payment Schedule:",
+      "source_location": {
+        "doc_id": "NEG-003",
+        "kind": "paragraph",
+        "locator": "paragraph:25",
+        "excerpt": "4.1 Total Contract Value: $2,500,000 USD.\n4.2 Payment Schedule:"
+      }
+    },
+    {
+      "clause_id": "NEG-003-p26",
+      "doc_id": "NEG-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "30% advance on signing the agreement",
+      "source_location": {
+        "doc_id": "NEG-003",
+        "kind": "paragraph",
+        "locator": "paragraph:26",
+        "excerpt": "30% advance on signing the agreement"
+      }
+    },
+    {
+      "clause_id": "NEG-003-p27",
+      "doc_id": "NEG-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "50% upon delivery and acceptance of Hardware",
+      "source_location": {
+        "doc_id": "NEG-003",
+        "kind": "paragraph",
+        "locator": "paragraph:27",
+        "excerpt": "50% upon delivery and acceptance of Hardware"
+      }
+    },
+    {
+      "clause_id": "NEG-003-p28",
+      "doc_id": "NEG-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "20% upon completion of installation and integration",
+      "source_location": {
+        "doc_id": "NEG-003",
+        "kind": "paragraph",
+        "locator": "paragraph:28",
+        "excerpt": "20% upon completion of installation and integration"
+      }
+    },
+    {
+      "clause_id": "NEG-003-p29",
+      "doc_id": "NEG-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Redline Notes:",
+      "source_location": {
+        "doc_id": "NEG-003",
+        "kind": "paragraph",
+        "locator": "paragraph:29",
+        "excerpt": "Redline Notes:"
+      }
+    },
+    {
+      "clause_id": "NEG-003-p30",
+      "doc_id": "NEG-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Client requested milestone-based payments tied to acceptance testing rather than delivery date.",
+      "source_location": {
+        "doc_id": "NEG-003",
+        "kind": "paragraph",
+        "locator": "paragraph:30",
+        "excerpt": "Client requested milestone-based payments tied to acceptance testing rather than delivery date."
+      }
+    },
+    {
+      "clause_id": "NEG-003-p31",
+      "doc_id": "NEG-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Vendor included a 2% early payment discount; Client requested it to be 1.5%.",
+      "source_location": {
+        "doc_id": "NEG-003",
+        "kind": "paragraph",
+        "locator": "paragraph:31",
+        "excerpt": "Vendor included a 2% early payment discount; Client requested it to be 1.5%."
+      }
+    },
+    {
+      "clause_id": "NEG-003-p33",
+      "doc_id": "NEG-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "5. Warranties and Support",
+      "source_location": {
+        "doc_id": "NEG-003",
+        "kind": "paragraph",
+        "locator": "paragraph:33",
+        "excerpt": "5. Warranties and Support"
+      }
+    },
+    {
+      "clause_id": "NEG-003-p34",
+      "doc_id": "NEG-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "5.1 Vendor warrants that the Hardware shall be free from defects for 36 months from the date of delivery.\n5.2 Vendor shall provide technical support 24x7.\n5.3 Vendor shall replace faulty Hardware within 10 business days.",
+      "source_location": {
+        "doc_id": "NEG-003",
+        "kind": "paragraph",
+        "locator": "paragraph:34",
+        "excerpt": "5.1 Vendor warrants that the Hardware shall be free from defects for 36 months from the date of delivery.\n5.2 Vendor shall provide technical support 24x7.\n5.3 Vendor shall replace faulty Hardware within 10 business days."
+      }
+    },
+    {
+      "clause_id": "NEG-003-p35",
+      "doc_id": "NEG-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Redline Notes:",
+      "source_location": {
+        "doc_id": "NEG-003",
+        "kind": "paragraph",
+        "locator": "paragraph:35",
+        "excerpt": "Redline Notes:"
+      }
+    },
+    {
+      "clause_id": "NEG-003-p36",
+      "doc_id": "NEG-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Client requested a reduction of replacement time to 5 business days for mission-critical devices.",
+      "source_location": {
+        "doc_id": "NEG-003",
+        "kind": "paragraph",
+        "locator": "paragraph:36",
+        "excerpt": "Client requested a reduction of replacement time to 5 business days for mission-critical devices."
+      }
+    },
+    {
+      "clause_id": "NEG-003-p37",
+      "doc_id": "NEG-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Vendor requested limitation of liability for indirect losses.",
+      "source_location": {
+        "doc_id": "NEG-003",
+        "kind": "paragraph",
+        "locator": "paragraph:37",
+        "excerpt": "Vendor requested limitation of liability for indirect losses."
+      }
+    },
+    {
+      "clause_id": "NEG-003-p39",
+      "doc_id": "NEG-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "6. Confidentiality",
+      "source_location": {
+        "doc_id": "NEG-003",
+        "kind": "paragraph",
+        "locator": "paragraph:39",
+        "excerpt": "6. Confidentiality"
+      }
+    },
+    {
+      "clause_id": "NEG-003-p40",
+      "doc_id": "NEG-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "6.1 Both parties shall maintain confidentiality of trade secrets, pricing, and client data.\n6.2 Confidentiality obligations shall survive termination of this agreement for 3 years.",
+      "source_location": {
+        "doc_id": "NEG-003",
+        "kind": "paragraph",
+        "locator": "paragraph:40",
+        "excerpt": "6.1 Both parties shall maintain confidentiality of trade secrets, pricing, and client data.\n6.2 Confidentiality obligations shall survive termination of this agreement for 3 years."
+      }
+    },
+    {
+      "clause_id": "NEG-003-p41",
+      "doc_id": "NEG-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Redline Notes:",
+      "source_location": {
+        "doc_id": "NEG-003",
+        "kind": "paragraph",
+        "locator": "paragraph:41",
+        "excerpt": "Redline Notes:"
+      }
+    },
+    {
+      "clause_id": "NEG-003-p42",
+      "doc_id": "NEG-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Vendor initially proposed 2 years; Client insisted on 3 years.",
+      "source_location": {
+        "doc_id": "NEG-003",
+        "kind": "paragraph",
+        "locator": "paragraph:42",
+        "excerpt": "Vendor initially proposed 2 years; Client insisted on 3 years."
+      }
+    },
+    {
+      "clause_id": "NEG-003-p43",
+      "doc_id": "NEG-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Clause added regarding compliance with GDPR and local data protection regulations.",
+      "source_location": {
+        "doc_id": "NEG-003",
+        "kind": "paragraph",
+        "locator": "paragraph:43",
+        "excerpt": "Clause added regarding compliance with GDPR and local data protection regulations."
+      }
+    },
+    {
+      "clause_id": "NEG-003-p45",
+      "doc_id": "NEG-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "7. Indemnity and Limitation of Liability",
+      "source_location": {
+        "doc_id": "NEG-003",
+        "kind": "paragraph",
+        "locator": "paragraph:45",
+        "excerpt": "7. Indemnity and Limitation of Liability"
+      }
+    },
+    {
+      "clause_id": "NEG-003-p46",
+      "doc_id": "NEG-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "7.1 Vendor shall indemnify Client for damages arising from Vendor\u2019s gross negligence.\n7.2 Vendor\u2019s liability shall not exceed total contract value.",
+      "source_location": {
+        "doc_id": "NEG-003",
+        "kind": "paragraph",
+        "locator": "paragraph:46",
+        "excerpt": "7.1 Vendor shall indemnify Client for damages arising from Vendor\u2019s gross negligence.\n7.2 Vendor\u2019s liability shall not exceed total contract value."
+      }
+    },
+    {
+      "clause_id": "NEG-003-p47",
+      "doc_id": "NEG-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Redline Notes:",
+      "source_location": {
+        "doc_id": "NEG-003",
+        "kind": "paragraph",
+        "locator": "paragraph:47",
+        "excerpt": "Redline Notes:"
+      }
+    },
+    {
+      "clause_id": "NEG-003-p48",
+      "doc_id": "NEG-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Client requested inclusion of data breach-related liabilities.",
+      "source_location": {
+        "doc_id": "NEG-003",
+        "kind": "paragraph",
+        "locator": "paragraph:48",
+        "excerpt": "Client requested inclusion of data breach-related liabilities."
+      }
+    },
+    {
+      "clause_id": "NEG-003-p49",
+      "doc_id": "NEG-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Vendor requested exclusion for indirect or consequential losses.",
+      "source_location": {
+        "doc_id": "NEG-003",
+        "kind": "paragraph",
+        "locator": "paragraph:49",
+        "excerpt": "Vendor requested exclusion for indirect or consequential losses."
+      }
+    },
+    {
+      "clause_id": "NEG-003-p51",
+      "doc_id": "NEG-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "8. Term and Termination",
+      "source_location": {
+        "doc_id": "NEG-003",
+        "kind": "paragraph",
+        "locator": "paragraph:51",
+        "excerpt": "8. Term and Termination"
+      }
+    },
+    {
+      "clause_id": "NEG-003-p52",
+      "doc_id": "NEG-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "8.1 Term: 3 years from effective date.\n8.2 Either party may terminate on material breach with 60 days\u2019 notice.\n8.3 Termination for convenience requires 90 days\u2019 notice with proportional payments for delivered goods.",
+      "source_location": {
+        "doc_id": "NEG-003",
+        "kind": "paragraph",
+        "locator": "paragraph:52",
+        "excerpt": "8.1 Term: 3 years from effective date.\n8.2 Either party may terminate on material breach with 60 days\u2019 notice.\n8.3 Termination for convenience requires 90 days\u2019 notice with proportional payments for delivered goods."
+      }
+    },
+    {
+      "clause_id": "NEG-003-p53",
+      "doc_id": "NEG-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Redline Notes:",
+      "source_location": {
+        "doc_id": "NEG-003",
+        "kind": "paragraph",
+        "locator": "paragraph:53",
+        "excerpt": "Redline Notes:"
+      }
+    },
+    {
+      "clause_id": "NEG-003-p54",
+      "doc_id": "NEG-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Client requested shorter notice period of 30 days for material breach.",
+      "source_location": {
+        "doc_id": "NEG-003",
+        "kind": "paragraph",
+        "locator": "paragraph:54",
+        "excerpt": "Client requested shorter notice period of 30 days for material breach."
+      }
+    },
+    {
+      "clause_id": "NEG-003-p55",
+      "doc_id": "NEG-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Vendor proposed 120 days for termination for convenience.",
+      "source_location": {
+        "doc_id": "NEG-003",
+        "kind": "paragraph",
+        "locator": "paragraph:55",
+        "excerpt": "Vendor proposed 120 days for termination for convenience."
+      }
+    },
+    {
+      "clause_id": "NEG-003-p57",
+      "doc_id": "NEG-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "9. Dispute Resolution",
+      "source_location": {
+        "doc_id": "NEG-003",
+        "kind": "paragraph",
+        "locator": "paragraph:57",
+        "excerpt": "9. Dispute Resolution"
+      }
+    },
+    {
+      "clause_id": "NEG-003-p58",
+      "doc_id": "NEG-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "9.1 Parties shall first attempt amicable resolution.\n9.2 Failing that, disputes shall be referred to arbitration under [Country] Arbitration Act.",
+      "source_location": {
+        "doc_id": "NEG-003",
+        "kind": "paragraph",
+        "locator": "paragraph:58",
+        "excerpt": "9.1 Parties shall first attempt amicable resolution.\n9.2 Failing that, disputes shall be referred to arbitration under [Country] Arbitration Act."
+      }
+    },
+    {
+      "clause_id": "NEG-003-p59",
+      "doc_id": "NEG-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Redline Notes:",
+      "source_location": {
+        "doc_id": "NEG-003",
+        "kind": "paragraph",
+        "locator": "paragraph:59",
+        "excerpt": "Redline Notes:"
+      }
+    },
+    {
+      "clause_id": "NEG-003-p60",
+      "doc_id": "NEG-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Client proposed arbitration in Client\u2019s city; Vendor proposed neutral venue.",
+      "source_location": {
+        "doc_id": "NEG-003",
+        "kind": "paragraph",
+        "locator": "paragraph:60",
+        "excerpt": "Client proposed arbitration in Client\u2019s city; Vendor proposed neutral venue."
+      }
+    },
+    {
+      "clause_id": "NEG-003-p62",
+      "doc_id": "NEG-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "10. Annexures",
+      "source_location": {
+        "doc_id": "NEG-003",
+        "kind": "paragraph",
+        "locator": "paragraph:62",
+        "excerpt": "10. Annexures"
+      }
+    },
+    {
+      "clause_id": "NEG-003-p63",
+      "doc_id": "NEG-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Annexure A: Hardware specifications and quantities",
+      "source_location": {
+        "doc_id": "NEG-003",
+        "kind": "paragraph",
+        "locator": "paragraph:63",
+        "excerpt": "Annexure A: Hardware specifications and quantities"
+      }
+    },
+    {
+      "clause_id": "NEG-003-p64",
+      "doc_id": "NEG-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Annexure B: Service Level Agreement",
+      "source_location": {
+        "doc_id": "NEG-003",
+        "kind": "paragraph",
+        "locator": "paragraph:64",
+        "excerpt": "Annexure B: Service Level Agreement"
+      }
+    },
+    {
+      "clause_id": "NEG-003-p65",
+      "doc_id": "NEG-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Annexure C: Payment milestones",
+      "source_location": {
+        "doc_id": "NEG-003",
+        "kind": "paragraph",
+        "locator": "paragraph:65",
+        "excerpt": "Annexure C: Payment milestones"
+      }
+    },
+    {
+      "clause_id": "NEG-003-p67",
+      "doc_id": "NEG-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Signatures:\n_________________________ (Primevolta Hardware Solutions)\n_________________________ (FinSecure Services)",
+      "source_location": {
+        "doc_id": "NEG-003",
+        "kind": "paragraph",
+        "locator": "paragraph:67",
+        "excerpt": "Signatures:\n_________________________ (Primevolta Hardware Solutions)\n_________________________ (FinSecure Services)"
+      }
+    }
+  ],
+  "tables": [],
+  "parse_status": "parsed",
+  "parse_error": null
+}

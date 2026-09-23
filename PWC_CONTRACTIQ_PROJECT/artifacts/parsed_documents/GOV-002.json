@@ -1,0 +1,1253 @@
+{
+  "doc_id": "GOV-002",
+  "clauses": [
+    {
+      "clause_id": "GOV-002-p0",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Sample 2: Post-Project Review Agreement",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:0",
+        "excerpt": "Sample 2: Post-Project Review Agreement"
+      }
+    },
+    {
+      "clause_id": "GOV-002-p1",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Between:\nPrimevolta Hardware Solutions (\u201cVendor\u201d)\nAnd\nFinSecure Services (\u201cClient\u201d)",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:1",
+        "excerpt": "Between:\nPrimevolta Hardware Solutions (\u201cVendor\u201d)\nAnd\nFinSecure Services (\u201cClient\u201d)"
+      }
+    },
+    {
+      "clause_id": "GOV-002-p2",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Project Name: Deployment of Integrated Electronic Security Infrastructure Across FinSecure Regional Offices",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:2",
+        "excerpt": "Project Name: Deployment of Integrated Electronic Security Infrastructure Across FinSecure Regional Offices"
+      }
+    },
+    {
+      "clause_id": "GOV-002-p3",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Date of Review: X",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:3",
+        "excerpt": "Date of Review: X"
+      }
+    },
+    {
+      "clause_id": "GOV-002-p5",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "1. Purpose and Scope of the Post-Project Review",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:5",
+        "excerpt": "1. Purpose and Scope of the Post-Project Review"
+      }
+    },
+    {
+      "clause_id": "GOV-002-p6",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "This Post-Project Review (PPR) is executed to conduct an exhaustive assessment of the electronic hardware deployment project undertaken by Primevolta Hardware Solutions for FinSecure Services. The review\u2019s primary purpose is to evaluate the project against all contractual, operational, technical, and financial parameters established in the Master Supply and Services Agreement dated [Agreement Date]. This PPR aims to provide a formal record of project outcomes, identify any variances from agreed specifications, review the effectiveness of project governance mechanisms, and provide actionable recommendations for future projects. The scope encompasses hardware performance, installation quality, technical support effectiveness, regulatory compliance, risk mitigation measures, financial reconciliation, and client satisfaction assessment.",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:6",
+        "excerpt": "This Post-Project Review (PPR) is executed to conduct an exhaustive assessment of the electronic hardware deployment project undertaken by Primevolta Hardware Solutions for FinSecure Services. The review\u2019s primary purpose is to evaluate the project against all contractual, operational, technical, and financial parameters established in the Master Supply and Services Agreement dated [Agreement Date]. This PPR aims to provide a formal record of project outcomes, identify any variances from agreed specifications, review the effectiveness of project governance mechanisms, and provide actionable recommendations for future projects. The scope encompasses hardware performance, installation quality, technical support effectiveness, regulatory compliance, risk mitigation measures, financial reconciliation, and client satisfaction assessment."
+      }
+    },
+    {
+      "clause_id": "GOV-002-p8",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "2. Project Overview",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:8",
+        "excerpt": "2. Project Overview"
+      }
+    },
+    {
+      "clause_id": "GOV-002-p9",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "The project involved the end-to-end design, manufacture, and deployment of an integrated electronic security system comprising:",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:9",
+        "excerpt": "The project involved the end-to-end design, manufacture, and deployment of an integrated electronic security system comprising:"
+      }
+    },
+    {
+      "clause_id": "GOV-002-p10",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Biometric access control systems for 75 branch offices.",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:10",
+        "excerpt": "Biometric access control systems for 75 branch offices."
+      }
+    },
+    {
+      "clause_id": "GOV-002-p11",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "High-resolution networked surveillance cameras with AI-based anomaly detection.",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:11",
+        "excerpt": "High-resolution networked surveillance cameras with AI-based anomaly detection."
+      }
+    },
+    {
+      "clause_id": "GOV-002-p12",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Redundant power systems including UPS modules and battery backups.",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:12",
+        "excerpt": "Redundant power systems including UPS modules and battery backups."
+      }
+    },
+    {
+      "clause_id": "GOV-002-p13",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Secure network integration modules for centralized monitoring.",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:13",
+        "excerpt": "Secure network integration modules for centralized monitoring."
+      }
+    },
+    {
+      "clause_id": "GOV-002-p14",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "The project commenced on [Start Date] and concluded on [End Date], with intermediate milestones including pilot deployment, full-scale installation, user acceptance testing (UAT), and initial maintenance training. The project was governed under the Master Hardware Supply and Service Agreement, including clauses on service level agreements (SLAs), warranties, escalation procedures, and compliance with information security standards applicable to BFSI organizations.",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:14",
+        "excerpt": "The project commenced on [Start Date] and concluded on [End Date], with intermediate milestones including pilot deployment, full-scale installation, user acceptance testing (UAT), and initial maintenance training. The project was governed under the Master Hardware Supply and Service Agreement, including clauses on service level agreements (SLAs), warranties, escalation procedures, and compliance with information security standards applicable to BFSI organizations."
+      }
+    },
+    {
+      "clause_id": "GOV-002-p16",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3. Objectives of the Review",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:16",
+        "excerpt": "3. Objectives of the Review"
+      }
+    },
+    {
+      "clause_id": "GOV-002-p17",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "The PPR is designed to:",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:17",
+        "excerpt": "The PPR is designed to:"
+      }
+    },
+    {
+      "clause_id": "GOV-002-p18",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Validate that all hardware components were delivered and installed as per specifications.",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:18",
+        "excerpt": "Validate that all hardware components were delivered and installed as per specifications."
+      }
+    },
+    {
+      "clause_id": "GOV-002-p19",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Assess operational functionality under both standard and stress conditions.",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:19",
+        "excerpt": "Assess operational functionality under both standard and stress conditions."
+      }
+    },
+    {
+      "clause_id": "GOV-002-p20",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Review deviations from timelines, quality benchmarks, and budget estimates.",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:20",
+        "excerpt": "Review deviations from timelines, quality benchmarks, and budget estimates."
+      }
+    },
+    {
+      "clause_id": "GOV-002-p21",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Examine client feedback on service quality, responsiveness, and technical support.",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:21",
+        "excerpt": "Examine client feedback on service quality, responsiveness, and technical support."
+      }
+    },
+    {
+      "clause_id": "GOV-002-p22",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Identify compliance gaps related to regulatory requirements (e.g., data privacy, security certifications).",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:22",
+        "excerpt": "Identify compliance gaps related to regulatory requirements (e.g., data privacy, security certifications)."
+      }
+    },
+    {
+      "clause_id": "GOV-002-p23",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Document risk events and issue management effectiveness throughout the project lifecycle.",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:23",
+        "excerpt": "Document risk events and issue management effectiveness throughout the project lifecycle."
+      }
+    },
+    {
+      "clause_id": "GOV-002-p24",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Provide recommendations to strengthen governance and operational processes in future engagements.",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:24",
+        "excerpt": "Provide recommendations to strengthen governance and operational processes in future engagements."
+      }
+    },
+    {
+      "clause_id": "GOV-002-p26",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "4. Review Methodology",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:26",
+        "excerpt": "4. Review Methodology"
+      }
+    },
+    {
+      "clause_id": "GOV-002-p27",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "The methodology included a multi-faceted assessment framework:",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:27",
+        "excerpt": "The methodology included a multi-faceted assessment framework:"
+      }
+    },
+    {
+      "clause_id": "GOV-002-p28",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "4.1 Documentation Audit",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:28",
+        "excerpt": "4.1 Documentation Audit"
+      }
+    },
+    {
+      "clause_id": "GOV-002-p29",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Verified delivery notes, installation logs, and service tickets against the approved project plan.",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:29",
+        "excerpt": "Verified delivery notes, installation logs, and service tickets against the approved project plan."
+      }
+    },
+    {
+      "clause_id": "GOV-002-p30",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Reviewed compliance certificates, hardware manuals, and warranties to ensure alignment with contractual obligations.",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:30",
+        "excerpt": "Reviewed compliance certificates, hardware manuals, and warranties to ensure alignment with contractual obligations."
+      }
+    },
+    {
+      "clause_id": "GOV-002-p31",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Confirmed inventory reconciliation and procurement accuracy.",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:31",
+        "excerpt": "Confirmed inventory reconciliation and procurement accuracy."
+      }
+    },
+    {
+      "clause_id": "GOV-002-p32",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "4.2 Technical Evaluation",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:32",
+        "excerpt": "4.2 Technical Evaluation"
+      }
+    },
+    {
+      "clause_id": "GOV-002-p33",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Conducted stress testing of biometric modules under peak usage conditions.",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:33",
+        "excerpt": "Conducted stress testing of biometric modules under peak usage conditions."
+      }
+    },
+    {
+      "clause_id": "GOV-002-p34",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Verified networked camera performance for coverage, video clarity, and storage redundancy.",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:34",
+        "excerpt": "Verified networked camera performance for coverage, video clarity, and storage redundancy."
+      }
+    },
+    {
+      "clause_id": "GOV-002-p35",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Assessed failover performance of UPS and power backup modules under simulated outages.",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:35",
+        "excerpt": "Assessed failover performance of UPS and power backup modules under simulated outages."
+      }
+    },
+    {
+      "clause_id": "GOV-002-p36",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "4.3 Financial Assessment",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:36",
+        "excerpt": "4.3 Financial Assessment"
+      }
+    },
+    {
+      "clause_id": "GOV-002-p37",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Reviewed project invoices, cost variations, and any approved change orders.",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:37",
+        "excerpt": "Reviewed project invoices, cost variations, and any approved change orders."
+      }
+    },
+    {
+      "clause_id": "GOV-002-p38",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Cross-checked payment milestones against contract terms to confirm accurate reconciliation.",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:38",
+        "excerpt": "Cross-checked payment milestones against contract terms to confirm accurate reconciliation."
+      }
+    },
+    {
+      "clause_id": "GOV-002-p39",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Assessed any penalties or credits applied due to SLA deviations.",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:39",
+        "excerpt": "Assessed any penalties or credits applied due to SLA deviations."
+      }
+    },
+    {
+      "clause_id": "GOV-002-p40",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "4.4 Client Engagement and Feedback",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:40",
+        "excerpt": "4.4 Client Engagement and Feedback"
+      }
+    },
+    {
+      "clause_id": "GOV-002-p41",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Conducted structured interviews with branch operations teams, IT staff, and security managers.",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:41",
+        "excerpt": "Conducted structured interviews with branch operations teams, IT staff, and security managers."
+      }
+    },
+    {
+      "clause_id": "GOV-002-p42",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Collected feedback on installation experience, post-installation support, and issue resolution efficiency.",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:42",
+        "excerpt": "Collected feedback on installation experience, post-installation support, and issue resolution efficiency."
+      }
+    },
+    {
+      "clause_id": "GOV-002-p43",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "4.5 Governance & Risk Review",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:43",
+        "excerpt": "4.5 Governance & Risk Review"
+      }
+    },
+    {
+      "clause_id": "GOV-002-p44",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Examined escalation procedures for hardware failures, network issues, and regulatory non-compliance events.",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:44",
+        "excerpt": "Examined escalation procedures for hardware failures, network issues, and regulatory non-compliance events."
+      }
+    },
+    {
+      "clause_id": "GOV-002-p45",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Reviewed risk logs for incidents such as delayed shipments, installation errors, and minor system downtimes.",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:45",
+        "excerpt": "Reviewed risk logs for incidents such as delayed shipments, installation errors, and minor system downtimes."
+      }
+    },
+    {
+      "clause_id": "GOV-002-p46",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Analyzed corrective actions implemented during the project lifecycle.",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:46",
+        "excerpt": "Analyzed corrective actions implemented during the project lifecycle."
+      }
+    },
+    {
+      "clause_id": "GOV-002-p48",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "5. Findings and Observations",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:48",
+        "excerpt": "5. Findings and Observations"
+      }
+    },
+    {
+      "clause_id": "GOV-002-p49",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "5.1 Project Delivery and Timelines",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:49",
+        "excerpt": "5.1 Project Delivery and Timelines"
+      }
+    },
+    {
+      "clause_id": "GOV-002-p50",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Overall, the project was completed within the contractual timeframe; however, six branch offices experienced delays averaging 7 business days due to local infrastructure limitations and last-mile connectivity issues.",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:50",
+        "excerpt": "Overall, the project was completed within the contractual timeframe; however, six branch offices experienced delays averaging 7 business days due to local infrastructure limitations and last-mile connectivity issues."
+      }
+    },
+    {
+      "clause_id": "GOV-002-p51",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Milestones for pilot deployment, UAT, and training were met with minor deviations, all of which were documented and approved via change orders.",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:51",
+        "excerpt": "Milestones for pilot deployment, UAT, and training were met with minor deviations, all of which were documented and approved via change orders."
+      }
+    },
+    {
+      "clause_id": "GOV-002-p52",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "5.2 Technical Performance",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:52",
+        "excerpt": "5.2 Technical Performance"
+      }
+    },
+    {
+      "clause_id": "GOV-002-p53",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Biometric modules demonstrated 99.2% recognition accuracy under standard conditions. Three branches reported occasional login failures, resolved within 48 hours.",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:53",
+        "excerpt": "Biometric modules demonstrated 99.2% recognition accuracy under standard conditions. Three branches reported occasional login failures, resolved within 48 hours."
+      }
+    },
+    {
+      "clause_id": "GOV-002-p54",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Networked surveillance cameras met resolution and coverage requirements; minor software updates were required to enable AI-based anomaly detection in low-light conditions.",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:54",
+        "excerpt": "Networked surveillance cameras met resolution and coverage requirements; minor software updates were required to enable AI-based anomaly detection in low-light conditions."
+      }
+    },
+    {
+      "clause_id": "GOV-002-p55",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "UPS and power backup units performed reliably, with two units requiring replacement due to initial manufacturing defects.",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:55",
+        "excerpt": "UPS and power backup units performed reliably, with two units requiring replacement due to initial manufacturing defects."
+      }
+    },
+    {
+      "clause_id": "GOV-002-p56",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "5.3 Compliance and Regulatory Adherence",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:56",
+        "excerpt": "5.3 Compliance and Regulatory Adherence"
+      }
+    },
+    {
+      "clause_id": "GOV-002-p57",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "All hardware met mandatory security and data privacy standards applicable to BFSI organizations.",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:57",
+        "excerpt": "All hardware met mandatory security and data privacy standards applicable to BFSI organizations."
+      }
+    },
+    {
+      "clause_id": "GOV-002-p58",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Documentation and certification audits confirmed adherence to [Local Regulatory Authority] guidelines.",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:58",
+        "excerpt": "Documentation and certification audits confirmed adherence to [Local Regulatory Authority] guidelines."
+      }
+    },
+    {
+      "clause_id": "GOV-002-p59",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "No compliance breaches were reported during or post-deployment.",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:59",
+        "excerpt": "No compliance breaches were reported during or post-deployment."
+      }
+    },
+    {
+      "clause_id": "GOV-002-p60",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "5.4 Financial and Contractual Observations",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:60",
+        "excerpt": "5.4 Financial and Contractual Observations"
+      }
+    },
+    {
+      "clause_id": "GOV-002-p61",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Total project cost remained within 2% of the approved budget, attributed to minor logistics and installation adjustments.",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:61",
+        "excerpt": "Total project cost remained within 2% of the approved budget, attributed to minor logistics and installation adjustments."
+      }
+    },
+    {
+      "clause_id": "GOV-002-p62",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Invoicing and payment reconciliations were accurate and timely.",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:62",
+        "excerpt": "Invoicing and payment reconciliations were accurate and timely."
+      }
+    },
+    {
+      "clause_id": "GOV-002-p63",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "SLA performance metrics exceeded contractual obligations, with support ticket resolution averaging 2.7 hours against a 4-hour SLA.",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:63",
+        "excerpt": "SLA performance metrics exceeded contractual obligations, with support ticket resolution averaging 2.7 hours against a 4-hour SLA."
+      }
+    },
+    {
+      "clause_id": "GOV-002-p64",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "5.5 Risk and Issue Management",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:64",
+        "excerpt": "5.5 Risk and Issue Management"
+      }
+    },
+    {
+      "clause_id": "GOV-002-p65",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Risk logs captured potential delays, hardware defects, and client-side infrastructure constraints.",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:65",
+        "excerpt": "Risk logs captured potential delays, hardware defects, and client-side infrastructure constraints."
+      }
+    },
+    {
+      "clause_id": "GOV-002-p66",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Issues were addressed promptly, with all corrective actions documented and signed off by the client.",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:66",
+        "excerpt": "Issues were addressed promptly, with all corrective actions documented and signed off by the client."
+      }
+    },
+    {
+      "clause_id": "GOV-002-p67",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "5.6 Client Feedback",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:67",
+        "excerpt": "5.6 Client Feedback"
+      }
+    },
+    {
+      "clause_id": "GOV-002-p68",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Client rated vendor professionalism, technical expertise, and support responsiveness as \u201cExcellent.\u201d",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:68",
+        "excerpt": "Client rated vendor professionalism, technical expertise, and support responsiveness as \u201cExcellent.\u201d"
+      }
+    },
+    {
+      "clause_id": "GOV-002-p69",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Recommendations included proactive stock management for critical components and more frequent refresher training sessions for IT teams.",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:69",
+        "excerpt": "Recommendations included proactive stock management for critical components and more frequent refresher training sessions for IT teams."
+      }
+    },
+    {
+      "clause_id": "GOV-002-p71",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "6. Lessons Learned and Recommendations",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:71",
+        "excerpt": "6. Lessons Learned and Recommendations"
+      }
+    },
+    {
+      "clause_id": "GOV-002-p72",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "6.1 Operational Recommendations",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:72",
+        "excerpt": "6.1 Operational Recommendations"
+      }
+    },
+    {
+      "clause_id": "GOV-002-p73",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Establish local buffer inventory for rapid replacement of critical hardware.",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:73",
+        "excerpt": "Establish local buffer inventory for rapid replacement of critical hardware."
+      }
+    },
+    {
+      "clause_id": "GOV-002-p74",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Schedule periodic refresher training for client IT staff on troubleshooting and minor maintenance.",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:74",
+        "excerpt": "Schedule periodic refresher training for client IT staff on troubleshooting and minor maintenance."
+      }
+    },
+    {
+      "clause_id": "GOV-002-p75",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "6.2 Process Improvements",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:75",
+        "excerpt": "6.2 Process Improvements"
+      }
+    },
+    {
+      "clause_id": "GOV-002-p76",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Enhance documentation with step-by-step troubleshooting guides for complex modules.",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:76",
+        "excerpt": "Enhance documentation with step-by-step troubleshooting guides for complex modules."
+      }
+    },
+    {
+      "clause_id": "GOV-002-p77",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Introduce predictive maintenance scheduling based on usage and stress metrics.",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:77",
+        "excerpt": "Introduce predictive maintenance scheduling based on usage and stress metrics."
+      }
+    },
+    {
+      "clause_id": "GOV-002-p78",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "6.3 Governance Enhancements",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:78",
+        "excerpt": "6.3 Governance Enhancements"
+      }
+    },
+    {
+      "clause_id": "GOV-002-p79",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Incorporate more rigorous milestone reporting, with early warning alerts for any potential delays.",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:79",
+        "excerpt": "Incorporate more rigorous milestone reporting, with early warning alerts for any potential delays."
+      }
+    },
+    {
+      "clause_id": "GOV-002-p80",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Conduct quarterly joint reviews to monitor ongoing operational performance post-deployment.",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:80",
+        "excerpt": "Conduct quarterly joint reviews to monitor ongoing operational performance post-deployment."
+      }
+    },
+    {
+      "clause_id": "GOV-002-p81",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "6.4 Strategic Recommendations",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:81",
+        "excerpt": "6.4 Strategic Recommendations"
+      }
+    },
+    {
+      "clause_id": "GOV-002-p82",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Modular upgrades for future branches should be designed to reduce deployment time and resource dependencies.",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:82",
+        "excerpt": "Modular upgrades for future branches should be designed to reduce deployment time and resource dependencies."
+      }
+    },
+    {
+      "clause_id": "GOV-002-p83",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Implement AI-based predictive analytics for hardware maintenance and security anomaly detection.",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:83",
+        "excerpt": "Implement AI-based predictive analytics for hardware maintenance and security anomaly detection."
+      }
+    },
+    {
+      "clause_id": "GOV-002-p85",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "7. Conclusion",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:85",
+        "excerpt": "7. Conclusion"
+      }
+    },
+    {
+      "clause_id": "GOV-002-p86",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "This Post-Project Review confirms that Primevolta Hardware Solutions delivered the project successfully, meeting all contractual, technical, and operational requirements. FinSecure Services acknowledges the quality of execution and operational stability of deployed hardware. Both parties agree that the lessons learned will be incorporated into future projects to enhance efficiency, governance, and client satisfaction.",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:86",
+        "excerpt": "This Post-Project Review confirms that Primevolta Hardware Solutions delivered the project successfully, meeting all contractual, technical, and operational requirements. FinSecure Services acknowledges the quality of execution and operational stability of deployed hardware. Both parties agree that the lessons learned will be incorporated into future projects to enhance efficiency, governance, and client satisfaction."
+      }
+    },
+    {
+      "clause_id": "GOV-002-p88",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "8. Signatures",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:88",
+        "excerpt": "8. Signatures"
+      }
+    },
+    {
+      "clause_id": "GOV-002-p89",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "For Primevolta Hardware Solutions\nName: _____________________\nDesignation: ________________\nSignature: __________________\nDate: ______________________",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:89",
+        "excerpt": "For Primevolta Hardware Solutions\nName: _____________________\nDesignation: ________________\nSignature: __________________\nDate: ______________________"
+      }
+    },
+    {
+      "clause_id": "GOV-002-p90",
+      "doc_id": "GOV-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "For FinSecure Services\nName: _____________________\nDesignation: ________________\nSignature: __________________\nDate: ______________________",
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:90",
+        "excerpt": "For FinSecure Services\nName: _____________________\nDesignation: ________________\nSignature: __________________\nDate: ______________________"
+      }
+    }
+  ],
+  "tables": [],
+  "parse_status": "parsed",
+  "parse_error": null
+}

@@ -1,0 +1,1033 @@
+{
+  "doc_id": "FIN-002",
+  "clauses": [
+    {
+      "clause_id": "FIN-002-p0",
+      "doc_id": "FIN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Primevolta Hardware Solutions\nDetailed Billing Schedule Agreement\nClient: FinSecure Services\nDate: 11th December 2025",
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:0",
+        "excerpt": "Primevolta Hardware Solutions\nDetailed Billing Schedule Agreement\nClient: FinSecure Services\nDate: 11th December 2025"
+      }
+    },
+    {
+      "clause_id": "FIN-002-p2",
+      "doc_id": "FIN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "1. Purpose",
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:2",
+        "excerpt": "1. Purpose"
+      }
+    },
+    {
+      "clause_id": "FIN-002-p3",
+      "doc_id": "FIN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "This Billing Schedule Agreement (\u201cAgreement\u201d) is entered into between Primevolta Hardware Solutions (\u201cVendor\u201d) and FinSecure Services (\u201cClient\u201d) to define detailed procedures for billing, invoicing, and payments. The purpose of this Agreement is to:",
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:3",
+        "excerpt": "This Billing Schedule Agreement (\u201cAgreement\u201d) is entered into between Primevolta Hardware Solutions (\u201cVendor\u201d) and FinSecure Services (\u201cClient\u201d) to define detailed procedures for billing, invoicing, and payments. The purpose of this Agreement is to:"
+      }
+    },
+    {
+      "clause_id": "FIN-002-p4",
+      "doc_id": "FIN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Ensure proper obligation tracking for all delivered hardware.",
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:4",
+        "excerpt": "Ensure proper obligation tracking for all delivered hardware."
+      }
+    },
+    {
+      "clause_id": "FIN-002-p5",
+      "doc_id": "FIN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Prevent revenue leakage by clearly aligning invoices with delivered goods, milestones, and service obligations.",
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:5",
+        "excerpt": "Prevent revenue leakage by clearly aligning invoices with delivered goods, milestones, and service obligations."
+      }
+    },
+    {
+      "clause_id": "FIN-002-p6",
+      "doc_id": "FIN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Provide a structured billing and dispute resolution mechanism to maintain transparency and accountability.",
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:6",
+        "excerpt": "Provide a structured billing and dispute resolution mechanism to maintain transparency and accountability."
+      }
+    },
+    {
+      "clause_id": "FIN-002-p8",
+      "doc_id": "FIN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "2. Scope of Agreement",
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:8",
+        "excerpt": "2. Scope of Agreement"
+      }
+    },
+    {
+      "clause_id": "FIN-002-p9",
+      "doc_id": "FIN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "This Agreement covers the supply of:",
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:9",
+        "excerpt": "This Agreement covers the supply of:"
+      }
+    },
+    {
+      "clause_id": "FIN-002-p10",
+      "doc_id": "FIN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Hardware components including servers, storage arrays, networking devices, and electronic peripherals.",
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:10",
+        "excerpt": "Hardware components including servers, storage arrays, networking devices, and electronic peripherals."
+      }
+    },
+    {
+      "clause_id": "FIN-002-p11",
+      "doc_id": "FIN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Multi-site deliveries for BFSI branch rollouts.",
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:11",
+        "excerpt": "Multi-site deliveries for BFSI branch rollouts."
+      }
+    },
+    {
+      "clause_id": "FIN-002-p12",
+      "doc_id": "FIN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Associated services including installation, testing, and warranty support.",
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:12",
+        "excerpt": "Associated services including installation, testing, and warranty support."
+      }
+    },
+    {
+      "clause_id": "FIN-002-p13",
+      "doc_id": "FIN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "The Agreement applies to all purchase orders (POs) issued by the Client and accepted by the Vendor, including one-time, recurring, and bulk supply orders.",
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:13",
+        "excerpt": "The Agreement applies to all purchase orders (POs) issued by the Client and accepted by the Vendor, including one-time, recurring, and bulk supply orders."
+      }
+    },
+    {
+      "clause_id": "FIN-002-p15",
+      "doc_id": "FIN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3. Billing Schedule & Frequency",
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:15",
+        "excerpt": "3. Billing Schedule & Frequency"
+      }
+    },
+    {
+      "clause_id": "FIN-002-p16",
+      "doc_id": "FIN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3.1 Standard Billing:",
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:16",
+        "excerpt": "3.1 Standard Billing:"
+      }
+    },
+    {
+      "clause_id": "FIN-002-p17",
+      "doc_id": "FIN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Monthly Invoicing: For ongoing supply contracts, invoices will be raised on the last business day of each month.",
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:17",
+        "excerpt": "Monthly Invoicing: For ongoing supply contracts, invoices will be raised on the last business day of each month."
+      }
+    },
+    {
+      "clause_id": "FIN-002-p18",
+      "doc_id": "FIN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Delivery-Based Billing: For one-time supply orders exceeding INR 5,00,000, invoices will be issued upon confirmed delivery to the Client\u2019s site(s).",
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:18",
+        "excerpt": "Delivery-Based Billing: For one-time supply orders exceeding INR 5,00,000, invoices will be issued upon confirmed delivery to the Client\u2019s site(s)."
+      }
+    },
+    {
+      "clause_id": "FIN-002-p19",
+      "doc_id": "FIN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3.2 Staged / Milestone Billing:\nFor projects involving multiple sites or large-scale deployments exceeding INR 50,00,000:",
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:19",
+        "excerpt": "3.2 Staged / Milestone Billing:\nFor projects involving multiple sites or large-scale deployments exceeding INR 50,00,000:"
+      }
+    },
+    {
+      "clause_id": "FIN-002-p20",
+      "doc_id": "FIN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3.3 Payment Terms:",
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:20",
+        "excerpt": "3.3 Payment Terms:"
+      }
+    },
+    {
+      "clause_id": "FIN-002-p21",
+      "doc_id": "FIN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Standard credit period: 30 calendar days from invoice date.",
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:21",
+        "excerpt": "Standard credit period: 30 calendar days from invoice date."
+      }
+    },
+    {
+      "clause_id": "FIN-002-p22",
+      "doc_id": "FIN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Late payment penalty: 1.5% per month on overdue amounts.",
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:22",
+        "excerpt": "Late payment penalty: 1.5% per month on overdue amounts."
+      }
+    },
+    {
+      "clause_id": "FIN-002-p23",
+      "doc_id": "FIN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Advance payments will not exceed 20% of total PO unless mutually agreed in writing.",
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:23",
+        "excerpt": "Advance payments will not exceed 20% of total PO unless mutually agreed in writing."
+      }
+    },
+    {
+      "clause_id": "FIN-002-p25",
+      "doc_id": "FIN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "4. Invoice Details & Credit Notes",
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:25",
+        "excerpt": "4. Invoice Details & Credit Notes"
+      }
+    },
+    {
+      "clause_id": "FIN-002-p26",
+      "doc_id": "FIN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "4.1 Invoice Components:\nAll invoices must contain the following:",
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:26",
+        "excerpt": "4.1 Invoice Components:\nAll invoices must contain the following:"
+      }
+    },
+    {
+      "clause_id": "FIN-002-p27",
+      "doc_id": "FIN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Vendor and Client details",
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:27",
+        "excerpt": "Vendor and Client details"
+      }
+    },
+    {
+      "clause_id": "FIN-002-p28",
+      "doc_id": "FIN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Invoice number and date",
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:28",
+        "excerpt": "Invoice number and date"
+      }
+    },
+    {
+      "clause_id": "FIN-002-p29",
+      "doc_id": "FIN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "PO number and reference",
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:29",
+        "excerpt": "PO number and reference"
+      }
+    },
+    {
+      "clause_id": "FIN-002-p30",
+      "doc_id": "FIN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Itemized list of delivered goods/services",
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:30",
+        "excerpt": "Itemized list of delivered goods/services"
+      }
+    },
+    {
+      "clause_id": "FIN-002-p31",
+      "doc_id": "FIN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Unit price, total amount, applicable taxes, and levies",
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:31",
+        "excerpt": "Unit price, total amount, applicable taxes, and levies"
+      }
+    },
+    {
+      "clause_id": "FIN-002-p32",
+      "doc_id": "FIN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Delivery dates and sites",
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:32",
+        "excerpt": "Delivery dates and sites"
+      }
+    },
+    {
+      "clause_id": "FIN-002-p33",
+      "doc_id": "FIN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Reference to applicable milestone, if any",
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:33",
+        "excerpt": "Reference to applicable milestone, if any"
+      }
+    },
+    {
+      "clause_id": "FIN-002-p34",
+      "doc_id": "FIN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "4.2 Credit Notes:",
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:34",
+        "excerpt": "4.2 Credit Notes:"
+      }
+    },
+    {
+      "clause_id": "FIN-002-p35",
+      "doc_id": "FIN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Credit notes will be issued for returns, short shipments, or billing errors.",
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:35",
+        "excerpt": "Credit notes will be issued for returns, short shipments, or billing errors."
+      }
+    },
+    {
+      "clause_id": "FIN-002-p36",
+      "doc_id": "FIN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "The credit note will reference the original invoice and clearly state the reason for adjustment.",
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:36",
+        "excerpt": "The credit note will reference the original invoice and clearly state the reason for adjustment."
+      }
+    },
+    {
+      "clause_id": "FIN-002-p37",
+      "doc_id": "FIN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Credit notes are valid for 90 days from the date of issuance unless otherwise agreed.",
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:37",
+        "excerpt": "Credit notes are valid for 90 days from the date of issuance unless otherwise agreed."
+      }
+    },
+    {
+      "clause_id": "FIN-002-p39",
+      "doc_id": "FIN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "5. Obligations of Vendor",
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:39",
+        "excerpt": "5. Obligations of Vendor"
+      }
+    },
+    {
+      "clause_id": "FIN-002-p40",
+      "doc_id": "FIN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Deliver goods as per the specifications and timelines mentioned in the PO.",
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:40",
+        "excerpt": "Deliver goods as per the specifications and timelines mentioned in the PO."
+      }
+    },
+    {
+      "clause_id": "FIN-002-p41",
+      "doc_id": "FIN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Maintain accurate records of shipped, installed, and tested hardware.",
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:41",
+        "excerpt": "Maintain accurate records of shipped, installed, and tested hardware."
+      }
+    },
+    {
+      "clause_id": "FIN-002-p42",
+      "doc_id": "FIN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Provide complete supporting documentation including delivery notes, installation certificates, and warranty cards.",
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:42",
+        "excerpt": "Provide complete supporting documentation including delivery notes, installation certificates, and warranty cards."
+      }
+    },
+    {
+      "clause_id": "FIN-002-p43",
+      "doc_id": "FIN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Notify the Client of any deviations in delivery schedule at least 7 business days in advance.",
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:43",
+        "excerpt": "Notify the Client of any deviations in delivery schedule at least 7 business days in advance."
+      }
+    },
+    {
+      "clause_id": "FIN-002-p45",
+      "doc_id": "FIN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "6. Obligations of Client",
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:45",
+        "excerpt": "6. Obligations of Client"
+      }
+    },
+    {
+      "clause_id": "FIN-002-p46",
+      "doc_id": "FIN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Process invoices within the agreed payment timeline.",
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:46",
+        "excerpt": "Process invoices within the agreed payment timeline."
+      }
+    },
+    {
+      "clause_id": "FIN-002-p47",
+      "doc_id": "FIN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Notify the Vendor of any discrepancies in invoices or deliveries within 7 business days.",
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:47",
+        "excerpt": "Notify the Vendor of any discrepancies in invoices or deliveries within 7 business days."
+      }
+    },
+    {
+      "clause_id": "FIN-002-p48",
+      "doc_id": "FIN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Approve milestone payments and site acceptance certificates promptly to avoid revenue delays.",
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:48",
+        "excerpt": "Approve milestone payments and site acceptance certificates promptly to avoid revenue delays."
+      }
+    },
+    {
+      "clause_id": "FIN-002-p49",
+      "doc_id": "FIN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Provide access to sites for installation and testing activities.",
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:49",
+        "excerpt": "Provide access to sites for installation and testing activities."
+      }
+    },
+    {
+      "clause_id": "FIN-002-p51",
+      "doc_id": "FIN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "7. Dispute Resolution",
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:51",
+        "excerpt": "7. Dispute Resolution"
+      }
+    },
+    {
+      "clause_id": "FIN-002-p52",
+      "doc_id": "FIN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "All invoice or billing disputes must be documented and sent to the Vendor in writing.",
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:52",
+        "excerpt": "All invoice or billing disputes must be documented and sent to the Vendor in writing."
+      }
+    },
+    {
+      "clause_id": "FIN-002-p53",
+      "doc_id": "FIN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Both parties will attempt resolution within 15 business days from receipt of dispute notice.",
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:53",
+        "excerpt": "Both parties will attempt resolution within 15 business days from receipt of dispute notice."
+      }
+    },
+    {
+      "clause_id": "FIN-002-p54",
+      "doc_id": "FIN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "If unresolved, disputes will escalate to senior management of both parties, whose decision shall be final.",
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:54",
+        "excerpt": "If unresolved, disputes will escalate to senior management of both parties, whose decision shall be final."
+      }
+    },
+    {
+      "clause_id": "FIN-002-p56",
+      "doc_id": "FIN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "8. Reporting & Revenue Tracking",
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:56",
+        "excerpt": "8. Reporting & Revenue Tracking"
+      }
+    },
+    {
+      "clause_id": "FIN-002-p57",
+      "doc_id": "FIN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Vendor shall provide monthly revenue tracking reports detailing billed, unbilled, and pending payments.",
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:57",
+        "excerpt": "Vendor shall provide monthly revenue tracking reports detailing billed, unbilled, and pending payments."
+      }
+    },
+    {
+      "clause_id": "FIN-002-p58",
+      "doc_id": "FIN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Client may request quarterly reconciliation reports to ensure alignment between delivered hardware, invoices, and payments.",
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:58",
+        "excerpt": "Client may request quarterly reconciliation reports to ensure alignment between delivered hardware, invoices, and payments."
+      }
+    },
+    {
+      "clause_id": "FIN-002-p59",
+      "doc_id": "FIN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Both parties shall maintain a shared ledger or digital record of milestone completion, invoices, and payments for audit purposes.",
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:59",
+        "excerpt": "Both parties shall maintain a shared ledger or digital record of milestone completion, invoices, and payments for audit purposes."
+      }
+    },
+    {
+      "clause_id": "FIN-002-p61",
+      "doc_id": "FIN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "9. Confidentiality",
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:61",
+        "excerpt": "9. Confidentiality"
+      }
+    },
+    {
+      "clause_id": "FIN-002-p62",
+      "doc_id": "FIN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Billing information, payment records, and financial details shall remain confidential.",
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:62",
+        "excerpt": "Billing information, payment records, and financial details shall remain confidential."
+      }
+    },
+    {
+      "clause_id": "FIN-002-p63",
+      "doc_id": "FIN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Disclosure is only allowed with written consent or if required by law.",
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:63",
+        "excerpt": "Disclosure is only allowed with written consent or if required by law."
+      }
+    },
+    {
+      "clause_id": "FIN-002-p65",
+      "doc_id": "FIN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "10. Amendment and Termination",
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:65",
+        "excerpt": "10. Amendment and Termination"
+      }
+    },
+    {
+      "clause_id": "FIN-002-p66",
+      "doc_id": "FIN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Any amendment must be mutually agreed in writing.",
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:66",
+        "excerpt": "Any amendment must be mutually agreed in writing."
+      }
+    },
+    {
+      "clause_id": "FIN-002-p67",
+      "doc_id": "FIN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Either party may terminate the agreement with 30 days\u2019 notice, without affecting outstanding invoices or milestones.",
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:67",
+        "excerpt": "Either party may terminate the agreement with 30 days\u2019 notice, without affecting outstanding invoices or milestones."
+      }
+    },
+    {
+      "clause_id": "FIN-002-p68",
+      "doc_id": "FIN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Termination does not absolve any pending financial obligations.",
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:68",
+        "excerpt": "Termination does not absolve any pending financial obligations."
+      }
+    },
+    {
+      "clause_id": "FIN-002-p70",
+      "doc_id": "FIN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "11. Governing Law",
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:70",
+        "excerpt": "11. Governing Law"
+      }
+    },
+    {
+      "clause_id": "FIN-002-p71",
+      "doc_id": "FIN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "This Agreement shall be governed by the laws of India.",
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:71",
+        "excerpt": "This Agreement shall be governed by the laws of India."
+      }
+    },
+    {
+      "clause_id": "FIN-002-p72",
+      "doc_id": "FIN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Disputes will be under the jurisdiction of courts located in [City, State].",
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:72",
+        "excerpt": "Disputes will be under the jurisdiction of courts located in [City, State]."
+      }
+    },
+    {
+      "clause_id": "FIN-002-p74",
+      "doc_id": "FIN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Signatures:",
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:74",
+        "excerpt": "Signatures:"
+      }
+    }
+  ],
+  "tables": [
+    {
+      "table_id": "FIN-002-t0",
+      "doc_id": "FIN-002",
+      "doc_version": "1",
+      "table_index": 0,
+      "rows": [
+        [
+          "Milestone",
+          "Billing %",
+          "Conditions",
+          "Documentation Required"
+        ],
+        [
+          "PO Acceptance",
+          "20%",
+          "Upon issuance of confirmed Purchase Order",
+          "PO copy, Vendor confirmation"
+        ],
+        [
+          "Hardware Dispatch",
+          "30%",
+          "Upon shipment to the Client site",
+          "Delivery challans, logistics details"
+        ],
+        [
+          "On-Site Installation",
+          "30%",
+          "Upon completion of installation at each site",
+          "Installation report, site acceptance certificate"
+        ],
+        [
+          "User Acceptance Testing (UAT)",
+          "20%",
+          "Upon successful UAT and sign-off by Client",
+          "UAT report, Client sign-off"
+        ]
+      ],
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "table",
+        "locator": "table:0",
+        "excerpt": null
+      }
+    },
+    {
+      "table_id": "FIN-002-t1",
+      "doc_id": "FIN-002",
+      "doc_version": "1",
+      "table_index": 1,
+      "rows": [
+        [
+          "Party",
+          "Name",
+          "Designation",
+          "Signature",
+          "Date"
+        ],
+        [
+          "Primevolta Hardware Solutions",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "FinSecure Services",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "table",
+        "locator": "table:1",
+        "excerpt": null
+      }
+    }
+  ],
+  "parse_status": "parsed",
+  "parse_error": null
+}

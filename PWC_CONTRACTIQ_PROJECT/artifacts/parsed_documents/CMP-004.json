@@ -1,0 +1,1313 @@
+{
+  "doc_id": "CMP-004",
+  "clauses": [
+    {
+      "clause_id": "CMP-004-p0",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Primevolta Hardware Solutions \u2013 Information Security Controls Policy (Sample 2)",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:0",
+        "excerpt": "Primevolta Hardware Solutions \u2013 Information Security Controls Policy (Sample 2)"
+      }
+    },
+    {
+      "clause_id": "CMP-004-p1",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Version: 1.1\nEffective Date: [Insert Date]\nReviewed By: Chief Information Security Officer (CISO)\nApproved By: CEO",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:1",
+        "excerpt": "Version: 1.1\nEffective Date: [Insert Date]\nReviewed By: Chief Information Security Officer (CISO)\nApproved By: CEO"
+      }
+    },
+    {
+      "clause_id": "CMP-004-p3",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "1. Purpose",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:3",
+        "excerpt": "1. Purpose"
+      }
+    },
+    {
+      "clause_id": "CMP-004-p4",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "The purpose of this policy is to define operational and technical security controls to protect Primevolta Hardware Solutions\u2019 information assets and client data, particularly for BFSI clients like FinSecure Services. This policy supports compliance with international standards (ISO 27001, SOC2, PCI DSS where applicable) and ensures robust measures for confidentiality, integrity, availability, and privacy of data.",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:4",
+        "excerpt": "The purpose of this policy is to define operational and technical security controls to protect Primevolta Hardware Solutions\u2019 information assets and client data, particularly for BFSI clients like FinSecure Services. This policy supports compliance with international standards (ISO 27001, SOC2, PCI DSS where applicable) and ensures robust measures for confidentiality, integrity, availability, and privacy of data."
+      }
+    },
+    {
+      "clause_id": "CMP-004-p5",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "It establishes operational procedures, monitoring mechanisms, incident response workflows, and reporting standards to minimize risks associated with cyber threats, data breaches, and regulatory non-compliance.",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:5",
+        "excerpt": "It establishes operational procedures, monitoring mechanisms, incident response workflows, and reporting standards to minimize risks associated with cyber threats, data breaches, and regulatory non-compliance."
+      }
+    },
+    {
+      "clause_id": "CMP-004-p7",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "2. Scope",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:7",
+        "excerpt": "2. Scope"
+      }
+    },
+    {
+      "clause_id": "CMP-004-p8",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "This policy applies to:",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:8",
+        "excerpt": "This policy applies to:"
+      }
+    },
+    {
+      "clause_id": "CMP-004-p9",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "All employees, contractors, and third-party vendors accessing company or client systems.",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:9",
+        "excerpt": "All employees, contractors, and third-party vendors accessing company or client systems."
+      }
+    },
+    {
+      "clause_id": "CMP-004-p10",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "All hardware, software, and network infrastructure used to store, process, or transmit sensitive data.",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:10",
+        "excerpt": "All hardware, software, and network infrastructure used to store, process, or transmit sensitive data."
+      }
+    },
+    {
+      "clause_id": "CMP-004-p11",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Systems containing financial, customer, or regulated data, including cardholder information subject to PCI DSS.",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:11",
+        "excerpt": "Systems containing financial, customer, or regulated data, including cardholder information subject to PCI DSS."
+      }
+    },
+    {
+      "clause_id": "CMP-004-p12",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Cloud and on-premise services supporting BFSI clients\u2019 critical operations.",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:12",
+        "excerpt": "Cloud and on-premise services supporting BFSI clients\u2019 critical operations."
+      }
+    },
+    {
+      "clause_id": "CMP-004-p14",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3. Governance and Roles",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:14",
+        "excerpt": "3. Governance and Roles"
+      }
+    },
+    {
+      "clause_id": "CMP-004-p15",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3.1 Executive Responsibilities",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:15",
+        "excerpt": "3.1 Executive Responsibilities"
+      }
+    },
+    {
+      "clause_id": "CMP-004-p16",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "CEO: Approves overall information security strategy and critical incidents.",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:16",
+        "excerpt": "CEO: Approves overall information security strategy and critical incidents."
+      }
+    },
+    {
+      "clause_id": "CMP-004-p17",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "CISO: Oversees policy implementation, monitoring, risk assessment, and continuous improvement.",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:17",
+        "excerpt": "CISO: Oversees policy implementation, monitoring, risk assessment, and continuous improvement."
+      }
+    },
+    {
+      "clause_id": "CMP-004-p18",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3.2 Operational Responsibilities",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:18",
+        "excerpt": "3.2 Operational Responsibilities"
+      }
+    },
+    {
+      "clause_id": "CMP-004-p19",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "IT Security Team: Implements technical controls, monitors security events, and manages incident response.",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:19",
+        "excerpt": "IT Security Team: Implements technical controls, monitors security events, and manages incident response."
+      }
+    },
+    {
+      "clause_id": "CMP-004-p20",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Compliance Team: Ensures alignment with ISO 27001, SOC2, PCI DSS, and BFSI regulatory requirements.",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:20",
+        "excerpt": "Compliance Team: Ensures alignment with ISO 27001, SOC2, PCI DSS, and BFSI regulatory requirements."
+      }
+    },
+    {
+      "clause_id": "CMP-004-p21",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Department Heads: Ensure team adherence to security processes and report non-compliance.",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:21",
+        "excerpt": "Department Heads: Ensure team adherence to security processes and report non-compliance."
+      }
+    },
+    {
+      "clause_id": "CMP-004-p22",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3.3 Vendor/Third-Party Obligations",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:22",
+        "excerpt": "3.3 Vendor/Third-Party Obligations"
+      }
+    },
+    {
+      "clause_id": "CMP-004-p23",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Vendors must comply with contractual security requirements and participate in periodic audits.",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:23",
+        "excerpt": "Vendors must comply with contractual security requirements and participate in periodic audits."
+      }
+    },
+    {
+      "clause_id": "CMP-004-p24",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Non-compliance triggers corrective actions, including potential contract termination.",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:24",
+        "excerpt": "Non-compliance triggers corrective actions, including potential contract termination."
+      }
+    },
+    {
+      "clause_id": "CMP-004-p26",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "4. Information Security Risk Management",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:26",
+        "excerpt": "4. Information Security Risk Management"
+      }
+    },
+    {
+      "clause_id": "CMP-004-p27",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Conduct annual risk assessments to identify threats, vulnerabilities, and potential impacts.",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:27",
+        "excerpt": "Conduct annual risk assessments to identify threats, vulnerabilities, and potential impacts."
+      }
+    },
+    {
+      "clause_id": "CMP-004-p28",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Classify risks as high, medium, or low and apply controls proportionate to risk.",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:28",
+        "excerpt": "Classify risks as high, medium, or low and apply controls proportionate to risk."
+      }
+    },
+    {
+      "clause_id": "CMP-004-p29",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Implement a continuous monitoring program using SIEM, IDS/IPS, and anomaly detection tools.",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:29",
+        "excerpt": "Implement a continuous monitoring program using SIEM, IDS/IPS, and anomaly detection tools."
+      }
+    },
+    {
+      "clause_id": "CMP-004-p30",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Maintain a risk register documenting risk assessment results, mitigation plans, and assigned responsibilities.",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:30",
+        "excerpt": "Maintain a risk register documenting risk assessment results, mitigation plans, and assigned responsibilities."
+      }
+    },
+    {
+      "clause_id": "CMP-004-p32",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "5. Security Controls and Operational Procedures",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:32",
+        "excerpt": "5. Security Controls and Operational Procedures"
+      }
+    },
+    {
+      "clause_id": "CMP-004-p33",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "5.1 Access Management",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:33",
+        "excerpt": "5.1 Access Management"
+      }
+    },
+    {
+      "clause_id": "CMP-004-p34",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Role-based access control (RBAC) enforced across all systems.",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:34",
+        "excerpt": "Role-based access control (RBAC) enforced across all systems."
+      }
+    },
+    {
+      "clause_id": "CMP-004-p35",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Privileged accounts require multi-factor authentication (MFA) and quarterly access reviews.",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:35",
+        "excerpt": "Privileged accounts require multi-factor authentication (MFA) and quarterly access reviews."
+      }
+    },
+    {
+      "clause_id": "CMP-004-p36",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Automatic de-provisioning upon employee exit or role change.",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:36",
+        "excerpt": "Automatic de-provisioning upon employee exit or role change."
+      }
+    },
+    {
+      "clause_id": "CMP-004-p37",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "5.2 Data Protection",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:37",
+        "excerpt": "5.2 Data Protection"
+      }
+    },
+    {
+      "clause_id": "CMP-004-p38",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Sensitive data encrypted in transit (TLS 1.2+) and at rest (AES-256).",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:38",
+        "excerpt": "Sensitive data encrypted in transit (TLS 1.2+) and at rest (AES-256)."
+      }
+    },
+    {
+      "clause_id": "CMP-004-p39",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Cardholder data follows PCI DSS encryption, storage, and transmission rules.",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:39",
+        "excerpt": "Cardholder data follows PCI DSS encryption, storage, and transmission rules."
+      }
+    },
+    {
+      "clause_id": "CMP-004-p40",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Data retention and destruction policies align with BFSI regulatory standards.",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:40",
+        "excerpt": "Data retention and destruction policies align with BFSI regulatory standards."
+      }
+    },
+    {
+      "clause_id": "CMP-004-p41",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "5.3 Network Security",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:41",
+        "excerpt": "5.3 Network Security"
+      }
+    },
+    {
+      "clause_id": "CMP-004-p42",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Firewalls, VPNs, IDS/IPS, and network segmentation protect internal and client systems.",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:42",
+        "excerpt": "Firewalls, VPNs, IDS/IPS, and network segmentation protect internal and client systems."
+      }
+    },
+    {
+      "clause_id": "CMP-004-p43",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Routine vulnerability scanning and penetration testing performed quarterly.",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:43",
+        "excerpt": "Routine vulnerability scanning and penetration testing performed quarterly."
+      }
+    },
+    {
+      "clause_id": "CMP-004-p44",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Logging of all network access and security events for 12 months minimum.",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:44",
+        "excerpt": "Logging of all network access and security events for 12 months minimum."
+      }
+    },
+    {
+      "clause_id": "CMP-004-p45",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "5.4 Endpoint Security",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:45",
+        "excerpt": "5.4 Endpoint Security"
+      }
+    },
+    {
+      "clause_id": "CMP-004-p46",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "All devices must have antivirus, anti-malware, disk encryption, and endpoint detection & response (EDR).",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:46",
+        "excerpt": "All devices must have antivirus, anti-malware, disk encryption, and endpoint detection & response (EDR)."
+      }
+    },
+    {
+      "clause_id": "CMP-004-p47",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Patching and updates are deployed automatically within defined SLAs.",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:47",
+        "excerpt": "Patching and updates are deployed automatically within defined SLAs."
+      }
+    },
+    {
+      "clause_id": "CMP-004-p48",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Mobile devices managed under MDM policy, enforcing encryption and remote wipe.",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:48",
+        "excerpt": "Mobile devices managed under MDM policy, enforcing encryption and remote wipe."
+      }
+    },
+    {
+      "clause_id": "CMP-004-p49",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "5.5 Change Management and System Hardening",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:49",
+        "excerpt": "5.5 Change Management and System Hardening"
+      }
+    },
+    {
+      "clause_id": "CMP-004-p50",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Formal change management process for all production systems.",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:50",
+        "excerpt": "Formal change management process for all production systems."
+      }
+    },
+    {
+      "clause_id": "CMP-004-p51",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Testing, approval, and rollback procedures are mandatory.",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:51",
+        "excerpt": "Testing, approval, and rollback procedures are mandatory."
+      }
+    },
+    {
+      "clause_id": "CMP-004-p52",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "System hardening standards applied based on CIS benchmarks.",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:52",
+        "excerpt": "System hardening standards applied based on CIS benchmarks."
+      }
+    },
+    {
+      "clause_id": "CMP-004-p53",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "5.6 Logging, Monitoring, and Alerting",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:53",
+        "excerpt": "5.6 Logging, Monitoring, and Alerting"
+      }
+    },
+    {
+      "clause_id": "CMP-004-p54",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Centralized log collection for servers, databases, network devices, and applications.",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:54",
+        "excerpt": "Centralized log collection for servers, databases, network devices, and applications."
+      }
+    },
+    {
+      "clause_id": "CMP-004-p55",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Security Information and Event Management (SIEM) monitors logs for anomalies.",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:55",
+        "excerpt": "Security Information and Event Management (SIEM) monitors logs for anomalies."
+      }
+    },
+    {
+      "clause_id": "CMP-004-p56",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Alerts for high-risk events routed to IT Security and Compliance teams in real-time.",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:56",
+        "excerpt": "Alerts for high-risk events routed to IT Security and Compliance teams in real-time."
+      }
+    },
+    {
+      "clause_id": "CMP-004-p58",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "6. SOC2 Operational Controls",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:58",
+        "excerpt": "6. SOC2 Operational Controls"
+      }
+    },
+    {
+      "clause_id": "CMP-004-p59",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "6.1 Security Principle:",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:59",
+        "excerpt": "6.1 Security Principle:"
+      }
+    },
+    {
+      "clause_id": "CMP-004-p60",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Enforce access restrictions, secure transmission, and monitoring controls to protect against unauthorized use or disclosure.",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:60",
+        "excerpt": "Enforce access restrictions, secure transmission, and monitoring controls to protect against unauthorized use or disclosure."
+      }
+    },
+    {
+      "clause_id": "CMP-004-p61",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "6.2 Availability Principle:",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:61",
+        "excerpt": "6.2 Availability Principle:"
+      }
+    },
+    {
+      "clause_id": "CMP-004-p62",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Implement redundancy, backups, and disaster recovery testing to ensure systems remain available to clients.",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:62",
+        "excerpt": "Implement redundancy, backups, and disaster recovery testing to ensure systems remain available to clients."
+      }
+    },
+    {
+      "clause_id": "CMP-004-p63",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "6.3 Confidentiality Principle:",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:63",
+        "excerpt": "6.3 Confidentiality Principle:"
+      }
+    },
+    {
+      "clause_id": "CMP-004-p64",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Encrypt confidential information and limit access based on business need.",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:64",
+        "excerpt": "Encrypt confidential information and limit access based on business need."
+      }
+    },
+    {
+      "clause_id": "CMP-004-p65",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Conduct periodic audits and reviews of data sharing and third-party access.",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:65",
+        "excerpt": "Conduct periodic audits and reviews of data sharing and third-party access."
+      }
+    },
+    {
+      "clause_id": "CMP-004-p67",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "7. PCI DSS Controls (If Applicable)",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:67",
+        "excerpt": "7. PCI DSS Controls (If Applicable)"
+      }
+    },
+    {
+      "clause_id": "CMP-004-p68",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Cardholder data environments (CDE) isolated from non-sensitive systems.",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:68",
+        "excerpt": "Cardholder data environments (CDE) isolated from non-sensitive systems."
+      }
+    },
+    {
+      "clause_id": "CMP-004-p69",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Strong authentication and access control policies for all personnel accessing CDE.",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:69",
+        "excerpt": "Strong authentication and access control policies for all personnel accessing CDE."
+      }
+    },
+    {
+      "clause_id": "CMP-004-p70",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Logging and monitoring of all access to cardholder data systems.",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:70",
+        "excerpt": "Logging and monitoring of all access to cardholder data systems."
+      }
+    },
+    {
+      "clause_id": "CMP-004-p71",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Quarterly vulnerability scans and annual penetration tests as per PCI DSS standards.",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:71",
+        "excerpt": "Quarterly vulnerability scans and annual penetration tests as per PCI DSS standards."
+      }
+    },
+    {
+      "clause_id": "CMP-004-p72",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Secure transmission and storage of cardholder data in compliance with PCI DSS 4.0.",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:72",
+        "excerpt": "Secure transmission and storage of cardholder data in compliance with PCI DSS 4.0."
+      }
+    },
+    {
+      "clause_id": "CMP-004-p74",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "8. Incident Response and Management",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:74",
+        "excerpt": "8. Incident Response and Management"
+      }
+    },
+    {
+      "clause_id": "CMP-004-p75",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "8.1 Reporting",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:75",
+        "excerpt": "8.1 Reporting"
+      }
+    },
+    {
+      "clause_id": "CMP-004-p76",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "All security incidents reported immediately to IT Security and Compliance.",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:76",
+        "excerpt": "All security incidents reported immediately to IT Security and Compliance."
+      }
+    },
+    {
+      "clause_id": "CMP-004-p77",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "8.2 Incident Handling Process",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:77",
+        "excerpt": "8.2 Incident Handling Process"
+      }
+    },
+    {
+      "clause_id": "CMP-004-p78",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Detection: Continuous monitoring for anomalies and alerts.",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:78",
+        "excerpt": "Detection: Continuous monitoring for anomalies and alerts."
+      }
+    },
+    {
+      "clause_id": "CMP-004-p79",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Containment: Limit impact by isolating affected systems or accounts.",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:79",
+        "excerpt": "Containment: Limit impact by isolating affected systems or accounts."
+      }
+    },
+    {
+      "clause_id": "CMP-004-p80",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Eradication: Remove malicious artifacts, patch vulnerabilities, and remediate systems.",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:80",
+        "excerpt": "Eradication: Remove malicious artifacts, patch vulnerabilities, and remediate systems."
+      }
+    },
+    {
+      "clause_id": "CMP-004-p81",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Recovery: Restore services from secure backups and validate integrity.",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:81",
+        "excerpt": "Recovery: Restore services from secure backups and validate integrity."
+      }
+    },
+    {
+      "clause_id": "CMP-004-p82",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Post-Incident Review: Analyze cause, update risk assessments, and implement corrective actions.",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:82",
+        "excerpt": "Post-Incident Review: Analyze cause, update risk assessments, and implement corrective actions."
+      }
+    },
+    {
+      "clause_id": "CMP-004-p83",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "8.3 Regulatory and Client Notification",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:83",
+        "excerpt": "8.3 Regulatory and Client Notification"
+      }
+    },
+    {
+      "clause_id": "CMP-004-p84",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "BFSI clients and regulators notified per contractual and legal obligations.",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:84",
+        "excerpt": "BFSI clients and regulators notified per contractual and legal obligations."
+      }
+    },
+    {
+      "clause_id": "CMP-004-p85",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Detailed incident reports documented and retained for compliance audits.",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:85",
+        "excerpt": "Detailed incident reports documented and retained for compliance audits."
+      }
+    },
+    {
+      "clause_id": "CMP-004-p87",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "9. Training and Awareness",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:87",
+        "excerpt": "9. Training and Awareness"
+      }
+    },
+    {
+      "clause_id": "CMP-004-p88",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Mandatory security training for all employees at onboarding and annually thereafter.",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:88",
+        "excerpt": "Mandatory security training for all employees at onboarding and annually thereafter."
+      }
+    },
+    {
+      "clause_id": "CMP-004-p89",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Role-based security awareness programs for employees handling sensitive client data.",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:89",
+        "excerpt": "Role-based security awareness programs for employees handling sensitive client data."
+      }
+    },
+    {
+      "clause_id": "CMP-004-p90",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Phishing simulations and practical exercises conducted semi-annually.",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:90",
+        "excerpt": "Phishing simulations and practical exercises conducted semi-annually."
+      }
+    },
+    {
+      "clause_id": "CMP-004-p92",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "10. Audit, Review, and Continuous Improvement",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:92",
+        "excerpt": "10. Audit, Review, and Continuous Improvement"
+      }
+    },
+    {
+      "clause_id": "CMP-004-p93",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Internal audits conducted quarterly to ensure control effectiveness.",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:93",
+        "excerpt": "Internal audits conducted quarterly to ensure control effectiveness."
+      }
+    },
+    {
+      "clause_id": "CMP-004-p94",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Third-party SOC2, ISO 27001, and PCI DSS audits conducted annually.",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:94",
+        "excerpt": "Third-party SOC2, ISO 27001, and PCI DSS audits conducted annually."
+      }
+    },
+    {
+      "clause_id": "CMP-004-p95",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Security controls updated based on audit findings, emerging threats, and technological advancements.",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:95",
+        "excerpt": "Security controls updated based on audit findings, emerging threats, and technological advancements."
+      }
+    },
+    {
+      "clause_id": "CMP-004-p96",
+      "doc_id": "CMP-004",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Policy reviewed annually or after significant incidents, regulatory changes, or business transformation.",
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:96",
+        "excerpt": "Policy reviewed annually or after significant incidents, regulatory changes, or business transformation."
+      }
+    }
+  ],
+  "tables": [],
+  "parse_status": "parsed",
+  "parse_error": null
+}

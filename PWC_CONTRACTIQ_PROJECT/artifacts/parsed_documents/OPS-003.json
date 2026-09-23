@@ -1,0 +1,840 @@
+{
+  "doc_id": "OPS-003",
+  "clauses": [
+    {
+      "clause_id": "OPS-003-p0",
+      "doc_id": "OPS-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Primevolta Hardware Solutions",
+      "source_location": {
+        "doc_id": "OPS-003",
+        "kind": "paragraph",
+        "locator": "paragraph:0",
+        "excerpt": "Primevolta Hardware Solutions"
+      }
+    },
+    {
+      "clause_id": "OPS-003-p1",
+      "doc_id": "OPS-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Monthly Service Report\nClient: FinSecure Services\nReporting Period: November 2025",
+      "source_location": {
+        "doc_id": "OPS-003",
+        "kind": "paragraph",
+        "locator": "paragraph:1",
+        "excerpt": "Monthly Service Report\nClient: FinSecure Services\nReporting Period: November 2025"
+      }
+    },
+    {
+      "clause_id": "OPS-003-p2",
+      "doc_id": "OPS-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "1. Executive Summary",
+      "source_location": {
+        "doc_id": "OPS-003",
+        "kind": "paragraph",
+        "locator": "paragraph:2",
+        "excerpt": "1. Executive Summary"
+      }
+    },
+    {
+      "clause_id": "OPS-003-p3",
+      "doc_id": "OPS-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "This report summarizes the operational services delivered by Primevolta Hardware Solutions to FinSecure Services during the period of November 1, 2025, to November 30, 2025. The primary objective of this report is to provide a detailed overview of hardware performance, service requests, preventive maintenance, incidents, and overall service quality.",
+      "source_location": {
+        "doc_id": "OPS-003",
+        "kind": "paragraph",
+        "locator": "paragraph:3",
+        "excerpt": "This report summarizes the operational services delivered by Primevolta Hardware Solutions to FinSecure Services during the period of November 1, 2025, to November 30, 2025. The primary objective of this report is to provide a detailed overview of hardware performance, service requests, preventive maintenance, incidents, and overall service quality."
+      }
+    },
+    {
+      "clause_id": "OPS-003-p4",
+      "doc_id": "OPS-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "During this period, Primevolta Hardware Solutions achieved 99.2% system uptime across all BFSI endpoints supported, resolved 145 service tickets, and conducted scheduled preventive maintenance for all critical infrastructure components. The report highlights trends, identifies recurring issues, and proposes recommendations for further optimization of hardware performance and service delivery.",
+      "source_location": {
+        "doc_id": "OPS-003",
+        "kind": "paragraph",
+        "locator": "paragraph:4",
+        "excerpt": "During this period, Primevolta Hardware Solutions achieved 99.2% system uptime across all BFSI endpoints supported, resolved 145 service tickets, and conducted scheduled preventive maintenance for all critical infrastructure components. The report highlights trends, identifies recurring issues, and proposes recommendations for further optimization of hardware performance and service delivery."
+      }
+    },
+    {
+      "clause_id": "OPS-003-p6",
+      "doc_id": "OPS-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "2. Service Overview",
+      "source_location": {
+        "doc_id": "OPS-003",
+        "kind": "paragraph",
+        "locator": "paragraph:6",
+        "excerpt": "2. Service Overview"
+      }
+    },
+    {
+      "clause_id": "OPS-003-p7",
+      "doc_id": "OPS-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "2.1 Hardware Assets Monitored",
+      "source_location": {
+        "doc_id": "OPS-003",
+        "kind": "paragraph",
+        "locator": "paragraph:7",
+        "excerpt": "2.1 Hardware Assets Monitored"
+      }
+    },
+    {
+      "clause_id": "OPS-003-p8",
+      "doc_id": "OPS-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Servers: 12 high-performance rack-mounted units (Dell PowerEdge R740)",
+      "source_location": {
+        "doc_id": "OPS-003",
+        "kind": "paragraph",
+        "locator": "paragraph:8",
+        "excerpt": "Servers: 12 high-performance rack-mounted units (Dell PowerEdge R740)"
+      }
+    },
+    {
+      "clause_id": "OPS-003-p9",
+      "doc_id": "OPS-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Networking Equipment: 18 switches (Cisco Catalyst 9300), 6 core routers",
+      "source_location": {
+        "doc_id": "OPS-003",
+        "kind": "paragraph",
+        "locator": "paragraph:9",
+        "excerpt": "Networking Equipment: 18 switches (Cisco Catalyst 9300), 6 core routers"
+      }
+    },
+    {
+      "clause_id": "OPS-003-p10",
+      "doc_id": "OPS-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "End-user Devices: 350 desktop workstations, 120 laptops",
+      "source_location": {
+        "doc_id": "OPS-003",
+        "kind": "paragraph",
+        "locator": "paragraph:10",
+        "excerpt": "End-user Devices: 350 desktop workstations, 120 laptops"
+      }
+    },
+    {
+      "clause_id": "OPS-003-p11",
+      "doc_id": "OPS-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Security Appliances: 10 firewalls, 5 Intrusion Detection Systems",
+      "source_location": {
+        "doc_id": "OPS-003",
+        "kind": "paragraph",
+        "locator": "paragraph:11",
+        "excerpt": "Security Appliances: 10 firewalls, 5 Intrusion Detection Systems"
+      }
+    },
+    {
+      "clause_id": "OPS-003-p12",
+      "doc_id": "OPS-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "2.2 Scope of Services",
+      "source_location": {
+        "doc_id": "OPS-003",
+        "kind": "paragraph",
+        "locator": "paragraph:12",
+        "excerpt": "2.2 Scope of Services"
+      }
+    },
+    {
+      "clause_id": "OPS-003-p13",
+      "doc_id": "OPS-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Preventive Maintenance & Firmware Updates",
+      "source_location": {
+        "doc_id": "OPS-003",
+        "kind": "paragraph",
+        "locator": "paragraph:13",
+        "excerpt": "Preventive Maintenance & Firmware Updates"
+      }
+    },
+    {
+      "clause_id": "OPS-003-p14",
+      "doc_id": "OPS-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Incident Response & Resolution",
+      "source_location": {
+        "doc_id": "OPS-003",
+        "kind": "paragraph",
+        "locator": "paragraph:14",
+        "excerpt": "Incident Response & Resolution"
+      }
+    },
+    {
+      "clause_id": "OPS-003-p15",
+      "doc_id": "OPS-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Performance Monitoring & Reporting",
+      "source_location": {
+        "doc_id": "OPS-003",
+        "kind": "paragraph",
+        "locator": "paragraph:15",
+        "excerpt": "Performance Monitoring & Reporting"
+      }
+    },
+    {
+      "clause_id": "OPS-003-p16",
+      "doc_id": "OPS-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Hardware Replacement & Repairs",
+      "source_location": {
+        "doc_id": "OPS-003",
+        "kind": "paragraph",
+        "locator": "paragraph:16",
+        "excerpt": "Hardware Replacement & Repairs"
+      }
+    },
+    {
+      "clause_id": "OPS-003-p17",
+      "doc_id": "OPS-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Technical Consultation for Infrastructure Optimization",
+      "source_location": {
+        "doc_id": "OPS-003",
+        "kind": "paragraph",
+        "locator": "paragraph:17",
+        "excerpt": "Technical Consultation for Infrastructure Optimization"
+      }
+    },
+    {
+      "clause_id": "OPS-003-p19",
+      "doc_id": "OPS-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3. Service Performance Metrics",
+      "source_location": {
+        "doc_id": "OPS-003",
+        "kind": "paragraph",
+        "locator": "paragraph:19",
+        "excerpt": "3. Service Performance Metrics"
+      }
+    },
+    {
+      "clause_id": "OPS-003-p21",
+      "doc_id": "OPS-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "4. Major Activities Completed",
+      "source_location": {
+        "doc_id": "OPS-003",
+        "kind": "paragraph",
+        "locator": "paragraph:21",
+        "excerpt": "4. Major Activities Completed"
+      }
+    },
+    {
+      "clause_id": "OPS-003-p22",
+      "doc_id": "OPS-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Preventive Maintenance:",
+      "source_location": {
+        "doc_id": "OPS-003",
+        "kind": "paragraph",
+        "locator": "paragraph:22",
+        "excerpt": "Preventive Maintenance:"
+      }
+    },
+    {
+      "clause_id": "OPS-003-p23",
+      "doc_id": "OPS-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "All servers updated with latest firmware patches.",
+      "source_location": {
+        "doc_id": "OPS-003",
+        "kind": "paragraph",
+        "locator": "paragraph:23",
+        "excerpt": "All servers updated with latest firmware patches."
+      }
+    },
+    {
+      "clause_id": "OPS-003-p24",
+      "doc_id": "OPS-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Network switches upgraded to latest stable OS version.",
+      "source_location": {
+        "doc_id": "OPS-003",
+        "kind": "paragraph",
+        "locator": "paragraph:24",
+        "excerpt": "Network switches upgraded to latest stable OS version."
+      }
+    },
+    {
+      "clause_id": "OPS-003-p25",
+      "doc_id": "OPS-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Security appliances\u2019 firmware updated with latest threat definitions.",
+      "source_location": {
+        "doc_id": "OPS-003",
+        "kind": "paragraph",
+        "locator": "paragraph:25",
+        "excerpt": "Security appliances\u2019 firmware updated with latest threat definitions."
+      }
+    },
+    {
+      "clause_id": "OPS-003-p26",
+      "doc_id": "OPS-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Incident & Problem Management:",
+      "source_location": {
+        "doc_id": "OPS-003",
+        "kind": "paragraph",
+        "locator": "paragraph:26",
+        "excerpt": "Incident & Problem Management:"
+      }
+    },
+    {
+      "clause_id": "OPS-003-p27",
+      "doc_id": "OPS-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Resolved 145 service tickets, including 10 high-priority incidents affecting server performance.",
+      "source_location": {
+        "doc_id": "OPS-003",
+        "kind": "paragraph",
+        "locator": "paragraph:27",
+        "excerpt": "Resolved 145 service tickets, including 10 high-priority incidents affecting server performance."
+      }
+    },
+    {
+      "clause_id": "OPS-003-p28",
+      "doc_id": "OPS-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Identified root cause of recurring network latency in branch office and implemented permanent fixes.",
+      "source_location": {
+        "doc_id": "OPS-003",
+        "kind": "paragraph",
+        "locator": "paragraph:28",
+        "excerpt": "Identified root cause of recurring network latency in branch office and implemented permanent fixes."
+      }
+    },
+    {
+      "clause_id": "OPS-003-p29",
+      "doc_id": "OPS-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Hardware Replacement & Repairs:",
+      "source_location": {
+        "doc_id": "OPS-003",
+        "kind": "paragraph",
+        "locator": "paragraph:29",
+        "excerpt": "Hardware Replacement & Repairs:"
+      }
+    },
+    {
+      "clause_id": "OPS-003-p30",
+      "doc_id": "OPS-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Replaced 3 defective server drives and 5 laptops with hardware failures.",
+      "source_location": {
+        "doc_id": "OPS-003",
+        "kind": "paragraph",
+        "locator": "paragraph:30",
+        "excerpt": "Replaced 3 defective server drives and 5 laptops with hardware failures."
+      }
+    },
+    {
+      "clause_id": "OPS-003-p31",
+      "doc_id": "OPS-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Recalibrated 2 network routers to optimize routing performance.",
+      "source_location": {
+        "doc_id": "OPS-003",
+        "kind": "paragraph",
+        "locator": "paragraph:31",
+        "excerpt": "Recalibrated 2 network routers to optimize routing performance."
+      }
+    },
+    {
+      "clause_id": "OPS-003-p32",
+      "doc_id": "OPS-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Performance Monitoring & Reporting:",
+      "source_location": {
+        "doc_id": "OPS-003",
+        "kind": "paragraph",
+        "locator": "paragraph:32",
+        "excerpt": "Performance Monitoring & Reporting:"
+      }
+    },
+    {
+      "clause_id": "OPS-003-p33",
+      "doc_id": "OPS-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Conducted real-time monitoring for all critical systems.",
+      "source_location": {
+        "doc_id": "OPS-003",
+        "kind": "paragraph",
+        "locator": "paragraph:33",
+        "excerpt": "Conducted real-time monitoring for all critical systems."
+      }
+    },
+    {
+      "clause_id": "OPS-003-p34",
+      "doc_id": "OPS-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Issued alert notifications to FinSecure IT team for early detection of potential failures.",
+      "source_location": {
+        "doc_id": "OPS-003",
+        "kind": "paragraph",
+        "locator": "paragraph:34",
+        "excerpt": "Issued alert notifications to FinSecure IT team for early detection of potential failures."
+      }
+    },
+    {
+      "clause_id": "OPS-003-p36",
+      "doc_id": "OPS-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "5. Incident Summary",
+      "source_location": {
+        "doc_id": "OPS-003",
+        "kind": "paragraph",
+        "locator": "paragraph:36",
+        "excerpt": "5. Incident Summary"
+      }
+    },
+    {
+      "clause_id": "OPS-003-p37",
+      "doc_id": "OPS-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Analysis: Most incidents were hardware-related and resolved within SLA. No critical downtime affecting financial operations occurred.",
+      "source_location": {
+        "doc_id": "OPS-003",
+        "kind": "paragraph",
+        "locator": "paragraph:37",
+        "excerpt": "Analysis: Most incidents were hardware-related and resolved within SLA. No critical downtime affecting financial operations occurred."
+      }
+    },
+    {
+      "clause_id": "OPS-003-p39",
+      "doc_id": "OPS-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "6. Observations & Recommendations",
+      "source_location": {
+        "doc_id": "OPS-003",
+        "kind": "paragraph",
+        "locator": "paragraph:39",
+        "excerpt": "6. Observations & Recommendations"
+      }
+    },
+    {
+      "clause_id": "OPS-003-p40",
+      "doc_id": "OPS-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Observations:",
+      "source_location": {
+        "doc_id": "OPS-003",
+        "kind": "paragraph",
+        "locator": "paragraph:40",
+        "excerpt": "Observations:"
+      }
+    },
+    {
+      "clause_id": "OPS-003-p41",
+      "doc_id": "OPS-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Minor recurring network latency in Branch A; mitigated via router configuration update.",
+      "source_location": {
+        "doc_id": "OPS-003",
+        "kind": "paragraph",
+        "locator": "paragraph:41",
+        "excerpt": "Minor recurring network latency in Branch A; mitigated via router configuration update."
+      }
+    },
+    {
+      "clause_id": "OPS-003-p42",
+      "doc_id": "OPS-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Increased hardware alerts due to aging UPS units; monitored and scheduled replacement.",
+      "source_location": {
+        "doc_id": "OPS-003",
+        "kind": "paragraph",
+        "locator": "paragraph:42",
+        "excerpt": "Increased hardware alerts due to aging UPS units; monitored and scheduled replacement."
+      }
+    },
+    {
+      "clause_id": "OPS-003-p43",
+      "doc_id": "OPS-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Recommendations:",
+      "source_location": {
+        "doc_id": "OPS-003",
+        "kind": "paragraph",
+        "locator": "paragraph:43",
+        "excerpt": "Recommendations:"
+      }
+    },
+    {
+      "clause_id": "OPS-003-p44",
+      "doc_id": "OPS-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Consider upgrading UPS units within next quarter to maintain high availability.",
+      "source_location": {
+        "doc_id": "OPS-003",
+        "kind": "paragraph",
+        "locator": "paragraph:44",
+        "excerpt": "Consider upgrading UPS units within next quarter to maintain high availability."
+      }
+    },
+    {
+      "clause_id": "OPS-003-p45",
+      "doc_id": "OPS-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Conduct quarterly training sessions for end-user troubleshooting to reduce minor incident tickets.",
+      "source_location": {
+        "doc_id": "OPS-003",
+        "kind": "paragraph",
+        "locator": "paragraph:45",
+        "excerpt": "Conduct quarterly training sessions for end-user troubleshooting to reduce minor incident tickets."
+      }
+    },
+    {
+      "clause_id": "OPS-003-p47",
+      "doc_id": "OPS-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "7. Planned Activities for Next Month",
+      "source_location": {
+        "doc_id": "OPS-003",
+        "kind": "paragraph",
+        "locator": "paragraph:47",
+        "excerpt": "7. Planned Activities for Next Month"
+      }
+    },
+    {
+      "clause_id": "OPS-003-p48",
+      "doc_id": "OPS-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Full preventive maintenance for all network and security devices",
+      "source_location": {
+        "doc_id": "OPS-003",
+        "kind": "paragraph",
+        "locator": "paragraph:48",
+        "excerpt": "Full preventive maintenance for all network and security devices"
+      }
+    },
+    {
+      "clause_id": "OPS-003-p49",
+      "doc_id": "OPS-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Hardware lifecycle review and proactive replacement planning",
+      "source_location": {
+        "doc_id": "OPS-003",
+        "kind": "paragraph",
+        "locator": "paragraph:49",
+        "excerpt": "Hardware lifecycle review and proactive replacement planning"
+      }
+    },
+    {
+      "clause_id": "OPS-003-p50",
+      "doc_id": "OPS-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Review SLA compliance and optimize incident response workflows",
+      "source_location": {
+        "doc_id": "OPS-003",
+        "kind": "paragraph",
+        "locator": "paragraph:50",
+        "excerpt": "Review SLA compliance and optimize incident response workflows"
+      }
+    },
+    {
+      "clause_id": "OPS-003-p52",
+      "doc_id": "OPS-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "8. Acknowledgement",
+      "source_location": {
+        "doc_id": "OPS-003",
+        "kind": "paragraph",
+        "locator": "paragraph:52",
+        "excerpt": "8. Acknowledgement"
+      }
+    },
+    {
+      "clause_id": "OPS-003-p53",
+      "doc_id": "OPS-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "This report is submitted for review and confirmation by the IT management team at FinSecure Services. Primevolta Hardware Solutions commits to continuous improvement in operational service delivery, ensuring reliability, security, and efficiency of all hardware systems under management.",
+      "source_location": {
+        "doc_id": "OPS-003",
+        "kind": "paragraph",
+        "locator": "paragraph:53",
+        "excerpt": "This report is submitted for review and confirmation by the IT management team at FinSecure Services. Primevolta Hardware Solutions commits to continuous improvement in operational service delivery, ensuring reliability, security, and efficiency of all hardware systems under management."
+      }
+    },
+    {
+      "clause_id": "OPS-003-p54",
+      "doc_id": "OPS-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Prepared by:\nPrimevolta Hardware Solutions \u2013 Operations Team",
+      "source_location": {
+        "doc_id": "OPS-003",
+        "kind": "paragraph",
+        "locator": "paragraph:54",
+        "excerpt": "Prepared by:\nPrimevolta Hardware Solutions \u2013 Operations Team"
+      }
+    },
+    {
+      "clause_id": "OPS-003-p55",
+      "doc_id": "OPS-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Date: 30-Nov-2025",
+      "source_location": {
+        "doc_id": "OPS-003",
+        "kind": "paragraph",
+        "locator": "paragraph:55",
+        "excerpt": "Date: 30-Nov-2025"
+      }
+    }
+  ],
+  "tables": [
+    {
+      "table_id": "OPS-003-t0",
+      "doc_id": "OPS-003",
+      "doc_version": "1",
+      "table_index": 0,
+      "rows": [
+        [
+          "Metric",
+          "Target",
+          "Achieved",
+          "Remarks"
+        ],
+        [
+          "System Uptime",
+          "99%",
+          "99.2%",
+          "Exceeded target due to proactive monitoring"
+        ],
+        [
+          "Incident Response Time",
+          "<2 hours",
+          "1.7 hours",
+          "Maintained SLA compliance"
+        ],
+        [
+          "First-Time Resolution Rate",
+          "90%",
+          "88%",
+          "Slightly below target; addressed through enhanced training"
+        ],
+        [
+          "Preventive Maintenance Completion",
+          "100%",
+          "100%",
+          "All critical devices serviced on schedule"
+        ],
+        [
+          "Hardware Replacement Turnaround",
+          "<24 hours",
+          "22 hours",
+          "SLA met successfully"
+        ]
+      ],
+      "source_location": {
+        "doc_id": "OPS-003",
+        "kind": "table",
+        "locator": "table:0",
+        "excerpt": null
+      }
+    },
+    {
+      "table_id": "OPS-003-t1",
+      "doc_id": "OPS-003",
+      "doc_version": "1",
+      "table_index": 1,
+      "rows": [
+        [
+          "Incident ID",
+          "Date",
+          "Category",
+          "Description",
+          "Resolution",
+          "Time to Resolve"
+        ],
+        [
+          "INC-1023",
+          "05-Nov",
+          "Server",
+          "Server R740 #4 failed to boot",
+          "Replaced HDD, restored data from backup",
+          "3 hours"
+        ],
+        [
+          "INC-1045",
+          "12-Nov",
+          "Network",
+          "Core switch experiencing packet drops",
+          "Firmware patch and reboot",
+          "2 hours"
+        ],
+        [
+          "INC-1087",
+          "20-Nov",
+          "End-user",
+          "Laptop failure in Branch A",
+          "Hardware replacement",
+          "1.5 hours"
+        ]
+      ],
+      "source_location": {
+        "doc_id": "OPS-003",
+        "kind": "table",
+        "locator": "table:1",
+        "excerpt": null
+      }
+    }
+  ],
+  "parse_status": "parsed",
+  "parse_error": null
+}

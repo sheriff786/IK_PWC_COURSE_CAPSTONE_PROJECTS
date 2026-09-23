@@ -1,0 +1,713 @@
+{
+  "doc_id": "FIN-003",
+  "clauses": [
+    {
+      "clause_id": "FIN-003-p0",
+      "doc_id": "FIN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Primevolta Hardware Solutions to FinSecure Services",
+      "source_location": {
+        "doc_id": "FIN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:0",
+        "excerpt": "Primevolta Hardware Solutions to FinSecure Services"
+      }
+    },
+    {
+      "clause_id": "FIN-003-p1",
+      "doc_id": "FIN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Invoice No: PVHS/INV/2025/001\nInvoice Date: 11-Dec-2025\nDue Date: 25-Dec-2025\nPurchase Order Ref: FS/PO/2025/089\nContract Ref: FS-CON-2025-HW",
+      "source_location": {
+        "doc_id": "FIN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:1",
+        "excerpt": "Invoice No: PVHS/INV/2025/001\nInvoice Date: 11-Dec-2025\nDue Date: 25-Dec-2025\nPurchase Order Ref: FS/PO/2025/089\nContract Ref: FS-CON-2025-HW"
+      }
+    },
+    {
+      "clause_id": "FIN-003-p2",
+      "doc_id": "FIN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Vendor (Seller):\nPrimevolta Hardware Solutions Pvt. Ltd.\n123 Industrial Avenue, Tech Park, Bangalore \u2013 560076\nGSTIN: 29ABCDE1234F1Z5\nPAN: ABCDE1234F\nEmail: billing@primevolta.com | Phone: +91-9876543210\nBank Details: HDFC Bank, A/C No: 1234567890, IFSC: HDFC0001234",
+      "source_location": {
+        "doc_id": "FIN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:2",
+        "excerpt": "Vendor (Seller):\nPrimevolta Hardware Solutions Pvt. Ltd.\n123 Industrial Avenue, Tech Park, Bangalore \u2013 560076\nGSTIN: 29ABCDE1234F1Z5\nPAN: ABCDE1234F\nEmail: billing@primevolta.com | Phone: +91-9876543210\nBank Details: HDFC Bank, A/C No: 1234567890, IFSC: HDFC0001234"
+      }
+    },
+    {
+      "clause_id": "FIN-003-p3",
+      "doc_id": "FIN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Client (Buyer):\nFinSecure Services Pvt. Ltd.\nTower B, Financial District, Mumbai \u2013 400001\nGSTIN: 27PQRST9876G1Z9\nPAN: PQRST9876G\nEmail: accounts@finsecure.com | Phone: +91-022-12345678",
+      "source_location": {
+        "doc_id": "FIN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:3",
+        "excerpt": "Client (Buyer):\nFinSecure Services Pvt. Ltd.\nTower B, Financial District, Mumbai \u2013 400001\nGSTIN: 27PQRST9876G1Z9\nPAN: PQRST9876G\nEmail: accounts@finsecure.com | Phone: +91-022-12345678"
+      }
+    },
+    {
+      "clause_id": "FIN-003-p5",
+      "doc_id": "FIN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "1. Description of Products / Services",
+      "source_location": {
+        "doc_id": "FIN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:5",
+        "excerpt": "1. Description of Products / Services"
+      }
+    },
+    {
+      "clause_id": "FIN-003-p6",
+      "doc_id": "FIN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Subtotal: INR 2,000,000\nGST @18%: INR 360,000\nTotal Invoice Amount: INR 2,360,000",
+      "source_location": {
+        "doc_id": "FIN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:6",
+        "excerpt": "Subtotal: INR 2,000,000\nGST @18%: INR 360,000\nTotal Invoice Amount: INR 2,360,000"
+      }
+    },
+    {
+      "clause_id": "FIN-003-p8",
+      "doc_id": "FIN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "2. Payment Terms",
+      "source_location": {
+        "doc_id": "FIN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:8",
+        "excerpt": "2. Payment Terms"
+      }
+    },
+    {
+      "clause_id": "FIN-003-p9",
+      "doc_id": "FIN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Payment due within 14 calendar days of invoice date.",
+      "source_location": {
+        "doc_id": "FIN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:9",
+        "excerpt": "Payment due within 14 calendar days of invoice date."
+      }
+    },
+    {
+      "clause_id": "FIN-003-p10",
+      "doc_id": "FIN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Late payments attract 1.5% interest per month from the due date.",
+      "source_location": {
+        "doc_id": "FIN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:10",
+        "excerpt": "Late payments attract 1.5% interest per month from the due date."
+      }
+    },
+    {
+      "clause_id": "FIN-003-p11",
+      "doc_id": "FIN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Payments to be made via bank transfer to the account mentioned above.",
+      "source_location": {
+        "doc_id": "FIN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:11",
+        "excerpt": "Payments to be made via bank transfer to the account mentioned above."
+      }
+    },
+    {
+      "clause_id": "FIN-003-p12",
+      "doc_id": "FIN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "All payments to include invoice number as reference.",
+      "source_location": {
+        "doc_id": "FIN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:12",
+        "excerpt": "All payments to include invoice number as reference."
+      }
+    },
+    {
+      "clause_id": "FIN-003-p14",
+      "doc_id": "FIN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3. Delivery & Acceptance Terms",
+      "source_location": {
+        "doc_id": "FIN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:14",
+        "excerpt": "3. Delivery & Acceptance Terms"
+      }
+    },
+    {
+      "clause_id": "FIN-003-p15",
+      "doc_id": "FIN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Goods delivered on-site at FinSecure HQ, Mumbai.",
+      "source_location": {
+        "doc_id": "FIN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:15",
+        "excerpt": "Goods delivered on-site at FinSecure HQ, Mumbai."
+      }
+    },
+    {
+      "clause_id": "FIN-003-p16",
+      "doc_id": "FIN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Delivery completed on 10-Dec-2025, acknowledged by client representative (Mr. Rajiv Mehta).",
+      "source_location": {
+        "doc_id": "FIN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:16",
+        "excerpt": "Delivery completed on 10-Dec-2025, acknowledged by client representative (Mr. Rajiv Mehta)."
+      }
+    },
+    {
+      "clause_id": "FIN-003-p17",
+      "doc_id": "FIN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Acceptance testing completed successfully on 10-Dec-2025 per contract FS-CON-2025-HW.",
+      "source_location": {
+        "doc_id": "FIN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:17",
+        "excerpt": "Acceptance testing completed successfully on 10-Dec-2025 per contract FS-CON-2025-HW."
+      }
+    },
+    {
+      "clause_id": "FIN-003-p18",
+      "doc_id": "FIN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Any defects or discrepancies must be reported within 7 working days of delivery.",
+      "source_location": {
+        "doc_id": "FIN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:18",
+        "excerpt": "Any defects or discrepancies must be reported within 7 working days of delivery."
+      }
+    },
+    {
+      "clause_id": "FIN-003-p20",
+      "doc_id": "FIN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "4. Warranty & Support",
+      "source_location": {
+        "doc_id": "FIN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:20",
+        "excerpt": "4. Warranty & Support"
+      }
+    },
+    {
+      "clause_id": "FIN-003-p21",
+      "doc_id": "FIN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "All hardware carries manufacturer-backed warranty for 3 years from delivery date.",
+      "source_location": {
+        "doc_id": "FIN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:21",
+        "excerpt": "All hardware carries manufacturer-backed warranty for 3 years from delivery date."
+      }
+    },
+    {
+      "clause_id": "FIN-003-p22",
+      "doc_id": "FIN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Primevolta will provide onsite support, preventive maintenance, and replacement of defective parts during warranty period.",
+      "source_location": {
+        "doc_id": "FIN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:22",
+        "excerpt": "Primevolta will provide onsite support, preventive maintenance, and replacement of defective parts during warranty period."
+      }
+    },
+    {
+      "clause_id": "FIN-003-p23",
+      "doc_id": "FIN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Support requests can be logged via support@primevolta.com or phone +91-9876543210.",
+      "source_location": {
+        "doc_id": "FIN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:23",
+        "excerpt": "Support requests can be logged via support@primevolta.com or phone +91-9876543210."
+      }
+    },
+    {
+      "clause_id": "FIN-003-p25",
+      "doc_id": "FIN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "5. References & Compliance",
+      "source_location": {
+        "doc_id": "FIN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:25",
+        "excerpt": "5. References & Compliance"
+      }
+    },
+    {
+      "clause_id": "FIN-003-p26",
+      "doc_id": "FIN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Invoice aligns with Purchase Order FS/PO/2025/089 and Contract FS-CON-2025-HW.",
+      "source_location": {
+        "doc_id": "FIN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:26",
+        "excerpt": "Invoice aligns with Purchase Order FS/PO/2025/089 and Contract FS-CON-2025-HW."
+      }
+    },
+    {
+      "clause_id": "FIN-003-p27",
+      "doc_id": "FIN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "All supplied hardware is compliant with ISO/IEC 27001 security standards.",
+      "source_location": {
+        "doc_id": "FIN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:27",
+        "excerpt": "All supplied hardware is compliant with ISO/IEC 27001 security standards."
+      }
+    },
+    {
+      "clause_id": "FIN-003-p28",
+      "doc_id": "FIN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "GST compliance confirmed as per Indian GST Act 2017.",
+      "source_location": {
+        "doc_id": "FIN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:28",
+        "excerpt": "GST compliance confirmed as per Indian GST Act 2017."
+      }
+    },
+    {
+      "clause_id": "FIN-003-p30",
+      "doc_id": "FIN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "6. Notes",
+      "source_location": {
+        "doc_id": "FIN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:30",
+        "excerpt": "6. Notes"
+      }
+    },
+    {
+      "clause_id": "FIN-003-p31",
+      "doc_id": "FIN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Any disputes or discrepancies to be communicated within 7 working days.",
+      "source_location": {
+        "doc_id": "FIN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:31",
+        "excerpt": "Any disputes or discrepancies to be communicated within 7 working days."
+      }
+    },
+    {
+      "clause_id": "FIN-003-p32",
+      "doc_id": "FIN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "This invoice is aligned with obligations in Section 3.2 of the Master Supply Agreement FS-CON-2025-HW, including delivery schedule, acceptance criteria, and payment obligations.",
+      "source_location": {
+        "doc_id": "FIN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:32",
+        "excerpt": "This invoice is aligned with obligations in Section 3.2 of the Master Supply Agreement FS-CON-2025-HW, including delivery schedule, acceptance criteria, and payment obligations."
+      }
+    },
+    {
+      "clause_id": "FIN-003-p33",
+      "doc_id": "FIN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "All technical documentation and manuals delivered along with hardware.",
+      "source_location": {
+        "doc_id": "FIN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:33",
+        "excerpt": "All technical documentation and manuals delivered along with hardware."
+      }
+    },
+    {
+      "clause_id": "FIN-003-p35",
+      "doc_id": "FIN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Detailed Sample Credit Note 1 \u2013 Primevolta Hardware Solutions to FinSecure Services",
+      "source_location": {
+        "doc_id": "FIN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:35",
+        "excerpt": "Detailed Sample Credit Note 1 \u2013 Primevolta Hardware Solutions to FinSecure Services"
+      }
+    },
+    {
+      "clause_id": "FIN-003-p36",
+      "doc_id": "FIN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Credit Note No: PVHS/CN/2025/001\nCredit Note Date: 11-Dec-2025\nOriginal Invoice Ref: PVHS/INV/2025/001\nPurchase Order Ref: FS/PO/2025/089",
+      "source_location": {
+        "doc_id": "FIN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:36",
+        "excerpt": "Credit Note No: PVHS/CN/2025/001\nCredit Note Date: 11-Dec-2025\nOriginal Invoice Ref: PVHS/INV/2025/001\nPurchase Order Ref: FS/PO/2025/089"
+      }
+    },
+    {
+      "clause_id": "FIN-003-p37",
+      "doc_id": "FIN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Client: FinSecure Services Pvt. Ltd.",
+      "source_location": {
+        "doc_id": "FIN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:37",
+        "excerpt": "Client: FinSecure Services Pvt. Ltd."
+      }
+    },
+    {
+      "clause_id": "FIN-003-p39",
+      "doc_id": "FIN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "1. Reason for Credit",
+      "source_location": {
+        "doc_id": "FIN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:39",
+        "excerpt": "1. Reason for Credit"
+      }
+    },
+    {
+      "clause_id": "FIN-003-p40",
+      "doc_id": "FIN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Return of defective hardware: 1 unit of Encrypted Storage Unit 10TB (PVHS-STR-10TB).",
+      "source_location": {
+        "doc_id": "FIN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:40",
+        "excerpt": "Return of defective hardware: 1 unit of Encrypted Storage Unit 10TB (PVHS-STR-10TB)."
+      }
+    },
+    {
+      "clause_id": "FIN-003-p41",
+      "doc_id": "FIN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Issue reported under support ticket FS-TKT-2025-1023, verified by FinSecure IT team.",
+      "source_location": {
+        "doc_id": "FIN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:41",
+        "excerpt": "Issue reported under support ticket FS-TKT-2025-1023, verified by FinSecure IT team."
+      }
+    },
+    {
+      "clause_id": "FIN-003-p43",
+      "doc_id": "FIN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "2. Credit Details",
+      "source_location": {
+        "doc_id": "FIN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:43",
+        "excerpt": "2. Credit Details"
+      }
+    },
+    {
+      "clause_id": "FIN-003-p44",
+      "doc_id": "FIN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Total Credit Amount: INR 59,000",
+      "source_location": {
+        "doc_id": "FIN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:44",
+        "excerpt": "Total Credit Amount: INR 59,000"
+      }
+    },
+    {
+      "clause_id": "FIN-003-p46",
+      "doc_id": "FIN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3. Adjustment & Notes",
+      "source_location": {
+        "doc_id": "FIN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:46",
+        "excerpt": "3. Adjustment & Notes"
+      }
+    },
+    {
+      "clause_id": "FIN-003-p47",
+      "doc_id": "FIN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Credit to be applied against next invoice or refunded upon client request.",
+      "source_location": {
+        "doc_id": "FIN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:47",
+        "excerpt": "Credit to be applied against next invoice or refunded upon client request."
+      }
+    },
+    {
+      "clause_id": "FIN-003-p48",
+      "doc_id": "FIN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Aligned with obligation tracking and revenue leakage prevention clauses in FS-CON-2025-HW, Section 4.1.",
+      "source_location": {
+        "doc_id": "FIN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:48",
+        "excerpt": "Aligned with obligation tracking and revenue leakage prevention clauses in FS-CON-2025-HW, Section 4.1."
+      }
+    },
+    {
+      "clause_id": "FIN-003-p49",
+      "doc_id": "FIN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "GST reversal to be reflected in next GST filing as per Indian GST compliance.",
+      "source_location": {
+        "doc_id": "FIN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:49",
+        "excerpt": "GST reversal to be reflected in next GST filing as per Indian GST compliance."
+      }
+    },
+    {
+      "clause_id": "FIN-003-p50",
+      "doc_id": "FIN-003",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Original invoice PVHS/INV/2025/001 adjusted accordingly for accounting reconciliation.",
+      "source_location": {
+        "doc_id": "FIN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:50",
+        "excerpt": "Original invoice PVHS/INV/2025/001 adjusted accordingly for accounting reconciliation."
+      }
+    }
+  ],
+  "tables": [
+    {
+      "table_id": "FIN-003-t0",
+      "doc_id": "FIN-003",
+      "doc_version": "1",
+      "table_index": 0,
+      "rows": [
+        [
+          "S.No",
+          "Item Description",
+          "Part No",
+          "Technical Specs",
+          "Quantity",
+          "Unit Price (INR)",
+          "Total (INR)"
+        ],
+        [
+          "1",
+          "High-Performance Secure Servers",
+          "PVHS-SRV-2025",
+          "Intel Xeon Gold 6248R, 256GB RAM, 2TB NVMe SSD, Redundant Power Supply, 3-year onsite warranty",
+          "5",
+          "150,000",
+          "750,000"
+        ],
+        [
+          "2",
+          "Encrypted Storage Units 10TB",
+          "PVHS-STR-10TB",
+          "AES-256 Hardware Encryption, RAID-6, Hot-Swappable Drives, 3-year warranty",
+          "10",
+          "50,000",
+          "500,000"
+        ],
+        [
+          "3",
+          "Enterprise Network Firewalls",
+          "PVHS-NFW-100",
+          "Throughput 10Gbps, Stateful Inspection, Intrusion Detection/Prevention, 3-year subscription support",
+          "3",
+          "200,000",
+          "600,000"
+        ],
+        [
+          "4",
+          "Installation & Configuration Services",
+          "N/A",
+          "On-site setup, integration with FinSecure network, full configuration documentation, testing and validation",
+          "1 Lot",
+          "150,000",
+          "150,000"
+        ]
+      ],
+      "source_location": {
+        "doc_id": "FIN-003",
+        "kind": "table",
+        "locator": "table:0",
+        "excerpt": null
+      }
+    },
+    {
+      "table_id": "FIN-003-t1",
+      "doc_id": "FIN-003",
+      "doc_version": "1",
+      "table_index": 1,
+      "rows": [
+        [
+          "S.No",
+          "Description",
+          "Quantity",
+          "Unit Price (INR)",
+          "GST @18% (INR)",
+          "Total Credit (INR)"
+        ],
+        [
+          "1",
+          "Encrypted Storage Unit 10TB \u2013 Returned",
+          "1",
+          "50,000",
+          "9,000",
+          "59,000"
+        ]
+      ],
+      "source_location": {
+        "doc_id": "FIN-003",
+        "kind": "table",
+        "locator": "table:1",
+        "excerpt": null
+      }
+    }
+  ],
+  "parse_status": "parsed",
+  "parse_error": null
+}

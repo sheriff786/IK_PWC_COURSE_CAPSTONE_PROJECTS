@@ -1,0 +1,1240 @@
+{
+  "doc_id": "NEG-005",
+  "clauses": [
+    {
+      "clause_id": "NEG-005-p0",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "HISTORICAL NEGOTIATION DATA \u2013 SAMPLE 1 (DETAILED)",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:0",
+        "excerpt": "HISTORICAL NEGOTIATION DATA \u2013 SAMPLE 1 (DETAILED)"
+      }
+    },
+    {
+      "clause_id": "NEG-005-p1",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Type: Risk Assessments by Legal/Commercial Teams\nVendor: PrimeVolta Hardware Solutions\nClient: FinSecure Services\nDate: January 2024",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:1",
+        "excerpt": "Type: Risk Assessments by Legal/Commercial Teams\nVendor: PrimeVolta Hardware Solutions\nClient: FinSecure Services\nDate: January 2024"
+      }
+    },
+    {
+      "clause_id": "NEG-005-p3",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "1. Introduction and Context",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:3",
+        "excerpt": "1. Introduction and Context"
+      }
+    },
+    {
+      "clause_id": "NEG-005-p4",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "This document represents a detailed record of the risk assessment undertaken by the legal and commercial teams of both PrimeVolta Hardware Solutions (\u201cPrimeVolta\u201d) and FinSecure Services (\u201cFinSecure\u201d) during preliminary and mid-stage negotiations for a hardware supply agreement. The engagement involves supplying secure financial transaction devices\u2014including biometric authentication modules, point-of-sale terminals, and network-integrated security hardware\u2014to FinSecure\u2019s branches and partner outlets.",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:4",
+        "excerpt": "This document represents a detailed record of the risk assessment undertaken by the legal and commercial teams of both PrimeVolta Hardware Solutions (\u201cPrimeVolta\u201d) and FinSecure Services (\u201cFinSecure\u201d) during preliminary and mid-stage negotiations for a hardware supply agreement. The engagement involves supplying secure financial transaction devices\u2014including biometric authentication modules, point-of-sale terminals, and network-integrated security hardware\u2014to FinSecure\u2019s branches and partner outlets."
+      }
+    },
+    {
+      "clause_id": "NEG-005-p5",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "The negotiation context is particularly sensitive due to the nature of the BFSI industry, where regulatory compliance, data security, and financial liability are paramount. The risk assessment serves multiple purposes: (a) identification of potential legal and operational exposures, (b) formulation of mitigation strategies, (c) alignment with FinSecure\u2019s internal risk and compliance policies, and (d) preparation of detailed recommendations for contractual clauses.",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:5",
+        "excerpt": "The negotiation context is particularly sensitive due to the nature of the BFSI industry, where regulatory compliance, data security, and financial liability are paramount. The risk assessment serves multiple purposes: (a) identification of potential legal and operational exposures, (b) formulation of mitigation strategies, (c) alignment with FinSecure\u2019s internal risk and compliance policies, and (d) preparation of detailed recommendations for contractual clauses."
+      }
+    },
+    {
+      "clause_id": "NEG-005-p6",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "PrimeVolta initially submitted a proposed contract draft that outlined the scope of supply, pricing, warranties, delivery schedules, intellectual property warranties, and compliance commitments. FinSecure\u2019s legal and commercial teams conducted a multi-stage review, highlighting risks in four key areas: legal, regulatory, financial/commercial, and operational. This document consolidates those findings and the recommended mitigation measures.",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:6",
+        "excerpt": "PrimeVolta initially submitted a proposed contract draft that outlined the scope of supply, pricing, warranties, delivery schedules, intellectual property warranties, and compliance commitments. FinSecure\u2019s legal and commercial teams conducted a multi-stage review, highlighting risks in four key areas: legal, regulatory, financial/commercial, and operational. This document consolidates those findings and the recommended mitigation measures."
+      }
+    },
+    {
+      "clause_id": "NEG-005-p8",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "2. Legal Risk Assessment",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:8",
+        "excerpt": "2. Legal Risk Assessment"
+      }
+    },
+    {
+      "clause_id": "NEG-005-p9",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "2.1 Intellectual Property (IP) Risks",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:9",
+        "excerpt": "2.1 Intellectual Property (IP) Risks"
+      }
+    },
+    {
+      "clause_id": "NEG-005-p10",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "PrimeVolta\u2019s devices incorporate proprietary encryption algorithms, biometric recognition modules, and third-party hardware components. The legal team identified several potential risks:",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:10",
+        "excerpt": "PrimeVolta\u2019s devices incorporate proprietary encryption algorithms, biometric recognition modules, and third-party hardware components. The legal team identified several potential risks:"
+      }
+    },
+    {
+      "clause_id": "NEG-005-p11",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Third-party software integration: Devices include modules licensed from third-party vendors. Failure to secure proper sublicenses could expose FinSecure to claims of patent or copyright infringement.",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:11",
+        "excerpt": "Third-party software integration: Devices include modules licensed from third-party vendors. Failure to secure proper sublicenses could expose FinSecure to claims of patent or copyright infringement."
+      }
+    },
+    {
+      "clause_id": "NEG-005-p12",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Proprietary algorithms: While PrimeVolta claims ownership of core algorithms, there remains residual risk that competitors may challenge IP claims, leading to injunctions or product recalls.",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:12",
+        "excerpt": "Proprietary algorithms: While PrimeVolta claims ownership of core algorithms, there remains residual risk that competitors may challenge IP claims, leading to injunctions or product recalls."
+      }
+    },
+    {
+      "clause_id": "NEG-005-p13",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Mitigation: Legal teams recommended a comprehensive IP warranty clause, indemnification for infringement claims, and periodic verification of all software and hardware licenses.",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:13",
+        "excerpt": "Mitigation: Legal teams recommended a comprehensive IP warranty clause, indemnification for infringement claims, and periodic verification of all software and hardware licenses."
+      }
+    },
+    {
+      "clause_id": "NEG-005-p14",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Negotiation Insight: Legal teams emphasized that IP-related indemnities must explicitly cover attorney fees, settlement costs, and potential damages to FinSecure\u2019s clients in the event of litigation.",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:14",
+        "excerpt": "Negotiation Insight: Legal teams emphasized that IP-related indemnities must explicitly cover attorney fees, settlement costs, and potential damages to FinSecure\u2019s clients in the event of litigation."
+      }
+    },
+    {
+      "clause_id": "NEG-005-p16",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "2.2 Liability and Indemnification",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:16",
+        "excerpt": "2.2 Liability and Indemnification"
+      }
+    },
+    {
+      "clause_id": "NEG-005-p17",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Potential liability risks were assessed in the following categories:",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:17",
+        "excerpt": "Potential liability risks were assessed in the following categories:"
+      }
+    },
+    {
+      "clause_id": "NEG-005-p18",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Device malfunction: Malfunctions could lead to transaction failures or financial losses.",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:18",
+        "excerpt": "Device malfunction: Malfunctions could lead to transaction failures or financial losses."
+      }
+    },
+    {
+      "clause_id": "NEG-005-p19",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Data breach or theft: Devices handling sensitive financial data could expose FinSecure to regulatory fines.",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:19",
+        "excerpt": "Data breach or theft: Devices handling sensitive financial data could expose FinSecure to regulatory fines."
+      }
+    },
+    {
+      "clause_id": "NEG-005-p20",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Scope of liability: PrimeVolta initially proposed capping liability at the contract value, which FinSecure\u2019s legal team rejected, requesting unlimited liability for gross negligence, willful misconduct, and IP infringement.",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:20",
+        "excerpt": "Scope of liability: PrimeVolta initially proposed capping liability at the contract value, which FinSecure\u2019s legal team rejected, requesting unlimited liability for gross negligence, willful misconduct, and IP infringement."
+      }
+    },
+    {
+      "clause_id": "NEG-005-p21",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Negotiation Insight: It was agreed that indirect and consequential damages would be capped to prevent excessive financial exposure, while exceptions would ensure accountability for critical failures.",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:21",
+        "excerpt": "Negotiation Insight: It was agreed that indirect and consequential damages would be capped to prevent excessive financial exposure, while exceptions would ensure accountability for critical failures."
+      }
+    },
+    {
+      "clause_id": "NEG-005-p23",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "2.3 Regulatory Compliance Risks",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:23",
+        "excerpt": "2.3 Regulatory Compliance Risks"
+      }
+    },
+    {
+      "clause_id": "NEG-005-p24",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "FinSecure operates under multiple regulatory frameworks including:",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:24",
+        "excerpt": "FinSecure operates under multiple regulatory frameworks including:"
+      }
+    },
+    {
+      "clause_id": "NEG-005-p25",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Reserve Bank of India (RBI) guidelines for payment devices.",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:25",
+        "excerpt": "Reserve Bank of India (RBI) guidelines for payment devices."
+      }
+    },
+    {
+      "clause_id": "NEG-005-p26",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "ISO/IEC 27001 for information security management.",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:26",
+        "excerpt": "ISO/IEC 27001 for information security management."
+      }
+    },
+    {
+      "clause_id": "NEG-005-p27",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "General Data Protection Regulation (GDPR) for handling EU customer data.",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:27",
+        "excerpt": "General Data Protection Regulation (GDPR) for handling EU customer data."
+      }
+    },
+    {
+      "clause_id": "NEG-005-p28",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "The legal team identified risks related to:",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:28",
+        "excerpt": "The legal team identified risks related to:"
+      }
+    },
+    {
+      "clause_id": "NEG-005-p29",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Non-compliant supply chain: Subcontractors may not adhere to cybersecurity or privacy standards.",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:29",
+        "excerpt": "Non-compliant supply chain: Subcontractors may not adhere to cybersecurity or privacy standards."
+      }
+    },
+    {
+      "clause_id": "NEG-005-p30",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Delayed compliance reporting: Inadequate monitoring of regulatory changes could result in late reporting.",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:30",
+        "excerpt": "Delayed compliance reporting: Inadequate monitoring of regulatory changes could result in late reporting."
+      }
+    },
+    {
+      "clause_id": "NEG-005-p31",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Mitigation Measures:",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:31",
+        "excerpt": "Mitigation Measures:"
+      }
+    },
+    {
+      "clause_id": "NEG-005-p32",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Quarterly compliance reports from PrimeVolta.",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:32",
+        "excerpt": "Quarterly compliance reports from PrimeVolta."
+      }
+    },
+    {
+      "clause_id": "NEG-005-p33",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Third-party audits with certificates shared with FinSecure.",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:33",
+        "excerpt": "Third-party audits with certificates shared with FinSecure."
+      }
+    },
+    {
+      "clause_id": "NEG-005-p34",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Inclusion of a \u201cregulatory compliance breach\u201d clause enabling contract termination.",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:34",
+        "excerpt": "Inclusion of a \u201cregulatory compliance breach\u201d clause enabling contract termination."
+      }
+    },
+    {
+      "clause_id": "NEG-005-p36",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "2.4 Contract Termination and Exit Clauses",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:36",
+        "excerpt": "2.4 Contract Termination and Exit Clauses"
+      }
+    },
+    {
+      "clause_id": "NEG-005-p37",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Legal teams identified scenarios requiring clear exit provisions:",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:37",
+        "excerpt": "Legal teams identified scenarios requiring clear exit provisions:"
+      }
+    },
+    {
+      "clause_id": "NEG-005-p38",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Non-performance: Failure to meet SLAs for delivery, maintenance, or device functionality.",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:38",
+        "excerpt": "Non-performance: Failure to meet SLAs for delivery, maintenance, or device functionality."
+      }
+    },
+    {
+      "clause_id": "NEG-005-p39",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Regulatory violations: Breach of mandatory guidelines or discovery of non-compliance.",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:39",
+        "excerpt": "Regulatory violations: Breach of mandatory guidelines or discovery of non-compliance."
+      }
+    },
+    {
+      "clause_id": "NEG-005-p40",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Force majeure events: Natural disasters, supply chain disruptions, or geopolitical events.",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:40",
+        "excerpt": "Force majeure events: Natural disasters, supply chain disruptions, or geopolitical events."
+      }
+    },
+    {
+      "clause_id": "NEG-005-p41",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Negotiation Insight: Clauses were drafted specifying:",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:41",
+        "excerpt": "Negotiation Insight: Clauses were drafted specifying:"
+      }
+    },
+    {
+      "clause_id": "NEG-005-p42",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Stepwise notice periods before termination.",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:42",
+        "excerpt": "Stepwise notice periods before termination."
+      }
+    },
+    {
+      "clause_id": "NEG-005-p43",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Return of devices and data destruction protocols.",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:43",
+        "excerpt": "Return of devices and data destruction protocols."
+      }
+    },
+    {
+      "clause_id": "NEG-005-p44",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Settlement of pending invoices and penalties for early termination.",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:44",
+        "excerpt": "Settlement of pending invoices and penalties for early termination."
+      }
+    },
+    {
+      "clause_id": "NEG-005-p46",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3. Commercial Risk Assessment",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:46",
+        "excerpt": "3. Commercial Risk Assessment"
+      }
+    },
+    {
+      "clause_id": "NEG-005-p47",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3.1 Pricing and Payment Terms",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:47",
+        "excerpt": "3.1 Pricing and Payment Terms"
+      }
+    },
+    {
+      "clause_id": "NEG-005-p48",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "PrimeVolta initially proposed a fixed pricing model; commercial risk assessment identified risks of component price fluctuations, particularly semiconductors.",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:48",
+        "excerpt": "PrimeVolta initially proposed a fixed pricing model; commercial risk assessment identified risks of component price fluctuations, particularly semiconductors."
+      }
+    },
+    {
+      "clause_id": "NEG-005-p49",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Mitigation Recommendations:",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:49",
+        "excerpt": "Mitigation Recommendations:"
+      }
+    },
+    {
+      "clause_id": "NEG-005-p50",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Fixed pricing for 12 months with quarterly review tied to semiconductor market indices.",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:50",
+        "excerpt": "Fixed pricing for 12 months with quarterly review tied to semiconductor market indices."
+      }
+    },
+    {
+      "clause_id": "NEG-005-p51",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Payment structure: 30% advance, 50% on milestone delivery, 20% on final acceptance.",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:51",
+        "excerpt": "Payment structure: 30% advance, 50% on milestone delivery, 20% on final acceptance."
+      }
+    },
+    {
+      "clause_id": "NEG-005-p52",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3.2 Delivery and Supply Chain Risks",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:52",
+        "excerpt": "3.2 Delivery and Supply Chain Risks"
+      }
+    },
+    {
+      "clause_id": "NEG-005-p53",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Potential disruptions include:",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:53",
+        "excerpt": "Potential disruptions include:"
+      }
+    },
+    {
+      "clause_id": "NEG-005-p54",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Single-source suppliers for critical components.",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:54",
+        "excerpt": "Single-source suppliers for critical components."
+      }
+    },
+    {
+      "clause_id": "NEG-005-p55",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Global chip shortages affecting delivery timelines.",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:55",
+        "excerpt": "Global chip shortages affecting delivery timelines."
+      }
+    },
+    {
+      "clause_id": "NEG-005-p56",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Shipping delays or customs clearance issues.",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:56",
+        "excerpt": "Shipping delays or customs clearance issues."
+      }
+    },
+    {
+      "clause_id": "NEG-005-p57",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Mitigation Recommendations:",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:57",
+        "excerpt": "Mitigation Recommendations:"
+      }
+    },
+    {
+      "clause_id": "NEG-005-p58",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "SLAs with defined penalties for late delivery.",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:58",
+        "excerpt": "SLAs with defined penalties for late delivery."
+      }
+    },
+    {
+      "clause_id": "NEG-005-p59",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Dual-sourcing for critical components.",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:59",
+        "excerpt": "Dual-sourcing for critical components."
+      }
+    },
+    {
+      "clause_id": "NEG-005-p60",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Buffer stock for high-demand devices.",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:60",
+        "excerpt": "Buffer stock for high-demand devices."
+      }
+    },
+    {
+      "clause_id": "NEG-005-p61",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3.3 Warranty and Maintenance",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:61",
+        "excerpt": "3.3 Warranty and Maintenance"
+      }
+    },
+    {
+      "clause_id": "NEG-005-p62",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Initial proposals offered 12-month warranty; assessment identified insufficient coverage.",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:62",
+        "excerpt": "Initial proposals offered 12-month warranty; assessment identified insufficient coverage."
+      }
+    },
+    {
+      "clause_id": "NEG-005-p63",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Recommendations:",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:63",
+        "excerpt": "Recommendations:"
+      }
+    },
+    {
+      "clause_id": "NEG-005-p64",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Extend warranty to 24 months.",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:64",
+        "excerpt": "Extend warranty to 24 months."
+      }
+    },
+    {
+      "clause_id": "NEG-005-p65",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "24/7 technical support with defined response times: critical issues within 4 hours, non-critical within 48 hours.",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:65",
+        "excerpt": "24/7 technical support with defined response times: critical issues within 4 hours, non-critical within 48 hours."
+      }
+    },
+    {
+      "clause_id": "NEG-005-p66",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "On-site replacement for defective units within 24 hours.",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:66",
+        "excerpt": "On-site replacement for defective units within 24 hours."
+      }
+    },
+    {
+      "clause_id": "NEG-005-p67",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3.4 Confidentiality and Data Security",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:67",
+        "excerpt": "3.4 Confidentiality and Data Security"
+      }
+    },
+    {
+      "clause_id": "NEG-005-p68",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Handling sensitive financial data entails strict confidentiality requirements. Risks identified:",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:68",
+        "excerpt": "Handling sensitive financial data entails strict confidentiality requirements. Risks identified:"
+      }
+    },
+    {
+      "clause_id": "NEG-005-p69",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Unauthorized access to transaction data.",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:69",
+        "excerpt": "Unauthorized access to transaction data."
+      }
+    },
+    {
+      "clause_id": "NEG-005-p70",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Insider threats from vendor personnel.",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:70",
+        "excerpt": "Insider threats from vendor personnel."
+      }
+    },
+    {
+      "clause_id": "NEG-005-p71",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Data transmission vulnerabilities.",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:71",
+        "excerpt": "Data transmission vulnerabilities."
+      }
+    },
+    {
+      "clause_id": "NEG-005-p72",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Mitigation Measures:",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:72",
+        "excerpt": "Mitigation Measures:"
+      }
+    },
+    {
+      "clause_id": "NEG-005-p73",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "NDAs covering all employees, subcontractors, and consultants.",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:73",
+        "excerpt": "NDAs covering all employees, subcontractors, and consultants."
+      }
+    },
+    {
+      "clause_id": "NEG-005-p74",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "End-to-end encryption for device communication.",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:74",
+        "excerpt": "End-to-end encryption for device communication."
+      }
+    },
+    {
+      "clause_id": "NEG-005-p75",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Secure transport protocols and background checks for all field engineers.",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:75",
+        "excerpt": "Secure transport protocols and background checks for all field engineers."
+      }
+    },
+    {
+      "clause_id": "NEG-005-p77",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "4. Risk Mitigation Recommendations",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:77",
+        "excerpt": "4. Risk Mitigation Recommendations"
+      }
+    },
+    {
+      "clause_id": "NEG-005-p78",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Integrated Legal and Commercial Strategy:",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:78",
+        "excerpt": "Integrated Legal and Commercial Strategy:"
+      }
+    },
+    {
+      "clause_id": "NEG-005-p80",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "5. Observations and Lessons Learned",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:80",
+        "excerpt": "5. Observations and Lessons Learned"
+      }
+    },
+    {
+      "clause_id": "NEG-005-p81",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Early integration of legal and commercial teams accelerated risk identification.",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:81",
+        "excerpt": "Early integration of legal and commercial teams accelerated risk identification."
+      }
+    },
+    {
+      "clause_id": "NEG-005-p82",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Explicit regulatory references minimized later compliance disputes.",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:82",
+        "excerpt": "Explicit regulatory references minimized later compliance disputes."
+      }
+    },
+    {
+      "clause_id": "NEG-005-p83",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "SLAs tied to measurable KPIs reduced negotiation friction.",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:83",
+        "excerpt": "SLAs tied to measurable KPIs reduced negotiation friction."
+      }
+    },
+    {
+      "clause_id": "NEG-005-p84",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Documented assessments serve as reference for future hardware procurement contracts.",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:84",
+        "excerpt": "Documented assessments serve as reference for future hardware procurement contracts."
+      }
+    },
+    {
+      "clause_id": "NEG-005-p86",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "6. Conclusion",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:86",
+        "excerpt": "6. Conclusion"
+      }
+    },
+    {
+      "clause_id": "NEG-005-p87",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "This comprehensive risk assessment facilitated transparent negotiations, ensured regulatory and operational compliance, and reduced exposure to financial and reputational risks. It provides a structured approach to drafting contracts in highly regulated BFSI contexts.",
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:87",
+        "excerpt": "This comprehensive risk assessment facilitated transparent negotiations, ensured regulatory and operational compliance, and reduced exposure to financial and reputational risks. It provides a structured approach to drafting contracts in highly regulated BFSI contexts."
+      }
+    }
+  ],
+  "tables": [
+    {
+      "table_id": "NEG-005-t0",
+      "doc_id": "NEG-005",
+      "doc_version": "1",
+      "table_index": 0,
+      "rows": [
+        [
+          "Risk Category",
+          "Mitigation Measures"
+        ],
+        [
+          "IP & Licensing",
+          "Warranty & indemnification; periodic license audits"
+        ],
+        [
+          "Regulatory Compliance",
+          "Quarterly reports; third-party audits; termination rights for non-compliance"
+        ],
+        [
+          "Liability & Indemnity",
+          "Cap on indirect damages; unlimited liability for gross negligence"
+        ],
+        [
+          "Pricing & Payment",
+          "Fixed pricing with escalation clauses; milestone-linked payments"
+        ],
+        [
+          "Supply Chain",
+          "Dual-sourcing; buffer stock; SLA penalties"
+        ],
+        [
+          "Warranty & Maintenance",
+          "24-month coverage; rapid on-site replacement; 24/7 support"
+        ],
+        [
+          "Data Security",
+          "NDAs; encrypted communication; personnel vetting"
+        ]
+      ],
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "table",
+        "locator": "table:0",
+        "excerpt": null
+      }
+    }
+  ],
+  "parse_status": "parsed",
+  "parse_error": null
+}

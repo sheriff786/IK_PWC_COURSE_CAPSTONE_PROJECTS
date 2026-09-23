@@ -1,0 +1,968 @@
+{
+  "doc_id": "CMP-005",
+  "clauses": [
+    {
+      "clause_id": "CMP-005-p0",
+      "doc_id": "CMP-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Primevolta Hardware Solutions \u2013 Vendor Management Policy",
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:0",
+        "excerpt": "Primevolta Hardware Solutions \u2013 Vendor Management Policy"
+      }
+    },
+    {
+      "clause_id": "CMP-005-p1",
+      "doc_id": "CMP-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Version: 1.0\nEffective Date: X\nReviewed By: Compliance Officer\nApproved By: CEO",
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:1",
+        "excerpt": "Version: 1.0\nEffective Date: X\nReviewed By: Compliance Officer\nApproved By: CEO"
+      }
+    },
+    {
+      "clause_id": "CMP-005-p3",
+      "doc_id": "CMP-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "1. Purpose",
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:3",
+        "excerpt": "1. Purpose"
+      }
+    },
+    {
+      "clause_id": "CMP-005-p4",
+      "doc_id": "CMP-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "The purpose of this Vendor Management Policy is to establish a structured approach for evaluating, onboarding, monitoring, and managing vendors engaged by Primevolta Hardware Solutions. This policy ensures that all third-party relationships support the organization\u2019s strategic objectives, comply with applicable regulations, and maintain high standards of security, quality, and operational integrity. Given our engagement with BFSI clients such as FinSecure Services, strict adherence to this policy is mandatory to safeguard sensitive financial and customer data, ensure regulatory compliance, and mitigate operational, reputational, and legal risks.",
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:4",
+        "excerpt": "The purpose of this Vendor Management Policy is to establish a structured approach for evaluating, onboarding, monitoring, and managing vendors engaged by Primevolta Hardware Solutions. This policy ensures that all third-party relationships support the organization\u2019s strategic objectives, comply with applicable regulations, and maintain high standards of security, quality, and operational integrity. Given our engagement with BFSI clients such as FinSecure Services, strict adherence to this policy is mandatory to safeguard sensitive financial and customer data, ensure regulatory compliance, and mitigate operational, reputational, and legal risks."
+      }
+    },
+    {
+      "clause_id": "CMP-005-p6",
+      "doc_id": "CMP-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "2. Scope",
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:6",
+        "excerpt": "2. Scope"
+      }
+    },
+    {
+      "clause_id": "CMP-005-p7",
+      "doc_id": "CMP-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "This policy applies to all vendors, suppliers, contractors, and service providers (collectively referred to as \u201cvendors\u201d) providing goods or services to Primevolta Hardware Solutions. It covers all phases of vendor interaction, including:",
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:7",
+        "excerpt": "This policy applies to all vendors, suppliers, contractors, and service providers (collectively referred to as \u201cvendors\u201d) providing goods or services to Primevolta Hardware Solutions. It covers all phases of vendor interaction, including:"
+      }
+    },
+    {
+      "clause_id": "CMP-005-p8",
+      "doc_id": "CMP-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Pre-engagement due diligence",
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:8",
+        "excerpt": "Pre-engagement due diligence"
+      }
+    },
+    {
+      "clause_id": "CMP-005-p9",
+      "doc_id": "CMP-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Contract negotiation and approval",
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:9",
+        "excerpt": "Contract negotiation and approval"
+      }
+    },
+    {
+      "clause_id": "CMP-005-p10",
+      "doc_id": "CMP-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Ongoing performance monitoring",
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:10",
+        "excerpt": "Ongoing performance monitoring"
+      }
+    },
+    {
+      "clause_id": "CMP-005-p11",
+      "doc_id": "CMP-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Periodic reassessment and termination",
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:11",
+        "excerpt": "Periodic reassessment and termination"
+      }
+    },
+    {
+      "clause_id": "CMP-005-p12",
+      "doc_id": "CMP-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "This policy applies to both domestic and international vendors, with additional scrutiny for vendors handling sensitive data, financial information, or services critical to BFSI client operations.",
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:12",
+        "excerpt": "This policy applies to both domestic and international vendors, with additional scrutiny for vendors handling sensitive data, financial information, or services critical to BFSI client operations."
+      }
+    },
+    {
+      "clause_id": "CMP-005-p14",
+      "doc_id": "CMP-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3. Definitions",
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:14",
+        "excerpt": "3. Definitions"
+      }
+    },
+    {
+      "clause_id": "CMP-005-p15",
+      "doc_id": "CMP-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Vendor: Any external entity providing goods, services, or solutions to Primevolta Hardware Solutions.",
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:15",
+        "excerpt": "Vendor: Any external entity providing goods, services, or solutions to Primevolta Hardware Solutions."
+      }
+    },
+    {
+      "clause_id": "CMP-005-p16",
+      "doc_id": "CMP-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Critical Vendor: A vendor whose services or products directly impact business continuity, regulatory compliance, or information security.",
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:16",
+        "excerpt": "Critical Vendor: A vendor whose services or products directly impact business continuity, regulatory compliance, or information security."
+      }
+    },
+    {
+      "clause_id": "CMP-005-p17",
+      "doc_id": "CMP-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Due Diligence: The process of evaluating the vendor\u2019s financial stability, reputation, legal compliance, information security posture, and operational capabilities.",
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:17",
+        "excerpt": "Due Diligence: The process of evaluating the vendor\u2019s financial stability, reputation, legal compliance, information security posture, and operational capabilities."
+      }
+    },
+    {
+      "clause_id": "CMP-005-p18",
+      "doc_id": "CMP-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Vendor Risk Assessment: The evaluation of risks posed by engaging a vendor, including financial, operational, reputational, and information security risks.",
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:18",
+        "excerpt": "Vendor Risk Assessment: The evaluation of risks posed by engaging a vendor, including financial, operational, reputational, and information security risks."
+      }
+    },
+    {
+      "clause_id": "CMP-005-p20",
+      "doc_id": "CMP-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "4. Vendor Classification",
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:20",
+        "excerpt": "4. Vendor Classification"
+      }
+    },
+    {
+      "clause_id": "CMP-005-p21",
+      "doc_id": "CMP-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Vendors shall be classified based on the criticality of their products or services and the potential risk they pose to the organization:",
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:21",
+        "excerpt": "Vendors shall be classified based on the criticality of their products or services and the potential risk they pose to the organization:"
+      }
+    },
+    {
+      "clause_id": "CMP-005-p22",
+      "doc_id": "CMP-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "High-Risk/Critical Vendors: Vendors handling sensitive data, financial transactions, or services essential to client operations.",
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:22",
+        "excerpt": "High-Risk/Critical Vendors: Vendors handling sensitive data, financial transactions, or services essential to client operations."
+      }
+    },
+    {
+      "clause_id": "CMP-005-p23",
+      "doc_id": "CMP-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Medium-Risk Vendors: Vendors supporting operations indirectly affecting critical processes.",
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:23",
+        "excerpt": "Medium-Risk Vendors: Vendors supporting operations indirectly affecting critical processes."
+      }
+    },
+    {
+      "clause_id": "CMP-005-p24",
+      "doc_id": "CMP-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Low-Risk Vendors: Vendors providing non-critical goods or services, with minimal impact on business continuity or compliance.",
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:24",
+        "excerpt": "Low-Risk Vendors: Vendors providing non-critical goods or services, with minimal impact on business continuity or compliance."
+      }
+    },
+    {
+      "clause_id": "CMP-005-p25",
+      "doc_id": "CMP-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "The classification will determine the level of due diligence, monitoring, and approval required.",
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:25",
+        "excerpt": "The classification will determine the level of due diligence, monitoring, and approval required."
+      }
+    },
+    {
+      "clause_id": "CMP-005-p27",
+      "doc_id": "CMP-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "5. Vendor Selection and Onboarding",
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:27",
+        "excerpt": "5. Vendor Selection and Onboarding"
+      }
+    },
+    {
+      "clause_id": "CMP-005-p28",
+      "doc_id": "CMP-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Pre-Qualification: Before engaging any vendor, the following steps must be completed:",
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:28",
+        "excerpt": "Pre-Qualification: Before engaging any vendor, the following steps must be completed:"
+      }
+    },
+    {
+      "clause_id": "CMP-005-p29",
+      "doc_id": "CMP-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Request for Information (RFI) or Proposal (RFP) process for comparative evaluation",
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:29",
+        "excerpt": "Request for Information (RFI) or Proposal (RFP) process for comparative evaluation"
+      }
+    },
+    {
+      "clause_id": "CMP-005-p30",
+      "doc_id": "CMP-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Assessment of vendor financial stability, references, certifications, and legal compliance",
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:30",
+        "excerpt": "Assessment of vendor financial stability, references, certifications, and legal compliance"
+      }
+    },
+    {
+      "clause_id": "CMP-005-p31",
+      "doc_id": "CMP-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Review of information security posture and data handling practices",
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:31",
+        "excerpt": "Review of information security posture and data handling practices"
+      }
+    },
+    {
+      "clause_id": "CMP-005-p32",
+      "doc_id": "CMP-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Risk Assessment: All vendors must undergo a risk assessment covering:",
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:32",
+        "excerpt": "Risk Assessment: All vendors must undergo a risk assessment covering:"
+      }
+    },
+    {
+      "clause_id": "CMP-005-p33",
+      "doc_id": "CMP-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Operational risk (delivery, reliability, scalability)",
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:33",
+        "excerpt": "Operational risk (delivery, reliability, scalability)"
+      }
+    },
+    {
+      "clause_id": "CMP-005-p34",
+      "doc_id": "CMP-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Legal and regulatory compliance risk",
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:34",
+        "excerpt": "Legal and regulatory compliance risk"
+      }
+    },
+    {
+      "clause_id": "CMP-005-p35",
+      "doc_id": "CMP-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Information security risk (including ISO 27001, SOC2, PCI DSS if applicable)",
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:35",
+        "excerpt": "Information security risk (including ISO 27001, SOC2, PCI DSS if applicable)"
+      }
+    },
+    {
+      "clause_id": "CMP-005-p36",
+      "doc_id": "CMP-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Reputational risk",
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:36",
+        "excerpt": "Reputational risk"
+      }
+    },
+    {
+      "clause_id": "CMP-005-p37",
+      "doc_id": "CMP-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Approval Process:",
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:37",
+        "excerpt": "Approval Process:"
+      }
+    },
+    {
+      "clause_id": "CMP-005-p38",
+      "doc_id": "CMP-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "High-risk vendors require approval from the Compliance Officer and CEO.",
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:38",
+        "excerpt": "High-risk vendors require approval from the Compliance Officer and CEO."
+      }
+    },
+    {
+      "clause_id": "CMP-005-p39",
+      "doc_id": "CMP-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Medium-risk vendors require approval from the Procurement Manager and Compliance Officer.",
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:39",
+        "excerpt": "Medium-risk vendors require approval from the Procurement Manager and Compliance Officer."
+      }
+    },
+    {
+      "clause_id": "CMP-005-p40",
+      "doc_id": "CMP-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Low-risk vendors can be approved by the Procurement Manager.",
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:40",
+        "excerpt": "Low-risk vendors can be approved by the Procurement Manager."
+      }
+    },
+    {
+      "clause_id": "CMP-005-p41",
+      "doc_id": "CMP-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Contractual Requirements: All vendor contracts must include:",
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:41",
+        "excerpt": "Contractual Requirements: All vendor contracts must include:"
+      }
+    },
+    {
+      "clause_id": "CMP-005-p42",
+      "doc_id": "CMP-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Clear scope of services, deliverables, and timelines",
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:42",
+        "excerpt": "Clear scope of services, deliverables, and timelines"
+      }
+    },
+    {
+      "clause_id": "CMP-005-p43",
+      "doc_id": "CMP-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Compliance obligations (e.g., regulatory, security, and privacy standards)",
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:43",
+        "excerpt": "Compliance obligations (e.g., regulatory, security, and privacy standards)"
+      }
+    },
+    {
+      "clause_id": "CMP-005-p44",
+      "doc_id": "CMP-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Service Level Agreements (SLAs) and Key Performance Indicators (KPIs)",
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:44",
+        "excerpt": "Service Level Agreements (SLAs) and Key Performance Indicators (KPIs)"
+      }
+    },
+    {
+      "clause_id": "CMP-005-p45",
+      "doc_id": "CMP-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Termination clauses and exit management provisions",
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:45",
+        "excerpt": "Termination clauses and exit management provisions"
+      }
+    },
+    {
+      "clause_id": "CMP-005-p47",
+      "doc_id": "CMP-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "6. Ongoing Vendor Monitoring",
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:47",
+        "excerpt": "6. Ongoing Vendor Monitoring"
+      }
+    },
+    {
+      "clause_id": "CMP-005-p48",
+      "doc_id": "CMP-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "To ensure continued compliance and performance, Primevolta Hardware Solutions will conduct periodic vendor reviews:",
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:48",
+        "excerpt": "To ensure continued compliance and performance, Primevolta Hardware Solutions will conduct periodic vendor reviews:"
+      }
+    },
+    {
+      "clause_id": "CMP-005-p49",
+      "doc_id": "CMP-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Performance Monitoring: Regular review of KPIs, SLA adherence, delivery timelines, and quality standards.",
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:49",
+        "excerpt": "Performance Monitoring: Regular review of KPIs, SLA adherence, delivery timelines, and quality standards."
+      }
+    },
+    {
+      "clause_id": "CMP-005-p50",
+      "doc_id": "CMP-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Compliance Audits: Verification of adherence to contractual obligations, information security standards, and regulatory requirements.",
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:50",
+        "excerpt": "Compliance Audits: Verification of adherence to contractual obligations, information security standards, and regulatory requirements."
+      }
+    },
+    {
+      "clause_id": "CMP-005-p51",
+      "doc_id": "CMP-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Risk Reassessment: Annual re-evaluation of vendor risk profile, with adjustments to monitoring based on changes in vendor operations or risk exposure.",
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:51",
+        "excerpt": "Risk Reassessment: Annual re-evaluation of vendor risk profile, with adjustments to monitoring based on changes in vendor operations or risk exposure."
+      }
+    },
+    {
+      "clause_id": "CMP-005-p52",
+      "doc_id": "CMP-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Incident Reporting: Vendors must report any security incidents, data breaches, or operational disruptions immediately to the Compliance Officer.",
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:52",
+        "excerpt": "Incident Reporting: Vendors must report any security incidents, data breaches, or operational disruptions immediately to the Compliance Officer."
+      }
+    },
+    {
+      "clause_id": "CMP-005-p54",
+      "doc_id": "CMP-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "7. Vendor Termination and Exit Management",
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:54",
+        "excerpt": "7. Vendor Termination and Exit Management"
+      }
+    },
+    {
+      "clause_id": "CMP-005-p55",
+      "doc_id": "CMP-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Termination Conditions: A vendor may be terminated due to non-compliance, performance failure, regulatory breach, or strategic realignment.",
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:55",
+        "excerpt": "Termination Conditions: A vendor may be terminated due to non-compliance, performance failure, regulatory breach, or strategic realignment."
+      }
+    },
+    {
+      "clause_id": "CMP-005-p56",
+      "doc_id": "CMP-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Exit Strategy: All vendor disengagements must include:",
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:56",
+        "excerpt": "Exit Strategy: All vendor disengagements must include:"
+      }
+    },
+    {
+      "clause_id": "CMP-005-p57",
+      "doc_id": "CMP-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Retrieval or secure destruction of company and client data",
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:57",
+        "excerpt": "Retrieval or secure destruction of company and client data"
+      }
+    },
+    {
+      "clause_id": "CMP-005-p58",
+      "doc_id": "CMP-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Transfer of assets, documentation, or intellectual property",
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:58",
+        "excerpt": "Transfer of assets, documentation, or intellectual property"
+      }
+    },
+    {
+      "clause_id": "CMP-005-p59",
+      "doc_id": "CMP-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Final performance and compliance review",
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:59",
+        "excerpt": "Final performance and compliance review"
+      }
+    },
+    {
+      "clause_id": "CMP-005-p60",
+      "doc_id": "CMP-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Documentation: All termination processes and exit actions must be documented and approved by the Compliance Officer.",
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:60",
+        "excerpt": "Documentation: All termination processes and exit actions must be documented and approved by the Compliance Officer."
+      }
+    },
+    {
+      "clause_id": "CMP-005-p62",
+      "doc_id": "CMP-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "8. Roles and Responsibilities",
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:62",
+        "excerpt": "8. Roles and Responsibilities"
+      }
+    },
+    {
+      "clause_id": "CMP-005-p63",
+      "doc_id": "CMP-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Compliance Officer: Oversees vendor risk assessments, approval, and ongoing monitoring.",
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:63",
+        "excerpt": "Compliance Officer: Oversees vendor risk assessments, approval, and ongoing monitoring."
+      }
+    },
+    {
+      "clause_id": "CMP-005-p64",
+      "doc_id": "CMP-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Procurement Manager: Manages vendor selection, onboarding, and performance evaluation.",
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:64",
+        "excerpt": "Procurement Manager: Manages vendor selection, onboarding, and performance evaluation."
+      }
+    },
+    {
+      "clause_id": "CMP-005-p65",
+      "doc_id": "CMP-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Department Heads: Ensure operational requirements are met and report vendor issues.",
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:65",
+        "excerpt": "Department Heads: Ensure operational requirements are met and report vendor issues."
+      }
+    },
+    {
+      "clause_id": "CMP-005-p66",
+      "doc_id": "CMP-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Vendors: Must comply with all contractual obligations, security requirements, and regulatory standards.",
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:66",
+        "excerpt": "Vendors: Must comply with all contractual obligations, security requirements, and regulatory standards."
+      }
+    },
+    {
+      "clause_id": "CMP-005-p68",
+      "doc_id": "CMP-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "9. Reporting and Documentation",
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:68",
+        "excerpt": "9. Reporting and Documentation"
+      }
+    },
+    {
+      "clause_id": "CMP-005-p69",
+      "doc_id": "CMP-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "All vendor-related documentation, including risk assessments, contracts, performance reviews, audit reports, and termination records, must be securely maintained for a minimum of seven years or as per applicable regulatory requirements.",
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:69",
+        "excerpt": "All vendor-related documentation, including risk assessments, contracts, performance reviews, audit reports, and termination records, must be securely maintained for a minimum of seven years or as per applicable regulatory requirements."
+      }
+    },
+    {
+      "clause_id": "CMP-005-p70",
+      "doc_id": "CMP-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Regular reports on vendor status, risk exposure, and compliance metrics must be presented to the senior management team quarterly.",
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:70",
+        "excerpt": "Regular reports on vendor status, risk exposure, and compliance metrics must be presented to the senior management team quarterly."
+      }
+    },
+    {
+      "clause_id": "CMP-005-p72",
+      "doc_id": "CMP-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "10. Policy Review and Updates",
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:72",
+        "excerpt": "10. Policy Review and Updates"
+      }
+    },
+    {
+      "clause_id": "CMP-005-p73",
+      "doc_id": "CMP-005",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "This policy will be reviewed annually or upon significant regulatory, operational, or strategic changes. Updates must be approved by the CEO and Compliance Officer and communicated to all relevant stakeholders.",
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:73",
+        "excerpt": "This policy will be reviewed annually or upon significant regulatory, operational, or strategic changes. Updates must be approved by the CEO and Compliance Officer and communicated to all relevant stakeholders."
+      }
+    }
+  ],
+  "tables": [],
+  "parse_status": "parsed",
+  "parse_error": null
+}

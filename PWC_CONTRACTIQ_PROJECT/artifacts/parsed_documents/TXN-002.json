@@ -1,0 +1,1330 @@
+{
+  "doc_id": "TXN-002",
+  "clauses": [
+    {
+      "clause_id": "TXN-002-p0",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "CONTRACT RENEWAL (MULTI-YEAR SUPPLY FRAMEWORK)",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:0",
+        "excerpt": "CONTRACT RENEWAL (MULTI-YEAR SUPPLY FRAMEWORK)"
+      }
+    },
+    {
+      "clause_id": "TXN-002-p1",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Renewal No.: PVHS-FSS/2025/MYS-002\nBetween PrimeVolta Hardware Solutions (\u201cVendor\u201d) and FinSecure Services (\u201cClient\u201d)",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:1",
+        "excerpt": "Renewal No.: PVHS-FSS/2025/MYS-002\nBetween PrimeVolta Hardware Solutions (\u201cVendor\u201d) and FinSecure Services (\u201cClient\u201d)"
+      }
+    },
+    {
+      "clause_id": "TXN-002-p2",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Effective Date: 1 July 2025\nExpiration Date: 30 June 2027\nLocation: Nationwide (India)",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:2",
+        "excerpt": "Effective Date: 1 July 2025\nExpiration Date: 30 June 2027\nLocation: Nationwide (India)"
+      }
+    },
+    {
+      "clause_id": "TXN-002-p4",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "1. Background",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:4",
+        "excerpt": "1. Background"
+      }
+    },
+    {
+      "clause_id": "TXN-002-p5",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "1.1 This Renewal Agreement (\u201cRenewal\u201d) extends and renews the Multi-Year Supply Framework Agreement (\u201cOriginal Agreement\u201d) executed on 1 July 2021 and last renewed on 1 July 2023, between PrimeVolta Hardware Solutions, incorporated under the Companies Act, 2013 (\u201cVendor\u201d), and FinSecure Services, a BFSI services provider (\u201cClient\u201d).",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:5",
+        "excerpt": "1.1 This Renewal Agreement (\u201cRenewal\u201d) extends and renews the Multi-Year Supply Framework Agreement (\u201cOriginal Agreement\u201d) executed on 1 July 2021 and last renewed on 1 July 2023, between PrimeVolta Hardware Solutions, incorporated under the Companies Act, 2013 (\u201cVendor\u201d), and FinSecure Services, a BFSI services provider (\u201cClient\u201d)."
+      }
+    },
+    {
+      "clause_id": "TXN-002-p6",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "1.2 The Original Agreement governs the supply of Embedded Processor Boards, Secure Communication Modules, and Cryptographic Controllers. This Renewal ensures continued supply, updated specifications, pricing, quality standards, and risk management measures for an additional two-year period.",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:6",
+        "excerpt": "1.2 The Original Agreement governs the supply of Embedded Processor Boards, Secure Communication Modules, and Cryptographic Controllers. This Renewal ensures continued supply, updated specifications, pricing, quality standards, and risk management measures for an additional two-year period."
+      }
+    },
+    {
+      "clause_id": "TXN-002-p7",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "1.3 This Renewal is supplemental to, and governed by, the Original Agreement and the Master Services Agreement (\u201cMSA\u201d), except as expressly modified herein.",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:7",
+        "excerpt": "1.3 This Renewal is supplemental to, and governed by, the Original Agreement and the Master Services Agreement (\u201cMSA\u201d), except as expressly modified herein."
+      }
+    },
+    {
+      "clause_id": "TXN-002-p9",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "2. Scope of Renewal",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:9",
+        "excerpt": "2. Scope of Renewal"
+      }
+    },
+    {
+      "clause_id": "TXN-002-p10",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "2.1 Vendor shall continue to manufacture and supply the following hardware units annually:",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:10",
+        "excerpt": "2.1 Vendor shall continue to manufacture and supply the following hardware units annually:"
+      }
+    },
+    {
+      "clause_id": "TXN-002-p11",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "2.2 The forecast quantities may vary \u00b120% depending on Client\u2019s operational demand. Vendor must maintain production flexibility and safety stock of 2% of annual forecast to address urgent requirements.",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:11",
+        "excerpt": "2.2 The forecast quantities may vary \u00b120% depending on Client\u2019s operational demand. Vendor must maintain production flexibility and safety stock of 2% of annual forecast to address urgent requirements."
+      }
+    },
+    {
+      "clause_id": "TXN-002-p12",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "2.3 Vendor shall ensure that all units comply with applicable standards:",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:12",
+        "excerpt": "2.3 Vendor shall ensure that all units comply with applicable standards:"
+      }
+    },
+    {
+      "clause_id": "TXN-002-p13",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "ISO 9001:2015 (Quality Management)",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:13",
+        "excerpt": "ISO 9001:2015 (Quality Management)"
+      }
+    },
+    {
+      "clause_id": "TXN-002-p14",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "ISO 14001:2015 (Environmental Management)",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:14",
+        "excerpt": "ISO 14001:2015 (Environmental Management)"
+      }
+    },
+    {
+      "clause_id": "TXN-002-p15",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "ISO 27001:2022 (Information Security)",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:15",
+        "excerpt": "ISO 27001:2022 (Information Security)"
+      }
+    },
+    {
+      "clause_id": "TXN-002-p16",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "RoHS-III and WEEE directives",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:16",
+        "excerpt": "RoHS-III and WEEE directives"
+      }
+    },
+    {
+      "clause_id": "TXN-002-p17",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "EMC/EMI compliance per IEC 61000 series",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:17",
+        "excerpt": "EMC/EMI compliance per IEC 61000 series"
+      }
+    },
+    {
+      "clause_id": "TXN-002-p18",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "2.4 Vendor shall maintain detailed batch-level documentation, including unit serial numbers, testing reports, and production logs for all delivered units.",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:18",
+        "excerpt": "2.4 Vendor shall maintain detailed batch-level documentation, including unit serial numbers, testing reports, and production logs for all delivered units."
+      }
+    },
+    {
+      "clause_id": "TXN-002-p20",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3. Delivery & Logistics",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:20",
+        "excerpt": "3. Delivery & Logistics"
+      }
+    },
+    {
+      "clause_id": "TXN-002-p21",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3.1 Monthly batch deliveries are preferred. Vendor shall provide a Delivery Schedule within 15 days of the beginning of each quarter.",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:21",
+        "excerpt": "3.1 Monthly batch deliveries are preferred. Vendor shall provide a Delivery Schedule within 15 days of the beginning of each quarter."
+      }
+    },
+    {
+      "clause_id": "TXN-002-p22",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3.2 Lead times:",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:22",
+        "excerpt": "3.2 Lead times:"
+      }
+    },
+    {
+      "clause_id": "TXN-002-p23",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Standard Units: 21 days from order confirmation",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:23",
+        "excerpt": "Standard Units: 21 days from order confirmation"
+      }
+    },
+    {
+      "clause_id": "TXN-002-p24",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Custom Configurations: 30\u201345 days",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:24",
+        "excerpt": "Custom Configurations: 30\u201345 days"
+      }
+    },
+    {
+      "clause_id": "TXN-002-p25",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3.3 Packaging and transportation:",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:25",
+        "excerpt": "3.3 Packaging and transportation:"
+      }
+    },
+    {
+      "clause_id": "TXN-002-p26",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Anti-static and tamper-evident packaging",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:26",
+        "excerpt": "Anti-static and tamper-evident packaging"
+      }
+    },
+    {
+      "clause_id": "TXN-002-p27",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Shipment tracking and proof of delivery",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:27",
+        "excerpt": "Shipment tracking and proof of delivery"
+      }
+    },
+    {
+      "clause_id": "TXN-002-p28",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Compliance with Client\u2019s warehouse receiving protocols",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:28",
+        "excerpt": "Compliance with Client\u2019s warehouse receiving protocols"
+      }
+    },
+    {
+      "clause_id": "TXN-002-p29",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3.4 Vendor shall notify Client immediately in case of anticipated delays and propose mitigation plans.",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:29",
+        "excerpt": "3.4 Vendor shall notify Client immediately in case of anticipated delays and propose mitigation plans."
+      }
+    },
+    {
+      "clause_id": "TXN-002-p31",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "4. Pricing & Commercial Terms",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:31",
+        "excerpt": "4. Pricing & Commercial Terms"
+      }
+    },
+    {
+      "clause_id": "TXN-002-p32",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "4.1 Unit Pricing",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:32",
+        "excerpt": "4.1 Unit Pricing"
+      }
+    },
+    {
+      "clause_id": "TXN-002-p33",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "4.2 Payment Terms",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:33",
+        "excerpt": "4.2 Payment Terms"
+      }
+    },
+    {
+      "clause_id": "TXN-002-p34",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "30% advance per batch",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:34",
+        "excerpt": "30% advance per batch"
+      }
+    },
+    {
+      "clause_id": "TXN-002-p35",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "60% upon delivery to Client\u2019s facility",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:35",
+        "excerpt": "60% upon delivery to Client\u2019s facility"
+      }
+    },
+    {
+      "clause_id": "TXN-002-p36",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "10% after QC acceptance",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:36",
+        "excerpt": "10% after QC acceptance"
+      }
+    },
+    {
+      "clause_id": "TXN-002-p37",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "All prices exclude applicable GST and other taxes.",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:37",
+        "excerpt": "All prices exclude applicable GST and other taxes."
+      }
+    },
+    {
+      "clause_id": "TXN-002-p38",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "4.3 Adjustments",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:38",
+        "excerpt": "4.3 Adjustments"
+      }
+    },
+    {
+      "clause_id": "TXN-002-p39",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Any material change in raw material cost beyond 8% requires mutual written agreement for price adjustment.",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:39",
+        "excerpt": "Any material change in raw material cost beyond 8% requires mutual written agreement for price adjustment."
+      }
+    },
+    {
+      "clause_id": "TXN-002-p41",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "5. Quality Assurance & Acceptance",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:41",
+        "excerpt": "5. Quality Assurance & Acceptance"
+      }
+    },
+    {
+      "clause_id": "TXN-002-p42",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "5.1 Vendor shall perform comprehensive quality testing:",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:42",
+        "excerpt": "5.1 Vendor shall perform comprehensive quality testing:"
+      }
+    },
+    {
+      "clause_id": "TXN-002-p43",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Functional tests for 100% of units",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:43",
+        "excerpt": "Functional tests for 100% of units"
+      }
+    },
+    {
+      "clause_id": "TXN-002-p44",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Burn-in testing for 8 hours per batch",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:44",
+        "excerpt": "Burn-in testing for 8 hours per batch"
+      }
+    },
+    {
+      "clause_id": "TXN-002-p45",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Random destructive testing: 1% of units per batch",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:45",
+        "excerpt": "Random destructive testing: 1% of units per batch"
+      }
+    },
+    {
+      "clause_id": "TXN-002-p46",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Firmware verification & secure key generation",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:46",
+        "excerpt": "Firmware verification & secure key generation"
+      }
+    },
+    {
+      "clause_id": "TXN-002-p47",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "5.2 Vendor shall provide Batch Quality Reports for Client review.",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:47",
+        "excerpt": "5.2 Vendor shall provide Batch Quality Reports for Client review."
+      }
+    },
+    {
+      "clause_id": "TXN-002-p48",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "5.3 Acceptance shall be based on:",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:48",
+        "excerpt": "5.3 Acceptance shall be based on:"
+      }
+    },
+    {
+      "clause_id": "TXN-002-p49",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Compliance with technical specifications",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:49",
+        "excerpt": "Compliance with technical specifications"
+      }
+    },
+    {
+      "clause_id": "TXN-002-p50",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "\u22640.8% failure rate per batch",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:50",
+        "excerpt": "\u22640.8% failure rate per batch"
+      }
+    },
+    {
+      "clause_id": "TXN-002-p51",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Documentation completeness",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:51",
+        "excerpt": "Documentation completeness"
+      }
+    },
+    {
+      "clause_id": "TXN-002-p52",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "5.4 Rejected units shall be replaced at Vendor\u2019s cost within 7 business days.",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:52",
+        "excerpt": "5.4 Rejected units shall be replaced at Vendor\u2019s cost within 7 business days."
+      }
+    },
+    {
+      "clause_id": "TXN-002-p54",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "6. Change Management",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:54",
+        "excerpt": "6. Change Management"
+      }
+    },
+    {
+      "clause_id": "TXN-002-p55",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "6.1 Any modifications in specifications, quantities, or delivery timelines shall be formalized via a Change Request (CR) approved by both Parties.",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:55",
+        "excerpt": "6.1 Any modifications in specifications, quantities, or delivery timelines shall be formalized via a Change Request (CR) approved by both Parties."
+      }
+    },
+    {
+      "clause_id": "TXN-002-p56",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "6.2 CRs may affect pricing, delivery schedules, or SLA commitments.",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:56",
+        "excerpt": "6.2 CRs may affect pricing, delivery schedules, or SLA commitments."
+      }
+    },
+    {
+      "clause_id": "TXN-002-p58",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "7. Maintenance & Post-Supply Support",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:58",
+        "excerpt": "7. Maintenance & Post-Supply Support"
+      }
+    },
+    {
+      "clause_id": "TXN-002-p59",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "7.1 Vendor shall provide firmware updates, security patches, and technical support for delivered units as per the Original Agreement.",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:59",
+        "excerpt": "7.1 Vendor shall provide firmware updates, security patches, and technical support for delivered units as per the Original Agreement."
+      }
+    },
+    {
+      "clause_id": "TXN-002-p60",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "7.2 Warranty Coverage:",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:60",
+        "excerpt": "7.2 Warranty Coverage:"
+      }
+    },
+    {
+      "clause_id": "TXN-002-p61",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "18 months from delivery date",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:61",
+        "excerpt": "18 months from delivery date"
+      }
+    },
+    {
+      "clause_id": "TXN-002-p62",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Replacement of defective units under warranty",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:62",
+        "excerpt": "Replacement of defective units under warranty"
+      }
+    },
+    {
+      "clause_id": "TXN-002-p63",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Support for cryptographic key management",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:63",
+        "excerpt": "Support for cryptographic key management"
+      }
+    },
+    {
+      "clause_id": "TXN-002-p64",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "7.3 Extended Warranty & AMC options may be requested via separate agreements.",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:64",
+        "excerpt": "7.3 Extended Warranty & AMC options may be requested via separate agreements."
+      }
+    },
+    {
+      "clause_id": "TXN-002-p66",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "8. Risk Management & Compliance",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:66",
+        "excerpt": "8. Risk Management & Compliance"
+      }
+    },
+    {
+      "clause_id": "TXN-002-p67",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "8.1 Vendor shall comply with all regulatory and security requirements applicable to BFSI hardware.",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:67",
+        "excerpt": "8.1 Vendor shall comply with all regulatory and security requirements applicable to BFSI hardware."
+      }
+    },
+    {
+      "clause_id": "TXN-002-p68",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "8.2 Vendor shall implement:",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:68",
+        "excerpt": "8.2 Vendor shall implement:"
+      }
+    },
+    {
+      "clause_id": "TXN-002-p69",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Tamper-proof shipping and storage",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:69",
+        "excerpt": "Tamper-proof shipping and storage"
+      }
+    },
+    {
+      "clause_id": "TXN-002-p70",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Secure production facility access controls",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:70",
+        "excerpt": "Secure production facility access controls"
+      }
+    },
+    {
+      "clause_id": "TXN-002-p71",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Data protection measures for embedded cryptographic keys",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:71",
+        "excerpt": "Data protection measures for embedded cryptographic keys"
+      }
+    },
+    {
+      "clause_id": "TXN-002-p72",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "8.3 Vendor shall maintain insurance coverage for product liability, transit, and third-party damages.",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:72",
+        "excerpt": "8.3 Vendor shall maintain insurance coverage for product liability, transit, and third-party damages."
+      }
+    },
+    {
+      "clause_id": "TXN-002-p73",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "8.4 Both Parties shall perform quarterly risk review meetings to discuss production, delivery, and operational risks.",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:73",
+        "excerpt": "8.4 Both Parties shall perform quarterly risk review meetings to discuss production, delivery, and operational risks."
+      }
+    },
+    {
+      "clause_id": "TXN-002-p75",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "9. Intellectual Property & Confidentiality",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:75",
+        "excerpt": "9. Intellectual Property & Confidentiality"
+      }
+    },
+    {
+      "clause_id": "TXN-002-p76",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "9.1 Vendor retains IP rights over hardware designs, schematics, firmware, and software tools.",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:76",
+        "excerpt": "9.1 Vendor retains IP rights over hardware designs, schematics, firmware, and software tools."
+      }
+    },
+    {
+      "clause_id": "TXN-002-p77",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "9.2 Client receives non-exclusive, non-transferable usage rights for purchased units.",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:77",
+        "excerpt": "9.2 Client receives non-exclusive, non-transferable usage rights for purchased units."
+      }
+    },
+    {
+      "clause_id": "TXN-002-p78",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "9.3 All confidential information, including designs, specifications, and batch reports, shall remain confidential per MSA terms.",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:78",
+        "excerpt": "9.3 All confidential information, including designs, specifications, and batch reports, shall remain confidential per MSA terms."
+      }
+    },
+    {
+      "clause_id": "TXN-002-p80",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "10. Performance & Service Level Agreements (SLA)",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:80",
+        "excerpt": "10. Performance & Service Level Agreements (SLA)"
+      }
+    },
+    {
+      "clause_id": "TXN-002-p81",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Vendor shall submit quarterly SLA reports to Client.",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:81",
+        "excerpt": "Vendor shall submit quarterly SLA reports to Client."
+      }
+    },
+    {
+      "clause_id": "TXN-002-p83",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "11. Termination",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:83",
+        "excerpt": "11. Termination"
+      }
+    },
+    {
+      "clause_id": "TXN-002-p84",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "11.1 Either Party may terminate this Renewal with 90 days written notice if the other Party materially breaches any obligations.",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:84",
+        "excerpt": "11.1 Either Party may terminate this Renewal with 90 days written notice if the other Party materially breaches any obligations."
+      }
+    },
+    {
+      "clause_id": "TXN-002-p85",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "11.2 Termination shall not relieve Vendor of delivering accepted units and maintaining confidentiality/IP obligations.",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:85",
+        "excerpt": "11.2 Termination shall not relieve Vendor of delivering accepted units and maintaining confidentiality/IP obligations."
+      }
+    },
+    {
+      "clause_id": "TXN-002-p86",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "11.3 Liquidated damages for late or defective supply shall be calculated as per Section 10.",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:86",
+        "excerpt": "11.3 Liquidated damages for late or defective supply shall be calculated as per Section 10."
+      }
+    },
+    {
+      "clause_id": "TXN-002-p88",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "12. Governing Law & Dispute Resolution",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:88",
+        "excerpt": "12. Governing Law & Dispute Resolution"
+      }
+    },
+    {
+      "clause_id": "TXN-002-p89",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "This Renewal is governed by the laws of India. Disputes shall be resolved via arbitration under the Arbitration and Conciliation Act, 1996, conducted in New Delhi, India. Arbitration proceedings shall be confidential and binding.",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:89",
+        "excerpt": "This Renewal is governed by the laws of India. Disputes shall be resolved via arbitration under the Arbitration and Conciliation Act, 1996, conducted in New Delhi, India. Arbitration proceedings shall be confidential and binding."
+      }
+    },
+    {
+      "clause_id": "TXN-002-p91",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "13. Signatures",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:91",
+        "excerpt": "13. Signatures"
+      }
+    },
+    {
+      "clause_id": "TXN-002-p92",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "PrimeVolta Hardware Solutions\nAuthorized Signatory: ___________________\nName:\nDesignation:",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:92",
+        "excerpt": "PrimeVolta Hardware Solutions\nAuthorized Signatory: ___________________\nName:\nDesignation:"
+      }
+    },
+    {
+      "clause_id": "TXN-002-p93",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "FinSecure Services\nAuthorized Signatory: ___________________\nName:\nDesignation:",
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:93",
+        "excerpt": "FinSecure Services\nAuthorized Signatory: ___________________\nName:\nDesignation:"
+      }
+    }
+  ],
+  "tables": [
+    {
+      "table_id": "TXN-002-t0",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "table_index": 0,
+      "rows": [
+        [
+          "Item",
+          "Model",
+          "Forecast Quantity per Year",
+          "Description"
+        ],
+        [
+          "Embedded Processor Board",
+          "EB-500",
+          "12,000",
+          "32-bit ARM Cortex-M33 with onboard HSM"
+        ],
+        [
+          "Secure Communication Module",
+          "SCM-400",
+          "8,500",
+          "AES-256, LTE/GSM failover, EMI/EMC certified"
+        ],
+        [
+          "Cryptographic Controller",
+          "CC-99",
+          "5,000",
+          "Hardware-based cryptographic operations for secure transactions"
+        ]
+      ],
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "table",
+        "locator": "table:0",
+        "excerpt": null
+      }
+    },
+    {
+      "table_id": "TXN-002-t1",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "table_index": 1,
+      "rows": [
+        [
+          "Item",
+          "Unit Price (INR)",
+          "Notes"
+        ],
+        [
+          "EB-500",
+          "\u20b9X,XXX",
+          "Price fixed Year 1, max 4% escalation Year 2"
+        ],
+        [
+          "SCM-400",
+          "\u20b9X,XXX",
+          "Same as above"
+        ],
+        [
+          "CC-99",
+          "\u20b9X,XXX",
+          "Same as above"
+        ]
+      ],
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "table",
+        "locator": "table:1",
+        "excerpt": null
+      }
+    },
+    {
+      "table_id": "TXN-002-t2",
+      "doc_id": "TXN-002",
+      "doc_version": "1",
+      "table_index": 2,
+      "rows": [
+        [
+          "Parameter",
+          "SLA Requirement",
+          "Penalty"
+        ],
+        [
+          "On-time Delivery",
+          "95% of units per schedule",
+          "1% deduction per week delay, max 8%"
+        ],
+        [
+          "Quality Compliance",
+          "\u226599.2% units pass QC",
+          "Rework/replacement at Vendor cost"
+        ],
+        [
+          "Response Time for Critical Issues",
+          "\u22646 hours",
+          "Escalation to Vendor management"
+        ]
+      ],
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "table",
+        "locator": "table:2",
+        "excerpt": null
+      }
+    }
+  ],
+  "parse_status": "parsed",
+  "parse_error": null
+}

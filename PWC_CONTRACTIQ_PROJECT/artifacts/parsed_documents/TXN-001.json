@@ -1,0 +1,1277 @@
+{
+  "doc_id": "TXN-001",
+  "clauses": [
+    {
+      "clause_id": "TXN-001-p0",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "SAMPLE 2 \u2013 CONTRACT RENEWAL (ANNUAL HARDWARE MAINTENANCE & SUPPORT)",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:0",
+        "excerpt": "SAMPLE 2 \u2013 CONTRACT RENEWAL (ANNUAL HARDWARE MAINTENANCE & SUPPORT)"
+      }
+    },
+    {
+      "clause_id": "TXN-001-p1",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Renewal No.: PVHS-FSS/2025/AMC-002\nBetween PrimeVolta Hardware Solutions (\u201cVendor\u201d) and FinSecure Services (\u201cClient\u201d)",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:1",
+        "excerpt": "Renewal No.: PVHS-FSS/2025/AMC-002\nBetween PrimeVolta Hardware Solutions (\u201cVendor\u201d) and FinSecure Services (\u201cClient\u201d)"
+      }
+    },
+    {
+      "clause_id": "TXN-001-p2",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Effective Date: 1 January 2026\nExpiration Date: 31 December 2026\nLocation: Nationwide (India)",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:2",
+        "excerpt": "Effective Date: 1 January 2026\nExpiration Date: 31 December 2026\nLocation: Nationwide (India)"
+      }
+    },
+    {
+      "clause_id": "TXN-001-p4",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "1. Background",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:4",
+        "excerpt": "1. Background"
+      }
+    },
+    {
+      "clause_id": "TXN-001-p5",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "1.1 This Contract Renewal (\u201cRenewal\u201d) is entered into pursuant to the Original Annual Maintenance & Support Agreement (AMSA) executed on 1 January 2025 (\u201cOriginal Agreement\u201d) between PrimeVolta Hardware Solutions, incorporated under the Companies Act, 2013 (\u201cVendor\u201d), and FinSecure Services, a BFSI company (\u201cClient\u201d).",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:5",
+        "excerpt": "1.1 This Contract Renewal (\u201cRenewal\u201d) is entered into pursuant to the Original Annual Maintenance & Support Agreement (AMSA) executed on 1 January 2025 (\u201cOriginal Agreement\u201d) between PrimeVolta Hardware Solutions, incorporated under the Companies Act, 2013 (\u201cVendor\u201d), and FinSecure Services, a BFSI company (\u201cClient\u201d)."
+      }
+    },
+    {
+      "clause_id": "TXN-001-p6",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "1.2 The Original Agreement governs the preventive and corrective maintenance, firmware updates, and technical support for all IoT-enabled Smart Power Modules, Secure Hardware Authentication Terminals (HATs), and Embedded Processor Boards deployed across Client branches.",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:6",
+        "excerpt": "1.2 The Original Agreement governs the preventive and corrective maintenance, firmware updates, and technical support for all IoT-enabled Smart Power Modules, Secure Hardware Authentication Terminals (HATs), and Embedded Processor Boards deployed across Client branches."
+      }
+    },
+    {
+      "clause_id": "TXN-001-p7",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "1.3 This Renewal extends the Original Agreement for an additional 12-month period with updated terms, SLAs, and pricing.",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:7",
+        "excerpt": "1.3 This Renewal extends the Original Agreement for an additional 12-month period with updated terms, SLAs, and pricing."
+      }
+    },
+    {
+      "clause_id": "TXN-001-p9",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "2. Scope of Renewal Services",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:9",
+        "excerpt": "2. Scope of Renewal Services"
+      }
+    },
+    {
+      "clause_id": "TXN-001-p10",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "2.1 Vendor shall provide the following services for all hardware units supplied under previous SOWs and agreements:",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:10",
+        "excerpt": "2.1 Vendor shall provide the following services for all hardware units supplied under previous SOWs and agreements:"
+      }
+    },
+    {
+      "clause_id": "TXN-001-p11",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "2.1.1 Preventive Maintenance",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:11",
+        "excerpt": "2.1.1 Preventive Maintenance"
+      }
+    },
+    {
+      "clause_id": "TXN-001-p12",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Quarterly on-site inspections and testing of all deployed units",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:12",
+        "excerpt": "Quarterly on-site inspections and testing of all deployed units"
+      }
+    },
+    {
+      "clause_id": "TXN-001-p13",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Cleaning, calibration, and performance verification",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:13",
+        "excerpt": "Cleaning, calibration, and performance verification"
+      }
+    },
+    {
+      "clause_id": "TXN-001-p14",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Firmware and software updates, including security patches",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:14",
+        "excerpt": "Firmware and software updates, including security patches"
+      }
+    },
+    {
+      "clause_id": "TXN-001-p15",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Preventive replacement of any worn or degraded components",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:15",
+        "excerpt": "Preventive replacement of any worn or degraded components"
+      }
+    },
+    {
+      "clause_id": "TXN-001-p16",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "2.1.2 Corrective Maintenance",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:16",
+        "excerpt": "2.1.2 Corrective Maintenance"
+      }
+    },
+    {
+      "clause_id": "TXN-001-p17",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "24\u00d77 remote support for incident reporting and troubleshooting",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:17",
+        "excerpt": "24\u00d77 remote support for incident reporting and troubleshooting"
+      }
+    },
+    {
+      "clause_id": "TXN-001-p18",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "On-site support for critical hardware failures within 6 hours",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:18",
+        "excerpt": "On-site support for critical hardware failures within 6 hours"
+      }
+    },
+    {
+      "clause_id": "TXN-001-p19",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Replacement of defective hardware parts under warranty",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:19",
+        "excerpt": "Replacement of defective hardware parts under warranty"
+      }
+    },
+    {
+      "clause_id": "TXN-001-p20",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Root-cause analysis for recurring failures and reporting",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:20",
+        "excerpt": "Root-cause analysis for recurring failures and reporting"
+      }
+    },
+    {
+      "clause_id": "TXN-001-p21",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "2.1.3 Firmware & Security Support",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:21",
+        "excerpt": "2.1.3 Firmware & Security Support"
+      }
+    },
+    {
+      "clause_id": "TXN-001-p22",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Quarterly firmware version updates for deployed devices",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:22",
+        "excerpt": "Quarterly firmware version updates for deployed devices"
+      }
+    },
+    {
+      "clause_id": "TXN-001-p23",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Patch management for security vulnerabilities",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:23",
+        "excerpt": "Patch management for security vulnerabilities"
+      }
+    },
+    {
+      "clause_id": "TXN-001-p24",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Documentation of all firmware updates and changes",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:24",
+        "excerpt": "Documentation of all firmware updates and changes"
+      }
+    },
+    {
+      "clause_id": "TXN-001-p25",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "2.1.4 Reporting & Documentation",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:25",
+        "excerpt": "2.1.4 Reporting & Documentation"
+      }
+    },
+    {
+      "clause_id": "TXN-001-p26",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Maintenance logs per device and per branch",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:26",
+        "excerpt": "Maintenance logs per device and per branch"
+      }
+    },
+    {
+      "clause_id": "TXN-001-p27",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Quarterly Service Level Reports (SLR) detailing incidents, response times, and resolutions",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:27",
+        "excerpt": "Quarterly Service Level Reports (SLR) detailing incidents, response times, and resolutions"
+      }
+    },
+    {
+      "clause_id": "TXN-001-p28",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Recommendations for optimization or hardware lifecycle management",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:28",
+        "excerpt": "Recommendations for optimization or hardware lifecycle management"
+      }
+    },
+    {
+      "clause_id": "TXN-001-p30",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3. Pricing & Payment Terms",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:30",
+        "excerpt": "3. Pricing & Payment Terms"
+      }
+    },
+    {
+      "clause_id": "TXN-001-p31",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3.1 Renewal Fees:",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:31",
+        "excerpt": "3.1 Renewal Fees:"
+      }
+    },
+    {
+      "clause_id": "TXN-001-p32",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3.2 Payment Milestones:",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:32",
+        "excerpt": "3.2 Payment Milestones:"
+      }
+    },
+    {
+      "clause_id": "TXN-001-p33",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "30% advance upon Renewal execution",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:33",
+        "excerpt": "30% advance upon Renewal execution"
+      }
+    },
+    {
+      "clause_id": "TXN-001-p34",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "50% mid-year (after 6 months)",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:34",
+        "excerpt": "50% mid-year (after 6 months)"
+      }
+    },
+    {
+      "clause_id": "TXN-001-p35",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "20% at the end of service period upon submission of final SLA report",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:35",
+        "excerpt": "20% at the end of service period upon submission of final SLA report"
+      }
+    },
+    {
+      "clause_id": "TXN-001-p36",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "3.3 All payments are exclusive of applicable taxes. Any delay in payments exceeding 15 days may result in suspension of non-critical maintenance services until payment is received.",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:36",
+        "excerpt": "3.3 All payments are exclusive of applicable taxes. Any delay in payments exceeding 15 days may result in suspension of non-critical maintenance services until payment is received."
+      }
+    },
+    {
+      "clause_id": "TXN-001-p38",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "4. Service Level Agreements (SLA)",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:38",
+        "excerpt": "4. Service Level Agreements (SLA)"
+      }
+    },
+    {
+      "clause_id": "TXN-001-p40",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "5. Duration & Renewal Terms",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:40",
+        "excerpt": "5. Duration & Renewal Terms"
+      }
+    },
+    {
+      "clause_id": "TXN-001-p41",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "5.1 This Renewal is valid from 1 January 2026 to 31 December 2026.",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:41",
+        "excerpt": "5.1 This Renewal is valid from 1 January 2026 to 31 December 2026."
+      }
+    },
+    {
+      "clause_id": "TXN-001-p42",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "5.2 Either Party may negotiate a subsequent renewal 60 days prior to expiration.",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:42",
+        "excerpt": "5.2 Either Party may negotiate a subsequent renewal 60 days prior to expiration."
+      }
+    },
+    {
+      "clause_id": "TXN-001-p43",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "5.3 All terms, obligations, and warranties from the Original Agreement remain in effect unless explicitly modified herein.",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:43",
+        "excerpt": "5.3 All terms, obligations, and warranties from the Original Agreement remain in effect unless explicitly modified herein."
+      }
+    },
+    {
+      "clause_id": "TXN-001-p45",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "6. Roles & Responsibilities",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:45",
+        "excerpt": "6. Roles & Responsibilities"
+      }
+    },
+    {
+      "clause_id": "TXN-001-p46",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "6.1 Vendor Responsibilities",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:46",
+        "excerpt": "6.1 Vendor Responsibilities"
+      }
+    },
+    {
+      "clause_id": "TXN-001-p47",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Deploy skilled maintenance personnel for on-site services",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:47",
+        "excerpt": "Deploy skilled maintenance personnel for on-site services"
+      }
+    },
+    {
+      "clause_id": "TXN-001-p48",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Maintain inventory of spare parts sufficient to meet response SLA",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:48",
+        "excerpt": "Maintain inventory of spare parts sufficient to meet response SLA"
+      }
+    },
+    {
+      "clause_id": "TXN-001-p49",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Provide remote technical support, including diagnostic tools and reporting",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:49",
+        "excerpt": "Provide remote technical support, including diagnostic tools and reporting"
+      }
+    },
+    {
+      "clause_id": "TXN-001-p50",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Conduct quarterly review meetings with Client stakeholders",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:50",
+        "excerpt": "Conduct quarterly review meetings with Client stakeholders"
+      }
+    },
+    {
+      "clause_id": "TXN-001-p51",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "6.2 Client Responsibilities",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:51",
+        "excerpt": "6.2 Client Responsibilities"
+      }
+    },
+    {
+      "clause_id": "TXN-001-p52",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Provide access to all branch offices and devices",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:52",
+        "excerpt": "Provide access to all branch offices and devices"
+      }
+    },
+    {
+      "clause_id": "TXN-001-p53",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Notify Vendor of incidents within 2 hours of occurrence",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:53",
+        "excerpt": "Notify Vendor of incidents within 2 hours of occurrence"
+      }
+    },
+    {
+      "clause_id": "TXN-001-p54",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Provide safe working conditions for Vendor personnel",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:54",
+        "excerpt": "Provide safe working conditions for Vendor personnel"
+      }
+    },
+    {
+      "clause_id": "TXN-001-p55",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Maintain network connectivity for remote diagnostics",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:55",
+        "excerpt": "Maintain network connectivity for remote diagnostics"
+      }
+    },
+    {
+      "clause_id": "TXN-001-p57",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "7. Change Management",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:57",
+        "excerpt": "7. Change Management"
+      }
+    },
+    {
+      "clause_id": "TXN-001-p58",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "7.1 Any modifications to hardware configurations, maintenance scope, or service coverage shall be formalized via a Change Request (CR) signed by authorized representatives of both Parties.",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:58",
+        "excerpt": "7.1 Any modifications to hardware configurations, maintenance scope, or service coverage shall be formalized via a Change Request (CR) signed by authorized representatives of both Parties."
+      }
+    },
+    {
+      "clause_id": "TXN-001-p59",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "7.2 CRs may impact renewal fees, SLAs, or schedules.",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:59",
+        "excerpt": "7.2 CRs may impact renewal fees, SLAs, or schedules."
+      }
+    },
+    {
+      "clause_id": "TXN-001-p61",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "8. Risk Management & Compliance",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:61",
+        "excerpt": "8. Risk Management & Compliance"
+      }
+    },
+    {
+      "clause_id": "TXN-001-p62",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "8.1 Vendor shall maintain insurance coverage for:",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:62",
+        "excerpt": "8.1 Vendor shall maintain insurance coverage for:"
+      }
+    },
+    {
+      "clause_id": "TXN-001-p63",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Product liability",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:63",
+        "excerpt": "Product liability"
+      }
+    },
+    {
+      "clause_id": "TXN-001-p64",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "On-site maintenance personnel",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:64",
+        "excerpt": "On-site maintenance personnel"
+      }
+    },
+    {
+      "clause_id": "TXN-001-p65",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Transit of spare parts and replacement units",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:65",
+        "excerpt": "Transit of spare parts and replacement units"
+      }
+    },
+    {
+      "clause_id": "TXN-001-p66",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "8.2 Vendor shall comply with all BFSI security guidelines, including:",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:66",
+        "excerpt": "8.2 Vendor shall comply with all BFSI security guidelines, including:"
+      }
+    },
+    {
+      "clause_id": "TXN-001-p67",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Protection of sensitive client data during on-site maintenance",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:67",
+        "excerpt": "Protection of sensitive client data during on-site maintenance"
+      }
+    },
+    {
+      "clause_id": "TXN-001-p68",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Secure disposal of replaced hardware components",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:68",
+        "excerpt": "Secure disposal of replaced hardware components"
+      }
+    },
+    {
+      "clause_id": "TXN-001-p69",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Incident reporting and escalation procedures",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:69",
+        "excerpt": "Incident reporting and escalation procedures"
+      }
+    },
+    {
+      "clause_id": "TXN-001-p70",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "8.3 Quarterly risk assessment meetings shall be held between Vendor and Client to review performance, compliance, and potential operational risks.",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:70",
+        "excerpt": "8.3 Quarterly risk assessment meetings shall be held between Vendor and Client to review performance, compliance, and potential operational risks."
+      }
+    },
+    {
+      "clause_id": "TXN-001-p72",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "9. Intellectual Property & Confidentiality",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:72",
+        "excerpt": "9. Intellectual Property & Confidentiality"
+      }
+    },
+    {
+      "clause_id": "TXN-001-p73",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "9.1 Vendor retains ownership of all firmware, diagnostic tools, and manuals.",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:73",
+        "excerpt": "9.1 Vendor retains ownership of all firmware, diagnostic tools, and manuals."
+      }
+    },
+    {
+      "clause_id": "TXN-001-p74",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "9.2 Client retains usage rights for maintenance purposes only.",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:74",
+        "excerpt": "9.2 Client retains usage rights for maintenance purposes only."
+      }
+    },
+    {
+      "clause_id": "TXN-001-p75",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "9.3 Confidentiality obligations from the Original Agreement survive this Renewal. Unauthorized disclosure of Client or Vendor information is considered a material breach.",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:75",
+        "excerpt": "9.3 Confidentiality obligations from the Original Agreement survive this Renewal. Unauthorized disclosure of Client or Vendor information is considered a material breach."
+      }
+    },
+    {
+      "clause_id": "TXN-001-p77",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "10. Termination",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:77",
+        "excerpt": "10. Termination"
+      }
+    },
+    {
+      "clause_id": "TXN-001-p78",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "10.1 Either Party may terminate this Renewal upon 30 days written notice for material breach if not remedied within the notice period.",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:78",
+        "excerpt": "10.1 Either Party may terminate this Renewal upon 30 days written notice for material breach if not remedied within the notice period."
+      }
+    },
+    {
+      "clause_id": "TXN-001-p79",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "10.2 Upon termination, Vendor shall:",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:79",
+        "excerpt": "10.2 Upon termination, Vendor shall:"
+      }
+    },
+    {
+      "clause_id": "TXN-001-p80",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Complete ongoing maintenance tasks for accepted devices",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:80",
+        "excerpt": "Complete ongoing maintenance tasks for accepted devices"
+      }
+    },
+    {
+      "clause_id": "TXN-001-p81",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Provide all documentation and logs",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:81",
+        "excerpt": "Provide all documentation and logs"
+      }
+    },
+    {
+      "clause_id": "TXN-001-p82",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Return or securely destroy any Client-provided data",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:82",
+        "excerpt": "Return or securely destroy any Client-provided data"
+      }
+    },
+    {
+      "clause_id": "TXN-001-p83",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "10.3 All confidentiality and IP obligations shall survive termination.",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:83",
+        "excerpt": "10.3 All confidentiality and IP obligations shall survive termination."
+      }
+    },
+    {
+      "clause_id": "TXN-001-p85",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "11. Governing Law & Dispute Resolution",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:85",
+        "excerpt": "11. Governing Law & Dispute Resolution"
+      }
+    },
+    {
+      "clause_id": "TXN-001-p86",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "This Renewal is governed by the laws of India. Any dispute shall be resolved via arbitration under the Arbitration and Conciliation Act, 1996, conducted in New Delhi, India. Arbitration decisions shall be confidential and binding.",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:86",
+        "excerpt": "This Renewal is governed by the laws of India. Any dispute shall be resolved via arbitration under the Arbitration and Conciliation Act, 1996, conducted in New Delhi, India. Arbitration decisions shall be confidential and binding."
+      }
+    },
+    {
+      "clause_id": "TXN-001-p88",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "12. Signatures",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:88",
+        "excerpt": "12. Signatures"
+      }
+    },
+    {
+      "clause_id": "TXN-001-p89",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "PrimeVolta Hardware Solutions\nAuthorized Signatory: ___________________\nName:\nDesignation:",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:89",
+        "excerpt": "PrimeVolta Hardware Solutions\nAuthorized Signatory: ___________________\nName:\nDesignation:"
+      }
+    },
+    {
+      "clause_id": "TXN-001-p90",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "FinSecure Services\nAuthorized Signatory: ___________________\nName:\nDesignation:",
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:90",
+        "excerpt": "FinSecure Services\nAuthorized Signatory: ___________________\nName:\nDesignation:"
+      }
+    }
+  ],
+  "tables": [
+    {
+      "table_id": "TXN-001-t0",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "table_index": 0,
+      "rows": [
+        [
+          "Service",
+          "Annual Fee (INR)",
+          "Notes"
+        ],
+        [
+          "Preventive Maintenance",
+          "\u20b9XX,XX,XXX",
+          "Includes quarterly visits"
+        ],
+        [
+          "Corrective Maintenance",
+          "\u20b9XX,XX,XXX",
+          "On-demand hardware support"
+        ],
+        [
+          "Firmware & Security Updates",
+          "Included",
+          "As part of preventive service"
+        ],
+        [
+          "Total Annual Renewal",
+          "\u20b9XX,XX,XXX",
+          "Exclusive of GST"
+        ]
+      ],
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "table",
+        "locator": "table:0",
+        "excerpt": null
+      }
+    },
+    {
+      "table_id": "TXN-001-t1",
+      "doc_id": "TXN-001",
+      "doc_version": "1",
+      "table_index": 1,
+      "rows": [
+        [
+          "Parameter",
+          "SLA Requirement",
+          "Penalty for Non-Compliance"
+        ],
+        [
+          "Response Time \u2013 Critical Issues",
+          "\u22646 hours",
+          "1% fee deduction per hour beyond SLA, max 10%"
+        ],
+        [
+          "Response Time \u2013 Non-Critical Issues",
+          "\u226424 hours",
+          "No penalty if within 48 hours"
+        ],
+        [
+          "Resolution Time \u2013 Critical Issues",
+          "\u226424 hours",
+          "2% fee deduction per day, max 10%"
+        ],
+        [
+          "Quarterly Preventive Maintenance",
+          "100% completion",
+          "Pro-rated penalty if missed visits"
+        ],
+        [
+          "Device Uptime",
+          "\u226599% per branch",
+          "Credit for downtime >1%"
+        ]
+      ],
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "table",
+        "locator": "table:1",
+        "excerpt": null
+      }
+    }
+  ],
+  "parse_status": "parsed",
+  "parse_error": null
+}
