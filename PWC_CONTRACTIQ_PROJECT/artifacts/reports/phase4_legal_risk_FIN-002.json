@@ -1,0 +1,40 @@
+{
+  "dimension": "legal",
+  "success": true,
+  "findings": [
+    {
+      "finding_id": "legal-termination_for_convenience-2c90024a",
+      "dimension": "legal",
+      "severity": "MEDIUM",
+      "title": "Termination for Convenience Notice Period",
+      "rationale": "The contract specifies the notice period required for termination without cause.",
+      "recommendation": null,
+      "evidence_ids": [
+        "FIN-002-c0"
+      ],
+      "evidence_excerpts": [
+        "Either party may terminate the agreement with 30 days’ notice, without affecting outstanding invoices or milestones."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    },
+    {
+      "finding_id": "legal-governing_law_disputes-4a492a3b",
+      "dimension": "legal",
+      "severity": "HIGH",
+      "title": "Governing Law and Dispute Resolution",
+      "rationale": "The evidence explicitly states the governing law and the method for resolving disputes.",
+      "recommendation": null,
+      "evidence_ids": [
+        "FIN-002-c0"
+      ],
+      "evidence_excerpts": [
+        "This Agreement shall be governed by the laws of India. Disputes will be under the jurisdiction of courts located in [City, State]."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.95
+    }
+  ],
+  "error": null,
+  "retry_count": 0
+}

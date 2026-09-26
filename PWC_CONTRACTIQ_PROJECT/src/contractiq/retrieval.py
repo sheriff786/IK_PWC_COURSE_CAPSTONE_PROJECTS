@@ -16,11 +16,13 @@ from __future__ import annotations
 
 import hashlib
 import json
+import re
 from pathlib import Path
-from typing import Any, Dict, List, Optional
+from typing import Any, Callable, Dict, List, Optional
 
 import chromadb
 from openai import OpenAI
+from rank_bm25 import BM25Okapi
 
 from .config import CHROMA_PERSIST_DIR, CHUNK_OVERLAP_WORDS, CHUNK_SIZE_WORDS, EMBEDDING_MODEL, \
     EVALUATIONS_ROOT, OPENAI_API_KEY, REPORTS_ROOT
@@ -309,6 +311,96 @@ def search(query: str, top_k: int = 5, category_key: Optional[str] = None,
 
 
 # ---------------------------------------------------------------------------
+# Hybrid search — dense (cosine) + lexical (BM25), fused with Reciprocal Rank
+# Fusion. Added alongside search(), not replacing it: Phase 4's agent keeps
+# using plain search() until evaluate_retrieval() shows hybrid is actually
+# better on the labeled test set, not merely assumed to be.
+# ---------------------------------------------------------------------------
+
+_bm25_index: Optional[BM25Okapi] = None
+_bm25_chunk_ids: Optional[List[str]] = None
+_bm25_documents: Optional[List[str]] = None
+_bm25_metadatas: Optional[List[Dict[str, Any]]] = None
+
+
+def _tokenize(text: str) -> List[str]:
+    return re.findall(r"[a-z0-9]+", text.lower())
+
+
+def _get_bm25_index():
+    """Rebuilds the in-memory BM25 index from whatever's currently in
+    ChromaDB whenever the chunk count changes — same chunk text as the
+    dense index, just scored lexically instead of by embedding."""
+    global _bm25_index, _bm25_chunk_ids, _bm25_documents, _bm25_metadatas
+    collection = get_chroma_collection()
+    if _bm25_index is None or _bm25_chunk_ids is None or len(_bm25_chunk_ids) != collection.count():
+        all_data = collection.get(include=["documents", "metadatas"])
+        _bm25_chunk_ids = all_data["ids"]
+        _bm25_documents = all_data["documents"]
+        _bm25_metadatas = all_data["metadatas"]
+        _bm25_index = BM25Okapi([_tokenize(doc) for doc in _bm25_documents])
+    return _bm25_index, _bm25_chunk_ids, _bm25_documents, _bm25_metadatas
+
+
+def search_hybrid(query: str, top_k: int = 5, category_key: Optional[str] = None,
+                   doc_id: Optional[str] = None, document_role: Optional[str] = None,
+                   candidate_pool: int = 20, rrf_k: int = 60) -> List[Dict[str, Any]]:
+    """Dense cosine search + BM25 lexical search over the same chunks, fused
+    by Reciprocal Rank Fusion (rank-based, so cosine similarity and BM25's
+    unbounded score scale never need to be normalized against each other).
+    Same filters and same output shape as search(), plus an rrf_score."""
+    dense_results = search(query, top_k=candidate_pool, category_key=category_key,
+                            doc_id=doc_id, document_role=document_role)
+    dense_rank = {r["chunk_id"]: i for i, r in enumerate(dense_results)}
+    dense_by_id = {r["chunk_id"]: r for r in dense_results}
+
+    bm25_index, chunk_ids, documents, metadatas = _get_bm25_index()
+    bm25_scores = bm25_index.get_scores(_tokenize(query))
+
+    filters = {k: v for k, v in {
+        "category_key": category_key, "doc_id": doc_id, "document_role": document_role,
+    }.items() if v is not None}
+
+    scored = []
+    for idx, cid in enumerate(chunk_ids):
+        meta = metadatas[idx] or {}
+        if any(meta.get(k) != v for k, v in filters.items()):
+            continue
+        scored.append((cid, bm25_scores[idx]))
+    scored.sort(key=lambda x: x[1], reverse=True)
+    bm25_rank = {cid: i for i, (cid, _) in enumerate(scored[:candidate_pool])}
+
+    candidate_ids = set(dense_rank) | set(bm25_rank)
+    fused = []
+    for cid in candidate_ids:
+        rrf_score = 0.0
+        if cid in dense_rank:
+            rrf_score += 1.0 / (rrf_k + dense_rank[cid] + 1)
+        if cid in bm25_rank:
+            rrf_score += 1.0 / (rrf_k + bm25_rank[cid] + 1)
+        fused.append((cid, rrf_score))
+    fused.sort(key=lambda x: x[1], reverse=True)
+
+    idx_by_id = {cid: idx for idx, cid in enumerate(chunk_ids)}
+    output = []
+    for cid, rrf_score in fused[:top_k]:
+        if cid in dense_by_id:
+            row = dict(dense_by_id[cid])
+        else:
+            idx = idx_by_id[cid]
+            meta = metadatas[idx]
+            row = {
+                "chunk_id": cid, "text": documents[idx], "score": None,
+                "doc_id": meta["doc_id"], "category_key": meta["category_key"],
+                "document_role": meta["document_role"],
+                "source_location_range": meta["source_location_range"],
+            }
+        row["rrf_score"] = round(rrf_score, 5)
+        output.append(row)
+    return output
+
+
+# ---------------------------------------------------------------------------
 # Retrieval evaluation — a labeled test set, not spot-checks
 # ---------------------------------------------------------------------------
 
@@ -412,9 +504,14 @@ def load_retrieval_test_set() -> List[Dict[str, Any]]:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
-def evaluate_retrieval(test_set: List[Dict[str, Any]], top_k: int = 5) -> Dict[str, Any]:
+def evaluate_retrieval(test_set: List[Dict[str, Any]], top_k: int = 5,
+                        search_fn: Callable[..., List[Dict[str, Any]]] = search,
+                        report_suffix: str = "") -> Dict[str, Any]:
     """Recall@k against the labeled test set: does the expected document
-    (and, loosely, the expected clause locator) show up in the top-k results?"""
+    (and, loosely, the expected clause locator) show up in the top-k results?
+    search_fn is pluggable (search vs search_hybrid) so retrieval strategies
+    can be compared on the same labeled questions; report_suffix keeps their
+    reports separate so one doesn't silently overwrite the other."""
     filled = [q for q in test_set if q.get("question") and q.get("expected_doc_id")]
     if not filled:
         print("No filled-in test questions found — fill the template before evaluating.")
@@ -423,7 +520,7 @@ def evaluate_retrieval(test_set: List[Dict[str, Any]], top_k: int = 5) -> Dict[s
     hits = 0
     rows = []
     for q in filled:
-        results = search(q["question"], top_k=top_k)
+        results = search_fn(q["question"], top_k=top_k)
         result_doc_ids = [r["doc_id"] for r in results]
         doc_hit = q["expected_doc_id"] in result_doc_ids
         locator_hit = None
@@ -441,7 +538,7 @@ def evaluate_retrieval(test_set: List[Dict[str, Any]], top_k: int = 5) -> Dict[s
     recall_at_k = hits / len(filled)
     report = {"evaluated": len(filled), "top_k": top_k, "recall_at_k": round(recall_at_k, 3), "rows": rows}
 
-    out_path = REPORTS_ROOT / "phase3_retrieval_eval.json"
+    out_path = REPORTS_ROOT / f"phase3_retrieval_eval{report_suffix}.json"
     out_path.write_text(json.dumps(report, indent=2), encoding="utf-8")
 
     print(f"Recall@{top_k}: {recall_at_k:.1%} ({hits}/{len(filled)})")

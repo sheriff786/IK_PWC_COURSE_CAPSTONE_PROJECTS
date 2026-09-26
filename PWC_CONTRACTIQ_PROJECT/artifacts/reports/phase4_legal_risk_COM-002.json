@@ -1,0 +1,56 @@
+{
+  "dimension": "legal",
+  "success": true,
+  "findings": [
+    {
+      "finding_id": "legal-termination_for_convenience-6497fd35",
+      "dimension": "legal",
+      "severity": "MEDIUM",
+      "title": "Termination for Convenience Notice Period",
+      "rationale": "The contract specifies the notice period required for termination without cause.",
+      "recommendation": null,
+      "evidence_ids": [
+        "COM-002-c0"
+      ],
+      "evidence_excerpts": [
+        "Either party may terminate by providing 60 days’ prior written notice."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    },
+    {
+      "finding_id": "legal-ip_ownership-ef87f3ae",
+      "dimension": "legal",
+      "severity": "HIGH",
+      "title": "Intellectual Property Ownership",
+      "rationale": "The evidence clearly states that the Vendor retains all intellectual property rights over hardware design, firmware, and proprietary software, indicating ownership of the intellectual property created under this agreement.",
+      "recommendation": null,
+      "evidence_ids": [
+        "COM-002-c0"
+      ],
+      "evidence_excerpts": [
+        "Vendor retains all intellectual property rights over hardware design, firmware, and proprietary software."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.95
+    },
+    {
+      "finding_id": "legal-governing_law_disputes-b66e4a79",
+      "dimension": "legal",
+      "severity": "MEDIUM",
+      "title": "Governing Law and Dispute Resolution",
+      "rationale": "The evidence explicitly states the governing law and the method for resolving disputes, which is arbitration under the Indian Arbitration and Conciliation Act, 1996.",
+      "recommendation": null,
+      "evidence_ids": [
+        "COM-002-c0"
+      ],
+      "evidence_excerpts": [
+        "Unresolved disputes will be referred to arbitration under the Indian Arbitration and Conciliation Act, 1996. Arbitration proceedings will take place in [City, State], India, in English."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    }
+  ],
+  "error": null,
+  "retry_count": 0
+}

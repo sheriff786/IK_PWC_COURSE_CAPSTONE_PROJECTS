@@ -1,0 +1,121 @@
+{
+  "dimension": "legal",
+  "success": true,
+  "findings": [
+    {
+      "finding_id": "legal-liability_cap-a1de4df3",
+      "dimension": "legal",
+      "severity": "HIGH",
+      "title": "Limitation of Liability Found",
+      "rationale": "The contract explicitly states a cap on total liability, limiting it to the total amount paid by the Client to the Vendor in the preceding twelve months, except for certain breaches.",
+      "recommendation": null,
+      "evidence_ids": [
+        "MLA-001-c2"
+      ],
+      "evidence_excerpts": [
+        "Except for breaches involving confidentiality, intellectual property misuse, or acts of gross negligence or willful misconduct, each Party’s total cumulative liability under this Agreement shall not exceed the total amount paid by the Client to the Vendor in the preceding twelve (12) months."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.95
+    },
+    {
+      "finding_id": "legal-indemnification-0091b9dd",
+      "dimension": "legal",
+      "severity": "HIGH",
+      "title": "Indemnification Obligations",
+      "rationale": "The evidence clearly outlines the indemnification obligations of both parties under the agreement.",
+      "recommendation": null,
+      "evidence_ids": [
+        "MLA-001-c2"
+      ],
+      "evidence_excerpts": [
+        "The Vendor agrees to indemnify and defend the Client against any third-party claims, damages, losses, liabilities, or expenses arising from product defects, workmanship deficiencies, or bodily injury caused solely by the Vendor’s Hardware Products when used as intended. The Client agrees to indemnify the Vendor against claims arising from improper handling, misuse, alteration of devices, or any actions taken by the Client that deviate from the operational guidelines provided by the Vendor."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.95
+    },
+    {
+      "finding_id": "legal-termination_for_cause-5bd333ca",
+      "dimension": "legal",
+      "severity": "MEDIUM",
+      "title": "Termination for Cause Conditions",
+      "rationale": "The contract specifies conditions under which it can be terminated for cause, including material breaches that are not cured within a specified time frame.",
+      "recommendation": null,
+      "evidence_ids": [
+        "MLA-001-c0"
+      ],
+      "evidence_excerpts": [
+        "This Agreement may also be terminated for cause if either Party materially breaches its obligations and fails to cure such breach within a period of thirty (30) days from the receipt of a written notice specifying the nature of the breach. Situations constituting cause shall include, but are not limited to, persistent failure to meet service obligations, non-payment for delivered services or hardware, misconduct, breach of confidentiality, or non-compliance with applicable laws or industry regulations."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    },
+    {
+      "finding_id": "legal-termination_for_convenience-252ed8a3",
+      "dimension": "legal",
+      "severity": "MEDIUM",
+      "title": "Termination for Convenience Notice Period",
+      "rationale": "The contract specifies the notice period required for termination without cause.",
+      "recommendation": null,
+      "evidence_ids": [
+        "MLA-001-c0"
+      ],
+      "evidence_excerpts": [
+        "Either Party may terminate this Agreement for convenience by providing the other Party with not less than ninety (90) days’ prior written notice without the need to furnish any justification for such termination."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    },
+    {
+      "finding_id": "legal-confidentiality_survival-d1e21535",
+      "dimension": "legal",
+      "severity": "MEDIUM",
+      "title": "Confidentiality Obligations Survival",
+      "rationale": "The evidence explicitly states the duration for which confidentiality obligations survive after the agreement ends.",
+      "recommendation": null,
+      "evidence_ids": [
+        "MLA-001-c2"
+      ],
+      "evidence_excerpts": [
+        "The confidentiality obligations shall survive for five (5) years following the termination of this Agreement."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    },
+    {
+      "finding_id": "legal-ip_ownership-1e106b38",
+      "dimension": "legal",
+      "severity": "HIGH",
+      "title": "Intellectual Property Ownership",
+      "rationale": "The evidence clearly states that all intellectual property rights associated with the Vendor’s products remain the exclusive property of the Vendor, and the Client is granted a limited license to use the firmware and software.",
+      "recommendation": null,
+      "evidence_ids": [
+        "MLA-001-c2"
+      ],
+      "evidence_excerpts": [
+        "All intellectual property rights, including copyrights, patents, trademarks, trade secrets, firmware binaries, source code, configuration files, PCB layouts, circuit diagrams, and proprietary design elements associated with the Vendor’s Hardware Products and Services shall remain the exclusive property of the Vendor."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.95
+    },
+    {
+      "finding_id": "legal-governing_law_disputes-07baf0e3",
+      "dimension": "legal",
+      "severity": "HIGH",
+      "title": "Governing Law and Dispute Resolution",
+      "rationale": "The evidence clearly outlines the governing law and the method for resolving disputes, specifying arbitration as the resolution method and mentioning the governing law as per the SOW.",
+      "recommendation": null,
+      "evidence_ids": [
+        "MLA-001-c3",
+        "MLA-001-c2"
+      ],
+      "evidence_excerpts": [
+        "This Agreement shall be governed by and interpreted in accordance with the laws of the jurisdiction specified in the SOW. Any dispute, controversy, or claim arising out of or relating to this Agreement shall be resolved through arbitration conducted by a panel of three arbitrators in accordance with the governing arbitration rules."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.95
+    }
+  ],
+  "error": null,
+  "retry_count": 0
+}

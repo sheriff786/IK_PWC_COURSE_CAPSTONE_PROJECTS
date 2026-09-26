@@ -1,0 +1,333 @@
+{
+  "doc_count": 15,
+  "topics_probed": [
+    "liability_cap",
+    "indemnification",
+    "termination_for_cause",
+    "termination_for_convenience",
+    "confidentiality_survival",
+    "ip_ownership",
+    "governing_law_disputes",
+    "assignment_change_of_control"
+  ],
+  "totals": {
+    "total_findings": 43,
+    "verified": 43,
+    "failed_verification": 0,
+    "unverified": 0
+  },
+  "per_doc": [
+    {
+      "doc_id": "MLA-001",
+      "success": true,
+      "error": null,
+      "total_findings": 7,
+      "verified": 7,
+      "failed_verification": 0,
+      "unverified": 0,
+      "topics_found": [
+        "confidentiality_survival",
+        "governing_law_disputes",
+        "indemnification",
+        "ip_ownership",
+        "liability_cap",
+        "termination_for_cause",
+        "termination_for_convenience"
+      ],
+      "topics_not_addressed": [
+        "assignment_change_of_control"
+      ]
+    },
+    {
+      "doc_id": "MLA-002",
+      "success": true,
+      "error": null,
+      "total_findings": 7,
+      "verified": 7,
+      "failed_verification": 0,
+      "unverified": 0,
+      "topics_found": [
+        "confidentiality_survival",
+        "governing_law_disputes",
+        "indemnification",
+        "ip_ownership",
+        "liability_cap",
+        "termination_for_cause",
+        "termination_for_convenience"
+      ],
+      "topics_not_addressed": [
+        "assignment_change_of_control"
+      ]
+    },
+    {
+      "doc_id": "MLA-003",
+      "success": true,
+      "error": null,
+      "total_findings": 5,
+      "verified": 5,
+      "failed_verification": 0,
+      "unverified": 0,
+      "topics_found": [
+        "assignment_change_of_control",
+        "confidentiality_survival",
+        "governing_law_disputes",
+        "ip_ownership",
+        "termination_for_cause"
+      ],
+      "topics_not_addressed": [
+        "indemnification",
+        "liability_cap",
+        "termination_for_convenience"
+      ]
+    },
+    {
+      "doc_id": "MLA-004",
+      "success": true,
+      "error": null,
+      "total_findings": 5,
+      "verified": 5,
+      "failed_verification": 0,
+      "unverified": 0,
+      "topics_found": [
+        "assignment_change_of_control",
+        "confidentiality_survival",
+        "governing_law_disputes",
+        "ip_ownership",
+        "termination_for_cause"
+      ],
+      "topics_not_addressed": [
+        "indemnification",
+        "liability_cap",
+        "termination_for_convenience"
+      ]
+    },
+    {
+      "doc_id": "MLA-005",
+      "success": true,
+      "error": null,
+      "total_findings": 1,
+      "verified": 1,
+      "failed_verification": 0,
+      "unverified": 0,
+      "topics_found": [
+        "confidentiality_survival"
+      ],
+      "topics_not_addressed": [
+        "assignment_change_of_control",
+        "governing_law_disputes",
+        "indemnification",
+        "ip_ownership",
+        "liability_cap",
+        "termination_for_cause",
+        "termination_for_convenience"
+      ]
+    },
+    {
+      "doc_id": "MLA-006",
+      "success": true,
+      "error": null,
+      "total_findings": 1,
+      "verified": 1,
+      "failed_verification": 0,
+      "unverified": 0,
+      "topics_found": [
+        "confidentiality_survival"
+      ],
+      "topics_not_addressed": [
+        "assignment_change_of_control",
+        "governing_law_disputes",
+        "indemnification",
+        "ip_ownership",
+        "liability_cap",
+        "termination_for_cause",
+        "termination_for_convenience"
+      ]
+    },
+    {
+      "doc_id": "FIN-001",
+      "success": true,
+      "error": null,
+      "total_findings": 2,
+      "verified": 2,
+      "failed_verification": 0,
+      "unverified": 0,
+      "topics_found": [
+        "governing_law_disputes",
+        "termination_for_convenience"
+      ],
+      "topics_not_addressed": [
+        "assignment_change_of_control",
+        "confidentiality_survival",
+        "indemnification",
+        "ip_ownership",
+        "liability_cap",
+        "termination_for_cause"
+      ]
+    },
+    {
+      "doc_id": "FIN-002",
+      "success": true,
+      "error": null,
+      "total_findings": 2,
+      "verified": 2,
+      "failed_verification": 0,
+      "unverified": 0,
+      "topics_found": [
+        "governing_law_disputes",
+        "termination_for_convenience"
+      ],
+      "topics_not_addressed": [
+        "assignment_change_of_control",
+        "confidentiality_survival",
+        "indemnification",
+        "ip_ownership",
+        "liability_cap",
+        "termination_for_cause"
+      ]
+    },
+    {
+      "doc_id": "FIN-004",
+      "success": true,
+      "error": null,
+      "total_findings": 0,
+      "verified": 0,
+      "failed_verification": 0,
+      "unverified": 0,
+      "topics_found": [],
+      "topics_not_addressed": [
+        "assignment_change_of_control",
+        "confidentiality_survival",
+        "governing_law_disputes",
+        "indemnification",
+        "ip_ownership",
+        "liability_cap",
+        "termination_for_cause",
+        "termination_for_convenience"
+      ]
+    },
+    {
+      "doc_id": "COM-001",
+      "success": true,
+      "error": null,
+      "total_findings": 2,
+      "verified": 2,
+      "failed_verification": 0,
+      "unverified": 0,
+      "topics_found": [
+        "governing_law_disputes",
+        "termination_for_convenience"
+      ],
+      "topics_not_addressed": [
+        "assignment_change_of_control",
+        "confidentiality_survival",
+        "indemnification",
+        "ip_ownership",
+        "liability_cap",
+        "termination_for_cause"
+      ]
+    },
+    {
+      "doc_id": "COM-002",
+      "success": true,
+      "error": null,
+      "total_findings": 3,
+      "verified": 3,
+      "failed_verification": 0,
+      "unverified": 0,
+      "topics_found": [
+        "governing_law_disputes",
+        "ip_ownership",
+        "termination_for_convenience"
+      ],
+      "topics_not_addressed": [
+        "assignment_change_of_control",
+        "confidentiality_survival",
+        "indemnification",
+        "liability_cap",
+        "termination_for_cause"
+      ]
+    },
+    {
+      "doc_id": "NEG-003",
+      "success": true,
+      "error": null,
+      "total_findings": 6,
+      "verified": 6,
+      "failed_verification": 0,
+      "unverified": 0,
+      "topics_found": [
+        "confidentiality_survival",
+        "governing_law_disputes",
+        "indemnification",
+        "liability_cap",
+        "termination_for_cause",
+        "termination_for_convenience"
+      ],
+      "topics_not_addressed": [
+        "assignment_change_of_control",
+        "ip_ownership"
+      ]
+    },
+    {
+      "doc_id": "GOV-004",
+      "success": true,
+      "error": null,
+      "total_findings": 2,
+      "verified": 2,
+      "failed_verification": 0,
+      "unverified": 0,
+      "topics_found": [
+        "termination_for_cause",
+        "termination_for_convenience"
+      ],
+      "topics_not_addressed": [
+        "assignment_change_of_control",
+        "confidentiality_survival",
+        "governing_law_disputes",
+        "indemnification",
+        "ip_ownership",
+        "liability_cap"
+      ]
+    },
+    {
+      "doc_id": "OPS-003",
+      "success": true,
+      "error": null,
+      "total_findings": 0,
+      "verified": 0,
+      "failed_verification": 0,
+      "unverified": 0,
+      "topics_found": [],
+      "topics_not_addressed": [
+        "assignment_change_of_control",
+        "confidentiality_survival",
+        "governing_law_disputes",
+        "indemnification",
+        "ip_ownership",
+        "liability_cap",
+        "termination_for_cause",
+        "termination_for_convenience"
+      ]
+    },
+    {
+      "doc_id": "OPS-004",
+      "success": true,
+      "error": null,
+      "total_findings": 0,
+      "verified": 0,
+      "failed_verification": 0,
+      "unverified": 0,
+      "topics_found": [],
+      "topics_not_addressed": [
+        "assignment_change_of_control",
+        "confidentiality_survival",
+        "governing_law_disputes",
+        "indemnification",
+        "ip_ownership",
+        "liability_cap",
+        "termination_for_cause",
+        "termination_for_convenience"
+      ]
+    }
+  ]
+}

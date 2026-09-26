@@ -1,0 +1,40 @@
+{
+  "dimension": "legal",
+  "success": true,
+  "findings": [
+    {
+      "finding_id": "legal-termination_for_convenience-f5b5f38c",
+      "dimension": "legal",
+      "severity": "MEDIUM",
+      "title": "Termination for Convenience Notice Period",
+      "rationale": "The evidence specifies the notice period required for termination of the agreement without cause.",
+      "recommendation": null,
+      "evidence_ids": [
+        "COM-001-c0"
+      ],
+      "evidence_excerpts": [
+        "Either party may terminate the Agreement by providing 60 days written notice to the other party."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    },
+    {
+      "finding_id": "legal-governing_law_disputes-a19e7c83",
+      "dimension": "legal",
+      "severity": "MEDIUM",
+      "title": "Governing Law and Dispute Resolution",
+      "rationale": "The evidence explicitly outlines the process for dispute resolution and indicates the governing law applicable to the agreement.",
+      "recommendation": null,
+      "evidence_ids": [
+        "COM-001-c0"
+      ],
+      "evidence_excerpts": [
+        "Any dispute arising from this Agreement shall first be addressed through amicable discussions between the parties. If unresolved, the matter shall be referred to arbitration under the Indian Arbitration and Conciliation Act, 1996. The place of arbitration shall be [City, State], India, and the proceedings shall be conducted in English."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    }
+  ],
+  "error": null,
+  "retry_count": 0
+}

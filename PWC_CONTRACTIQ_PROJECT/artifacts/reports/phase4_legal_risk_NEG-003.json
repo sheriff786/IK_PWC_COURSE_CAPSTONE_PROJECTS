@@ -1,0 +1,104 @@
+{
+  "dimension": "legal",
+  "success": true,
+  "findings": [
+    {
+      "finding_id": "legal-liability_cap-4062fba5",
+      "dimension": "legal",
+      "severity": "MEDIUM",
+      "title": "Limitation of Liability",
+      "rationale": "The evidence explicitly states the limitation on the Vendor's liability under the agreement.",
+      "recommendation": null,
+      "evidence_ids": [
+        "NEG-003-c0"
+      ],
+      "evidence_excerpts": [
+        "Vendor’s liability shall not exceed total contract value."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    },
+    {
+      "finding_id": "legal-indemnification-13650b25",
+      "dimension": "legal",
+      "severity": "MEDIUM",
+      "title": "Indemnification Obligations",
+      "rationale": "The evidence specifies the indemnification obligations of the Vendor towards the Client.",
+      "recommendation": null,
+      "evidence_ids": [
+        "NEG-003-c0"
+      ],
+      "evidence_excerpts": [
+        "7.1 Vendor shall indemnify Client for damages arising from Vendor’s gross negligence."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    },
+    {
+      "finding_id": "legal-termination_for_cause-ec6a7cac",
+      "dimension": "legal",
+      "severity": "MEDIUM",
+      "title": "Termination for Cause Conditions",
+      "rationale": "The contract specifies that either party may terminate the agreement on material breach with 60 days’ notice, indicating the conditions under which termination for cause can occur.",
+      "recommendation": null,
+      "evidence_ids": [
+        "NEG-003-c0"
+      ],
+      "evidence_excerpts": [
+        "Either party may terminate on material breach with 60 days’ notice."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    },
+    {
+      "finding_id": "legal-termination_for_convenience-8f2e5413",
+      "dimension": "legal",
+      "severity": "MEDIUM",
+      "title": "Termination for Convenience Notice Period",
+      "rationale": "The evidence specifies the notice period required for termination for convenience.",
+      "recommendation": null,
+      "evidence_ids": [
+        "NEG-003-c0"
+      ],
+      "evidence_excerpts": [
+        "Termination for convenience requires 90 days’ notice with proportional payments for delivered goods."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    },
+    {
+      "finding_id": "legal-confidentiality_survival-4c22e600",
+      "dimension": "legal",
+      "severity": "MEDIUM",
+      "title": "Confidentiality Obligations Survival Duration",
+      "rationale": "The evidence explicitly states the duration for which confidentiality obligations survive after the agreement ends.",
+      "recommendation": null,
+      "evidence_ids": [
+        "NEG-003-c0"
+      ],
+      "evidence_excerpts": [
+        "Confidentiality obligations shall survive termination of this agreement for 3 years."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    },
+    {
+      "finding_id": "legal-governing_law_disputes-e49fdb18",
+      "dimension": "legal",
+      "severity": "MEDIUM",
+      "title": "Governing Law and Dispute Resolution",
+      "rationale": "The evidence specifies the governing law and the method for resolving disputes, indicating that arbitration will be used if amicable resolution fails.",
+      "recommendation": null,
+      "evidence_ids": [
+        "NEG-003-c0"
+      ],
+      "evidence_excerpts": [
+        "9.2 Failing that, disputes shall be referred to arbitration under [Country] Arbitration Act."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    }
+  ],
+  "error": null,
+  "retry_count": 0
+}

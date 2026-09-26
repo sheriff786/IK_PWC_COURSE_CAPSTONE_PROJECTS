@@ -1,0 +1,40 @@
+{
+  "dimension": "legal",
+  "success": true,
+  "findings": [
+    {
+      "finding_id": "legal-termination_for_cause-85f50e1d",
+      "dimension": "legal",
+      "severity": "MEDIUM",
+      "title": "Conditions for Termination for Cause",
+      "rationale": "The contract specifies conditions under which it can be terminated, including the requirement for a 90-day notice and full reconciliation of outstanding invoices and obligations.",
+      "recommendation": null,
+      "evidence_ids": [
+        "GOV-004-c0"
+      ],
+      "evidence_excerpts": [
+        "Early termination: 90-day notice with full reconciliation of outstanding invoices and obligations."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    },
+    {
+      "finding_id": "legal-termination_for_convenience-62eaefaf",
+      "dimension": "legal",
+      "severity": "MEDIUM",
+      "title": "Notice Period for Termination",
+      "rationale": "The evidence specifies the notice period required for early termination of the contract.",
+      "recommendation": null,
+      "evidence_ids": [
+        "GOV-004-c0"
+      ],
+      "evidence_excerpts": [
+        "Early termination: 90-day notice with full reconciliation of outstanding invoices and obligations."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    }
+  ],
+  "error": null,
+  "retry_count": 0
+}

@@ -1,0 +1,120 @@
+{
+  "dimension": "legal",
+  "success": true,
+  "findings": [
+    {
+      "finding_id": "legal-liability_cap-e17d92e6",
+      "dimension": "legal",
+      "severity": "MEDIUM",
+      "title": "Liability Cap and Limitations",
+      "rationale": "The contract specifies limitations on liability, particularly regarding indirect or consequential damages.",
+      "recommendation": null,
+      "evidence_ids": [
+        "MLA-002-c1"
+      ],
+      "evidence_excerpts": [
+        "Except where arising from gross negligence or intentional misconduct, neither Party shall be liable for indirect or consequential damages such as lost revenue, business interruption, or reputational losses."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    },
+    {
+      "finding_id": "legal-indemnification-e2002136",
+      "dimension": "legal",
+      "severity": "MEDIUM",
+      "title": "Indemnification Obligations",
+      "rationale": "The evidence clearly outlines the indemnification obligations of both parties under the agreement, specifying the circumstances under which each party must indemnify the other.",
+      "recommendation": null,
+      "evidence_ids": [
+        "MLA-002-c1"
+      ],
+      "evidence_excerpts": [
+        "The Vendor shall indemnify the Client against third-party claims, damages, or liabilities arising directly from manufacturing defects, faulty workmanship, or negligent acts attributable to the Vendor. The Client shall indemnify the Vendor against claims resulting from misuse of equipment, unauthorized modification of firmware or circuitry, breach of operational guidelines, or negligence by Client personnel."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    },
+    {
+      "finding_id": "legal-termination_for_cause-85485916",
+      "dimension": "legal",
+      "severity": "HIGH",
+      "title": "Termination for Cause Conditions",
+      "rationale": "The evidence specifies conditions under which the agreement can be terminated for cause, including fraud, regulatory non-compliance, severe SLA breaches, or security violations.",
+      "recommendation": null,
+      "evidence_ids": [
+        "MLA-002-c2"
+      ],
+      "evidence_excerpts": [
+        "In cases involving fraud, regulatory non-compliance, severe SLA breaches, or security violations, termination may be executed with immediate effect."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    },
+    {
+      "finding_id": "legal-termination_for_convenience-d273377c",
+      "dimension": "legal",
+      "severity": "MEDIUM",
+      "title": "Termination for Convenience Notice Period",
+      "rationale": "The contract specifies the notice period required for termination without cause, which is ninety days.",
+      "recommendation": null,
+      "evidence_ids": [
+        "MLA-002-c2"
+      ],
+      "evidence_excerpts": [
+        "Either Party may terminate this Agreement by providing ninety days’ prior written notice."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    },
+    {
+      "finding_id": "legal-confidentiality_survival-fa8db7bc",
+      "dimension": "legal",
+      "severity": "MEDIUM",
+      "title": "Confidentiality Obligations Survival Period",
+      "rationale": "The evidence explicitly states the duration for which confidentiality obligations remain in effect after termination of the agreement.",
+      "recommendation": null,
+      "evidence_ids": [
+        "MLA-002-c2"
+      ],
+      "evidence_excerpts": [
+        "These obligations shall remain in effect for five years following termination of this Agreement."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    },
+    {
+      "finding_id": "legal-ip_ownership-a8ad5fd2",
+      "dimension": "legal",
+      "severity": "HIGH",
+      "title": "Intellectual Property Ownership",
+      "rationale": "The evidence clearly states the ownership of intellectual property created under this agreement, specifying that the Vendor retains ownership of all related intellectual property unless a separate transfer agreement is executed.",
+      "recommendation": null,
+      "evidence_ids": [
+        "MLA-002-c2"
+      ],
+      "evidence_excerpts": [
+        "The Vendor shall retain full ownership of all intellectual property relating to device firmware, hardware design, embedded software, diagnostic tools, test scripts, SDKs, schematics, PCB designs, and proprietary algorithms associated with the supplied hardware."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.95
+    },
+    {
+      "finding_id": "legal-governing_law_disputes-f4cd7f08",
+      "dimension": "legal",
+      "severity": "HIGH",
+      "title": "Governing Law and Dispute Resolution",
+      "rationale": "The evidence explicitly states the governing law and the method for resolving disputes, which is arbitration.",
+      "recommendation": null,
+      "evidence_ids": [
+        "MLA-002-c2"
+      ],
+      "evidence_excerpts": [
+        "This Agreement shall be governed by and construed in accordance with the laws of the jurisdiction specified in the relevant SOW or annexure. Any disputes arising out of or related to this Agreement shall be subjected to arbitration before a panel of arbitrators in accordance with governing arbitration procedures."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.95
+    }
+  ],
+  "error": null,
+  "retry_count": 0
+}

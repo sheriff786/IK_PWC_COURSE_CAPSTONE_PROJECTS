@@ -1,0 +1,24 @@
+{
+  "dimension": "legal",
+  "success": true,
+  "findings": [
+    {
+      "finding_id": "legal-confidentiality_survival-d002ac49",
+      "dimension": "legal",
+      "severity": "MEDIUM",
+      "title": "Confidentiality Obligations Survival",
+      "rationale": "The evidence explicitly states the duration for which confidentiality obligations survive after the agreement ends.",
+      "recommendation": null,
+      "evidence_ids": [
+        "MLA-005-c3"
+      ],
+      "evidence_excerpts": [
+        "This confidentiality obligation shall survive termination of this Agreement for a minimum of five years."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    }
+  ],
+  "error": null,
+  "retry_count": 0
+}
