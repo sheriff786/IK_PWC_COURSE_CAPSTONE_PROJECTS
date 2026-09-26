@@ -1,0 +1,135 @@
+{
+  "category_counts": {
+    "commercial_docs": 2,
+    "compliance_docs": 6,
+    "disputes_audits_governance": 4,
+    "financial_billing": 4,
+    "historical_negotiation": 6,
+    "master_agreements": 6,
+    "operational_docs": 4,
+    "transaction_contracts": 4
+  },
+  "parse_success_rate": 1.0,
+  "documents_parsed_ok": 36,
+  "documents_total": 36,
+  "entity_type_distribution": {
+    "clause_term:confidentiality": 166,
+    "percentage": 89,
+    "duration_or_notice_period": 66,
+    "clause_term:sla_terms": 41,
+    "clause_term:ip_terms": 30,
+    "clause_term:indemnification": 13,
+    "clause_term:termination_language": 10,
+    "date:unclassified": 10,
+    "clause_term:liability_terms": 10,
+    "money:invoice_amount": 8,
+    "money:unclassified": 4,
+    "risk_indicator:favorable": 4,
+    "money:agreement_value": 2,
+    "risk_indicator:high_risk": 2,
+    "risk_indicator:medium_risk": 2
+  },
+  "avg_word_count": 861.4,
+  "avg_table_count": 0.8,
+  "avg_section_count": 0.0,
+  "all_word_counts": [
+    497,
+    441,
+    949,
+    816,
+    850,
+    806,
+    761,
+    699,
+    637,
+    971,
+    463,
+    788,
+    411,
+    620,
+    419,
+    406,
+    497,
+    430,
+    591,
+    673,
+    862,
+    709,
+    1999,
+    1780,
+    1666,
+    1963,
+    1991,
+    1746,
+    624,
+    587,
+    440,
+    572,
+    733,
+    764,
+    912,
+    939
+  ],
+  "per_category_averages": {
+    "commercial_docs": {
+      "word_count": 469.0,
+      "table_count": 2.5,
+      "section_count": 0.0,
+      "paragraph_count": 39.5
+    },
+    "compliance_docs": {
+      "word_count": 813.5,
+      "table_count": 0.0,
+      "section_count": 0.0,
+      "paragraph_count": 63.5
+    },
+    "disputes_audits_governance": {
+      "word_count": 714.8,
+      "table_count": 0.0,
+      "section_count": 0.0,
+      "paragraph_count": 58.0
+    },
+    "financial_billing": {
+      "word_count": 464.0,
+      "table_count": 1.8,
+      "section_count": 0.0,
+      "paragraph_count": 47.8
+    },
+    "historical_negotiation": {
+      "word_count": 627.0,
+      "table_count": 0.3,
+      "section_count": 0.0,
+      "paragraph_count": 61.5
+    },
+    "master_agreements": {
+      "word_count": 1857.5,
+      "table_count": 0.0,
+      "section_count": 0.0,
+      "paragraph_count": 30.2
+    },
+    "operational_docs": {
+      "word_count": 555.8,
+      "table_count": 2.2,
+      "section_count": 0.0,
+      "paragraph_count": 62.8
+    },
+    "transaction_contracts": {
+      "word_count": 837.0,
+      "table_count": 1.8,
+      "section_count": 0.0,
+      "paragraph_count": 90.8
+    }
+  },
+  "assessed_agreements_missing_effective_date": [
+    "MLA-001",
+    "MLA-002",
+    "MLA-003",
+    "MLA-004",
+    "MLA-005",
+    "MLA-006",
+    "TXN-001",
+    "TXN-002",
+    "TXN-003",
+    "TXN-004"
+  ]
+}

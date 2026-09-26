@@ -1,0 +1,87 @@
+{
+  "doc_id": "CMP-002",
+  "status": "extracted",
+  "entities": [
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "CMP-002",
+        "kind": "paragraph",
+        "locator": "paragraph:5",
+        "excerpt": "The Vendor and Client mutually agree to comply with all applicable statutory, regulatory, and industry standards as outlined below:"
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "CMP-002",
+        "kind": "paragraph",
+        "locator": "paragraph:7",
+        "excerpt": "b. IT Act and Data Protection Compliance:\nBoth parties shall comply with the Information Technology Act, 2000, and its amendments, ensuring secure handling, storage, and transmission of electronic records. All personally identifiable information (PII) and financial information processed using the Vendor\u2019s hardware shall be protected using industry-standard encryption and access controls. Any breach of confidentiality or data compromise must be reported to the Client and, if required, to the appropriate regulatory authority, within the timelines mandated by law."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "CMP-002",
+        "kind": "paragraph",
+        "locator": "paragraph:8",
+        "excerpt": "c. Security Standards and Frameworks:\nThe Vendor agrees to implement and maintain IT and cybersecurity controls aligned with ISO/IEC 27001, NIST Cybersecurity Framework, and RBI-recommended technology controls. The Client shall have the right to request periodic evidence of compliance, including but not limited to internal audit reports, vulnerability assessments, penetration testing reports, and any third-party certification reports."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "CMP-002",
+        "kind": "paragraph",
+        "locator": "paragraph:12",
+        "excerpt": "Ensure that all electronic hardware supplied is free from malware and meets security requirements mandated by RBI and other regulatory bodies."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "CMP-002",
+        "kind": "paragraph",
+        "locator": "paragraph:28",
+        "excerpt": "All records, logs, and audit reports shall be retained in accordance with regulatory mandates, typically for a period of not less than five (5) years, or longer if required by law."
+      }
+    },
+    {
+      "entity_type": "clause_term:termination_language",
+      "raw_text": "material breach",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "CMP-002",
+        "kind": "paragraph",
+        "locator": "paragraph:31",
+        "excerpt": "The parties acknowledge that hardware systems may store or process sensitive financial and personal information. Both parties agree to maintain confidentiality in accordance with contractual obligations and regulatory requirements. Any third-party engagement relating to hardware support must adhere to the same standards of confidentiality and compliance. Unauthorized disclosure, modification, or destruction of data shall constitute a material breach of this Annexure."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "CMP-002",
+        "kind": "paragraph",
+        "locator": "paragraph:31",
+        "excerpt": "The parties acknowledge that hardware systems may store or process sensitive financial and personal information. Both parties agree to maintain confidentiality in accordance with contractual obligations and regulatory requirements. Any third-party engagement relating to hardware support must adhere to the same standards of confidentiality and compliance. Unauthorized disclosure, modification, or destruction of data shall constitute a material breach of this Annexure."
+      }
+    }
+  ],
+  "clause_count": 31,
+  "table_count": 0,
+  "word_count": 816,
+  "heading_count": 0
+}

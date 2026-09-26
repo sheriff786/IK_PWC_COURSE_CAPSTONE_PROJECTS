@@ -1,0 +1,54 @@
+{
+  "doc_id": "GOV-001",
+  "status": "extracted",
+  "entities": [
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "GOV-001",
+        "kind": "paragraph",
+        "locator": "paragraph:18",
+        "excerpt": "To document lessons learned and recommendations for improvement in future projects."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "GOV-001",
+        "kind": "paragraph",
+        "locator": "paragraph:25",
+        "excerpt": "Financial and Compliance Review: Verification of invoices, service charges, and adherence to regulatory standards for hardware and security systems."
+      }
+    },
+    {
+      "entity_type": "clause_term:sla_terms",
+      "raw_text": "resolution time",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "GOV-001",
+        "kind": "paragraph",
+        "locator": "paragraph:32",
+        "excerpt": "Support Services: Primevolta\u2019s support desk demonstrated responsiveness, with an average ticket resolution time of 3 hours, exceeding contractual SLAs."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "GOV-001",
+        "kind": "paragraph",
+        "locator": "paragraph:35",
+        "excerpt": "6. Recommendations and Lessons Learned"
+      }
+    }
+  ],
+  "clause_count": 39,
+  "table_count": 0,
+  "word_count": 637,
+  "heading_count": 0
+}

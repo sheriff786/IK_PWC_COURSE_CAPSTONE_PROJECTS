@@ -1,0 +1,186 @@
+{
+  "doc_id": "OPS-001",
+  "status": "extracted",
+  "entities": [
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:4",
+        "excerpt": "This report provides a detailed overview of all incidents and problems encountered, managed, and resolved by Primevolta Hardware Solutions for FinSecure Services during November 2025. The objective of this report is to track incident trends, analyze recurring problems, document resolutions, and provide recommendations to prevent recurrence, thereby maintaining high availability and operational efficiency across BFSI hardware systems."
+      }
+    },
+    {
+      "entity_type": "clause_term:sla_terms",
+      "raw_text": "performance metric",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:5",
+        "excerpt": "During this reporting period, 145 incidents were logged, including 12 critical incidents affecting core servers and network infrastructure. The report also includes problem management summaries, root cause analyses, corrective actions, and SLA performance metrics."
+      }
+    },
+    {
+      "entity_type": "clause_term:sla_terms",
+      "raw_text": "resolution time",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:19",
+        "excerpt": "Monitored incident response and resolution times."
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "60%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:24",
+        "excerpt": "Majority of incidents were hardware-related (60%), followed by network issues (25%), and end-user devices (15%)."
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "25%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:24",
+        "excerpt": "Majority of incidents were hardware-related (60%), followed by network issues (25%), and end-user devices (15%)."
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "15%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:24",
+        "excerpt": "Majority of incidents were hardware-related (60%), followed by network issues (25%), and end-user devices (15%)."
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "8%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:25",
+        "excerpt": "Critical incidents accounted for 8% of total tickets but were resolved within SLA."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:43",
+        "excerpt": "Scheduled UPS battery replacement and added redundant circuits for power stability."
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "8%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:50",
+        "excerpt": "Critical Incidents Trend: 8% of total incidents, concentrated on core servers and security appliances."
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "40%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:51",
+        "excerpt": "Recurring Problems: Server disk failures and network latency accounted for 40% of repeated incidents."
+      }
+    },
+    {
+      "entity_type": "clause_term:sla_terms",
+      "raw_text": "resolution time",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:52",
+        "excerpt": "Time to Resolve: Average resolution time was 1.8 hours, meeting SLA targets."
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "88%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:53",
+        "excerpt": "First-Time Resolution Rate: 88%, with remaining 12% requiring escalations or hardware replacement."
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "12%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:53",
+        "excerpt": "First-Time Resolution Rate: 88%, with remaining 12% requiring escalations or hardware replacement."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:57",
+        "excerpt": "7. Observations & Recommendations"
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:62",
+        "excerpt": "Recommendations:"
+      }
+    },
+    {
+      "entity_type": "clause_term:sla_terms",
+      "raw_text": "resolution time",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "OPS-001",
+        "kind": "paragraph",
+        "locator": "paragraph:76",
+        "excerpt": "This report is submitted for review and confirmation by the IT management team at FinSecure Services. Primevolta Hardware Solutions remains committed to reducing incident recurrence, improving resolution times, and ensuring continuous operational excellence."
+      }
+    }
+  ],
+  "clause_count": 70,
+  "table_count": 2,
+  "word_count": 624,
+  "heading_count": 0
+}

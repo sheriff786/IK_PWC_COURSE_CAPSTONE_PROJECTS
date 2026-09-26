@@ -1,0 +1,203 @@
+{
+  "evaluated": 14,
+  "top_k": 5,
+  "recall_at_k": 1.0,
+  "rows": [
+    {
+      "question": "Is there a cap on the vendor's total liability under this agreement?",
+      "category_focus": "liability",
+      "expected_doc_id": "MLA-001",
+      "doc_hit": true,
+      "locator_hit": true,
+      "top_result_doc_ids": [
+        "MLA-001",
+        "MLA-001",
+        "MLA-005",
+        "NEG-003",
+        "NEG-004"
+      ]
+    },
+    {
+      "question": "If the vendor is negligent and damages the client's property, what does the agreement say happens?",
+      "category_focus": "liability",
+      "expected_doc_id": "MLA-001",
+      "doc_hit": true,
+      "locator_hit": true,
+      "top_result_doc_ids": [
+        "MLA-001",
+        "MLA-001",
+        "MLA-001",
+        "TXN-001",
+        "MLA-002"
+      ]
+    },
+    {
+      "question": "Are consequential or indirect damages excluded under this contract?",
+      "category_focus": "liability",
+      "expected_doc_id": "MLA-001",
+      "doc_hit": true,
+      "locator_hit": true,
+      "top_result_doc_ids": [
+        "MLA-001",
+        "MLA-001",
+        "MLA-006",
+        "MLA-004",
+        "MLA-003"
+      ]
+    },
+    {
+      "question": "What is the payment due date or payment term under this agreement?",
+      "category_focus": "payment",
+      "expected_doc_id": "FIN-001",
+      "doc_hit": true,
+      "locator_hit": true,
+      "top_result_doc_ids": [
+        "FIN-001",
+        "FIN-002",
+        "MLA-005",
+        "NEG-003",
+        "NEG-004"
+      ]
+    },
+    {
+      "question": "What happens if an invoice is not paid on time - is there a late fee or interest charge?",
+      "category_focus": "payment",
+      "expected_doc_id": "FIN-001",
+      "doc_hit": true,
+      "locator_hit": true,
+      "top_result_doc_ids": [
+        "FIN-001",
+        "FIN-004",
+        "MLA-005",
+        "FIN-002",
+        "GOV-004"
+      ]
+    },
+    {
+      "question": "What is the total contract value or pricing structure described in this agreement?",
+      "category_focus": "payment",
+      "expected_doc_id": "COM-002",
+      "doc_hit": true,
+      "locator_hit": true,
+      "top_result_doc_ids": [
+        "COM-002",
+        "COM-001",
+        "MLA-006",
+        "MLA-005",
+        "MLA-005"
+      ]
+    },
+    {
+      "question": "Under what conditions can either party terminate this agreement for cause?",
+      "category_focus": "termination",
+      "expected_doc_id": "MLA-001",
+      "doc_hit": true,
+      "locator_hit": true,
+      "top_result_doc_ids": [
+        "MLA-001",
+        "MLA-003",
+        "MLA-004",
+        "MLA-005",
+        "TXN-001"
+      ]
+    },
+    {
+      "question": "What notice period is required to terminate the agreement without cause?",
+      "category_focus": "termination",
+      "expected_doc_id": "MLA-001",
+      "doc_hit": true,
+      "locator_hit": true,
+      "top_result_doc_ids": [
+        "MLA-004",
+        "MLA-003",
+        "MLA-001",
+        "TXN-001",
+        "NEG-003"
+      ]
+    },
+    {
+      "question": "What happens to outstanding obligations or fees upon termination?",
+      "category_focus": "termination",
+      "expected_doc_id": "MLA-002",
+      "doc_hit": true,
+      "locator_hit": true,
+      "top_result_doc_ids": [
+        "MLA-002",
+        "MLA-003",
+        "MLA-004",
+        "CMP-005",
+        "TXN-001"
+      ]
+    },
+    {
+      "question": "What service level or uptime commitment does the vendor make?",
+      "category_focus": "sla",
+      "expected_doc_id": "MLA-001",
+      "doc_hit": true,
+      "locator_hit": true,
+      "top_result_doc_ids": [
+        "MLA-001",
+        "MLA-002",
+        "MLA-002",
+        "CMP-001",
+        "CMP-002"
+      ]
+    },
+    {
+      "question": "What remedy or credit applies if the vendor misses a service level target?",
+      "category_focus": "sla",
+      "expected_doc_id": "MLA-002",
+      "doc_hit": true,
+      "locator_hit": true,
+      "top_result_doc_ids": [
+        "GOV-004",
+        "MLA-002",
+        "MLA-001",
+        "NEG-003",
+        "NEG-004"
+      ]
+    },
+    {
+      "question": "How is service performance measured or reported under this agreement?",
+      "category_focus": "sla",
+      "expected_doc_id": "GOV-004",
+      "doc_hit": true,
+      "locator_hit": true,
+      "top_result_doc_ids": [
+        "GOV-004",
+        "OPS-004",
+        "OPS-003",
+        "GOV-004",
+        "MLA-002"
+      ]
+    },
+    {
+      "question": "How long do confidentiality obligations survive after the agreement ends?",
+      "category_focus": "confidentiality",
+      "expected_doc_id": "MLA-004",
+      "doc_hit": true,
+      "locator_hit": true,
+      "top_result_doc_ids": [
+        "MLA-004",
+        "MLA-003",
+        "MLA-004",
+        "MLA-003",
+        "MLA-003"
+      ]
+    },
+    {
+      "question": "What exceptions exist to the confidentiality obligations (e.g. legally required disclosure)?",
+      "category_focus": "confidentiality",
+      "expected_doc_id": "MLA-004",
+      "doc_hit": true,
+      "locator_hit": true,
+      "top_result_doc_ids": [
+        "MLA-004",
+        "MLA-004",
+        "MLA-003",
+        "MLA-003",
+        "MLA-003"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "doc_id": "CMP-001",
+  "status": "extracted",
+  "entities": [
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "CMP-001",
+        "kind": "paragraph",
+        "locator": "paragraph:5",
+        "excerpt": "a. RBI and SEBI Guidelines:\nThe parties acknowledge the mandatory compliance requirements issued by the Reserve Bank of India (RBI) and, where applicable, the Securities and Exchange Board of India (SEBI) for IT infrastructure and vendor management. The Vendor shall ensure that all hardware meets regulatory standards for operational continuity, business resilience, data security, and reporting. The Client shall provide timely updates regarding changes to guidelines affecting hardware operations."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "CMP-001",
+        "kind": "paragraph",
+        "locator": "paragraph:7",
+        "excerpt": "c. Industry Standards Compliance:\nThe Vendor shall ensure compliance with globally recognized standards such as ISO/IEC 27001 (Information Security Management Systems), ISO/IEC 20000 (IT Service Management), and relevant ITIL practices. The Client shall have the right to verify compliance through evidence such as certification reports, internal audits, or third-party audits."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "CMP-001",
+        "kind": "paragraph",
+        "locator": "paragraph:10",
+        "excerpt": "a. Procurement and Quality Assurance:\nThe Vendor shall procure hardware components that are certified, compliant with Indian regulatory and industry standards, and free from malicious software. Quality assurance processes shall include thorough inspection, testing, and verification of compliance before delivery."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "CMP-001",
+        "kind": "paragraph",
+        "locator": "paragraph:11",
+        "excerpt": "b. Installation and Configuration:\nAll hardware shall be installed according to mutually agreed standard operating procedures (SOPs) ensuring secure network configuration, physical security, and operational readiness. Change management procedures shall be documented, including configuration records and approvals from both parties."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "CMP-001",
+        "kind": "paragraph",
+        "locator": "paragraph:29",
+        "excerpt": "Ensure hardware compliance with applicable Indian regulations and BFSI standards."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "CMP-001",
+        "kind": "paragraph",
+        "locator": "paragraph:36",
+        "excerpt": "Notify Vendor of any changes in operational procedures or regulatory mandates."
+      }
+    },
+    {
+      "entity_type": "clause_term:termination_language",
+      "raw_text": "material breach",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "CMP-001",
+        "kind": "paragraph",
+        "locator": "paragraph:45",
+        "excerpt": "Both parties recognize that hardware systems may process sensitive financial information and personal data. Each party shall implement controls to prevent unauthorized access, leakage, or misuse of such data. Any engagement of third-party support services must comply with the same confidentiality, security, and compliance standards. Breach of confidentiality or improper handling of sensitive data constitutes a material breach of this Annexure."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "CMP-001",
+        "kind": "paragraph",
+        "locator": "paragraph:45",
+        "excerpt": "Both parties recognize that hardware systems may process sensitive financial information and personal data. Each party shall implement controls to prevent unauthorized access, leakage, or misuse of such data. Any engagement of third-party support services must comply with the same confidentiality, security, and compliance standards. Breach of confidentiality or improper handling of sensitive data constitutes a material breach of this Annexure."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "CMP-001",
+        "kind": "paragraph",
+        "locator": "paragraph:48",
+        "excerpt": "This Annexure may be amended to incorporate changes in applicable laws, regulatory guidelines, or industry standards. Any such amendments shall be mutually agreed in writing and shall form an integral part of the MSA."
+      }
+    }
+  ],
+  "clause_count": 44,
+  "table_count": 0,
+  "word_count": 949,
+  "heading_count": 0
+}

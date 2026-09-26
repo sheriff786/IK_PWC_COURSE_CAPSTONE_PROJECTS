@@ -1,0 +1,307 @@
+{
+  "doc_id": "NEG-004",
+  "status": "extracted",
+  "entities": [
+    {
+      "entity_type": "date:unclassified",
+      "raw_text": "March 5, 2024",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-004",
+        "kind": "paragraph",
+        "locator": "paragraph:1",
+        "excerpt": "Agreement Title: Enterprise Hardware and Security Devices Supply Agreement\nDate: March 5, 2024\nParties:"
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-004",
+        "kind": "paragraph",
+        "locator": "paragraph:8",
+        "excerpt": "Client requested explicit reference to compliance with PCI DSS standards."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-004",
+        "kind": "paragraph",
+        "locator": "paragraph:9",
+        "excerpt": "Vendor suggested adding optional disaster recovery hardware, Client requested mandatory inclusion for critical sites."
+      }
+    },
+    {
+      "entity_type": "duration_or_notice_period",
+      "raw_text": "3 weeks",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-004",
+        "kind": "paragraph",
+        "locator": "paragraph:19",
+        "excerpt": "3.1 Vendor shall supply Hardware per Annexure A specifications.\n3.2 Vendor shall conduct integration services and provide 3 weeks of on-site training.\n3.3 Vendor shall implement cybersecurity configurations, including firewall and encryption protocols.\n3.4 Vendor shall provide quarterly preventive maintenance and firmware updates."
+      }
+    },
+    {
+      "entity_type": "duration_or_notice_period",
+      "raw_text": "15 days",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-004",
+        "kind": "paragraph",
+        "locator": "paragraph:21",
+        "excerpt": "Client requested SLA on firmware updates within 15 days of release."
+      }
+    },
+    {
+      "entity_type": "money:agreement_value",
+      "raw_text": "$3,200,000",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-004",
+        "kind": "paragraph",
+        "locator": "paragraph:25",
+        "excerpt": "4.1 Contract Value: $3,200,000 USD.\n4.2 Payment Schedule:"
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "25%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-004",
+        "kind": "paragraph",
+        "locator": "paragraph:26",
+        "excerpt": "25% advance on signing"
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "50%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-004",
+        "kind": "paragraph",
+        "locator": "paragraph:27",
+        "excerpt": "50% upon acceptance of all Hardware"
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "25%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-004",
+        "kind": "paragraph",
+        "locator": "paragraph:28",
+        "excerpt": "25% upon completion of integration and training"
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "3%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-004",
+        "kind": "paragraph",
+        "locator": "paragraph:31",
+        "excerpt": "Vendor offered a 3% early payment discount; Client negotiated 2%."
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "2%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-004",
+        "kind": "paragraph",
+        "locator": "paragraph:31",
+        "excerpt": "Vendor offered a 3% early payment discount; Client negotiated 2%."
+      }
+    },
+    {
+      "entity_type": "duration_or_notice_period",
+      "raw_text": "36 months",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-004",
+        "kind": "paragraph",
+        "locator": "paragraph:34",
+        "excerpt": "5.1 Hardware warranty for 36 months from date of acceptance.\n5.2 On-site technical support within 24 hours for mission-critical devices.\n5.3 Replacement of faulty Hardware within 7 business days."
+      }
+    },
+    {
+      "entity_type": "duration_or_notice_period",
+      "raw_text": "30 days",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-004",
+        "kind": "paragraph",
+        "locator": "paragraph:40",
+        "excerpt": "6.1 Vendor shall ensure all Hardware and services comply with PCI DSS, ISO 27001, and local cybersecurity regulations.\n6.2 Vendor shall provide compliance certification within 30 days of request."
+      }
+    },
+    {
+      "entity_type": "duration_or_notice_period",
+      "raw_text": "5 years",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-004",
+        "kind": "paragraph",
+        "locator": "paragraph:46",
+        "excerpt": "7.1 Vendor and Client shall maintain confidentiality of all sensitive information.\n7.2 Vendor shall encrypt all data transmitted to and from Hardware.\n7.3 Confidentiality obligations continue for 5 years post-termination."
+      }
+    },
+    {
+      "entity_type": "duration_or_notice_period",
+      "raw_text": "5 years",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-004",
+        "kind": "paragraph",
+        "locator": "paragraph:48",
+        "excerpt": "Client requested 5 years (Vendor initially proposed 3 years)."
+      }
+    },
+    {
+      "entity_type": "duration_or_notice_period",
+      "raw_text": "3 years",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-004",
+        "kind": "paragraph",
+        "locator": "paragraph:48",
+        "excerpt": "Client requested 5 years (Vendor initially proposed 3 years)."
+      }
+    },
+    {
+      "entity_type": "clause_term:indemnification",
+      "raw_text": "indemnification",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-004",
+        "kind": "paragraph",
+        "locator": "paragraph:51",
+        "excerpt": "8. Liability and Indemnification"
+      }
+    },
+    {
+      "entity_type": "clause_term:liability_terms",
+      "raw_text": "liability cap",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-004",
+        "kind": "paragraph",
+        "locator": "paragraph:52",
+        "excerpt": "8.1 Vendor shall indemnify Client for claims arising from hardware defects or gross negligence.\n8.2 Vendor\u2019s total liability capped at contract value; excludes indirect or consequential losses.\n8.3 Vendor responsible for data loss caused by Vendor\u2019s equipment malfunction; Client requested explicit inclusion of business interruption coverage."
+      }
+    },
+    {
+      "entity_type": "clause_term:indemnification",
+      "raw_text": "indemnify",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-004",
+        "kind": "paragraph",
+        "locator": "paragraph:52",
+        "excerpt": "8.1 Vendor shall indemnify Client for claims arising from hardware defects or gross negligence.\n8.2 Vendor\u2019s total liability capped at contract value; excludes indirect or consequential losses.\n8.3 Vendor responsible for data loss caused by Vendor\u2019s equipment malfunction; Client requested explicit inclusion of business interruption coverage."
+      }
+    },
+    {
+      "entity_type": "risk_indicator:favorable",
+      "raw_text": "liability cap",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-004",
+        "kind": "paragraph",
+        "locator": "paragraph:52",
+        "excerpt": "8.1 Vendor shall indemnify Client for claims arising from hardware defects or gross negligence.\n8.2 Vendor\u2019s total liability capped at contract value; excludes indirect or consequential losses.\n8.3 Vendor responsible for data loss caused by Vendor\u2019s equipment malfunction; Client requested explicit inclusion of business interruption coverage."
+      }
+    },
+    {
+      "entity_type": "duration_or_notice_period",
+      "raw_text": "4 years",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-004",
+        "kind": "paragraph",
+        "locator": "paragraph:58",
+        "excerpt": "9.1 Term: 4 years from effective date.\n9.2 Either party may terminate for material breach with 60 days\u2019 written notice.\n9.3 Termination for convenience requires 90 days\u2019 notice and payment for delivered and installed Hardware."
+      }
+    },
+    {
+      "entity_type": "duration_or_notice_period",
+      "raw_text": "60 days",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-004",
+        "kind": "paragraph",
+        "locator": "paragraph:58",
+        "excerpt": "9.1 Term: 4 years from effective date.\n9.2 Either party may terminate for material breach with 60 days\u2019 written notice.\n9.3 Termination for convenience requires 90 days\u2019 notice and payment for delivered and installed Hardware."
+      }
+    },
+    {
+      "entity_type": "duration_or_notice_period",
+      "raw_text": "90 days",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-004",
+        "kind": "paragraph",
+        "locator": "paragraph:58",
+        "excerpt": "9.1 Term: 4 years from effective date.\n9.2 Either party may terminate for material breach with 60 days\u2019 written notice.\n9.3 Termination for convenience requires 90 days\u2019 notice and payment for delivered and installed Hardware."
+      }
+    },
+    {
+      "entity_type": "clause_term:termination_language",
+      "raw_text": "material breach",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-004",
+        "kind": "paragraph",
+        "locator": "paragraph:58",
+        "excerpt": "9.1 Term: 4 years from effective date.\n9.2 Either party may terminate for material breach with 60 days\u2019 written notice.\n9.3 Termination for convenience requires 90 days\u2019 notice and payment for delivered and installed Hardware."
+      }
+    },
+    {
+      "entity_type": "risk_indicator:favorable",
+      "raw_text": "termination for convenience",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-004",
+        "kind": "paragraph",
+        "locator": "paragraph:58",
+        "excerpt": "9.1 Term: 4 years from effective date.\n9.2 Either party may terminate for material breach with 60 days\u2019 written notice.\n9.3 Termination for convenience requires 90 days\u2019 notice and payment for delivered and installed Hardware."
+      }
+    },
+    {
+      "entity_type": "duration_or_notice_period",
+      "raw_text": "30 days",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-004",
+        "kind": "paragraph",
+        "locator": "paragraph:61",
+        "excerpt": "Vendor requested settlement of outstanding dues within 30 days post-termination."
+      }
+    },
+    {
+      "entity_type": "clause_term:sla_terms",
+      "raw_text": "service level agreement",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-004",
+        "kind": "paragraph",
+        "locator": "paragraph:70",
+        "excerpt": "Annexure B: Service Level Agreement and Maintenance Schedule"
+      }
+    }
+  ],
+  "clause_count": 62,
+  "table_count": 0,
+  "word_count": 673,
+  "heading_count": 0
+}

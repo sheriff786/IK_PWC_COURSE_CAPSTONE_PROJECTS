@@ -1,0 +1,142 @@
+{
+  "doc_id": "MLA-002",
+  "status": "extracted",
+  "entities": [
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-002",
+        "kind": "paragraph",
+        "locator": "paragraph:7",
+        "excerpt": "The scope of this Agreement extends to a diverse and technologically advanced range of embedded hardware devices engineered for secure financial operations. The Vendor shall supply biometric authentication terminals, smart KYC devices, HSM interfacing modules, payment gateway controller boards, encrypted microcontroller units, secure IoT gateways, transaction authorization devices, branch automation equipment, and any other categories of hardware mutually agreed upon. The services included within the scope comprise installation, integration with banking software, device activation, firmware configuration, security provisioning, encryption module setup, and functional calibration tailored for BFSI workflows. The Vendor shall also undertake the comprehensive management of warranty operations, including device registration, claim verification, diagnosis, repair, spare parts allocation, and re-deployment. Additionally, the Vendor shall operate a managed service ecosystem for remote device telemetry, predictive maintenance analytics, health monitoring, firmware life-cycle management, and operational performance tracking across all Client locations. All such services shall be executed in accordance with industry best practices, statutory guidelines, and technology standards applicable to BFSI infrastructure."
+      }
+    },
+    {
+      "entity_type": "clause_term:sla_terms",
+      "raw_text": "uptime",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-002",
+        "kind": "paragraph",
+        "locator": "paragraph:10",
+        "excerpt": "A formal governance structure shall be maintained throughout the duration of this Agreement to ensure clear communication, timely resolution of issues, and alignment with strategic objectives. The Parties shall constitute a Joint Steering Committee, comprising senior representatives from both organizations, which shall convene periodically to review delivery progress, project milestones, ongoing issues, risk areas, compliance adherence, and roadmap planning. The Vendor shall provide comprehensive documentation packs including device architecture documents, firmware release notes, security certification evidence, and integration guidelines. Routine reporting shall include weekly operational reports, incident summaries, device uptime dashboards, RMA cycle logs, inventory status updates, performance efficiency analyses, and monthly service compliance metrics. Any deviation from agreed timelines, specifications, or quality benchmarks shall be immediately highlighted to the Steering Committee, accompanied by corrective action plans and revised delivery schedules. Both Parties shall maintain collaborative channels for communication, including escalation matrices, technical contact points, decision authorities, and emergency response contacts."
+      }
+    },
+    {
+      "entity_type": "clause_term:sla_terms",
+      "raw_text": "response time",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-002",
+        "kind": "paragraph",
+        "locator": "paragraph:16",
+        "excerpt": "The Vendor shall deliver all managed services in accordance with well-defined service level commitments that reflect the critical nature of financial operations. The Vendor shall ensure that DOA devices are replaced within a period not exceeding forty-eight hours from the time of formal acknowledgement. For devices requiring repairs under RMA, the Vendor shall ensure a complete repair and return cycle within seven to fourteen days depending on device type and parts availability. The Vendor shall offer on-site technical support, with response times tailored to the Client\u2019s geographical distribution: twelve hours for metropolitan locations, twenty-four hours for semi-urban or non-metro regions, and extended timelines for remote sites where travel logistics may necessitate slightly longer response periods. Remote support services shall be available on a continuous basis, enabling proactive monitoring and troubleshooting via telemetry data, firmware diagnostics, and device health analytics."
+      }
+    },
+    {
+      "entity_type": "clause_term:sla_terms",
+      "raw_text": "uptime",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-002",
+        "kind": "paragraph",
+        "locator": "paragraph:17",
+        "excerpt": "The Vendor shall maintain high operational availability standards for critical modules, with uptime expectations extending to ninety-nine percent for HSM-compatible hardware and secure authentication systems. Any disruptions, SLA breaches, or recurring faults shall be systematically recorded, analysed, and escalated in accordance with the defined escalation matrix. The Vendor shall undertake root-cause analysis, document the incident resolutions, and implement preventive actions to eliminate similar occurrences in the future. The Parties may mutually agree on service credits or compensatory remedies in case of repeated or significant SLA deviations."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-002",
+        "kind": "paragraph",
+        "locator": "paragraph:17",
+        "excerpt": "The Vendor shall maintain high operational availability standards for critical modules, with uptime expectations extending to ninety-nine percent for HSM-compatible hardware and secure authentication systems. Any disruptions, SLA breaches, or recurring faults shall be systematically recorded, analysed, and escalated in accordance with the defined escalation matrix. The Vendor shall undertake root-cause analysis, document the incident resolutions, and implement preventive actions to eliminate similar occurrences in the future. The Parties may mutually agree on service credits or compensatory remedies in case of repeated or significant SLA deviations."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-002",
+        "kind": "paragraph",
+        "locator": "paragraph:23",
+        "excerpt": "Recognizing the sensitivity of banking and financial operations, the Vendor agrees to adhere strictly to applicable security frameworks, including but not limited to the RBI Cybersecurity Framework, PCI-DSS guidelines (where relevant for payment-related devices), ISO 27001 principles, and other compliance directives issued by regulatory bodies. All hardware supplied shall incorporate secure boot processes, encryption capabilities, tamper-resistant architecture, and compliance-aligned firmware features conducive to secure BFSI functioning. The Vendor shall cooperate fully in any compliance audits initiated by the Client or mandated by regulators, providing necessary documentation, certification reports, testing evidence, and access to relevant systems or personnel. The Vendor shall maintain detailed logs of firmware releases, vulnerability mitigation activities, device serial number tracking, quality assurance tests, and RMA history for audit purposes. Any security incident or suspected compromise shall be reported to the Client without delay, accompanied by investigative details, mitigation steps, and a structured action plan."
+      }
+    },
+    {
+      "entity_type": "clause_term:indemnification",
+      "raw_text": "indemnification",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-002",
+        "kind": "paragraph",
+        "locator": "paragraph:25",
+        "excerpt": "8. LIABILITY, INDEMNIFICATION, AND INSURANCE COVERAGE"
+      }
+    },
+    {
+      "entity_type": "clause_term:liability_terms",
+      "raw_text": "consequential damages",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-002",
+        "kind": "paragraph",
+        "locator": "paragraph:26",
+        "excerpt": "The Vendor shall maintain appropriate insurance coverage, including product liability insurance, professional indemnity insurance, and transit insurance for shipped goods. The Vendor shall indemnify the Client against third-party claims, damages, or liabilities arising directly from manufacturing defects, faulty workmanship, or negligent acts attributable to the Vendor. The Client shall indemnify the Vendor against claims resulting from misuse of equipment, unauthorized modification of firmware or circuitry, breach of operational guidelines, or negligence by Client personnel. Indemnification obligations shall survive the expiration or termination of this Agreement. Except where arising from gross negligence or intentional misconduct, neither Party shall be liable for indirect or consequential damages such as lost revenue, business interruption, or reputational losses."
+      }
+    },
+    {
+      "entity_type": "clause_term:indemnification",
+      "raw_text": "indemnify",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-002",
+        "kind": "paragraph",
+        "locator": "paragraph:26",
+        "excerpt": "The Vendor shall maintain appropriate insurance coverage, including product liability insurance, professional indemnity insurance, and transit insurance for shipped goods. The Vendor shall indemnify the Client against third-party claims, damages, or liabilities arising directly from manufacturing defects, faulty workmanship, or negligent acts attributable to the Vendor. The Client shall indemnify the Vendor against claims resulting from misuse of equipment, unauthorized modification of firmware or circuitry, breach of operational guidelines, or negligence by Client personnel. Indemnification obligations shall survive the expiration or termination of this Agreement. Except where arising from gross negligence or intentional misconduct, neither Party shall be liable for indirect or consequential damages such as lost revenue, business interruption, or reputational losses."
+      }
+    },
+    {
+      "entity_type": "clause_term:indemnification",
+      "raw_text": "indemnification",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-002",
+        "kind": "paragraph",
+        "locator": "paragraph:26",
+        "excerpt": "The Vendor shall maintain appropriate insurance coverage, including product liability insurance, professional indemnity insurance, and transit insurance for shipped goods. The Vendor shall indemnify the Client against third-party claims, damages, or liabilities arising directly from manufacturing defects, faulty workmanship, or negligent acts attributable to the Vendor. The Client shall indemnify the Vendor against claims resulting from misuse of equipment, unauthorized modification of firmware or circuitry, breach of operational guidelines, or negligence by Client personnel. Indemnification obligations shall survive the expiration or termination of this Agreement. Except where arising from gross negligence or intentional misconduct, neither Party shall be liable for indirect or consequential damages such as lost revenue, business interruption, or reputational losses."
+      }
+    },
+    {
+      "entity_type": "clause_term:ip_terms",
+      "raw_text": "intellectual property",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-002",
+        "kind": "paragraph",
+        "locator": "paragraph:32",
+        "excerpt": "10. INTELLECTUAL PROPERTY RIGHTS AND USAGE LIMITATIONS"
+      }
+    },
+    {
+      "entity_type": "clause_term:ip_terms",
+      "raw_text": "intellectual property",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-002",
+        "kind": "paragraph",
+        "locator": "paragraph:33",
+        "excerpt": "The Vendor shall retain full ownership of all intellectual property relating to device firmware, hardware design, embedded software, diagnostic tools, test scripts, SDKs, schematics, PCB designs, and proprietary algorithms associated with the supplied hardware. The Client shall be granted a restricted and non-transferable license solely for the purpose of operating the devices for its internal business workflows. The Client shall not attempt to reverse engineer, modify, decompile, or otherwise tamper with the Vendor\u2019s intellectual property unless expressly permitted under a separate written agreement. Custom developments undertaken specifically for the Client shall remain the intellectual property of the Vendor unless a separate transfer agreement is executed."
+      }
+    }
+  ],
+  "clause_count": 28,
+  "table_count": 0,
+  "word_count": 1780,
+  "heading_count": 0
+}

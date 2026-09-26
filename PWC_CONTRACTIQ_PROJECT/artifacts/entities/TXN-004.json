@@ -1,0 +1,142 @@
+{
+  "doc_id": "TXN-004",
+  "status": "extracted",
+  "entities": [
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:6",
+        "excerpt": "1.2 The purpose of this SOW is to define the detailed scope, technical specifications, deliverables, timelines, quality standards, acceptance criteria, training, warranties, and risk mitigation measures for the design, manufacture, supply, integration, and maintenance of Secure Hardware Authentication Terminals (HAT-900 Series) for FinSecure Services\u2019 branch offices and corporate operations."
+      }
+    },
+    {
+      "entity_type": "duration_or_notice_period",
+      "raw_text": "5 years",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:27",
+        "excerpt": "Endurance rating: \u22655 years with EEPROM write cycles \u2265100,000"
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:31",
+        "excerpt": "IEC 61000-4-2/4-4/4-5 (EMI/EMC Standards)"
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "100%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:45",
+        "excerpt": "Functional and security testing for 100% of units"
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "1%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:47",
+        "excerpt": "Random destructive testing for 1% of units"
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "0.5%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:81",
+        "excerpt": "Maximum failure rate per batch \u2264 0.5%"
+      }
+    },
+    {
+      "entity_type": "duration_or_notice_period",
+      "raw_text": "18 months",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:85",
+        "excerpt": "5.1 Warranty: 18 months from installation date, covering:"
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "40%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:104",
+        "excerpt": "40% advance on SOW signing"
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "40%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:105",
+        "excerpt": "40% on delivery of Batch 2"
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "20%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:106",
+        "excerpt": "20% on final batch acceptance"
+      }
+    },
+    {
+      "entity_type": "clause_term:ip_terms",
+      "raw_text": "intellectual property",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:120",
+        "excerpt": "9. Intellectual Property & Confidentiality"
+      }
+    },
+    {
+      "entity_type": "clause_term:termination_language",
+      "raw_text": "material breach",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "TXN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:126",
+        "excerpt": "Either Party may terminate this SOW upon 30-day written notice in case of material breach. All delivered and accepted units will be billed, and obligations for confidentiality and IP rights will survive termination."
+      }
+    }
+  ],
+  "clause_count": 117,
+  "table_count": 1,
+  "word_count": 939,
+  "heading_count": 0
+}

@@ -1,0 +1,230 @@
+{
+  "doc_id": "TXN-002",
+  "status": "extracted",
+  "entities": [
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:6",
+        "excerpt": "1.2 The Original Agreement governs the supply of Embedded Processor Boards, Secure Communication Modules, and Cryptographic Controllers. This Renewal ensures continued supply, updated specifications, pricing, quality standards, and risk management measures for an additional two-year period."
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "20%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:11",
+        "excerpt": "2.2 The forecast quantities may vary \u00b120% depending on Client\u2019s operational demand. Vendor must maintain production flexibility and safety stock of 2% of annual forecast to address urgent requirements."
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "2%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:11",
+        "excerpt": "2.2 The forecast quantities may vary \u00b120% depending on Client\u2019s operational demand. Vendor must maintain production flexibility and safety stock of 2% of annual forecast to address urgent requirements."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:12",
+        "excerpt": "2.3 Vendor shall ensure that all units comply with applicable standards:"
+      }
+    },
+    {
+      "entity_type": "duration_or_notice_period",
+      "raw_text": "15 days",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:21",
+        "excerpt": "3.1 Monthly batch deliveries are preferred. Vendor shall provide a Delivery Schedule within 15 days of the beginning of each quarter."
+      }
+    },
+    {
+      "entity_type": "duration_or_notice_period",
+      "raw_text": "21 days",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:23",
+        "excerpt": "Standard Units: 21 days from order confirmation"
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:23",
+        "excerpt": "Standard Units: 21 days from order confirmation"
+      }
+    },
+    {
+      "entity_type": "duration_or_notice_period",
+      "raw_text": "45 days",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:24",
+        "excerpt": "Custom Configurations: 30\u201345 days"
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "30%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:34",
+        "excerpt": "30% advance per batch"
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "60%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:35",
+        "excerpt": "60% upon delivery to Client\u2019s facility"
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "10%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:36",
+        "excerpt": "10% after QC acceptance"
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "8%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:39",
+        "excerpt": "Any material change in raw material cost beyond 8% requires mutual written agreement for price adjustment."
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "100%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:43",
+        "excerpt": "Functional tests for 100% of units"
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "1%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:45",
+        "excerpt": "Random destructive testing: 1% of units per batch"
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "0.8%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:50",
+        "excerpt": "\u22640.8% failure rate per batch"
+      }
+    },
+    {
+      "entity_type": "duration_or_notice_period",
+      "raw_text": "18 months",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:61",
+        "excerpt": "18 months from delivery date"
+      }
+    },
+    {
+      "entity_type": "clause_term:ip_terms",
+      "raw_text": "intellectual property",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:75",
+        "excerpt": "9. Intellectual Property & Confidentiality"
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "confidential information",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:78",
+        "excerpt": "9.3 All confidential information, including designs, specifications, and batch reports, shall remain confidential per MSA terms."
+      }
+    },
+    {
+      "entity_type": "clause_term:sla_terms",
+      "raw_text": "service level agreement",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:80",
+        "excerpt": "10. Performance & Service Level Agreements (SLA)"
+      }
+    },
+    {
+      "entity_type": "duration_or_notice_period",
+      "raw_text": "90 days",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "TXN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:84",
+        "excerpt": "11.1 Either Party may terminate this Renewal with 90 days written notice if the other Party materially breaches any obligations."
+      }
+    }
+  ],
+  "clause_count": 81,
+  "table_count": 3,
+  "word_count": 764,
+  "heading_count": 0
+}

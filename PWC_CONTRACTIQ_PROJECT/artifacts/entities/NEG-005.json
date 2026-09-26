@@ -1,0 +1,263 @@
+{
+  "doc_id": "NEG-005",
+  "status": "extracted",
+  "entities": [
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:5",
+        "excerpt": "The negotiation context is particularly sensitive due to the nature of the BFSI industry, where regulatory compliance, data security, and financial liability are paramount. The risk assessment serves multiple purposes: (a) identification of potential legal and operational exposures, (b) formulation of mitigation strategies, (c) alignment with FinSecure\u2019s internal risk and compliance policies, and (d) preparation of detailed recommendations for contractual clauses."
+      }
+    },
+    {
+      "entity_type": "clause_term:ip_terms",
+      "raw_text": "intellectual property",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:6",
+        "excerpt": "PrimeVolta initially submitted a proposed contract draft that outlined the scope of supply, pricing, warranties, delivery schedules, intellectual property warranties, and compliance commitments. FinSecure\u2019s legal and commercial teams conducted a multi-stage review, highlighting risks in four key areas: legal, regulatory, financial/commercial, and operational. This document consolidates those findings and the recommended mitigation measures."
+      }
+    },
+    {
+      "entity_type": "clause_term:ip_terms",
+      "raw_text": "intellectual property",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:9",
+        "excerpt": "2.1 Intellectual Property (IP) Risks"
+      }
+    },
+    {
+      "entity_type": "clause_term:ip_terms",
+      "raw_text": "patent",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:11",
+        "excerpt": "Third-party software integration: Devices include modules licensed from third-party vendors. Failure to secure proper sublicenses could expose FinSecure to claims of patent or copyright infringement."
+      }
+    },
+    {
+      "entity_type": "clause_term:ip_terms",
+      "raw_text": "copyright",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:11",
+        "excerpt": "Third-party software integration: Devices include modules licensed from third-party vendors. Failure to secure proper sublicenses could expose FinSecure to claims of patent or copyright infringement."
+      }
+    },
+    {
+      "entity_type": "clause_term:indemnification",
+      "raw_text": "indemnification",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:13",
+        "excerpt": "Mitigation: Legal teams recommended a comprehensive IP warranty clause, indemnification for infringement claims, and periodic verification of all software and hardware licenses."
+      }
+    },
+    {
+      "entity_type": "clause_term:indemnification",
+      "raw_text": "indemnification",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:16",
+        "excerpt": "2.2 Liability and Indemnification"
+      }
+    },
+    {
+      "entity_type": "clause_term:liability_terms",
+      "raw_text": "unlimited liability",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:20",
+        "excerpt": "Scope of liability: PrimeVolta initially proposed capping liability at the contract value, which FinSecure\u2019s legal team rejected, requesting unlimited liability for gross negligence, willful misconduct, and IP infringement."
+      }
+    },
+    {
+      "entity_type": "risk_indicator:high_risk",
+      "raw_text": "unlimited liability",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:20",
+        "excerpt": "Scope of liability: PrimeVolta initially proposed capping liability at the contract value, which FinSecure\u2019s legal team rejected, requesting unlimited liability for gross negligence, willful misconduct, and IP infringement."
+      }
+    },
+    {
+      "entity_type": "clause_term:liability_terms",
+      "raw_text": "consequential damages",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:21",
+        "excerpt": "Negotiation Insight: It was agreed that indirect and consequential damages would be capped to prevent excessive financial exposure, while exceptions would ensure accountability for critical failures."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:29",
+        "excerpt": "Non-compliant supply chain: Subcontractors may not adhere to cybersecurity or privacy standards."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:39",
+        "excerpt": "Regulatory violations: Breach of mandatory guidelines or discovery of non-compliance."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:49",
+        "excerpt": "Mitigation Recommendations:"
+      }
+    },
+    {
+      "entity_type": "duration_or_notice_period",
+      "raw_text": "12 months",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:50",
+        "excerpt": "Fixed pricing for 12 months with quarterly review tied to semiconductor market indices."
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "30%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:51",
+        "excerpt": "Payment structure: 30% advance, 50% on milestone delivery, 20% on final acceptance."
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "50%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:51",
+        "excerpt": "Payment structure: 30% advance, 50% on milestone delivery, 20% on final acceptance."
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "20%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:51",
+        "excerpt": "Payment structure: 30% advance, 50% on milestone delivery, 20% on final acceptance."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:57",
+        "excerpt": "Mitigation Recommendations:"
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:63",
+        "excerpt": "Recommendations:"
+      }
+    },
+    {
+      "entity_type": "duration_or_notice_period",
+      "raw_text": "24 months",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:64",
+        "excerpt": "Extend warranty to 24 months."
+      }
+    },
+    {
+      "entity_type": "clause_term:sla_terms",
+      "raw_text": "response time",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:65",
+        "excerpt": "24/7 technical support with defined response times: critical issues within 4 hours, non-critical within 48 hours."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:73",
+        "excerpt": "NDAs covering all employees, subcontractors, and consultants."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-005",
+        "kind": "paragraph",
+        "locator": "paragraph:77",
+        "excerpt": "4. Risk Mitigation Recommendations"
+      }
+    }
+  ],
+  "clause_count": 79,
+  "table_count": 1,
+  "word_count": 862,
+  "heading_count": 0
+}

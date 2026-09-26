@@ -1,0 +1,87 @@
+{
+  "doc_id": "CMP-005",
+  "status": "extracted",
+  "entities": [
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:4",
+        "excerpt": "The purpose of this Vendor Management Policy is to establish a structured approach for evaluating, onboarding, monitoring, and managing vendors engaged by Primevolta Hardware Solutions. This policy ensures that all third-party relationships support the organization\u2019s strategic objectives, comply with applicable regulations, and maintain high standards of security, quality, and operational integrity. Given our engagement with BFSI clients such as FinSecure Services, strict adherence to this policy is mandatory to safeguard sensitive financial and customer data, ensure regulatory compliance, and mitigate operational, reputational, and legal risks."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:43",
+        "excerpt": "Compliance obligations (e.g., regulatory, security, and privacy standards)"
+      }
+    },
+    {
+      "entity_type": "clause_term:sla_terms",
+      "raw_text": "service level agreement",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:44",
+        "excerpt": "Service Level Agreements (SLAs) and Key Performance Indicators (KPIs)"
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:49",
+        "excerpt": "Performance Monitoring: Regular review of KPIs, SLA adherence, delivery timelines, and quality standards."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:50",
+        "excerpt": "Compliance Audits: Verification of adherence to contractual obligations, information security standards, and regulatory requirements."
+      }
+    },
+    {
+      "entity_type": "clause_term:ip_terms",
+      "raw_text": "intellectual property",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:58",
+        "excerpt": "Transfer of assets, documentation, or intellectual property"
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "CMP-005",
+        "kind": "paragraph",
+        "locator": "paragraph:66",
+        "excerpt": "Vendors: Must comply with all contractual obligations, security requirements, and regulatory standards."
+      }
+    }
+  ],
+  "clause_count": 64,
+  "table_count": 0,
+  "word_count": 761,
+  "heading_count": 0
+}

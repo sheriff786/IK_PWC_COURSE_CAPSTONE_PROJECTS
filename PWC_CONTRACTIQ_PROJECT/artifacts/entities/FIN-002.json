@@ -1,0 +1,109 @@
+{
+  "doc_id": "FIN-002",
+  "status": "extracted",
+  "entities": [
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:16",
+        "excerpt": "3.1 Standard Billing:"
+      }
+    },
+    {
+      "entity_type": "money:invoice_amount",
+      "raw_text": "INR 5,00,000,",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:18",
+        "excerpt": "Delivery-Based Billing: For one-time supply orders exceeding INR 5,00,000, invoices will be issued upon confirmed delivery to the Client\u2019s site(s)."
+      }
+    },
+    {
+      "entity_type": "money:unclassified",
+      "raw_text": "INR 50,00,000",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:19",
+        "excerpt": "3.2 Staged / Milestone Billing:\nFor projects involving multiple sites or large-scale deployments exceeding INR 50,00,000:"
+      }
+    },
+    {
+      "entity_type": "duration_or_notice_period",
+      "raw_text": "30 calendar days",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:21",
+        "excerpt": "Standard credit period: 30 calendar days from invoice date."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:21",
+        "excerpt": "Standard credit period: 30 calendar days from invoice date."
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "1.5%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:22",
+        "excerpt": "Late payment penalty: 1.5% per month on overdue amounts."
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "20%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:23",
+        "excerpt": "Advance payments will not exceed 20% of total PO unless mutually agreed in writing."
+      }
+    },
+    {
+      "entity_type": "duration_or_notice_period",
+      "raw_text": "90 days",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:37",
+        "excerpt": "Credit notes are valid for 90 days from the date of issuance unless otherwise agreed."
+      }
+    },
+    {
+      "entity_type": "duration_or_notice_period",
+      "raw_text": "30 days",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "FIN-002",
+        "kind": "paragraph",
+        "locator": "paragraph:67",
+        "excerpt": "Either party may terminate the agreement with 30 days\u2019 notice, without affecting outstanding invoices or milestones."
+      }
+    }
+  ],
+  "clause_count": 63,
+  "table_count": 2,
+  "word_count": 620,
+  "heading_count": 0
+}

@@ -1,0 +1,307 @@
+{
+  "doc_id": "MLA-001",
+  "status": "extracted",
+  "entities": [
+    {
+      "entity_type": "clause_term:sla_terms",
+      "raw_text": "service level agreement",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-001",
+        "kind": "paragraph",
+        "locator": "paragraph:4",
+        "excerpt": "For the purposes of this Master Services Agreement (\u201cAgreement\u201d), the following terms shall carry the meanings assigned to them herein. \u201cAgreement\u201d refers to this comprehensive contractual document, including all annexures, exhibits, Statements of Work (SOWs), Service Level Agreements (SLAs), Rate Cards, amendments, addenda, and written modifications mutually executed by both Parties. \u201cHardware Products\u201d denotes the complete range of electronic, electromechanical, and embedded devices, components, accessories, and associated materials manufactured, assembled, or supplied by PrimeVolta Hardware Solutions, including but not limited to biometric devices, IoT gateways, controllers, processing units, security modules, networking boards, and any peripherals or consumables that accompany such devices. \u201cServices\u201d refers to the full suite of operational, technical, professional, maintenance, repair, deployment, commissioning, and support-related activities provided by the Vendor, encompassing on-site and remote assistance, firmware updating, system integration, device testing, incident management, logistics handling, and any consultancy or advisory tasks that form part of the contractual deliverables. \u201cStatement of Work\u201d or \u201cSOW\u201d refers to a detailed document signed between the Parties specifying the exact scope, milestones, schedules, pricing, roles, responsibilities, and deliverables for each project or service engagement executed under this Agreement. \u201cConfidential Information\u201d includes all proprietary, sensitive, technical, financial, legal, commercial, regulatory, strategic, and operational information exchanged in any form, whether written, electronic, verbal, or otherwise, and includes device schematics, customer details, deployment architectures, API documents, pricing components, and workflow processes. \u201cRMA\u201d or \u201cReturn Material Authorization\u201d means the complete reverse logistics and repair workflow associated with defective or damaged Hardware Products covered under warranty or AMC. All other terms not explicitly defined herein shall be interpreted in accordance with standard industry practice within the technical hardware manufacturing and BFSI services environment."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "confidential information",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-001",
+        "kind": "paragraph",
+        "locator": "paragraph:4",
+        "excerpt": "For the purposes of this Master Services Agreement (\u201cAgreement\u201d), the following terms shall carry the meanings assigned to them herein. \u201cAgreement\u201d refers to this comprehensive contractual document, including all annexures, exhibits, Statements of Work (SOWs), Service Level Agreements (SLAs), Rate Cards, amendments, addenda, and written modifications mutually executed by both Parties. \u201cHardware Products\u201d denotes the complete range of electronic, electromechanical, and embedded devices, components, accessories, and associated materials manufactured, assembled, or supplied by PrimeVolta Hardware Solutions, including but not limited to biometric devices, IoT gateways, controllers, processing units, security modules, networking boards, and any peripherals or consumables that accompany such devices. \u201cServices\u201d refers to the full suite of operational, technical, professional, maintenance, repair, deployment, commissioning, and support-related activities provided by the Vendor, encompassing on-site and remote assistance, firmware updating, system integration, device testing, incident management, logistics handling, and any consultancy or advisory tasks that form part of the contractual deliverables. \u201cStatement of Work\u201d or \u201cSOW\u201d refers to a detailed document signed between the Parties specifying the exact scope, milestones, schedules, pricing, roles, responsibilities, and deliverables for each project or service engagement executed under this Agreement. \u201cConfidential Information\u201d includes all proprietary, sensitive, technical, financial, legal, commercial, regulatory, strategic, and operational information exchanged in any form, whether written, electronic, verbal, or otherwise, and includes device schematics, customer details, deployment architectures, API documents, pricing components, and workflow processes. \u201cRMA\u201d or \u201cReturn Material Authorization\u201d means the complete reverse logistics and repair workflow associated with defective or damaged Hardware Products covered under warranty or AMC. All other terms not explicitly defined herein shall be interpreted in accordance with standard industry practice within the technical hardware manufacturing and BFSI services environment."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-001",
+        "kind": "paragraph",
+        "locator": "paragraph:4",
+        "excerpt": "For the purposes of this Master Services Agreement (\u201cAgreement\u201d), the following terms shall carry the meanings assigned to them herein. \u201cAgreement\u201d refers to this comprehensive contractual document, including all annexures, exhibits, Statements of Work (SOWs), Service Level Agreements (SLAs), Rate Cards, amendments, addenda, and written modifications mutually executed by both Parties. \u201cHardware Products\u201d denotes the complete range of electronic, electromechanical, and embedded devices, components, accessories, and associated materials manufactured, assembled, or supplied by PrimeVolta Hardware Solutions, including but not limited to biometric devices, IoT gateways, controllers, processing units, security modules, networking boards, and any peripherals or consumables that accompany such devices. \u201cServices\u201d refers to the full suite of operational, technical, professional, maintenance, repair, deployment, commissioning, and support-related activities provided by the Vendor, encompassing on-site and remote assistance, firmware updating, system integration, device testing, incident management, logistics handling, and any consultancy or advisory tasks that form part of the contractual deliverables. \u201cStatement of Work\u201d or \u201cSOW\u201d refers to a detailed document signed between the Parties specifying the exact scope, milestones, schedules, pricing, roles, responsibilities, and deliverables for each project or service engagement executed under this Agreement. \u201cConfidential Information\u201d includes all proprietary, sensitive, technical, financial, legal, commercial, regulatory, strategic, and operational information exchanged in any form, whether written, electronic, verbal, or otherwise, and includes device schematics, customer details, deployment architectures, API documents, pricing components, and workflow processes. \u201cRMA\u201d or \u201cReturn Material Authorization\u201d means the complete reverse logistics and repair workflow associated with defective or damaged Hardware Products covered under warranty or AMC. All other terms not explicitly defined herein shall be interpreted in accordance with standard industry practice within the technical hardware manufacturing and BFSI services environment."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-001",
+        "kind": "paragraph",
+        "locator": "paragraph:7",
+        "excerpt": "The scope of services covered under this Agreement encompasses the comprehensive supply, delivery, installation, commissioning, maintenance, and long-term operational support of the Vendor\u2019s hardware products for the Client\u2019s BFSI operational ecosystem. The Vendor shall design, configure, manufacture, assemble, inspect, test, pack, and deliver Hardware Products in accordance with the Client-approved specifications, ensuring adherence to quality benchmarks, regulatory norms, and technical standards mandated for banking and financial service infrastructures. The Vendor shall further undertake all required installation and commissioning activities, including integration with the Client\u2019s existing infrastructure, software systems, and network layers, ensuring seamless compatibility and secure operational performance. The Services also include ongoing preventive and corrective maintenance executed at regular intervals or upon demand, involving systematic inspections, device calibration, diagnostics, troubleshooting, replacement of faulty components, and execution of corrective measures necessary to restore systems to optimal operating condition."
+      }
+    },
+    {
+      "entity_type": "clause_term:sla_terms",
+      "raw_text": "uptime",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-001",
+        "kind": "paragraph",
+        "locator": "paragraph:8",
+        "excerpt": "Additionally, the Vendor shall provide dependable technical support encompassing a multi-tiered escalation model through remote and on-site channels, ensuring continuous updates, firmware compatibility management, log analysis, root-cause identification, and advisory support to enhance uptime and performance. The Vendor shall also assist with process documentation, user training, compliance audits, and any form of professional consultation required for the successful deployment and lifecycle management of the hardware. All services shall be rendered in a manner that respects the sensitive nature of BFSI operations and ensures data integrity, reliability, and operational security throughout the engagement."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-001",
+        "kind": "paragraph",
+        "locator": "paragraph:8",
+        "excerpt": "Additionally, the Vendor shall provide dependable technical support encompassing a multi-tiered escalation model through remote and on-site channels, ensuring continuous updates, firmware compatibility management, log analysis, root-cause identification, and advisory support to enhance uptime and performance. The Vendor shall also assist with process documentation, user training, compliance audits, and any form of professional consultation required for the successful deployment and lifecycle management of the hardware. All services shall be rendered in a manner that respects the sensitive nature of BFSI operations and ensures data integrity, reliability, and operational security throughout the engagement."
+      }
+    },
+    {
+      "entity_type": "clause_term:ip_terms",
+      "raw_text": "intellectual property",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-001",
+        "kind": "paragraph",
+        "locator": "paragraph:12",
+        "excerpt": "Furthermore, the Client may temporarily suspend or terminate services with immediate effect if the Vendor\u2019s activities pose imminent risk to security, compliance, or ongoing financial operations. Upon termination, the Vendor shall complete any active service requests, hand over all data, configurations, and documentation to the Client, return any Client-owned property, retrieve Vendor-owned materials in possession of the Client, and submit the final invoice for settlement. All rights, responsibilities, and obligations that by their nature must survive termination\u2014such as confidentiality, indemnity, and intellectual property clauses\u2014shall continue to remain in full force."
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "1%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-001",
+        "kind": "paragraph",
+        "locator": "paragraph:16",
+        "excerpt": "The Client shall make payments within forty-five (45) days from the date of receipt of the completed invoice, subject to validation and reconciliation. Any disputed component of an invoice must be notified to the Vendor within seven (7) days from the date of invoice receipt, and both Parties shall cooperate in resolving such disputes expeditiously. Delay in invoice settlement beyond the stipulated period shall attract an interest charge of one percent (1%) per month until full payment is made. The Vendor reserves the right to temporarily suspend services in case of repeated delays or non-payment exceeding sixty (60) days. Taxes such as GST or any statutory duties shall be borne by the Client unless otherwise specified."
+      }
+    },
+    {
+      "entity_type": "clause_term:sla_terms",
+      "raw_text": "service level agreement",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-001",
+        "kind": "paragraph",
+        "locator": "paragraph:18",
+        "excerpt": "5. SERVICE LEVEL AGREEMENT"
+      }
+    },
+    {
+      "entity_type": "clause_term:sla_terms",
+      "raw_text": "service level agreement",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-001",
+        "kind": "paragraph",
+        "locator": "paragraph:19",
+        "excerpt": "The Parties agree that consistent service performance is critical to the continuity of BFSI operations; therefore, a detailed Service Level Agreement (SLA) forms an integral part of this engagement. All incidents reported shall be classified by severity, with Critical incidents being those that completely halt financial or security operations, High severity incidents that substantially degrade performance, Medium severity issues causing moderate functional interruptions, and Low severity issues referring to non-impacting or cosmetic discrepancies. The Vendor shall acknowledge incidents within timelines proportionate to their severity, ensuring that Critical incidents are acknowledged within minutes and attended to immediately."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-001",
+        "kind": "paragraph",
+        "locator": "paragraph:20",
+        "excerpt": "The Vendor commits to resolving Critical incidents within four hours, High severity incidents within eight hours, Medium severity incidents within one business day, and Low severity incidents within seventy-two hours. The Vendor shall furnish weekly and monthly performance reports summarizing incidents, resolutions, SLA compliance, bottlenecks, and recommendations for improvement. Continued failure to meet SLA commitments may result in service credits or financial penalties as detailed in the Rate Card or annexures. Such penalties shall not relieve the Vendor from its obligation to deliver the Services diligently and promptly."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-001",
+        "kind": "paragraph",
+        "locator": "paragraph:23",
+        "excerpt": "The Vendor warrants that all Hardware Products supplied under this Agreement shall be free from defects in materials and workmanship for the applicable warranty duration communicated through the SOW or Rate Card. The Vendor further warrants that Services will be performed with reasonable skill, professional competence, technical accuracy, and due care consistent with established industry standards. Devices found defective during the warranty period shall be repaired or replaced by the Vendor at no additional cost. Dead-on-arrival devices shall be replaced immediately upon notification."
+      }
+    },
+    {
+      "entity_type": "clause_term:ip_terms",
+      "raw_text": "intellectual property",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-001",
+        "kind": "paragraph",
+        "locator": "paragraph:26",
+        "excerpt": "7. INTELLECTUAL PROPERTY"
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "trade secret",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-001",
+        "kind": "paragraph",
+        "locator": "paragraph:27",
+        "excerpt": "All intellectual property rights, including copyrights, patents, trademarks, trade secrets, firmware binaries, source code, configuration files, PCB layouts, circuit diagrams, and proprietary design elements associated with the Vendor\u2019s Hardware Products and Services shall remain the exclusive property of the Vendor. The Client is granted a non-exclusive, non-transferable, non-sublicensable license to use the firmware and software strictly for operating the devices supplied under this Agreement. No intellectual property rights are transferred except those expressly stated herein."
+      }
+    },
+    {
+      "entity_type": "clause_term:ip_terms",
+      "raw_text": "intellectual property",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-001",
+        "kind": "paragraph",
+        "locator": "paragraph:27",
+        "excerpt": "All intellectual property rights, including copyrights, patents, trademarks, trade secrets, firmware binaries, source code, configuration files, PCB layouts, circuit diagrams, and proprietary design elements associated with the Vendor\u2019s Hardware Products and Services shall remain the exclusive property of the Vendor. The Client is granted a non-exclusive, non-transferable, non-sublicensable license to use the firmware and software strictly for operating the devices supplied under this Agreement. No intellectual property rights are transferred except those expressly stated herein."
+      }
+    },
+    {
+      "entity_type": "clause_term:ip_terms",
+      "raw_text": "patent",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-001",
+        "kind": "paragraph",
+        "locator": "paragraph:27",
+        "excerpt": "All intellectual property rights, including copyrights, patents, trademarks, trade secrets, firmware binaries, source code, configuration files, PCB layouts, circuit diagrams, and proprietary design elements associated with the Vendor\u2019s Hardware Products and Services shall remain the exclusive property of the Vendor. The Client is granted a non-exclusive, non-transferable, non-sublicensable license to use the firmware and software strictly for operating the devices supplied under this Agreement. No intellectual property rights are transferred except those expressly stated herein."
+      }
+    },
+    {
+      "entity_type": "clause_term:ip_terms",
+      "raw_text": "copyright",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-001",
+        "kind": "paragraph",
+        "locator": "paragraph:27",
+        "excerpt": "All intellectual property rights, including copyrights, patents, trademarks, trade secrets, firmware binaries, source code, configuration files, PCB layouts, circuit diagrams, and proprietary design elements associated with the Vendor\u2019s Hardware Products and Services shall remain the exclusive property of the Vendor. The Client is granted a non-exclusive, non-transferable, non-sublicensable license to use the firmware and software strictly for operating the devices supplied under this Agreement. No intellectual property rights are transferred except those expressly stated herein."
+      }
+    },
+    {
+      "entity_type": "clause_term:ip_terms",
+      "raw_text": "trademark",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-001",
+        "kind": "paragraph",
+        "locator": "paragraph:27",
+        "excerpt": "All intellectual property rights, including copyrights, patents, trademarks, trade secrets, firmware binaries, source code, configuration files, PCB layouts, circuit diagrams, and proprietary design elements associated with the Vendor\u2019s Hardware Products and Services shall remain the exclusive property of the Vendor. The Client is granted a non-exclusive, non-transferable, non-sublicensable license to use the firmware and software strictly for operating the devices supplied under this Agreement. No intellectual property rights are transferred except those expressly stated herein."
+      }
+    },
+    {
+      "entity_type": "clause_term:ip_terms",
+      "raw_text": "intellectual property",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-001",
+        "kind": "paragraph",
+        "locator": "paragraph:28",
+        "excerpt": "The Client shall not, either directly or indirectly, reverse engineer, disassemble, decompile, modify, or reproduce any firmware or intellectual property associated with the Vendor\u2019s products unless permitted through a separate written agreement. Any custom developments or enhancements made specifically for the Client shall also remain the Vendor\u2019s intellectual property unless otherwise agreed in writing."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "confidential information",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-001",
+        "kind": "paragraph",
+        "locator": "paragraph:31",
+        "excerpt": "Both Parties acknowledge that they will gain access to sensitive, proprietary, and confidential information during the course of this engagement. Each Party agrees to maintain strict confidentiality and to ensure that such information is stored, handled, transmitted, and processed with diligence and robust security practices befitting BFSI standards. Confidential Information shall be used solely for fulfilling obligations under this Agreement and shall not be disclosed to any third party except employees, subcontractors, or agents who have a demonstrable need to know and are bound by equivalent confidentiality obligations."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-001",
+        "kind": "paragraph",
+        "locator": "paragraph:31",
+        "excerpt": "Both Parties acknowledge that they will gain access to sensitive, proprietary, and confidential information during the course of this engagement. Each Party agrees to maintain strict confidentiality and to ensure that such information is stored, handled, transmitted, and processed with diligence and robust security practices befitting BFSI standards. Confidential Information shall be used solely for fulfilling obligations under this Agreement and shall not be disclosed to any third party except employees, subcontractors, or agents who have a demonstrable need to know and are bound by equivalent confidentiality obligations."
+      }
+    },
+    {
+      "entity_type": "clause_term:indemnification",
+      "raw_text": "indemnification",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-001",
+        "kind": "paragraph",
+        "locator": "paragraph:34",
+        "excerpt": "9. INDEMNIFICATION"
+      }
+    },
+    {
+      "entity_type": "clause_term:indemnification",
+      "raw_text": "indemnify",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-001",
+        "kind": "paragraph",
+        "locator": "paragraph:35",
+        "excerpt": "The Vendor agrees to indemnify and defend the Client against any third-party claims, damages, losses, liabilities, or expenses arising from product defects, workmanship deficiencies, or bodily injury caused solely by the Vendor\u2019s Hardware Products when used as intended. The Client agrees to indemnify the Vendor against claims arising from improper handling, misuse, alteration of devices, or any actions taken by the Client that deviate from the operational guidelines provided by the Vendor. Both Parties shall provide prompt notice of any such claims and cooperate reasonably during the resolution process. This clause shall survive termination."
+      }
+    },
+    {
+      "entity_type": "clause_term:indemnification",
+      "raw_text": "defend",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-001",
+        "kind": "paragraph",
+        "locator": "paragraph:35",
+        "excerpt": "The Vendor agrees to indemnify and defend the Client against any third-party claims, damages, losses, liabilities, or expenses arising from product defects, workmanship deficiencies, or bodily injury caused solely by the Vendor\u2019s Hardware Products when used as intended. The Client agrees to indemnify the Vendor against claims arising from improper handling, misuse, alteration of devices, or any actions taken by the Client that deviate from the operational guidelines provided by the Vendor. Both Parties shall provide prompt notice of any such claims and cooperate reasonably during the resolution process. This clause shall survive termination."
+      }
+    },
+    {
+      "entity_type": "clause_term:liability_terms",
+      "raw_text": "limitation of liability",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-001",
+        "kind": "paragraph",
+        "locator": "paragraph:37",
+        "excerpt": "10. LIMITATION OF LIABILITY"
+      }
+    },
+    {
+      "entity_type": "clause_term:liability_terms",
+      "raw_text": "punitive damages",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-001",
+        "kind": "paragraph",
+        "locator": "paragraph:38",
+        "excerpt": "Except for breaches involving confidentiality, intellectual property misuse, or acts of gross negligence or willful misconduct, each Party\u2019s total cumulative liability under this Agreement shall not exceed the total amount paid by the Client to the Vendor in the preceding twelve (12) months. Neither Party shall be liable for indirect, consequential, exemplary, special, incidental, or punitive damages, including loss of revenue, loss of profits, operational downtime, data loss, or reputational harm, even if advised of the possibility of such damages."
+      }
+    },
+    {
+      "entity_type": "clause_term:ip_terms",
+      "raw_text": "intellectual property",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-001",
+        "kind": "paragraph",
+        "locator": "paragraph:38",
+        "excerpt": "Except for breaches involving confidentiality, intellectual property misuse, or acts of gross negligence or willful misconduct, each Party\u2019s total cumulative liability under this Agreement shall not exceed the total amount paid by the Client to the Vendor in the preceding twelve (12) months. Neither Party shall be liable for indirect, consequential, exemplary, special, incidental, or punitive damages, including loss of revenue, loss of profits, operational downtime, data loss, or reputational harm, even if advised of the possibility of such damages."
+      }
+    }
+  ],
+  "clause_count": 34,
+  "table_count": 0,
+  "word_count": 1999,
+  "heading_count": 0
+}

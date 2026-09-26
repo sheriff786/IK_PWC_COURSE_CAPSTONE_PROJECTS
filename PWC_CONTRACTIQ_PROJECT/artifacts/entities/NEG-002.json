@@ -1,0 +1,98 @@
+{
+  "doc_id": "NEG-002",
+  "status": "extracted",
+  "entities": [
+    {
+      "entity_type": "duration_or_notice_period",
+      "raw_text": "30 days",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-002",
+        "kind": "paragraph",
+        "locator": "paragraph:7",
+        "excerpt": "Quarterly preventive maintenance and firmware updates within 30 days of release."
+      }
+    },
+    {
+      "entity_type": "duration_or_notice_period",
+      "raw_text": "30 days",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-002",
+        "kind": "paragraph",
+        "locator": "paragraph:15",
+        "excerpt": "Firmware updates: SLA of 30 days is too long. We require updates within 15 days."
+      }
+    },
+    {
+      "entity_type": "duration_or_notice_period",
+      "raw_text": "15 days",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-002",
+        "kind": "paragraph",
+        "locator": "paragraph:15",
+        "excerpt": "Firmware updates: SLA of 30 days is too long. We require updates within 15 days."
+      }
+    },
+    {
+      "entity_type": "duration_or_notice_period",
+      "raw_text": "15 days",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-002",
+        "kind": "paragraph",
+        "locator": "paragraph:24",
+        "excerpt": "Firmware Updates: SLA revised to 15 days for critical updates."
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "98%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-002",
+        "kind": "paragraph",
+        "locator": "paragraph:33",
+        "excerpt": "Preventive maintenance: Quarterly schedule is acceptable, but please guarantee minimum 98% uptime during maintenance windows."
+      }
+    },
+    {
+      "entity_type": "clause_term:sla_terms",
+      "raw_text": "uptime",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-002",
+        "kind": "paragraph",
+        "locator": "paragraph:33",
+        "excerpt": "Preventive maintenance: Quarterly schedule is acceptable, but please guarantee minimum 98% uptime during maintenance windows."
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "98%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-002",
+        "kind": "paragraph",
+        "locator": "paragraph:42",
+        "excerpt": "Preventive Maintenance: SLA updated with 98% uptime guarantee during maintenance."
+      }
+    },
+    {
+      "entity_type": "clause_term:sla_terms",
+      "raw_text": "uptime",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-002",
+        "kind": "paragraph",
+        "locator": "paragraph:42",
+        "excerpt": "Preventive Maintenance: SLA updated with 98% uptime guarantee during maintenance."
+      }
+    }
+  ],
+  "clause_count": 46,
+  "table_count": 0,
+  "word_count": 430,
+  "heading_count": 0
+}

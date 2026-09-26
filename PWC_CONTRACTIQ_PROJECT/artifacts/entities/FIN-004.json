@@ -1,0 +1,98 @@
+{
+  "doc_id": "FIN-004",
+  "status": "extracted",
+  "entities": [
+    {
+      "entity_type": "money:invoice_amount",
+      "raw_text": "INR 3,300,000",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "FIN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:6",
+        "excerpt": "Subtotal: INR 3,300,000\nGST @18%: INR 594,000\nTotal Invoice Amount: INR 3,894,000"
+      }
+    },
+    {
+      "entity_type": "money:invoice_amount",
+      "raw_text": "INR 594,000",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "FIN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:6",
+        "excerpt": "Subtotal: INR 3,300,000\nGST @18%: INR 594,000\nTotal Invoice Amount: INR 3,894,000"
+      }
+    },
+    {
+      "entity_type": "money:invoice_amount",
+      "raw_text": "INR 3,894,000",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "FIN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:6",
+        "excerpt": "Subtotal: INR 3,300,000\nGST @18%: INR 594,000\nTotal Invoice Amount: INR 3,894,000"
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "18%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "FIN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:6",
+        "excerpt": "Subtotal: INR 3,300,000\nGST @18%: INR 594,000\nTotal Invoice Amount: INR 3,894,000"
+      }
+    },
+    {
+      "entity_type": "duration_or_notice_period",
+      "raw_text": "15 calendar days",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "FIN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:9",
+        "excerpt": "Payment due within 15 calendar days of invoice date."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "FIN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:9",
+        "excerpt": "Payment due within 15 calendar days of invoice date."
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "1.5%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "FIN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:10",
+        "excerpt": "Late payment subject to 1.5% monthly interest."
+      }
+    },
+    {
+      "entity_type": "money:unclassified",
+      "raw_text": "INR 177,000",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "FIN-004",
+        "kind": "paragraph",
+        "locator": "paragraph:45",
+        "excerpt": "Total Credit Amount: INR 177,000"
+      }
+    }
+  ],
+  "clause_count": 42,
+  "table_count": 2,
+  "word_count": 406,
+  "heading_count": 0
+}

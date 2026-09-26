@@ -1,0 +1,109 @@
+{
+  "doc_id": "GOV-003",
+  "status": "extracted",
+  "entities": [
+    {
+      "entity_type": "percentage",
+      "raw_text": "97%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "GOV-003",
+        "kind": "paragraph",
+        "locator": "paragraph:5",
+        "excerpt": "97% of hardware deliveries met the agreed timelines; delays primarily occurred due to [specific logistical issues]."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "GOV-003",
+        "kind": "paragraph",
+        "locator": "paragraph:15",
+        "excerpt": "Invoice Standardization: All invoices to reference obligation tracking IDs to reduce disputes."
+      }
+    },
+    {
+      "entity_type": "clause_term:sla_terms",
+      "raw_text": "resolution time",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "GOV-003",
+        "kind": "paragraph",
+        "locator": "paragraph:17",
+        "excerpt": "Escalation & Dispute Resolution: Maintain multi-tiered escalation process but reduce resolution timelines to 10 business days."
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "5%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "GOV-003",
+        "kind": "paragraph",
+        "locator": "paragraph:20",
+        "excerpt": "Reduce maximum delivery SLA breach allowance from 5% to 3%."
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "3%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "GOV-003",
+        "kind": "paragraph",
+        "locator": "paragraph:20",
+        "excerpt": "Reduce maximum delivery SLA breach allowance from 5% to 3%."
+      }
+    },
+    {
+      "entity_type": "duration_or_notice_period",
+      "raw_text": "6 months",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "GOV-003",
+        "kind": "paragraph",
+        "locator": "paragraph:22",
+        "excerpt": "Extend warranty coverage clauses by an additional 6 months for mission-critical hardware."
+      }
+    },
+    {
+      "entity_type": "duration_or_notice_period",
+      "raw_text": "24 months",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "GOV-003",
+        "kind": "paragraph",
+        "locator": "paragraph:28",
+        "excerpt": "Contract term extension: propose 24 months with optional 12-month extension."
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "5%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "GOV-003",
+        "kind": "paragraph",
+        "locator": "paragraph:29",
+        "excerpt": "Pricing adjustments: 5% increase to account for inflation and supply chain cost escalation."
+      }
+    },
+    {
+      "entity_type": "date:unclassified",
+      "raw_text": "December 11, 2025",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "GOV-003",
+        "kind": "paragraph",
+        "locator": "paragraph:39",
+        "excerpt": "Prepared by: [Name, Role, PrimeVolta Hardware Solutions]\nReviewed by: [Name, Role, FinSecure Services]\nDate: December 11, 2025"
+      }
+    }
+  ],
+  "clause_count": 40,
+  "table_count": 0,
+  "word_count": 463,
+  "heading_count": 0
+}

@@ -1,0 +1,164 @@
+{
+  "doc_id": "OPS-002",
+  "status": "extracted",
+  "entities": [
+    {
+      "entity_type": "date:unclassified",
+      "raw_text": "October 1, 2025",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "OPS-002",
+        "kind": "paragraph",
+        "locator": "paragraph:1",
+        "excerpt": "Incident & Problem Management Report \u2013 Quarterly\nClient: FinSecure Services\nReporting Period: Q4 2025 (October 1, 2025 \u2013 December 31, 2025)"
+      }
+    },
+    {
+      "entity_type": "date:unclassified",
+      "raw_text": "December 31, 2025",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "OPS-002",
+        "kind": "paragraph",
+        "locator": "paragraph:1",
+        "excerpt": "Incident & Problem Management Report \u2013 Quarterly\nClient: FinSecure Services\nReporting Period: Q4 2025 (October 1, 2025 \u2013 December 31, 2025)"
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "OPS-002",
+        "kind": "paragraph",
+        "locator": "paragraph:4",
+        "excerpt": "This Quarterly Incident & Problem Management Report provides a consolidated view of all incidents and recurring problems encountered by FinSecure Services during Q4 2025. The report details incident trends, root cause analyses, SLA compliance, problem resolution effectiveness, and predictive recommendations for preventing future operational disruptions."
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "42%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "OPS-002",
+        "kind": "paragraph",
+        "locator": "paragraph:7",
+        "excerpt": "Recurring problems accounted for 42% of all incidents, primarily affecting servers, network devices, and UPS systems."
+      }
+    },
+    {
+      "entity_type": "clause_term:sla_terms",
+      "raw_text": "resolution time",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "OPS-002",
+        "kind": "paragraph",
+        "locator": "paragraph:8",
+        "excerpt": "Average resolution time was 1.8 hours, maintaining SLA compliance."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "OPS-002",
+        "kind": "paragraph",
+        "locator": "paragraph:19",
+        "excerpt": "Recommendations for infrastructure or process improvements."
+      }
+    },
+    {
+      "entity_type": "clause_term:sla_terms",
+      "raw_text": "resolution time",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "OPS-002",
+        "kind": "paragraph",
+        "locator": "paragraph:21",
+        "excerpt": "Monitoring response and resolution times."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "OPS-002",
+        "kind": "paragraph",
+        "locator": "paragraph:40",
+        "excerpt": "Action Taken: Scheduled UPS battery replacements; added redundant power circuits."
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "42%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "OPS-002",
+        "kind": "paragraph",
+        "locator": "paragraph:45",
+        "excerpt": "42% of incidents were recurring, highlighting the need for predictive maintenance."
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "10%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "OPS-002",
+        "kind": "paragraph",
+        "locator": "paragraph:46",
+        "excerpt": "Critical incidents remain under 10% of total incidents but have higher impact on operations."
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "22%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "OPS-002",
+        "kind": "paragraph",
+        "locator": "paragraph:47",
+        "excerpt": "Preventive measures implemented in Q4 reduced repeated incidents by 22% compared to Q3."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "OPS-002",
+        "kind": "paragraph",
+        "locator": "paragraph:54",
+        "excerpt": "6. Predictive Recommendations"
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "OPS-002",
+        "kind": "paragraph",
+        "locator": "paragraph:60",
+        "excerpt": "Replace aging UPS units and implement redundant circuits for critical systems."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "OPS-002",
+        "kind": "paragraph",
+        "locator": "paragraph:74",
+        "excerpt": "This report demonstrates Primevolta Hardware Solutions\u2019 commitment to continuous improvement in incident and problem management for FinSecure Services. By analyzing recurring problems, implementing corrective actions, and providing predictive recommendations, we aim to maintain high system availability, reduce operational disruptions, and optimize hardware performance."
+      }
+    }
+  ],
+  "clause_count": 69,
+  "table_count": 2,
+  "word_count": 587,
+  "heading_count": 0
+}

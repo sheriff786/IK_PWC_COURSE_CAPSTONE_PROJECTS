@@ -1,0 +1,109 @@
+{
+  "doc_id": "NEG-001",
+  "status": "extracted",
+  "entities": [
+    {
+      "entity_type": "percentage",
+      "raw_text": "30%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-001",
+        "kind": "paragraph",
+        "locator": "paragraph:9",
+        "excerpt": "Payment: 30% advance, 50% on delivery, 20% on completion of installation."
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "50%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-001",
+        "kind": "paragraph",
+        "locator": "paragraph:9",
+        "excerpt": "Payment: 30% advance, 50% on delivery, 20% on completion of installation."
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "20%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-001",
+        "kind": "paragraph",
+        "locator": "paragraph:9",
+        "excerpt": "Payment: 30% advance, 50% on delivery, 20% on completion of installation."
+      }
+    },
+    {
+      "entity_type": "duration_or_notice_period",
+      "raw_text": "24 months",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-001",
+        "kind": "paragraph",
+        "locator": "paragraph:16",
+        "excerpt": "Warranty period: We require 24 months instead of 36, with SLA for critical devices within 24 hours."
+      }
+    },
+    {
+      "entity_type": "duration_or_notice_period",
+      "raw_text": "36 months",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-001",
+        "kind": "paragraph",
+        "locator": "paragraph:25",
+        "excerpt": "Warranty: We can agree to 36 months but will provide an option for critical devices to have a 24-month warranty if required."
+      }
+    },
+    {
+      "entity_type": "clause_term:liability_terms",
+      "raw_text": "consequential damages",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-001",
+        "kind": "paragraph",
+        "locator": "paragraph:27",
+        "excerpt": "Liability: Vendor accepts responsibility for hardware defects and gross negligence. However, indirect losses and consequential damages are excluded. We can include limited data breach coverage per site."
+      }
+    },
+    {
+      "entity_type": "duration_or_notice_period",
+      "raw_text": "5 years",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-001",
+        "kind": "paragraph",
+        "locator": "paragraph:36",
+        "excerpt": "Confidentiality: Extend obligations to 5 years post-termination."
+      }
+    },
+    {
+      "entity_type": "duration_or_notice_period",
+      "raw_text": "5 years",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-001",
+        "kind": "paragraph",
+        "locator": "paragraph:45",
+        "excerpt": "Confidentiality extended to 5 years"
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "2%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-001",
+        "kind": "paragraph",
+        "locator": "paragraph:52",
+        "excerpt": "The redline looks acceptable. Pending final legal review, we are prepared to proceed with signing once the last confirmation on early payment discount (2%) is finalized."
+      }
+    }
+  ],
+  "clause_count": 49,
+  "table_count": 0,
+  "word_count": 497,
+  "heading_count": 0
+}

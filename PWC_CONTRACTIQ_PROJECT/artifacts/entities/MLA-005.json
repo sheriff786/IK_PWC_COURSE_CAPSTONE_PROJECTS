@@ -1,0 +1,65 @@
+{
+  "doc_id": "MLA-005",
+  "status": "extracted",
+  "entities": [
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-005",
+        "kind": "paragraph",
+        "locator": "paragraph:11",
+        "excerpt": "The Vendor shall provide the Client with a meticulously detailed device pricing framework that lists the per-unit cost of every hardware category supplied under this collaboration. Each price defined herein shall inherently include raw material costs, semiconductor procurement expenses, assembly costs, PCB fabrication costs, firmware flashing costs, functional testing, device-level quality assurance, standard accessories, and packaging prepared for BFSI shipment standards. The Vendor assures the Client that every listed unit price corresponds to a fully functional device that undergoes verification against production checklists, quality metrics, and security compliance benchmarks relevant to the BFSI sector."
+      }
+    },
+    {
+      "entity_type": "clause_term:sla_terms",
+      "raw_text": "uptime",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-005",
+        "kind": "paragraph",
+        "locator": "paragraph:20",
+        "excerpt": "Annual Maintenance Contracts (AMC) shall also be priced under this Agreement, ensuring that AMC charges reflect industry-aligned maintenance obligations such as scheduled preventive visits, firmware patch cycles, device uptime monitoring, remote diagnostics, onsite support availability, real-time support desk access, and performance analytics reporting. The Vendor shall ensure that AMC pricing remains fixed for all devices purchased under this Agreement, regardless of future fluctuations in manpower costs, component scarcity, or macroeconomic factors. The Client shall always retain the right to review AMC inclusions and exclusions before opting into AMC coverage, and the Vendor shall provide clarifications without delay."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-005",
+        "kind": "paragraph",
+        "locator": "paragraph:27",
+        "excerpt": "The Vendor shall define clear rate structures for deploying technical personnel to Client premises for ongoing support, specialist engineering assistance, compliance inspections, infrastructure migration activities, branch audits, device health assessments, or firmware standardization drives. On-site personnel pricing shall include but not be limited to daily engineer rates, per-visit charges, remote session escalation charges, night-time or holiday support charges, temporary staffing for project surges, and dedicated full-time resource charges where applicable. The Vendor shall ensure that all resource prices align with market norms and remain competitive for BFSI sector engagements."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "confidential information",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-005",
+        "kind": "paragraph",
+        "locator": "paragraph:42",
+        "excerpt": "The Parties agree that all pricing information captured within this Agreement constitutes confidential information of the highest commercial sensitivity. Both Parties shall handle the rate card under strict confidentiality controls and shall not disclose, replicate, publish, or share the contents with third parties without prior written approval. The Vendor shall maintain non-disclosure controls that prevent its sales teams, channel partners, or other clients from gaining unauthorized access to the Client\u2019s negotiated pricing. The Client likewise shall ensure that internal access is limited to procurement, finance, audit, and senior management stakeholders. This confidentiality obligation shall survive termination of this Agreement for a minimum of five years."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "non-disclosure",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-005",
+        "kind": "paragraph",
+        "locator": "paragraph:42",
+        "excerpt": "The Parties agree that all pricing information captured within this Agreement constitutes confidential information of the highest commercial sensitivity. Both Parties shall handle the rate card under strict confidentiality controls and shall not disclose, replicate, publish, or share the contents with third parties without prior written approval. The Vendor shall maintain non-disclosure controls that prevent its sales teams, channel partners, or other clients from gaining unauthorized access to the Client\u2019s negotiated pricing. The Client likewise shall ensure that internal access is limited to procurement, finance, audit, and senior management stakeholders. This confidentiality obligation shall survive termination of this Agreement for a minimum of five years."
+      }
+    }
+  ],
+  "clause_count": 35,
+  "table_count": 0,
+  "word_count": 1991,
+  "heading_count": 0
+}

@@ -1,0 +1,120 @@
+{
+  "doc_id": "TXN-003",
+  "status": "extracted",
+  "entities": [
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:26",
+        "excerpt": "3.1.2 All manufacturing activities shall comply with ISO 9001:2015, ISO 14001:2015, and ISO 27001:2022 standards. Vendor shall maintain production logs, batch traceability, and serial numbering for each unit."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:37",
+        "excerpt": "3.2.2 Vendor shall coordinate installation schedules with Client to minimize branch operational disruption. Installation shall adhere to local electrical safety standards, National Electrical Code, and EMI/EMC compliance."
+      }
+    },
+    {
+      "entity_type": "clause_term:sla_terms",
+      "raw_text": "response time",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:47",
+        "excerpt": "Corrective maintenance with maximum 6-hour response time"
+      }
+    },
+    {
+      "entity_type": "clause_term:sla_terms",
+      "raw_text": "uptime",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:68",
+        "excerpt": "Uptime verification for 48 continuous hours"
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "30%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:80",
+        "excerpt": "30% advance on SOW signing"
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "50%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:81",
+        "excerpt": "50% post-delivery of hardware units"
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "20%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:82",
+        "excerpt": "20% post-installation and acceptance"
+      }
+    },
+    {
+      "entity_type": "clause_term:termination_language",
+      "raw_text": "material breach",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:85",
+        "excerpt": "Vendor shall maintain strict confidentiality of Client data, branch network configurations, firmware code, and any proprietary information. Unauthorized disclosure is a material breach."
+      }
+    },
+    {
+      "entity_type": "clause_term:ip_terms",
+      "raw_text": "intellectual property",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:87",
+        "excerpt": "10. Intellectual Property Rights"
+      }
+    },
+    {
+      "entity_type": "duration_or_notice_period",
+      "raw_text": "30 days",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "TXN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:94",
+        "excerpt": "Either Party may terminate this SOW upon 30 days written notice if the other Party materially breaches its obligations and fails to remedy within the notice period."
+      }
+    }
+  ],
+  "clause_count": 86,
+  "table_count": 1,
+  "word_count": 912,
+  "heading_count": 0
+}

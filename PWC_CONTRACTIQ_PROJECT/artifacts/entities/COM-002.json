@@ -1,0 +1,131 @@
+{
+  "doc_id": "COM-002",
+  "status": "extracted",
+  "entities": [
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "COM-002",
+        "kind": "paragraph",
+        "locator": "paragraph:15",
+        "excerpt": "All products shall meet the specifications outlined in Annexure B, including performance standards, energy efficiency, and compliance with relevant security standards for the BFSI sector."
+      }
+    },
+    {
+      "entity_type": "duration_or_notice_period",
+      "raw_text": "120 days",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "COM-002",
+        "kind": "paragraph",
+        "locator": "paragraph:21",
+        "excerpt": "Notes: All prices exclude applicable taxes. Prices are valid for 120 days unless updated by Vendor with prior notice."
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "50%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "COM-002",
+        "kind": "paragraph",
+        "locator": "paragraph:24",
+        "excerpt": "Client shall pay 50% advance upon purchase order confirmation and the remaining 50% within 30 days after delivery and acceptance."
+      }
+    },
+    {
+      "entity_type": "duration_or_notice_period",
+      "raw_text": "30 days",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "COM-002",
+        "kind": "paragraph",
+        "locator": "paragraph:24",
+        "excerpt": "Client shall pay 50% advance upon purchase order confirmation and the remaining 50% within 30 days after delivery and acceptance."
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "1.25%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "COM-002",
+        "kind": "paragraph",
+        "locator": "paragraph:26",
+        "excerpt": "Late payments shall accrue interest at 1.25% per month."
+      }
+    },
+    {
+      "entity_type": "duration_or_notice_period",
+      "raw_text": "45 days",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "COM-002",
+        "kind": "paragraph",
+        "locator": "paragraph:31",
+        "excerpt": "Any revision must be communicated at least 45 days in advance."
+      }
+    },
+    {
+      "entity_type": "clause_term:ip_terms",
+      "raw_text": "intellectual property",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "COM-002",
+        "kind": "paragraph",
+        "locator": "paragraph:34",
+        "excerpt": "6. Confidentiality and Intellectual Property"
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "confidential information",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "COM-002",
+        "kind": "paragraph",
+        "locator": "paragraph:36",
+        "excerpt": "Neither party shall disclose confidential information to third parties without written consent."
+      }
+    },
+    {
+      "entity_type": "clause_term:ip_terms",
+      "raw_text": "intellectual property",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "COM-002",
+        "kind": "paragraph",
+        "locator": "paragraph:37",
+        "excerpt": "Vendor retains all intellectual property rights over hardware design, firmware, and proprietary software."
+      }
+    },
+    {
+      "entity_type": "duration_or_notice_period",
+      "raw_text": "36 months",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "COM-002",
+        "kind": "paragraph",
+        "locator": "paragraph:45",
+        "excerpt": "The Agreement shall remain in force for 36 months from the effective date."
+      }
+    },
+    {
+      "entity_type": "duration_or_notice_period",
+      "raw_text": "60 days",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "COM-002",
+        "kind": "paragraph",
+        "locator": "paragraph:46",
+        "excerpt": "Either party may terminate by providing 60 days\u2019 prior written notice."
+      }
+    }
+  ],
+  "clause_count": 41,
+  "table_count": 3,
+  "word_count": 441,
+  "heading_count": 0
+}

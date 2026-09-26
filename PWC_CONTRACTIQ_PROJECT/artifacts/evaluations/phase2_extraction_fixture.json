@@ -1,0 +1,182 @@
+[
+  {
+    "doc_id": "MLA-004",
+    "entity_type": "clause_term:ip_terms",
+    "raw_text": "intellectual property",
+    "source_locator": "paragraph:17",
+    "source_excerpt": "5. INTELLECTUAL PROPERTY PROTECTION AND NON-REVERSE ENGINEERING",
+    "reviewer_verdict": null,
+    "reviewer_notes": null
+  },
+  {
+    "doc_id": "CMP-006",
+    "entity_type": "clause_term:sla_terms",
+    "raw_text": "performance metric",
+    "source_locator": "paragraph:76",
+    "source_excerpt": "Maintain a centralized vendor repository including contracts, risk assessments, audit reports, and performance metrics.",
+    "reviewer_verdict": null,
+    "reviewer_notes": null
+  },
+  {
+    "doc_id": "COM-002",
+    "entity_type": "clause_term:ip_terms",
+    "raw_text": "intellectual property",
+    "source_locator": "paragraph:37",
+    "source_excerpt": "Vendor retains all intellectual property rights over hardware design, firmware, and proprietary software.",
+    "reviewer_verdict": null,
+    "reviewer_notes": null
+  },
+  {
+    "doc_id": "OPS-002",
+    "entity_type": "clause_term:confidentiality",
+    "raw_text": "nda",
+    "source_locator": "paragraph:74",
+    "source_excerpt": "This report demonstrates Primevolta Hardware Solutions\u2019 commitment to continuous improvement in incident and problem management for FinSecure Services. By analyzing recurring problems, implementing corrective actions, and providing predictive recommendations, we aim to maintain high system availability, reduce operational disruptions, and optimize hardware performance.",
+    "reviewer_verdict": null,
+    "reviewer_notes": null
+  },
+  {
+    "doc_id": "FIN-004",
+    "entity_type": "percentage",
+    "raw_text": "1.5%",
+    "source_locator": "paragraph:10",
+    "source_excerpt": "Late payment subject to 1.5% monthly interest.",
+    "reviewer_verdict": null,
+    "reviewer_notes": null
+  },
+  {
+    "doc_id": "FIN-003",
+    "entity_type": "money:invoice_amount",
+    "raw_text": "INR 360,000",
+    "source_locator": "paragraph:6",
+    "source_excerpt": "Subtotal: INR 2,000,000\nGST @18%: INR 360,000\nTotal Invoice Amount: INR 2,360,000",
+    "reviewer_verdict": null,
+    "reviewer_notes": null
+  },
+  {
+    "doc_id": "FIN-001",
+    "entity_type": "duration_or_notice_period",
+    "raw_text": "30 days",
+    "source_locator": "paragraph:39",
+    "source_excerpt": "Either party may terminate this Agreement with 30 days\u2019 written notice.",
+    "reviewer_verdict": null,
+    "reviewer_notes": null
+  },
+  {
+    "doc_id": "GOV-002",
+    "entity_type": "clause_term:confidentiality",
+    "raw_text": "nda",
+    "source_locator": "paragraph:57",
+    "source_excerpt": "All hardware met mandatory security and data privacy standards applicable to BFSI organizations.",
+    "reviewer_verdict": null,
+    "reviewer_notes": null
+  },
+  {
+    "doc_id": "OPS-002",
+    "entity_type": "clause_term:confidentiality",
+    "raw_text": "nda",
+    "source_locator": "paragraph:54",
+    "source_excerpt": "6. Predictive Recommendations",
+    "reviewer_verdict": null,
+    "reviewer_notes": null
+  },
+  {
+    "doc_id": "CMP-005",
+    "entity_type": "clause_term:ip_terms",
+    "raw_text": "intellectual property",
+    "source_locator": "paragraph:58",
+    "source_excerpt": "Transfer of assets, documentation, or intellectual property",
+    "reviewer_verdict": null,
+    "reviewer_notes": null
+  },
+  {
+    "doc_id": "MLA-006",
+    "entity_type": "clause_term:confidentiality",
+    "raw_text": "nda",
+    "source_locator": "paragraph:10",
+    "source_excerpt": "The Vendor shall provide the Client with a comprehensive pricing structure comprising the unit costs of all hardware models that may be procured by the Client under ongoing or future BFSI deployment requirements. Each device category shall be assigned a per-unit price that includes manufacturing costs, assembly, pre-deployment testing, packaging, standard accessories, and quality assurance. These prices shall remain firm throughout the contract tenure unless modified through a written amendment mutually endorsed by both Parties. The Vendor confirms that all hardware pricing presented to the Client under this Agreement reflects genuine manufacturing and component costs, considering raw material fluctuations, semiconductor availability trends, and industry-standard margins. The Vendor also affirms that devices supplied at the agreed per-unit price shall always match the specifications, quality parameters, and build standards referenced during the formal evaluation and approval processes. Any subsequent hardware revisions that materially alter capabilities, features, or performance parameters shall require renegotiation of the associated rate structure before supply.",
+    "reviewer_verdict": null,
+    "reviewer_notes": null
+  },
+  {
+    "doc_id": "TXN-004",
+    "entity_type": "clause_term:termination_language",
+    "raw_text": "material breach",
+    "source_locator": "paragraph:126",
+    "source_excerpt": "Either Party may terminate this SOW upon 30-day written notice in case of material breach. All delivered and accepted units will be billed, and obligations for confidentiality and IP rights will survive termination.",
+    "reviewer_verdict": null,
+    "reviewer_notes": null
+  },
+  {
+    "doc_id": "MLA-002",
+    "entity_type": "clause_term:confidentiality",
+    "raw_text": "nda",
+    "source_locator": "paragraph:7",
+    "source_excerpt": "The scope of this Agreement extends to a diverse and technologically advanced range of embedded hardware devices engineered for secure financial operations. The Vendor shall supply biometric authentication terminals, smart KYC devices, HSM interfacing modules, payment gateway controller boards, encrypted microcontroller units, secure IoT gateways, transaction authorization devices, branch automation equipment, and any other categories of hardware mutually agreed upon. The services included within the scope comprise installation, integration with banking software, device activation, firmware configuration, security provisioning, encryption module setup, and functional calibration tailored for BFSI workflows. The Vendor shall also undertake the comprehensive management of warranty operations, including device registration, claim verification, diagnosis, repair, spare parts allocation, and re-deployment. Additionally, the Vendor shall operate a managed service ecosystem for remote device telemetry, predictive maintenance analytics, health monitoring, firmware life-cycle management, and operational performance tracking across all Client locations. All such services shall be executed in accordance with industry best practices, statutory guidelines, and technology standards applicable to BFSI infrastructure.",
+    "reviewer_verdict": null,
+    "reviewer_notes": null
+  },
+  {
+    "doc_id": "CMP-004",
+    "entity_type": "clause_term:confidentiality",
+    "raw_text": "confidential information",
+    "source_locator": "paragraph:64",
+    "source_excerpt": "Encrypt confidential information and limit access based on business need.",
+    "reviewer_verdict": null,
+    "reviewer_notes": null
+  },
+  {
+    "doc_id": "MLA-003",
+    "entity_type": "clause_term:confidentiality",
+    "raw_text": "nda",
+    "source_locator": "paragraph:15",
+    "source_excerpt": "The terms of this Agreement shall not apply to information that the Receiving Party can conclusively demonstrate through credible documentation to fall within any of the following categories: information that has become publicly known through no breach, misconduct, or negligence on the part of the Receiving Party; information already known to the Receiving Party prior to its disclosure by the Disclosing Party, provided such prior knowledge can be substantiated through written records; information independently developed by the Receiving Party without use of or reference to the Disclosing Party\u2019s Confidential Information; information lawfully obtained from a third party who is not under any confidentiality obligation with the Disclosing Party; and information required to be disclosed under statutory, regulatory, judicial, or governmental order. In cases where disclosure is mandated by law, the Receiving Party shall provide prompt notice to the Disclosing Party to allow it an opportunity to seek protective measures, unless legally prohibited from doing so.",
+    "reviewer_verdict": null,
+    "reviewer_notes": null
+  },
+  {
+    "doc_id": "NEG-004",
+    "entity_type": "duration_or_notice_period",
+    "raw_text": "30 days",
+    "source_locator": "paragraph:61",
+    "source_excerpt": "Vendor requested settlement of outstanding dues within 30 days post-termination.",
+    "reviewer_verdict": null,
+    "reviewer_notes": null
+  },
+  {
+    "doc_id": "CMP-001",
+    "entity_type": "clause_term:confidentiality",
+    "raw_text": "nda",
+    "source_locator": "paragraph:7",
+    "source_excerpt": "c. Industry Standards Compliance:\nThe Vendor shall ensure compliance with globally recognized standards such as ISO/IEC 27001 (Information Security Management Systems), ISO/IEC 20000 (IT Service Management), and relevant ITIL practices. The Client shall have the right to verify compliance through evidence such as certification reports, internal audits, or third-party audits.",
+    "reviewer_verdict": null,
+    "reviewer_notes": null
+  },
+  {
+    "doc_id": "CMP-001",
+    "entity_type": "clause_term:confidentiality",
+    "raw_text": "nda",
+    "source_locator": "paragraph:5",
+    "source_excerpt": "a. RBI and SEBI Guidelines:\nThe parties acknowledge the mandatory compliance requirements issued by the Reserve Bank of India (RBI) and, where applicable, the Securities and Exchange Board of India (SEBI) for IT infrastructure and vendor management. The Vendor shall ensure that all hardware meets regulatory standards for operational continuity, business resilience, data security, and reporting. The Client shall provide timely updates regarding changes to guidelines affecting hardware operations.",
+    "reviewer_verdict": null,
+    "reviewer_notes": null
+  },
+  {
+    "doc_id": "CMP-005",
+    "entity_type": "clause_term:confidentiality",
+    "raw_text": "nda",
+    "source_locator": "paragraph:4",
+    "source_excerpt": "The purpose of this Vendor Management Policy is to establish a structured approach for evaluating, onboarding, monitoring, and managing vendors engaged by Primevolta Hardware Solutions. This policy ensures that all third-party relationships support the organization\u2019s strategic objectives, comply with applicable regulations, and maintain high standards of security, quality, and operational integrity. Given our engagement with BFSI clients such as FinSecure Services, strict adherence to this policy is mandatory to safeguard sensitive financial and customer data, ensure regulatory compliance, and mitigate operational, reputational, and legal risks.",
+    "reviewer_verdict": null,
+    "reviewer_notes": null
+  },
+  {
+    "doc_id": "FIN-001",
+    "entity_type": "percentage",
+    "raw_text": "40%",
+    "source_locator": "paragraph:20",
+    "source_excerpt": "40% upon delivery of hardware to site",
+    "reviewer_verdict": null,
+    "reviewer_notes": null
+  }
+]

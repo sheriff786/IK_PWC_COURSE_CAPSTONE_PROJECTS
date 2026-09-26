@@ -1,0 +1,263 @@
+{
+  "doc_id": "MLA-003",
+  "status": "extracted",
+  "entities": [
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "non-disclosure",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-003",
+        "kind": "paragraph",
+        "locator": "paragraph:0",
+        "excerpt": "NON-DISCLOSURE AGREEMENT (NDA SAMPLE 1)"
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-003",
+        "kind": "paragraph",
+        "locator": "paragraph:0",
+        "excerpt": "NON-DISCLOSURE AGREEMENT (NDA SAMPLE 1)"
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "non-disclosure",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-003",
+        "kind": "paragraph",
+        "locator": "paragraph:4",
+        "excerpt": "This Mutual Non-Disclosure Agreement (\u201cAgreement\u201d) is entered into between PrimeVolta Hardware Solutions (\u201cParty A\u201d) and FinSecure Services (\u201cParty B\u201d) for the purpose of facilitating a secure, controlled, and confidential exchange of information required to evaluate, plan, carry out, deploy, or support various hardware, technology, manufacturing, integration, compliance, and operational activities relating to the BFSI sector. Both Parties recognize that their collaborative interests necessitate discussions that involve sensitive, proprietary, operational, technical, and financial details that must be safeguarded at all times. This Agreement ensures that all information disclosed between the Parties, whether related to product development, embedded software, hardware schematics, process architecture, device deployment, workflows, or business strategies, will be protected under strict confidentiality, preventing unauthorized access, misuse, duplication, or disclosure to any external entity. The Parties acknowledge that without this Agreement, the exchange of such detailed and high-value information would not be possible."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "confidential information",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-003",
+        "kind": "paragraph",
+        "locator": "paragraph:6",
+        "excerpt": "2. DEFINITION OF CONFIDENTIAL INFORMATION"
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "confidential information",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-003",
+        "kind": "paragraph",
+        "locator": "paragraph:7",
+        "excerpt": "For the purposes of this Agreement, \u201cConfidential Information\u201d shall refer to all information disclosed by either Party, in any form\u2014whether oral, visual, digital, written, electronic, or physical\u2014that is explicitly marked as confidential or is reasonably understood to be confidential due to the nature of the information or the circumstances of disclosure. Confidential Information includes, without limitation, hardware schematics, PCB layouts, embedded firmware designs, microcontroller programming references, encryption keys used for testing, prototypes, diagnostic tools, architecture documents, technical specifications, source code, design notes, test results, internal algorithms, and other intellectual property associated with hardware or software. It also includes information related to BFSI operations such as authentication protocols, branch processes, transaction workflows, operational manuals, integration blueprints, service configurations, monitoring frameworks, customer data, regulatory compliance documents, risk scoring methods, pricing models, rate cards, proposals, contract drafts, financial analyses, internal controls, business forecasts, deployment plans, and security arrangements."
+      }
+    },
+    {
+      "entity_type": "clause_term:ip_terms",
+      "raw_text": "intellectual property",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-003",
+        "kind": "paragraph",
+        "locator": "paragraph:7",
+        "excerpt": "For the purposes of this Agreement, \u201cConfidential Information\u201d shall refer to all information disclosed by either Party, in any form\u2014whether oral, visual, digital, written, electronic, or physical\u2014that is explicitly marked as confidential or is reasonably understood to be confidential due to the nature of the information or the circumstances of disclosure. Confidential Information includes, without limitation, hardware schematics, PCB layouts, embedded firmware designs, microcontroller programming references, encryption keys used for testing, prototypes, diagnostic tools, architecture documents, technical specifications, source code, design notes, test results, internal algorithms, and other intellectual property associated with hardware or software. It also includes information related to BFSI operations such as authentication protocols, branch processes, transaction workflows, operational manuals, integration blueprints, service configurations, monitoring frameworks, customer data, regulatory compliance documents, risk scoring methods, pricing models, rate cards, proposals, contract drafts, financial analyses, internal controls, business forecasts, deployment plans, and security arrangements."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "confidential information",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-003",
+        "kind": "paragraph",
+        "locator": "paragraph:8",
+        "excerpt": "Confidential Information further includes discussions, meeting minutes, email communication, concept notes, workflow plans, defect logs, audits, vulnerability assessment results, product roadmaps, training materials, and any supporting documentation shared during the course of collaboration. All non-public information shared by the Parties, whether historical, current, or forward-looking, shall be considered confidential irrespective of whether it is explicitly labelled as such."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "confidential information",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-003",
+        "kind": "paragraph",
+        "locator": "paragraph:11",
+        "excerpt": "The Receiving Party shall maintain the strictest levels of confidentiality in handling, accessing, storing, processing, transferring, and destroying Confidential Information received from the Disclosing Party. The Receiving Party shall use such information solely for evaluating or executing the commercial and technical engagements contemplated between the Parties and not for any personal, competitive, or unauthorized purpose. The Receiving Party shall ensure that Confidential Information is protected at all times with the same degree of care it uses to protect its own sensitive information, and in no event shall such protection fall below commercially reasonable and industry-standard practices expected within the BFSI technology environment."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-003",
+        "kind": "paragraph",
+        "locator": "paragraph:11",
+        "excerpt": "The Receiving Party shall maintain the strictest levels of confidentiality in handling, accessing, storing, processing, transferring, and destroying Confidential Information received from the Disclosing Party. The Receiving Party shall use such information solely for evaluating or executing the commercial and technical engagements contemplated between the Parties and not for any personal, competitive, or unauthorized purpose. The Receiving Party shall ensure that Confidential Information is protected at all times with the same degree of care it uses to protect its own sensitive information, and in no event shall such protection fall below commercially reasonable and industry-standard practices expected within the BFSI technology environment."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "confidential information",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-003",
+        "kind": "paragraph",
+        "locator": "paragraph:12",
+        "excerpt": "The Receiving Party shall restrict access to Confidential Information strictly to those employees, consultants, or representatives who have a defined need to know the information for the intended purpose of this Agreement and who are bound by confidentiality obligations no less restrictive than those set forth herein. The Receiving Party shall not disclose, publish, reveal, transmit, reproduce, replicate, or distribute such information to any third party without obtaining prior written consent from the Disclosing Party. The Receiving Party shall maintain secure systems, encrypted storage, controlled access environments, and appropriate physical security measures to prevent unauthorized access, loss, or theft of Confidential Information. Any unauthorized use or disclosure of Confidential Information shall be immediately reported to the Disclosing Party, along with a detailed account of the circumstances and corrective measures undertaken."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "confidential information",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-003",
+        "kind": "paragraph",
+        "locator": "paragraph:15",
+        "excerpt": "The terms of this Agreement shall not apply to information that the Receiving Party can conclusively demonstrate through credible documentation to fall within any of the following categories: information that has become publicly known through no breach, misconduct, or negligence on the part of the Receiving Party; information already known to the Receiving Party prior to its disclosure by the Disclosing Party, provided such prior knowledge can be substantiated through written records; information independently developed by the Receiving Party without use of or reference to the Disclosing Party\u2019s Confidential Information; information lawfully obtained from a third party who is not under any confidentiality obligation with the Disclosing Party; and information required to be disclosed under statutory, regulatory, judicial, or governmental order. In cases where disclosure is mandated by law, the Receiving Party shall provide prompt notice to the Disclosing Party to allow it an opportunity to seek protective measures, unless legally prohibited from doing so."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-003",
+        "kind": "paragraph",
+        "locator": "paragraph:15",
+        "excerpt": "The terms of this Agreement shall not apply to information that the Receiving Party can conclusively demonstrate through credible documentation to fall within any of the following categories: information that has become publicly known through no breach, misconduct, or negligence on the part of the Receiving Party; information already known to the Receiving Party prior to its disclosure by the Disclosing Party, provided such prior knowledge can be substantiated through written records; information independently developed by the Receiving Party without use of or reference to the Disclosing Party\u2019s Confidential Information; information lawfully obtained from a third party who is not under any confidentiality obligation with the Disclosing Party; and information required to be disclosed under statutory, regulatory, judicial, or governmental order. In cases where disclosure is mandated by law, the Receiving Party shall provide prompt notice to the Disclosing Party to allow it an opportunity to seek protective measures, unless legally prohibited from doing so."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "confidential information",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-003",
+        "kind": "paragraph",
+        "locator": "paragraph:18",
+        "excerpt": "Given the sensitivity and critical nature of BFSI-related technological and operational data, the Parties agree to implement rigorous data security measures in handling Confidential Information. The Receiving Party shall ensure that all digital files are stored in secure, access-controlled environments with encryption enabled for both storage and transmission. Physical documents shall be stored in secure cabinets or restricted areas with controlled entry. Backups of Confidential Information, if maintained, shall also be subject to equivalent protective measures. The Receiving Party shall refrain from transmitting Confidential Information through unsecured communication channels or storing such information on personal devices, removable storage media, or cloud systems that have not been authorized by the Disclosing Party. The Receiving Party shall ensure that only secure networks and approved devices are used for viewing or accessing Confidential Information. At no time shall the Receiving Party permit any unauthorized duplication, reverse engineering, extraction, or decompilation of Confidential Information shared in the form of hardware samples, firmware binaries, prototypes, or embedded systems."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "confidential information",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-003",
+        "kind": "paragraph",
+        "locator": "paragraph:21",
+        "excerpt": "Upon the earlier of (i) termination of the business relationship, (ii) completion of the purpose for which Confidential Information was disclosed, or (iii) written request from the Disclosing Party, the Receiving Party shall promptly return or permanently destroy all copies of Confidential Information, including physical materials, electronic files, device logs, backup data, prototypes, test boards, documentation, emails, and any derivative materials created during the engagement. The Receiving Party shall not retain any extract, summary, analysis, replica, or partial copy of Confidential Information except as required by law or regulatory audit obligations. Upon completing destruction or return, the Receiving Party shall certify in writing that all Confidential Information has been irreversibly destroyed or returned, as applicable. If the Parties have shared hardware prototypes, sample devices, engineering boards, or firmware-loaded units, such items shall also be returned in complete and unaltered condition."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "confidential information",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-003",
+        "kind": "paragraph",
+        "locator": "paragraph:24",
+        "excerpt": "This Agreement shall become effective on the date of execution and shall remain in force until terminated by either Party through written notice. Notwithstanding termination, the confidentiality obligations set forth herein shall survive for a period of five (5) years from the date of termination or from the last disclosure of Confidential Information, whichever occurs later. The Parties acknowledge that certain categories of intellectual property, firmware, security architectures, and technical schematics may possess long-term strategic value, and therefore the Receiving Party\u2019s obligation to protect such information shall remain enforceable beyond the standard survival period where applicable by law or mutual agreement."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-003",
+        "kind": "paragraph",
+        "locator": "paragraph:24",
+        "excerpt": "This Agreement shall become effective on the date of execution and shall remain in force until terminated by either Party through written notice. Notwithstanding termination, the confidentiality obligations set forth herein shall survive for a period of five (5) years from the date of termination or from the last disclosure of Confidential Information, whichever occurs later. The Parties acknowledge that certain categories of intellectual property, firmware, security architectures, and technical schematics may possess long-term strategic value, and therefore the Receiving Party\u2019s obligation to protect such information shall remain enforceable beyond the standard survival period where applicable by law or mutual agreement."
+      }
+    },
+    {
+      "entity_type": "clause_term:ip_terms",
+      "raw_text": "intellectual property",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-003",
+        "kind": "paragraph",
+        "locator": "paragraph:24",
+        "excerpt": "This Agreement shall become effective on the date of execution and shall remain in force until terminated by either Party through written notice. Notwithstanding termination, the confidentiality obligations set forth herein shall survive for a period of five (5) years from the date of termination or from the last disclosure of Confidential Information, whichever occurs later. The Parties acknowledge that certain categories of intellectual property, firmware, security architectures, and technical schematics may possess long-term strategic value, and therefore the Receiving Party\u2019s obligation to protect such information shall remain enforceable beyond the standard survival period where applicable by law or mutual agreement."
+      }
+    },
+    {
+      "entity_type": "clause_term:termination_language",
+      "raw_text": "right to terminate",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-003",
+        "kind": "paragraph",
+        "locator": "paragraph:27",
+        "excerpt": "The Parties acknowledge that any unauthorized use or disclosure of Confidential Information may result in severe, irreparable damage for which monetary compensation alone may be insufficient. Accordingly, the Disclosing Party shall be entitled to pursue injunctive relief, restraining orders, specific performance, or any other form of equitable remedy as deemed necessary to prevent or curtail the breach. Such remedies may be pursued in addition to claims for monetary damages, costs, and losses directly or indirectly arising from the unauthorized disclosure. The Receiving Party shall bear full responsibility for any breach committed by its employees, representatives, or third-party agents. The Disclosing Party shall also have the right to terminate ongoing engagements, withdraw access privileges, demand immediate return of all Confidential Information, and pursue appropriate legal action. Both Parties agree that they will cooperate in investigating breaches and implementing corrective and preventive measures."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "confidential information",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-003",
+        "kind": "paragraph",
+        "locator": "paragraph:27",
+        "excerpt": "The Parties acknowledge that any unauthorized use or disclosure of Confidential Information may result in severe, irreparable damage for which monetary compensation alone may be insufficient. Accordingly, the Disclosing Party shall be entitled to pursue injunctive relief, restraining orders, specific performance, or any other form of equitable remedy as deemed necessary to prevent or curtail the breach. Such remedies may be pursued in addition to claims for monetary damages, costs, and losses directly or indirectly arising from the unauthorized disclosure. The Receiving Party shall bear full responsibility for any breach committed by its employees, representatives, or third-party agents. The Disclosing Party shall also have the right to terminate ongoing engagements, withdraw access privileges, demand immediate return of all Confidential Information, and pursue appropriate legal action. Both Parties agree that they will cooperate in investigating breaches and implementing corrective and preventive measures."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "confidential information",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-003",
+        "kind": "paragraph",
+        "locator": "paragraph:30",
+        "excerpt": "Nothing contained in this Agreement shall be construed as granting the Receiving Party any license, ownership interest, intellectual property rights, or proprietary claim over the Disclosing Party\u2019s Confidential Information. The Confidential Information shall remain the exclusive property of the Disclosing Party, and the Receiving Party\u2019s rights are strictly limited to the temporary and conditional use of such information solely for fulfilling the purpose defined under this Agreement. The Receiving Party shall not claim, register, patent, or derive any intellectual property rights from the Confidential Information or any work product arising from it."
+      }
+    },
+    {
+      "entity_type": "clause_term:ip_terms",
+      "raw_text": "intellectual property",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-003",
+        "kind": "paragraph",
+        "locator": "paragraph:30",
+        "excerpt": "Nothing contained in this Agreement shall be construed as granting the Receiving Party any license, ownership interest, intellectual property rights, or proprietary claim over the Disclosing Party\u2019s Confidential Information. The Confidential Information shall remain the exclusive property of the Disclosing Party, and the Receiving Party\u2019s rights are strictly limited to the temporary and conditional use of such information solely for fulfilling the purpose defined under this Agreement. The Receiving Party shall not claim, register, patent, or derive any intellectual property rights from the Confidential Information or any work product arising from it."
+      }
+    },
+    {
+      "entity_type": "clause_term:ip_terms",
+      "raw_text": "work product",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-003",
+        "kind": "paragraph",
+        "locator": "paragraph:30",
+        "excerpt": "Nothing contained in this Agreement shall be construed as granting the Receiving Party any license, ownership interest, intellectual property rights, or proprietary claim over the Disclosing Party\u2019s Confidential Information. The Confidential Information shall remain the exclusive property of the Disclosing Party, and the Receiving Party\u2019s rights are strictly limited to the temporary and conditional use of such information solely for fulfilling the purpose defined under this Agreement. The Receiving Party shall not claim, register, patent, or derive any intellectual property rights from the Confidential Information or any work product arising from it."
+      }
+    },
+    {
+      "entity_type": "clause_term:ip_terms",
+      "raw_text": "patent",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-003",
+        "kind": "paragraph",
+        "locator": "paragraph:30",
+        "excerpt": "Nothing contained in this Agreement shall be construed as granting the Receiving Party any license, ownership interest, intellectual property rights, or proprietary claim over the Disclosing Party\u2019s Confidential Information. The Confidential Information shall remain the exclusive property of the Disclosing Party, and the Receiving Party\u2019s rights are strictly limited to the temporary and conditional use of such information solely for fulfilling the purpose defined under this Agreement. The Receiving Party shall not claim, register, patent, or derive any intellectual property rights from the Confidential Information or any work product arising from it."
+      }
+    }
+  ],
+  "clause_count": 27,
+  "table_count": 0,
+  "word_count": 1666,
+  "heading_count": 0
+}

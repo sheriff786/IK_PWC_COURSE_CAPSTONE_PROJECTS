@@ -1,0 +1,153 @@
+{
+  "doc_id": "TXN-001",
+  "status": "extracted",
+  "entities": [
+    {
+      "entity_type": "clause_term:sla_terms",
+      "raw_text": "response time",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:27",
+        "excerpt": "Quarterly Service Level Reports (SLR) detailing incidents, response times, and resolutions"
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:28",
+        "excerpt": "Recommendations for optimization or hardware lifecycle management"
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "30%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:33",
+        "excerpt": "30% advance upon Renewal execution"
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "50%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:34",
+        "excerpt": "50% mid-year (after 6 months)"
+      }
+    },
+    {
+      "entity_type": "duration_or_notice_period",
+      "raw_text": "6 months",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:34",
+        "excerpt": "50% mid-year (after 6 months)"
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "20%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:35",
+        "excerpt": "20% at the end of service period upon submission of final SLA report"
+      }
+    },
+    {
+      "entity_type": "duration_or_notice_period",
+      "raw_text": "15 days",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:36",
+        "excerpt": "3.3 All payments are exclusive of applicable taxes. Any delay in payments exceeding 15 days may result in suspension of non-critical maintenance services until payment is received."
+      }
+    },
+    {
+      "entity_type": "clause_term:sla_terms",
+      "raw_text": "service level agreement",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:38",
+        "excerpt": "4. Service Level Agreements (SLA)"
+      }
+    },
+    {
+      "entity_type": "duration_or_notice_period",
+      "raw_text": "60 days",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:42",
+        "excerpt": "5.2 Either Party may negotiate a subsequent renewal 60 days prior to expiration."
+      }
+    },
+    {
+      "entity_type": "clause_term:ip_terms",
+      "raw_text": "intellectual property",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:72",
+        "excerpt": "9. Intellectual Property & Confidentiality"
+      }
+    },
+    {
+      "entity_type": "clause_term:termination_language",
+      "raw_text": "material breach",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:75",
+        "excerpt": "9.3 Confidentiality obligations from the Original Agreement survive this Renewal. Unauthorized disclosure of Client or Vendor information is considered a material breach."
+      }
+    },
+    {
+      "entity_type": "duration_or_notice_period",
+      "raw_text": "30 days",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:78",
+        "excerpt": "10.1 Either Party may terminate this Renewal upon 30 days written notice for material breach if not remedied within the notice period."
+      }
+    },
+    {
+      "entity_type": "clause_term:termination_language",
+      "raw_text": "material breach",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "TXN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:78",
+        "excerpt": "10.1 Either Party may terminate this Renewal upon 30 days written notice for material breach if not remedied within the notice period."
+      }
+    }
+  ],
+  "clause_count": 79,
+  "table_count": 2,
+  "word_count": 733,
+  "heading_count": 0
+}

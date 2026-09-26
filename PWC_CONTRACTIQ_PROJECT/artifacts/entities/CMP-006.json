@@ -1,0 +1,54 @@
+{
+  "doc_id": "CMP-006",
+  "status": "extracted",
+  "entities": [
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "CMP-006",
+        "kind": "paragraph",
+        "locator": "paragraph:24",
+        "excerpt": "Evaluate technical capabilities, service delivery mechanisms, and quality standards."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "CMP-006",
+        "kind": "paragraph",
+        "locator": "paragraph:41",
+        "excerpt": "Training and Awareness: Provide vendor-specific compliance guidance, policies, and security standards."
+      }
+    },
+    {
+      "entity_type": "clause_term:sla_terms",
+      "raw_text": "service level agreement",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "CMP-006",
+        "kind": "paragraph",
+        "locator": "paragraph:45",
+        "excerpt": "Monthly review of key performance indicators (KPIs) and service level agreements (SLAs)."
+      }
+    },
+    {
+      "entity_type": "clause_term:sla_terms",
+      "raw_text": "performance metric",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "CMP-006",
+        "kind": "paragraph",
+        "locator": "paragraph:76",
+        "excerpt": "Maintain a centralized vendor repository including contracts, risk assessments, audit reports, and performance metrics."
+      }
+    }
+  ],
+  "clause_count": 73,
+  "table_count": 0,
+  "word_count": 699,
+  "heading_count": 0
+}

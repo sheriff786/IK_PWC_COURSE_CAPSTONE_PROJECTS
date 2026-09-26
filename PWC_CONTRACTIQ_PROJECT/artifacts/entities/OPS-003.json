@@ -1,0 +1,98 @@
+{
+  "doc_id": "OPS-003",
+  "status": "extracted",
+  "entities": [
+    {
+      "entity_type": "date:unclassified",
+      "raw_text": "November 1, 2025",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "OPS-003",
+        "kind": "paragraph",
+        "locator": "paragraph:3",
+        "excerpt": "This report summarizes the operational services delivered by Primevolta Hardware Solutions to FinSecure Services during the period of November 1, 2025, to November 30, 2025. The primary objective of this report is to provide a detailed overview of hardware performance, service requests, preventive maintenance, incidents, and overall service quality."
+      }
+    },
+    {
+      "entity_type": "date:unclassified",
+      "raw_text": "November 30, 2025",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "OPS-003",
+        "kind": "paragraph",
+        "locator": "paragraph:3",
+        "excerpt": "This report summarizes the operational services delivered by Primevolta Hardware Solutions to FinSecure Services during the period of November 1, 2025, to November 30, 2025. The primary objective of this report is to provide a detailed overview of hardware performance, service requests, preventive maintenance, incidents, and overall service quality."
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "99.2%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "OPS-003",
+        "kind": "paragraph",
+        "locator": "paragraph:4",
+        "excerpt": "During this period, Primevolta Hardware Solutions achieved 99.2% system uptime across all BFSI endpoints supported, resolved 145 service tickets, and conducted scheduled preventive maintenance for all critical infrastructure components. The report highlights trends, identifies recurring issues, and proposes recommendations for further optimization of hardware performance and service delivery."
+      }
+    },
+    {
+      "entity_type": "clause_term:sla_terms",
+      "raw_text": "uptime",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "OPS-003",
+        "kind": "paragraph",
+        "locator": "paragraph:4",
+        "excerpt": "During this period, Primevolta Hardware Solutions achieved 99.2% system uptime across all BFSI endpoints supported, resolved 145 service tickets, and conducted scheduled preventive maintenance for all critical infrastructure components. The report highlights trends, identifies recurring issues, and proposes recommendations for further optimization of hardware performance and service delivery."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "OPS-003",
+        "kind": "paragraph",
+        "locator": "paragraph:4",
+        "excerpt": "During this period, Primevolta Hardware Solutions achieved 99.2% system uptime across all BFSI endpoints supported, resolved 145 service tickets, and conducted scheduled preventive maintenance for all critical infrastructure components. The report highlights trends, identifies recurring issues, and proposes recommendations for further optimization of hardware performance and service delivery."
+      }
+    },
+    {
+      "entity_type": "clause_term:sla_terms",
+      "raw_text": "performance metric",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "OPS-003",
+        "kind": "paragraph",
+        "locator": "paragraph:19",
+        "excerpt": "3. Service Performance Metrics"
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "OPS-003",
+        "kind": "paragraph",
+        "locator": "paragraph:39",
+        "excerpt": "6. Observations & Recommendations"
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "OPS-003",
+        "kind": "paragraph",
+        "locator": "paragraph:43",
+        "excerpt": "Recommendations:"
+      }
+    }
+  ],
+  "clause_count": 49,
+  "table_count": 2,
+  "word_count": 440,
+  "heading_count": 0
+}

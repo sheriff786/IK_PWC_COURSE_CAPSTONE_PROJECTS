@@ -1,0 +1,120 @@
+{
+  "doc_id": "CMP-004",
+  "status": "extracted",
+  "entities": [
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:4",
+        "excerpt": "The purpose of this policy is to define operational and technical security controls to protect Primevolta Hardware Solutions\u2019 information assets and client data, particularly for BFSI clients like FinSecure Services. This policy supports compliance with international standards (ISO 27001, SOC2, PCI DSS where applicable) and ensures robust measures for confidentiality, integrity, availability, and privacy of data."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:5",
+        "excerpt": "It establishes operational procedures, monitoring mechanisms, incident response workflows, and reporting standards to minimize risks associated with cyber threats, data breaches, and regulatory non-compliance."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:40",
+        "excerpt": "Data retention and destruction policies align with BFSI regulatory standards."
+      }
+    },
+    {
+      "entity_type": "duration_or_notice_period",
+      "raw_text": "12 months",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:44",
+        "excerpt": "Logging of all network access and security events for 12 months minimum."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:51",
+        "excerpt": "Testing, approval, and rollback procedures are mandatory."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:52",
+        "excerpt": "System hardening standards applied based on CIS benchmarks."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:62",
+        "excerpt": "Implement redundancy, backups, and disaster recovery testing to ensure systems remain available to clients."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "confidential information",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:64",
+        "excerpt": "Encrypt confidential information and limit access based on business need."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:71",
+        "excerpt": "Quarterly vulnerability scans and annual penetration tests as per PCI DSS standards."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "CMP-004",
+        "kind": "paragraph",
+        "locator": "paragraph:88",
+        "excerpt": "Mandatory security training for all employees at onboarding and annually thereafter."
+      }
+    }
+  ],
+  "clause_count": 87,
+  "table_count": 0,
+  "word_count": 806,
+  "heading_count": 0
+}

@@ -1,0 +1,65 @@
+{
+  "doc_id": "MLA-006",
+  "status": "extracted",
+  "entities": [
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-006",
+        "kind": "paragraph",
+        "locator": "paragraph:4",
+        "excerpt": "This Rate Card Agreement (\u201cAgreement\u201d) is executed between PrimeVolta Hardware Solutions (\u201cVendor\u201d) and FinSecure Services (\u201cClient\u201d) for the purpose of defining a transparent, predictable, and mutually accepted pricing structure governing the supply of hardware devices, managed services, deployment activities, warranty handling, field support, software licensing, and other associated activities required for BFSI-grade infrastructure projects. The Parties recognize that the success of long-term collaboration depends on establishing clear pricing baselines that will guide budgeting processes, procurement approvals, financial planning cycles, and operational feasibility assessments. The intent of this Agreement is to consolidate all device-level and service-level price specifications under a single authoritative document, ensuring standardization, preventing pricing disputes, and enabling the Client to forecast expenses with accuracy. The Parties mutually agree that the rate card established under this Agreement shall serve as the exclusive reference for all pricing discussions for the duration of the contractual period unless revised through a formal amendment executed in writing."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-006",
+        "kind": "paragraph",
+        "locator": "paragraph:10",
+        "excerpt": "The Vendor shall provide the Client with a comprehensive pricing structure comprising the unit costs of all hardware models that may be procured by the Client under ongoing or future BFSI deployment requirements. Each device category shall be assigned a per-unit price that includes manufacturing costs, assembly, pre-deployment testing, packaging, standard accessories, and quality assurance. These prices shall remain firm throughout the contract tenure unless modified through a written amendment mutually endorsed by both Parties. The Vendor confirms that all hardware pricing presented to the Client under this Agreement reflects genuine manufacturing and component costs, considering raw material fluctuations, semiconductor availability trends, and industry-standard margins. The Vendor also affirms that devices supplied at the agreed per-unit price shall always match the specifications, quality parameters, and build standards referenced during the formal evaluation and approval processes. Any subsequent hardware revisions that materially alter capabilities, features, or performance parameters shall require renegotiation of the associated rate structure before supply."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-006",
+        "kind": "paragraph",
+        "locator": "paragraph:16",
+        "excerpt": "The Vendor shall provide warranty coverage for all hardware supplied under this Agreement in accordance with the standard warranty terms mutually agreed upon under the Master Services Agreement or relevant annexures. The cost for extended warranty coverage shall be defined clearly under this rate card, establishing the per-year price applicable for extending warranty protection beyond the standard period. The Vendor shall also define the pricing for Annual Maintenance Contracts, which may encompass comprehensive services such as preventive maintenance, scheduled audits, device health reporting, firmware updates, on-site inspection visits, and proactive hardware optimization services. The AMC pricing shall be structured based on the nature of hardware, criticality within BFSI workflows, expected life cycles, and the level of support required. It is agreed that once an AMC or extended warranty price is published in this rate card, it shall remain applicable for devices procured within the contractual period, regardless of future market fluctuations or component shortages."
+      }
+    },
+    {
+      "entity_type": "risk_indicator:medium_risk",
+      "raw_text": "exclusivity",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-006",
+        "kind": "paragraph",
+        "locator": "paragraph:27",
+        "excerpt": "9. NON-EXCLUSIVITY, MARKET FAIRNESS, AND COMPETITIVE INTEGRITY"
+      }
+    },
+    {
+      "entity_type": "risk_indicator:medium_risk",
+      "raw_text": "exclusivity",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "MLA-006",
+        "kind": "paragraph",
+        "locator": "paragraph:28",
+        "excerpt": "The Parties acknowledge that this Agreement does not create exclusivity in procurement or supply unless explicitly stated in separate contractual documents. The Client retains the right to engage with other vendors for hardware, services, or support, provided such procurements do not violate any existing contractual obligations. The Vendor affirms that the pricing detailed in this Agreement represents fair market pricing and is not discriminatory or preferential in a manner that compromises competitive integrity. The Vendor shall not provide substantially lower pricing for identical devices or services to other BFSI entities without offering the Client an opportunity for revision, unless such pricing differences are justified by order volume, long-term commitments, or unique commercial terms."
+      }
+    }
+  ],
+  "clause_count": 27,
+  "table_count": 0,
+  "word_count": 1746,
+  "heading_count": 0
+}

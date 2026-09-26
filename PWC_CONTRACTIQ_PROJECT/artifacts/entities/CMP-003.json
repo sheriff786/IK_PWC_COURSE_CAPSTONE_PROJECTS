@@ -1,0 +1,76 @@
+{
+  "doc_id": "CMP-003",
+  "status": "extracted",
+  "entities": [
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "CMP-003",
+        "kind": "paragraph",
+        "locator": "paragraph:4",
+        "excerpt": "The purpose of this Information Security Controls Policy is to establish a comprehensive framework for protecting the confidentiality, integrity, and availability of information assets managed by Primevolta Hardware Solutions. This policy ensures compliance with internationally recognized security standards such as ISO 27001, SOC2, and PCI DSS (where applicable), as well as regulatory requirements applicable to BFSI clients like FinSecure Services."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "CMP-003",
+        "kind": "paragraph",
+        "locator": "paragraph:40",
+        "excerpt": "Multi-factor authentication (MFA) is mandatory for all privileged accounts."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "CMP-003",
+        "kind": "paragraph",
+        "locator": "paragraph:54",
+        "excerpt": "Secure coding standards are applied for in-house software development."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "CMP-003",
+        "kind": "paragraph",
+        "locator": "paragraph:62",
+        "excerpt": "6. Compliance with Standards"
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "CMP-003",
+        "kind": "paragraph",
+        "locator": "paragraph:70",
+        "excerpt": "Payment card data handling adheres to PCI DSS 4.0 standards."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "CMP-003",
+        "kind": "paragraph",
+        "locator": "paragraph:74",
+        "excerpt": "All employees undergo mandatory security awareness training upon joining and annually thereafter."
+      }
+    }
+  ],
+  "clause_count": 82,
+  "table_count": 0,
+  "word_count": 850,
+  "heading_count": 0
+}

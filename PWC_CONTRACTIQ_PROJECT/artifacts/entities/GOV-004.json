@@ -1,0 +1,208 @@
+{
+  "doc_id": "GOV-004",
+  "status": "extracted",
+  "entities": [
+    {
+      "entity_type": "percentage",
+      "raw_text": "97%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:4",
+        "excerpt": "Overall Vendor performance has been satisfactory, with delivery compliance at 97% and SLA adherence at 95% for mission-critical services."
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "95%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:4",
+        "excerpt": "Overall Vendor performance has been satisfactory, with delivery compliance at 97% and SLA adherence at 95% for mission-critical services."
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "1%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:5",
+        "excerpt": "Revenue leakage incidents have occurred in less than 1% of total invoices, largely due to human errors in invoice generation and missed linkage to obligation tracking."
+      }
+    },
+    {
+      "entity_type": "clause_term:sla_terms",
+      "raw_text": "resolution time",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:6",
+        "excerpt": "Dispute resolution timelines have improved over the last contract term but require further reduction to minimize operational and financial risk."
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "90%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:13",
+        "excerpt": "Client satisfaction scores indicate high approval (>90%) for support response times, but a few complaints were raised regarding delayed escalation resolution."
+      }
+    },
+    {
+      "entity_type": "clause_term:sla_terms",
+      "raw_text": "response time",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:13",
+        "excerpt": "Client satisfaction scores indicate high approval (>90%) for support response times, but a few complaints were raised regarding delayed escalation resolution."
+      }
+    },
+    {
+      "entity_type": "clause_term:sla_terms",
+      "raw_text": "resolution time",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:16",
+        "excerpt": "Average resolution time for invoice disputes: 12 business days."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:20",
+        "excerpt": "Disputes have highlighted the need for tighter documentation standards, including obligation register integration and audit-ready reporting."
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "5%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:24",
+        "excerpt": "Reduce delivery SLA breach tolerance from 5% to 2% for critical hardware components."
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "2%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:24",
+        "excerpt": "Reduce delivery SLA breach tolerance from 5% to 2% for critical hardware components."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:28",
+        "excerpt": "Mandatory cross-verification of invoices against the obligation register before submission to Client Finance team."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:32",
+        "excerpt": "Standardize invoice templates to include obligation IDs, delivery confirmations, and SLA references."
+      }
+    },
+    {
+      "entity_type": "duration_or_notice_period",
+      "raw_text": "24 months",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:46",
+        "excerpt": "Proposed extension: 24 months with an optional 12-month renewal based on mutual agreement."
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "7%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:47",
+        "excerpt": "Pricing adjustment: 5\u20137% increase reflecting inflation, supply chain escalation, and service enhancement investments."
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "98%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:52",
+        "excerpt": "Delivery SLA compliance \u2265 98%"
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "95%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:53",
+        "excerpt": "Preventive maintenance completion \u2265 95%"
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "0.5%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:54",
+        "excerpt": "Invoice error rate \u2264 0.5%"
+      }
+    },
+    {
+      "entity_type": "date:unclassified",
+      "raw_text": "December 11, 2025",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "GOV-004",
+        "kind": "paragraph",
+        "locator": "paragraph:76",
+        "excerpt": "Prepared by: [Name, Role, PrimeVolta Hardware Solutions]\nReviewed by: [Name, Role, FinSecure Services]\nDate: December 11, 2025"
+      }
+    }
+  ],
+  "clause_count": 70,
+  "table_count": 0,
+  "word_count": 788,
+  "heading_count": 0
+}

@@ -1,0 +1,131 @@
+{
+  "doc_id": "NEG-006",
+  "status": "extracted",
+  "entities": [
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:5",
+        "excerpt": "The supply scope includes next-generation POS terminals, biometric authentication devices, and encrypted communication modules designed for FinSecure branches and partner networks. The BFSI regulatory environment, including RBI guidelines and ISO/IEC 27001 standards, mandates stringent operational and data security requirements."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:17",
+        "excerpt": "Mitigation: Legal teams proposed mandatory adherence to FinSecure\u2019s internal cybersecurity policies, contractual obligations for breach notification within 24 hours, and periodic audits."
+      }
+    },
+    {
+      "entity_type": "clause_term:sla_terms",
+      "raw_text": "response time",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:22",
+        "excerpt": "Ambiguity around response times for network outages or device malfunctions."
+      }
+    },
+    {
+      "entity_type": "clause_term:sla_terms",
+      "raw_text": "response time",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:25",
+        "excerpt": "Tiered SLA response times: Critical \u2013 2 hours; High \u2013 4 hours; Medium \u2013 24 hours."
+      }
+    },
+    {
+      "entity_type": "clause_term:indemnification",
+      "raw_text": "indemnification",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:29",
+        "excerpt": "2.3 Liability and Indemnification for Cybersecurity Failures"
+      }
+    },
+    {
+      "entity_type": "clause_term:indemnification",
+      "raw_text": "indemnification",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:32",
+        "excerpt": "Indemnification for third-party claims arising from compromised financial data."
+      }
+    },
+    {
+      "entity_type": "clause_term:liability_terms",
+      "raw_text": "unlimited liability",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:33",
+        "excerpt": "Negotiation Insight: Unlimited liability for willful misconduct and gross negligence is critical, while indirect damages may be capped."
+      }
+    },
+    {
+      "entity_type": "risk_indicator:high_risk",
+      "raw_text": "unlimited liability",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:33",
+        "excerpt": "Negotiation Insight: Unlimited liability for willful misconduct and gross negligence is critical, while indirect damages may be capped."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:63",
+        "excerpt": "Mandatory patch deployment within predefined timelines."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:74",
+        "excerpt": "NDAs and background verification for subcontractor staff."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "NEG-006",
+        "kind": "paragraph",
+        "locator": "paragraph:76",
+        "excerpt": "4. Risk Mitigation Recommendations"
+      }
+    }
+  ],
+  "clause_count": 76,
+  "table_count": 1,
+  "word_count": 709,
+  "heading_count": 0
+}

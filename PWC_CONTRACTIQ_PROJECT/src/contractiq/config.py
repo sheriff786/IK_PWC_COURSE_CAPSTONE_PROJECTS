@@ -41,11 +41,12 @@ DATA_ROOT = Path(os.getenv(
 ARTIFACTS_ROOT = PROJECT_ROOT / "artifacts"
 MANIFEST_PATH = ARTIFACTS_ROOT / "manifests" / "document_manifest.json"
 PARSED_DOCS_ROOT = ARTIFACTS_ROOT / "parsed_documents"
+ENTITIES_ROOT = ARTIFACTS_ROOT / "entities"           # Phase 2 output
 EVALUATIONS_ROOT = ARTIFACTS_ROOT / "evaluations"
 REPORTS_ROOT = ARTIFACTS_ROOT / "reports"
 CHROMA_PERSIST_DIR = PROJECT_ROOT / "chroma_contracts_db"
 
-for _dir in (ARTIFACTS_ROOT, MANIFEST_PATH.parent, PARSED_DOCS_ROOT,
+for _dir in (ARTIFACTS_ROOT, MANIFEST_PATH.parent, PARSED_DOCS_ROOT, ENTITIES_ROOT,
              EVALUATIONS_ROOT, REPORTS_ROOT, CHROMA_PERSIST_DIR):
     _dir.mkdir(parents=True, exist_ok=True)
 

@@ -1,0 +1,120 @@
+{
+  "doc_id": "FIN-003",
+  "status": "extracted",
+  "entities": [
+    {
+      "entity_type": "money:invoice_amount",
+      "raw_text": "INR 2,000,000",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "FIN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:6",
+        "excerpt": "Subtotal: INR 2,000,000\nGST @18%: INR 360,000\nTotal Invoice Amount: INR 2,360,000"
+      }
+    },
+    {
+      "entity_type": "money:invoice_amount",
+      "raw_text": "INR 360,000",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "FIN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:6",
+        "excerpt": "Subtotal: INR 2,000,000\nGST @18%: INR 360,000\nTotal Invoice Amount: INR 2,360,000"
+      }
+    },
+    {
+      "entity_type": "money:invoice_amount",
+      "raw_text": "INR 2,360,000",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "FIN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:6",
+        "excerpt": "Subtotal: INR 2,000,000\nGST @18%: INR 360,000\nTotal Invoice Amount: INR 2,360,000"
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "18%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "FIN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:6",
+        "excerpt": "Subtotal: INR 2,000,000\nGST @18%: INR 360,000\nTotal Invoice Amount: INR 2,360,000"
+      }
+    },
+    {
+      "entity_type": "duration_or_notice_period",
+      "raw_text": "14 calendar days",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "FIN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:9",
+        "excerpt": "Payment due within 14 calendar days of invoice date."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "FIN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:9",
+        "excerpt": "Payment due within 14 calendar days of invoice date."
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "1.5%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "FIN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:10",
+        "excerpt": "Late payments attract 1.5% interest per month from the due date."
+      }
+    },
+    {
+      "entity_type": "duration_or_notice_period",
+      "raw_text": "3 years",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "FIN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:21",
+        "excerpt": "All hardware carries manufacturer-backed warranty for 3 years from delivery date."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "FIN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:27",
+        "excerpt": "All supplied hardware is compliant with ISO/IEC 27001 security standards."
+      }
+    },
+    {
+      "entity_type": "money:unclassified",
+      "raw_text": "INR 59,000",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "FIN-003",
+        "kind": "paragraph",
+        "locator": "paragraph:44",
+        "excerpt": "Total Credit Amount: INR 59,000"
+      }
+    }
+  ],
+  "clause_count": 41,
+  "table_count": 2,
+  "word_count": 419,
+  "heading_count": 0
+}

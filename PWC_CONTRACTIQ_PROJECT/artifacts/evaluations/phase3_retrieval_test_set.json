@@ -1,0 +1,107 @@
+[
+  {
+    "question": "Is there a cap on the vendor's total liability under this agreement?",
+    "category_focus": "liability",
+    "expected_doc_id": "MLA-001",
+    "expected_locator_contains": "paragraph:24",
+    "notes": "Verified: chunk paragraph:24-43 contains para 37-38 (Section 10, LIMITATION OF LIABILITY - liability capped at 12 months' fees paid). Top search result, correct."
+  },
+  {
+    "question": "If the vendor is negligent and damages the client's property, what does the agreement say happens?",
+    "category_focus": "liability",
+    "expected_doc_id": "MLA-001",
+    "expected_locator_contains": "paragraph:24",
+    "notes": "Verified: same chunk contains para 34-35 (Section 9, INDEMNIFICATION). No standalone 'property damage' clause exists in this doc - indemnification is the closest real answer. Top search result, correct."
+  },
+  {
+    "question": "Are consequential or indirect damages excluded under this contract?",
+    "category_focus": "liability",
+    "expected_doc_id": "MLA-001",
+    "expected_locator_contains": "paragraph:24",
+    "notes": "Verified: para 38 explicitly excludes 'indirect, consequential, exemplary, special, incidental, or punitive damages'. Top search result, correct."
+  },
+  {
+    "question": "What is the payment due date or payment term under this agreement?",
+    "category_focus": "payment",
+    "expected_doc_id": "FIN-001",
+    "expected_locator_contains": "paragraph:0",
+    "notes": "Verified: para 10 states 'Payment is due within 30 calendar days from the date of invoice receipt.' Correct, but chunk is nearly the whole 456-word document (short-doc dilution issue noted above)."
+  },
+  {
+    "question": "What happens if an invoice is not paid on time - is there a late fee or interest charge?",
+    "category_focus": "payment",
+    "expected_doc_id": "FIN-001",
+    "expected_locator_contains": "paragraph:0",
+    "notes": "Verified: para 11 states 'Late payments will attract an interest of 1.5% per month on the outstanding amount.' Correct answer, but only 0.336 score - short-document chunk dilution likely the cause."
+  },
+  {
+    "question": "What is the total contract value or pricing structure described in this agreement?",
+    "category_focus": "payment",
+    "expected_doc_id": "COM-002",
+    "expected_locator_contains": "paragraph:0",
+    "notes": "Verified: whole-document chunk of a dedicated pricing table doc. Top result, correct."
+  },
+  {
+    "question": "Under what conditions can either party terminate this agreement for cause?",
+    "category_focus": "termination",
+    "expected_doc_id": "MLA-001",
+    "expected_locator_contains": "paragraph:0",
+    "notes": "Verified: para 9 (Section 3, TERM AND TERMINATION) states termination for cause requires material breach uncured within 30 days. Chunk paragraph:0-11 contains it. Top result, correct."
+  },
+  {
+    "question": "What notice period is required to terminate the agreement without cause?",
+    "category_focus": "termination",
+    "expected_doc_id": "MLA-001",
+    "expected_locator_contains": "paragraph:0",
+    "notes": "Verified: para 9 states 'not less than ninety (90) days' prior written notice' for termination for convenience. This was ranked 3rd (score 0.347) behind two NDA survival clauses that don't actually answer this - still correct and present in top-3."
+  },
+  {
+    "question": "What happens to outstanding obligations or fees upon termination?",
+    "category_focus": "termination",
+    "expected_doc_id": "MLA-002",
+    "expected_locator_contains": "paragraph:15",
+    "notes": "Verified: para 22 (Section 9) states 'Any outstanding payments shall be settled in accordance with the contractual terms.' Top result, correct."
+  },
+  {
+    "question": "What service level or uptime commitment does the vendor make?",
+    "category_focus": "sla",
+    "expected_doc_id": "MLA-001",
+    "expected_locator_contains": "paragraph:12",
+    "notes": "Verified: para 20 (Section 5) commits to resolving Critical incidents within 4 hours, High within 8 hours, etc. Top result, correct."
+  },
+  {
+    "question": "What remedy or credit applies if the vendor misses a service level target?",
+    "category_focus": "sla",
+    "expected_doc_id": "MLA-002",
+    "expected_locator_contains": "paragraph:15",
+    "notes": "CORRECTED from top result: algorithm's #1 pick (GOV-004) is negotiation notes proposing FUTURE penalty clauses to draft, not an existing contractual remedy. MLA-002 para 17 ('service credits or compensatory remedies') is the actual executed clause - it was ranked #2 (score 0.453)."
+  },
+  {
+    "question": "How is service performance measured or reported under this agreement?",
+    "category_focus": "sla",
+    "expected_doc_id": "GOV-004",
+    "expected_locator_contains": "paragraph:51",
+    "notes": "Verified: para 51-55 lists concrete KPIs (Delivery SLA compliance >= 98%, etc). Top result, correct - this one genuinely is the best answer."
+  },
+  {
+    "question": "How is confidential information defined under this agreement?",
+    "category_focus": "confidentiality",
+    "expected_doc_id": null,
+    "expected_locator_contains": null,
+    "notes": "RETRIEVAL MISS - do not fill with a fabricated hit. Real definition is NDA_sample_2 paragraph 6-8 (Section 2, NATURE AND SCOPE OF CONFIDENTIAL INFORMATION) or NDA_sample_1 paragraph 6-8. None of the top-3 candidates (which returned survival/breach/misc sections) actually contain this. Leave expected_doc_id null so evaluate_retrieval() correctly skips/flags this as unresolved, OR set expected_doc_id='MLA-004' with expected_locator_contains='paragraph:6' to deliberately record this as a will-fail test case that documents the gap."
+  },
+  {
+    "question": "How long do confidentiality obligations survive after the agreement ends?",
+    "category_focus": "confidentiality",
+    "expected_doc_id": "MLA-004",
+    "expected_locator_contains": "paragraph:27",
+    "notes": "Verified: para 28 (Section 8) states obligations survive 5 years, or indefinitely for trade secrets. Top result, correct."
+  },
+  {
+    "question": "What exceptions exist to the confidentiality obligations (e.g. legally required disclosure)?",
+    "category_focus": "confidentiality",
+    "expected_doc_id": "MLA-004",
+    "expected_locator_contains": "paragraph:14",
+    "notes": "CORRECTED: top-3 candidates for this exact query only reached paragraph:0-14 (which ends right at the section heading, not its content) or paragraph:27-42 (wrong section). The real exceptions text is at paragraph 15, inside chunk paragraph:14-paragraph:27 (confirmed to exist from another query, but did not rank in top-3 for this phrasing). Recording the correct chunk here means this row will show as a miss in evaluate_retrieval() at top_k=3, which is honest \u2014 try top_k=5 or rephrase the question."
+  }
+]

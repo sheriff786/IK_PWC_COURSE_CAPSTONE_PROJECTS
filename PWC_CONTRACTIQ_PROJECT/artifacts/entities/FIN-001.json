@@ -1,0 +1,120 @@
+{
+  "doc_id": "FIN-001",
+  "status": "extracted",
+  "entities": [
+    {
+      "entity_type": "money:invoice_amount",
+      "raw_text": "INR 5,00,000,",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "FIN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:8",
+        "excerpt": "For one-time orders exceeding INR 5,00,000, invoices will be issued upon delivery."
+      }
+    },
+    {
+      "entity_type": "duration_or_notice_period",
+      "raw_text": "30 calendar days",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "FIN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:10",
+        "excerpt": "Payment is due within 30 calendar days from the date of invoice receipt."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "FIN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:10",
+        "excerpt": "Payment is due within 30 calendar days from the date of invoice receipt."
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "1.5%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "FIN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:11",
+        "excerpt": "Late payments will attract an interest of 1.5% per month on the outstanding amount."
+      }
+    },
+    {
+      "entity_type": "money:unclassified",
+      "raw_text": "INR 50,00,000",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "FIN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:18",
+        "excerpt": "3.4 Milestone Billing:\nFor large hardware deployments exceeding INR 50,00,000:"
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "30%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "FIN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:19",
+        "excerpt": "30% advance upon PO acceptance"
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "40%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "FIN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:20",
+        "excerpt": "40% upon delivery of hardware to site"
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "30%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "FIN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:21",
+        "excerpt": "30% upon successful installation and acceptance testing"
+      }
+    },
+    {
+      "entity_type": "duration_or_notice_period",
+      "raw_text": "7 days",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "FIN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:28",
+        "excerpt": "Notify the Vendor of any discrepancies within 7 days of receiving an invoice."
+      }
+    },
+    {
+      "entity_type": "duration_or_notice_period",
+      "raw_text": "30 days",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "FIN-001",
+        "kind": "paragraph",
+        "locator": "paragraph:39",
+        "excerpt": "Either party may terminate this Agreement with 30 days\u2019 written notice."
+      }
+    }
+  ],
+  "clause_count": 45,
+  "table_count": 1,
+  "word_count": 411,
+  "heading_count": 0
+}

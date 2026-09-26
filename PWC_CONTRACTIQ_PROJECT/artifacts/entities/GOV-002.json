@@ -1,0 +1,186 @@
+{
+  "doc_id": "GOV-002",
+  "status": "extracted",
+  "entities": [
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:6",
+        "excerpt": "This Post-Project Review (PPR) is executed to conduct an exhaustive assessment of the electronic hardware deployment project undertaken by Primevolta Hardware Solutions for FinSecure Services. The review\u2019s primary purpose is to evaluate the project against all contractual, operational, technical, and financial parameters established in the Master Supply and Services Agreement dated [Agreement Date]. This PPR aims to provide a formal record of project outcomes, identify any variances from agreed specifications, review the effectiveness of project governance mechanisms, and provide actionable recommendations for future projects. The scope encompasses hardware performance, installation quality, technical support effectiveness, regulatory compliance, risk mitigation measures, financial reconciliation, and client satisfaction assessment."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:12",
+        "excerpt": "Redundant power systems including UPS modules and battery backups."
+      }
+    },
+    {
+      "entity_type": "clause_term:sla_terms",
+      "raw_text": "service level agreement",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:14",
+        "excerpt": "The project commenced on [Start Date] and concluded on [End Date], with intermediate milestones including pilot deployment, full-scale installation, user acceptance testing (UAT), and initial maintenance training. The project was governed under the Master Hardware Supply and Service Agreement, including clauses on service level agreements (SLAs), warranties, escalation procedures, and compliance with information security standards applicable to BFSI organizations."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:14",
+        "excerpt": "The project commenced on [Start Date] and concluded on [End Date], with intermediate milestones including pilot deployment, full-scale installation, user acceptance testing (UAT), and initial maintenance training. The project was governed under the Master Hardware Supply and Service Agreement, including clauses on service level agreements (SLAs), warranties, escalation procedures, and compliance with information security standards applicable to BFSI organizations."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:19",
+        "excerpt": "Assess operational functionality under both standard and stress conditions."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:24",
+        "excerpt": "Provide recommendations to strengthen governance and operational processes in future engagements."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:34",
+        "excerpt": "Verified networked camera performance for coverage, video clarity, and storage redundancy."
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "99.2%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:53",
+        "excerpt": "Biometric modules demonstrated 99.2% recognition accuracy under standard conditions. Three branches reported occasional login failures, resolved within 48 hours."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:53",
+        "excerpt": "Biometric modules demonstrated 99.2% recognition accuracy under standard conditions. Three branches reported occasional login failures, resolved within 48 hours."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:57",
+        "excerpt": "All hardware met mandatory security and data privacy standards applicable to BFSI organizations."
+      }
+    },
+    {
+      "entity_type": "percentage",
+      "raw_text": "2%",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:61",
+        "excerpt": "Total project cost remained within 2% of the approved budget, attributed to minor logistics and installation adjustments."
+      }
+    },
+    {
+      "entity_type": "clause_term:sla_terms",
+      "raw_text": "performance metric",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:63",
+        "excerpt": "SLA performance metrics exceeded contractual obligations, with support ticket resolution averaging 2.7 hours against a 4-hour SLA."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:69",
+        "excerpt": "Recommendations included proactive stock management for critical components and more frequent refresher training sessions for IT teams."
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:71",
+        "excerpt": "6. Lessons Learned and Recommendations"
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:72",
+        "excerpt": "6.1 Operational Recommendations"
+      }
+    },
+    {
+      "entity_type": "clause_term:confidentiality",
+      "raw_text": "nda",
+      "normalized_value": null,
+      "source_location": {
+        "doc_id": "GOV-002",
+        "kind": "paragraph",
+        "locator": "paragraph:81",
+        "excerpt": "6.4 Strategic Recommendations"
+      }
+    }
+  ],
+  "clause_count": 83,
+  "table_count": 0,
+  "word_count": 971,
+  "heading_count": 0
+}
