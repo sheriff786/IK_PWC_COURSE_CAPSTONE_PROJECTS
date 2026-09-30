@@ -1,0 +1,24 @@
+{
+  "dimension": "operational",
+  "success": true,
+  "findings": [
+    {
+      "finding_id": "operational-scope_of_work-b9bd2c79",
+      "dimension": "operational",
+      "severity": "MEDIUM",
+      "title": "Scope of Work and Deliverables Defined",
+      "rationale": "The evidence clearly outlines the products and services that fall under the agreement, which constitutes the scope of work.",
+      "recommendation": null,
+      "evidence_ids": [
+        "COM-002-c0"
+      ],
+      "evidence_excerpts": [
+        "The following products and services fall under this Agreement: Enterprise Servers (Rack-mounted, Blade, Tower), Networking Equipment (Switches, Firewalls, Routers), Data Storage Solutions (NAS, SAN, Cloud-integrated Storage), Workstation and Peripheral Devices (UPS, Printers, Scanners, Monitors), Consumables (Cables, Batteries, Connectors), Extended Warranty and Maintenance Services."
+      ],
+      "verification_status": "failed_verification",
+      "confidence": 0.3
+    }
+  ],
+  "error": null,
+  "retry_count": 0
+}

@@ -3,11 +3,11 @@
   "success": true,
   "findings": [
     {
-      "finding_id": "legal-liability_cap-4062fba5",
+      "finding_id": "legal-liability_cap-0fcb279f",
       "dimension": "legal",
       "severity": "MEDIUM",
       "title": "Limitation of Liability",
-      "rationale": "The evidence explicitly states the limitation on the Vendor's liability under the agreement.",
+      "rationale": "The evidence explicitly states that the Vendor's liability is limited to the total contract value, which addresses the topic of liability cap.",
       "recommendation": null,
       "evidence_ids": [
         "NEG-003-c0"
@@ -19,10 +19,10 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "legal-indemnification-13650b25",
+      "finding_id": "legal-indemnification-f4a115f1",
       "dimension": "legal",
       "severity": "MEDIUM",
-      "title": "Indemnification Obligations",
+      "title": "Indemnification Obligations of Vendor",
       "rationale": "The evidence specifies the indemnification obligations of the Vendor towards the Client.",
       "recommendation": null,
       "evidence_ids": [
@@ -35,7 +35,7 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "legal-termination_for_cause-ec6a7cac",
+      "finding_id": "legal-termination_for_cause-4674003a",
       "dimension": "legal",
       "severity": "MEDIUM",
       "title": "Termination for Cause Conditions",
@@ -51,7 +51,7 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "legal-termination_for_convenience-8f2e5413",
+      "finding_id": "legal-termination_for_convenience-9ef45bbb",
       "dimension": "legal",
       "severity": "MEDIUM",
       "title": "Termination for Convenience Notice Period",
@@ -67,9 +67,9 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "legal-confidentiality_survival-4c22e600",
+      "finding_id": "legal-confidentiality_survival-6f93c64e",
       "dimension": "legal",
-      "severity": "MEDIUM",
+      "severity": "LOW",
       "title": "Confidentiality Obligations Survival Duration",
       "rationale": "The evidence explicitly states the duration for which confidentiality obligations survive after the agreement ends.",
       "recommendation": null,
@@ -83,11 +83,11 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "legal-governing_law_disputes-e49fdb18",
+      "finding_id": "legal-governing_law_disputes-17c0349b",
       "dimension": "legal",
       "severity": "MEDIUM",
       "title": "Governing Law and Dispute Resolution",
-      "rationale": "The evidence specifies the governing law and the method for resolving disputes, indicating that arbitration will be used if amicable resolution fails.",
+      "rationale": "The evidence specifies the governing law and the method for resolving disputes between the parties.",
       "recommendation": null,
       "evidence_ids": [
         "NEG-003-c0"

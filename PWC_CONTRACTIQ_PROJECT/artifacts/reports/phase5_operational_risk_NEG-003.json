@@ -1,0 +1,72 @@
+{
+  "dimension": "operational",
+  "success": true,
+  "findings": [
+    {
+      "finding_id": "operational-scope_of_work-cc1217f0",
+      "dimension": "operational",
+      "severity": "MEDIUM",
+      "title": "Scope of Work Defined",
+      "rationale": "The evidence clearly outlines the scope of work and deliverables under the agreement, specifying the responsibilities of the Vendor.",
+      "recommendation": null,
+      "evidence_ids": [
+        "NEG-003-c0"
+      ],
+      "evidence_excerpts": [
+        "3. Scope of Supply\n3.1 Vendor shall supply the Hardware as per specifications in Annexure A.\n3.2 Vendor shall provide installation, configuration, and integration services.\n3.3 Vendor shall provide training to Client staff for a period of 2 weeks post-installation."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    },
+    {
+      "finding_id": "operational-acceptance_criteria-db42fe98",
+      "dimension": "operational",
+      "severity": "MEDIUM",
+      "title": "Acceptance Criteria for Deliverables",
+      "rationale": "The evidence specifies that the Client requested milestone-based payments tied to acceptance testing, indicating that acceptance criteria are part of the agreement.",
+      "recommendation": null,
+      "evidence_ids": [
+        "NEG-003-c0"
+      ],
+      "evidence_excerpts": [
+        "Client requested milestone-based payments tied to acceptance testing rather than delivery date."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.85
+    },
+    {
+      "finding_id": "operational-sla_commitments-12ca334e",
+      "dimension": "operational",
+      "severity": "HIGH",
+      "title": "Service Level Commitments",
+      "rationale": "The vendor commits to a service uptime SLA of 99.9%, which was a request from the client, and also provides technical support 24x7.",
+      "recommendation": null,
+      "evidence_ids": [
+        "NEG-003-c0"
+      ],
+      "evidence_excerpts": [
+        "Client requested inclusion of service uptime SLA of 99.9% (Vendor initially proposed 98%). Vendor shall provide technical support 24x7."
+      ],
+      "verification_status": "failed_verification",
+      "confidence": 0.3
+    },
+    {
+      "finding_id": "operational-dependencies_obligations-8d3b3dad",
+      "dimension": "operational",
+      "severity": "MEDIUM",
+      "title": "Client-Side Obligations for Vendor Performance",
+      "rationale": "The vendor relies on the client to fulfill certain obligations that are critical for the vendor's performance, such as timely acceptance of hardware and adherence to payment schedules tied to acceptance testing.",
+      "recommendation": null,
+      "evidence_ids": [
+        "NEG-003-c0"
+      ],
+      "evidence_excerpts": [
+        "Client requested milestone-based payments tied to acceptance testing rather than delivery date."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.85
+    }
+  ],
+  "error": null,
+  "retry_count": 0
+}

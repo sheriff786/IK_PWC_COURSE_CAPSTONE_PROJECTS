@@ -1,0 +1,150 @@
+{
+  "assessment_id": "assessment-FIN-004-468e2923",
+  "doc_id": "FIN-004",
+  "run_id": "70ad431a9a5f",
+  "document_version": "1",
+  "model_version": "gpt-4o-mini",
+  "prompt_version": "phase5-specialist-prompts-v1",
+  "policy_version": "risk-policy-v1",
+  "dimension_results": [
+    {
+      "dimension": "legal",
+      "success": true,
+      "findings": [],
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "dimension": "financial",
+      "success": true,
+      "findings": [
+        {
+          "finding_id": "financial-payment_terms-371af07a",
+          "dimension": "financial",
+          "severity": "MEDIUM",
+          "title": "Payment Terms and Schedule",
+          "rationale": "The contract specifies the payment terms clearly, including the due date and conditions for late payment.",
+          "recommendation": null,
+          "evidence_ids": [
+            "FIN-004-c0"
+          ],
+          "evidence_excerpts": [
+            "Payment due within 15 calendar days of invoice date. Late payment subject to 1.5% monthly interest."
+          ],
+          "verification_status": "verified",
+          "confidence": 0.9
+        },
+        {
+          "finding_id": "financial-late_payment_penalties-840171fd",
+          "dimension": "financial",
+          "severity": "MEDIUM",
+          "title": "Late Payment Penalty Details",
+          "rationale": "The evidence specifies the penalties for late payments, including the interest rate applicable.",
+          "recommendation": null,
+          "evidence_ids": [
+            "FIN-004-c0"
+          ],
+          "evidence_excerpts": [
+            "Late payment subject to 1.5% monthly interest."
+          ],
+          "verification_status": "verified",
+          "confidence": 0.9
+        },
+        {
+          "finding_id": "financial-pricing_structure-15a2e110",
+          "dimension": "financial",
+          "severity": "MEDIUM",
+          "title": "Pricing Structure and Fee Schedule",
+          "rationale": "The evidence provides a detailed breakdown of the pricing structure, including subtotal, GST, and total invoice amount, as well as payment terms and conditions.",
+          "recommendation": null,
+          "evidence_ids": [
+            "FIN-004-c0"
+          ],
+          "evidence_excerpts": [
+            "Subtotal: INR 3,300,000\nGST @18%: INR 594,000\nTotal Invoice Amount: INR 3,894,000\nPayment due within 15 calendar days of invoice date.\nLate payment subject to 1.5% monthly interest."
+          ],
+          "verification_status": "failed_verification",
+          "confidence": 0.3
+        }
+      ],
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "dimension": "operational",
+      "success": true,
+      "findings": [
+        {
+          "finding_id": "operational-scope_of_work-bdbe80a0",
+          "dimension": "operational",
+          "severity": "MEDIUM",
+          "title": "Scope of Work and Deliverables",
+          "rationale": "The evidence provides details about the products and services delivered under the contract, including hardware delivery, acceptance testing, and warranty support.",
+          "recommendation": null,
+          "evidence_ids": [
+            "FIN-004-c0"
+          ],
+          "evidence_excerpts": [
+            "1. Description of Products / Services"
+          ],
+          "verification_status": "verified",
+          "confidence": 0.9
+        },
+        {
+          "finding_id": "operational-acceptance_criteria-f30a03b4",
+          "dimension": "operational",
+          "severity": "MEDIUM",
+          "title": "Acceptance Criteria for Deliverables",
+          "rationale": "The evidence specifies the acceptance testing criteria for the deliverables, which include functional tests, performance benchmarks, and network integration tests, along with the requirement to report discrepancies within a specified timeframe.",
+          "recommendation": null,
+          "evidence_ids": [
+            "FIN-004-c0"
+          ],
+          "evidence_excerpts": [
+            "Acceptance testing included: functional tests, performance benchmarks, and network integration tests."
+          ],
+          "verification_status": "verified",
+          "confidence": 0.9
+        },
+        {
+          "finding_id": "operational-sla_commitments-f7c3312e",
+          "dimension": "operational",
+          "severity": "MEDIUM",
+          "title": "Service Level and Performance Commitments",
+          "rationale": "The vendor commits to providing 24x7 remote and onsite support for troubleshooting and preventive maintenance, which is a key service level commitment.",
+          "recommendation": null,
+          "evidence_ids": [
+            "FIN-004-c0"
+          ],
+          "evidence_excerpts": [
+            "Primevolta provides 24x7 remote and onsite support for troubleshooting and preventive maintenance."
+          ],
+          "verification_status": "verified",
+          "confidence": 0.9
+        },
+        {
+          "finding_id": "operational-performance_reporting-f409f589",
+          "dimension": "operational",
+          "severity": "MEDIUM",
+          "title": "Service Performance Measurement and Reporting",
+          "rationale": "The evidence specifies that acceptance testing included functional tests, performance benchmarks, and network integration tests, which are key indicators of service performance measurement.",
+          "recommendation": null,
+          "evidence_ids": [
+            "FIN-004-c0"
+          ],
+          "evidence_excerpts": [
+            "Acceptance testing included: functional tests, performance benchmarks, and network integration tests."
+          ],
+          "verification_status": "verified",
+          "confidence": 0.9
+        }
+      ],
+      "error": null,
+      "retry_count": 0
+    }
+  ],
+  "unresolved_issues": [],
+  "consensus_actions": [],
+  "overall_risk": "MEDIUM",
+  "created_at": "2026-09-26T13:09:52.866704"
+}

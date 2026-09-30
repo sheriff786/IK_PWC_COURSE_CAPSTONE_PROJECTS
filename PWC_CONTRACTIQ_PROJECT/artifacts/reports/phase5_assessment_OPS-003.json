@@ -1,0 +1,85 @@
+{
+  "assessment_id": "assessment-OPS-003-d4749e31",
+  "doc_id": "OPS-003",
+  "run_id": "b1460c7e1a99",
+  "document_version": "1",
+  "model_version": "gpt-4o-mini",
+  "prompt_version": "phase5-specialist-prompts-v1",
+  "policy_version": "risk-policy-v1",
+  "dimension_results": [
+    {
+      "dimension": "financial",
+      "success": true,
+      "findings": [],
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "dimension": "operational",
+      "success": true,
+      "findings": [
+        {
+          "finding_id": "operational-scope_of_work-0f7b89ae",
+          "dimension": "operational",
+          "severity": "MEDIUM",
+          "title": "Scope of Work Defined",
+          "rationale": "The evidence clearly outlines the scope of services provided under the agreement, detailing specific deliverables and operational responsibilities.",
+          "recommendation": null,
+          "evidence_ids": [
+            "OPS-003-c0"
+          ],
+          "evidence_excerpts": [
+            "2.2 Scope of Services\nPreventive Maintenance & Firmware Updates\nIncident Response & Resolution\nPerformance Monitoring & Reporting\nHardware Replacement & Repairs\nTechnical Consultation for Infrastructure Optimization"
+          ],
+          "verification_status": "verified",
+          "confidence": 0.9
+        },
+        {
+          "finding_id": "operational-sla_commitments-73c16a5e",
+          "dimension": "operational",
+          "severity": "MEDIUM",
+          "title": "Service Level Commitments",
+          "rationale": "The evidence provides specific performance metrics and commitments made by Primevolta Hardware Solutions regarding service delivery and incident management.",
+          "recommendation": "Review SLA compliance and optimize incident response workflows as mentioned in the report.",
+          "evidence_ids": [
+            "OPS-003-c0"
+          ],
+          "evidence_excerpts": [
+            "Primevolta Hardware Solutions commits to continuous improvement in operational service delivery, ensuring reliability, security, and efficiency of all hardware systems under management."
+          ],
+          "verification_status": "verified",
+          "confidence": 0.9
+        },
+        {
+          "finding_id": "operational-performance_reporting-956cdec3",
+          "dimension": "operational",
+          "severity": "MEDIUM",
+          "title": "Service Performance Measurement and Reporting",
+          "rationale": "The evidence provides a detailed overview of how service performance is measured and reported, including specific metrics and activities related to hardware performance and service delivery.",
+          "recommendation": null,
+          "evidence_ids": [
+            "OPS-003-c0"
+          ],
+          "evidence_excerpts": [
+            "This report summarizes the operational services delivered by Primevolta Hardware Solutions to FinSecure Services during the period of November 1, 2025, to November 30, 2025. The primary objective of this report is to provide a detailed overview of hardware performance, service requests, preventive maintenance, incidents, and overall service quality."
+          ],
+          "verification_status": "verified",
+          "confidence": 0.9
+        }
+      ],
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "dimension": "legal",
+      "success": true,
+      "findings": [],
+      "error": null,
+      "retry_count": 0
+    }
+  ],
+  "unresolved_issues": [],
+  "consensus_actions": [],
+  "overall_risk": "MEDIUM",
+  "created_at": "2026-09-26T13:10:45.101640"
+}

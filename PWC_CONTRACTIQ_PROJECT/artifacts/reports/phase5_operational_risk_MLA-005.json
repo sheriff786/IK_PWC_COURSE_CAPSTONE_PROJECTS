@@ -1,0 +1,72 @@
+{
+  "dimension": "operational",
+  "success": true,
+  "findings": [
+    {
+      "finding_id": "operational-scope_of_work-5cbbb45a",
+      "dimension": "operational",
+      "severity": "HIGH",
+      "title": "Scope of Work and Deliverables Defined",
+      "rationale": "The evidence clearly outlines the scope of work and deliverables under the agreement, detailing various products, services, and components involved in the BFSI deployments.",
+      "recommendation": null,
+      "evidence_ids": [
+        "MLA-005-c0"
+      ],
+      "evidence_excerpts": [
+        "The scope of this Agreement is intentionally broad, covering every category of hardware, firmware, software-adjacent service, engineering activity, logistical operation, and maintenance initiative likely to arise throughout the lifecycle of BFSI deployments."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.95
+    },
+    {
+      "finding_id": "operational-sla_commitments-7e895617",
+      "dimension": "operational",
+      "severity": "MEDIUM",
+      "title": "Service Level and Performance Commitments",
+      "rationale": "The Vendor commits to maintaining clear pricing structures and ensuring that all service-related charges are transparent and predictable, which directly relates to service level commitments.",
+      "recommendation": null,
+      "evidence_ids": [
+        "MLA-005-c0"
+      ],
+      "evidence_excerpts": [
+        "The Vendor shall maintain a comprehensive pricing structure governing the cost of installation, device commissioning, software-hardware integration, firmware onboarding, branch-level workflow configuration, and technical validation."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    },
+    {
+      "finding_id": "operational-dependencies_obligations-e2fd5923",
+      "dimension": "operational",
+      "severity": "MEDIUM",
+      "title": "Client-Side Obligations for Vendor Performance",
+      "rationale": "The evidence specifies that the Vendor's performance is contingent upon the Client's requirements for manpower and operational dependencies, particularly for complex operations and installation services.",
+      "recommendation": null,
+      "evidence_ids": [
+        "MLA-005-c2"
+      ],
+      "evidence_excerpts": [
+        "If the Client requires manpower for complex operations such as security sandbox testing, PSU audit compliance support, mass firmware rollout campaigns, or large-scale device refresh cycles, such activities shall also be covered under the pricing model established in this Agreement."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.85
+    },
+    {
+      "finding_id": "operational-performance_reporting-6ac7b0b5",
+      "dimension": "operational",
+      "severity": "MEDIUM",
+      "title": "Performance Reporting in AMC",
+      "rationale": "The evidence specifies that the Vendor agrees to provide performance analytics reporting as part of the Annual Maintenance Contracts (AMC), which is a key aspect of service performance measurement and reporting.",
+      "recommendation": null,
+      "evidence_ids": [
+        "MLA-005-c1"
+      ],
+      "evidence_excerpts": [
+        "AMC charges reflect industry-aligned maintenance obligations such as scheduled preventive visits, firmware patch cycles, device uptime monitoring, remote diagnostics, onsite support availability, real-time support desk access, and performance analytics reporting."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    }
+  ],
+  "error": null,
+  "retry_count": 0
+}

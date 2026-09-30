@@ -1,0 +1,153 @@
+{
+  "assessment_id": "assessment-MLA-006-c723370a",
+  "doc_id": "MLA-006",
+  "run_id": "f7b6baf62940",
+  "document_version": "1",
+  "model_version": "gpt-4o-mini",
+  "prompt_version": "phase5-specialist-prompts-v1",
+  "policy_version": "risk-policy-v1",
+  "dimension_results": [
+    {
+      "dimension": "operational",
+      "success": true,
+      "findings": [
+        {
+          "finding_id": "operational-scope_of_work-3fed9439",
+          "dimension": "operational",
+          "severity": "MEDIUM",
+          "title": "Scope of Work and Deliverables Defined",
+          "rationale": "The evidence clearly outlines the scope of products and services covered under the agreement, detailing the types of hardware and associated services that the Vendor will provide to the Client.",
+          "recommendation": null,
+          "evidence_ids": [
+            "MLA-006-c0"
+          ],
+          "evidence_excerpts": [
+            "The scope of this Agreement extends to all categories of hardware devices manufactured, supplied, assembled, or configured by the Vendor for the Client, including biometric authentication units, KYC verification terminals, payment controller modules, secure embedded hardware, IoT gateway systems, HSM interface boards, branch automation hardware, and any related peripherals, cables, adaptors, mounting kits, or installation accessories required for deployment."
+          ],
+          "verification_status": "verified",
+          "confidence": 0.9
+        },
+        {
+          "finding_id": "operational-sla_commitments-086c9cab",
+          "dimension": "operational",
+          "severity": "MEDIUM",
+          "title": "Service Level Commitments in the Agreement",
+          "rationale": "The evidence outlines the Vendor's commitments regarding service levels, particularly in terms of warranty, maintenance, and support services, which are critical for operational assurance in BFSI operations.",
+          "recommendation": null,
+          "evidence_ids": [
+            "MLA-006-c0"
+          ],
+          "evidence_excerpts": [
+            "The Vendor shall extend a structured service pricing model covering all labour-intensive, field-oriented, and support-driven activities that the Client may require during the lifecycle of the supplied hardware devices."
+          ],
+          "verification_status": "verified",
+          "confidence": 0.9
+        }
+      ],
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "dimension": "legal",
+      "success": true,
+      "findings": [
+        {
+          "finding_id": "legal-confidentiality_survival-64c9459d",
+          "dimension": "legal",
+          "severity": "MEDIUM",
+          "title": "Confidentiality Obligations Survival",
+          "rationale": "The evidence explicitly states the duration for which confidentiality obligations survive after the agreement ends.",
+          "recommendation": null,
+          "evidence_ids": [
+            "MLA-006-c2"
+          ],
+          "evidence_excerpts": [
+            "The confidentiality obligations defined under this Agreement shall survive termination for a minimum of five years."
+          ],
+          "verification_status": "verified",
+          "confidence": 0.9
+        }
+      ],
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "dimension": "financial",
+      "success": true,
+      "findings": [
+        {
+          "finding_id": "financial-payment_terms-62f63645",
+          "dimension": "financial",
+          "severity": "MEDIUM",
+          "title": "Payment Terms and Invoicing",
+          "rationale": "The evidence specifies the invoicing and payment terms that the Vendor and Client must adhere to under the Agreement.",
+          "recommendation": null,
+          "evidence_ids": [
+            "MLA-006-c1"
+          ],
+          "evidence_excerpts": [
+            "The Vendor shall issue invoices strictly in accordance with the rate structures defined in this Agreement, ensuring absolute alignment between delivered items, approved quantities, service activities performed, and the pricing committed within the rate card."
+          ],
+          "verification_status": "verified",
+          "confidence": 0.9
+        },
+        {
+          "finding_id": "financial-pricing_structure-035e284e",
+          "dimension": "financial",
+          "severity": "HIGH",
+          "title": "Pricing Structure Defined",
+          "rationale": "The evidence provides a comprehensive overview of the pricing structure, including details on hardware supply, service rates, warranty costs, and logistics fees, ensuring clarity and predictability in financial interactions between the parties.",
+          "recommendation": null,
+          "evidence_ids": [
+            "MLA-006-c0"
+          ],
+          "evidence_excerpts": [
+            "The intent of this Agreement is to consolidate all device-level and service-level price specifications under a single authoritative document, ensuring standardization, preventing pricing disputes, and enabling the Client to forecast expenses with accuracy."
+          ],
+          "verification_status": "verified",
+          "confidence": 0.95
+        },
+        {
+          "finding_id": "financial-price_escalation-3b8fb0d9",
+          "dimension": "financial",
+          "severity": "MEDIUM",
+          "title": "Price Adjustment Mechanism",
+          "rationale": "The contract includes a mechanism for price adjustments based on market fluctuations and other factors, which indicates the presence of price escalation clauses.",
+          "recommendation": null,
+          "evidence_ids": [
+            "MLA-006-c1"
+          ],
+          "evidence_excerpts": [
+            "At the conclusion of each twelve-month cycle, the Parties may jointly review the rate card to determine if any adjustments are necessary based on raw material cost fluctuations, semiconductor market volatility, logistics cost changes, or macroeconomic factors."
+          ],
+          "verification_status": "verified",
+          "confidence": 0.9
+        },
+        {
+          "finding_id": "financial-renewal_pricing-83406a44",
+          "dimension": "financial",
+          "severity": "MEDIUM",
+          "title": "Renewal Pricing Terms",
+          "rationale": "The renewal pricing for Annual Maintenance Contracts (AMC) and extended warranty coverage is defined in the rate card, which states that once an AMC or extended warranty price is published, it remains applicable for devices procured within the contractual period, regardless of future market fluctuations.",
+          "recommendation": null,
+          "evidence_ids": [
+            "MLA-006-c1"
+          ],
+          "evidence_excerpts": [
+            "It is agreed that once an AMC or extended warranty price is published in this rate card, it shall remain applicable for devices procured within the contractual period, regardless of future market fluctuations or component shortages."
+          ],
+          "verification_status": "verified",
+          "confidence": 0.85
+        }
+      ],
+      "error": null,
+      "retry_count": 0
+    }
+  ],
+  "unresolved_issues": [],
+  "consensus_actions": [
+    "Review: [financial] Pricing Structure Defined"
+  ],
+  "overall_risk": "MEDIUM",
+  "created_at": "2026-09-26T13:09:22.978839"
+}

@@ -1,0 +1,56 @@
+{
+  "dimension": "operational",
+  "success": true,
+  "findings": [
+    {
+      "finding_id": "operational-scope_of_work-dc45c266",
+      "dimension": "operational",
+      "severity": "MEDIUM",
+      "title": "Scope of Work Defined",
+      "rationale": "The evidence clearly outlines the scope of work under the agreement, specifying the types of hardware products to be supplied by the Vendor to the Client.",
+      "recommendation": null,
+      "evidence_ids": [
+        "FIN-001-c0"
+      ],
+      "evidence_excerpts": [
+        "This Agreement covers all hardware products supplied by the Vendor to the Client, including but not limited to networking devices, servers, storage systems, and electronic peripherals."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    },
+    {
+      "finding_id": "operational-acceptance_criteria-076fa5e9",
+      "dimension": "operational",
+      "severity": "MEDIUM",
+      "title": "Acceptance Criteria for Deliverables",
+      "rationale": "The acceptance criteria for deliverables are specified in the milestone billing section, which outlines the payment structure based on the successful installation and acceptance testing of hardware.",
+      "recommendation": null,
+      "evidence_ids": [
+        "FIN-001-c0"
+      ],
+      "evidence_excerpts": [
+        "30% advance upon PO acceptance\n40% upon delivery of hardware to site\n30% upon successful installation and acceptance testing"
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    },
+    {
+      "finding_id": "operational-dependencies_obligations-2b482734",
+      "dimension": "operational",
+      "severity": "MEDIUM",
+      "title": "Client Obligations for Vendor Performance",
+      "rationale": "The evidence outlines specific obligations of the Client that are essential for the Vendor's performance, particularly in relation to invoicing and payment processes.",
+      "recommendation": null,
+      "evidence_ids": [
+        "FIN-001-c0"
+      ],
+      "evidence_excerpts": [
+        "5. Obligations of the Client\nProcess invoices promptly to avoid delay in payments.\nNotify the Vendor of any discrepancies within 7 days of receiving an invoice.\nEnsure authorized personnel approve milestone or advance payments as per PO terms."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    }
+  ],
+  "error": null,
+  "retry_count": 0
+}

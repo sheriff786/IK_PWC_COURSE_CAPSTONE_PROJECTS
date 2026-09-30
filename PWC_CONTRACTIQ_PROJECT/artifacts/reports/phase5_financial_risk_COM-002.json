@@ -1,0 +1,72 @@
+{
+  "dimension": "financial",
+  "success": true,
+  "findings": [
+    {
+      "finding_id": "financial-payment_terms-87a72519",
+      "dimension": "financial",
+      "severity": "MEDIUM",
+      "title": "Payment Terms Defined",
+      "rationale": "The evidence clearly outlines the payment terms, including the advance payment and the timeline for the remaining payment after delivery.",
+      "recommendation": null,
+      "evidence_ids": [
+        "COM-002-c0"
+      ],
+      "evidence_excerpts": [
+        "Client shall pay 50% advance upon purchase order confirmation and the remaining 50% within 30 days after delivery and acceptance."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    },
+    {
+      "finding_id": "financial-late_payment_penalties-e20e0781",
+      "dimension": "financial",
+      "severity": "MEDIUM",
+      "title": "Late Payment Penalties",
+      "rationale": "The contract specifies that late payments will incur interest charges, which directly addresses the topic of late payment penalties.",
+      "recommendation": null,
+      "evidence_ids": [
+        "COM-002-c0"
+      ],
+      "evidence_excerpts": [
+        "Late payments shall accrue interest at 1.25% per month."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    },
+    {
+      "finding_id": "financial-pricing_structure-82ae58ba",
+      "dimension": "financial",
+      "severity": "MEDIUM",
+      "title": "Pricing Structure Defined",
+      "rationale": "The agreement clearly outlines the pricing structure, including base prices, discounts, and payment terms.",
+      "recommendation": null,
+      "evidence_ids": [
+        "COM-002-c0"
+      ],
+      "evidence_excerpts": [
+        "This Agreement defines the pricing, terms, and conditions applicable to the supply of electronic hardware products, accessories, and support services to Client."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    },
+    {
+      "finding_id": "financial-price_escalation-cd172b16",
+      "dimension": "financial",
+      "severity": "MEDIUM",
+      "title": "Price Revision Clause Present",
+      "rationale": "The agreement includes a clause that allows for price revisions based on changes in raw material costs, inflation, or regulatory requirements, indicating a form of price escalation mechanism.",
+      "recommendation": null,
+      "evidence_ids": [
+        "COM-002-c0"
+      ],
+      "evidence_excerpts": [
+        "Prices may be reviewed semi-annually to reflect changes in raw material costs, inflation, or regulatory requirements."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    }
+  ],
+  "error": null,
+  "retry_count": 0
+}

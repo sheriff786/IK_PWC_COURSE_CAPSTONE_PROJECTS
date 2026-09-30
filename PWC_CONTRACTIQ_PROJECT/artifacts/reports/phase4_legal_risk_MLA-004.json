@@ -3,23 +3,23 @@
   "success": true,
   "findings": [
     {
-      "finding_id": "legal-termination_for_cause-4e8515c1",
+      "finding_id": "legal-termination_for_cause-1f4488b6",
       "dimension": "legal",
       "severity": "HIGH",
       "title": "Conditions for Termination for Cause",
-      "rationale": "The evidence specifies that a breach or threatened breach of confidentiality obligations may lead to significant harm, allowing the Disclosing Party to seek various legal remedies, including termination of existing contracts.",
+      "rationale": "The evidence outlines the consequences of breach, including the right to terminate existing contracts and seek injunctive relief, which indicates conditions under which the agreement can be terminated for cause.",
       "recommendation": null,
       "evidence_ids": [
         "MLA-004-c2"
       ],
       "evidence_excerpts": [
-        "Accordingly, the Disclosing Party shall be entitled to seek injunctive relief, restraining orders, emergency protective measures, and specific performance to prevent or stop further unauthorized use or disclosure. The Parties agree that such equitable relief may be pursued without the necessity of proving actual damages and without the requirement of posting any bond unless required by law."
+        "the Disclosing Party may suspend ongoing work, restrict access, terminate existing contracts, and demand immediate return of all Confidential Information."
       ],
       "verification_status": "verified",
       "confidence": 0.9
     },
     {
-      "finding_id": "legal-confidentiality_survival-598c081f",
+      "finding_id": "legal-confidentiality_survival-f07e45ef",
       "dimension": "legal",
       "severity": "MEDIUM",
       "title": "Confidentiality Obligations Survival Period",
@@ -35,7 +35,7 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "legal-ip_ownership-f854dbe3",
+      "finding_id": "legal-ip_ownership-eb901c66",
       "dimension": "legal",
       "severity": "HIGH",
       "title": "Intellectual Property Ownership",
@@ -48,14 +48,14 @@
         "All intellectual property rights connected to the Confidential Information remain solely with the Disclosing Party."
       ],
       "verification_status": "verified",
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "finding_id": "legal-governing_law_disputes-850ebb74",
+      "finding_id": "legal-governing_law_disputes-6a249736",
       "dimension": "legal",
       "severity": "HIGH",
       "title": "Governing Law and Dispute Resolution",
-      "rationale": "The evidence explicitly outlines the governing law and dispute resolution process, including arbitration.",
+      "rationale": "The contract specifies the governing law and the process for resolving disputes through arbitration.",
       "recommendation": null,
       "evidence_ids": [
         "MLA-004-c2"
@@ -67,7 +67,7 @@
       "confidence": 0.95
     },
     {
-      "finding_id": "legal-assignment_change_of_control-09bec773",
+      "finding_id": "legal-assignment_change_of_control-395636ed",
       "dimension": "legal",
       "severity": "MEDIUM",
       "title": "Assignment and Change of Control Restrictions",

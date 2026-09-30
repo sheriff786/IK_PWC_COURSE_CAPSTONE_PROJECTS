@@ -1,0 +1,72 @@
+{
+  "dimension": "financial",
+  "success": true,
+  "findings": [
+    {
+      "finding_id": "financial-payment_terms-4a2dcc3e",
+      "dimension": "financial",
+      "severity": "MEDIUM",
+      "title": "Payment Terms and Schedule",
+      "rationale": "The evidence clearly outlines the payment terms, including the due dates and conditions for late payments.",
+      "recommendation": null,
+      "evidence_ids": [
+        "COM-001-c0"
+      ],
+      "evidence_excerpts": [
+        "Payment shall be made by Client within thirty (30) days from the date of invoice."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    },
+    {
+      "finding_id": "financial-late_payment_penalties-f511bcf8",
+      "dimension": "financial",
+      "severity": "MEDIUM",
+      "title": "Late Payment Penalties",
+      "rationale": "The contract specifies the penalties for late payments, including interest rates and conditions for suspension of deliveries.",
+      "recommendation": null,
+      "evidence_ids": [
+        "COM-001-c0"
+      ],
+      "evidence_excerpts": [
+        "Late payments shall attract interest at 1.5% per month, calculated from the due date until the date of actual payment."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    },
+    {
+      "finding_id": "financial-pricing_structure-ae6c440d",
+      "dimension": "financial",
+      "severity": "MEDIUM",
+      "title": "Pricing Structure Defined",
+      "rationale": "The evidence provides a clear description of the pricing structure, including the establishment of base pricing and conditions for pricing revisions.",
+      "recommendation": null,
+      "evidence_ids": [
+        "COM-001-c0"
+      ],
+      "evidence_excerpts": [
+        "The pricing of each product is established in Table 1: Base Pricing, which shall be effective for the duration of this Agreement, unless modified through mutual written consent."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    },
+    {
+      "finding_id": "financial-price_escalation-9e88805a",
+      "dimension": "financial",
+      "severity": "MEDIUM",
+      "title": "Price Revision Clause Present",
+      "rationale": "The contract includes a clause that allows for price revisions based on certain conditions, indicating a form of price escalation mechanism.",
+      "recommendation": null,
+      "evidence_ids": [
+        "COM-001-c0"
+      ],
+      "evidence_excerpts": [
+        "Vendor may revise the prices annually, subject to inflation, changes in raw material costs, or new technology adoption."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    }
+  ],
+  "error": null,
+  "retry_count": 0
+}

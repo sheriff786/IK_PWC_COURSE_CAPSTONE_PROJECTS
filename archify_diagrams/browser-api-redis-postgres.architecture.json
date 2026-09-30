@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "diagram_type": "architecture",
+  "meta": {
+    "title": "Runtime Request Architecture: Browser to API to Redis to PostgreSQL",
+    "output": "browser-api-redis-postgres.html",
+    "quality_profile": "showcase"
+  },
+  "components": [
+    { "id": "browser", "type": "external", "label": "Browser", "sublabel": "Client", "pos": [40, 300], "size": [140, 60] },
+    { "id": "api", "type": "backend", "label": "API Server", "sublabel": "HTTP :8000", "pos": [300, 300], "size": [140, 60] },
+    { "id": "cache", "type": "database", "label": "Redis Cache", "sublabel": "cache :6379", "pos": [300, 140], "size": [140, 60] },
+    { "id": "db", "type": "database", "label": "PostgreSQL", "sublabel": "primary :5432", "pos": [560, 300], "size": [140, 60] }
+  ],
+  "connections": [
+    { "id": "browser-to-api", "from": "browser", "to": "api", "label": "HTTPS request", "variant": "emphasis" },
+    { "id": "api-to-cache", "from": "api", "to": "cache", "label": "GET key (cache lookup)", "fromSide": "top", "toSide": "bottom" },
+    { "id": "api-to-db-fallback", "from": "api", "to": "db", "label": "fallback: cache miss to query", "variant": "dashed", "labelDy": 54 },
+    { "id": "db-to-cache-fill", "from": "db", "to": "cache", "label": "fill cache (write-through)", "variant": "dashed", "fromSide": "top", "toSide": "right" }
+  ],
+  "cards": [
+    { "dot": "cyan", "title": "Primary path", "items": ["Browser sends an HTTPS request to the API", "API checks Redis before touching the database"] },
+    { "dot": "amber", "title": "Fallback path", "items": ["A cache miss falls back to a PostgreSQL query", "The result is written back to Redis to warm the cache for the next request"] }
+  ]
+}

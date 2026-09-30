@@ -3,7 +3,7 @@
   "success": true,
   "findings": [
     {
-      "finding_id": "legal-termination_for_convenience-6497fd35",
+      "finding_id": "legal-termination_for_convenience-d97d35c5",
       "dimension": "legal",
       "severity": "MEDIUM",
       "title": "Termination for Convenience Notice Period",
@@ -19,11 +19,11 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "legal-ip_ownership-ef87f3ae",
+      "finding_id": "legal-ip_ownership-543070d9",
       "dimension": "legal",
       "severity": "HIGH",
       "title": "Intellectual Property Ownership",
-      "rationale": "The evidence clearly states that the Vendor retains all intellectual property rights over hardware design, firmware, and proprietary software, indicating ownership of the intellectual property created under this agreement.",
+      "rationale": "The Vendor retains all intellectual property rights over hardware design, firmware, and proprietary software, indicating that the Vendor owns the intellectual property created under this agreement.",
       "recommendation": null,
       "evidence_ids": [
         "COM-002-c0"
@@ -32,10 +32,10 @@
         "Vendor retains all intellectual property rights over hardware design, firmware, and proprietary software."
       ],
       "verification_status": "verified",
-      "confidence": 0.95
+      "confidence": 0.9
     },
     {
-      "finding_id": "legal-governing_law_disputes-b66e4a79",
+      "finding_id": "legal-governing_law_disputes-ee7e1c64",
       "dimension": "legal",
       "severity": "MEDIUM",
       "title": "Governing Law and Dispute Resolution",

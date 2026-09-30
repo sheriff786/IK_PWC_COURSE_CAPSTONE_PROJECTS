@@ -1,0 +1,72 @@
+{
+  "dimension": "financial",
+  "success": true,
+  "findings": [
+    {
+      "finding_id": "financial-pricing_structure-0b512e4d",
+      "dimension": "financial",
+      "severity": "MEDIUM",
+      "title": "Proposed Pricing Adjustment",
+      "rationale": "The contract outlines a proposed pricing adjustment reflecting inflation and service enhancements, indicating a structured pricing approach.",
+      "recommendation": null,
+      "evidence_ids": [
+        "GOV-004-c0"
+      ],
+      "evidence_excerpts": [
+        "Pricing adjustment: 5–7% increase reflecting inflation, supply chain escalation, and service enhancement investments."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    },
+    {
+      "finding_id": "financial-price_escalation-8804dbba",
+      "dimension": "financial",
+      "severity": "MEDIUM",
+      "title": "Price Adjustment Clause Identified",
+      "rationale": "The contract includes a pricing adjustment clause that reflects inflation and supply chain escalation.",
+      "recommendation": null,
+      "evidence_ids": [
+        "GOV-004-c0"
+      ],
+      "evidence_excerpts": [
+        "Pricing adjustment: 5–7% increase reflecting inflation, supply chain escalation, and service enhancement investments."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    },
+    {
+      "finding_id": "financial-renewal_pricing-ad232f37",
+      "dimension": "financial",
+      "severity": "MEDIUM",
+      "title": "Renewal Pricing Adjustment",
+      "rationale": "The proposed renewal terms include a pricing adjustment that reflects various factors such as inflation and service enhancements.",
+      "recommendation": null,
+      "evidence_ids": [
+        "GOV-004-c0"
+      ],
+      "evidence_excerpts": [
+        "Pricing adjustment: 5–7% increase reflecting inflation, supply chain escalation, and service enhancement investments."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    },
+    {
+      "finding_id": "financial-financial_exposure_cap-3e94d6f9",
+      "dimension": "financial",
+      "severity": "MEDIUM",
+      "title": "Penalties for SLA Breaches",
+      "rationale": "The contract includes provisions for penalties related to SLA breaches, which indicates a cap on financial exposure in terms of penalties.",
+      "recommendation": null,
+      "evidence_ids": [
+        "GOV-004-c0"
+      ],
+      "evidence_excerpts": [
+        "Include penalties for repeated SLA breaches beyond three instances per contract year."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.85
+    }
+  ],
+  "error": null,
+  "retry_count": 0
+}

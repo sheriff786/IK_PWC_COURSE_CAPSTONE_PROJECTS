@@ -1,0 +1,88 @@
+{
+  "dimension": "operational",
+  "success": true,
+  "findings": [
+    {
+      "finding_id": "operational-scope_of_work-8ac6a169",
+      "dimension": "operational",
+      "severity": "HIGH",
+      "title": "Scope of Work Defined",
+      "rationale": "The evidence clearly outlines the scope of services provided under the agreement, detailing the responsibilities and deliverables of the Vendor.",
+      "recommendation": null,
+      "evidence_ids": [
+        "MLA-001-c0"
+      ],
+      "evidence_excerpts": [
+        "The scope of services covered under this Agreement encompasses the comprehensive supply, delivery, installation, commissioning, maintenance, and long-term operational support of the Vendor’s hardware products for the Client’s BFSI operational ecosystem."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.95
+    },
+    {
+      "finding_id": "operational-sla_commitments-5cb2e253",
+      "dimension": "operational",
+      "severity": "HIGH",
+      "title": "Service Level Commitments by Vendor",
+      "rationale": "The evidence explicitly outlines the service level commitments made by the Vendor, including incident acknowledgment and resolution timelines based on severity levels.",
+      "recommendation": null,
+      "evidence_ids": [
+        "MLA-001-c1"
+      ],
+      "evidence_excerpts": [
+        "The Vendor commits to resolving Critical incidents within four hours, High severity incidents within eight hours, Medium severity incidents within one business day, and Low severity incidents within seventy-two hours."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.95
+    },
+    {
+      "finding_id": "operational-sla_remedies-b0ee8fff",
+      "dimension": "operational",
+      "severity": "MEDIUM",
+      "title": "Service Level Agreement Remedies",
+      "rationale": "The contract specifies that continued failure to meet SLA commitments may result in service credits or financial penalties as detailed in the Rate Card or annexures.",
+      "recommendation": null,
+      "evidence_ids": [
+        "MLA-001-c1"
+      ],
+      "evidence_excerpts": [
+        "Continued failure to meet SLA commitments may result in service credits or financial penalties as detailed in the Rate Card or annexures."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    },
+    {
+      "finding_id": "operational-dependencies_obligations-6bdb9ad6",
+      "dimension": "operational",
+      "severity": "MEDIUM",
+      "title": "Client Payment Obligations",
+      "rationale": "The evidence outlines the obligations of the Client regarding payment terms, which are critical for the Vendor's performance.",
+      "recommendation": null,
+      "evidence_ids": [
+        "MLA-001-c1"
+      ],
+      "evidence_excerpts": [
+        "The Client shall make payments within forty-five (45) days from the date of receipt of the completed invoice, subject to validation and reconciliation."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    },
+    {
+      "finding_id": "operational-performance_reporting-d9628bc6",
+      "dimension": "operational",
+      "severity": "HIGH",
+      "title": "Service Performance Measurement and Reporting",
+      "rationale": "The contract specifies that the Vendor shall furnish weekly and monthly performance reports summarizing incidents, resolutions, SLA compliance, bottlenecks, and recommendations for improvement.",
+      "recommendation": null,
+      "evidence_ids": [
+        "MLA-001-c1"
+      ],
+      "evidence_excerpts": [
+        "The Vendor shall furnish weekly and monthly performance reports summarizing incidents, resolutions, SLA compliance, bottlenecks, and recommendations for improvement."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    }
+  ],
+  "error": null,
+  "retry_count": 0
+}

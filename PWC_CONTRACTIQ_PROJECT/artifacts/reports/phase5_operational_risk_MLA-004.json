@@ -1,0 +1,24 @@
+{
+  "dimension": "operational",
+  "success": true,
+  "findings": [
+    {
+      "finding_id": "operational-dependencies_obligations-ef49b676",
+      "dimension": "operational",
+      "severity": "MEDIUM",
+      "title": "Client-Side Obligations for Performance",
+      "rationale": "The vendor relies on the client to provide various forms of Confidential Information necessary for the collaboration, which includes operational models, project plans, and compliance interpretations.",
+      "recommendation": null,
+      "evidence_ids": [
+        "MLA-004-c0"
+      ],
+      "evidence_excerpts": [
+        "Such information includes, but is not limited to, engineering documentation such as block diagrams, circuit layouts, PCB manufacturing files, embedded code, source binaries, firmware logic, secure boot designs, encryption key structures for testing, device communication protocols, debugging tools, prototype devices, testing rigs, engineering samples, and custom embedded software created by or for either Party."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    }
+  ],
+  "error": null,
+  "retry_count": 0
+}

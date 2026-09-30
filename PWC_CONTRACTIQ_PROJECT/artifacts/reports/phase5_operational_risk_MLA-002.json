@@ -1,0 +1,104 @@
+{
+  "dimension": "operational",
+  "success": true,
+  "findings": [
+    {
+      "finding_id": "operational-scope_of_work-408d6877",
+      "dimension": "operational",
+      "severity": "HIGH",
+      "title": "Scope of Work Defined",
+      "rationale": "The evidence clearly outlines the scope of work and deliverables under the agreement, detailing the services and products to be provided by the Vendor.",
+      "recommendation": null,
+      "evidence_ids": [
+        "MLA-002-c0"
+      ],
+      "evidence_excerpts": [
+        "The scope of this Agreement extends to a diverse and technologically advanced range of embedded hardware devices engineered for secure financial operations. The Vendor shall supply biometric authentication terminals, smart KYC devices, HSM interfacing modules, payment gateway controller boards, encrypted microcontroller units, secure IoT gateways, transaction authorization devices, branch automation equipment, and any other categories of hardware mutually agreed upon."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.95
+    },
+    {
+      "finding_id": "operational-acceptance_criteria-22c40a19",
+      "dimension": "operational",
+      "severity": "HIGH",
+      "title": "Acceptance Criteria for Deliverables",
+      "rationale": "The evidence specifies that the Vendor shall ensure the delivery of devices that meet or exceed the quality and performance specifications captured in the relevant Statements of Work or annexures, which serves as the acceptance criteria for deliverables under this agreement.",
+      "recommendation": null,
+      "evidence_ids": [
+        "MLA-002-c0"
+      ],
+      "evidence_excerpts": [
+        "the delivery of devices that meet or exceed the quality and performance specifications captured in the relevant Statements of Work or annexures."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    },
+    {
+      "finding_id": "operational-sla_commitments-f31c68d4",
+      "dimension": "operational",
+      "severity": "HIGH",
+      "title": "Service Level Commitments and Performance Expectations",
+      "rationale": "The evidence explicitly outlines the service level commitments made by the Vendor, including response times for device replacements and repairs, as well as operational availability standards.",
+      "recommendation": null,
+      "evidence_ids": [
+        "MLA-002-c1"
+      ],
+      "evidence_excerpts": [
+        "The Vendor shall deliver all managed services in accordance with well-defined service level commitments that reflect the critical nature of financial operations."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.95
+    },
+    {
+      "finding_id": "operational-sla_remedies-99a449c2",
+      "dimension": "operational",
+      "severity": "MEDIUM",
+      "title": "Service Credits for SLA Breaches",
+      "rationale": "The contract specifies that the parties may mutually agree on service credits or compensatory remedies in case of repeated or significant SLA deviations, indicating a clear remedy for missed service level targets.",
+      "recommendation": null,
+      "evidence_ids": [
+        "MLA-002-c1"
+      ],
+      "evidence_excerpts": [
+        "The Parties may mutually agree on service credits or compensatory remedies in case of repeated or significant SLA deviations."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    },
+    {
+      "finding_id": "operational-dependencies_obligations-5d9a1f7a",
+      "dimension": "operational",
+      "severity": "MEDIUM",
+      "title": "Client-Side Obligations for Vendor Performance",
+      "rationale": "The evidence specifies that the Client is responsible for providing timely access to installation sites, ensuring electrical and network readiness, and guaranteeing safe and authorized access for Vendor personnel and service representatives, which are critical for the Vendor's performance.",
+      "recommendation": null,
+      "evidence_ids": [
+        "MLA-002-c0"
+      ],
+      "evidence_excerpts": [
+        "The Client shall provide timely access to installation sites, ensure electrical and network readiness, and guarantee safe and authorized access for Vendor personnel and service representatives."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    },
+    {
+      "finding_id": "operational-performance_reporting-511df931",
+      "dimension": "operational",
+      "severity": "MEDIUM",
+      "title": "Service Performance Reporting Mechanism",
+      "rationale": "The evidence outlines the structured reporting mechanisms in place for service performance, including routine operational reports and performance metrics.",
+      "recommendation": null,
+      "evidence_ids": [
+        "MLA-002-c0"
+      ],
+      "evidence_excerpts": [
+        "Routine reporting shall include weekly operational reports, incident summaries, device uptime dashboards, RMA cycle logs, inventory status updates, performance efficiency analyses, and monthly service compliance metrics."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    }
+  ],
+  "error": null,
+  "retry_count": 0
+}

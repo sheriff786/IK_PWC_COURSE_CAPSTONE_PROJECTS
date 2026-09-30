@@ -1,0 +1,167 @@
+{
+  "assessment_id": "assessment-FIN-001-de01d392",
+  "doc_id": "FIN-001",
+  "run_id": "4ab5437ecba9",
+  "document_version": "1",
+  "model_version": "gpt-4o-mini",
+  "prompt_version": "phase5-specialist-prompts-v1",
+  "policy_version": "risk-policy-v1",
+  "dimension_results": [
+    {
+      "dimension": "financial",
+      "success": true,
+      "findings": [
+        {
+          "finding_id": "financial-payment_terms-0889f8d3",
+          "dimension": "financial",
+          "severity": "MEDIUM",
+          "title": "Payment Terms and Schedule",
+          "rationale": "The evidence provides specific details about the payment terms and schedule under the agreement, including due dates and conditions for late payments.",
+          "recommendation": null,
+          "evidence_ids": [
+            "FIN-001-c0"
+          ],
+          "evidence_excerpts": [
+            "Payment is due within 30 calendar days from the date of invoice receipt. Late payments will attract an interest of 1.5% per month on the outstanding amount."
+          ],
+          "verification_status": "verified",
+          "confidence": 0.9
+        },
+        {
+          "finding_id": "financial-late_payment_penalties-5e5be43e",
+          "dimension": "financial",
+          "severity": "MEDIUM",
+          "title": "Late Payment Penalty Details",
+          "rationale": "The evidence specifies the penalties for late payments, including the interest rate applicable to outstanding amounts.",
+          "recommendation": null,
+          "evidence_ids": [
+            "FIN-001-c0"
+          ],
+          "evidence_excerpts": [
+            "Late payments will attract an interest of 1.5% per month on the outstanding amount."
+          ],
+          "verification_status": "verified",
+          "confidence": 0.9
+        },
+        {
+          "finding_id": "financial-pricing_structure-30b57c17",
+          "dimension": "financial",
+          "severity": "MEDIUM",
+          "title": "Pricing Structure and Payment Terms",
+          "rationale": "The evidence provides a detailed description of the pricing structure, including billing frequency, payment terms, and milestone billing for large orders.",
+          "recommendation": null,
+          "evidence_ids": [
+            "FIN-001-c0"
+          ],
+          "evidence_excerpts": [
+            "Invoices will be issued monthly for recurring supply contracts. For one-time orders exceeding INR 5,00,000, invoices will be issued upon delivery. Payment is due within 30 calendar days from the date of invoice receipt. Late payments will attract an interest of 1.5% per month on the outstanding amount. For large hardware deployments exceeding INR 50,00,000: 30% advance upon PO acceptance, 40% upon delivery of hardware to site, 30% upon successful installation and acceptance testing."
+          ],
+          "verification_status": "failed_verification",
+          "confidence": 0.3
+        }
+      ],
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "dimension": "operational",
+      "success": true,
+      "findings": [
+        {
+          "finding_id": "operational-scope_of_work-dc45c266",
+          "dimension": "operational",
+          "severity": "MEDIUM",
+          "title": "Scope of Work Defined",
+          "rationale": "The evidence clearly outlines the scope of work under the agreement, specifying the types of hardware products to be supplied by the Vendor to the Client.",
+          "recommendation": null,
+          "evidence_ids": [
+            "FIN-001-c0"
+          ],
+          "evidence_excerpts": [
+            "This Agreement covers all hardware products supplied by the Vendor to the Client, including but not limited to networking devices, servers, storage systems, and electronic peripherals."
+          ],
+          "verification_status": "verified",
+          "confidence": 0.9
+        },
+        {
+          "finding_id": "operational-acceptance_criteria-076fa5e9",
+          "dimension": "operational",
+          "severity": "MEDIUM",
+          "title": "Acceptance Criteria for Deliverables",
+          "rationale": "The acceptance criteria for deliverables are specified in the milestone billing section, which outlines the payment structure based on the successful installation and acceptance testing of hardware.",
+          "recommendation": null,
+          "evidence_ids": [
+            "FIN-001-c0"
+          ],
+          "evidence_excerpts": [
+            "30% advance upon PO acceptance\n40% upon delivery of hardware to site\n30% upon successful installation and acceptance testing"
+          ],
+          "verification_status": "verified",
+          "confidence": 0.9
+        },
+        {
+          "finding_id": "operational-dependencies_obligations-2b482734",
+          "dimension": "operational",
+          "severity": "MEDIUM",
+          "title": "Client Obligations for Vendor Performance",
+          "rationale": "The evidence outlines specific obligations of the Client that are essential for the Vendor's performance, particularly in relation to invoicing and payment processes.",
+          "recommendation": null,
+          "evidence_ids": [
+            "FIN-001-c0"
+          ],
+          "evidence_excerpts": [
+            "5. Obligations of the Client\nProcess invoices promptly to avoid delay in payments.\nNotify the Vendor of any discrepancies within 7 days of receiving an invoice.\nEnsure authorized personnel approve milestone or advance payments as per PO terms."
+          ],
+          "verification_status": "verified",
+          "confidence": 0.9
+        }
+      ],
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "dimension": "legal",
+      "success": true,
+      "findings": [
+        {
+          "finding_id": "legal-termination_for_convenience-4883abbc",
+          "dimension": "legal",
+          "severity": "MEDIUM",
+          "title": "Termination for Convenience Notice Period",
+          "rationale": "The evidence specifies the notice period required for termination without cause.",
+          "recommendation": null,
+          "evidence_ids": [
+            "FIN-001-c0"
+          ],
+          "evidence_excerpts": [
+            "Either party may terminate this Agreement with 30 days’ written notice."
+          ],
+          "verification_status": "verified",
+          "confidence": 0.9
+        },
+        {
+          "finding_id": "legal-governing_law_disputes-6e335750",
+          "dimension": "legal",
+          "severity": "MEDIUM",
+          "title": "Governing Law and Dispute Resolution",
+          "rationale": "The evidence explicitly states the governing law and outlines the process for resolving disputes.",
+          "recommendation": null,
+          "evidence_ids": [
+            "FIN-001-c0"
+          ],
+          "evidence_excerpts": [
+            "This Agreement shall be governed by the laws of India."
+          ],
+          "verification_status": "verified",
+          "confidence": 0.9
+        }
+      ],
+      "error": null,
+      "retry_count": 0
+    }
+  ],
+  "unresolved_issues": [],
+  "consensus_actions": [],
+  "overall_risk": "MEDIUM",
+  "created_at": "2026-09-26T13:09:32.373271"
+}

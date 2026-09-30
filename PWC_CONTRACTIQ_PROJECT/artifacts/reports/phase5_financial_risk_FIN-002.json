@@ -1,0 +1,56 @@
+{
+  "dimension": "financial",
+  "success": true,
+  "findings": [
+    {
+      "finding_id": "financial-payment_terms-a86cfbbf",
+      "dimension": "financial",
+      "severity": "MEDIUM",
+      "title": "Payment Terms and Schedule",
+      "rationale": "The evidence provides specific details regarding the payment terms and schedule under the agreement, including invoicing frequency and payment deadlines.",
+      "recommendation": null,
+      "evidence_ids": [
+        "FIN-002-c0"
+      ],
+      "evidence_excerpts": [
+        "3.3 Payment Terms:\nStandard credit period: 30 calendar days from invoice date.\nLate payment penalty: 1.5% per month on overdue amounts.\nAdvance payments will not exceed 20% of total PO unless mutually agreed in writing."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    },
+    {
+      "finding_id": "financial-late_payment_penalties-dce00598",
+      "dimension": "financial",
+      "severity": "MEDIUM",
+      "title": "Late Payment Penalty",
+      "rationale": "The contract specifies a penalty for late payments, which directly addresses the topic of late payment penalties.",
+      "recommendation": null,
+      "evidence_ids": [
+        "FIN-002-c0"
+      ],
+      "evidence_excerpts": [
+        "Late payment penalty: 1.5% per month on overdue amounts."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    },
+    {
+      "finding_id": "financial-pricing_structure-079a1ea9",
+      "dimension": "financial",
+      "severity": "MEDIUM",
+      "title": "Pricing Structure and Billing Schedule",
+      "rationale": "The evidence provides a detailed description of the pricing structure and billing schedule, including standard billing practices, payment terms, and invoicing details.",
+      "recommendation": null,
+      "evidence_ids": [
+        "FIN-002-c0"
+      ],
+      "evidence_excerpts": [
+        "3. Billing Schedule & Frequency\n3.1 Standard Billing:\nMonthly Invoicing: For ongoing supply contracts, invoices will be raised on the last business day of each month.\nDelivery-Based Billing: For one-time supply orders exceeding INR 5,00,000, invoices will be issued upon confirmed delivery to the Client’s site(s)."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    }
+  ],
+  "error": null,
+  "retry_count": 0
+}

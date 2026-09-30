@@ -1,0 +1,24 @@
+{
+  "dimension": "operational",
+  "success": true,
+  "findings": [
+    {
+      "finding_id": "operational-dependencies_obligations-b05962a9",
+      "dimension": "operational",
+      "severity": "HIGH",
+      "title": "Client-Side Obligations for Confidential Information",
+      "rationale": "The vendor relies on the client to maintain strict confidentiality and protect sensitive information, which is crucial for the performance of their obligations under the contract.",
+      "recommendation": null,
+      "evidence_ids": [
+        "MLA-003-c0"
+      ],
+      "evidence_excerpts": [
+        "The Receiving Party shall maintain the strictest levels of confidentiality in handling, accessing, storing, processing, transferring, and destroying Confidential Information received from the Disclosing Party."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    }
+  ],
+  "error": null,
+  "retry_count": 0
+}

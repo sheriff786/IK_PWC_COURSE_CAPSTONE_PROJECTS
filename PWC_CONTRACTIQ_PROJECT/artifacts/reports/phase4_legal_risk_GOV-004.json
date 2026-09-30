@@ -3,7 +3,7 @@
   "success": true,
   "findings": [
     {
-      "finding_id": "legal-termination_for_cause-85f50e1d",
+      "finding_id": "legal-termination_for_cause-0f44ef96",
       "dimension": "legal",
       "severity": "MEDIUM",
       "title": "Conditions for Termination for Cause",
@@ -19,7 +19,7 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "legal-termination_for_convenience-62eaefaf",
+      "finding_id": "legal-termination_for_convenience-301bbba3",
       "dimension": "legal",
       "severity": "MEDIUM",
       "title": "Notice Period for Termination",

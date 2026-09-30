@@ -1,0 +1,72 @@
+{
+  "dimension": "operational",
+  "success": true,
+  "findings": [
+    {
+      "finding_id": "operational-scope_of_work-bdbe80a0",
+      "dimension": "operational",
+      "severity": "MEDIUM",
+      "title": "Scope of Work and Deliverables",
+      "rationale": "The evidence provides details about the products and services delivered under the contract, including hardware delivery, acceptance testing, and warranty support.",
+      "recommendation": null,
+      "evidence_ids": [
+        "FIN-004-c0"
+      ],
+      "evidence_excerpts": [
+        "1. Description of Products / Services"
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    },
+    {
+      "finding_id": "operational-acceptance_criteria-f30a03b4",
+      "dimension": "operational",
+      "severity": "MEDIUM",
+      "title": "Acceptance Criteria for Deliverables",
+      "rationale": "The evidence specifies the acceptance testing criteria for the deliverables, which include functional tests, performance benchmarks, and network integration tests, along with the requirement to report discrepancies within a specified timeframe.",
+      "recommendation": null,
+      "evidence_ids": [
+        "FIN-004-c0"
+      ],
+      "evidence_excerpts": [
+        "Acceptance testing included: functional tests, performance benchmarks, and network integration tests."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    },
+    {
+      "finding_id": "operational-sla_commitments-f7c3312e",
+      "dimension": "operational",
+      "severity": "MEDIUM",
+      "title": "Service Level and Performance Commitments",
+      "rationale": "The vendor commits to providing 24x7 remote and onsite support for troubleshooting and preventive maintenance, which is a key service level commitment.",
+      "recommendation": null,
+      "evidence_ids": [
+        "FIN-004-c0"
+      ],
+      "evidence_excerpts": [
+        "Primevolta provides 24x7 remote and onsite support for troubleshooting and preventive maintenance."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    },
+    {
+      "finding_id": "operational-performance_reporting-f409f589",
+      "dimension": "operational",
+      "severity": "MEDIUM",
+      "title": "Service Performance Measurement and Reporting",
+      "rationale": "The evidence specifies that acceptance testing included functional tests, performance benchmarks, and network integration tests, which are key indicators of service performance measurement.",
+      "recommendation": null,
+      "evidence_ids": [
+        "FIN-004-c0"
+      ],
+      "evidence_excerpts": [
+        "Acceptance testing included: functional tests, performance benchmarks, and network integration tests."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    }
+  ],
+  "error": null,
+  "retry_count": 0
+}

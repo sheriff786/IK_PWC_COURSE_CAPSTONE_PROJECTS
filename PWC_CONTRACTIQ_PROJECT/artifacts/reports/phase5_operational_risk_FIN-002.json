@@ -1,0 +1,72 @@
+{
+  "dimension": "operational",
+  "success": true,
+  "findings": [
+    {
+      "finding_id": "operational-scope_of_work-7acc8e29",
+      "dimension": "operational",
+      "severity": "MEDIUM",
+      "title": "Scope of Work Defined",
+      "rationale": "The evidence clearly outlines the scope of work and deliverables under the agreement, specifying the hardware components and associated services to be provided.",
+      "recommendation": null,
+      "evidence_ids": [
+        "FIN-002-c0"
+      ],
+      "evidence_excerpts": [
+        "This Agreement covers the supply of: Hardware components including servers, storage arrays, networking devices, and electronic peripherals. Multi-site deliveries for BFSI branch rollouts. Associated services including installation, testing, and warranty support."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    },
+    {
+      "finding_id": "operational-sla_commitments-f50444ec",
+      "dimension": "operational",
+      "severity": "MEDIUM",
+      "title": "Vendor's Service Level Commitments",
+      "rationale": "The vendor commits to deliver goods as per the specifications and timelines mentioned in the purchase order (PO) and to notify the client of any deviations in the delivery schedule at least 7 business days in advance.",
+      "recommendation": null,
+      "evidence_ids": [
+        "FIN-002-c0"
+      ],
+      "evidence_excerpts": [
+        "Deliver goods as per the specifications and timelines mentioned in the PO. Notify the Client of any deviations in delivery schedule at least 7 business days in advance."
+      ],
+      "verification_status": "failed_verification",
+      "confidence": 0.3
+    },
+    {
+      "finding_id": "operational-dependencies_obligations-a1941812",
+      "dimension": "operational",
+      "severity": "MEDIUM",
+      "title": "Client Obligations for Vendor Performance",
+      "rationale": "The evidence outlines specific obligations of the Client that the Vendor relies on for performance, including timely processing of invoices and providing access for installation and testing.",
+      "recommendation": null,
+      "evidence_ids": [
+        "FIN-002-c0"
+      ],
+      "evidence_excerpts": [
+        "6. Obligations of Client\nProcess invoices within the agreed payment timeline.\nNotify the Vendor of any discrepancies in invoices or deliveries within 7 business days.\nApprove milestone payments and site acceptance certificates promptly to avoid revenue delays.\nProvide access to sites for installation and testing activities."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    },
+    {
+      "finding_id": "operational-performance_reporting-4729e0d0",
+      "dimension": "operational",
+      "severity": "MEDIUM",
+      "title": "Service Performance Reporting",
+      "rationale": "The agreement specifies that the Vendor shall provide monthly revenue tracking reports detailing billed, unbilled, and pending payments, which indicates how service performance is measured and reported.",
+      "recommendation": null,
+      "evidence_ids": [
+        "FIN-002-c0"
+      ],
+      "evidence_excerpts": [
+        "Vendor shall provide monthly revenue tracking reports detailing billed, unbilled, and pending payments."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    }
+  ],
+  "error": null,
+  "retry_count": 0
+}

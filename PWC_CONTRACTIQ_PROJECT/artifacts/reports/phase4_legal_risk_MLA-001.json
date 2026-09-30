@@ -3,7 +3,7 @@
   "success": true,
   "findings": [
     {
-      "finding_id": "legal-liability_cap-a1de4df3",
+      "finding_id": "legal-liability_cap-249c2460",
       "dimension": "legal",
       "severity": "HIGH",
       "title": "Limitation of Liability Found",
@@ -16,14 +16,14 @@
         "Except for breaches involving confidentiality, intellectual property misuse, or acts of gross negligence or willful misconduct, each Party’s total cumulative liability under this Agreement shall not exceed the total amount paid by the Client to the Vendor in the preceding twelve (12) months."
       ],
       "verification_status": "verified",
-      "confidence": 0.95
+      "confidence": 0.9
     },
     {
-      "finding_id": "legal-indemnification-0091b9dd",
+      "finding_id": "legal-indemnification-bad8f8ec",
       "dimension": "legal",
-      "severity": "HIGH",
+      "severity": "MEDIUM",
       "title": "Indemnification Obligations",
-      "rationale": "The evidence clearly outlines the indemnification obligations of both parties under the agreement.",
+      "rationale": "The evidence clearly outlines the indemnification obligations of both parties under the agreement, specifying the conditions under which each party agrees to indemnify the other.",
       "recommendation": null,
       "evidence_ids": [
         "MLA-001-c2"
@@ -32,10 +32,10 @@
         "The Vendor agrees to indemnify and defend the Client against any third-party claims, damages, losses, liabilities, or expenses arising from product defects, workmanship deficiencies, or bodily injury caused solely by the Vendor’s Hardware Products when used as intended. The Client agrees to indemnify the Vendor against claims arising from improper handling, misuse, alteration of devices, or any actions taken by the Client that deviate from the operational guidelines provided by the Vendor."
       ],
       "verification_status": "verified",
-      "confidence": 0.95
+      "confidence": 0.9
     },
     {
-      "finding_id": "legal-termination_for_cause-5bd333ca",
+      "finding_id": "legal-termination_for_cause-152a3a00",
       "dimension": "legal",
       "severity": "MEDIUM",
       "title": "Termination for Cause Conditions",
@@ -51,7 +51,7 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "legal-termination_for_convenience-252ed8a3",
+      "finding_id": "legal-termination_for_convenience-603e173f",
       "dimension": "legal",
       "severity": "MEDIUM",
       "title": "Termination for Convenience Notice Period",
@@ -67,7 +67,7 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "legal-confidentiality_survival-d1e21535",
+      "finding_id": "legal-confidentiality_survival-70675207",
       "dimension": "legal",
       "severity": "MEDIUM",
       "title": "Confidentiality Obligations Survival",
@@ -83,7 +83,7 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "legal-ip_ownership-1e106b38",
+      "finding_id": "legal-ip_ownership-062986f8",
       "dimension": "legal",
       "severity": "HIGH",
       "title": "Intellectual Property Ownership",
@@ -99,11 +99,11 @@
       "confidence": 0.95
     },
     {
-      "finding_id": "legal-governing_law_disputes-07baf0e3",
+      "finding_id": "legal-governing_law_disputes-cb7cf7f6",
       "dimension": "legal",
       "severity": "HIGH",
       "title": "Governing Law and Dispute Resolution",
-      "rationale": "The evidence clearly outlines the governing law and the method for resolving disputes, specifying arbitration as the resolution method and mentioning the governing law as per the SOW.",
+      "rationale": "The evidence clearly outlines the governing law and the method for resolving disputes, specifying arbitration as the resolution method and mentioning the applicable jurisdiction.",
       "recommendation": null,
       "evidence_ids": [
         "MLA-001-c3",

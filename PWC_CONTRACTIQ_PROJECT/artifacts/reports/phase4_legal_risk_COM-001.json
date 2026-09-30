@@ -3,7 +3,7 @@
   "success": true,
   "findings": [
     {
-      "finding_id": "legal-termination_for_convenience-f5b5f38c",
+      "finding_id": "legal-termination_for_convenience-36881564",
       "dimension": "legal",
       "severity": "MEDIUM",
       "title": "Termination for Convenience Notice Period",
@@ -19,17 +19,17 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "legal-governing_law_disputes-a19e7c83",
+      "finding_id": "legal-governing_law_disputes-7704eccc",
       "dimension": "legal",
       "severity": "MEDIUM",
       "title": "Governing Law and Dispute Resolution",
-      "rationale": "The evidence explicitly outlines the process for dispute resolution and indicates the governing law applicable to the agreement.",
+      "rationale": "The evidence explicitly outlines the process for dispute resolution and indicates the governing law applicable to the arbitration process.",
       "recommendation": null,
       "evidence_ids": [
         "COM-001-c0"
       ],
       "evidence_excerpts": [
-        "Any dispute arising from this Agreement shall first be addressed through amicable discussions between the parties. If unresolved, the matter shall be referred to arbitration under the Indian Arbitration and Conciliation Act, 1996. The place of arbitration shall be [City, State], India, and the proceedings shall be conducted in English."
+        "Any dispute arising from this Agreement shall first be addressed through amicable discussions between the parties. If unresolved, the matter shall be referred to arbitration under the Indian Arbitration and Conciliation Act, 1996."
       ],
       "verification_status": "verified",
       "confidence": 0.9

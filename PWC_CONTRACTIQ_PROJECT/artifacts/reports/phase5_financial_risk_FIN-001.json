@@ -1,0 +1,56 @@
+{
+  "dimension": "financial",
+  "success": true,
+  "findings": [
+    {
+      "finding_id": "financial-payment_terms-0889f8d3",
+      "dimension": "financial",
+      "severity": "MEDIUM",
+      "title": "Payment Terms and Schedule",
+      "rationale": "The evidence provides specific details about the payment terms and schedule under the agreement, including due dates and conditions for late payments.",
+      "recommendation": null,
+      "evidence_ids": [
+        "FIN-001-c0"
+      ],
+      "evidence_excerpts": [
+        "Payment is due within 30 calendar days from the date of invoice receipt. Late payments will attract an interest of 1.5% per month on the outstanding amount."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    },
+    {
+      "finding_id": "financial-late_payment_penalties-5e5be43e",
+      "dimension": "financial",
+      "severity": "MEDIUM",
+      "title": "Late Payment Penalty Details",
+      "rationale": "The evidence specifies the penalties for late payments, including the interest rate applicable to outstanding amounts.",
+      "recommendation": null,
+      "evidence_ids": [
+        "FIN-001-c0"
+      ],
+      "evidence_excerpts": [
+        "Late payments will attract an interest of 1.5% per month on the outstanding amount."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    },
+    {
+      "finding_id": "financial-pricing_structure-30b57c17",
+      "dimension": "financial",
+      "severity": "MEDIUM",
+      "title": "Pricing Structure and Payment Terms",
+      "rationale": "The evidence provides a detailed description of the pricing structure, including billing frequency, payment terms, and milestone billing for large orders.",
+      "recommendation": null,
+      "evidence_ids": [
+        "FIN-001-c0"
+      ],
+      "evidence_excerpts": [
+        "Invoices will be issued monthly for recurring supply contracts. For one-time orders exceeding INR 5,00,000, invoices will be issued upon delivery. Payment is due within 30 calendar days from the date of invoice receipt. Late payments will attract an interest of 1.5% per month on the outstanding amount. For large hardware deployments exceeding INR 50,00,000: 30% advance upon PO acceptance, 40% upon delivery of hardware to site, 30% upon successful installation and acceptance testing."
+      ],
+      "verification_status": "failed_verification",
+      "confidence": 0.3
+    }
+  ],
+  "error": null,
+  "retry_count": 0
+}

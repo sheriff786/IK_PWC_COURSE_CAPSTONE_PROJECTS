@@ -1,0 +1,56 @@
+{
+  "dimension": "financial",
+  "success": true,
+  "findings": [
+    {
+      "finding_id": "financial-payment_terms-371af07a",
+      "dimension": "financial",
+      "severity": "MEDIUM",
+      "title": "Payment Terms and Schedule",
+      "rationale": "The contract specifies the payment terms clearly, including the due date and conditions for late payment.",
+      "recommendation": null,
+      "evidence_ids": [
+        "FIN-004-c0"
+      ],
+      "evidence_excerpts": [
+        "Payment due within 15 calendar days of invoice date. Late payment subject to 1.5% monthly interest."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    },
+    {
+      "finding_id": "financial-late_payment_penalties-840171fd",
+      "dimension": "financial",
+      "severity": "MEDIUM",
+      "title": "Late Payment Penalty Details",
+      "rationale": "The evidence specifies the penalties for late payments, including the interest rate applicable.",
+      "recommendation": null,
+      "evidence_ids": [
+        "FIN-004-c0"
+      ],
+      "evidence_excerpts": [
+        "Late payment subject to 1.5% monthly interest."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    },
+    {
+      "finding_id": "financial-pricing_structure-15a2e110",
+      "dimension": "financial",
+      "severity": "MEDIUM",
+      "title": "Pricing Structure and Fee Schedule",
+      "rationale": "The evidence provides a detailed breakdown of the pricing structure, including subtotal, GST, and total invoice amount, as well as payment terms and conditions.",
+      "recommendation": null,
+      "evidence_ids": [
+        "FIN-004-c0"
+      ],
+      "evidence_excerpts": [
+        "Subtotal: INR 3,300,000\nGST @18%: INR 594,000\nTotal Invoice Amount: INR 3,894,000\nPayment due within 15 calendar days of invoice date.\nLate payment subject to 1.5% monthly interest."
+      ],
+      "verification_status": "failed_verification",
+      "confidence": 0.3
+    }
+  ],
+  "error": null,
+  "retry_count": 0
+}

@@ -1,0 +1,89 @@
+{
+  "dimension": "financial",
+  "success": true,
+  "findings": [
+    {
+      "finding_id": "financial-payment_terms-54d7ebad",
+      "dimension": "financial",
+      "severity": "MEDIUM",
+      "title": "Payment Terms and Invoicing Requirements",
+      "rationale": "The evidence outlines the pricing structure, invoicing requirements, and conditions under which charges can be made, ensuring clarity and predictability in financial transactions between the Vendor and Client.",
+      "recommendation": null,
+      "evidence_ids": [
+        "MLA-005-c2"
+      ],
+      "evidence_excerpts": [
+        "All invoices raised by the Vendor shall strictly correspond to the pricing categories and values stated in this Agreement."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    },
+    {
+      "finding_id": "financial-pricing_structure-b5e5cae5",
+      "dimension": "financial",
+      "severity": "HIGH",
+      "title": "Pricing Structure Overview",
+      "rationale": "The evidence provides a comprehensive overview of the pricing structure, including device pricing frameworks, service rates, and cost components, ensuring clarity and predictability for the Client.",
+      "recommendation": null,
+      "evidence_ids": [
+        "MLA-005-c0"
+      ],
+      "evidence_excerpts": [
+        "The Vendor shall provide the Client with a meticulously detailed device pricing framework that lists the per-unit cost of every hardware category supplied under this collaboration."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.95
+    },
+    {
+      "finding_id": "financial-price_escalation-a6298333",
+      "dimension": "financial",
+      "severity": "MEDIUM",
+      "title": "Price Escalation Clauses Present",
+      "rationale": "The contract includes specific clauses regarding price protection and escalation constraints, detailing how and when price adjustments can occur, as well as the conditions under which they are permissible.",
+      "recommendation": null,
+      "evidence_ids": [
+        "MLA-005-c2"
+      ],
+      "evidence_excerpts": [
+        "Accordingly, all hardware prices, deployment prices, and service prices defined within this Agreement shall remain protected for a minimum of twelve months from the date of execution."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    },
+    {
+      "finding_id": "financial-renewal_pricing-944bb4b9",
+      "dimension": "financial",
+      "severity": "MEDIUM",
+      "title": "Renewal Pricing and Terms",
+      "rationale": "The contract specifies that any pricing amendments must be documented through a written addendum, and the Vendor will continue to honor all accepted purchase orders based on the current rate card until a new version is formally transitioned. This indicates that renewal pricing is tied to the existing rate card unless formally amended.",
+      "recommendation": null,
+      "evidence_ids": [
+        "MLA-005-c3"
+      ],
+      "evidence_excerpts": [
+        "The Vendor shall continue to honour all accepted purchase orders based on the current rate card until the Parties formally transition to a new version."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.85
+    },
+    {
+      "finding_id": "financial-financial_exposure_cap-63f97ae6",
+      "dimension": "financial",
+      "severity": "HIGH",
+      "title": "Cap on Financial Exposure and Charges",
+      "rationale": "The contract explicitly prohibits the introduction of new financial charges outside the agreed terms, ensuring that the Client is protected from unexpected financial exposure.",
+      "recommendation": null,
+      "evidence_ids": [
+        "MLA-005-c2",
+        "MLA-005-c3"
+      ],
+      "evidence_excerpts": [
+        "The Client shall not be obligated to pay for resource wait times, idle engineer hours, or vendor-driven deployment delays. This protects the Client from unexpected financial exposure and ensures absolute commercial predictability throughout the contract term."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    }
+  ],
+  "error": null,
+  "retry_count": 0
+}

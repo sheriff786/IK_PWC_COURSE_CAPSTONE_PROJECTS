@@ -1,0 +1,24 @@
+{
+  "dimension": "operational",
+  "success": true,
+  "findings": [
+    {
+      "finding_id": "operational-scope_of_work-a81b81d3",
+      "dimension": "operational",
+      "severity": "MEDIUM",
+      "title": "Scope of Work Defined",
+      "rationale": "The evidence clearly outlines the scope of products covered under the agreement, detailing the categories of products and services to be supplied by the Vendor to the Client.",
+      "recommendation": null,
+      "evidence_ids": [
+        "COM-001-c0"
+      ],
+      "evidence_excerpts": [
+        "This Agreement covers the following categories of products supplied by Vendor to Client: Servers (Rack-mounted, Blade, and Tower), Networking Equipment (Switches, Routers, Firewalls), Storage Solutions (NAS, SAN, Cloud-enabled Storage), Peripheral Devices (UPS, Printers, Scanners), Consumables (Cables, Connectors, Batteries)."
+      ],
+      "verification_status": "failed_verification",
+      "confidence": 0.3
+    }
+  ],
+  "error": null,
+  "retry_count": 0
+}

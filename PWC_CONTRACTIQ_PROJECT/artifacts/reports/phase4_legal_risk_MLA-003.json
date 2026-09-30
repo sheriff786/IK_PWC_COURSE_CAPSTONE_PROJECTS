@@ -3,11 +3,11 @@
   "success": true,
   "findings": [
     {
-      "finding_id": "legal-termination_for_cause-02aaea90",
+      "finding_id": "legal-termination_for_cause-d6b933f4",
       "dimension": "legal",
       "severity": "HIGH",
-      "title": "Termination for Cause Conditions",
-      "rationale": "The Disclosing Party shall also have the right to terminate ongoing engagements, withdraw access privileges, demand immediate return of all Confidential Information, and pursue appropriate legal action.",
+      "title": "Conditions for Termination for Cause",
+      "rationale": "The evidence specifies that the Disclosing Party has the right to terminate ongoing engagements in the event of unauthorized use or disclosure of Confidential Information, which constitutes a material breach.",
       "recommendation": null,
       "evidence_ids": [
         "MLA-003-c2"
@@ -19,11 +19,11 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "legal-confidentiality_survival-06f7f62a",
+      "finding_id": "legal-confidentiality_survival-f6903fdb",
       "dimension": "legal",
       "severity": "MEDIUM",
       "title": "Confidentiality Obligations Survival Period",
-      "rationale": "The confidentiality obligations set forth in this Agreement shall survive for a period of five (5) years from the date of termination or from the last disclosure of Confidential Information, whichever occurs later.",
+      "rationale": "The confidentiality obligations set forth herein shall survive for a period of five (5) years from the date of termination or from the last disclosure of Confidential Information, whichever occurs later.",
       "recommendation": null,
       "evidence_ids": [
         "MLA-003-c1"
@@ -35,7 +35,7 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "legal-ip_ownership-756eb906",
+      "finding_id": "legal-ip_ownership-2dacba12",
       "dimension": "legal",
       "severity": "HIGH",
       "title": "Intellectual Property Ownership",
@@ -51,9 +51,9 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "legal-governing_law_disputes-f9d1d4cf",
+      "finding_id": "legal-governing_law_disputes-fdc43c54",
       "dimension": "legal",
-      "severity": "HIGH",
+      "severity": "MEDIUM",
       "title": "Governing Law and Dispute Resolution",
       "rationale": "The evidence explicitly outlines the governing law and dispute resolution process for the contract.",
       "recommendation": null,
@@ -64,14 +64,14 @@
         "This Agreement shall be governed by and construed in accordance with the laws of the jurisdiction mutually agreed by the Parties. Any disputes arising from or relating to this Agreement shall first be attempted to be resolved amicably through discussion between senior representatives of both Parties. If such discussions do not lead to a resolution within a reasonable timeframe, the dispute shall be referred to arbitration conducted by a panel of arbitrators appointed in accordance with the applicable arbitration laws. The arbitration proceedings shall be confidential, and the arbitration award shall be final and binding upon the Parties."
       ],
       "verification_status": "verified",
-      "confidence": 0.95
+      "confidence": 0.9
     },
     {
-      "finding_id": "legal-assignment_change_of_control-4a7fc9cc",
+      "finding_id": "legal-assignment_change_of_control-191d6bf0",
       "dimension": "legal",
       "severity": "MEDIUM",
       "title": "Assignment and Change of Control Restrictions",
-      "rationale": "The contract explicitly states that neither party may assign or transfer its rights or obligations under this Agreement without the prior written consent of the other Party.",
+      "rationale": "The contract explicitly states that neither party may assign or transfer its rights or obligations under this Agreement without prior written consent from the other party.",
       "recommendation": null,
       "evidence_ids": [
         "MLA-003-c2"

@@ -1,17 +1,20 @@
 """
-ContractIQ — Phase 4: Legal Risk Agent — first evidence-grounded specialist agent.
+ContractIQ — Phase 4/5: evidence-grounded specialist agents (Legal, Financial,
+Operational).
 
-Roadmap reference: 04_Legal_Risk_Agent.ipynb
-Financial and Operational specialist agents (and Phase 5's parallel
-orchestration/consensus) are a separate follow-on, not built here.
+Roadmap reference: 04_Legal_Risk_Agent.ipynb, 05_Multi_Agent_Orchestration.ipynb
+All three specialists share one evidence-retrieval + LLM + verification
+engine (_analyze_topic / _verify_and_build_finding / analyze_dimension) —
+only the topic list, model, and system prompt differ per dimension. Phase 5's
+parallel orchestration/consensus lives in orchestration.py, not here.
 
 Guiding rule carried over from every earlier phase: a finding is only as
-good as the evidence it cites. This agent never lets the LLM invent a
-clause — every Finding's quoted excerpt is independently re-checked
-against the actual chunk text retrieved from ChromaDB (Phase 3's index)
-before being marked VERIFIED. A finding whose quote doesn't genuinely
-appear in the cited chunk is downgraded to FAILED_VERIFICATION and its
-confidence is capped, never silently kept as if it were trustworthy.
+good as the evidence it cites. No agent lets the LLM invent a clause —
+every Finding's quoted excerpt is independently re-checked against the
+actual chunk text retrieved from ChromaDB (Phase 3's index) before being
+marked VERIFIED. A finding whose quote doesn't genuinely appear in the
+cited chunk is downgraded to FAILED_VERIFICATION and its confidence is
+capped, never silently kept as if it were trustworthy.
 """
 
 from __future__ import annotations
@@ -24,7 +27,7 @@ from typing import Any, Dict, List, Optional
 from openai import OpenAI
 from pydantic import BaseModel, Field
 
-from .config import LEGAL_AGENT_MODEL, OPENAI_API_KEY, REPORTS_ROOT
+from .config import FINANCIAL_AGENT_MODEL, LEGAL_AGENT_MODEL, OPENAI_API_KEY, OPERATIONAL_AGENT_MODEL, REPORTS_ROOT
 from .models import DimensionResult, Finding, RiskDimension, Severity, VerificationStatus
 from .retrieval import search
 
@@ -65,6 +68,42 @@ LEGAL_RISK_TOPICS: Dict[str, str] = {
     "assignment_change_of_control": "Can this agreement be assigned, or what happens on a change of control?",
 }
 
+# Phase 5 — payment terms, financial exposure, penalties, pricing, escalation,
+# renewal comparisons (roadmap Phase 5, item 1).
+FINANCIAL_RISK_TOPICS: Dict[str, str] = {
+    "payment_terms": "What are the payment terms, due dates, or payment schedule under this agreement?",
+    "late_payment_penalties": "What late fees, interest, or penalties apply if payment is not made on time?",
+    "pricing_structure": "What is the pricing structure, rate card, or fee schedule described in this agreement?",
+    "price_escalation": "Are there price escalation, adjustment, or index-linked (e.g. CPI) clauses in this agreement?",
+    "renewal_pricing": "What are the renewal terms, and how does renewal pricing compare to the original term?",
+    "financial_exposure_cap": "Is there a cap on financial exposure, penalties, or total fees payable under this agreement?",
+}
+
+# Phase 5 — scope, deliverables, acceptance criteria, SLAs, dependencies,
+# performance metrics, remedies (roadmap Phase 5, item 2).
+OPERATIONAL_RISK_TOPICS: Dict[str, str] = {
+    "scope_of_work": "What is the scope of work or deliverables under this agreement?",
+    "acceptance_criteria": "What are the acceptance criteria for deliverables under this agreement?",
+    "sla_commitments": "What service level or performance commitments does the vendor make under this agreement?",
+    "sla_remedies": "What remedy or service credit applies if a service level target is missed?",
+    "dependencies_obligations": "What dependencies or client-side obligations does the vendor rely on for performance?",
+    "performance_reporting": "How is service performance measured or reported under this agreement?",
+}
+
+# Central registry: dimension -> (topics, model). Used by analyze_dimension()
+# so the three thin wrappers (analyze_legal_risk/_financial_/_operational_)
+# stay one-liners instead of duplicating the engine.
+_DIMENSION_TOPICS: Dict[RiskDimension, Dict[str, str]] = {
+    RiskDimension.LEGAL: LEGAL_RISK_TOPICS,
+    RiskDimension.FINANCIAL: FINANCIAL_RISK_TOPICS,
+    RiskDimension.OPERATIONAL: OPERATIONAL_RISK_TOPICS,
+}
+_DIMENSION_MODELS: Dict[RiskDimension, str] = {
+    RiskDimension.LEGAL: LEGAL_AGENT_MODEL,
+    RiskDimension.FINANCIAL: FINANCIAL_AGENT_MODEL,
+    RiskDimension.OPERATIONAL: OPERATIONAL_AGENT_MODEL,
+}
+
 
 class _LLMFinding(BaseModel):
     """What we ask the LLM to produce for one topic — a subset of Finding's
@@ -94,21 +133,36 @@ class _LLMTopicResponse(BaseModel):
     finding: Optional[_LLMFinding] = None
 
 
-_SYSTEM_PROMPT = (
-    "You are a contract legal-risk analyst. You will be given one legal topic and a "
-    "set of retrieved evidence chunks (each labeled with a chunk_id) from a SINGLE "
-    "contract. Decide whether the evidence actually addresses the topic for THIS "
-    "contract. If it does not, set addressed=false and leave finding null — never "
-    "invent a finding from general legal knowledge or from what a typical contract "
-    "usually says. If it does, produce exactly one finding grounded ONLY in the "
-    "provided evidence: quoted_excerpt must be copied verbatim (not paraphrased) "
-    "from the evidence text, and cited_chunk_ids must reference the chunk_id(s) the "
-    "quote came from."
-)
+def _system_prompt(dimension: RiskDimension) -> str:
+    """One prompt per dimension, same discipline every time: ground strictly
+    in retrieved evidence for THIS contract, never invent from general
+    knowledge of what a typical contract says."""
+    role = {
+        RiskDimension.LEGAL: "contract legal-risk analyst",
+        RiskDimension.FINANCIAL: "contract financial-risk analyst",
+        RiskDimension.OPERATIONAL: "contract operational-risk analyst",
+    }[dimension]
+    topic_word = {
+        RiskDimension.LEGAL: "legal",
+        RiskDimension.FINANCIAL: "financial",
+        RiskDimension.OPERATIONAL: "operational",
+    }[dimension]
+    return (
+        f"You are a {role}. You will be given one {topic_word} topic and a "
+        "set of retrieved evidence chunks (each labeled with a chunk_id) from a SINGLE "
+        "contract. Decide whether the evidence actually addresses the topic for THIS "
+        f"contract. If it does not, set addressed=false and leave finding null — never "
+        f"invent a finding from general {topic_word} knowledge or from what a typical "
+        "contract usually says. If it does, produce exactly one finding grounded ONLY in "
+        "the provided evidence: quoted_excerpt must be copied verbatim (not paraphrased) "
+        "from the evidence text, and cited_chunk_ids must reference the chunk_id(s) the "
+        "quote came from."
+    )
 
 
-@observe(name="legal_agent_analyze_topic")
-def _analyze_topic(doc_id: str, topic_key: str, question: str, top_k: int = 3) -> Optional[Dict[str, Any]]:
+@observe(name="specialist_agent_analyze_topic")
+def _analyze_topic(doc_id: str, topic_key: str, question: str, dimension: RiskDimension,
+                    model: str, top_k: int = 3) -> Optional[Dict[str, Any]]:
     """Retrieves evidence for one topic scoped to this doc_id only (so the
     agent can never accidentally cite a different contract), then asks the
     LLM to ground a single finding in it, or say the topic isn't addressed."""
@@ -124,9 +178,9 @@ def _analyze_topic(doc_id: str, topic_key: str, question: str, top_k: int = 3) -
 
     client = _get_openai_client()
     completion = client.beta.chat.completions.parse(
-        model=LEGAL_AGENT_MODEL,
+        model=model,
         messages=[
-            {"role": "system", "content": _SYSTEM_PROMPT},
+            {"role": "system", "content": _system_prompt(dimension)},
             {"role": "user", "content": user_prompt},
         ],
         response_format=_LLMTopicResponse,
@@ -139,7 +193,7 @@ def _analyze_topic(doc_id: str, topic_key: str, question: str, top_k: int = 3) -
     return {"llm_finding": parsed.finding, "evidence_by_id": {e["chunk_id"]: e for e in evidence}}
 
 
-def _verify_and_build_finding(topic_key: str, raw: Dict[str, Any]) -> Finding:
+def _verify_and_build_finding(topic_key: str, raw: Dict[str, Any], dimension: RiskDimension) -> Finding:
     """Re-checks the LLM's quoted_excerpt against the ACTUAL retrieved chunk
     text before trusting it — the step that stops a plausible-sounding but
     fabricated quote from ever being marked verified.
@@ -179,8 +233,8 @@ def _verify_and_build_finding(topic_key: str, raw: Dict[str, Any]) -> Finding:
             confidence = min(confidence, 0.3)  # a failed quote can't support high confidence
 
     return Finding(
-        finding_id=f"legal-{topic_key}-{uuid.uuid4().hex[:8]}",
-        dimension=RiskDimension.LEGAL,
+        finding_id=f"{dimension.value}-{topic_key}-{uuid.uuid4().hex[:8]}",
+        dimension=dimension,
         severity=llm_finding.severity,
         title=llm_finding.title,
         rationale=llm_finding.rationale,
@@ -192,30 +246,61 @@ def _verify_and_build_finding(topic_key: str, raw: Dict[str, Any]) -> Finding:
     )
 
 
-@observe(name="legal_risk_agent_analyze")
-def analyze_legal_risk(doc_id: str, topics: Optional[Dict[str, str]] = None) -> DimensionResult:
-    """Runs every legal-risk topic against one contract's indexed chunks and
-    returns a DimensionResult — a finding only for topics the evidence
-    actually supports, each independently verified against its source text."""
-    topics = topics or LEGAL_RISK_TOPICS
+@observe(name="specialist_agent_analyze")
+def analyze_dimension(doc_id: str, dimension: RiskDimension,
+                       topics: Optional[Dict[str, str]] = None,
+                       model: Optional[str] = None) -> DimensionResult:
+    """Runs every topic for one dimension against one contract's indexed
+    chunks and returns a DimensionResult — a finding only for topics the
+    evidence actually supports, each independently verified against its
+    source text. The shared engine behind all three specialists."""
+    topics = topics or _DIMENSION_TOPICS[dimension]
+    model = model or _DIMENSION_MODELS[dimension]
     findings: List[Finding] = []
 
     try:
         for topic_key, question in topics.items():
-            raw = _analyze_topic(doc_id, topic_key, question)
+            raw = _analyze_topic(doc_id, topic_key, question, dimension, model)
             if raw is not None:
-                findings.append(_verify_and_build_finding(topic_key, raw))
+                findings.append(_verify_and_build_finding(topic_key, raw, dimension))
     except Exception as exc:  # noqa: BLE001 - one bad topic must not silently drop the whole run
-        return DimensionResult(dimension=RiskDimension.LEGAL, success=False,
+        return DimensionResult(dimension=dimension, success=False,
                                 findings=findings, error=str(exc))
 
-    return DimensionResult(dimension=RiskDimension.LEGAL, success=True, findings=findings)
+    return DimensionResult(dimension=dimension, success=True, findings=findings)
+
+
+def analyze_legal_risk(doc_id: str, topics: Optional[Dict[str, str]] = None) -> DimensionResult:
+    """Phase 4 legal specialist — 8 fixed legal-risk topics."""
+    return analyze_dimension(doc_id, RiskDimension.LEGAL, topics, LEGAL_AGENT_MODEL)
+
+
+def analyze_financial_risk(doc_id: str, topics: Optional[Dict[str, str]] = None) -> DimensionResult:
+    """Phase 5 financial specialist — payment/pricing/penalty/renewal topics."""
+    return analyze_dimension(doc_id, RiskDimension.FINANCIAL, topics, FINANCIAL_AGENT_MODEL)
+
+
+def analyze_operational_risk(doc_id: str, topics: Optional[Dict[str, str]] = None) -> DimensionResult:
+    """Phase 5 operational specialist — scope/SLA/dependency/reporting topics."""
+    return analyze_dimension(doc_id, RiskDimension.OPERATIONAL, topics, OPERATIONAL_AGENT_MODEL)
+
+
+def _save_assessment(doc_id: str, filename_prefix: str, result: DimensionResult) -> Path:
+    out_path = REPORTS_ROOT / f"{filename_prefix}_{doc_id}.json"
+    out_path.write_text(result.model_dump_json(indent=2), encoding="utf-8")
+    return out_path
 
 
 def save_legal_assessment(doc_id: str, result: DimensionResult) -> Path:
-    out_path = REPORTS_ROOT / f"phase4_legal_risk_{doc_id}.json"
-    out_path.write_text(result.model_dump_json(indent=2), encoding="utf-8")
-    return out_path
+    return _save_assessment(doc_id, "phase4_legal_risk", result)
+
+
+def save_financial_assessment(doc_id: str, result: DimensionResult) -> Path:
+    return _save_assessment(doc_id, "phase5_financial_risk", result)
+
+
+def save_operational_assessment(doc_id: str, result: DimensionResult) -> Path:
+    return _save_assessment(doc_id, "phase5_operational_risk", result)
 
 
 def run_phase4_sample(doc_ids: List[str]) -> Dict[str, DimensionResult]:

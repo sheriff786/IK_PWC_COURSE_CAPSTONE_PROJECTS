@@ -1,0 +1,107 @@
+{
+  "dimension": "operational",
+  "success": true,
+  "findings": [
+    {
+      "finding_id": "operational-scope_of_work-b1339913",
+      "dimension": "operational",
+      "severity": "MEDIUM",
+      "title": "Scope of Work and Deliverables",
+      "rationale": "The evidence outlines the obligations and performance metrics related to the hardware supply, maintenance, and support services provided by PrimeVolta Hardware Solutions to FinSecure Services, which defines the scope of work under the agreement.",
+      "recommendation": null,
+      "evidence_ids": [
+        "GOV-004-c0"
+      ],
+      "evidence_excerpts": [
+        "This document serves as a detailed reference for negotiating the renewal of the Master Service Agreement (MSA) between PrimeVolta Hardware Solutions (Vendor) and FinSecure Services (Client)."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    },
+    {
+      "finding_id": "operational-acceptance_criteria-79390771",
+      "dimension": "operational",
+      "severity": "MEDIUM",
+      "title": "Acceptance Criteria for Deliverables",
+      "rationale": "The acceptance criteria for deliverables are defined by the Key Performance Indicators (KPIs) outlined in the contract, which specify the minimum performance levels required for compliance.",
+      "recommendation": null,
+      "evidence_ids": [
+        "GOV-004-c1",
+        "GOV-004-c0"
+      ],
+      "evidence_excerpts": [
+        "Delivery SLA compliance ≥ 98%\nPreventive maintenance completion ≥ 95%\nInvoice error rate ≤ 0.5%\nDispute resolution average ≤ 10 business days"
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    },
+    {
+      "finding_id": "operational-sla_commitments-bc388f0d",
+      "dimension": "operational",
+      "severity": "HIGH",
+      "title": "Service Level Commitments",
+      "rationale": "The vendor commits to specific service levels as outlined in the Key Performance Indicators (KPIs) section of the contract.",
+      "recommendation": null,
+      "evidence_ids": [
+        "GOV-004-c1",
+        "GOV-004-c0"
+      ],
+      "evidence_excerpts": [
+        "Delivery SLA compliance ≥ 98%\nPreventive maintenance completion ≥ 95%\nInvoice error rate ≤ 0.5%\nDispute resolution average ≤ 10 business days"
+      ],
+      "verification_status": "verified",
+      "confidence": 0.95
+    },
+    {
+      "finding_id": "operational-sla_remedies-92c200ff",
+      "dimension": "operational",
+      "severity": "MEDIUM",
+      "title": "SLA Breach Penalties",
+      "rationale": "The contract includes provisions for penalties related to SLA breaches, specifically mentioning that penalties will be included for repeated SLA breaches beyond three instances per contract year.",
+      "recommendation": "Ensure that the SLA penalties are clearly defined and communicated to all stakeholders.",
+      "evidence_ids": [
+        "GOV-004-c0"
+      ],
+      "evidence_excerpts": [
+        "Include penalties for repeated SLA breaches beyond three instances per contract year."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    },
+    {
+      "finding_id": "operational-dependencies_obligations-9fb8db32",
+      "dimension": "operational",
+      "severity": "MEDIUM",
+      "title": "Client-Side Obligations for Vendor Performance",
+      "rationale": "The evidence outlines specific client action items that the vendor relies on for performance, indicating dependencies on the client's obligations.",
+      "recommendation": "Ensure timely feedback and assessment of revised KPIs and SLA penalties to support vendor performance.",
+      "evidence_ids": [
+        "GOV-004-c1",
+        "GOV-004-c0"
+      ],
+      "evidence_excerpts": [
+        "Client Action Items\nReview historical dispute data and provide feedback on pain points.\nAssess acceptance of revised KPIs and SLA penalties.\nConfirm governance and reporting requirements for dashboards and quarterly reviews."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    },
+    {
+      "finding_id": "operational-performance_reporting-21d3054e",
+      "dimension": "operational",
+      "severity": "MEDIUM",
+      "title": "Performance Reporting Mechanisms",
+      "rationale": "The contract specifies various Key Performance Indicators (KPIs) that measure service performance, including delivery SLA compliance, preventive maintenance completion, invoice error rate, and dispute resolution timelines. Additionally, it outlines governance and reporting requirements such as monthly operational dashboards and quarterly executive reviews to discuss performance metrics.",
+      "recommendation": "Ensure that the reporting mechanisms are implemented effectively to track and improve performance against the KPIs.",
+      "evidence_ids": [
+        "GOV-004-c0"
+      ],
+      "evidence_excerpts": [
+        "Monthly operational dashboards detailing delivery status, SLA compliance, invoice alignment, and dispute trends."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    }
+  ],
+  "error": null,
+  "retry_count": 0
+}

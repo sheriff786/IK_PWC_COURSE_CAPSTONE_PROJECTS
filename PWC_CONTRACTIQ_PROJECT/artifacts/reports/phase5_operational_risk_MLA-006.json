@@ -1,0 +1,40 @@
+{
+  "dimension": "operational",
+  "success": true,
+  "findings": [
+    {
+      "finding_id": "operational-scope_of_work-3fed9439",
+      "dimension": "operational",
+      "severity": "MEDIUM",
+      "title": "Scope of Work and Deliverables Defined",
+      "rationale": "The evidence clearly outlines the scope of products and services covered under the agreement, detailing the types of hardware and associated services that the Vendor will provide to the Client.",
+      "recommendation": null,
+      "evidence_ids": [
+        "MLA-006-c0"
+      ],
+      "evidence_excerpts": [
+        "The scope of this Agreement extends to all categories of hardware devices manufactured, supplied, assembled, or configured by the Vendor for the Client, including biometric authentication units, KYC verification terminals, payment controller modules, secure embedded hardware, IoT gateway systems, HSM interface boards, branch automation hardware, and any related peripherals, cables, adaptors, mounting kits, or installation accessories required for deployment."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    },
+    {
+      "finding_id": "operational-sla_commitments-086c9cab",
+      "dimension": "operational",
+      "severity": "MEDIUM",
+      "title": "Service Level Commitments in the Agreement",
+      "rationale": "The evidence outlines the Vendor's commitments regarding service levels, particularly in terms of warranty, maintenance, and support services, which are critical for operational assurance in BFSI operations.",
+      "recommendation": null,
+      "evidence_ids": [
+        "MLA-006-c0"
+      ],
+      "evidence_excerpts": [
+        "The Vendor shall extend a structured service pricing model covering all labour-intensive, field-oriented, and support-driven activities that the Client may require during the lifecycle of the supplied hardware devices."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    }
+  ],
+  "error": null,
+  "retry_count": 0
+}

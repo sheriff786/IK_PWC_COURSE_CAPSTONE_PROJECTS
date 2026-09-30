@@ -1,0 +1,24 @@
+{
+  "dimension": "financial",
+  "success": true,
+  "findings": [
+    {
+      "finding_id": "financial-pricing_structure-92b28d1a",
+      "dimension": "financial",
+      "severity": "MEDIUM",
+      "title": "Pricing Structure Mentioned",
+      "rationale": "The contract explicitly mentions 'pricing models' and 'rate cards' as part of the Confidential Information, indicating that there is a pricing structure included in the agreement.",
+      "recommendation": null,
+      "evidence_ids": [
+        "MLA-003-c0"
+      ],
+      "evidence_excerpts": [
+        "Confidential Information includes... pricing models, rate cards, proposals, contract drafts, financial analyses, internal controls, business forecasts, deployment plans, and security arrangements."
+      ],
+      "verification_status": "failed_verification",
+      "confidence": 0.3
+    }
+  ],
+  "error": null,
+  "retry_count": 0
+}

@@ -1,0 +1,72 @@
+{
+  "dimension": "financial",
+  "success": true,
+  "findings": [
+    {
+      "finding_id": "financial-payment_terms-268fe4d7",
+      "dimension": "financial",
+      "severity": "MEDIUM",
+      "title": "Payment Terms and Schedule",
+      "rationale": "The payment terms specify that the Client shall make payments within forty-five (45) days from the date of receipt of the completed invoice, and any disputed component of an invoice must be notified within seven (7) days.",
+      "recommendation": null,
+      "evidence_ids": [
+        "MLA-001-c1"
+      ],
+      "evidence_excerpts": [
+        "The Client shall make payments within forty-five (45) days from the date of receipt of the completed invoice, subject to validation and reconciliation."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    },
+    {
+      "finding_id": "financial-late_payment_penalties-5c9e9e70",
+      "dimension": "financial",
+      "severity": "MEDIUM",
+      "title": "Late Payment Penalty Details",
+      "rationale": "The contract specifies the penalties for late payments, including interest charges.",
+      "recommendation": null,
+      "evidence_ids": [
+        "MLA-001-c1"
+      ],
+      "evidence_excerpts": [
+        "Delay in invoice settlement beyond the stipulated period shall attract an interest charge of one percent (1%) per month until full payment is made."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    },
+    {
+      "finding_id": "financial-pricing_structure-de151e8b",
+      "dimension": "financial",
+      "severity": "MEDIUM",
+      "title": "Pricing Structure Defined",
+      "rationale": "The evidence clearly outlines the pricing structure and billing terms applicable to the agreement, including references to a Rate Card and specific payment terms.",
+      "recommendation": null,
+      "evidence_ids": [
+        "MLA-001-c1"
+      ],
+      "evidence_excerpts": [
+        "All pricing applicable to this Agreement shall be governed by the Rate Card or the individual SOWs executed between the Parties."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    },
+    {
+      "finding_id": "financial-financial_exposure_cap-1feeae7f",
+      "dimension": "financial",
+      "severity": "MEDIUM",
+      "title": "Cap on Financial Exposure",
+      "rationale": "The contract specifies a limitation on liability, capping the total cumulative liability of each party under the agreement.",
+      "recommendation": null,
+      "evidence_ids": [
+        "MLA-001-c2"
+      ],
+      "evidence_excerpts": [
+        "each Party’s total cumulative liability under this Agreement shall not exceed the total amount paid by the Client to the Vendor in the preceding twelve (12) months."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    }
+  ],
+  "error": null,
+  "retry_count": 0
+}

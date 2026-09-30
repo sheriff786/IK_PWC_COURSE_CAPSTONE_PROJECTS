@@ -3,7 +3,7 @@
   "success": true,
   "findings": [
     {
-      "finding_id": "legal-liability_cap-e17d92e6",
+      "finding_id": "legal-liability_cap-198b7150",
       "dimension": "legal",
       "severity": "MEDIUM",
       "title": "Liability Cap and Limitations",
@@ -19,7 +19,7 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "legal-indemnification-e2002136",
+      "finding_id": "legal-indemnification-75ed3ec6",
       "dimension": "legal",
       "severity": "MEDIUM",
       "title": "Indemnification Obligations",
@@ -35,7 +35,7 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "legal-termination_for_cause-85485916",
+      "finding_id": "legal-termination_for_cause-1259945f",
       "dimension": "legal",
       "severity": "HIGH",
       "title": "Termination for Cause Conditions",
@@ -51,7 +51,7 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "legal-termination_for_convenience-d273377c",
+      "finding_id": "legal-termination_for_convenience-0b9641fa",
       "dimension": "legal",
       "severity": "MEDIUM",
       "title": "Termination for Convenience Notice Period",
@@ -67,7 +67,7 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "legal-confidentiality_survival-fa8db7bc",
+      "finding_id": "legal-confidentiality_survival-9e9ce257",
       "dimension": "legal",
       "severity": "MEDIUM",
       "title": "Confidentiality Obligations Survival Period",
@@ -83,7 +83,7 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "legal-ip_ownership-a8ad5fd2",
+      "finding_id": "legal-ip_ownership-4c91444f",
       "dimension": "legal",
       "severity": "HIGH",
       "title": "Intellectual Property Ownership",
@@ -99,11 +99,11 @@
       "confidence": 0.95
     },
     {
-      "finding_id": "legal-governing_law_disputes-f4cd7f08",
+      "finding_id": "legal-governing_law_disputes-087fb62a",
       "dimension": "legal",
-      "severity": "HIGH",
+      "severity": "MEDIUM",
       "title": "Governing Law and Dispute Resolution",
-      "rationale": "The evidence explicitly states the governing law and the method for resolving disputes, which is arbitration.",
+      "rationale": "The evidence explicitly outlines the governing law and dispute resolution process for the contract.",
       "recommendation": null,
       "evidence_ids": [
         "MLA-002-c2"
@@ -112,7 +112,7 @@
         "This Agreement shall be governed by and construed in accordance with the laws of the jurisdiction specified in the relevant SOW or annexure. Any disputes arising out of or related to this Agreement shall be subjected to arbitration before a panel of arbitrators in accordance with governing arbitration procedures."
       ],
       "verification_status": "verified",
-      "confidence": 0.95
+      "confidence": 0.9
     }
   ],
   "error": null,
