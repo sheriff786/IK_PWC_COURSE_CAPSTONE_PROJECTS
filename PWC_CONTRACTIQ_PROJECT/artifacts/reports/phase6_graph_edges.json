@@ -1,0 +1,682 @@
+[
+  {
+    "source": "COM-001",
+    "relation": "BELONGS_TO",
+    "target": "commercial_docs",
+    "evidence_ids": [
+      "manifest:COM-001.category_key"
+    ],
+    "verification_status": "verified",
+    "locator": null
+  },
+  {
+    "source": "COM-001",
+    "relation": "CONTAINS",
+    "target": "Primevolta Hardware Solutions",
+    "evidence_ids": [
+      "COM-001-p1"
+    ],
+    "verification_status": "verified",
+    "locator": "paragraph:1"
+  },
+  {
+    "source": "COM-001",
+    "relation": "CONTAINS",
+    "target": "FinSecure Services",
+    "evidence_ids": [
+      "COM-001-p1"
+    ],
+    "verification_status": "verified",
+    "locator": "paragraph:1"
+  },
+  {
+    "source": "COM-002",
+    "relation": "BELONGS_TO",
+    "target": "commercial_docs",
+    "evidence_ids": [
+      "manifest:COM-002.category_key"
+    ],
+    "verification_status": "verified",
+    "locator": null
+  },
+  {
+    "source": "COM-002",
+    "relation": "CONTAINS",
+    "target": "Primevolta Hardware Solutions",
+    "evidence_ids": [
+      "COM-002-p1"
+    ],
+    "verification_status": "verified",
+    "locator": "paragraph:1"
+  },
+  {
+    "source": "COM-002",
+    "relation": "CONTAINS",
+    "target": "FinSecure Services",
+    "evidence_ids": [
+      "COM-002-p1"
+    ],
+    "verification_status": "verified",
+    "locator": "paragraph:1"
+  },
+  {
+    "source": "CMP-001",
+    "relation": "BELONGS_TO",
+    "target": "compliance_docs",
+    "evidence_ids": [
+      "manifest:CMP-001.category_key"
+    ],
+    "verification_status": "verified",
+    "locator": null
+  },
+  {
+    "source": "CMP-002",
+    "relation": "BELONGS_TO",
+    "target": "compliance_docs",
+    "evidence_ids": [
+      "manifest:CMP-002.category_key"
+    ],
+    "verification_status": "verified",
+    "locator": null
+  },
+  {
+    "source": "CMP-003",
+    "relation": "BELONGS_TO",
+    "target": "compliance_docs",
+    "evidence_ids": [
+      "manifest:CMP-003.category_key"
+    ],
+    "verification_status": "verified",
+    "locator": null
+  },
+  {
+    "source": "CMP-004",
+    "relation": "BELONGS_TO",
+    "target": "compliance_docs",
+    "evidence_ids": [
+      "manifest:CMP-004.category_key"
+    ],
+    "verification_status": "verified",
+    "locator": null
+  },
+  {
+    "source": "CMP-005",
+    "relation": "BELONGS_TO",
+    "target": "compliance_docs",
+    "evidence_ids": [
+      "manifest:CMP-005.category_key"
+    ],
+    "verification_status": "verified",
+    "locator": null
+  },
+  {
+    "source": "CMP-006",
+    "relation": "BELONGS_TO",
+    "target": "compliance_docs",
+    "evidence_ids": [
+      "manifest:CMP-006.category_key"
+    ],
+    "verification_status": "verified",
+    "locator": null
+  },
+  {
+    "source": "GOV-001",
+    "relation": "BELONGS_TO",
+    "target": "disputes_audits_governance",
+    "evidence_ids": [
+      "manifest:GOV-001.category_key"
+    ],
+    "verification_status": "verified",
+    "locator": null
+  },
+  {
+    "source": "GOV-002",
+    "relation": "BELONGS_TO",
+    "target": "disputes_audits_governance",
+    "evidence_ids": [
+      "manifest:GOV-002.category_key"
+    ],
+    "verification_status": "verified",
+    "locator": null
+  },
+  {
+    "source": "GOV-003",
+    "relation": "BELONGS_TO",
+    "target": "disputes_audits_governance",
+    "evidence_ids": [
+      "manifest:GOV-003.category_key"
+    ],
+    "verification_status": "verified",
+    "locator": null
+  },
+  {
+    "source": "GOV-003",
+    "relation": "CONTAINS",
+    "target": "Primevolta Hardware Solutions",
+    "evidence_ids": [
+      "GOV-003-p1"
+    ],
+    "verification_status": "verified",
+    "locator": "paragraph:1"
+  },
+  {
+    "source": "GOV-003",
+    "relation": "CONTAINS",
+    "target": "FinSecure Services",
+    "evidence_ids": [
+      "GOV-003-p1"
+    ],
+    "verification_status": "verified",
+    "locator": "paragraph:1"
+  },
+  {
+    "source": "GOV-004",
+    "relation": "BELONGS_TO",
+    "target": "disputes_audits_governance",
+    "evidence_ids": [
+      "manifest:GOV-004.category_key"
+    ],
+    "verification_status": "verified",
+    "locator": null
+  },
+  {
+    "source": "GOV-004",
+    "relation": "CONTAINS",
+    "target": "Primevolta Hardware Solutions",
+    "evidence_ids": [
+      "GOV-004-p1"
+    ],
+    "verification_status": "verified",
+    "locator": "paragraph:1"
+  },
+  {
+    "source": "GOV-004",
+    "relation": "CONTAINS",
+    "target": "FinSecure Services",
+    "evidence_ids": [
+      "GOV-004-p1"
+    ],
+    "verification_status": "verified",
+    "locator": "paragraph:1"
+  },
+  {
+    "source": "FIN-001",
+    "relation": "BELONGS_TO",
+    "target": "financial_billing",
+    "evidence_ids": [
+      "manifest:FIN-001.category_key"
+    ],
+    "verification_status": "verified",
+    "locator": null
+  },
+  {
+    "source": "FIN-002",
+    "relation": "BELONGS_TO",
+    "target": "financial_billing",
+    "evidence_ids": [
+      "manifest:FIN-002.category_key"
+    ],
+    "verification_status": "verified",
+    "locator": null
+  },
+  {
+    "source": "FIN-003",
+    "relation": "BELONGS_TO",
+    "target": "financial_billing",
+    "evidence_ids": [
+      "manifest:FIN-003.category_key"
+    ],
+    "verification_status": "verified",
+    "locator": null
+  },
+  {
+    "source": "FIN-004",
+    "relation": "BELONGS_TO",
+    "target": "financial_billing",
+    "evidence_ids": [
+      "manifest:FIN-004.category_key"
+    ],
+    "verification_status": "verified",
+    "locator": null
+  },
+  {
+    "source": "NEG-001",
+    "relation": "BELONGS_TO",
+    "target": "historical_negotiation",
+    "evidence_ids": [
+      "manifest:NEG-001.category_key"
+    ],
+    "verification_status": "verified",
+    "locator": null
+  },
+  {
+    "source": "NEG-002",
+    "relation": "BELONGS_TO",
+    "target": "historical_negotiation",
+    "evidence_ids": [
+      "manifest:NEG-002.category_key"
+    ],
+    "verification_status": "verified",
+    "locator": null
+  },
+  {
+    "source": "NEG-003",
+    "relation": "BELONGS_TO",
+    "target": "historical_negotiation",
+    "evidence_ids": [
+      "manifest:NEG-003.category_key"
+    ],
+    "verification_status": "verified",
+    "locator": null
+  },
+  {
+    "source": "NEG-003",
+    "relation": "CONTAINS",
+    "target": "Primevolta Hardware Solutions",
+    "evidence_ids": [
+      "NEG-003-p0"
+    ],
+    "verification_status": "verified",
+    "locator": "paragraph:0"
+  },
+  {
+    "source": "NEG-003",
+    "relation": "CONTAINS",
+    "target": "FinSecure Services",
+    "evidence_ids": [
+      "NEG-003-p0"
+    ],
+    "verification_status": "verified",
+    "locator": "paragraph:0"
+  },
+  {
+    "source": "NEG-004",
+    "relation": "BELONGS_TO",
+    "target": "historical_negotiation",
+    "evidence_ids": [
+      "manifest:NEG-004.category_key"
+    ],
+    "verification_status": "verified",
+    "locator": null
+  },
+  {
+    "source": "NEG-004",
+    "relation": "CONTAINS",
+    "target": "Primevolta Hardware Solutions",
+    "evidence_ids": [
+      "NEG-004-p0"
+    ],
+    "verification_status": "verified",
+    "locator": "paragraph:0"
+  },
+  {
+    "source": "NEG-004",
+    "relation": "CONTAINS",
+    "target": "FinSecure Services",
+    "evidence_ids": [
+      "NEG-004-p0"
+    ],
+    "verification_status": "verified",
+    "locator": "paragraph:0"
+  },
+  {
+    "source": "NEG-005",
+    "relation": "BELONGS_TO",
+    "target": "historical_negotiation",
+    "evidence_ids": [
+      "manifest:NEG-005.category_key"
+    ],
+    "verification_status": "verified",
+    "locator": null
+  },
+  {
+    "source": "NEG-005",
+    "relation": "CONTAINS",
+    "target": "Primevolta Hardware Solutions",
+    "evidence_ids": [
+      "NEG-005-p1"
+    ],
+    "verification_status": "verified",
+    "locator": "paragraph:1"
+  },
+  {
+    "source": "NEG-005",
+    "relation": "CONTAINS",
+    "target": "FinSecure Services",
+    "evidence_ids": [
+      "NEG-005-p1"
+    ],
+    "verification_status": "verified",
+    "locator": "paragraph:1"
+  },
+  {
+    "source": "NEG-006",
+    "relation": "BELONGS_TO",
+    "target": "historical_negotiation",
+    "evidence_ids": [
+      "manifest:NEG-006.category_key"
+    ],
+    "verification_status": "verified",
+    "locator": null
+  },
+  {
+    "source": "NEG-006",
+    "relation": "CONTAINS",
+    "target": "Primevolta Hardware Solutions",
+    "evidence_ids": [
+      "NEG-006-p1"
+    ],
+    "verification_status": "verified",
+    "locator": "paragraph:1"
+  },
+  {
+    "source": "NEG-006",
+    "relation": "CONTAINS",
+    "target": "FinSecure Services",
+    "evidence_ids": [
+      "NEG-006-p1"
+    ],
+    "verification_status": "verified",
+    "locator": "paragraph:1"
+  },
+  {
+    "source": "MLA-001",
+    "relation": "BELONGS_TO",
+    "target": "master_agreements",
+    "evidence_ids": [
+      "manifest:MLA-001.category_key"
+    ],
+    "verification_status": "verified",
+    "locator": null
+  },
+  {
+    "source": "MLA-001",
+    "relation": "CONTAINS",
+    "target": "Primevolta Hardware Solutions",
+    "evidence_ids": [
+      "MLA-001-p1"
+    ],
+    "verification_status": "verified",
+    "locator": "paragraph:1"
+  },
+  {
+    "source": "MLA-001",
+    "relation": "CONTAINS",
+    "target": "FinSecure Services",
+    "evidence_ids": [
+      "MLA-001-p1"
+    ],
+    "verification_status": "verified",
+    "locator": "paragraph:1"
+  },
+  {
+    "source": "MLA-002",
+    "relation": "BELONGS_TO",
+    "target": "master_agreements",
+    "evidence_ids": [
+      "manifest:MLA-002.category_key"
+    ],
+    "verification_status": "verified",
+    "locator": null
+  },
+  {
+    "source": "MLA-002",
+    "relation": "CONTAINS",
+    "target": "Primevolta Hardware Solutions",
+    "evidence_ids": [
+      "MLA-002-p1"
+    ],
+    "verification_status": "verified",
+    "locator": "paragraph:1"
+  },
+  {
+    "source": "MLA-002",
+    "relation": "CONTAINS",
+    "target": "FinSecure Services",
+    "evidence_ids": [
+      "MLA-002-p1"
+    ],
+    "verification_status": "verified",
+    "locator": "paragraph:1"
+  },
+  {
+    "source": "MLA-003",
+    "relation": "BELONGS_TO",
+    "target": "master_agreements",
+    "evidence_ids": [
+      "manifest:MLA-003.category_key"
+    ],
+    "verification_status": "verified",
+    "locator": null
+  },
+  {
+    "source": "MLA-003",
+    "relation": "CONTAINS",
+    "target": "Primevolta Hardware Solutions",
+    "evidence_ids": [
+      "MLA-003-p1"
+    ],
+    "verification_status": "verified",
+    "locator": "paragraph:1"
+  },
+  {
+    "source": "MLA-003",
+    "relation": "CONTAINS",
+    "target": "FinSecure Services",
+    "evidence_ids": [
+      "MLA-003-p1"
+    ],
+    "verification_status": "verified",
+    "locator": "paragraph:1"
+  },
+  {
+    "source": "MLA-004",
+    "relation": "BELONGS_TO",
+    "target": "master_agreements",
+    "evidence_ids": [
+      "manifest:MLA-004.category_key"
+    ],
+    "verification_status": "verified",
+    "locator": null
+  },
+  {
+    "source": "MLA-004",
+    "relation": "CONTAINS",
+    "target": "Primevolta Hardware Solutions",
+    "evidence_ids": [
+      "MLA-004-p1"
+    ],
+    "verification_status": "verified",
+    "locator": "paragraph:1"
+  },
+  {
+    "source": "MLA-004",
+    "relation": "CONTAINS",
+    "target": "FinSecure Services",
+    "evidence_ids": [
+      "MLA-004-p1"
+    ],
+    "verification_status": "verified",
+    "locator": "paragraph:1"
+  },
+  {
+    "source": "MLA-005",
+    "relation": "BELONGS_TO",
+    "target": "master_agreements",
+    "evidence_ids": [
+      "manifest:MLA-005.category_key"
+    ],
+    "verification_status": "verified",
+    "locator": null
+  },
+  {
+    "source": "MLA-005",
+    "relation": "CONTAINS",
+    "target": "Primevolta Hardware Solutions",
+    "evidence_ids": [
+      "MLA-005-p1"
+    ],
+    "verification_status": "verified",
+    "locator": "paragraph:1"
+  },
+  {
+    "source": "MLA-005",
+    "relation": "CONTAINS",
+    "target": "FinSecure Services",
+    "evidence_ids": [
+      "MLA-005-p1"
+    ],
+    "verification_status": "verified",
+    "locator": "paragraph:1"
+  },
+  {
+    "source": "MLA-006",
+    "relation": "BELONGS_TO",
+    "target": "master_agreements",
+    "evidence_ids": [
+      "manifest:MLA-006.category_key"
+    ],
+    "verification_status": "verified",
+    "locator": null
+  },
+  {
+    "source": "MLA-006",
+    "relation": "CONTAINS",
+    "target": "Primevolta Hardware Solutions",
+    "evidence_ids": [
+      "MLA-006-p1"
+    ],
+    "verification_status": "verified",
+    "locator": "paragraph:1"
+  },
+  {
+    "source": "MLA-006",
+    "relation": "CONTAINS",
+    "target": "FinSecure Services",
+    "evidence_ids": [
+      "MLA-006-p1"
+    ],
+    "verification_status": "verified",
+    "locator": "paragraph:1"
+  },
+  {
+    "source": "OPS-001",
+    "relation": "BELONGS_TO",
+    "target": "operational_docs",
+    "evidence_ids": [
+      "manifest:OPS-001.category_key"
+    ],
+    "verification_status": "verified",
+    "locator": null
+  },
+  {
+    "source": "OPS-002",
+    "relation": "BELONGS_TO",
+    "target": "operational_docs",
+    "evidence_ids": [
+      "manifest:OPS-002.category_key"
+    ],
+    "verification_status": "verified",
+    "locator": null
+  },
+  {
+    "source": "OPS-003",
+    "relation": "BELONGS_TO",
+    "target": "operational_docs",
+    "evidence_ids": [
+      "manifest:OPS-003.category_key"
+    ],
+    "verification_status": "verified",
+    "locator": null
+  },
+  {
+    "source": "OPS-004",
+    "relation": "BELONGS_TO",
+    "target": "operational_docs",
+    "evidence_ids": [
+      "manifest:OPS-004.category_key"
+    ],
+    "verification_status": "verified",
+    "locator": null
+  },
+  {
+    "source": "TXN-001",
+    "relation": "BELONGS_TO",
+    "target": "transaction_contracts",
+    "evidence_ids": [
+      "manifest:TXN-001.category_key"
+    ],
+    "verification_status": "verified",
+    "locator": null
+  },
+  {
+    "source": "TXN-001",
+    "relation": "RENEWS",
+    "target": "EXTERNAL:AMSA-2025-01-01",
+    "evidence_ids": [
+      "TXN-001-p5"
+    ],
+    "verification_status": "verified",
+    "locator": "paragraph:5"
+  },
+  {
+    "source": "TXN-002",
+    "relation": "BELONGS_TO",
+    "target": "transaction_contracts",
+    "evidence_ids": [
+      "manifest:TXN-002.category_key"
+    ],
+    "verification_status": "verified",
+    "locator": null
+  },
+  {
+    "source": "TXN-002",
+    "relation": "RENEWS",
+    "target": "EXTERNAL:Multi-Year-Supply-Framework-2021-07-01",
+    "evidence_ids": [
+      "TXN-002-p5"
+    ],
+    "verification_status": "verified",
+    "locator": "paragraph:5"
+  },
+  {
+    "source": "TXN-003",
+    "relation": "BELONGS_TO",
+    "target": "transaction_contracts",
+    "evidence_ids": [
+      "manifest:TXN-003.category_key"
+    ],
+    "verification_status": "verified",
+    "locator": null
+  },
+  {
+    "source": "TXN-003",
+    "relation": "REFERENCES",
+    "target": "EXTERNAL:MSA-referenced-by-TXN-003",
+    "evidence_ids": [
+      "TXN-003-p5"
+    ],
+    "verification_status": "verified",
+    "locator": "paragraph:5"
+  },
+  {
+    "source": "TXN-004",
+    "relation": "BELONGS_TO",
+    "target": "transaction_contracts",
+    "evidence_ids": [
+      "manifest:TXN-004.category_key"
+    ],
+    "verification_status": "verified",
+    "locator": null
+  },
+  {
+    "source": "TXN-004",
+    "relation": "REFERENCES",
+    "target": "EXTERNAL:MSA-referenced-by-TXN-004",
+    "evidence_ids": [
+      "TXN-004-p5"
+    ],
+    "verification_status": "verified",
+    "locator": "paragraph:5"
+  }
+]

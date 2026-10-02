@@ -106,14 +106,28 @@ EXTERNAL_REFERENCES: Dict[str, Dict[str, str]] = {
     },
 }
 
-# Matches this corpus's own two party-naming styles, seen verbatim in real
-# documents: "Between X & Y" (title line) and "between X (\u201cRole\u201d) and
-# Y (\u201cRole\u201d)" (body clause). Applied to each document's OWN clause text
-# only — never assumed present just because another document has it.
-_PARTY_PATTERN = re.compile(
-    r"[Bb]etween\s+(?P<a>[A-Z][\w.,\-]*(?:\s+[A-Z&][\w.,\-]*){0,6}?)\s*"
-    r"(?:&|and)\s+(?P<b>[A-Z][\w.,\-]*(?:\s+[A-Z][\w.,\-]*){0,6}?)"
-    r"\s*(?:\(|,|\n|$)"
+# This corpus's party-naming styles, seen verbatim in real documents — only
+# patterns actually observed are added here, never a guessed generic one:
+#   1. "Between X & Y" / "between X (Role) and Y (Role)"      (MLA/NEG titles+body)
+#   2. "Between: X (Role)\nAnd: Y (Role)"                       (COM-* title block)
+#   3. "Client: X" / "Vendor: Y" on their own labeled lines     (GOV-*/FIN-*/etc.)
+# Applied to each document's OWN clause text only — never assumed present
+# just because another document in the same corpus has it.
+_PARTY_PATTERNS: List[re.Pattern] = [
+    re.compile(
+        r"[Bb]etween\s+(?P<a>[A-Z][\w.,\-]*(?:\s+[A-Z&][\w.,\-]*){0,6}?)\s*"
+        r"(?:&|and)\s+(?P<b>[A-Z][\w.,\-]*(?:\s+[A-Z][\w.,\-]*){0,6}?)"
+        r"\s*(?:\(|,|\n|$)"
+    ),
+    re.compile(
+        r"[Bb]etween:\s*(?P<a>[A-Z][\w.,\-]*(?:\s+[A-Z][\w.,\-]*){0,6}?)\s*\([^)]*\)\s*\n"
+        r"\s*[Aa]nd:\s*(?P<b>[A-Z][\w.,\-]*(?:\s+[A-Z][\w.,\-]*){0,6}?)\s*(?:\(|,|\n|$)"
+    ),
+]
+
+_LABEL_PATTERN = re.compile(
+    r"^\s*(?P<role>Client|Vendor)\s*:\s*(?P<name>[A-Z][\w.,\-]*(?:\s+[A-Z][\w.,\-]*){0,6}?)\s*$",
+    re.MULTILINE,
 )
 
 
@@ -125,7 +139,7 @@ def _extract_parties(doc_id: str) -> Optional[Dict[str, Any]]:
     """Scans a document's OWN first ~15 parsed clauses (the party clause is
     always near the top) for a party-naming sentence, and returns the two
     names plus which clause it came from — or None if this document's own
-    text doesn't match either known pattern (never guessed from elsewhere)."""
+    text doesn't match any known pattern (never guessed from elsewhere)."""
     try:
         parsed = load_parsed_document(doc_id)
     except FileNotFoundError:
@@ -134,8 +148,10 @@ def _extract_parties(doc_id: str) -> Optional[Dict[str, Any]]:
         return None
 
     for clause in parsed["clauses"][:15]:
-        match = _PARTY_PATTERN.search(clause["text"])
-        if match:
+        for pattern in _PARTY_PATTERNS:
+            match = pattern.search(clause["text"])
+            if not match:
+                continue
             party_a = _clean_party_name(match.group("a"))
             party_b = _clean_party_name(match.group("b"))
             if len(party_a) < 3 or len(party_b) < 3:
@@ -143,6 +159,23 @@ def _extract_parties(doc_id: str) -> Optional[Dict[str, Any]]:
             return {
                 "party_a": party_a,
                 "party_b": party_b,
+                "clause_id": clause["clause_id"],
+                "locator": clause["source_location"]["locator"],
+                "excerpt": clause["text"],
+            }
+
+    # Fallback: independent "Client:" / "Vendor:" labels within the same
+    # clause (e.g. GOV-004's "Client: FinSecure Services\nVendor: PrimeVolta
+    # Hardware Solutions..."), rather than the single-sentence prose forms above.
+    for clause in parsed["clauses"][:15]:
+        labels = {m.group("role"): _clean_party_name(m.group("name"))
+                  for m in _LABEL_PATTERN.finditer(clause["text"])}
+        if "Client" in labels and "Vendor" in labels:
+            if len(labels["Client"]) < 3 or len(labels["Vendor"]) < 3:
+                continue
+            return {
+                "party_a": labels["Vendor"],
+                "party_b": labels["Client"],
                 "clause_id": clause["clause_id"],
                 "locator": clause["source_location"]["locator"],
                 "excerpt": clause["text"],
@@ -160,6 +193,18 @@ class ContractKnowledgeGraph:
         self.graph = nx.DiGraph()
 
     # -- building -----------------------------------------------------------
+
+    def _canonical_party_node(self, name: str) -> str:
+        """Same party is sometimes capitalized differently across documents
+        (e.g. 'PrimeVolta Hardware Solutions' vs 'Primevolta Hardware
+        Solutions') — without this, they'd silently become two separate
+        nodes. Reuses whichever spelling was already added as a node;
+        otherwise returns the name as-is to become the new canonical form."""
+        key = name.casefold()
+        for node, data in self.graph.nodes(data=True):
+            if data.get("type") == "party" and node.casefold() == key:
+                return node
+        return name
 
     def add_document(self, record: DocumentRecord) -> None:
         """document --BELONGS_TO--> category. Evidence is the manifest
@@ -184,6 +229,7 @@ class ContractKnowledgeGraph:
         if extracted is None:
             return None
         for party in (extracted["party_a"], extracted["party_b"]):
+            party = self._canonical_party_node(party)
             if not self.graph.has_node(party):
                 self.graph.add_node(party, type="party", color=_NODE_COLORS["party"])
             self.graph.add_edge(doc_id, party, relation="CONTAINS",
@@ -244,6 +290,7 @@ class ContractKnowledgeGraph:
                 if data.get("relation") == "BELONGS_TO"]
 
     def get_documents_by_party(self, party_name: str) -> List[str]:
+        party_name = self._canonical_party_node(party_name)
         if not self.graph.has_node(party_name):
             return []
         return [src for src, _, data in self.graph.in_edges(party_name, data=True)
