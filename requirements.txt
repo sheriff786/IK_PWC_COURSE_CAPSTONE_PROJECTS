@@ -1,3 +1,7 @@
 ipykernel
 rank_bm25
 pytest
+fastapi
+uvicorn[standard]
+python-multipart
+httpx
