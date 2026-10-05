@@ -3,17 +3,6 @@
   "status": "extracted",
   "entities": [
     {
-      "entity_type": "clause_term:confidentiality",
-      "raw_text": "nda",
-      "normalized_value": null,
-      "source_location": {
-        "doc_id": "NEG-005",
-        "kind": "paragraph",
-        "locator": "paragraph:5",
-        "excerpt": "The negotiation context is particularly sensitive due to the nature of the BFSI industry, where regulatory compliance, data security, and financial liability are paramount. The risk assessment serves multiple purposes: (a) identification of potential legal and operational exposures, (b) formulation of mitigation strategies, (c) alignment with FinSecure\u2019s internal risk and compliance policies, and (d) preparation of detailed recommendations for contractual clauses."
-      }
-    },
-    {
       "entity_type": "clause_term:ip_terms",
       "raw_text": "intellectual property",
       "normalized_value": null,
@@ -113,39 +102,6 @@
       }
     },
     {
-      "entity_type": "clause_term:confidentiality",
-      "raw_text": "nda",
-      "normalized_value": null,
-      "source_location": {
-        "doc_id": "NEG-005",
-        "kind": "paragraph",
-        "locator": "paragraph:29",
-        "excerpt": "Non-compliant supply chain: Subcontractors may not adhere to cybersecurity or privacy standards."
-      }
-    },
-    {
-      "entity_type": "clause_term:confidentiality",
-      "raw_text": "nda",
-      "normalized_value": null,
-      "source_location": {
-        "doc_id": "NEG-005",
-        "kind": "paragraph",
-        "locator": "paragraph:39",
-        "excerpt": "Regulatory violations: Breach of mandatory guidelines or discovery of non-compliance."
-      }
-    },
-    {
-      "entity_type": "clause_term:confidentiality",
-      "raw_text": "nda",
-      "normalized_value": null,
-      "source_location": {
-        "doc_id": "NEG-005",
-        "kind": "paragraph",
-        "locator": "paragraph:49",
-        "excerpt": "Mitigation Recommendations:"
-      }
-    },
-    {
       "entity_type": "duration_or_notice_period",
       "raw_text": "12 months",
       "normalized_value": null,
@@ -190,28 +146,6 @@
       }
     },
     {
-      "entity_type": "clause_term:confidentiality",
-      "raw_text": "nda",
-      "normalized_value": null,
-      "source_location": {
-        "doc_id": "NEG-005",
-        "kind": "paragraph",
-        "locator": "paragraph:57",
-        "excerpt": "Mitigation Recommendations:"
-      }
-    },
-    {
-      "entity_type": "clause_term:confidentiality",
-      "raw_text": "nda",
-      "normalized_value": null,
-      "source_location": {
-        "doc_id": "NEG-005",
-        "kind": "paragraph",
-        "locator": "paragraph:63",
-        "excerpt": "Recommendations:"
-      }
-    },
-    {
       "entity_type": "duration_or_notice_period",
       "raw_text": "24 months",
       "normalized_value": null,
@@ -220,39 +154,6 @@
         "kind": "paragraph",
         "locator": "paragraph:64",
         "excerpt": "Extend warranty to 24 months."
-      }
-    },
-    {
-      "entity_type": "clause_term:sla_terms",
-      "raw_text": "response time",
-      "normalized_value": null,
-      "source_location": {
-        "doc_id": "NEG-005",
-        "kind": "paragraph",
-        "locator": "paragraph:65",
-        "excerpt": "24/7 technical support with defined response times: critical issues within 4 hours, non-critical within 48 hours."
-      }
-    },
-    {
-      "entity_type": "clause_term:confidentiality",
-      "raw_text": "nda",
-      "normalized_value": null,
-      "source_location": {
-        "doc_id": "NEG-005",
-        "kind": "paragraph",
-        "locator": "paragraph:73",
-        "excerpt": "NDAs covering all employees, subcontractors, and consultants."
-      }
-    },
-    {
-      "entity_type": "clause_term:confidentiality",
-      "raw_text": "nda",
-      "normalized_value": null,
-      "source_location": {
-        "doc_id": "NEG-005",
-        "kind": "paragraph",
-        "locator": "paragraph:77",
-        "excerpt": "4. Risk Mitigation Recommendations"
       }
     }
   ],

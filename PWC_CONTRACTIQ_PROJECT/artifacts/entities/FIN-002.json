@@ -3,18 +3,7 @@
   "status": "extracted",
   "entities": [
     {
-      "entity_type": "clause_term:confidentiality",
-      "raw_text": "nda",
-      "normalized_value": null,
-      "source_location": {
-        "doc_id": "FIN-002",
-        "kind": "paragraph",
-        "locator": "paragraph:16",
-        "excerpt": "3.1 Standard Billing:"
-      }
-    },
-    {
-      "entity_type": "money:invoice_amount",
+      "entity_type": "money:unclassified",
       "raw_text": "INR 5,00,000,",
       "normalized_value": null,
       "source_location": {
@@ -38,17 +27,6 @@
     {
       "entity_type": "duration_or_notice_period",
       "raw_text": "30 calendar days",
-      "normalized_value": null,
-      "source_location": {
-        "doc_id": "FIN-002",
-        "kind": "paragraph",
-        "locator": "paragraph:21",
-        "excerpt": "Standard credit period: 30 calendar days from invoice date."
-      }
-    },
-    {
-      "entity_type": "clause_term:confidentiality",
-      "raw_text": "nda",
       "normalized_value": null,
       "source_location": {
         "doc_id": "FIN-002",

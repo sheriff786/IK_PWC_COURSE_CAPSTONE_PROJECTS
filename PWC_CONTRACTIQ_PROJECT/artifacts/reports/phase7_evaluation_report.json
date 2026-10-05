@@ -1,0 +1,60 @@
+{
+  "parse_success": {
+    "metric": "parse_success_rate",
+    "parsed": 36,
+    "total": 36,
+    "rate": 1.0
+  },
+  "entity_accuracy": {
+    "metric": "entity_accuracy",
+    "reviewed": 20,
+    "total": 20,
+    "correct": 20,
+    "rate": 1.0
+  },
+  "retrieval_relevance": {
+    "metric": "retrieval_relevance",
+    "evaluated": 14,
+    "top_k": 5,
+    "rate": 1.0
+  },
+  "citation_validity_and_finding_support": {
+    "metric": "citation_validity_and_finding_support",
+    "documents": 15,
+    "total_findings": 129,
+    "verified": 121,
+    "failed_verification": 8,
+    "unverified": 0,
+    "citation_validity_rate": 0.938
+  },
+  "partial_run_frequency": {
+    "metric": "partial_run_frequency",
+    "total_runs": 45,
+    "partial_runs": 0,
+    "rate": 0.0
+  },
+  "schema_failure_rate": {
+    "metric": "schema_failure_rate",
+    "total_calls": 0,
+    "schema_failures": 0,
+    "rate": null,
+    "note": "no LLM calls logged yet \u2014 run specialists/embeddings at least once"
+  },
+  "api_call_failure_rate": {
+    "metric": "api_call_failure_rate",
+    "total_calls": 0,
+    "api_failures": 0,
+    "rate": null,
+    "note": "no LLM calls logged yet"
+  },
+  "cost_and_latency_by_stage": {
+    "metric": "cost_and_latency_by_stage",
+    "stages": {},
+    "note": "no LLM calls logged yet"
+  },
+  "important_missed_risk_rate": {
+    "metric": "important_missed_risk_rate",
+    "rate": null,
+    "note": "Not independently measurable without a hand-reviewed expected-risk checklist per document (not yet built for Legal/Financial/Operational the way Phase 3 built one for retrieval). One concretely documented gap exists: Phase 3's confidentiality-definition retrieval miss would propagate to the Legal agent for any topic relying on that chunk."
+  }
+}

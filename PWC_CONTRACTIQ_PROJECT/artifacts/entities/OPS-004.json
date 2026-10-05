@@ -25,17 +25,6 @@
       }
     },
     {
-      "entity_type": "clause_term:confidentiality",
-      "raw_text": "nda",
-      "normalized_value": null,
-      "source_location": {
-        "doc_id": "OPS-004",
-        "kind": "paragraph",
-        "locator": "paragraph:4",
-        "excerpt": "This Quarterly Service Report outlines the operational services delivered by Primevolta Hardware Solutions to FinSecure Services during Q4 2025. The report provides a comprehensive overview of hardware performance, service delivery, incident resolution, preventive maintenance, and recommendations for infrastructure improvement."
-      }
-    },
-    {
       "entity_type": "percentage",
       "raw_text": "99.1%",
       "normalized_value": null,
@@ -58,39 +47,6 @@
       }
     },
     {
-      "entity_type": "clause_term:confidentiality",
-      "raw_text": "nda",
-      "normalized_value": null,
-      "source_location": {
-        "doc_id": "OPS-004",
-        "kind": "paragraph",
-        "locator": "paragraph:10",
-        "excerpt": "This report provides detailed insights into operational efficiency, SLA compliance, and recommendations for future infrastructure enhancements."
-      }
-    },
-    {
-      "entity_type": "clause_term:confidentiality",
-      "raw_text": "nda",
-      "normalized_value": null,
-      "source_location": {
-        "doc_id": "OPS-004",
-        "kind": "paragraph",
-        "locator": "paragraph:25",
-        "excerpt": "Recommendations for system optimization and lifecycle management."
-      }
-    },
-    {
-      "entity_type": "clause_term:sla_terms",
-      "raw_text": "performance metric",
-      "normalized_value": null,
-      "source_location": {
-        "doc_id": "OPS-004",
-        "kind": "paragraph",
-        "locator": "paragraph:27",
-        "excerpt": "3. Quarterly Performance Metrics"
-      }
-    },
-    {
       "entity_type": "percentage",
       "raw_text": "15%",
       "normalized_value": null,
@@ -110,39 +66,6 @@
         "kind": "paragraph",
         "locator": "paragraph:47",
         "excerpt": "Analysis: Critical incidents remained within SLA limits. Preventive measures reduced repeat issues by 22% compared to Q3."
-      }
-    },
-    {
-      "entity_type": "clause_term:confidentiality",
-      "raw_text": "nda",
-      "normalized_value": null,
-      "source_location": {
-        "doc_id": "OPS-004",
-        "kind": "paragraph",
-        "locator": "paragraph:49",
-        "excerpt": "6. Observations & Recommendations"
-      }
-    },
-    {
-      "entity_type": "clause_term:confidentiality",
-      "raw_text": "nda",
-      "normalized_value": null,
-      "source_location": {
-        "doc_id": "OPS-004",
-        "kind": "paragraph",
-        "locator": "paragraph:54",
-        "excerpt": "6.2 Recommendations"
-      }
-    },
-    {
-      "entity_type": "clause_term:confidentiality",
-      "raw_text": "nda",
-      "normalized_value": null,
-      "source_location": {
-        "doc_id": "OPS-004",
-        "kind": "paragraph",
-        "locator": "paragraph:63",
-        "excerpt": "Upgrade UPS systems and improve redundancy in critical power circuits."
       }
     },
     {

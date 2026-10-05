@@ -17,6 +17,8 @@ from __future__ import annotations
 import hashlib
 import json
 import re
+import time
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Callable, Dict, List, Optional
 
@@ -176,13 +178,41 @@ def compare_chunk_configs(manifest: List[DocumentRecord],
 # Embeddings — traced so cost/latency is attributed, not a black box
 # ---------------------------------------------------------------------------
 
+_LLM_CALL_LOG = REPORTS_ROOT / "phase7_llm_calls.jsonl"
+
+
+def _log_llm_call(stage: str, model: str, latency_ms: float,
+                   usage: Optional[Dict[str, int]], error: Optional[str] = None) -> None:
+    record = {
+        "timestamp": datetime.now(timezone.utc).isoformat(),
+        "stage": stage,
+        "model": model,
+        "latency_ms": round(latency_ms, 1),
+        "prompt_tokens": (usage or {}).get("prompt_tokens"),
+        "completion_tokens": (usage or {}).get("completion_tokens"),
+        "total_tokens": (usage or {}).get("total_tokens"),
+        "schema_failure": False,
+        "error": error,
+    }
+    with open(_LLM_CALL_LOG, "a", encoding="utf-8") as f:
+        f.write(json.dumps(record) + "\n")
+
+
 @observe(name="embed_texts")
 def embed_texts(texts: List[str], batch_size: int = 100) -> List[List[float]]:
     client = _get_openai_client()
     embeddings: List[List[float]] = []
     for i in range(0, len(texts), batch_size):
         batch = texts[i:i + batch_size]
-        response = client.embeddings.create(model=EMBEDDING_MODEL, input=batch)
+        t0 = time.perf_counter()
+        try:
+            response = client.embeddings.create(model=EMBEDDING_MODEL, input=batch)
+        except Exception as exc:
+            _log_llm_call("embedding", EMBEDDING_MODEL, (time.perf_counter() - t0) * 1000, None,
+                          error=f"{type(exc).__name__}: {exc}")
+            raise
+        usage = response.usage.model_dump() if response.usage else None
+        _log_llm_call("embedding", EMBEDDING_MODEL, (time.perf_counter() - t0) * 1000, usage)
         embeddings.extend([d.embedding for d in response.data])
     return embeddings
 

@@ -92,17 +92,6 @@
     },
     {
       "entity_type": "clause_term:confidentiality",
-      "raw_text": "nda",
-      "normalized_value": null,
-      "source_location": {
-        "doc_id": "MLA-003",
-        "kind": "paragraph",
-        "locator": "paragraph:11",
-        "excerpt": "The Receiving Party shall maintain the strictest levels of confidentiality in handling, accessing, storing, processing, transferring, and destroying Confidential Information received from the Disclosing Party. The Receiving Party shall use such information solely for evaluating or executing the commercial and technical engagements contemplated between the Parties and not for any personal, competitive, or unauthorized purpose. The Receiving Party shall ensure that Confidential Information is protected at all times with the same degree of care it uses to protect its own sensitive information, and in no event shall such protection fall below commercially reasonable and industry-standard practices expected within the BFSI technology environment."
-      }
-    },
-    {
-      "entity_type": "clause_term:confidentiality",
       "raw_text": "confidential information",
       "normalized_value": null,
       "source_location": {
@@ -115,17 +104,6 @@
     {
       "entity_type": "clause_term:confidentiality",
       "raw_text": "confidential information",
-      "normalized_value": null,
-      "source_location": {
-        "doc_id": "MLA-003",
-        "kind": "paragraph",
-        "locator": "paragraph:15",
-        "excerpt": "The terms of this Agreement shall not apply to information that the Receiving Party can conclusively demonstrate through credible documentation to fall within any of the following categories: information that has become publicly known through no breach, misconduct, or negligence on the part of the Receiving Party; information already known to the Receiving Party prior to its disclosure by the Disclosing Party, provided such prior knowledge can be substantiated through written records; information independently developed by the Receiving Party without use of or reference to the Disclosing Party\u2019s Confidential Information; information lawfully obtained from a third party who is not under any confidentiality obligation with the Disclosing Party; and information required to be disclosed under statutory, regulatory, judicial, or governmental order. In cases where disclosure is mandated by law, the Receiving Party shall provide prompt notice to the Disclosing Party to allow it an opportunity to seek protective measures, unless legally prohibited from doing so."
-      }
-    },
-    {
-      "entity_type": "clause_term:confidentiality",
-      "raw_text": "nda",
       "normalized_value": null,
       "source_location": {
         "doc_id": "MLA-003",
@@ -159,17 +137,6 @@
     {
       "entity_type": "clause_term:confidentiality",
       "raw_text": "confidential information",
-      "normalized_value": null,
-      "source_location": {
-        "doc_id": "MLA-003",
-        "kind": "paragraph",
-        "locator": "paragraph:24",
-        "excerpt": "This Agreement shall become effective on the date of execution and shall remain in force until terminated by either Party through written notice. Notwithstanding termination, the confidentiality obligations set forth herein shall survive for a period of five (5) years from the date of termination or from the last disclosure of Confidential Information, whichever occurs later. The Parties acknowledge that certain categories of intellectual property, firmware, security architectures, and technical schematics may possess long-term strategic value, and therefore the Receiving Party\u2019s obligation to protect such information shall remain enforceable beyond the standard survival period where applicable by law or mutual agreement."
-      }
-    },
-    {
-      "entity_type": "clause_term:confidentiality",
-      "raw_text": "nda",
       "normalized_value": null,
       "source_location": {
         "doc_id": "MLA-003",

@@ -3,17 +3,6 @@
   "status": "extracted",
   "entities": [
     {
-      "entity_type": "clause_term:confidentiality",
-      "raw_text": "nda",
-      "normalized_value": null,
-      "source_location": {
-        "doc_id": "TXN-002",
-        "kind": "paragraph",
-        "locator": "paragraph:6",
-        "excerpt": "1.2 The Original Agreement governs the supply of Embedded Processor Boards, Secure Communication Modules, and Cryptographic Controllers. This Renewal ensures continued supply, updated specifications, pricing, quality standards, and risk management measures for an additional two-year period."
-      }
-    },
-    {
       "entity_type": "percentage",
       "raw_text": "20%",
       "normalized_value": null,
@@ -36,17 +25,6 @@
       }
     },
     {
-      "entity_type": "clause_term:confidentiality",
-      "raw_text": "nda",
-      "normalized_value": null,
-      "source_location": {
-        "doc_id": "TXN-002",
-        "kind": "paragraph",
-        "locator": "paragraph:12",
-        "excerpt": "2.3 Vendor shall ensure that all units comply with applicable standards:"
-      }
-    },
-    {
       "entity_type": "duration_or_notice_period",
       "raw_text": "15 days",
       "normalized_value": null,
@@ -60,17 +38,6 @@
     {
       "entity_type": "duration_or_notice_period",
       "raw_text": "21 days",
-      "normalized_value": null,
-      "source_location": {
-        "doc_id": "TXN-002",
-        "kind": "paragraph",
-        "locator": "paragraph:23",
-        "excerpt": "Standard Units: 21 days from order confirmation"
-      }
-    },
-    {
-      "entity_type": "clause_term:confidentiality",
-      "raw_text": "nda",
       "normalized_value": null,
       "source_location": {
         "doc_id": "TXN-002",
@@ -198,17 +165,6 @@
         "kind": "paragraph",
         "locator": "paragraph:78",
         "excerpt": "9.3 All confidential information, including designs, specifications, and batch reports, shall remain confidential per MSA terms."
-      }
-    },
-    {
-      "entity_type": "clause_term:sla_terms",
-      "raw_text": "service level agreement",
-      "normalized_value": null,
-      "source_location": {
-        "doc_id": "TXN-002",
-        "kind": "paragraph",
-        "locator": "paragraph:80",
-        "excerpt": "10. Performance & Service Level Agreements (SLA)"
       }
     },
     {

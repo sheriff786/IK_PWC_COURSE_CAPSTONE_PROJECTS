@@ -3,28 +3,6 @@
   "status": "extracted",
   "entities": [
     {
-      "entity_type": "clause_term:confidentiality",
-      "raw_text": "nda",
-      "normalized_value": null,
-      "source_location": {
-        "doc_id": "TXN-003",
-        "kind": "paragraph",
-        "locator": "paragraph:26",
-        "excerpt": "3.1.2 All manufacturing activities shall comply with ISO 9001:2015, ISO 14001:2015, and ISO 27001:2022 standards. Vendor shall maintain production logs, batch traceability, and serial numbering for each unit."
-      }
-    },
-    {
-      "entity_type": "clause_term:confidentiality",
-      "raw_text": "nda",
-      "normalized_value": null,
-      "source_location": {
-        "doc_id": "TXN-003",
-        "kind": "paragraph",
-        "locator": "paragraph:37",
-        "excerpt": "3.2.2 Vendor shall coordinate installation schedules with Client to minimize branch operational disruption. Installation shall adhere to local electrical safety standards, National Electrical Code, and EMI/EMC compliance."
-      }
-    },
-    {
       "entity_type": "clause_term:sla_terms",
       "raw_text": "response time",
       "normalized_value": null,

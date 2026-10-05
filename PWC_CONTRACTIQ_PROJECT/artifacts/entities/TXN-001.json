@@ -3,28 +3,6 @@
   "status": "extracted",
   "entities": [
     {
-      "entity_type": "clause_term:sla_terms",
-      "raw_text": "response time",
-      "normalized_value": null,
-      "source_location": {
-        "doc_id": "TXN-001",
-        "kind": "paragraph",
-        "locator": "paragraph:27",
-        "excerpt": "Quarterly Service Level Reports (SLR) detailing incidents, response times, and resolutions"
-      }
-    },
-    {
-      "entity_type": "clause_term:confidentiality",
-      "raw_text": "nda",
-      "normalized_value": null,
-      "source_location": {
-        "doc_id": "TXN-001",
-        "kind": "paragraph",
-        "locator": "paragraph:28",
-        "excerpt": "Recommendations for optimization or hardware lifecycle management"
-      }
-    },
-    {
       "entity_type": "percentage",
       "raw_text": "30%",
       "normalized_value": null,
@@ -77,17 +55,6 @@
         "kind": "paragraph",
         "locator": "paragraph:36",
         "excerpt": "3.3 All payments are exclusive of applicable taxes. Any delay in payments exceeding 15 days may result in suspension of non-critical maintenance services until payment is received."
-      }
-    },
-    {
-      "entity_type": "clause_term:sla_terms",
-      "raw_text": "service level agreement",
-      "normalized_value": null,
-      "source_location": {
-        "doc_id": "TXN-001",
-        "kind": "paragraph",
-        "locator": "paragraph:38",
-        "excerpt": "4. Service Level Agreements (SLA)"
       }
     },
     {

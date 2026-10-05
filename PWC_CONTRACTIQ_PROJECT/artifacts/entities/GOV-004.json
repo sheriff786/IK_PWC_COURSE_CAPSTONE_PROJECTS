@@ -36,30 +36,8 @@
       }
     },
     {
-      "entity_type": "clause_term:sla_terms",
-      "raw_text": "resolution time",
-      "normalized_value": null,
-      "source_location": {
-        "doc_id": "GOV-004",
-        "kind": "paragraph",
-        "locator": "paragraph:6",
-        "excerpt": "Dispute resolution timelines have improved over the last contract term but require further reduction to minimize operational and financial risk."
-      }
-    },
-    {
       "entity_type": "percentage",
       "raw_text": "90%",
-      "normalized_value": null,
-      "source_location": {
-        "doc_id": "GOV-004",
-        "kind": "paragraph",
-        "locator": "paragraph:13",
-        "excerpt": "Client satisfaction scores indicate high approval (>90%) for support response times, but a few complaints were raised regarding delayed escalation resolution."
-      }
-    },
-    {
-      "entity_type": "clause_term:sla_terms",
-      "raw_text": "response time",
       "normalized_value": null,
       "source_location": {
         "doc_id": "GOV-004",
@@ -77,17 +55,6 @@
         "kind": "paragraph",
         "locator": "paragraph:16",
         "excerpt": "Average resolution time for invoice disputes: 12 business days."
-      }
-    },
-    {
-      "entity_type": "clause_term:confidentiality",
-      "raw_text": "nda",
-      "normalized_value": null,
-      "source_location": {
-        "doc_id": "GOV-004",
-        "kind": "paragraph",
-        "locator": "paragraph:20",
-        "excerpt": "Disputes have highlighted the need for tighter documentation standards, including obligation register integration and audit-ready reporting."
       }
     },
     {
@@ -110,28 +77,6 @@
         "kind": "paragraph",
         "locator": "paragraph:24",
         "excerpt": "Reduce delivery SLA breach tolerance from 5% to 2% for critical hardware components."
-      }
-    },
-    {
-      "entity_type": "clause_term:confidentiality",
-      "raw_text": "nda",
-      "normalized_value": null,
-      "source_location": {
-        "doc_id": "GOV-004",
-        "kind": "paragraph",
-        "locator": "paragraph:28",
-        "excerpt": "Mandatory cross-verification of invoices against the obligation register before submission to Client Finance team."
-      }
-    },
-    {
-      "entity_type": "clause_term:confidentiality",
-      "raw_text": "nda",
-      "normalized_value": null,
-      "source_location": {
-        "doc_id": "GOV-004",
-        "kind": "paragraph",
-        "locator": "paragraph:32",
-        "excerpt": "Standardize invoice templates to include obligation IDs, delivery confirmations, and SLA references."
       }
     },
     {

@@ -59,17 +59,6 @@
     },
     {
       "entity_type": "clause_term:confidentiality",
-      "raw_text": "nda",
-      "normalized_value": null,
-      "source_location": {
-        "doc_id": "MLA-004",
-        "kind": "paragraph",
-        "locator": "paragraph:4",
-        "excerpt": "This Non-Disclosure Agreement (\u201cAgreement\u201d) is executed between PrimeVolta Hardware Solutions (\u201cParty A\u201d) and FinSecure Services (\u201cParty B\u201d) for the purpose of establishing a secure, confidential, and legally enforceable framework governing the mutual exchange of sensitive information required for hardware development, technical evaluation, financial planning, integration scoping, operational workflow mapping, and other BFSI-related business collaborations. The Parties recognize that discussions between a hardware engineering manufacturer and a BFSI-grade financial services organization necessarily involve the transfer of highly sensitive materials including proprietary designs, authentication mechanisms, operational process maps, and regulatory data. The Parties therefore agree that the protection of such information is essential to safeguarding competitive advantage, preserving intellectual assets, maintaining regulatory trust, and ensuring that no unauthorized party gains insight into internal technological or business methods. This Agreement defines the obligations and responsibilities of each Party in receiving, handling, storing, transmitting, and ultimately returning or destroying Confidential Information in a manner that meets the security expectations of both organizations and complies with BFSI industry standards."
-      }
-    },
-    {
-      "entity_type": "clause_term:confidentiality",
       "raw_text": "confidential information",
       "normalized_value": null,
       "source_location": {
@@ -104,17 +93,6 @@
     {
       "entity_type": "clause_term:confidentiality",
       "raw_text": "confidential information",
-      "normalized_value": null,
-      "source_location": {
-        "doc_id": "MLA-004",
-        "kind": "paragraph",
-        "locator": "paragraph:11",
-        "excerpt": "Each Party, as a Receiving Party, undertakes a binding obligation to maintain all Confidential Information in strict confidence, employing robust protection mechanisms consistent with best practices used to safeguard its own confidential assets. The Receiving Party shall not disclose, disseminate, alter, replicate, modify, or utilize any Confidential Information except for the express business purpose for which the Disclosing Party has provided such information. The Receiving Party agrees that Confidential Information will be accessed only by individuals within its organization who possess an explicit, legitimate need to use the information for tasks directly connected to the collaboration. The Receiving Party shall ensure that such individuals are contractually bound to confidentiality standards equal to or more stringent than those articulated herein."
-      }
-    },
-    {
-      "entity_type": "clause_term:confidentiality",
-      "raw_text": "nda",
       "normalized_value": null,
       "source_location": {
         "doc_id": "MLA-004",
@@ -213,40 +191,7 @@
     },
     {
       "entity_type": "clause_term:confidentiality",
-      "raw_text": "nda",
-      "normalized_value": null,
-      "source_location": {
-        "doc_id": "MLA-004",
-        "kind": "paragraph",
-        "locator": "paragraph:25",
-        "excerpt": "Upon the conclusion of discussions, completion of the project scope, expiration or termination of the business relationship, or upon written request by the Disclosing Party, the Receiving Party shall promptly return or permanently destroy all Confidential Information provided, including its duplicates, extracts, translations, analyses, and derivatives. The Receiving Party shall return hardware units, engineering prototypes, testing boards, embedded modules, and any physical samples in pristine and original condition without unauthorized alterations or modifications. If destruction is required, it shall be conducted using secure methods such as cryptographic wiping for digital files, shredding for physical documents, and certified disposal for hardware if agreed in writing. The Receiving Party shall provide a written certificate confirming that all Confidential Information has been securely returned or destroyed, and that no copies have been retained in any form, unless retention is mandated by law."
-      }
-    },
-    {
-      "entity_type": "clause_term:confidentiality",
       "raw_text": "confidential information",
-      "normalized_value": null,
-      "source_location": {
-        "doc_id": "MLA-004",
-        "kind": "paragraph",
-        "locator": "paragraph:28",
-        "excerpt": "This Agreement becomes effective from the date of execution and shall remain in force for the entire duration of commercial discussions or projects executed between the Parties. The confidentiality obligations contained herein shall survive termination and shall continue to bind both Parties for a period of five (5) years from the date of termination or final disclosure, whichever is later. For specific categories of Confidential Information that involve trade secrets, proprietary algorithms, intellectual property elements, or information subject to regulatory confidentiality mandates, the obligations shall survive indefinitely for as long as such information continues to hold its proprietary or protected status."
-      }
-    },
-    {
-      "entity_type": "clause_term:confidentiality",
-      "raw_text": "nda",
-      "normalized_value": null,
-      "source_location": {
-        "doc_id": "MLA-004",
-        "kind": "paragraph",
-        "locator": "paragraph:28",
-        "excerpt": "This Agreement becomes effective from the date of execution and shall remain in force for the entire duration of commercial discussions or projects executed between the Parties. The confidentiality obligations contained herein shall survive termination and shall continue to bind both Parties for a period of five (5) years from the date of termination or final disclosure, whichever is later. For specific categories of Confidential Information that involve trade secrets, proprietary algorithms, intellectual property elements, or information subject to regulatory confidentiality mandates, the obligations shall survive indefinitely for as long as such information continues to hold its proprietary or protected status."
-      }
-    },
-    {
-      "entity_type": "clause_term:confidentiality",
-      "raw_text": "trade secret",
       "normalized_value": null,
       "source_location": {
         "doc_id": "MLA-004",

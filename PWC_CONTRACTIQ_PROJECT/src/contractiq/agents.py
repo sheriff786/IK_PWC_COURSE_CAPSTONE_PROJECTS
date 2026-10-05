@@ -20,7 +20,9 @@ capped, never silently kept as if it were trustworthy.
 from __future__ import annotations
 
 import json
+import time
 import uuid
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
@@ -32,12 +34,13 @@ from .models import DimensionResult, Finding, RiskDimension, Severity, Verificat
 from .retrieval import search
 
 try:
-    from langfuse.decorators import observe
+    from langfuse.decorators import observe, langfuse_context
 except ImportError:  # Langfuse not configured — tracing becomes a no-op, not a crash
     def observe(*_args, **_kwargs):
         def decorator(fn):
             return fn
         return decorator
+    langfuse_context = None
 
 
 _openai_client: Optional[OpenAI] = None
@@ -48,6 +51,33 @@ def _get_openai_client() -> OpenAI:
     if _openai_client is None:
         _openai_client = OpenAI(api_key=OPENAI_API_KEY)
     return _openai_client
+
+
+# ---------------------------------------------------------------------------
+# Phase 7 instrumentation — real per-call latency/token/schema-failure data,
+# appended as it happens (not estimated after the fact). evaluation.py reads
+# this file back to compute cost/latency/schema-failure metrics.
+# ---------------------------------------------------------------------------
+
+_LLM_CALL_LOG = REPORTS_ROOT / "phase7_llm_calls.jsonl"
+
+
+def _log_llm_call(stage: str, model: str, latency_ms: float,
+                   usage: Optional[Dict[str, int]], schema_failure: bool,
+                   error: Optional[str] = None) -> None:
+    record = {
+        "timestamp": datetime.now(timezone.utc).isoformat(),
+        "stage": stage,
+        "model": model,
+        "latency_ms": round(latency_ms, 1),
+        "prompt_tokens": (usage or {}).get("prompt_tokens"),
+        "completion_tokens": (usage or {}).get("completion_tokens"),
+        "total_tokens": (usage or {}).get("total_tokens"),
+        "schema_failure": schema_failure,
+        "error": error,  # API/network/billing error message, distinct from a schema failure
+    }
+    with open(_LLM_CALL_LOG, "a", encoding="utf-8") as f:
+        f.write(json.dumps(record) + "\n")
 
 
 # ---------------------------------------------------------------------------
@@ -177,16 +207,26 @@ def _analyze_topic(doc_id: str, topic_key: str, question: str, dimension: RiskDi
     user_prompt = f"Topic: {topic_key}\nQuestion: {question}\n\nEvidence:\n{evidence_block}"
 
     client = _get_openai_client()
-    completion = client.beta.chat.completions.parse(
-        model=model,
-        messages=[
-            {"role": "system", "content": _system_prompt(dimension)},
-            {"role": "user", "content": user_prompt},
-        ],
-        response_format=_LLMTopicResponse,
-        temperature=0,
-    )
+    stage = f"{dimension.value}_specialist"
+    t0 = time.perf_counter()
+    try:
+        completion = client.beta.chat.completions.parse(
+            model=model,
+            messages=[
+                {"role": "system", "content": _system_prompt(dimension)},
+                {"role": "user", "content": user_prompt},
+            ],
+            response_format=_LLMTopicResponse,
+            temperature=0,
+        )
+    except Exception as exc:
+        _log_llm_call(stage, model, (time.perf_counter() - t0) * 1000, None,
+                      schema_failure=False, error=f"{type(exc).__name__}: {exc}")
+        raise
+
+    usage = completion.usage.model_dump() if completion.usage else None
     parsed = completion.choices[0].message.parsed
+    _log_llm_call(stage, model, (time.perf_counter() - t0) * 1000, usage, schema_failure=parsed is None)
     if parsed is None or not parsed.addressed or parsed.finding is None:
         return None
 
@@ -231,6 +271,20 @@ def _verify_and_build_finding(topic_key: str, raw: Dict[str, Any], dimension: Ri
         else:
             status = VerificationStatus.FAILED_VERIFICATION
             confidence = min(confidence, 0.3)  # a failed quote can't support high confidence
+
+    # Phase 7, roadmap item 5: score tied to the independently-computed
+    # verification outcome, not the model's own confidence — this is the
+    # closest proxy available to a human reviewer's citation-validity
+    # judgment without a live person in the loop.
+    if langfuse_context is not None:
+        try:
+            langfuse_context.score_current_observation(
+                name="citation_validity",
+                value=1.0 if status == VerificationStatus.VERIFIED else 0.0,
+                comment=f"verification_status={status.value}",
+            )
+        except Exception:  # noqa: BLE001 - scoring must never break finding creation
+            pass
 
     return Finding(
         finding_id=f"{dimension.value}-{topic_key}-{uuid.uuid4().hex[:8]}",

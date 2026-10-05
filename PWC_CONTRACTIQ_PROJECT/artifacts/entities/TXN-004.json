@@ -3,17 +3,6 @@
   "status": "extracted",
   "entities": [
     {
-      "entity_type": "clause_term:confidentiality",
-      "raw_text": "nda",
-      "normalized_value": null,
-      "source_location": {
-        "doc_id": "TXN-004",
-        "kind": "paragraph",
-        "locator": "paragraph:6",
-        "excerpt": "1.2 The purpose of this SOW is to define the detailed scope, technical specifications, deliverables, timelines, quality standards, acceptance criteria, training, warranties, and risk mitigation measures for the design, manufacture, supply, integration, and maintenance of Secure Hardware Authentication Terminals (HAT-900 Series) for FinSecure Services\u2019 branch offices and corporate operations."
-      }
-    },
-    {
       "entity_type": "duration_or_notice_period",
       "raw_text": "5 years",
       "normalized_value": null,
@@ -22,17 +11,6 @@
         "kind": "paragraph",
         "locator": "paragraph:27",
         "excerpt": "Endurance rating: \u22655 years with EEPROM write cycles \u2265100,000"
-      }
-    },
-    {
-      "entity_type": "clause_term:confidentiality",
-      "raw_text": "nda",
-      "normalized_value": null,
-      "source_location": {
-        "doc_id": "TXN-004",
-        "kind": "paragraph",
-        "locator": "paragraph:31",
-        "excerpt": "IEC 61000-4-2/4-4/4-5 (EMI/EMC Standards)"
       }
     },
     {

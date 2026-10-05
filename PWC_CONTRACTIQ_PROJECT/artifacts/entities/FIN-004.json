@@ -3,7 +3,7 @@
   "status": "extracted",
   "entities": [
     {
-      "entity_type": "money:invoice_amount",
+      "entity_type": "money:unclassified",
       "raw_text": "INR 3,300,000",
       "normalized_value": null,
       "source_location": {
@@ -14,7 +14,7 @@
       }
     },
     {
-      "entity_type": "money:invoice_amount",
+      "entity_type": "money:unclassified",
       "raw_text": "INR 594,000",
       "normalized_value": null,
       "source_location": {
@@ -49,17 +49,6 @@
     {
       "entity_type": "duration_or_notice_period",
       "raw_text": "15 calendar days",
-      "normalized_value": null,
-      "source_location": {
-        "doc_id": "FIN-004",
-        "kind": "paragraph",
-        "locator": "paragraph:9",
-        "excerpt": "Payment due within 15 calendar days of invoice date."
-      }
-    },
-    {
-      "entity_type": "clause_term:confidentiality",
-      "raw_text": "nda",
       "normalized_value": null,
       "source_location": {
         "doc_id": "FIN-004",

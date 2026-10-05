@@ -92,19 +92,38 @@ _RISK_INDICATORS: Dict[str, List[str]] = {
 }
 
 
-def _find_context_type(text: str, context_map: Dict[str, List[str]], window: str) -> str:
+def _find_context_type(window: str, context_map: Dict[str, List[str]]) -> str:
     """Returns the matching semantic type if a context keyword appears in
-    `window` (usually the clause text itself, plus its heading), else
-    'unclassified' — never a guess."""
+    `window` (a LOCAL slice around the specific match, not the whole
+    clause — a clause listing Subtotal/GST/Total must not let the word
+    'Invoice' elsewhere in it relabel the GST line as invoice_amount),
+    else 'unclassified' — never a guess. Word-boundary regex, not plain
+    substring containment, so e.g. 'date' context keywords can't misfire
+    on an unrelated word that merely contains the same letters."""
     lowered = window.lower()
     for semantic_type, keywords in context_map.items():
-        if any(kw in lowered for kw in keywords):
-            return semantic_type
-    text_lower = text.lower()
-    for semantic_type, keywords in context_map.items():
-        if any(kw in text_lower for kw in keywords):
+        if any(re.search(rf"\b{re.escape(kw)}\b", lowered) for kw in keywords):
             return semantic_type
     return "unclassified"
+
+
+def _local_window(text: str, start: int, end: int, radius: int = 60) -> str:
+    """Prefers the single LINE containing the match (clauses that list
+    Subtotal/GST/Total as separate '\\n'-joined lines inside one clause
+    must not let 'Invoice' on the Total line relabel the GST line a few
+    characters away — a blind character radius isn't tight enough for
+    adjacent short lines). Falls back to a character radius for prose
+    clauses with no nearby newline, so a single-sentence clause still gets
+    reasonable surrounding context."""
+    line_start = text.rfind("\n", 0, start) + 1  # 0 if no newline before start
+    newline_after = text.find("\n", end)
+    line_end = newline_after if newline_after != -1 else len(text)
+    line = text[line_start:line_end]
+    if line_start == 0 and line_end == len(text):
+        # no newlines at all in this clause — a single flowing line of text,
+        # so a character radius is the only option.
+        return text[max(0, start - radius):min(len(text), end + radius)]
+    return line
 
 
 def extract_entities_from_clause(clause: Dict[str, Any]) -> List[Entity]:
@@ -112,17 +131,18 @@ def extract_entities_from_clause(clause: Dict[str, Any]) -> List[Entity]:
     every one linked back to that clause's exact SourceLocation."""
     text = clause["text"]
     heading = clause.get("heading") or ""
-    context_window = f"{heading} {text}"
     loc = SourceLocation(**clause["source_location"])
     entities: List[Entity] = []
 
     for match in _DATE_PATTERN.finditer(text):
-        entity_type = f"date:{_find_context_type(text, _DATE_CONTEXT, context_window)}"
+        window = f"{heading} {_local_window(text, match.start(), match.end())}"
+        entity_type = f"date:{_find_context_type(window, _DATE_CONTEXT)}"
         entities.append(Entity(entity_type=entity_type, raw_text=match.group(0),
                                 normalized_value=None, source_location=loc))
 
     for match in _MONEY_PATTERN.finditer(text):
-        entity_type = f"money:{_find_context_type(text, _MONEY_CONTEXT, context_window)}"
+        window = f"{heading} {_local_window(text, match.start(), match.end())}"
+        entity_type = f"money:{_find_context_type(window, _MONEY_CONTEXT)}"
         entities.append(Entity(entity_type=entity_type, raw_text=match.group(0),
                                 normalized_value=None, source_location=loc))
 
@@ -137,13 +157,13 @@ def extract_entities_from_clause(clause: Dict[str, Any]) -> List[Entity]:
     lowered = text.lower()
     for term_type, keywords in _CLAUSE_TERM_KEYWORDS.items():
         for kw in keywords:
-            if kw in lowered:
+            if re.search(rf"\b{re.escape(kw)}\b", lowered):
                 entities.append(Entity(entity_type=f"clause_term:{term_type}", raw_text=kw,
                                         normalized_value=None, source_location=loc))
 
     for level, phrases in _RISK_INDICATORS.items():
         for phrase in phrases:
-            if phrase in lowered:
+            if re.search(rf"\b{re.escape(phrase)}\b", lowered):
                 entities.append(Entity(entity_type=f"risk_indicator:{level}", raw_text=phrase,
                                         normalized_value=None, source_location=loc))
 

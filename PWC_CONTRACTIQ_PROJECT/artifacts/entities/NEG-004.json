@@ -14,28 +14,6 @@
       }
     },
     {
-      "entity_type": "clause_term:confidentiality",
-      "raw_text": "nda",
-      "normalized_value": null,
-      "source_location": {
-        "doc_id": "NEG-004",
-        "kind": "paragraph",
-        "locator": "paragraph:8",
-        "excerpt": "Client requested explicit reference to compliance with PCI DSS standards."
-      }
-    },
-    {
-      "entity_type": "clause_term:confidentiality",
-      "raw_text": "nda",
-      "normalized_value": null,
-      "source_location": {
-        "doc_id": "NEG-004",
-        "kind": "paragraph",
-        "locator": "paragraph:9",
-        "excerpt": "Vendor suggested adding optional disaster recovery hardware, Client requested mandatory inclusion for critical sites."
-      }
-    },
-    {
       "entity_type": "duration_or_notice_period",
       "raw_text": "3 weeks",
       "normalized_value": null,
@@ -190,30 +168,8 @@
       }
     },
     {
-      "entity_type": "clause_term:liability_terms",
-      "raw_text": "liability cap",
-      "normalized_value": null,
-      "source_location": {
-        "doc_id": "NEG-004",
-        "kind": "paragraph",
-        "locator": "paragraph:52",
-        "excerpt": "8.1 Vendor shall indemnify Client for claims arising from hardware defects or gross negligence.\n8.2 Vendor\u2019s total liability capped at contract value; excludes indirect or consequential losses.\n8.3 Vendor responsible for data loss caused by Vendor\u2019s equipment malfunction; Client requested explicit inclusion of business interruption coverage."
-      }
-    },
-    {
       "entity_type": "clause_term:indemnification",
       "raw_text": "indemnify",
-      "normalized_value": null,
-      "source_location": {
-        "doc_id": "NEG-004",
-        "kind": "paragraph",
-        "locator": "paragraph:52",
-        "excerpt": "8.1 Vendor shall indemnify Client for claims arising from hardware defects or gross negligence.\n8.2 Vendor\u2019s total liability capped at contract value; excludes indirect or consequential losses.\n8.3 Vendor responsible for data loss caused by Vendor\u2019s equipment malfunction; Client requested explicit inclusion of business interruption coverage."
-      }
-    },
-    {
-      "entity_type": "risk_indicator:favorable",
-      "raw_text": "liability cap",
       "normalized_value": null,
       "source_location": {
         "doc_id": "NEG-004",

@@ -3,7 +3,7 @@
   "status": "extracted",
   "entities": [
     {
-      "entity_type": "money:invoice_amount",
+      "entity_type": "money:unclassified",
       "raw_text": "INR 2,000,000",
       "normalized_value": null,
       "source_location": {
@@ -14,7 +14,7 @@
       }
     },
     {
-      "entity_type": "money:invoice_amount",
+      "entity_type": "money:unclassified",
       "raw_text": "INR 360,000",
       "normalized_value": null,
       "source_location": {
@@ -58,17 +58,6 @@
       }
     },
     {
-      "entity_type": "clause_term:confidentiality",
-      "raw_text": "nda",
-      "normalized_value": null,
-      "source_location": {
-        "doc_id": "FIN-003",
-        "kind": "paragraph",
-        "locator": "paragraph:9",
-        "excerpt": "Payment due within 14 calendar days of invoice date."
-      }
-    },
-    {
       "entity_type": "percentage",
       "raw_text": "1.5%",
       "normalized_value": null,
@@ -88,17 +77,6 @@
         "kind": "paragraph",
         "locator": "paragraph:21",
         "excerpt": "All hardware carries manufacturer-backed warranty for 3 years from delivery date."
-      }
-    },
-    {
-      "entity_type": "clause_term:confidentiality",
-      "raw_text": "nda",
-      "normalized_value": null,
-      "source_location": {
-        "doc_id": "FIN-003",
-        "kind": "paragraph",
-        "locator": "paragraph:27",
-        "excerpt": "All supplied hardware is compliant with ISO/IEC 27001 security standards."
       }
     },
     {

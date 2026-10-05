@@ -3,17 +3,6 @@
   "status": "extracted",
   "entities": [
     {
-      "entity_type": "clause_term:confidentiality",
-      "raw_text": "nda",
-      "normalized_value": null,
-      "source_location": {
-        "doc_id": "COM-002",
-        "kind": "paragraph",
-        "locator": "paragraph:15",
-        "excerpt": "All products shall meet the specifications outlined in Annexure B, including performance standards, energy efficiency, and compliance with relevant security standards for the BFSI sector."
-      }
-    },
-    {
       "entity_type": "duration_or_notice_period",
       "raw_text": "120 days",
       "normalized_value": null,
