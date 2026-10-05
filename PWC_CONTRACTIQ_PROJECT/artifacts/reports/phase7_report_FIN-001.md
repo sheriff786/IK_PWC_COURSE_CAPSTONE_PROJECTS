@@ -1,14 +1,14 @@
 # ContractIQ Risk Report — FIN-001
 
 **Overall risk:** MEDIUM  
-**Assessment ID:** assessment-FIN-001-de01d392  
-**Run ID:** 4ab5437ecba9  
+**Assessment ID:** assessment-FIN-001-958dbb27  
+**Run ID:** 40493f46bc46  
 **Document version:** 1  
 **Model version:** gpt-4o-mini  
 **Prompt version:** phase5-specialist-prompts-v1  
 **Policy version:** risk-policy-v1  
-**Created at:** 2026-09-26T13:09:32.373271  
-**Report generated:** 2026-10-05T20:14:09.215827+00:00
+**Created at:** 2026-10-06T01:58:04.919566  
+**Report generated:** 2026-10-05T20:32:44.992691+00:00
 
 ## Specialist statuses
 - **financial**: OK, 3 finding(s), retry_count=0
@@ -16,8 +16,13 @@
 - **legal**: OK, 2 finding(s), retry_count=0
 
 ## Findings (by severity)
+- **[HIGH] Acceptance Criteria for Deliverables** (confidence=0.9)
+  - rationale: The acceptance criteria for deliverables are specified in the milestone billing section, which outlines the payment structure based on the successful installation and acceptance testing of hardware.
+  - evidence: `['FIN-001-c0']` — "30% advance upon PO acceptance
+40% upon delivery of hardware to site
+30% upon successful installation and acceptance testing"
 - **[MEDIUM] Payment Terms and Schedule** (confidence=0.9)
-  - rationale: The evidence provides specific details about the payment terms and schedule under the agreement, including due dates and conditions for late payments.
+  - rationale: The evidence clearly outlines the payment terms and schedule under the agreement, specifying due dates and conditions for payments.
   - evidence: `['FIN-001-c0']` — "Payment is due within 30 calendar days from the date of invoice receipt. Late payments will attract an interest of 1.5% per month on the outstanding amount."
 - **[MEDIUM] Late Payment Penalty Details** (confidence=0.9)
   - rationale: The evidence specifies the penalties for late payments, including the interest rate applicable to outstanding amounts.
@@ -28,13 +33,8 @@
 - **[MEDIUM] Scope of Work Defined** (confidence=0.9)
   - rationale: The evidence clearly outlines the scope of work under the agreement, specifying the types of hardware products to be supplied by the Vendor to the Client.
   - evidence: `['FIN-001-c0']` — "This Agreement covers all hardware products supplied by the Vendor to the Client, including but not limited to networking devices, servers, storage systems, and electronic peripherals."
-- **[MEDIUM] Acceptance Criteria for Deliverables** (confidence=0.9)
-  - rationale: The acceptance criteria for deliverables are specified in the milestone billing section, which outlines the payment structure based on the successful installation and acceptance testing of hardware.
-  - evidence: `['FIN-001-c0']` — "30% advance upon PO acceptance
-40% upon delivery of hardware to site
-30% upon successful installation and acceptance testing"
 - **[MEDIUM] Client Obligations for Vendor Performance** (confidence=0.9)
-  - rationale: The evidence outlines specific obligations of the Client that are essential for the Vendor's performance, particularly in relation to invoicing and payment processes.
+  - rationale: The evidence outlines specific obligations of the Client that the Vendor relies on for performance, particularly regarding timely processing of invoices and approval of payments.
   - evidence: `['FIN-001-c0']` — "5. Obligations of the Client
 Process invoices promptly to avoid delay in payments.
 Notify the Vendor of any discrepancies within 7 days of receiving an invoice.
@@ -50,4 +50,4 @@ Ensure authorized personnel approve mil..."
 _None reported._
 
 ## Recommendations (consensus actions)
-_None — no HIGH/CRITICAL findings to flag._
+- Review: [operational] Acceptance Criteria for Deliverables

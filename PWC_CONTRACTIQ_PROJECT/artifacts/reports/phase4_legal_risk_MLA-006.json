@@ -3,7 +3,7 @@
   "success": true,
   "findings": [
     {
-      "finding_id": "legal-confidentiality_survival-64c9459d",
+      "finding_id": "legal-confidentiality_survival-96655203",
       "dimension": "legal",
       "severity": "MEDIUM",
       "title": "Confidentiality Obligations Survival",

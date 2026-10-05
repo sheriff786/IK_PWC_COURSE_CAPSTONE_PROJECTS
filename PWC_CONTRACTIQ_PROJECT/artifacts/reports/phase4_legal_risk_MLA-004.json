@@ -3,7 +3,7 @@
   "success": true,
   "findings": [
     {
-      "finding_id": "legal-termination_for_cause-1f4488b6",
+      "finding_id": "legal-termination_for_cause-fb50b307",
       "dimension": "legal",
       "severity": "HIGH",
       "title": "Conditions for Termination for Cause",
@@ -19,7 +19,7 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "legal-confidentiality_survival-f07e45ef",
+      "finding_id": "legal-confidentiality_survival-6a1b14d4",
       "dimension": "legal",
       "severity": "MEDIUM",
       "title": "Confidentiality Obligations Survival Period",
@@ -35,7 +35,7 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "legal-ip_ownership-eb901c66",
+      "finding_id": "legal-ip_ownership-2f53a125",
       "dimension": "legal",
       "severity": "HIGH",
       "title": "Intellectual Property Ownership",
@@ -48,14 +48,14 @@
         "All intellectual property rights connected to the Confidential Information remain solely with the Disclosing Party."
       ],
       "verification_status": "verified",
-      "confidence": 0.95
+      "confidence": 0.9
     },
     {
-      "finding_id": "legal-governing_law_disputes-6a249736",
+      "finding_id": "legal-governing_law_disputes-c542b64e",
       "dimension": "legal",
       "severity": "HIGH",
       "title": "Governing Law and Dispute Resolution",
-      "rationale": "The contract specifies the governing law and the process for resolving disputes through arbitration.",
+      "rationale": "The evidence explicitly outlines the governing law and dispute resolution process, including arbitration.",
       "recommendation": null,
       "evidence_ids": [
         "MLA-004-c2"
@@ -67,7 +67,7 @@
       "confidence": 0.95
     },
     {
-      "finding_id": "legal-assignment_change_of_control-395636ed",
+      "finding_id": "legal-assignment_change_of_control-e496a219",
       "dimension": "legal",
       "severity": "MEDIUM",
       "title": "Assignment and Change of Control Restrictions",

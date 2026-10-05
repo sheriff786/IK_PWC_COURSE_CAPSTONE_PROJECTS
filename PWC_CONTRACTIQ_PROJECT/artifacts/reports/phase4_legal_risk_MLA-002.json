@@ -3,7 +3,7 @@
   "success": true,
   "findings": [
     {
-      "finding_id": "legal-liability_cap-198b7150",
+      "finding_id": "legal-liability_cap-47f8fd0d",
       "dimension": "legal",
       "severity": "MEDIUM",
       "title": "Liability Cap and Limitations",
@@ -19,7 +19,7 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "legal-indemnification-75ed3ec6",
+      "finding_id": "legal-indemnification-57e0a863",
       "dimension": "legal",
       "severity": "MEDIUM",
       "title": "Indemnification Obligations",
@@ -35,7 +35,7 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "legal-termination_for_cause-1259945f",
+      "finding_id": "legal-termination_for_cause-599e1f08",
       "dimension": "legal",
       "severity": "HIGH",
       "title": "Termination for Cause Conditions",
@@ -51,11 +51,11 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "legal-termination_for_convenience-0b9641fa",
+      "finding_id": "legal-termination_for_convenience-c11dc33d",
       "dimension": "legal",
       "severity": "MEDIUM",
       "title": "Termination for Convenience Notice Period",
-      "rationale": "The contract specifies the notice period required for termination without cause, which is ninety days.",
+      "rationale": "The contract specifies the notice period required for termination without cause.",
       "recommendation": null,
       "evidence_ids": [
         "MLA-002-c2"
@@ -67,11 +67,11 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "legal-confidentiality_survival-9e9ce257",
+      "finding_id": "legal-confidentiality_survival-4270e338",
       "dimension": "legal",
       "severity": "MEDIUM",
       "title": "Confidentiality Obligations Survival Period",
-      "rationale": "The evidence explicitly states the duration for which confidentiality obligations remain in effect after termination of the agreement.",
+      "rationale": "The contract explicitly states the duration for which confidentiality obligations remain in effect after termination.",
       "recommendation": null,
       "evidence_ids": [
         "MLA-002-c2"
@@ -83,11 +83,11 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "legal-ip_ownership-4c91444f",
+      "finding_id": "legal-ip_ownership-25801f1c",
       "dimension": "legal",
       "severity": "HIGH",
       "title": "Intellectual Property Ownership",
-      "rationale": "The evidence clearly states the ownership of intellectual property created under this agreement, specifying that the Vendor retains ownership of all related intellectual property unless a separate transfer agreement is executed.",
+      "rationale": "The evidence clearly states the ownership of intellectual property created under this agreement, specifying that the Vendor retains ownership of all related intellectual property.",
       "recommendation": null,
       "evidence_ids": [
         "MLA-002-c2"
@@ -99,11 +99,11 @@
       "confidence": 0.95
     },
     {
-      "finding_id": "legal-governing_law_disputes-087fb62a",
+      "finding_id": "legal-governing_law_disputes-0749ee0d",
       "dimension": "legal",
-      "severity": "MEDIUM",
+      "severity": "HIGH",
       "title": "Governing Law and Dispute Resolution",
-      "rationale": "The evidence explicitly outlines the governing law and dispute resolution process for the contract.",
+      "rationale": "The evidence explicitly states the governing law and the method for resolving disputes, which is arbitration.",
       "recommendation": null,
       "evidence_ids": [
         "MLA-002-c2"
@@ -112,7 +112,7 @@
         "This Agreement shall be governed by and construed in accordance with the laws of the jurisdiction specified in the relevant SOW or annexure. Any disputes arising out of or related to this Agreement shall be subjected to arbitration before a panel of arbitrators in accordance with governing arbitration procedures."
       ],
       "verification_status": "verified",
-      "confidence": 0.9
+      "confidence": 0.95
     }
   ],
   "error": null,

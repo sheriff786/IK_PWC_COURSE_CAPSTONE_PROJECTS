@@ -3,7 +3,7 @@
   "success": true,
   "findings": [
     {
-      "finding_id": "operational-scope_of_work-dc45c266",
+      "finding_id": "operational-scope_of_work-0b367735",
       "dimension": "operational",
       "severity": "MEDIUM",
       "title": "Scope of Work Defined",
@@ -19,9 +19,9 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "operational-acceptance_criteria-076fa5e9",
+      "finding_id": "operational-acceptance_criteria-5fe49ade",
       "dimension": "operational",
-      "severity": "MEDIUM",
+      "severity": "HIGH",
       "title": "Acceptance Criteria for Deliverables",
       "rationale": "The acceptance criteria for deliverables are specified in the milestone billing section, which outlines the payment structure based on the successful installation and acceptance testing of hardware.",
       "recommendation": null,
@@ -35,11 +35,11 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "operational-dependencies_obligations-2b482734",
+      "finding_id": "operational-dependencies_obligations-a5e56e53",
       "dimension": "operational",
       "severity": "MEDIUM",
       "title": "Client Obligations for Vendor Performance",
-      "rationale": "The evidence outlines specific obligations of the Client that are essential for the Vendor's performance, particularly in relation to invoicing and payment processes.",
+      "rationale": "The evidence outlines specific obligations of the Client that the Vendor relies on for performance, particularly regarding timely processing of invoices and approval of payments.",
       "recommendation": null,
       "evidence_ids": [
         "FIN-001-c0"

@@ -3,7 +3,7 @@
   "success": true,
   "findings": [
     {
-      "finding_id": "financial-payment_terms-f1c91724",
+      "finding_id": "financial-payment_terms-6db16a5f",
       "dimension": "financial",
       "severity": "LOW",
       "title": "Payment Terms and Schedule",
@@ -19,11 +19,11 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "financial-pricing_structure-2065fa28",
+      "finding_id": "financial-pricing_structure-b4768d81",
       "dimension": "financial",
       "severity": "MEDIUM",
       "title": "Pricing Structure and Payment Terms",
-      "rationale": "The contract specifies a clear pricing structure and payment terms, detailing the total contract value and the payment schedule based on milestones.",
+      "rationale": "The contract specifies a total contract value and a detailed payment schedule, outlining the percentages due at various stages of the agreement.",
       "recommendation": null,
       "evidence_ids": [
         "NEG-003-c0"
@@ -35,11 +35,11 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "financial-financial_exposure_cap-cd97f297",
+      "finding_id": "financial-financial_exposure_cap-dedd6a6c",
       "dimension": "financial",
       "severity": "MEDIUM",
       "title": "Cap on Financial Exposure",
-      "rationale": "The contract specifies that the Vendor's liability shall not exceed the total contract value, which effectively caps the financial exposure.",
+      "rationale": "The contract specifies that the Vendor's liability shall not exceed the total contract value, which indicates a cap on financial exposure.",
       "recommendation": null,
       "evidence_ids": [
         "NEG-003-c0"

@@ -3,7 +3,7 @@
   "success": true,
   "findings": [
     {
-      "finding_id": "legal-liability_cap-0fcb279f",
+      "finding_id": "legal-liability_cap-5515e921",
       "dimension": "legal",
       "severity": "MEDIUM",
       "title": "Limitation of Liability",
@@ -19,7 +19,7 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "legal-indemnification-f4a115f1",
+      "finding_id": "legal-indemnification-0717e491",
       "dimension": "legal",
       "severity": "MEDIUM",
       "title": "Indemnification Obligations of Vendor",
@@ -35,7 +35,7 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "legal-termination_for_cause-4674003a",
+      "finding_id": "legal-termination_for_cause-16ddbf05",
       "dimension": "legal",
       "severity": "MEDIUM",
       "title": "Termination for Cause Conditions",
@@ -51,7 +51,7 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "legal-termination_for_convenience-9ef45bbb",
+      "finding_id": "legal-termination_for_convenience-f2f89cdd",
       "dimension": "legal",
       "severity": "MEDIUM",
       "title": "Termination for Convenience Notice Period",
@@ -67,7 +67,7 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "legal-confidentiality_survival-6f93c64e",
+      "finding_id": "legal-confidentiality_survival-81ab9425",
       "dimension": "legal",
       "severity": "LOW",
       "title": "Confidentiality Obligations Survival Duration",
@@ -83,11 +83,11 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "legal-governing_law_disputes-17c0349b",
+      "finding_id": "legal-governing_law_disputes-a0fa24c2",
       "dimension": "legal",
       "severity": "MEDIUM",
       "title": "Governing Law and Dispute Resolution",
-      "rationale": "The evidence specifies the governing law and the method for resolving disputes between the parties.",
+      "rationale": "The evidence specifies the governing law and the method for resolving disputes, indicating that arbitration will be used if amicable resolution fails.",
       "recommendation": null,
       "evidence_ids": [
         "NEG-003-c0"

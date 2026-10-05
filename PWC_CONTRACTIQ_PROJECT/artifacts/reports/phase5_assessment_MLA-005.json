@@ -1,7 +1,7 @@
 {
-  "assessment_id": "assessment-MLA-005-ad3698da",
+  "assessment_id": "assessment-MLA-005-6e98505e",
   "doc_id": "MLA-005",
-  "run_id": "5ccbb076807a",
+  "run_id": "184773c1572c",
   "document_version": "1",
   "model_version": "gpt-4o-mini",
   "prompt_version": "phase5-specialist-prompts-v1",
@@ -12,7 +12,7 @@
       "success": true,
       "findings": [
         {
-          "finding_id": "legal-confidentiality_survival-f73fcffa",
+          "finding_id": "legal-confidentiality_survival-c617e3ab",
           "dimension": "legal",
           "severity": "MEDIUM",
           "title": "Confidentiality Obligations Survival",
@@ -32,99 +32,27 @@
       "retry_count": 0
     },
     {
-      "dimension": "operational",
+      "dimension": "financial",
       "success": true,
       "findings": [
         {
-          "finding_id": "operational-scope_of_work-5cbbb45a",
-          "dimension": "operational",
-          "severity": "HIGH",
-          "title": "Scope of Work and Deliverables Defined",
-          "rationale": "The evidence clearly outlines the scope of work and deliverables under the agreement, detailing various products, services, and components involved in the BFSI deployments.",
-          "recommendation": null,
-          "evidence_ids": [
-            "MLA-005-c0"
-          ],
-          "evidence_excerpts": [
-            "The scope of this Agreement is intentionally broad, covering every category of hardware, firmware, software-adjacent service, engineering activity, logistical operation, and maintenance initiative likely to arise throughout the lifecycle of BFSI deployments."
-          ],
-          "verification_status": "verified",
-          "confidence": 0.95
-        },
-        {
-          "finding_id": "operational-sla_commitments-7e895617",
-          "dimension": "operational",
+          "finding_id": "financial-payment_terms-4f857481",
+          "dimension": "financial",
           "severity": "MEDIUM",
-          "title": "Service Level and Performance Commitments",
-          "rationale": "The Vendor commits to maintaining clear pricing structures and ensuring that all service-related charges are transparent and predictable, which directly relates to service level commitments.",
-          "recommendation": null,
-          "evidence_ids": [
-            "MLA-005-c0"
-          ],
-          "evidence_excerpts": [
-            "The Vendor shall maintain a comprehensive pricing structure governing the cost of installation, device commissioning, software-hardware integration, firmware onboarding, branch-level workflow configuration, and technical validation."
-          ],
-          "verification_status": "verified",
-          "confidence": 0.9
-        },
-        {
-          "finding_id": "operational-dependencies_obligations-e2fd5923",
-          "dimension": "operational",
-          "severity": "MEDIUM",
-          "title": "Client-Side Obligations for Vendor Performance",
-          "rationale": "The evidence specifies that the Vendor's performance is contingent upon the Client's requirements for manpower and operational dependencies, particularly for complex operations and installation services.",
+          "title": "Payment Terms and Conditions",
+          "rationale": "The evidence outlines the pricing structure and conditions under which payments are to be made, including invoice requirements and price protection mechanisms.",
           "recommendation": null,
           "evidence_ids": [
             "MLA-005-c2"
           ],
           "evidence_excerpts": [
-            "If the Client requires manpower for complex operations such as security sandbox testing, PSU audit compliance support, mass firmware rollout campaigns, or large-scale device refresh cycles, such activities shall also be covered under the pricing model established in this Agreement."
+            "All invoices raised by the Vendor shall strictly correspond to the pricing categories and values stated in this Agreement. No invoice may include line items that deviate from or exceed the approved rate card."
           ],
           "verification_status": "verified",
           "confidence": 0.85
         },
         {
-          "finding_id": "operational-performance_reporting-6ac7b0b5",
-          "dimension": "operational",
-          "severity": "MEDIUM",
-          "title": "Performance Reporting in AMC",
-          "rationale": "The evidence specifies that the Vendor agrees to provide performance analytics reporting as part of the Annual Maintenance Contracts (AMC), which is a key aspect of service performance measurement and reporting.",
-          "recommendation": null,
-          "evidence_ids": [
-            "MLA-005-c1"
-          ],
-          "evidence_excerpts": [
-            "AMC charges reflect industry-aligned maintenance obligations such as scheduled preventive visits, firmware patch cycles, device uptime monitoring, remote diagnostics, onsite support availability, real-time support desk access, and performance analytics reporting."
-          ],
-          "verification_status": "verified",
-          "confidence": 0.9
-        }
-      ],
-      "error": null,
-      "retry_count": 0
-    },
-    {
-      "dimension": "financial",
-      "success": true,
-      "findings": [
-        {
-          "finding_id": "financial-payment_terms-54d7ebad",
-          "dimension": "financial",
-          "severity": "MEDIUM",
-          "title": "Payment Terms and Invoicing Requirements",
-          "rationale": "The evidence outlines the pricing structure, invoicing requirements, and conditions under which charges can be made, ensuring clarity and predictability in financial transactions between the Vendor and Client.",
-          "recommendation": null,
-          "evidence_ids": [
-            "MLA-005-c2"
-          ],
-          "evidence_excerpts": [
-            "All invoices raised by the Vendor shall strictly correspond to the pricing categories and values stated in this Agreement."
-          ],
-          "verification_status": "verified",
-          "confidence": 0.9
-        },
-        {
-          "finding_id": "financial-pricing_structure-b5e5cae5",
+          "finding_id": "financial-pricing_structure-471c8606",
           "dimension": "financial",
           "severity": "HIGH",
           "title": "Pricing Structure Overview",
@@ -140,7 +68,7 @@
           "confidence": 0.95
         },
         {
-          "finding_id": "financial-price_escalation-a6298333",
+          "finding_id": "financial-price_escalation-f35c35b7",
           "dimension": "financial",
           "severity": "MEDIUM",
           "title": "Price Escalation Clauses Present",
@@ -156,7 +84,7 @@
           "confidence": 0.9
         },
         {
-          "finding_id": "financial-renewal_pricing-944bb4b9",
+          "finding_id": "financial-renewal_pricing-db51f632",
           "dimension": "financial",
           "severity": "MEDIUM",
           "title": "Renewal Pricing and Terms",
@@ -172,11 +100,11 @@
           "confidence": 0.85
         },
         {
-          "finding_id": "financial-financial_exposure_cap-63f97ae6",
+          "finding_id": "financial-financial_exposure_cap-962fc311",
           "dimension": "financial",
           "severity": "HIGH",
           "title": "Cap on Financial Exposure and Charges",
-          "rationale": "The contract explicitly prohibits the introduction of new financial charges outside the agreed terms, ensuring that the Client is protected from unexpected financial exposure.",
+          "rationale": "The contract explicitly prohibits the Vendor from introducing any new financial charges outside the Agreement, ensuring that the Client is protected from unexpected financial exposure and maintains commercial predictability throughout the contract term.",
           "recommendation": null,
           "evidence_ids": [
             "MLA-005-c2",
@@ -191,14 +119,87 @@
       ],
       "error": null,
       "retry_count": 0
+    },
+    {
+      "dimension": "operational",
+      "success": true,
+      "findings": [
+        {
+          "finding_id": "operational-scope_of_work-dc17b385",
+          "dimension": "operational",
+          "severity": "HIGH",
+          "title": "Scope of Work and Deliverables Defined",
+          "rationale": "The evidence clearly outlines the scope of work and deliverables under the agreement, detailing various products, services, and components involved in the BFSI deployments.",
+          "recommendation": null,
+          "evidence_ids": [
+            "MLA-005-c0"
+          ],
+          "evidence_excerpts": [
+            "The scope of this Agreement is intentionally broad, covering every category of hardware, firmware, software-adjacent service, engineering activity, logistical operation, and maintenance initiative likely to arise throughout the lifecycle of BFSI deployments."
+          ],
+          "verification_status": "verified",
+          "confidence": 0.95
+        },
+        {
+          "finding_id": "operational-sla_commitments-32eba56e",
+          "dimension": "operational",
+          "severity": "MEDIUM",
+          "title": "Service Level and Performance Commitments",
+          "rationale": "The evidence outlines the Vendor's commitments regarding pricing stability, service delivery, and the prohibition of unexpected charges, which are critical components of service level agreements.",
+          "recommendation": null,
+          "evidence_ids": [
+            "MLA-005-c3",
+            "MLA-005-c2"
+          ],
+          "evidence_excerpts": [
+            "The Client shall not be obligated to pay for resource wait times, idle engineer hours, or vendor-driven deployment delays. This protects the Client from unexpected financial exposure and ensures absolute commercial predictability throughout the contract term."
+          ],
+          "verification_status": "verified",
+          "confidence": 0.9
+        },
+        {
+          "finding_id": "operational-dependencies_obligations-6bbf6b76",
+          "dimension": "operational",
+          "severity": "MEDIUM",
+          "title": "Client-Side Obligations for Vendor Performance",
+          "rationale": "The evidence specifies that the Vendor's performance is contingent upon the Client's requirements for manpower and operational dependencies, particularly for complex operations and installation services.",
+          "recommendation": null,
+          "evidence_ids": [
+            "MLA-005-c2"
+          ],
+          "evidence_excerpts": [
+            "If the Client requires manpower for complex operations such as security sandbox testing, PSU audit compliance support, mass firmware rollout campaigns, or large-scale device refresh cycles, such activities shall also be covered under the pricing model established in this Agreement."
+          ],
+          "verification_status": "verified",
+          "confidence": 0.85
+        },
+        {
+          "finding_id": "operational-performance_reporting-3b7e6844",
+          "dimension": "operational",
+          "severity": "MEDIUM",
+          "title": "Performance Reporting in AMC",
+          "rationale": "The evidence specifies that the Vendor agrees to provide performance analytics reporting as part of the Annual Maintenance Contracts (AMC), which is a key aspect of service performance measurement and reporting.",
+          "recommendation": null,
+          "evidence_ids": [
+            "MLA-005-c1"
+          ],
+          "evidence_excerpts": [
+            "Annual Maintenance Contracts (AMC) shall also be priced under this Agreement, ensuring that AMC charges reflect industry-aligned maintenance obligations such as scheduled preventive visits, firmware patch cycles, device uptime monitoring, remote diagnostics, onsite support availability, real-time support desk access, and performance analytics reporting."
+          ],
+          "verification_status": "verified",
+          "confidence": 0.9
+        }
+      ],
+      "error": null,
+      "retry_count": 0
     }
   ],
   "unresolved_issues": [],
   "consensus_actions": [
-    "Review: [operational] Scope of Work and Deliverables Defined",
     "Review: [financial] Pricing Structure Overview",
-    "Review: [financial] Cap on Financial Exposure and Charges"
+    "Review: [financial] Cap on Financial Exposure and Charges",
+    "Review: [operational] Scope of Work and Deliverables Defined"
   ],
   "overall_risk": "HIGH",
-  "created_at": "2026-09-26T13:09:13.016147"
+  "created_at": "2026-10-06T01:57:41.956491"
 }

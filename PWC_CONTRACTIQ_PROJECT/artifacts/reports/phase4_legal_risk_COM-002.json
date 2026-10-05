@@ -3,7 +3,7 @@
   "success": true,
   "findings": [
     {
-      "finding_id": "legal-termination_for_convenience-d97d35c5",
+      "finding_id": "legal-termination_for_convenience-f40e3c67",
       "dimension": "legal",
       "severity": "MEDIUM",
       "title": "Termination for Convenience Notice Period",
@@ -19,7 +19,7 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "legal-ip_ownership-543070d9",
+      "finding_id": "legal-ip_ownership-045300c7",
       "dimension": "legal",
       "severity": "HIGH",
       "title": "Intellectual Property Ownership",
@@ -35,7 +35,7 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "legal-governing_law_disputes-ee7e1c64",
+      "finding_id": "legal-governing_law_disputes-f619c7a5",
       "dimension": "legal",
       "severity": "MEDIUM",
       "title": "Governing Law and Dispute Resolution",

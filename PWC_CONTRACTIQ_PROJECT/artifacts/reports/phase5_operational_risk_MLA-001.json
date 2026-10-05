@@ -3,11 +3,11 @@
   "success": true,
   "findings": [
     {
-      "finding_id": "operational-scope_of_work-8ac6a169",
+      "finding_id": "operational-scope_of_work-60d42141",
       "dimension": "operational",
       "severity": "HIGH",
       "title": "Scope of Work Defined",
-      "rationale": "The evidence clearly outlines the scope of services provided under the agreement, detailing the responsibilities and deliverables of the Vendor.",
+      "rationale": "The evidence clearly outlines the scope of services to be provided under the agreement, detailing the responsibilities and deliverables of the Vendor.",
       "recommendation": null,
       "evidence_ids": [
         "MLA-001-c0"
@@ -19,11 +19,11 @@
       "confidence": 0.95
     },
     {
-      "finding_id": "operational-sla_commitments-5cb2e253",
+      "finding_id": "operational-sla_commitments-3afcaa6a",
       "dimension": "operational",
       "severity": "HIGH",
-      "title": "Service Level Commitments by Vendor",
-      "rationale": "The evidence explicitly outlines the service level commitments made by the Vendor, including incident acknowledgment and resolution timelines based on severity levels.",
+      "title": "Vendor's Service Level Commitments",
+      "rationale": "The evidence specifies the Vendor's commitments regarding service levels, including incident response times and resolution timelines based on severity.",
       "recommendation": null,
       "evidence_ids": [
         "MLA-001-c1"
@@ -35,7 +35,7 @@
       "confidence": 0.95
     },
     {
-      "finding_id": "operational-sla_remedies-b0ee8fff",
+      "finding_id": "operational-sla_remedies-d7eb18fd",
       "dimension": "operational",
       "severity": "MEDIUM",
       "title": "Service Level Agreement Remedies",
@@ -51,7 +51,7 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "operational-dependencies_obligations-6bdb9ad6",
+      "finding_id": "operational-dependencies_obligations-a56ace9c",
       "dimension": "operational",
       "severity": "MEDIUM",
       "title": "Client Payment Obligations",
@@ -67,7 +67,7 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "operational-performance_reporting-d9628bc6",
+      "finding_id": "operational-performance_reporting-09616a93",
       "dimension": "operational",
       "severity": "HIGH",
       "title": "Service Performance Measurement and Reporting",
@@ -80,7 +80,7 @@
         "The Vendor shall furnish weekly and monthly performance reports summarizing incidents, resolutions, SLA compliance, bottlenecks, and recommendations for improvement."
       ],
       "verification_status": "verified",
-      "confidence": 0.9
+      "confidence": 0.95
     }
   ],
   "error": null,

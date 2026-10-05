@@ -3,7 +3,7 @@
   "success": true,
   "findings": [
     {
-      "finding_id": "financial-payment_terms-268fe4d7",
+      "finding_id": "financial-payment_terms-92037534",
       "dimension": "financial",
       "severity": "MEDIUM",
       "title": "Payment Terms and Schedule",
@@ -19,11 +19,11 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "financial-late_payment_penalties-5c9e9e70",
+      "finding_id": "financial-late_payment_penalties-9fc2d4ba",
       "dimension": "financial",
       "severity": "MEDIUM",
       "title": "Late Payment Penalty Details",
-      "rationale": "The contract specifies the penalties for late payments, including interest charges.",
+      "rationale": "The contract specifies that delays in invoice settlement beyond the stipulated period will incur an interest charge.",
       "recommendation": null,
       "evidence_ids": [
         "MLA-001-c1"
@@ -35,7 +35,7 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "financial-pricing_structure-de151e8b",
+      "finding_id": "financial-pricing_structure-7bc020ab",
       "dimension": "financial",
       "severity": "MEDIUM",
       "title": "Pricing Structure Defined",
@@ -51,7 +51,7 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "financial-financial_exposure_cap-1feeae7f",
+      "finding_id": "financial-financial_exposure_cap-5b11cf42",
       "dimension": "financial",
       "severity": "MEDIUM",
       "title": "Cap on Financial Exposure",

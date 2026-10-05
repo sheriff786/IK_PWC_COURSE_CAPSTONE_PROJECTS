@@ -3,7 +3,7 @@
   "success": true,
   "findings": [
     {
-      "finding_id": "legal-termination_for_convenience-98594353",
+      "finding_id": "legal-termination_for_convenience-7d2f7af3",
       "dimension": "legal",
       "severity": "MEDIUM",
       "title": "Termination for Convenience Notice Period",
@@ -19,7 +19,7 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "legal-governing_law_disputes-3893cdae",
+      "finding_id": "legal-governing_law_disputes-451952e6",
       "dimension": "legal",
       "severity": "HIGH",
       "title": "Governing Law and Dispute Resolution",

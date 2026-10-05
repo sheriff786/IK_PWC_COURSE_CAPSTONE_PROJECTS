@@ -1,18 +1,41 @@
 {
-  "assessment_id": "assessment-MLA-003-bafd0d2c",
+  "assessment_id": "assessment-MLA-003-ed04ebbd",
   "doc_id": "MLA-003",
-  "run_id": "f0320f00f433",
+  "run_id": "89a8a8f38e86",
   "document_version": "1",
   "model_version": "gpt-4o-mini",
   "prompt_version": "phase5-specialist-prompts-v1",
   "policy_version": "risk-policy-v1",
   "dimension_results": [
     {
+      "dimension": "financial",
+      "success": true,
+      "findings": [],
+      "error": null,
+      "retry_count": 0
+    },
+    {
       "dimension": "operational",
       "success": true,
       "findings": [
         {
-          "finding_id": "operational-dependencies_obligations-b05962a9",
+          "finding_id": "operational-scope_of_work-529cdc8a",
+          "dimension": "operational",
+          "severity": "MEDIUM",
+          "title": "Scope of Work Defined",
+          "rationale": "The contract outlines the purpose of the agreement, which includes facilitating a secure, controlled, and confidential exchange of information required to evaluate, plan, carry out, deploy, or support various hardware, technology, manufacturing, integration, compliance, and operational activities relating to the BFSI sector.",
+          "recommendation": null,
+          "evidence_ids": [
+            "MLA-003-c0"
+          ],
+          "evidence_excerpts": [
+            "for the purpose of facilitating a secure, controlled, and confidential exchange of information required to evaluate, plan, carry out, deploy, or support various hardware, technology, manufacturing, integration, compliance, and operational activities relating to the BFSI sector."
+          ],
+          "verification_status": "verified",
+          "confidence": 0.9
+        },
+        {
+          "finding_id": "operational-dependencies_obligations-82a6e059",
           "dimension": "operational",
           "severity": "HIGH",
           "title": "Client-Side Obligations for Confidential Information",
@@ -32,35 +55,11 @@
       "retry_count": 0
     },
     {
-      "dimension": "financial",
-      "success": true,
-      "findings": [
-        {
-          "finding_id": "financial-pricing_structure-92b28d1a",
-          "dimension": "financial",
-          "severity": "MEDIUM",
-          "title": "Pricing Structure Mentioned",
-          "rationale": "The contract explicitly mentions 'pricing models' and 'rate cards' as part of the Confidential Information, indicating that there is a pricing structure included in the agreement.",
-          "recommendation": null,
-          "evidence_ids": [
-            "MLA-003-c0"
-          ],
-          "evidence_excerpts": [
-            "Confidential Information includes... pricing models, rate cards, proposals, contract drafts, financial analyses, internal controls, business forecasts, deployment plans, and security arrangements."
-          ],
-          "verification_status": "failed_verification",
-          "confidence": 0.3
-        }
-      ],
-      "error": null,
-      "retry_count": 0
-    },
-    {
       "dimension": "legal",
       "success": true,
       "findings": [
         {
-          "finding_id": "legal-termination_for_cause-d6b933f4",
+          "finding_id": "legal-termination_for_cause-fc4325a2",
           "dimension": "legal",
           "severity": "HIGH",
           "title": "Conditions for Termination for Cause",
@@ -76,11 +75,11 @@
           "confidence": 0.9
         },
         {
-          "finding_id": "legal-confidentiality_survival-f6903fdb",
+          "finding_id": "legal-confidentiality_survival-8edf5c75",
           "dimension": "legal",
           "severity": "MEDIUM",
           "title": "Confidentiality Obligations Survival Period",
-          "rationale": "The confidentiality obligations set forth herein shall survive for a period of five (5) years from the date of termination or from the last disclosure of Confidential Information, whichever occurs later.",
+          "rationale": "The contract specifies the duration for which confidentiality obligations survive after termination.",
           "recommendation": null,
           "evidence_ids": [
             "MLA-003-c1"
@@ -92,11 +91,11 @@
           "confidence": 0.9
         },
         {
-          "finding_id": "legal-ip_ownership-2dacba12",
+          "finding_id": "legal-ip_ownership-17dc3584",
           "dimension": "legal",
           "severity": "HIGH",
           "title": "Intellectual Property Ownership",
-          "rationale": "The contract explicitly states that the Receiving Party shall not claim any intellectual property rights from the Confidential Information or any work product arising from it.",
+          "rationale": "The contract explicitly states that the Receiving Party shall not claim, register, patent, or derive any intellectual property rights from the Confidential Information or any work product arising from it.",
           "recommendation": null,
           "evidence_ids": [
             "MLA-003-c2"
@@ -108,11 +107,11 @@
           "confidence": 0.9
         },
         {
-          "finding_id": "legal-governing_law_disputes-fdc43c54",
+          "finding_id": "legal-governing_law_disputes-157e4dd4",
           "dimension": "legal",
           "severity": "MEDIUM",
           "title": "Governing Law and Dispute Resolution",
-          "rationale": "The evidence explicitly outlines the governing law and dispute resolution process for the contract.",
+          "rationale": "The evidence clearly outlines the governing law and dispute resolution process for the contract.",
           "recommendation": null,
           "evidence_ids": [
             "MLA-003-c2"
@@ -124,11 +123,11 @@
           "confidence": 0.9
         },
         {
-          "finding_id": "legal-assignment_change_of_control-191d6bf0",
+          "finding_id": "legal-assignment_change_of_control-a6ff3af1",
           "dimension": "legal",
           "severity": "MEDIUM",
           "title": "Assignment and Change of Control Restrictions",
-          "rationale": "The contract explicitly states that neither party may assign or transfer its rights or obligations under this Agreement without prior written consent from the other party.",
+          "rationale": "The contract explicitly states that neither party may assign or transfer its rights or obligations under this Agreement without the prior written consent of the other Party.",
           "recommendation": null,
           "evidence_ids": [
             "MLA-003-c2"
@@ -151,5 +150,5 @@
     "Review: [legal] Intellectual Property Ownership"
   ],
   "overall_risk": "HIGH",
-  "created_at": "2026-09-26T13:08:47.758843"
+  "created_at": "2026-10-06T01:57:13.959007"
 }

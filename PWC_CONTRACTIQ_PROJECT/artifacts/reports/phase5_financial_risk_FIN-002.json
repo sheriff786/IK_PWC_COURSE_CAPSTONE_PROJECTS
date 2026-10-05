@@ -3,7 +3,7 @@
   "success": true,
   "findings": [
     {
-      "finding_id": "financial-payment_terms-a86cfbbf",
+      "finding_id": "financial-payment_terms-43cd9fdb",
       "dimension": "financial",
       "severity": "MEDIUM",
       "title": "Payment Terms and Schedule",
@@ -19,7 +19,7 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "financial-late_payment_penalties-dce00598",
+      "finding_id": "financial-late_payment_penalties-5b57d922",
       "dimension": "financial",
       "severity": "MEDIUM",
       "title": "Late Payment Penalty",
@@ -35,11 +35,11 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "financial-pricing_structure-079a1ea9",
+      "finding_id": "financial-pricing_structure-ea2771e5",
       "dimension": "financial",
       "severity": "MEDIUM",
       "title": "Pricing Structure and Billing Schedule",
-      "rationale": "The evidence provides a detailed description of the pricing structure and billing schedule, including standard billing practices, payment terms, and invoicing details.",
+      "rationale": "The evidence provides a detailed description of the billing schedule and payment terms, which constitutes the pricing structure for the agreement.",
       "recommendation": null,
       "evidence_ids": [
         "FIN-002-c0"

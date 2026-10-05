@@ -3,11 +3,11 @@
   "success": true,
   "findings": [
     {
-      "finding_id": "operational-scope_of_work-b1339913",
+      "finding_id": "operational-scope_of_work-49c2c970",
       "dimension": "operational",
       "severity": "MEDIUM",
       "title": "Scope of Work and Deliverables",
-      "rationale": "The evidence outlines the obligations and performance metrics related to the hardware supply, maintenance, and support services provided by PrimeVolta Hardware Solutions to FinSecure Services, which defines the scope of work under the agreement.",
+      "rationale": "The evidence outlines the obligations and performance metrics related to hardware supply, maintenance, and support services, which define the scope of work under the agreement.",
       "recommendation": null,
       "evidence_ids": [
         "GOV-004-c0"
@@ -19,7 +19,7 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "operational-acceptance_criteria-79390771",
+      "finding_id": "operational-acceptance_criteria-826ee824",
       "dimension": "operational",
       "severity": "MEDIUM",
       "title": "Acceptance Criteria for Deliverables",
@@ -36,11 +36,11 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "operational-sla_commitments-bc388f0d",
+      "finding_id": "operational-sla_commitments-f2b6e6b2",
       "dimension": "operational",
-      "severity": "HIGH",
+      "severity": "MEDIUM",
       "title": "Service Level Commitments",
-      "rationale": "The vendor commits to specific service levels as outlined in the Key Performance Indicators (KPIs) section of the contract.",
+      "rationale": "The vendor commits to specific service levels and performance metrics as outlined in the contract.",
       "recommendation": null,
       "evidence_ids": [
         "GOV-004-c1",
@@ -50,10 +50,10 @@
         "Delivery SLA compliance ≥ 98%\nPreventive maintenance completion ≥ 95%\nInvoice error rate ≤ 0.5%\nDispute resolution average ≤ 10 business days"
       ],
       "verification_status": "verified",
-      "confidence": 0.95
+      "confidence": 0.9
     },
     {
-      "finding_id": "operational-sla_remedies-92c200ff",
+      "finding_id": "operational-sla_remedies-760c4027",
       "dimension": "operational",
       "severity": "MEDIUM",
       "title": "SLA Breach Penalties",
@@ -69,12 +69,12 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "operational-dependencies_obligations-9fb8db32",
+      "finding_id": "operational-dependencies_obligations-349c87ac",
       "dimension": "operational",
       "severity": "MEDIUM",
       "title": "Client-Side Obligations for Vendor Performance",
       "rationale": "The evidence outlines specific client action items that the vendor relies on for performance, indicating dependencies on the client's obligations.",
-      "recommendation": "Ensure timely feedback and assessment of revised KPIs and SLA penalties to support vendor performance.",
+      "recommendation": null,
       "evidence_ids": [
         "GOV-004-c1",
         "GOV-004-c0"
@@ -86,12 +86,12 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "operational-performance_reporting-21d3054e",
+      "finding_id": "operational-performance_reporting-0d984517",
       "dimension": "operational",
       "severity": "MEDIUM",
       "title": "Performance Reporting Mechanisms",
-      "rationale": "The contract specifies various Key Performance Indicators (KPIs) that measure service performance, including delivery SLA compliance, preventive maintenance completion, invoice error rate, and dispute resolution timelines. Additionally, it outlines governance and reporting requirements such as monthly operational dashboards and quarterly executive reviews to discuss performance metrics.",
-      "recommendation": "Ensure that the reporting mechanisms are implemented effectively to track and improve performance against the KPIs.",
+      "rationale": "The contract specifies the use of Key Performance Indicators (KPIs) and outlines governance and reporting requirements, including monthly operational dashboards and quarterly executive reviews to measure service performance.",
+      "recommendation": "Ensure that the reporting mechanisms are implemented as outlined to maintain accountability and transparency.",
       "evidence_ids": [
         "GOV-004-c0"
       ],

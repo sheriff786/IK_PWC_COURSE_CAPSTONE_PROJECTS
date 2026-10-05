@@ -3,7 +3,7 @@
   "success": true,
   "findings": [
     {
-      "finding_id": "operational-scope_of_work-7acc8e29",
+      "finding_id": "operational-scope_of_work-72ffb367",
       "dimension": "operational",
       "severity": "MEDIUM",
       "title": "Scope of Work Defined",
@@ -19,7 +19,7 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "operational-sla_commitments-f50444ec",
+      "finding_id": "operational-sla_commitments-b24141db",
       "dimension": "operational",
       "severity": "MEDIUM",
       "title": "Vendor's Service Level Commitments",
@@ -35,7 +35,7 @@
       "confidence": 0.3
     },
     {
-      "finding_id": "operational-dependencies_obligations-a1941812",
+      "finding_id": "operational-dependencies_obligations-31c40605",
       "dimension": "operational",
       "severity": "MEDIUM",
       "title": "Client Obligations for Vendor Performance",
@@ -51,7 +51,7 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "operational-performance_reporting-4729e0d0",
+      "finding_id": "operational-performance_reporting-09cff35b",
       "dimension": "operational",
       "severity": "MEDIUM",
       "title": "Service Performance Reporting",

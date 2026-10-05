@@ -3,11 +3,11 @@
   "success": true,
   "findings": [
     {
-      "finding_id": "financial-payment_terms-371af07a",
+      "finding_id": "financial-payment_terms-9262f497",
       "dimension": "financial",
       "severity": "MEDIUM",
       "title": "Payment Terms and Schedule",
-      "rationale": "The contract specifies the payment terms clearly, including the due date and conditions for late payment.",
+      "rationale": "The evidence clearly outlines the payment terms, including the due date and conditions for late payment.",
       "recommendation": null,
       "evidence_ids": [
         "FIN-004-c0"
@@ -19,7 +19,7 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "financial-late_payment_penalties-840171fd",
+      "finding_id": "financial-late_payment_penalties-766924b8",
       "dimension": "financial",
       "severity": "MEDIUM",
       "title": "Late Payment Penalty Details",
@@ -35,7 +35,7 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "financial-pricing_structure-15a2e110",
+      "finding_id": "financial-pricing_structure-5cf399ec",
       "dimension": "financial",
       "severity": "MEDIUM",
       "title": "Pricing Structure and Fee Schedule",

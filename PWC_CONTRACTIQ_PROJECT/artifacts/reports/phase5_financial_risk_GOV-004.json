@@ -3,11 +3,11 @@
   "success": true,
   "findings": [
     {
-      "finding_id": "financial-pricing_structure-0b512e4d",
+      "finding_id": "financial-pricing_structure-2a688a96",
       "dimension": "financial",
       "severity": "MEDIUM",
-      "title": "Proposed Pricing Adjustment",
-      "rationale": "The contract outlines a proposed pricing adjustment reflecting inflation and service enhancements, indicating a structured pricing approach.",
+      "title": "Pricing Adjustment Proposal",
+      "rationale": "The evidence specifies a proposed pricing adjustment reflecting various factors, which directly addresses the pricing structure of the agreement.",
       "recommendation": null,
       "evidence_ids": [
         "GOV-004-c0"
@@ -19,7 +19,7 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "financial-price_escalation-8804dbba",
+      "finding_id": "financial-price_escalation-78c54adb",
       "dimension": "financial",
       "severity": "MEDIUM",
       "title": "Price Adjustment Clause Identified",
@@ -35,7 +35,7 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "financial-renewal_pricing-ad232f37",
+      "finding_id": "financial-renewal_pricing-5c6d92fd",
       "dimension": "financial",
       "severity": "MEDIUM",
       "title": "Renewal Pricing Adjustment",
@@ -51,11 +51,11 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "financial-financial_exposure_cap-3e94d6f9",
+      "finding_id": "financial-financial_exposure_cap-17eeefd4",
       "dimension": "financial",
       "severity": "MEDIUM",
-      "title": "Penalties for SLA Breaches",
-      "rationale": "The contract includes provisions for penalties related to SLA breaches, which indicates a cap on financial exposure in terms of penalties.",
+      "title": "Financial Exposure Cap and Penalties",
+      "rationale": "The evidence discusses the introduction of penalties for SLA breaches, which indicates a form of financial exposure cap related to service level agreements.",
       "recommendation": null,
       "evidence_ids": [
         "GOV-004-c0"

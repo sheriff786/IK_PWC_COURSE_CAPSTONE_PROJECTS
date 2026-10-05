@@ -22,10 +22,10 @@
     "metric": "citation_validity_and_finding_support",
     "documents": 15,
     "total_findings": 129,
-    "verified": 121,
-    "failed_verification": 8,
+    "verified": 122,
+    "failed_verification": 7,
     "unverified": 0,
-    "citation_validity_rate": 0.938
+    "citation_validity_rate": 0.946
   },
   "partial_run_frequency": {
     "metric": "partial_run_frequency",
@@ -35,22 +35,45 @@
   },
   "schema_failure_rate": {
     "metric": "schema_failure_rate",
-    "total_calls": 0,
+    "total_calls": 681,
     "schema_failures": 0,
-    "rate": null,
-    "note": "no LLM calls logged yet \u2014 run specialists/embeddings at least once"
+    "rate": 0.0
   },
   "api_call_failure_rate": {
     "metric": "api_call_failure_rate",
-    "total_calls": 0,
+    "total_calls": 681,
     "api_failures": 0,
-    "rate": null,
-    "note": "no LLM calls logged yet"
+    "rate": 0.0,
+    "sample_errors": []
   },
   "cost_and_latency_by_stage": {
     "metric": "cost_and_latency_by_stage",
-    "stages": {},
-    "note": "no LLM calls logged yet"
+    "stages": {
+      "embedding": {
+        "calls": 341,
+        "avg_latency_ms": 348.8,
+        "total_tokens": 4932,
+        "avg_tokens_per_call": 14.5
+      },
+      "legal_specialist": {
+        "calls": 136,
+        "avg_latency_ms": 1334.6,
+        "total_tokens": 277785,
+        "avg_tokens_per_call": 2042.5
+      },
+      "financial_specialist": {
+        "calls": 102,
+        "avg_latency_ms": 1472.6,
+        "total_tokens": 210514,
+        "avg_tokens_per_call": 2063.9
+      },
+      "operational_specialist": {
+        "calls": 102,
+        "avg_latency_ms": 1532.1,
+        "total_tokens": 211395,
+        "avg_tokens_per_call": 2072.5
+      }
+    }
   },
   "important_missed_risk_rate": {
     "metric": "important_missed_risk_rate",

@@ -1,14 +1,14 @@
 # ContractIQ Risk Report — FIN-004
 
 **Overall risk:** MEDIUM  
-**Assessment ID:** assessment-FIN-004-468e2923  
-**Run ID:** 70ad431a9a5f  
+**Assessment ID:** assessment-FIN-004-8740098c  
+**Run ID:** 08de5868c692  
 **Document version:** 1  
 **Model version:** gpt-4o-mini  
 **Prompt version:** phase5-specialist-prompts-v1  
 **Policy version:** risk-policy-v1  
-**Created at:** 2026-09-26T13:09:52.866704  
-**Report generated:** 2026-10-05T20:14:09.217366+00:00
+**Created at:** 2026-10-06T01:58:27.019255  
+**Report generated:** 2026-10-05T20:32:44.994962+00:00
 
 ## Specialist statuses
 - **legal**: OK, 0 finding(s), retry_count=0
@@ -17,7 +17,7 @@
 
 ## Findings (by severity)
 - **[MEDIUM] Payment Terms and Schedule** (confidence=0.9)
-  - rationale: The contract specifies the payment terms clearly, including the due date and conditions for late payment.
+  - rationale: The evidence clearly outlines the payment terms, including the due date and conditions for late payment.
   - evidence: `['FIN-004-c0']` — "Payment due within 15 calendar days of invoice date. Late payment subject to 1.5% monthly interest."
 - **[MEDIUM] Late Payment Penalty Details** (confidence=0.9)
   - rationale: The evidence specifies the penalties for late payments, including the interest rate applicable.
@@ -31,7 +31,7 @@ Payment due within 15 calendar days of invoice date.
 Late payment subject to 1.5% monthly interest."
 - **[MEDIUM] Scope of Work and Deliverables** (confidence=0.9)
   - rationale: The evidence provides details about the products and services delivered under the contract, including hardware delivery, acceptance testing, and warranty support.
-  - evidence: `['FIN-004-c0']` — "1. Description of Products / Services"
+  - evidence: `['FIN-004-c0']` — "Hardware delivered to FinSecure Mumbai HQ. Delivery completed on 10-Dec-2025, verified by client representative Mr. Anil Kapoor. Acceptance testing included: functional tests, performance benchmarks, ..."
 - **[MEDIUM] Acceptance Criteria for Deliverables** (confidence=0.9)
   - rationale: The evidence specifies the acceptance testing criteria for the deliverables, which include functional tests, performance benchmarks, and network integration tests, along with the requirement to report discrepancies within a specified timeframe.
   - evidence: `['FIN-004-c0']` — "Acceptance testing included: functional tests, performance benchmarks, and network integration tests."

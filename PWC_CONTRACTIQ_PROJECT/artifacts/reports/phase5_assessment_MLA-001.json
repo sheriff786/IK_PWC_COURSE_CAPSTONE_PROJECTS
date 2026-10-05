@@ -1,18 +1,106 @@
 {
-  "assessment_id": "assessment-MLA-001-af9d04b9",
+  "assessment_id": "assessment-MLA-001-29c9c0f9",
   "doc_id": "MLA-001",
-  "run_id": "3d137d6c4acb",
+  "run_id": "f047cc3ae110",
   "document_version": "1",
   "model_version": "gpt-4o-mini",
   "prompt_version": "phase5-specialist-prompts-v1",
   "policy_version": "risk-policy-v1",
   "dimension_results": [
     {
+      "dimension": "operational",
+      "success": true,
+      "findings": [
+        {
+          "finding_id": "operational-scope_of_work-60d42141",
+          "dimension": "operational",
+          "severity": "HIGH",
+          "title": "Scope of Work Defined",
+          "rationale": "The evidence clearly outlines the scope of services to be provided under the agreement, detailing the responsibilities and deliverables of the Vendor.",
+          "recommendation": null,
+          "evidence_ids": [
+            "MLA-001-c0"
+          ],
+          "evidence_excerpts": [
+            "The scope of services covered under this Agreement encompasses the comprehensive supply, delivery, installation, commissioning, maintenance, and long-term operational support of the Vendor’s hardware products for the Client’s BFSI operational ecosystem."
+          ],
+          "verification_status": "verified",
+          "confidence": 0.95
+        },
+        {
+          "finding_id": "operational-sla_commitments-3afcaa6a",
+          "dimension": "operational",
+          "severity": "HIGH",
+          "title": "Vendor's Service Level Commitments",
+          "rationale": "The evidence specifies the Vendor's commitments regarding service levels, including incident response times and resolution timelines based on severity.",
+          "recommendation": null,
+          "evidence_ids": [
+            "MLA-001-c1"
+          ],
+          "evidence_excerpts": [
+            "The Vendor commits to resolving Critical incidents within four hours, High severity incidents within eight hours, Medium severity incidents within one business day, and Low severity incidents within seventy-two hours."
+          ],
+          "verification_status": "verified",
+          "confidence": 0.95
+        },
+        {
+          "finding_id": "operational-sla_remedies-d7eb18fd",
+          "dimension": "operational",
+          "severity": "MEDIUM",
+          "title": "Service Level Agreement Remedies",
+          "rationale": "The contract specifies that continued failure to meet SLA commitments may result in service credits or financial penalties as detailed in the Rate Card or annexures.",
+          "recommendation": null,
+          "evidence_ids": [
+            "MLA-001-c1"
+          ],
+          "evidence_excerpts": [
+            "Continued failure to meet SLA commitments may result in service credits or financial penalties as detailed in the Rate Card or annexures."
+          ],
+          "verification_status": "verified",
+          "confidence": 0.9
+        },
+        {
+          "finding_id": "operational-dependencies_obligations-a56ace9c",
+          "dimension": "operational",
+          "severity": "MEDIUM",
+          "title": "Client Payment Obligations",
+          "rationale": "The evidence outlines the obligations of the Client regarding payment terms, which are critical for the Vendor's performance.",
+          "recommendation": null,
+          "evidence_ids": [
+            "MLA-001-c1"
+          ],
+          "evidence_excerpts": [
+            "The Client shall make payments within forty-five (45) days from the date of receipt of the completed invoice, subject to validation and reconciliation."
+          ],
+          "verification_status": "verified",
+          "confidence": 0.9
+        },
+        {
+          "finding_id": "operational-performance_reporting-09616a93",
+          "dimension": "operational",
+          "severity": "HIGH",
+          "title": "Service Performance Measurement and Reporting",
+          "rationale": "The contract specifies that the Vendor shall furnish weekly and monthly performance reports summarizing incidents, resolutions, SLA compliance, bottlenecks, and recommendations for improvement.",
+          "recommendation": null,
+          "evidence_ids": [
+            "MLA-001-c1"
+          ],
+          "evidence_excerpts": [
+            "The Vendor shall furnish weekly and monthly performance reports summarizing incidents, resolutions, SLA compliance, bottlenecks, and recommendations for improvement."
+          ],
+          "verification_status": "verified",
+          "confidence": 0.95
+        }
+      ],
+      "error": null,
+      "retry_count": 0
+    },
+    {
       "dimension": "financial",
       "success": true,
       "findings": [
         {
-          "finding_id": "financial-payment_terms-268fe4d7",
+          "finding_id": "financial-payment_terms-92037534",
           "dimension": "financial",
           "severity": "MEDIUM",
           "title": "Payment Terms and Schedule",
@@ -28,11 +116,11 @@
           "confidence": 0.9
         },
         {
-          "finding_id": "financial-late_payment_penalties-5c9e9e70",
+          "finding_id": "financial-late_payment_penalties-9fc2d4ba",
           "dimension": "financial",
           "severity": "MEDIUM",
           "title": "Late Payment Penalty Details",
-          "rationale": "The contract specifies the penalties for late payments, including interest charges.",
+          "rationale": "The contract specifies that delays in invoice settlement beyond the stipulated period will incur an interest charge.",
           "recommendation": null,
           "evidence_ids": [
             "MLA-001-c1"
@@ -44,7 +132,7 @@
           "confidence": 0.9
         },
         {
-          "finding_id": "financial-pricing_structure-de151e8b",
+          "finding_id": "financial-pricing_structure-7bc020ab",
           "dimension": "financial",
           "severity": "MEDIUM",
           "title": "Pricing Structure Defined",
@@ -60,7 +148,7 @@
           "confidence": 0.9
         },
         {
-          "finding_id": "financial-financial_exposure_cap-1feeae7f",
+          "finding_id": "financial-financial_exposure_cap-5b11cf42",
           "dimension": "financial",
           "severity": "MEDIUM",
           "title": "Cap on Financial Exposure",
@@ -80,99 +168,11 @@
       "retry_count": 0
     },
     {
-      "dimension": "operational",
-      "success": true,
-      "findings": [
-        {
-          "finding_id": "operational-scope_of_work-8ac6a169",
-          "dimension": "operational",
-          "severity": "HIGH",
-          "title": "Scope of Work Defined",
-          "rationale": "The evidence clearly outlines the scope of services provided under the agreement, detailing the responsibilities and deliverables of the Vendor.",
-          "recommendation": null,
-          "evidence_ids": [
-            "MLA-001-c0"
-          ],
-          "evidence_excerpts": [
-            "The scope of services covered under this Agreement encompasses the comprehensive supply, delivery, installation, commissioning, maintenance, and long-term operational support of the Vendor’s hardware products for the Client’s BFSI operational ecosystem."
-          ],
-          "verification_status": "verified",
-          "confidence": 0.95
-        },
-        {
-          "finding_id": "operational-sla_commitments-5cb2e253",
-          "dimension": "operational",
-          "severity": "HIGH",
-          "title": "Service Level Commitments by Vendor",
-          "rationale": "The evidence explicitly outlines the service level commitments made by the Vendor, including incident acknowledgment and resolution timelines based on severity levels.",
-          "recommendation": null,
-          "evidence_ids": [
-            "MLA-001-c1"
-          ],
-          "evidence_excerpts": [
-            "The Vendor commits to resolving Critical incidents within four hours, High severity incidents within eight hours, Medium severity incidents within one business day, and Low severity incidents within seventy-two hours."
-          ],
-          "verification_status": "verified",
-          "confidence": 0.95
-        },
-        {
-          "finding_id": "operational-sla_remedies-b0ee8fff",
-          "dimension": "operational",
-          "severity": "MEDIUM",
-          "title": "Service Level Agreement Remedies",
-          "rationale": "The contract specifies that continued failure to meet SLA commitments may result in service credits or financial penalties as detailed in the Rate Card or annexures.",
-          "recommendation": null,
-          "evidence_ids": [
-            "MLA-001-c1"
-          ],
-          "evidence_excerpts": [
-            "Continued failure to meet SLA commitments may result in service credits or financial penalties as detailed in the Rate Card or annexures."
-          ],
-          "verification_status": "verified",
-          "confidence": 0.9
-        },
-        {
-          "finding_id": "operational-dependencies_obligations-6bdb9ad6",
-          "dimension": "operational",
-          "severity": "MEDIUM",
-          "title": "Client Payment Obligations",
-          "rationale": "The evidence outlines the obligations of the Client regarding payment terms, which are critical for the Vendor's performance.",
-          "recommendation": null,
-          "evidence_ids": [
-            "MLA-001-c1"
-          ],
-          "evidence_excerpts": [
-            "The Client shall make payments within forty-five (45) days from the date of receipt of the completed invoice, subject to validation and reconciliation."
-          ],
-          "verification_status": "verified",
-          "confidence": 0.9
-        },
-        {
-          "finding_id": "operational-performance_reporting-d9628bc6",
-          "dimension": "operational",
-          "severity": "HIGH",
-          "title": "Service Performance Measurement and Reporting",
-          "rationale": "The contract specifies that the Vendor shall furnish weekly and monthly performance reports summarizing incidents, resolutions, SLA compliance, bottlenecks, and recommendations for improvement.",
-          "recommendation": null,
-          "evidence_ids": [
-            "MLA-001-c1"
-          ],
-          "evidence_excerpts": [
-            "The Vendor shall furnish weekly and monthly performance reports summarizing incidents, resolutions, SLA compliance, bottlenecks, and recommendations for improvement."
-          ],
-          "verification_status": "verified",
-          "confidence": 0.9
-        }
-      ],
-      "error": null,
-      "retry_count": 0
-    },
-    {
       "dimension": "legal",
       "success": true,
       "findings": [
         {
-          "finding_id": "legal-liability_cap-249c2460",
+          "finding_id": "legal-liability_cap-b153ef53",
           "dimension": "legal",
           "severity": "HIGH",
           "title": "Limitation of Liability Found",
@@ -185,12 +185,12 @@
             "Except for breaches involving confidentiality, intellectual property misuse, or acts of gross negligence or willful misconduct, each Party’s total cumulative liability under this Agreement shall not exceed the total amount paid by the Client to the Vendor in the preceding twelve (12) months."
           ],
           "verification_status": "verified",
-          "confidence": 0.9
+          "confidence": 0.95
         },
         {
-          "finding_id": "legal-indemnification-bad8f8ec",
+          "finding_id": "legal-indemnification-e31c0615",
           "dimension": "legal",
-          "severity": "MEDIUM",
+          "severity": "HIGH",
           "title": "Indemnification Obligations",
           "rationale": "The evidence clearly outlines the indemnification obligations of both parties under the agreement, specifying the conditions under which each party agrees to indemnify the other.",
           "recommendation": null,
@@ -201,14 +201,14 @@
             "The Vendor agrees to indemnify and defend the Client against any third-party claims, damages, losses, liabilities, or expenses arising from product defects, workmanship deficiencies, or bodily injury caused solely by the Vendor’s Hardware Products when used as intended. The Client agrees to indemnify the Vendor against claims arising from improper handling, misuse, alteration of devices, or any actions taken by the Client that deviate from the operational guidelines provided by the Vendor."
           ],
           "verification_status": "verified",
-          "confidence": 0.9
+          "confidence": 0.95
         },
         {
-          "finding_id": "legal-termination_for_cause-152a3a00",
+          "finding_id": "legal-termination_for_cause-5c6a5326",
           "dimension": "legal",
           "severity": "MEDIUM",
           "title": "Termination for Cause Conditions",
-          "rationale": "The contract specifies conditions under which it can be terminated for cause, including material breaches that are not cured within a specified time frame.",
+          "rationale": "The contract specifies that either party may terminate the agreement for cause if there is a material breach that is not cured within 30 days of written notice. Specific situations constituting cause include persistent failure to meet service obligations, non-payment, misconduct, breach of confidentiality, or non-compliance with laws.",
           "recommendation": null,
           "evidence_ids": [
             "MLA-001-c0"
@@ -220,7 +220,7 @@
           "confidence": 0.9
         },
         {
-          "finding_id": "legal-termination_for_convenience-603e173f",
+          "finding_id": "legal-termination_for_convenience-6be95f76",
           "dimension": "legal",
           "severity": "MEDIUM",
           "title": "Termination for Convenience Notice Period",
@@ -236,10 +236,10 @@
           "confidence": 0.9
         },
         {
-          "finding_id": "legal-confidentiality_survival-70675207",
+          "finding_id": "legal-confidentiality_survival-ce3398c3",
           "dimension": "legal",
           "severity": "MEDIUM",
-          "title": "Confidentiality Obligations Survival",
+          "title": "Confidentiality Obligations Survival Period",
           "rationale": "The evidence explicitly states the duration for which confidentiality obligations survive after the agreement ends.",
           "recommendation": null,
           "evidence_ids": [
@@ -252,7 +252,7 @@
           "confidence": 0.9
         },
         {
-          "finding_id": "legal-ip_ownership-062986f8",
+          "finding_id": "legal-ip_ownership-3d31921a",
           "dimension": "legal",
           "severity": "HIGH",
           "title": "Intellectual Property Ownership",
@@ -268,11 +268,11 @@
           "confidence": 0.95
         },
         {
-          "finding_id": "legal-governing_law_disputes-cb7cf7f6",
+          "finding_id": "legal-governing_law_disputes-779c5304",
           "dimension": "legal",
           "severity": "HIGH",
           "title": "Governing Law and Dispute Resolution",
-          "rationale": "The evidence clearly outlines the governing law and the method for resolving disputes, specifying arbitration as the resolution method and mentioning the applicable jurisdiction.",
+          "rationale": "The evidence clearly outlines the governing law and the method for resolving disputes, specifying arbitration as the resolution method and the applicable jurisdiction.",
           "recommendation": null,
           "evidence_ids": [
             "MLA-001-c3",
@@ -292,12 +292,13 @@
   "unresolved_issues": [],
   "consensus_actions": [
     "Review: [operational] Scope of Work Defined",
-    "Review: [operational] Service Level Commitments by Vendor",
+    "Review: [operational] Vendor's Service Level Commitments",
     "Review: [operational] Service Performance Measurement and Reporting",
     "Review: [legal] Limitation of Liability Found",
+    "Review: [legal] Indemnification Obligations",
     "Review: [legal] Intellectual Property Ownership",
     "Review: [legal] Governing Law and Dispute Resolution"
   ],
   "overall_risk": "HIGH",
-  "created_at": "2026-09-26T13:08:20.693724"
+  "created_at": "2026-10-06T01:56:44.582515"
 }

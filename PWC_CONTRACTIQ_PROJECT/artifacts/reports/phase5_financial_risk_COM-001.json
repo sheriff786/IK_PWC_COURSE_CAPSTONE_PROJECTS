@@ -3,7 +3,7 @@
   "success": true,
   "findings": [
     {
-      "finding_id": "financial-payment_terms-4a2dcc3e",
+      "finding_id": "financial-payment_terms-032293fa",
       "dimension": "financial",
       "severity": "MEDIUM",
       "title": "Payment Terms and Schedule",
@@ -19,7 +19,7 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "financial-late_payment_penalties-f511bcf8",
+      "finding_id": "financial-late_payment_penalties-514b88c5",
       "dimension": "financial",
       "severity": "MEDIUM",
       "title": "Late Payment Penalties",
@@ -35,23 +35,23 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "financial-pricing_structure-ae6c440d",
+      "finding_id": "financial-pricing_structure-6c35a9c0",
       "dimension": "financial",
-      "severity": "MEDIUM",
+      "severity": "HIGH",
       "title": "Pricing Structure Defined",
-      "rationale": "The evidence provides a clear description of the pricing structure, including the establishment of base pricing and conditions for pricing revisions.",
+      "rationale": "The evidence explicitly outlines the pricing structure for the products and services provided by the Vendor to the Client, including details on base pricing, payment terms, and conditions for price revisions.",
       "recommendation": null,
       "evidence_ids": [
         "COM-001-c0"
       ],
       "evidence_excerpts": [
-        "The pricing of each product is established in Table 1: Base Pricing, which shall be effective for the duration of this Agreement, unless modified through mutual written consent."
+        "The pricing structure, terms, and conditions applicable to the sale and supply of electronic hardware products and related services provided by Vendor to Client."
       ],
       "verification_status": "verified",
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "finding_id": "financial-price_escalation-9e88805a",
+      "finding_id": "financial-price_escalation-7a9ec31b",
       "dimension": "financial",
       "severity": "MEDIUM",
       "title": "Price Revision Clause Present",

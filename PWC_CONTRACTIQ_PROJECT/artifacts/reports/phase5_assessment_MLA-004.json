@@ -1,29 +1,22 @@
 {
-  "assessment_id": "assessment-MLA-004-590f82d4",
+  "assessment_id": "assessment-MLA-004-2e71c6b2",
   "doc_id": "MLA-004",
-  "run_id": "c4483eb58d58",
+  "run_id": "a1700c698b0f",
   "document_version": "1",
   "model_version": "gpt-4o-mini",
   "prompt_version": "phase5-specialist-prompts-v1",
   "policy_version": "risk-policy-v1",
   "dimension_results": [
     {
-      "dimension": "financial",
-      "success": true,
-      "findings": [],
-      "error": null,
-      "retry_count": 0
-    },
-    {
       "dimension": "operational",
       "success": true,
       "findings": [
         {
-          "finding_id": "operational-dependencies_obligations-ef49b676",
+          "finding_id": "operational-dependencies_obligations-407a021a",
           "dimension": "operational",
           "severity": "MEDIUM",
           "title": "Client-Side Obligations for Performance",
-          "rationale": "The vendor relies on the client to provide various forms of Confidential Information necessary for the collaboration, which includes operational models, project plans, and compliance interpretations.",
+          "rationale": "The vendor relies on the client to provide various forms of Confidential Information necessary for the collaboration, including operational models, project plans, and compliance interpretations, which are essential for the vendor's performance.",
           "recommendation": null,
           "evidence_ids": [
             "MLA-004-c0"
@@ -32,9 +25,16 @@
             "Such information includes, but is not limited to, engineering documentation such as block diagrams, circuit layouts, PCB manufacturing files, embedded code, source binaries, firmware logic, secure boot designs, encryption key structures for testing, device communication protocols, debugging tools, prototype devices, testing rigs, engineering samples, and custom embedded software created by or for either Party."
           ],
           "verification_status": "verified",
-          "confidence": 0.9
+          "confidence": 0.85
         }
       ],
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "dimension": "financial",
+      "success": true,
+      "findings": [],
       "error": null,
       "retry_count": 0
     },
@@ -43,7 +43,7 @@
       "success": true,
       "findings": [
         {
-          "finding_id": "legal-termination_for_cause-1f4488b6",
+          "finding_id": "legal-termination_for_cause-fb50b307",
           "dimension": "legal",
           "severity": "HIGH",
           "title": "Conditions for Termination for Cause",
@@ -59,7 +59,7 @@
           "confidence": 0.9
         },
         {
-          "finding_id": "legal-confidentiality_survival-f07e45ef",
+          "finding_id": "legal-confidentiality_survival-6a1b14d4",
           "dimension": "legal",
           "severity": "MEDIUM",
           "title": "Confidentiality Obligations Survival Period",
@@ -75,7 +75,7 @@
           "confidence": 0.9
         },
         {
-          "finding_id": "legal-ip_ownership-eb901c66",
+          "finding_id": "legal-ip_ownership-2f53a125",
           "dimension": "legal",
           "severity": "HIGH",
           "title": "Intellectual Property Ownership",
@@ -88,14 +88,14 @@
             "All intellectual property rights connected to the Confidential Information remain solely with the Disclosing Party."
           ],
           "verification_status": "verified",
-          "confidence": 0.95
+          "confidence": 0.9
         },
         {
-          "finding_id": "legal-governing_law_disputes-6a249736",
+          "finding_id": "legal-governing_law_disputes-c542b64e",
           "dimension": "legal",
           "severity": "HIGH",
           "title": "Governing Law and Dispute Resolution",
-          "rationale": "The contract specifies the governing law and the process for resolving disputes through arbitration.",
+          "rationale": "The evidence explicitly outlines the governing law and dispute resolution process, including arbitration.",
           "recommendation": null,
           "evidence_ids": [
             "MLA-004-c2"
@@ -107,7 +107,7 @@
           "confidence": 0.95
         },
         {
-          "finding_id": "legal-assignment_change_of_control-395636ed",
+          "finding_id": "legal-assignment_change_of_control-e496a219",
           "dimension": "legal",
           "severity": "MEDIUM",
           "title": "Assignment and Change of Control Restrictions",
@@ -134,5 +134,5 @@
     "Review: [legal] Governing Law and Dispute Resolution"
   ],
   "overall_risk": "HIGH",
-  "created_at": "2026-09-26T13:09:01.610337"
+  "created_at": "2026-10-06T01:57:27.899796"
 }

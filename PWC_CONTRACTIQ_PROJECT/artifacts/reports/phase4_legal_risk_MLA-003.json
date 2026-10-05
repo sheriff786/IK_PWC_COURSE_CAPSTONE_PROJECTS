@@ -3,7 +3,7 @@
   "success": true,
   "findings": [
     {
-      "finding_id": "legal-termination_for_cause-d6b933f4",
+      "finding_id": "legal-termination_for_cause-fc4325a2",
       "dimension": "legal",
       "severity": "HIGH",
       "title": "Conditions for Termination for Cause",
@@ -19,11 +19,11 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "legal-confidentiality_survival-f6903fdb",
+      "finding_id": "legal-confidentiality_survival-8edf5c75",
       "dimension": "legal",
       "severity": "MEDIUM",
       "title": "Confidentiality Obligations Survival Period",
-      "rationale": "The confidentiality obligations set forth herein shall survive for a period of five (5) years from the date of termination or from the last disclosure of Confidential Information, whichever occurs later.",
+      "rationale": "The contract specifies the duration for which confidentiality obligations survive after termination.",
       "recommendation": null,
       "evidence_ids": [
         "MLA-003-c1"
@@ -35,11 +35,11 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "legal-ip_ownership-2dacba12",
+      "finding_id": "legal-ip_ownership-17dc3584",
       "dimension": "legal",
       "severity": "HIGH",
       "title": "Intellectual Property Ownership",
-      "rationale": "The contract explicitly states that the Receiving Party shall not claim any intellectual property rights from the Confidential Information or any work product arising from it.",
+      "rationale": "The contract explicitly states that the Receiving Party shall not claim, register, patent, or derive any intellectual property rights from the Confidential Information or any work product arising from it.",
       "recommendation": null,
       "evidence_ids": [
         "MLA-003-c2"
@@ -51,11 +51,11 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "legal-governing_law_disputes-fdc43c54",
+      "finding_id": "legal-governing_law_disputes-157e4dd4",
       "dimension": "legal",
       "severity": "MEDIUM",
       "title": "Governing Law and Dispute Resolution",
-      "rationale": "The evidence explicitly outlines the governing law and dispute resolution process for the contract.",
+      "rationale": "The evidence clearly outlines the governing law and dispute resolution process for the contract.",
       "recommendation": null,
       "evidence_ids": [
         "MLA-003-c2"
@@ -67,11 +67,11 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "legal-assignment_change_of_control-191d6bf0",
+      "finding_id": "legal-assignment_change_of_control-a6ff3af1",
       "dimension": "legal",
       "severity": "MEDIUM",
       "title": "Assignment and Change of Control Restrictions",
-      "rationale": "The contract explicitly states that neither party may assign or transfer its rights or obligations under this Agreement without prior written consent from the other party.",
+      "rationale": "The contract explicitly states that neither party may assign or transfer its rights or obligations under this Agreement without the prior written consent of the other Party.",
       "recommendation": null,
       "evidence_ids": [
         "MLA-003-c2"

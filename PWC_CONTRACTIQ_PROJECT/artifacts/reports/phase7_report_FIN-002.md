@@ -1,14 +1,14 @@
 # ContractIQ Risk Report — FIN-002
 
 **Overall risk:** MEDIUM  
-**Assessment ID:** assessment-FIN-002-0834cf5b  
-**Run ID:** 99ea20256e60  
+**Assessment ID:** assessment-FIN-002-fec73b91  
+**Run ID:** 8e914076dff0  
 **Document version:** 1  
 **Model version:** gpt-4o-mini  
 **Prompt version:** phase5-specialist-prompts-v1  
 **Policy version:** risk-policy-v1  
-**Created at:** 2026-09-26T13:09:43.719143  
-**Report generated:** 2026-10-05T20:14:09.216694+00:00
+**Created at:** 2026-10-06T01:58:16.396422  
+**Report generated:** 2026-10-05T20:32:44.992691+00:00
 
 ## Specialist statuses
 - **financial**: OK, 3 finding(s), retry_count=0
@@ -29,7 +29,7 @@ Advance payments will not exceed 20% of total PO unless mutually..."
   - rationale: The contract specifies a penalty for late payments, which directly addresses the topic of late payment penalties.
   - evidence: `['FIN-002-c0']` — "Late payment penalty: 1.5% per month on overdue amounts."
 - **[MEDIUM] Pricing Structure and Billing Schedule** (confidence=0.9)
-  - rationale: The evidence provides a detailed description of the pricing structure and billing schedule, including standard billing practices, payment terms, and invoicing details.
+  - rationale: The evidence provides a detailed description of the billing schedule and payment terms, which constitutes the pricing structure for the agreement.
   - evidence: `['FIN-002-c0']` — "3. Billing Schedule & Frequency
 3.1 Standard Billing:
 Monthly Invoicing: For ongoing supply contracts, invoices will be raised on the last business day of each month.

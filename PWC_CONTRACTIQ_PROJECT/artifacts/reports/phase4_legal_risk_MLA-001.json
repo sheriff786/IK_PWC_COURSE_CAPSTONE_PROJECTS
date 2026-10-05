@@ -3,7 +3,7 @@
   "success": true,
   "findings": [
     {
-      "finding_id": "legal-liability_cap-249c2460",
+      "finding_id": "legal-liability_cap-b153ef53",
       "dimension": "legal",
       "severity": "HIGH",
       "title": "Limitation of Liability Found",
@@ -16,12 +16,12 @@
         "Except for breaches involving confidentiality, intellectual property misuse, or acts of gross negligence or willful misconduct, each Party’s total cumulative liability under this Agreement shall not exceed the total amount paid by the Client to the Vendor in the preceding twelve (12) months."
       ],
       "verification_status": "verified",
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "finding_id": "legal-indemnification-bad8f8ec",
+      "finding_id": "legal-indemnification-e31c0615",
       "dimension": "legal",
-      "severity": "MEDIUM",
+      "severity": "HIGH",
       "title": "Indemnification Obligations",
       "rationale": "The evidence clearly outlines the indemnification obligations of both parties under the agreement, specifying the conditions under which each party agrees to indemnify the other.",
       "recommendation": null,
@@ -32,14 +32,14 @@
         "The Vendor agrees to indemnify and defend the Client against any third-party claims, damages, losses, liabilities, or expenses arising from product defects, workmanship deficiencies, or bodily injury caused solely by the Vendor’s Hardware Products when used as intended. The Client agrees to indemnify the Vendor against claims arising from improper handling, misuse, alteration of devices, or any actions taken by the Client that deviate from the operational guidelines provided by the Vendor."
       ],
       "verification_status": "verified",
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "finding_id": "legal-termination_for_cause-152a3a00",
+      "finding_id": "legal-termination_for_cause-5c6a5326",
       "dimension": "legal",
       "severity": "MEDIUM",
       "title": "Termination for Cause Conditions",
-      "rationale": "The contract specifies conditions under which it can be terminated for cause, including material breaches that are not cured within a specified time frame.",
+      "rationale": "The contract specifies that either party may terminate the agreement for cause if there is a material breach that is not cured within 30 days of written notice. Specific situations constituting cause include persistent failure to meet service obligations, non-payment, misconduct, breach of confidentiality, or non-compliance with laws.",
       "recommendation": null,
       "evidence_ids": [
         "MLA-001-c0"
@@ -51,7 +51,7 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "legal-termination_for_convenience-603e173f",
+      "finding_id": "legal-termination_for_convenience-6be95f76",
       "dimension": "legal",
       "severity": "MEDIUM",
       "title": "Termination for Convenience Notice Period",
@@ -67,10 +67,10 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "legal-confidentiality_survival-70675207",
+      "finding_id": "legal-confidentiality_survival-ce3398c3",
       "dimension": "legal",
       "severity": "MEDIUM",
-      "title": "Confidentiality Obligations Survival",
+      "title": "Confidentiality Obligations Survival Period",
       "rationale": "The evidence explicitly states the duration for which confidentiality obligations survive after the agreement ends.",
       "recommendation": null,
       "evidence_ids": [
@@ -83,7 +83,7 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "legal-ip_ownership-062986f8",
+      "finding_id": "legal-ip_ownership-3d31921a",
       "dimension": "legal",
       "severity": "HIGH",
       "title": "Intellectual Property Ownership",
@@ -99,11 +99,11 @@
       "confidence": 0.95
     },
     {
-      "finding_id": "legal-governing_law_disputes-cb7cf7f6",
+      "finding_id": "legal-governing_law_disputes-779c5304",
       "dimension": "legal",
       "severity": "HIGH",
       "title": "Governing Law and Dispute Resolution",
-      "rationale": "The evidence clearly outlines the governing law and the method for resolving disputes, specifying arbitration as the resolution method and mentioning the applicable jurisdiction.",
+      "rationale": "The evidence clearly outlines the governing law and the method for resolving disputes, specifying arbitration as the resolution method and the applicable jurisdiction.",
       "recommendation": null,
       "evidence_ids": [
         "MLA-001-c3",

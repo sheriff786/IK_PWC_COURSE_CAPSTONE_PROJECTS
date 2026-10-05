@@ -3,7 +3,7 @@
   "success": true,
   "findings": [
     {
-      "finding_id": "operational-scope_of_work-cc1217f0",
+      "finding_id": "operational-scope_of_work-c86525a5",
       "dimension": "operational",
       "severity": "MEDIUM",
       "title": "Scope of Work Defined",
@@ -19,11 +19,11 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "operational-acceptance_criteria-db42fe98",
+      "finding_id": "operational-acceptance_criteria-50c8f864",
       "dimension": "operational",
       "severity": "MEDIUM",
       "title": "Acceptance Criteria for Deliverables",
-      "rationale": "The evidence specifies that the Client requested milestone-based payments tied to acceptance testing, indicating that acceptance criteria are part of the agreement.",
+      "rationale": "The evidence specifies that the Client requested milestone-based payments tied to acceptance testing, indicating that acceptance criteria are part of the deliverables under this agreement.",
       "recommendation": null,
       "evidence_ids": [
         "NEG-003-c0"
@@ -35,7 +35,7 @@
       "confidence": 0.85
     },
     {
-      "finding_id": "operational-sla_commitments-12ca334e",
+      "finding_id": "operational-sla_commitments-f38a31ee",
       "dimension": "operational",
       "severity": "HIGH",
       "title": "Service Level Commitments",
@@ -51,11 +51,11 @@
       "confidence": 0.3
     },
     {
-      "finding_id": "operational-dependencies_obligations-8d3b3dad",
+      "finding_id": "operational-dependencies_obligations-a8f2408b",
       "dimension": "operational",
       "severity": "MEDIUM",
       "title": "Client-Side Obligations for Vendor Performance",
-      "rationale": "The vendor relies on the client to fulfill certain obligations that are critical for the vendor's performance, such as timely acceptance of hardware and adherence to payment schedules tied to acceptance testing.",
+      "rationale": "The vendor relies on the client to fulfill certain obligations that are critical for the vendor's performance, such as timely acceptance of hardware and adherence to payment schedules.",
       "recommendation": null,
       "evidence_ids": [
         "NEG-003-c0"
@@ -64,7 +64,7 @@
         "Client requested milestone-based payments tied to acceptance testing rather than delivery date."
       ],
       "verification_status": "verified",
-      "confidence": 0.85
+      "confidence": 0.9
     }
   ],
   "error": null,

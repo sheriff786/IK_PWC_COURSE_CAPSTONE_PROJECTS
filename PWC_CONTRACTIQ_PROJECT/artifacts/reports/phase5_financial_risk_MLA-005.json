@@ -3,23 +3,23 @@
   "success": true,
   "findings": [
     {
-      "finding_id": "financial-payment_terms-54d7ebad",
+      "finding_id": "financial-payment_terms-4f857481",
       "dimension": "financial",
       "severity": "MEDIUM",
-      "title": "Payment Terms and Invoicing Requirements",
-      "rationale": "The evidence outlines the pricing structure, invoicing requirements, and conditions under which charges can be made, ensuring clarity and predictability in financial transactions between the Vendor and Client.",
+      "title": "Payment Terms and Conditions",
+      "rationale": "The evidence outlines the pricing structure and conditions under which payments are to be made, including invoice requirements and price protection mechanisms.",
       "recommendation": null,
       "evidence_ids": [
         "MLA-005-c2"
       ],
       "evidence_excerpts": [
-        "All invoices raised by the Vendor shall strictly correspond to the pricing categories and values stated in this Agreement."
+        "All invoices raised by the Vendor shall strictly correspond to the pricing categories and values stated in this Agreement. No invoice may include line items that deviate from or exceed the approved rate card."
       ],
       "verification_status": "verified",
-      "confidence": 0.9
+      "confidence": 0.85
     },
     {
-      "finding_id": "financial-pricing_structure-b5e5cae5",
+      "finding_id": "financial-pricing_structure-471c8606",
       "dimension": "financial",
       "severity": "HIGH",
       "title": "Pricing Structure Overview",
@@ -35,7 +35,7 @@
       "confidence": 0.95
     },
     {
-      "finding_id": "financial-price_escalation-a6298333",
+      "finding_id": "financial-price_escalation-f35c35b7",
       "dimension": "financial",
       "severity": "MEDIUM",
       "title": "Price Escalation Clauses Present",
@@ -51,7 +51,7 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "financial-renewal_pricing-944bb4b9",
+      "finding_id": "financial-renewal_pricing-db51f632",
       "dimension": "financial",
       "severity": "MEDIUM",
       "title": "Renewal Pricing and Terms",
@@ -67,11 +67,11 @@
       "confidence": 0.85
     },
     {
-      "finding_id": "financial-financial_exposure_cap-63f97ae6",
+      "finding_id": "financial-financial_exposure_cap-962fc311",
       "dimension": "financial",
       "severity": "HIGH",
       "title": "Cap on Financial Exposure and Charges",
-      "rationale": "The contract explicitly prohibits the introduction of new financial charges outside the agreed terms, ensuring that the Client is protected from unexpected financial exposure.",
+      "rationale": "The contract explicitly prohibits the Vendor from introducing any new financial charges outside the Agreement, ensuring that the Client is protected from unexpected financial exposure and maintains commercial predictability throughout the contract term.",
       "recommendation": null,
       "evidence_ids": [
         "MLA-005-c2",

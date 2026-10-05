@@ -3,10 +3,10 @@
   "success": true,
   "findings": [
     {
-      "finding_id": "operational-scope_of_work-3fed9439",
+      "finding_id": "operational-scope_of_work-9e96b4ca",
       "dimension": "operational",
       "severity": "MEDIUM",
-      "title": "Scope of Work and Deliverables Defined",
+      "title": "Scope of Work Defined",
       "rationale": "The evidence clearly outlines the scope of products and services covered under the agreement, detailing the types of hardware and associated services that the Vendor will provide to the Client.",
       "recommendation": null,
       "evidence_ids": [
@@ -19,11 +19,11 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "operational-sla_commitments-086c9cab",
+      "finding_id": "operational-sla_commitments-9480e3b8",
       "dimension": "operational",
       "severity": "MEDIUM",
       "title": "Service Level Commitments in the Agreement",
-      "rationale": "The evidence outlines the Vendor's commitments regarding service levels, particularly in terms of warranty, maintenance, and support services, which are critical for operational assurance in BFSI operations.",
+      "rationale": "The evidence outlines various service commitments related to installation, support, and maintenance, which are critical components of service level agreements.",
       "recommendation": null,
       "evidence_ids": [
         "MLA-006-c0"

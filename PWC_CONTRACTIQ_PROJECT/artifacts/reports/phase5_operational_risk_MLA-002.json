@@ -3,7 +3,7 @@
   "success": true,
   "findings": [
     {
-      "finding_id": "operational-scope_of_work-408d6877",
+      "finding_id": "operational-scope_of_work-682fff95",
       "dimension": "operational",
       "severity": "HIGH",
       "title": "Scope of Work Defined",
@@ -19,7 +19,7 @@
       "confidence": 0.95
     },
     {
-      "finding_id": "operational-acceptance_criteria-22c40a19",
+      "finding_id": "operational-acceptance_criteria-e2985c37",
       "dimension": "operational",
       "severity": "HIGH",
       "title": "Acceptance Criteria for Deliverables",
@@ -35,7 +35,7 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "operational-sla_commitments-f31c68d4",
+      "finding_id": "operational-sla_commitments-99837f29",
       "dimension": "operational",
       "severity": "HIGH",
       "title": "Service Level Commitments and Performance Expectations",
@@ -45,13 +45,13 @@
         "MLA-002-c1"
       ],
       "evidence_excerpts": [
-        "The Vendor shall deliver all managed services in accordance with well-defined service level commitments that reflect the critical nature of financial operations."
+        "The Vendor shall deliver all managed services in accordance with well-defined service level commitments that reflect the critical nature of financial operations. The Vendor shall ensure that DOA devices are replaced within a period not exceeding forty-eight hours from the time of formal acknowledgement."
       ],
       "verification_status": "verified",
       "confidence": 0.95
     },
     {
-      "finding_id": "operational-sla_remedies-99a449c2",
+      "finding_id": "operational-sla_remedies-d26b570c",
       "dimension": "operational",
       "severity": "MEDIUM",
       "title": "Service Credits for SLA Breaches",
@@ -67,11 +67,11 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "operational-dependencies_obligations-5d9a1f7a",
+      "finding_id": "operational-dependencies_obligations-ac452bd4",
       "dimension": "operational",
       "severity": "MEDIUM",
       "title": "Client-Side Obligations for Vendor Performance",
-      "rationale": "The evidence specifies that the Client is responsible for providing timely access to installation sites, ensuring electrical and network readiness, and guaranteeing safe and authorized access for Vendor personnel and service representatives, which are critical for the Vendor's performance.",
+      "rationale": "The Client is responsible for providing timely access to installation sites, ensuring electrical and network readiness, and guaranteeing safe and authorized access for Vendor personnel and service representatives, which are critical for the Vendor's performance.",
       "recommendation": null,
       "evidence_ids": [
         "MLA-002-c0"
@@ -83,11 +83,11 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "operational-performance_reporting-511df931",
+      "finding_id": "operational-performance_reporting-1b71bc32",
       "dimension": "operational",
       "severity": "MEDIUM",
       "title": "Service Performance Reporting Mechanism",
-      "rationale": "The evidence outlines the structured reporting mechanisms in place for service performance, including routine operational reports and performance metrics.",
+      "rationale": "The evidence outlines the structured approach to performance reporting, including specific metrics and documentation that will be provided to the Client.",
       "recommendation": null,
       "evidence_ids": [
         "MLA-002-c0"

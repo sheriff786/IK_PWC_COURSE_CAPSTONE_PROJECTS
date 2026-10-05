@@ -1,7 +1,7 @@
 {
-  "assessment_id": "assessment-FIN-002-0834cf5b",
+  "assessment_id": "assessment-FIN-002-fec73b91",
   "doc_id": "FIN-002",
-  "run_id": "99ea20256e60",
+  "run_id": "8e914076dff0",
   "document_version": "1",
   "model_version": "gpt-4o-mini",
   "prompt_version": "phase5-specialist-prompts-v1",
@@ -12,7 +12,7 @@
       "success": true,
       "findings": [
         {
-          "finding_id": "financial-payment_terms-a86cfbbf",
+          "finding_id": "financial-payment_terms-43cd9fdb",
           "dimension": "financial",
           "severity": "MEDIUM",
           "title": "Payment Terms and Schedule",
@@ -28,7 +28,7 @@
           "confidence": 0.9
         },
         {
-          "finding_id": "financial-late_payment_penalties-dce00598",
+          "finding_id": "financial-late_payment_penalties-5b57d922",
           "dimension": "financial",
           "severity": "MEDIUM",
           "title": "Late Payment Penalty",
@@ -44,11 +44,11 @@
           "confidence": 0.9
         },
         {
-          "finding_id": "financial-pricing_structure-079a1ea9",
+          "finding_id": "financial-pricing_structure-ea2771e5",
           "dimension": "financial",
           "severity": "MEDIUM",
           "title": "Pricing Structure and Billing Schedule",
-          "rationale": "The evidence provides a detailed description of the pricing structure and billing schedule, including standard billing practices, payment terms, and invoicing details.",
+          "rationale": "The evidence provides a detailed description of the billing schedule and payment terms, which constitutes the pricing structure for the agreement.",
           "recommendation": null,
           "evidence_ids": [
             "FIN-002-c0"
@@ -68,7 +68,7 @@
       "success": true,
       "findings": [
         {
-          "finding_id": "legal-termination_for_convenience-98594353",
+          "finding_id": "legal-termination_for_convenience-7d2f7af3",
           "dimension": "legal",
           "severity": "MEDIUM",
           "title": "Termination for Convenience Notice Period",
@@ -84,7 +84,7 @@
           "confidence": 0.9
         },
         {
-          "finding_id": "legal-governing_law_disputes-3893cdae",
+          "finding_id": "legal-governing_law_disputes-451952e6",
           "dimension": "legal",
           "severity": "HIGH",
           "title": "Governing Law and Dispute Resolution",
@@ -108,7 +108,7 @@
       "success": true,
       "findings": [
         {
-          "finding_id": "operational-scope_of_work-7acc8e29",
+          "finding_id": "operational-scope_of_work-72ffb367",
           "dimension": "operational",
           "severity": "MEDIUM",
           "title": "Scope of Work Defined",
@@ -124,7 +124,7 @@
           "confidence": 0.9
         },
         {
-          "finding_id": "operational-sla_commitments-f50444ec",
+          "finding_id": "operational-sla_commitments-b24141db",
           "dimension": "operational",
           "severity": "MEDIUM",
           "title": "Vendor's Service Level Commitments",
@@ -140,7 +140,7 @@
           "confidence": 0.3
         },
         {
-          "finding_id": "operational-dependencies_obligations-a1941812",
+          "finding_id": "operational-dependencies_obligations-31c40605",
           "dimension": "operational",
           "severity": "MEDIUM",
           "title": "Client Obligations for Vendor Performance",
@@ -156,7 +156,7 @@
           "confidence": 0.9
         },
         {
-          "finding_id": "operational-performance_reporting-4729e0d0",
+          "finding_id": "operational-performance_reporting-09cff35b",
           "dimension": "operational",
           "severity": "MEDIUM",
           "title": "Service Performance Reporting",
@@ -181,5 +181,5 @@
     "Review: [legal] Governing Law and Dispute Resolution"
   ],
   "overall_risk": "MEDIUM",
-  "created_at": "2026-09-26T13:09:43.719143"
+  "created_at": "2026-10-06T01:58:16.396422"
 }

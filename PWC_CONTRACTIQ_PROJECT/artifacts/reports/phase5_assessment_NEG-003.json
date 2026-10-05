@@ -1,90 +1,18 @@
 {
-  "assessment_id": "assessment-NEG-003-19bc435e",
+  "assessment_id": "assessment-NEG-003-81f6d845",
   "doc_id": "NEG-003",
-  "run_id": "9fab9bac90c2",
+  "run_id": "597c4abd5125",
   "document_version": "1",
   "model_version": "gpt-4o-mini",
   "prompt_version": "phase5-specialist-prompts-v1",
   "policy_version": "risk-policy-v1",
   "dimension_results": [
     {
-      "dimension": "operational",
-      "success": true,
-      "findings": [
-        {
-          "finding_id": "operational-scope_of_work-cc1217f0",
-          "dimension": "operational",
-          "severity": "MEDIUM",
-          "title": "Scope of Work Defined",
-          "rationale": "The evidence clearly outlines the scope of work and deliverables under the agreement, specifying the responsibilities of the Vendor.",
-          "recommendation": null,
-          "evidence_ids": [
-            "NEG-003-c0"
-          ],
-          "evidence_excerpts": [
-            "3. Scope of Supply\n3.1 Vendor shall supply the Hardware as per specifications in Annexure A.\n3.2 Vendor shall provide installation, configuration, and integration services.\n3.3 Vendor shall provide training to Client staff for a period of 2 weeks post-installation."
-          ],
-          "verification_status": "verified",
-          "confidence": 0.9
-        },
-        {
-          "finding_id": "operational-acceptance_criteria-db42fe98",
-          "dimension": "operational",
-          "severity": "MEDIUM",
-          "title": "Acceptance Criteria for Deliverables",
-          "rationale": "The evidence specifies that the Client requested milestone-based payments tied to acceptance testing, indicating that acceptance criteria are part of the agreement.",
-          "recommendation": null,
-          "evidence_ids": [
-            "NEG-003-c0"
-          ],
-          "evidence_excerpts": [
-            "Client requested milestone-based payments tied to acceptance testing rather than delivery date."
-          ],
-          "verification_status": "verified",
-          "confidence": 0.85
-        },
-        {
-          "finding_id": "operational-sla_commitments-12ca334e",
-          "dimension": "operational",
-          "severity": "HIGH",
-          "title": "Service Level Commitments",
-          "rationale": "The vendor commits to a service uptime SLA of 99.9%, which was a request from the client, and also provides technical support 24x7.",
-          "recommendation": null,
-          "evidence_ids": [
-            "NEG-003-c0"
-          ],
-          "evidence_excerpts": [
-            "Client requested inclusion of service uptime SLA of 99.9% (Vendor initially proposed 98%). Vendor shall provide technical support 24x7."
-          ],
-          "verification_status": "failed_verification",
-          "confidence": 0.3
-        },
-        {
-          "finding_id": "operational-dependencies_obligations-8d3b3dad",
-          "dimension": "operational",
-          "severity": "MEDIUM",
-          "title": "Client-Side Obligations for Vendor Performance",
-          "rationale": "The vendor relies on the client to fulfill certain obligations that are critical for the vendor's performance, such as timely acceptance of hardware and adherence to payment schedules tied to acceptance testing.",
-          "recommendation": null,
-          "evidence_ids": [
-            "NEG-003-c0"
-          ],
-          "evidence_excerpts": [
-            "Client requested milestone-based payments tied to acceptance testing rather than delivery date."
-          ],
-          "verification_status": "verified",
-          "confidence": 0.85
-        }
-      ],
-      "error": null,
-      "retry_count": 0
-    },
-    {
       "dimension": "financial",
       "success": true,
       "findings": [
         {
-          "finding_id": "financial-payment_terms-f1c91724",
+          "finding_id": "financial-payment_terms-6db16a5f",
           "dimension": "financial",
           "severity": "LOW",
           "title": "Payment Terms and Schedule",
@@ -100,11 +28,11 @@
           "confidence": 0.9
         },
         {
-          "finding_id": "financial-pricing_structure-2065fa28",
+          "finding_id": "financial-pricing_structure-b4768d81",
           "dimension": "financial",
           "severity": "MEDIUM",
           "title": "Pricing Structure and Payment Terms",
-          "rationale": "The contract specifies a clear pricing structure and payment terms, detailing the total contract value and the payment schedule based on milestones.",
+          "rationale": "The contract specifies a total contract value and a detailed payment schedule, outlining the percentages due at various stages of the agreement.",
           "recommendation": null,
           "evidence_ids": [
             "NEG-003-c0"
@@ -116,11 +44,11 @@
           "confidence": 0.9
         },
         {
-          "finding_id": "financial-financial_exposure_cap-cd97f297",
+          "finding_id": "financial-financial_exposure_cap-dedd6a6c",
           "dimension": "financial",
           "severity": "MEDIUM",
           "title": "Cap on Financial Exposure",
-          "rationale": "The contract specifies that the Vendor's liability shall not exceed the total contract value, which effectively caps the financial exposure.",
+          "rationale": "The contract specifies that the Vendor's liability shall not exceed the total contract value, which indicates a cap on financial exposure.",
           "recommendation": null,
           "evidence_ids": [
             "NEG-003-c0"
@@ -136,11 +64,83 @@
       "retry_count": 0
     },
     {
+      "dimension": "operational",
+      "success": true,
+      "findings": [
+        {
+          "finding_id": "operational-scope_of_work-c86525a5",
+          "dimension": "operational",
+          "severity": "MEDIUM",
+          "title": "Scope of Work Defined",
+          "rationale": "The evidence clearly outlines the scope of work and deliverables under the agreement, specifying the responsibilities of the Vendor.",
+          "recommendation": null,
+          "evidence_ids": [
+            "NEG-003-c0"
+          ],
+          "evidence_excerpts": [
+            "3. Scope of Supply\n3.1 Vendor shall supply the Hardware as per specifications in Annexure A.\n3.2 Vendor shall provide installation, configuration, and integration services.\n3.3 Vendor shall provide training to Client staff for a period of 2 weeks post-installation."
+          ],
+          "verification_status": "verified",
+          "confidence": 0.9
+        },
+        {
+          "finding_id": "operational-acceptance_criteria-50c8f864",
+          "dimension": "operational",
+          "severity": "MEDIUM",
+          "title": "Acceptance Criteria for Deliverables",
+          "rationale": "The evidence specifies that the Client requested milestone-based payments tied to acceptance testing, indicating that acceptance criteria are part of the deliverables under this agreement.",
+          "recommendation": null,
+          "evidence_ids": [
+            "NEG-003-c0"
+          ],
+          "evidence_excerpts": [
+            "Client requested milestone-based payments tied to acceptance testing rather than delivery date."
+          ],
+          "verification_status": "verified",
+          "confidence": 0.85
+        },
+        {
+          "finding_id": "operational-sla_commitments-f38a31ee",
+          "dimension": "operational",
+          "severity": "HIGH",
+          "title": "Service Level Commitments",
+          "rationale": "The vendor commits to a service uptime SLA of 99.9%, which was a request from the client, and also provides technical support 24x7.",
+          "recommendation": null,
+          "evidence_ids": [
+            "NEG-003-c0"
+          ],
+          "evidence_excerpts": [
+            "Client requested inclusion of service uptime SLA of 99.9% (Vendor initially proposed 98%). Vendor shall provide technical support 24x7."
+          ],
+          "verification_status": "failed_verification",
+          "confidence": 0.3
+        },
+        {
+          "finding_id": "operational-dependencies_obligations-a8f2408b",
+          "dimension": "operational",
+          "severity": "MEDIUM",
+          "title": "Client-Side Obligations for Vendor Performance",
+          "rationale": "The vendor relies on the client to fulfill certain obligations that are critical for the vendor's performance, such as timely acceptance of hardware and adherence to payment schedules.",
+          "recommendation": null,
+          "evidence_ids": [
+            "NEG-003-c0"
+          ],
+          "evidence_excerpts": [
+            "Client requested milestone-based payments tied to acceptance testing rather than delivery date."
+          ],
+          "verification_status": "verified",
+          "confidence": 0.9
+        }
+      ],
+      "error": null,
+      "retry_count": 0
+    },
+    {
       "dimension": "legal",
       "success": true,
       "findings": [
         {
-          "finding_id": "legal-liability_cap-0fcb279f",
+          "finding_id": "legal-liability_cap-5515e921",
           "dimension": "legal",
           "severity": "MEDIUM",
           "title": "Limitation of Liability",
@@ -156,7 +156,7 @@
           "confidence": 0.9
         },
         {
-          "finding_id": "legal-indemnification-f4a115f1",
+          "finding_id": "legal-indemnification-0717e491",
           "dimension": "legal",
           "severity": "MEDIUM",
           "title": "Indemnification Obligations of Vendor",
@@ -172,7 +172,7 @@
           "confidence": 0.9
         },
         {
-          "finding_id": "legal-termination_for_cause-4674003a",
+          "finding_id": "legal-termination_for_cause-16ddbf05",
           "dimension": "legal",
           "severity": "MEDIUM",
           "title": "Termination for Cause Conditions",
@@ -188,7 +188,7 @@
           "confidence": 0.9
         },
         {
-          "finding_id": "legal-termination_for_convenience-9ef45bbb",
+          "finding_id": "legal-termination_for_convenience-f2f89cdd",
           "dimension": "legal",
           "severity": "MEDIUM",
           "title": "Termination for Convenience Notice Period",
@@ -204,7 +204,7 @@
           "confidence": 0.9
         },
         {
-          "finding_id": "legal-confidentiality_survival-6f93c64e",
+          "finding_id": "legal-confidentiality_survival-81ab9425",
           "dimension": "legal",
           "severity": "LOW",
           "title": "Confidentiality Obligations Survival Duration",
@@ -220,11 +220,11 @@
           "confidence": 0.9
         },
         {
-          "finding_id": "legal-governing_law_disputes-17c0349b",
+          "finding_id": "legal-governing_law_disputes-a0fa24c2",
           "dimension": "legal",
           "severity": "MEDIUM",
           "title": "Governing Law and Dispute Resolution",
-          "rationale": "The evidence specifies the governing law and the method for resolving disputes between the parties.",
+          "rationale": "The evidence specifies the governing law and the method for resolving disputes, indicating that arbitration will be used if amicable resolution fails.",
           "recommendation": null,
           "evidence_ids": [
             "NEG-003-c0"
@@ -245,5 +245,5 @@
     "Review: [operational] Service Level Commitments"
   ],
   "overall_risk": "MEDIUM",
-  "created_at": "2026-09-26T13:10:25.185893"
+  "created_at": "2026-10-06T01:59:03.547288"
 }
