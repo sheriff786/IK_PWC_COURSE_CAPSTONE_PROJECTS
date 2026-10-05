@@ -8,7 +8,7 @@
 **Prompt version:** phase5-specialist-prompts-v1  
 **Policy version:** risk-policy-v1  
 **Created at:** 2026-10-06T01:56:44.582515  
-**Report generated:** 2026-10-05T20:32:44.995364+00:00
+**Report generated:** 2026-10-05T21:30:16.471839+00:00
 
 ## Specialist statuses
 - **operational**: OK, 5 finding(s), retry_count=0

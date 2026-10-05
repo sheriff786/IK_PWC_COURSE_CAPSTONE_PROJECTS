@@ -102,9 +102,49 @@ FOLDER_TO_CATEGORY: Dict[str, str] = {}
 # ---------------------------------------------------------------------------
 
 EMBEDDING_MODEL = "text-embedding-3-small"
-LEGAL_AGENT_MODEL = "gpt-4o-mini"
-FINANCIAL_AGENT_MODEL = "gpt-4o-mini"
-OPERATIONAL_AGENT_MODEL = "gpt-4o-mini"
+
+# ---------------------------------------------------------------------------
+# Model tiering — a DELIBERATE cost/latency tradeoff, not one model everywhere.
+#
+# Measured baseline (Phase 7, artifacts/reports/phase7_evaluation_report.json,
+# 681 real calls): gpt-4o-mini specialists average ~1.3-1.5s and ~2,050 tokens
+# per topic call, at 94.6% citation validity. That is already strong, so the
+# default tier stays cheap.
+#
+# Rationale per tier:
+#  - TRIAGE (gpt-4o-mini): one cheap classification call per document decides
+#    which specialists are even worth running. Paying ~1 small call to skip up
+#    to 2 full specialist runs (12+ calls) is a clear net saving.
+#  - DEFAULT (gpt-4o-mini): handles every topic on a normal document. Phase 7
+#    shows no measured quality problem at this tier, so spending more by
+#    default would be cost without evidence of benefit.
+#  - ESCALATION (gpt-4o): used ONLY as the fallback when the cheap tier fails
+#    (schema/refusal/transient error) on retry. This is where a stronger model
+#    actually earns its cost — a retry that keeps failing is exactly the case
+#    where "same strategy again" is known not to work.
+# ---------------------------------------------------------------------------
+
+TRIAGE_MODEL = "gpt-4o-mini"
+DEFAULT_AGENT_MODEL = "gpt-4o-mini"
+ESCALATION_AGENT_MODEL = "gpt-4o"
+
+LEGAL_AGENT_MODEL = DEFAULT_AGENT_MODEL
+FINANCIAL_AGENT_MODEL = DEFAULT_AGENT_MODEL
+OPERATIONAL_AGENT_MODEL = DEFAULT_AGENT_MODEL
+
+# Closed-loop recovery policy (used by resilience.py)
+RETRY_MAX_ATTEMPTS = 3
+RETRY_BASE_DELAY_SECONDS = 1.0
+RETRY_MAX_DELAY_SECONDS = 8.0
+
+# Conditional-routing policy (used by orchestration.py). A dimension is only
+# run when triage finds the document plausibly contains content for it, so a
+# service report doesn't pay for a full legal sweep it has no clauses for.
+ROUTING_ENABLED_BY_DEFAULT = True
+
+# Findings at or below this confidence are routed to human review (HITL)
+# instead of being presented as settled.
+HITL_CONFIDENCE_THRESHOLD = 0.6
 
 CHUNK_SIZE_WORDS = 700     # start of the 600-800 range the roadmap specifies
 CHUNK_OVERLAP_WORDS = 100  # start of the 80-120 range; tune after Phase 3 eval

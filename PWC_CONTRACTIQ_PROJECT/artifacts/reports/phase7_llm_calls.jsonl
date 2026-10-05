@@ -679,3 +679,4 @@
 {"timestamp": "2026-10-05T20:29:38.782663+00:00", "stage": "embedding", "model": "text-embedding-3-small", "latency_ms": 261.8, "prompt_tokens": 15, "completion_tokens": null, "total_tokens": 15, "schema_failure": false, "error": null}
 {"timestamp": "2026-10-05T20:29:39.503443+00:00", "stage": "operational_specialist", "model": "gpt-4o-mini", "latency_ms": 1988.1, "prompt_tokens": 1363, "completion_tokens": 123, "total_tokens": 1486, "schema_failure": false, "error": null}
 {"timestamp": "2026-10-05T20:29:39.560699+00:00", "stage": "legal_specialist", "model": "gpt-4o-mini", "latency_ms": 749.6, "prompt_tokens": 1369, "completion_tokens": 10, "total_tokens": 1379, "schema_failure": false, "error": null}
+{"timestamp": "2026-10-05T20:49:13.702386+00:00", "stage": "embedding", "model": "text-embedding-3-small", "latency_ms": 1521.7, "prompt_tokens": 8, "completion_tokens": null, "total_tokens": 8, "schema_failure": false, "error": null}

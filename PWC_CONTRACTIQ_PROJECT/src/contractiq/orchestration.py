@@ -17,7 +17,7 @@ from __future__ import annotations
 import uuid
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
-from typing import Dict, List
+from typing import Any, Dict, List, Optional
 
 from .agents import (
     analyze_financial_risk,
@@ -26,10 +26,11 @@ from .agents import (
     save_financial_assessment,
     save_legal_assessment,
     save_operational_assessment,
+    triage_document,
 )
-from .config import FINANCIAL_AGENT_MODEL, LEGAL_AGENT_MODEL, OPERATIONAL_AGENT_MODEL, REPORTS_ROOT, \
-    RISK_SCORE_MAP, RISK_WEIGHTS
-from .models import Assessment, DimensionResult, Finding, RiskDimension, Severity
+from .config import FINANCIAL_AGENT_MODEL, HITL_CONFIDENCE_THRESHOLD, LEGAL_AGENT_MODEL, \
+    OPERATIONAL_AGENT_MODEL, REPORTS_ROOT, RISK_SCORE_MAP, RISK_WEIGHTS, ROUTING_ENABLED_BY_DEFAULT
+from .models import Assessment, DimensionResult, Finding, RiskDimension, Severity, VerificationStatus
 
 try:
     from langfuse.decorators import observe
@@ -54,10 +55,10 @@ _ALL_DIMENSIONS = (RiskDimension.LEGAL, RiskDimension.FINANCIAL, RiskDimension.O
 
 
 def _run_with_retries(dimension: RiskDimension, doc_id: str, max_retries: int = 1) -> DimensionResult:
-    """analyze_*() already catches per-topic exceptions internally and
-    returns success=False with .error set; this retries THAT outer failure
-    a bounded number of times (transient service errors only) and records
-    how many attempts it took, rather than retrying forever."""
+    """analyze_*() already applies closed-loop recovery per LLM call
+    (resilience.call_with_recovery: backoff / model escalation / fail-fast).
+    This is the OUTER loop for a whole-dimension failure, and records how
+    many attempts it took so partial runs stay visible in the Assessment."""
     analyzer = _ANALYZERS[dimension]
     attempt = 0
     result = analyzer(doc_id)
@@ -68,28 +69,76 @@ def _run_with_retries(dimension: RiskDimension, doc_id: str, max_retries: int = 
     return result
 
 
+def route_dimensions(doc_id: str, enabled: bool = ROUTING_ENABLED_BY_DEFAULT) -> Dict[str, Any]:
+    """Conditional routing: one cheap triage call decides which specialists
+    actually run for this document. A service report with no pricing clauses
+    shouldn't pay for a full financial sweep.
+
+    Fails OPEN by design — if triage errors or is disabled, every dimension
+    runs. Skipping analysis on a failed classification would silently lose
+    real risk, which is strictly worse than spending a few extra cheap calls."""
+    if not enabled:
+        return {"dimensions": list(_ALL_DIMENSIONS), "routed": False,
+                "rationale": "routing disabled — all dimensions run"}
+
+    triage = triage_document(doc_id)
+    if triage is None:
+        return {"dimensions": list(_ALL_DIMENSIONS), "routed": False,
+                "rationale": "triage unavailable — failing open, all dimensions run"}
+
+    selected = [d for d, keep in (
+        (RiskDimension.LEGAL, triage.has_legal_content),
+        (RiskDimension.FINANCIAL, triage.has_financial_content),
+        (RiskDimension.OPERATIONAL, triage.has_operational_content),
+    ) if keep]
+
+    if not selected:  # never return an empty plan — that would analyze nothing
+        return {"dimensions": list(_ALL_DIMENSIONS), "routed": False,
+                "rationale": f"triage selected nothing — failing open. {triage.rationale}"}
+
+    return {"dimensions": selected, "routed": True, "rationale": triage.rationale}
+
+
+def _skipped_result(dimension: RiskDimension) -> DimensionResult:
+    """A dimension that routing deliberately skipped is recorded explicitly
+    (success=True, zero findings, reason noted) rather than being silently
+    absent — the report must show it was a decision, not a failure."""
+    return DimensionResult(dimension=dimension, success=True, findings=[],
+                            error="skipped by routing: triage found no content for this dimension")
+
+
 @observe(name="orchestrate_sequential")
-def run_sequential(doc_id: str, max_retries: int = 1) -> Dict[RiskDimension, DimensionResult]:
-    """Roadmap-mandated first step: run all three specialists one after
-    another. Simple to debug — if something's wrong, it's obvious which
-    dimension and which attempt caused it."""
+def run_sequential(doc_id: str, max_retries: int = 1,
+                    routing: bool = ROUTING_ENABLED_BY_DEFAULT) -> Dict[RiskDimension, DimensionResult]:
+    """Roadmap-mandated first step: run specialists one after another.
+    Simple to debug — if something's wrong, it's obvious which dimension
+    and which attempt caused it. Honors conditional routing."""
+    plan = route_dimensions(doc_id, routing)
+    selected = set(plan["dimensions"])
     results: Dict[RiskDimension, DimensionResult] = {}
     for dimension in _ALL_DIMENSIONS:
-        results[dimension] = _run_with_retries(dimension, doc_id, max_retries)
+        results[dimension] = (_run_with_retries(dimension, doc_id, max_retries)
+                               if dimension in selected else _skipped_result(dimension))
         _SAVERS[dimension](doc_id, results[dimension])
     return results
 
 
 @observe(name="orchestrate_parallel")
-def run_parallel(doc_id: str, max_retries: int = 1) -> Dict[RiskDimension, DimensionResult]:
-    """Same three specialists, run concurrently (I/O-bound OpenAI calls, so
-    threads are sufficient — no multiprocessing needed). Added only after
-    run_sequential() was validated correct, per the roadmap's ordering."""
-    results: Dict[RiskDimension, DimensionResult] = {}
-    with ThreadPoolExecutor(max_workers=len(_ALL_DIMENSIONS)) as executor:
+def run_parallel(doc_id: str, max_retries: int = 1,
+                  routing: bool = ROUTING_ENABLED_BY_DEFAULT) -> Dict[RiskDimension, DimensionResult]:
+    """Same specialists, run concurrently (I/O-bound OpenAI calls, so threads
+    are sufficient — no multiprocessing needed). Added only after
+    run_sequential() was validated correct, per the roadmap's ordering.
+    Honors conditional routing."""
+    plan = route_dimensions(doc_id, routing)
+    selected = [d for d in _ALL_DIMENSIONS if d in set(plan["dimensions"])]
+    results: Dict[RiskDimension, DimensionResult] = {
+        d: _skipped_result(d) for d in _ALL_DIMENSIONS if d not in selected
+    }
+    with ThreadPoolExecutor(max_workers=max(1, len(selected))) as executor:
         future_to_dimension = {
             executor.submit(_run_with_retries, dimension, doc_id, max_retries): dimension
-            for dimension in _ALL_DIMENSIONS
+            for dimension in selected
         }
         for future in as_completed(future_to_dimension):
             dimension = future_to_dimension[future]
@@ -151,6 +200,25 @@ def build_consensus(doc_id: str, dimension_results: Dict[RiskDimension, Dimensio
             weight_total += weight
 
     all_findings = _dedupe_findings(all_findings)
+
+    # Risk-triggered human-in-the-loop: a finding is escalated for review when
+    # the stakes or the uncertainty warrant it, not on a fixed schedule.
+    for f in all_findings:
+        if f.verification_status == VerificationStatus.FAILED_VERIFICATION:
+            unresolved_issues.append(
+                f"HITL [{f.dimension.value}] '{f.title}': quoted evidence could not be "
+                f"verified against source text — needs human confirmation before use."
+            )
+        elif f.confidence <= HITL_CONFIDENCE_THRESHOLD:
+            unresolved_issues.append(
+                f"HITL [{f.dimension.value}] '{f.title}': low confidence "
+                f"({f.confidence}) — flagged for human review."
+            )
+        elif f.severity == Severity.CRITICAL:
+            unresolved_issues.append(
+                f"HITL [{f.dimension.value}] '{f.title}': CRITICAL severity — "
+                f"mandatory human sign-off before action."
+            )
 
     if any_critical:
         overall_risk = Severity.CRITICAL

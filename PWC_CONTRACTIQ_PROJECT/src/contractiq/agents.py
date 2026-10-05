@@ -29,8 +29,9 @@ from typing import Any, Dict, List, Optional
 from openai import OpenAI
 from pydantic import BaseModel, Field
 
-from .config import FINANCIAL_AGENT_MODEL, LEGAL_AGENT_MODEL, OPENAI_API_KEY, OPERATIONAL_AGENT_MODEL, REPORTS_ROOT
+from .config import FINANCIAL_AGENT_MODEL, LEGAL_AGENT_MODEL, OPENAI_API_KEY, OPERATIONAL_AGENT_MODEL, REPORTS_ROOT, TRIAGE_MODEL
 from .models import DimensionResult, Finding, RiskDimension, Severity, VerificationStatus
+from .resilience import SchemaFailure, call_with_recovery
 from .retrieval import search
 
 try:
@@ -208,29 +209,41 @@ def _analyze_topic(doc_id: str, topic_key: str, question: str, dimension: RiskDi
 
     client = _get_openai_client()
     stage = f"{dimension.value}_specialist"
-    t0 = time.perf_counter()
-    try:
-        completion = client.beta.chat.completions.parse(
-            model=model,
-            messages=[
-                {"role": "system", "content": _system_prompt(dimension)},
-                {"role": "user", "content": user_prompt},
-            ],
-            response_format=_LLMTopicResponse,
-            temperature=0,
-        )
-    except Exception as exc:
-        _log_llm_call(stage, model, (time.perf_counter() - t0) * 1000, None,
-                      schema_failure=False, error=f"{type(exc).__name__}: {exc}")
-        raise
+    evidence_by_id = {e["chunk_id"]: e for e in evidence}
 
-    usage = completion.usage.model_dump() if completion.usage else None
-    parsed = completion.choices[0].message.parsed
-    _log_llm_call(stage, model, (time.perf_counter() - t0) * 1000, usage, schema_failure=parsed is None)
-    if parsed is None or not parsed.addressed or parsed.finding is None:
-        return None
+    def _attempt(active_model: str) -> Optional[Dict[str, Any]]:
+        t0 = time.perf_counter()
+        try:
+            completion = client.beta.chat.completions.parse(
+                model=active_model,
+                messages=[
+                    {"role": "system", "content": _system_prompt(dimension)},
+                    {"role": "user", "content": user_prompt},
+                ],
+                response_format=_LLMTopicResponse,
+                temperature=0,
+            )
+        except Exception as exc:
+            _log_llm_call(stage, active_model, (time.perf_counter() - t0) * 1000, None,
+                           schema_failure=False, error=f"{type(exc).__name__}: {exc}")
+            raise
 
-    return {"llm_finding": parsed.finding, "evidence_by_id": {e["chunk_id"]: e for e in evidence}}
+        usage = completion.usage.model_dump() if completion.usage else None
+        parsed = completion.choices[0].message.parsed
+        _log_llm_call(stage, active_model, (time.perf_counter() - t0) * 1000, usage,
+                       schema_failure=parsed is None)
+        if parsed is None:
+            # Structured-output parsing failed — a different model may succeed,
+            # so surface it as SchemaFailure to trigger escalation, not backoff.
+            raise SchemaFailure(f"{stage}/{topic_key}: model returned unparseable output")
+        if not parsed.addressed or parsed.finding is None:
+            return None
+        return {"llm_finding": parsed.finding, "evidence_by_id": evidence_by_id}
+
+    return call_with_recovery(
+        _attempt, stage=stage, model=model,
+        on_give_up=lambda _stage, _exc: None,  # degrade: no finding for this topic, run continues
+    )
 
 
 def _verify_and_build_finding(topic_key: str, raw: Dict[str, Any], dimension: RiskDimension) -> Finding:
@@ -298,6 +311,62 @@ def _verify_and_build_finding(topic_key: str, raw: Dict[str, Any], dimension: Ri
         verification_status=status,
         confidence=confidence,
     )
+
+
+class _TriageResult(BaseModel):
+    """Which risk dimensions a document plausibly contains content for.
+    Deliberately permissive — triage only skips a dimension when the
+    document clearly has nothing for it, because a false skip loses a real
+    finding while a false include only costs a few cheap calls."""
+    has_legal_content: bool = Field(description="Contains legal/contractual clauses (liability, IP, termination, confidentiality, governing law)")
+    has_financial_content: bool = Field(description="Contains pricing, payment terms, fees, penalties, or renewal economics")
+    has_operational_content: bool = Field(description="Contains scope of work, deliverables, SLAs, performance metrics, or dependencies")
+    rationale: str = Field(description="One sentence explaining the classification")
+
+
+_TRIAGE_PROMPT = (
+    "You are triaging a contract-related document to decide which risk specialists "
+    "should analyze it. You will see the opening text of the document. Mark a "
+    "dimension true if the document plausibly contains ANY content for it. When "
+    "genuinely unsure, mark it true — missing a real risk is far worse than running "
+    "one extra cheap check."
+)
+
+
+@observe(name="triage_document")
+def triage_document(doc_id: str, sample_chars: int = 3000) -> Optional[_TriageResult]:
+    """One cheap classification call that decides which specialists are worth
+    running for this document — the routing signal for orchestration.py.
+    Returns None if triage itself fails, which callers treat as 'run
+    everything' (fail open, never silently skip analysis)."""
+    chunks = search("contract scope parties obligations payment service", top_k=2, doc_id=doc_id)
+    if not chunks:
+        return None
+    sample = "\n".join(c["text"] for c in chunks)[:sample_chars]
+
+    client = _get_openai_client()
+
+    def _attempt(active_model: str) -> _TriageResult:
+        t0 = time.perf_counter()
+        completion = client.beta.chat.completions.parse(
+            model=active_model,
+            messages=[
+                {"role": "system", "content": _TRIAGE_PROMPT},
+                {"role": "user", "content": f"Document {doc_id} opening text:\n{sample}"},
+            ],
+            response_format=_TriageResult,
+            temperature=0,
+        )
+        usage = completion.usage.model_dump() if completion.usage else None
+        parsed = completion.choices[0].message.parsed
+        _log_llm_call("triage", active_model, (time.perf_counter() - t0) * 1000, usage,
+                       schema_failure=parsed is None)
+        if parsed is None:
+            raise SchemaFailure(f"triage/{doc_id}: unparseable output")
+        return parsed
+
+    return call_with_recovery(_attempt, stage="triage", model=TRIAGE_MODEL,
+                               on_give_up=lambda _s, _e: None)
 
 
 @observe(name="specialist_agent_analyze")
