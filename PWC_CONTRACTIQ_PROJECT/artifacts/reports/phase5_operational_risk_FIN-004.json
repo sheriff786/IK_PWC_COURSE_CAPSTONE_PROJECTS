@@ -3,23 +3,7 @@
   "success": true,
   "findings": [
     {
-      "finding_id": "operational-scope_of_work-33556b86",
-      "dimension": "operational",
-      "severity": "MEDIUM",
-      "title": "Scope of Work and Deliverables",
-      "rationale": "The evidence provides details about the products and services delivered under the contract, including hardware delivery, acceptance testing, and warranty support.",
-      "recommendation": null,
-      "evidence_ids": [
-        "FIN-004-c0"
-      ],
-      "evidence_excerpts": [
-        "Hardware delivered to FinSecure Mumbai HQ. Delivery completed on 10-Dec-2025, verified by client representative Mr. Anil Kapoor. Acceptance testing included: functional tests, performance benchmarks, and network integration tests."
-      ],
-      "verification_status": "verified",
-      "confidence": 0.9
-    },
-    {
-      "finding_id": "operational-acceptance_criteria-aff92b77",
+      "finding_id": "operational-acceptance_criteria-be5f4f72",
       "dimension": "operational",
       "severity": "MEDIUM",
       "title": "Acceptance Criteria for Deliverables",
@@ -35,7 +19,7 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "operational-sla_commitments-457ea1f9",
+      "finding_id": "operational-sla_commitments-0421e7be",
       "dimension": "operational",
       "severity": "MEDIUM",
       "title": "Service Level and Performance Commitments",
@@ -51,11 +35,11 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "operational-performance_reporting-c6490295",
+      "finding_id": "operational-performance_reporting-b98529f9",
       "dimension": "operational",
       "severity": "MEDIUM",
       "title": "Service Performance Measurement and Reporting",
-      "rationale": "The evidence specifies that acceptance testing included functional tests, performance benchmarks, and network integration tests, which are key indicators of service performance measurement.",
+      "rationale": "The evidence specifies that acceptance testing included functional tests, performance benchmarks, and network integration tests, which are methods of measuring service performance under the agreement.",
       "recommendation": null,
       "evidence_ids": [
         "FIN-004-c0"

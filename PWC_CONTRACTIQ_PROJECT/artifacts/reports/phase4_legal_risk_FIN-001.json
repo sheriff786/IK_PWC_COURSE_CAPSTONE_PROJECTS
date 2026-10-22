@@ -3,7 +3,7 @@
   "success": true,
   "findings": [
     {
-      "finding_id": "legal-termination_for_convenience-b1d57d07",
+      "finding_id": "legal-termination_for_convenience-9f845a63",
       "dimension": "legal",
       "severity": "MEDIUM",
       "title": "Termination for Convenience Notice Period",
@@ -19,9 +19,9 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "legal-governing_law_disputes-b06e1660",
+      "finding_id": "legal-governing_law_disputes-3b74a321",
       "dimension": "legal",
-      "severity": "MEDIUM",
+      "severity": "HIGH",
       "title": "Governing Law and Dispute Resolution",
       "rationale": "The evidence explicitly states the governing law and outlines the process for resolving disputes.",
       "recommendation": null,
@@ -32,7 +32,7 @@
         "This Agreement shall be governed by the laws of India."
       ],
       "verification_status": "verified",
-      "confidence": 0.9
+      "confidence": 0.95
     }
   ],
   "error": null,

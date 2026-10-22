@@ -1,7 +1,7 @@
 {
-  "assessment_id": "assessment-COM-002-34137108",
+  "assessment_id": "assessment-COM-002-82c209c2",
   "doc_id": "COM-002",
-  "run_id": "76b24dab7b67",
+  "run_id": "e66c81b9605b",
   "document_version": "1",
   "model_version": "gpt-4o-mini",
   "prompt_version": "phase5-specialist-prompts-v1",
@@ -12,7 +12,7 @@
       "success": true,
       "findings": [
         {
-          "finding_id": "operational-scope_of_work-1c93e7bb",
+          "finding_id": "operational-scope_of_work-de6eefb8",
           "dimension": "operational",
           "severity": "MEDIUM",
           "title": "Scope of Work and Deliverables Defined",
@@ -36,11 +36,11 @@
       "success": true,
       "findings": [
         {
-          "finding_id": "financial-payment_terms-e2412036",
+          "finding_id": "financial-payment_terms-3b75ba36",
           "dimension": "financial",
           "severity": "MEDIUM",
           "title": "Payment Terms Overview",
-          "rationale": "The evidence clearly outlines the payment terms, including advance payment and due dates for the remaining balance.",
+          "rationale": "The evidence clearly outlines the payment terms under the agreement, specifying the advance payment and the timeline for the remaining payment.",
           "recommendation": null,
           "evidence_ids": [
             "COM-002-c0"
@@ -52,7 +52,7 @@
           "confidence": 0.9
         },
         {
-          "finding_id": "financial-late_payment_penalties-cbd94ff7",
+          "finding_id": "financial-late_payment_penalties-cab3c1fc",
           "dimension": "financial",
           "severity": "MEDIUM",
           "title": "Late Payment Penalties",
@@ -68,23 +68,23 @@
           "confidence": 0.9
         },
         {
-          "finding_id": "financial-pricing_structure-3ee71a0f",
+          "finding_id": "financial-pricing_structure-85dd67ba",
           "dimension": "financial",
           "severity": "MEDIUM",
           "title": "Pricing Structure Defined",
-          "rationale": "The evidence provides a detailed description of the pricing structure, including base prices, discounts, and payment terms.",
+          "rationale": "The agreement clearly outlines the pricing structure, including base prices, tiered volume discounts, and payment terms.",
           "recommendation": null,
           "evidence_ids": [
             "COM-002-c0"
           ],
           "evidence_excerpts": [
-            "This Agreement defines the pricing, terms, and conditions applicable to the supply of electronic hardware products, accessories, and support services to Client."
+            "The Vendor shall provide products at the following base prices, subject to tiered volume and contract duration discounts:"
           ],
           "verification_status": "verified",
           "confidence": 0.9
         },
         {
-          "finding_id": "financial-price_escalation-7dbbb1fd",
+          "finding_id": "financial-price_escalation-71cbec7a",
           "dimension": "financial",
           "severity": "MEDIUM",
           "title": "Price Revision Clause Present",
@@ -108,11 +108,11 @@
       "success": true,
       "findings": [
         {
-          "finding_id": "legal-termination_for_convenience-f40e3c67",
+          "finding_id": "legal-termination_for_convenience-9400f159",
           "dimension": "legal",
           "severity": "MEDIUM",
           "title": "Termination for Convenience Notice Period",
-          "rationale": "The contract specifies the notice period required for termination without cause.",
+          "rationale": "The evidence specifies the notice period required for termination without cause.",
           "recommendation": null,
           "evidence_ids": [
             "COM-002-c0"
@@ -124,11 +124,11 @@
           "confidence": 0.9
         },
         {
-          "finding_id": "legal-ip_ownership-045300c7",
+          "finding_id": "legal-ip_ownership-14f356ec",
           "dimension": "legal",
           "severity": "HIGH",
           "title": "Intellectual Property Ownership",
-          "rationale": "The Vendor retains all intellectual property rights over hardware design, firmware, and proprietary software, indicating that the Vendor owns the intellectual property created under this agreement.",
+          "rationale": "The Vendor retains all intellectual property rights over hardware design, firmware, and proprietary software, indicating ownership of the intellectual property created under this agreement.",
           "recommendation": null,
           "evidence_ids": [
             "COM-002-c0"
@@ -140,11 +140,11 @@
           "confidence": 0.9
         },
         {
-          "finding_id": "legal-governing_law_disputes-f619c7a5",
+          "finding_id": "legal-governing_law_disputes-ce1fe670",
           "dimension": "legal",
-          "severity": "MEDIUM",
+          "severity": "HIGH",
           "title": "Governing Law and Dispute Resolution",
-          "rationale": "The evidence explicitly states the governing law and the method for resolving disputes, which is arbitration under the Indian Arbitration and Conciliation Act, 1996.",
+          "rationale": "The evidence explicitly states the governing law and the method for resolving disputes.",
           "recommendation": null,
           "evidence_ids": [
             "COM-002-c0"
@@ -153,17 +153,20 @@
             "Unresolved disputes will be referred to arbitration under the Indian Arbitration and Conciliation Act, 1996. Arbitration proceedings will take place in [City, State], India, in English."
           ],
           "verification_status": "verified",
-          "confidence": 0.9
+          "confidence": 0.95
         }
       ],
       "error": null,
       "retry_count": 0
     }
   ],
-  "unresolved_issues": [],
+  "unresolved_issues": [
+    "HITL [operational] 'Scope of Work and Deliverables Defined': quoted evidence could not be verified against source text — needs human confirmation before use."
+  ],
   "consensus_actions": [
-    "Review: [legal] Intellectual Property Ownership"
+    "Review: [legal] Intellectual Property Ownership",
+    "Review: [legal] Governing Law and Dispute Resolution"
   ],
   "overall_risk": "MEDIUM",
-  "created_at": "2026-10-06T01:58:49.453457"
+  "created_at": "2026-10-22T23:59:14.076320"
 }

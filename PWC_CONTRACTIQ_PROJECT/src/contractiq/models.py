@@ -107,7 +107,7 @@ class TableRecord(BaseModel):
     table_index: int
     rows: List[List[str]]
     source_location: SourceLocation
-    
+
 class Chunk(BaseModel):
     chunk_id: str
     doc_id: str

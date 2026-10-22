@@ -1,7 +1,7 @@
 {
-  "assessment_id": "assessment-MLA-005-6e98505e",
+  "assessment_id": "assessment-MLA-005-85273e72",
   "doc_id": "MLA-005",
-  "run_id": "184773c1572c",
+  "run_id": "4e7a14c44359",
   "document_version": "1",
   "model_version": "gpt-4o-mini",
   "prompt_version": "phase5-specialist-prompts-v1",
@@ -12,7 +12,7 @@
       "success": true,
       "findings": [
         {
-          "finding_id": "legal-confidentiality_survival-c617e3ab",
+          "finding_id": "legal-confidentiality_survival-759e09a1",
           "dimension": "legal",
           "severity": "MEDIUM",
           "title": "Confidentiality Obligations Survival",
@@ -36,27 +36,27 @@
       "success": true,
       "findings": [
         {
-          "finding_id": "financial-payment_terms-4f857481",
+          "finding_id": "financial-payment_terms-3d5bd640",
           "dimension": "financial",
           "severity": "MEDIUM",
-          "title": "Payment Terms and Conditions",
-          "rationale": "The evidence outlines the pricing structure and conditions under which payments are to be made, including invoice requirements and price protection mechanisms.",
+          "title": "Payment Terms and Invoice Requirements",
+          "rationale": "The evidence outlines the requirements for invoicing and pricing structures, ensuring that all invoices correspond to the agreed pricing categories and values, which directly relates to payment terms.",
           "recommendation": null,
           "evidence_ids": [
             "MLA-005-c2"
           ],
           "evidence_excerpts": [
-            "All invoices raised by the Vendor shall strictly correspond to the pricing categories and values stated in this Agreement. No invoice may include line items that deviate from or exceed the approved rate card."
+            "All invoices raised by the Vendor shall strictly correspond to the pricing categories and values stated in this Agreement."
           ],
           "verification_status": "verified",
-          "confidence": 0.85
+          "confidence": 0.9
         },
         {
-          "finding_id": "financial-pricing_structure-471c8606",
+          "finding_id": "financial-pricing_structure-7b423cd6",
           "dimension": "financial",
           "severity": "HIGH",
           "title": "Pricing Structure Overview",
-          "rationale": "The evidence provides a comprehensive overview of the pricing structure, including device pricing frameworks, service rates, and cost components, ensuring clarity and predictability for the Client.",
+          "rationale": "The evidence provides a comprehensive overview of the pricing structure, including device pricing frameworks, service rates, and cost transparency.",
           "recommendation": null,
           "evidence_ids": [
             "MLA-005-c0"
@@ -68,11 +68,11 @@
           "confidence": 0.95
         },
         {
-          "finding_id": "financial-price_escalation-f35c35b7",
+          "finding_id": "financial-price_escalation-380244f6",
           "dimension": "financial",
           "severity": "MEDIUM",
           "title": "Price Escalation Clauses Present",
-          "rationale": "The contract includes specific clauses regarding price protection and escalation constraints, detailing how and when price adjustments can occur, as well as the conditions under which they are permissible.",
+          "rationale": "The contract includes specific clauses regarding price protection and escalation constraints, detailing how prices can be reviewed and adjusted based on objective cost evidence.",
           "recommendation": null,
           "evidence_ids": [
             "MLA-005-c2"
@@ -84,11 +84,11 @@
           "confidence": 0.9
         },
         {
-          "finding_id": "financial-renewal_pricing-db51f632",
+          "finding_id": "financial-renewal_pricing-35787778",
           "dimension": "financial",
           "severity": "MEDIUM",
           "title": "Renewal Pricing and Terms",
-          "rationale": "The contract specifies that any pricing amendments must be documented through a written addendum, and the Vendor will continue to honor all accepted purchase orders based on the current rate card until a new version is formally transitioned. This indicates that renewal pricing is tied to the existing rate card unless formally amended.",
+          "rationale": "The contract specifies that any pricing amendments must be documented through a written addendum and that the Vendor will continue to honor all accepted purchase orders based on the current rate card until a new version is formally transitioned. This indicates that renewal pricing is tied to the existing rate card unless formally amended.",
           "recommendation": null,
           "evidence_ids": [
             "MLA-005-c3"
@@ -100,18 +100,18 @@
           "confidence": 0.85
         },
         {
-          "finding_id": "financial-financial_exposure_cap-962fc311",
+          "finding_id": "financial-financial_exposure_cap-e77c6b48",
           "dimension": "financial",
-          "severity": "HIGH",
-          "title": "Cap on Financial Exposure and Charges",
-          "rationale": "The contract explicitly prohibits the Vendor from introducing any new financial charges outside the Agreement, ensuring that the Client is protected from unexpected financial exposure and maintains commercial predictability throughout the contract term.",
+          "severity": "MEDIUM",
+          "title": "Cap on Financial Exposure",
+          "rationale": "The contract explicitly states that the Vendor shall not introduce any new financial charge outside this Agreement without explicit written approval, which protects the Client from unexpected financial exposure and ensures absolute commercial predictability throughout the contract term.",
           "recommendation": null,
           "evidence_ids": [
             "MLA-005-c2",
             "MLA-005-c3"
           ],
           "evidence_excerpts": [
-            "The Client shall not be obligated to pay for resource wait times, idle engineer hours, or vendor-driven deployment delays. This protects the Client from unexpected financial exposure and ensures absolute commercial predictability throughout the contract term."
+            "This protects the Client from unexpected financial exposure and ensures absolute commercial predictability throughout the contract term."
           ],
           "verification_status": "verified",
           "confidence": 0.9
@@ -125,7 +125,7 @@
       "success": true,
       "findings": [
         {
-          "finding_id": "operational-scope_of_work-dc17b385",
+          "finding_id": "operational-scope_of_work-c0ba3255",
           "dimension": "operational",
           "severity": "HIGH",
           "title": "Scope of Work and Deliverables Defined",
@@ -141,11 +141,11 @@
           "confidence": 0.95
         },
         {
-          "finding_id": "operational-sla_commitments-32eba56e",
+          "finding_id": "operational-sla_commitments-547ce815",
           "dimension": "operational",
           "severity": "MEDIUM",
-          "title": "Service Level and Performance Commitments",
-          "rationale": "The evidence outlines the Vendor's commitments regarding pricing stability, service delivery, and the prohibition of unexpected charges, which are critical components of service level agreements.",
+          "title": "Vendor's Service Level Commitments",
+          "rationale": "The Vendor commits to maintaining predictable pricing and service delivery without introducing unexpected charges, ensuring commercial predictability and protecting the Client from financial exposure.",
           "recommendation": null,
           "evidence_ids": [
             "MLA-005-c3",
@@ -158,11 +158,11 @@
           "confidence": 0.9
         },
         {
-          "finding_id": "operational-dependencies_obligations-6bbf6b76",
+          "finding_id": "operational-dependencies_obligations-6ee828b8",
           "dimension": "operational",
           "severity": "MEDIUM",
           "title": "Client-Side Obligations for Vendor Performance",
-          "rationale": "The evidence specifies that the Vendor's performance is contingent upon the Client's requirements for manpower and operational dependencies, particularly for complex operations and installation services.",
+          "rationale": "The Vendor's performance is contingent upon the Client's provision of manpower for complex operations, as specified in the pricing model for on-site support and managed services.",
           "recommendation": null,
           "evidence_ids": [
             "MLA-005-c2"
@@ -171,14 +171,14 @@
             "If the Client requires manpower for complex operations such as security sandbox testing, PSU audit compliance support, mass firmware rollout campaigns, or large-scale device refresh cycles, such activities shall also be covered under the pricing model established in this Agreement."
           ],
           "verification_status": "verified",
-          "confidence": 0.85
+          "confidence": 0.9
         },
         {
-          "finding_id": "operational-performance_reporting-3b7e6844",
+          "finding_id": "operational-performance_reporting-9d07af4e",
           "dimension": "operational",
           "severity": "MEDIUM",
           "title": "Performance Reporting in AMC",
-          "rationale": "The evidence specifies that the Vendor agrees to provide performance analytics reporting as part of the Annual Maintenance Contracts (AMC), which is a key aspect of service performance measurement and reporting.",
+          "rationale": "The evidence specifies that the Vendor agrees to provide performance analytics reporting as part of the Annual Maintenance Contracts (AMC), which directly relates to how service performance is measured or reported under this agreement.",
           "recommendation": null,
           "evidence_ids": [
             "MLA-005-c1"
@@ -197,9 +197,8 @@
   "unresolved_issues": [],
   "consensus_actions": [
     "Review: [financial] Pricing Structure Overview",
-    "Review: [financial] Cap on Financial Exposure and Charges",
     "Review: [operational] Scope of Work and Deliverables Defined"
   ],
   "overall_risk": "HIGH",
-  "created_at": "2026-10-06T01:57:41.956491"
+  "created_at": "2026-10-22T23:57:29.596211"
 }

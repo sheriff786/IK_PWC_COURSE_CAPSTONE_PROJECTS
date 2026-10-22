@@ -3,7 +3,7 @@
   "success": true,
   "findings": [
     {
-      "finding_id": "financial-payment_terms-6db16a5f",
+      "finding_id": "financial-payment_terms-eb86505c",
       "dimension": "financial",
       "severity": "LOW",
       "title": "Payment Terms and Schedule",
@@ -19,11 +19,11 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "financial-pricing_structure-b4768d81",
+      "finding_id": "financial-pricing_structure-d722f67e",
       "dimension": "financial",
       "severity": "MEDIUM",
       "title": "Pricing Structure and Payment Terms",
-      "rationale": "The contract specifies a total contract value and a detailed payment schedule, outlining the percentages due at various stages of the agreement.",
+      "rationale": "The evidence provides a detailed breakdown of the pricing structure and payment terms for the contract, including total contract value and payment milestones.",
       "recommendation": null,
       "evidence_ids": [
         "NEG-003-c0"
@@ -35,7 +35,7 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "financial-financial_exposure_cap-dedd6a6c",
+      "finding_id": "financial-financial_exposure_cap-76f57d63",
       "dimension": "financial",
       "severity": "MEDIUM",
       "title": "Cap on Financial Exposure",

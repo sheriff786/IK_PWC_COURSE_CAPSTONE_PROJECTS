@@ -5,3 +5,17 @@
 {"timestamp": "2026-10-05T21:41:23.977710+00:00", "stage": "test", "attempt": 1, "failure_class": "transient", "strategy": "recovered_on_model=cheap", "outcome": "success", "detail": ""}
 {"timestamp": "2026-10-05T21:41:25.209309+00:00", "stage": "test", "attempt": 0, "failure_class": "transient", "strategy": "backoff:1.2s", "outcome": "retrying", "detail": "always down"}
 {"timestamp": "2026-10-05T21:41:25.210278+00:00", "stage": "test", "attempt": 1, "failure_class": "transient", "strategy": "none_left", "outcome": "gave_up", "detail": "always down"}
+{"timestamp": "2026-10-22T18:33:02.055187+00:00", "stage": "test", "attempt": 0, "failure_class": "quota", "strategy": "fail_fast", "outcome": "gave_up", "detail": "You have no credits remaining"}
+{"timestamp": "2026-10-22T18:33:02.059424+00:00", "stage": "test", "attempt": 0, "failure_class": "schema", "strategy": "escalate_model:cheap->strong", "outcome": "retrying", "detail": "bad output"}
+{"timestamp": "2026-10-22T18:33:02.059424+00:00", "stage": "test", "attempt": 1, "failure_class": "schema", "strategy": "recovered_on_model=strong", "outcome": "success", "detail": ""}
+{"timestamp": "2026-10-22T18:33:03.250913+00:00", "stage": "test", "attempt": 0, "failure_class": "transient", "strategy": "backoff:1.2s", "outcome": "retrying", "detail": "timed out"}
+{"timestamp": "2026-10-22T18:33:03.252433+00:00", "stage": "test", "attempt": 1, "failure_class": "transient", "strategy": "recovered_on_model=cheap", "outcome": "success", "detail": ""}
+{"timestamp": "2026-10-22T18:33:04.480391+00:00", "stage": "test", "attempt": 0, "failure_class": "transient", "strategy": "backoff:1.2s", "outcome": "retrying", "detail": "always down"}
+{"timestamp": "2026-10-22T18:33:04.483399+00:00", "stage": "test", "attempt": 1, "failure_class": "transient", "strategy": "none_left", "outcome": "gave_up", "detail": "always down"}
+{"timestamp": "2026-10-22T18:33:45.214772+00:00", "stage": "test", "attempt": 0, "failure_class": "quota", "strategy": "fail_fast", "outcome": "gave_up", "detail": "You have no credits remaining"}
+{"timestamp": "2026-10-22T18:33:45.215773+00:00", "stage": "test", "attempt": 0, "failure_class": "schema", "strategy": "escalate_model:cheap->strong", "outcome": "retrying", "detail": "bad output"}
+{"timestamp": "2026-10-22T18:33:45.216773+00:00", "stage": "test", "attempt": 1, "failure_class": "schema", "strategy": "recovered_on_model=strong", "outcome": "success", "detail": ""}
+{"timestamp": "2026-10-22T18:33:46.437102+00:00", "stage": "test", "attempt": 0, "failure_class": "transient", "strategy": "backoff:1.2s", "outcome": "retrying", "detail": "timed out"}
+{"timestamp": "2026-10-22T18:33:46.439970+00:00", "stage": "test", "attempt": 1, "failure_class": "transient", "strategy": "recovered_on_model=cheap", "outcome": "success", "detail": ""}
+{"timestamp": "2026-10-22T18:33:47.727873+00:00", "stage": "test", "attempt": 0, "failure_class": "transient", "strategy": "backoff:1.3s", "outcome": "retrying", "detail": "always down"}
+{"timestamp": "2026-10-22T18:33:47.729038+00:00", "stage": "test", "attempt": 1, "failure_class": "transient", "strategy": "none_left", "outcome": "gave_up", "detail": "always down"}

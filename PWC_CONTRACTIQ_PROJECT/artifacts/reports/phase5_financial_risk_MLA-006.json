@@ -3,7 +3,7 @@
   "success": true,
   "findings": [
     {
-      "finding_id": "financial-payment_terms-06b5246b",
+      "finding_id": "financial-payment_terms-19050274",
       "dimension": "financial",
       "severity": "MEDIUM",
       "title": "Payment Terms and Invoicing",
@@ -19,7 +19,7 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "financial-pricing_structure-5fc39186",
+      "finding_id": "financial-pricing_structure-664c6507",
       "dimension": "financial",
       "severity": "HIGH",
       "title": "Pricing Structure Defined",
@@ -35,11 +35,11 @@
       "confidence": 0.95
     },
     {
-      "finding_id": "financial-price_escalation-b17e92ce",
+      "finding_id": "financial-price_escalation-e93d56c2",
       "dimension": "financial",
       "severity": "MEDIUM",
       "title": "Price Adjustment Mechanism",
-      "rationale": "The contract includes a mechanism for price adjustments based on market conditions and other factors, which indicates the presence of price escalation clauses.",
+      "rationale": "The contract includes a mechanism for price adjustments based on market fluctuations and other factors, which indicates the presence of price escalation clauses.",
       "recommendation": null,
       "evidence_ids": [
         "MLA-006-c1"
@@ -51,7 +51,7 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "financial-renewal_pricing-6d8f8fe5",
+      "finding_id": "financial-renewal_pricing-9beaf62e",
       "dimension": "financial",
       "severity": "MEDIUM",
       "title": "Renewal Pricing Terms",

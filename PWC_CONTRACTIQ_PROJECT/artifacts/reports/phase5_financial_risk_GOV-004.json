@@ -3,11 +3,11 @@
   "success": true,
   "findings": [
     {
-      "finding_id": "financial-pricing_structure-2a688a96",
+      "finding_id": "financial-pricing_structure-4ed2818a",
       "dimension": "financial",
       "severity": "MEDIUM",
       "title": "Pricing Adjustment Proposal",
-      "rationale": "The evidence specifies a proposed pricing adjustment reflecting various factors, which directly addresses the pricing structure of the agreement.",
+      "rationale": "The evidence specifies a proposed pricing adjustment reflecting inflation and service enhancements.",
       "recommendation": null,
       "evidence_ids": [
         "GOV-004-c0"
@@ -19,11 +19,11 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "financial-price_escalation-78c54adb",
+      "finding_id": "financial-price_escalation-e56a9af6",
       "dimension": "financial",
       "severity": "MEDIUM",
       "title": "Price Adjustment Clause Identified",
-      "rationale": "The contract includes a pricing adjustment clause that reflects inflation and supply chain escalation.",
+      "rationale": "The evidence indicates a proposed pricing adjustment reflecting inflation and supply chain escalation, which constitutes a price escalation clause.",
       "recommendation": null,
       "evidence_ids": [
         "GOV-004-c0"
@@ -35,11 +35,11 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "financial-renewal_pricing-5c6d92fd",
+      "finding_id": "financial-renewal_pricing-24c5136c",
       "dimension": "financial",
       "severity": "MEDIUM",
       "title": "Renewal Pricing Adjustment",
-      "rationale": "The proposed renewal terms include a pricing adjustment that reflects various factors such as inflation and service enhancements.",
+      "rationale": "The renewal pricing reflects an increase due to various factors, indicating a structured approach to renewal terms.",
       "recommendation": null,
       "evidence_ids": [
         "GOV-004-c0"
@@ -51,11 +51,11 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "financial-financial_exposure_cap-17eeefd4",
+      "finding_id": "financial-financial_exposure_cap-94f33175",
       "dimension": "financial",
       "severity": "MEDIUM",
       "title": "Financial Exposure Cap and Penalties",
-      "rationale": "The evidence discusses the introduction of penalties for SLA breaches, which indicates a form of financial exposure cap related to service level agreements.",
+      "rationale": "The evidence discusses the introduction of penalties for SLA breaches, which implies a cap on financial exposure related to service level agreements.",
       "recommendation": null,
       "evidence_ids": [
         "GOV-004-c0"

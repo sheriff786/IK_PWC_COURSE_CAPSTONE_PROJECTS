@@ -3,11 +3,11 @@
   "success": true,
   "findings": [
     {
-      "finding_id": "legal-liability_cap-5515e921",
+      "finding_id": "legal-liability_cap-eed0210c",
       "dimension": "legal",
       "severity": "MEDIUM",
-      "title": "Limitation of Liability",
-      "rationale": "The evidence explicitly states that the Vendor's liability is limited to the total contract value, which addresses the topic of liability cap.",
+      "title": "Limitation of Liability Specified",
+      "rationale": "The evidence specifies that the Vendor's liability is limited to the total contract value, addressing the topic of liability cap.",
       "recommendation": null,
       "evidence_ids": [
         "NEG-003-c0"
@@ -19,10 +19,10 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "legal-indemnification-0717e491",
+      "finding_id": "legal-indemnification-691209c6",
       "dimension": "legal",
       "severity": "MEDIUM",
-      "title": "Indemnification Obligations of Vendor",
+      "title": "Indemnification Obligations",
       "rationale": "The evidence specifies the indemnification obligations of the Vendor towards the Client.",
       "recommendation": null,
       "evidence_ids": [
@@ -35,11 +35,11 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "legal-termination_for_cause-16ddbf05",
+      "finding_id": "legal-termination_for_cause-e2cf4f74",
       "dimension": "legal",
       "severity": "MEDIUM",
       "title": "Termination for Cause Conditions",
-      "rationale": "The contract specifies that either party may terminate the agreement on material breach with 60 days’ notice, indicating the conditions under which termination for cause can occur.",
+      "rationale": "The contract specifies that either party may terminate the agreement on material breach with 60 days’ notice.",
       "recommendation": null,
       "evidence_ids": [
         "NEG-003-c0"
@@ -51,7 +51,7 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "legal-termination_for_convenience-f2f89cdd",
+      "finding_id": "legal-termination_for_convenience-2b2a1e31",
       "dimension": "legal",
       "severity": "MEDIUM",
       "title": "Termination for Convenience Notice Period",
@@ -67,11 +67,11 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "legal-confidentiality_survival-81ab9425",
+      "finding_id": "legal-confidentiality_survival-4ecb4d08",
       "dimension": "legal",
-      "severity": "LOW",
+      "severity": "MEDIUM",
       "title": "Confidentiality Obligations Survival Duration",
-      "rationale": "The evidence explicitly states the duration for which confidentiality obligations survive after the agreement ends.",
+      "rationale": "The evidence specifies the duration for which confidentiality obligations survive after the agreement ends.",
       "recommendation": null,
       "evidence_ids": [
         "NEG-003-c0"
@@ -83,7 +83,7 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "legal-governing_law_disputes-a0fa24c2",
+      "finding_id": "legal-governing_law_disputes-fe685575",
       "dimension": "legal",
       "severity": "MEDIUM",
       "title": "Governing Law and Dispute Resolution",
@@ -93,7 +93,7 @@
         "NEG-003-c0"
       ],
       "evidence_excerpts": [
-        "9.2 Failing that, disputes shall be referred to arbitration under [Country] Arbitration Act."
+        "Failing that, disputes shall be referred to arbitration under [Country] Arbitration Act."
       ],
       "verification_status": "verified",
       "confidence": 0.9

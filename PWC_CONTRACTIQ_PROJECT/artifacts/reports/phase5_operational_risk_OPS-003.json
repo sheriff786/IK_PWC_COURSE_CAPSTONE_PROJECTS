@@ -3,11 +3,11 @@
   "success": true,
   "findings": [
     {
-      "finding_id": "operational-scope_of_work-2899a270",
+      "finding_id": "operational-scope_of_work-d36b899e",
       "dimension": "operational",
       "severity": "MEDIUM",
       "title": "Scope of Work Defined",
-      "rationale": "The evidence clearly outlines the scope of services provided under the agreement, detailing specific deliverables and operational responsibilities.",
+      "rationale": "The evidence clearly outlines the scope of services provided by Primevolta Hardware Solutions, detailing specific deliverables and operational activities.",
       "recommendation": null,
       "evidence_ids": [
         "OPS-003-c0"
@@ -19,12 +19,12 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "operational-sla_commitments-b0d50de2",
+      "finding_id": "operational-sla_commitments-6189a329",
       "dimension": "operational",
       "severity": "MEDIUM",
       "title": "Service Level Commitments",
-      "rationale": "The evidence provides specific performance metrics and commitments made by Primevolta Hardware Solutions regarding service delivery and incident management.",
-      "recommendation": "Review SLA compliance and optimize incident response workflows as mentioned in the report.",
+      "rationale": "The vendor, Primevolta Hardware Solutions, commits to achieving high operational service delivery standards, as evidenced by their performance metrics and incident management practices.",
+      "recommendation": "Review SLA compliance regularly to ensure commitments are met.",
       "evidence_ids": [
         "OPS-003-c0"
       ],
@@ -35,11 +35,11 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "operational-performance_reporting-8ee41f89",
+      "finding_id": "operational-performance_reporting-07364779",
       "dimension": "operational",
       "severity": "HIGH",
       "title": "Service Performance Measurement and Reporting",
-      "rationale": "The evidence provides a detailed overview of how service performance is measured and reported, including specific metrics and activities related to hardware performance and service delivery.",
+      "rationale": "The evidence provides a detailed overview of how service performance is measured and reported, including specific metrics such as system uptime, service tickets resolved, and preventive maintenance activities.",
       "recommendation": null,
       "evidence_ids": [
         "OPS-003-c0"

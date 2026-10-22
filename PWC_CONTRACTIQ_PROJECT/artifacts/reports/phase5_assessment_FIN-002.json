@@ -1,7 +1,7 @@
 {
-  "assessment_id": "assessment-FIN-002-fec73b91",
+  "assessment_id": "assessment-FIN-002-21416512",
   "doc_id": "FIN-002",
-  "run_id": "8e914076dff0",
+  "run_id": "450b2abe514c",
   "document_version": "1",
   "model_version": "gpt-4o-mini",
   "prompt_version": "phase5-specialist-prompts-v1",
@@ -12,7 +12,7 @@
       "success": true,
       "findings": [
         {
-          "finding_id": "financial-payment_terms-43cd9fdb",
+          "finding_id": "financial-payment_terms-71c018af",
           "dimension": "financial",
           "severity": "MEDIUM",
           "title": "Payment Terms and Schedule",
@@ -28,7 +28,7 @@
           "confidence": 0.9
         },
         {
-          "finding_id": "financial-late_payment_penalties-5b57d922",
+          "finding_id": "financial-late_payment_penalties-7657079d",
           "dimension": "financial",
           "severity": "MEDIUM",
           "title": "Late Payment Penalty",
@@ -44,11 +44,11 @@
           "confidence": 0.9
         },
         {
-          "finding_id": "financial-pricing_structure-ea2771e5",
+          "finding_id": "financial-pricing_structure-443a5d02",
           "dimension": "financial",
           "severity": "MEDIUM",
           "title": "Pricing Structure and Billing Schedule",
-          "rationale": "The evidence provides a detailed description of the billing schedule and payment terms, which constitutes the pricing structure for the agreement.",
+          "rationale": "The evidence provides a detailed description of the pricing structure and billing schedule for the agreement between Primevolta Hardware Solutions and FinSecure Services.",
           "recommendation": null,
           "evidence_ids": [
             "FIN-002-c0"
@@ -64,11 +64,83 @@
       "retry_count": 0
     },
     {
+      "dimension": "operational",
+      "success": true,
+      "findings": [
+        {
+          "finding_id": "operational-scope_of_work-714f2b16",
+          "dimension": "operational",
+          "severity": "MEDIUM",
+          "title": "Scope of Work Defined",
+          "rationale": "The evidence clearly outlines the scope of work under the agreement, detailing the hardware components and associated services to be provided.",
+          "recommendation": null,
+          "evidence_ids": [
+            "FIN-002-c0"
+          ],
+          "evidence_excerpts": [
+            "This Agreement covers the supply of: Hardware components including servers, storage arrays, networking devices, and electronic peripherals. Multi-site deliveries for BFSI branch rollouts. Associated services including installation, testing, and warranty support."
+          ],
+          "verification_status": "verified",
+          "confidence": 0.9
+        },
+        {
+          "finding_id": "operational-sla_commitments-791e8482",
+          "dimension": "operational",
+          "severity": "MEDIUM",
+          "title": "Vendor Performance Commitments",
+          "rationale": "The vendor commits to deliver goods as per the specifications and timelines mentioned in the purchase order (PO) and to notify the client of any deviations in the delivery schedule at least 7 business days in advance.",
+          "recommendation": null,
+          "evidence_ids": [
+            "FIN-002-c0"
+          ],
+          "evidence_excerpts": [
+            "Deliver goods as per the specifications and timelines mentioned in the PO. Notify the Client of any deviations in delivery schedule at least 7 business days in advance."
+          ],
+          "verification_status": "failed_verification",
+          "confidence": 0.3
+        },
+        {
+          "finding_id": "operational-dependencies_obligations-013f5321",
+          "dimension": "operational",
+          "severity": "MEDIUM",
+          "title": "Client Obligations for Vendor Performance",
+          "rationale": "The evidence outlines specific obligations of the Client that the Vendor relies on for performance, including timely processing of invoices and providing access to sites for installation and testing activities.",
+          "recommendation": null,
+          "evidence_ids": [
+            "FIN-002-c0"
+          ],
+          "evidence_excerpts": [
+            "6. Obligations of Client\nProcess invoices within the agreed payment timeline.\nNotify the Vendor of any discrepancies in invoices or deliveries within 7 business days.\nApprove milestone payments and site acceptance certificates promptly to avoid revenue delays.\nProvide access to sites for installation and testing activities."
+          ],
+          "verification_status": "verified",
+          "confidence": 0.9
+        },
+        {
+          "finding_id": "operational-performance_reporting-734d35df",
+          "dimension": "operational",
+          "severity": "MEDIUM",
+          "title": "Service Performance Measurement and Reporting",
+          "rationale": "The agreement specifies that the Vendor shall provide monthly revenue tracking reports and that the Client may request quarterly reconciliation reports to ensure alignment between delivered hardware, invoices, and payments.",
+          "recommendation": null,
+          "evidence_ids": [
+            "FIN-002-c0"
+          ],
+          "evidence_excerpts": [
+            "Vendor shall provide monthly revenue tracking reports detailing billed, unbilled, and pending payments."
+          ],
+          "verification_status": "verified",
+          "confidence": 0.9
+        }
+      ],
+      "error": null,
+      "retry_count": 0
+    },
+    {
       "dimension": "legal",
       "success": true,
       "findings": [
         {
-          "finding_id": "legal-termination_for_convenience-7d2f7af3",
+          "finding_id": "legal-termination_for_convenience-c5e8e2b1",
           "dimension": "legal",
           "severity": "MEDIUM",
           "title": "Termination for Convenience Notice Period",
@@ -84,7 +156,7 @@
           "confidence": 0.9
         },
         {
-          "finding_id": "legal-governing_law_disputes-451952e6",
+          "finding_id": "legal-governing_law_disputes-eb44f0aa",
           "dimension": "legal",
           "severity": "HIGH",
           "title": "Governing Law and Dispute Resolution",
@@ -102,84 +174,14 @@
       ],
       "error": null,
       "retry_count": 0
-    },
-    {
-      "dimension": "operational",
-      "success": true,
-      "findings": [
-        {
-          "finding_id": "operational-scope_of_work-72ffb367",
-          "dimension": "operational",
-          "severity": "MEDIUM",
-          "title": "Scope of Work Defined",
-          "rationale": "The evidence clearly outlines the scope of work and deliverables under the agreement, specifying the hardware components and associated services to be provided.",
-          "recommendation": null,
-          "evidence_ids": [
-            "FIN-002-c0"
-          ],
-          "evidence_excerpts": [
-            "This Agreement covers the supply of: Hardware components including servers, storage arrays, networking devices, and electronic peripherals. Multi-site deliveries for BFSI branch rollouts. Associated services including installation, testing, and warranty support."
-          ],
-          "verification_status": "verified",
-          "confidence": 0.9
-        },
-        {
-          "finding_id": "operational-sla_commitments-b24141db",
-          "dimension": "operational",
-          "severity": "MEDIUM",
-          "title": "Vendor's Service Level Commitments",
-          "rationale": "The vendor commits to deliver goods as per the specifications and timelines mentioned in the purchase order (PO) and to notify the client of any deviations in the delivery schedule at least 7 business days in advance.",
-          "recommendation": null,
-          "evidence_ids": [
-            "FIN-002-c0"
-          ],
-          "evidence_excerpts": [
-            "Deliver goods as per the specifications and timelines mentioned in the PO. Notify the Client of any deviations in delivery schedule at least 7 business days in advance."
-          ],
-          "verification_status": "failed_verification",
-          "confidence": 0.3
-        },
-        {
-          "finding_id": "operational-dependencies_obligations-31c40605",
-          "dimension": "operational",
-          "severity": "MEDIUM",
-          "title": "Client Obligations for Vendor Performance",
-          "rationale": "The evidence outlines specific obligations of the Client that the Vendor relies on for performance, including timely processing of invoices and providing access for installation and testing.",
-          "recommendation": null,
-          "evidence_ids": [
-            "FIN-002-c0"
-          ],
-          "evidence_excerpts": [
-            "6. Obligations of Client\nProcess invoices within the agreed payment timeline.\nNotify the Vendor of any discrepancies in invoices or deliveries within 7 business days.\nApprove milestone payments and site acceptance certificates promptly to avoid revenue delays.\nProvide access to sites for installation and testing activities."
-          ],
-          "verification_status": "verified",
-          "confidence": 0.9
-        },
-        {
-          "finding_id": "operational-performance_reporting-09cff35b",
-          "dimension": "operational",
-          "severity": "MEDIUM",
-          "title": "Service Performance Reporting",
-          "rationale": "The agreement specifies that the Vendor shall provide monthly revenue tracking reports detailing billed, unbilled, and pending payments, which indicates how service performance is measured and reported.",
-          "recommendation": null,
-          "evidence_ids": [
-            "FIN-002-c0"
-          ],
-          "evidence_excerpts": [
-            "Vendor shall provide monthly revenue tracking reports detailing billed, unbilled, and pending payments."
-          ],
-          "verification_status": "verified",
-          "confidence": 0.9
-        }
-      ],
-      "error": null,
-      "retry_count": 0
     }
   ],
-  "unresolved_issues": [],
+  "unresolved_issues": [
+    "HITL [operational] 'Vendor Performance Commitments': quoted evidence could not be verified against source text — needs human confirmation before use."
+  ],
   "consensus_actions": [
     "Review: [legal] Governing Law and Dispute Resolution"
   ],
   "overall_risk": "MEDIUM",
-  "created_at": "2026-10-06T01:58:16.396422"
+  "created_at": "2026-10-22T23:58:23.392200"
 }

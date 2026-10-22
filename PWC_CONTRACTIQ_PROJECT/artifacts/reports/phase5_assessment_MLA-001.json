@@ -1,21 +1,28 @@
 {
-  "assessment_id": "assessment-MLA-001-29c9c0f9",
+  "assessment_id": "assessment-MLA-001-de83ca6a",
   "doc_id": "MLA-001",
-  "run_id": "f047cc3ae110",
+  "run_id": "2365414ee02a",
   "document_version": "1",
   "model_version": "gpt-4o-mini",
   "prompt_version": "phase5-specialist-prompts-v1",
   "policy_version": "risk-policy-v1",
   "dimension_results": [
     {
+      "dimension": "financial",
+      "success": true,
+      "findings": [],
+      "error": "skipped by routing: triage found no content for this dimension",
+      "retry_count": 0
+    },
+    {
       "dimension": "operational",
       "success": true,
       "findings": [
         {
-          "finding_id": "operational-scope_of_work-60d42141",
+          "finding_id": "operational-scope_of_work-a7a8a7db",
           "dimension": "operational",
           "severity": "HIGH",
-          "title": "Scope of Work Defined",
+          "title": "Scope of Services Defined",
           "rationale": "The evidence clearly outlines the scope of services to be provided under the agreement, detailing the responsibilities and deliverables of the Vendor.",
           "recommendation": null,
           "evidence_ids": [
@@ -28,11 +35,11 @@
           "confidence": 0.95
         },
         {
-          "finding_id": "operational-sla_commitments-3afcaa6a",
+          "finding_id": "operational-sla_commitments-be5e15ed",
           "dimension": "operational",
           "severity": "HIGH",
           "title": "Vendor's Service Level Commitments",
-          "rationale": "The evidence specifies the Vendor's commitments regarding service levels, including incident response times and resolution timelines based on severity.",
+          "rationale": "The evidence outlines specific performance commitments made by the Vendor regarding incident response and resolution times, which are critical components of the service level agreement.",
           "recommendation": null,
           "evidence_ids": [
             "MLA-001-c1"
@@ -44,11 +51,11 @@
           "confidence": 0.95
         },
         {
-          "finding_id": "operational-sla_remedies-d7eb18fd",
+          "finding_id": "operational-sla_remedies-02d9f525",
           "dimension": "operational",
           "severity": "MEDIUM",
-          "title": "Service Level Agreement Remedies",
-          "rationale": "The contract specifies that continued failure to meet SLA commitments may result in service credits or financial penalties as detailed in the Rate Card or annexures.",
+          "title": "Service Credits for SLA Non-Compliance",
+          "rationale": "The evidence specifies that continued failure to meet SLA commitments may result in service credits or financial penalties as detailed in the Rate Card or annexures.",
           "recommendation": null,
           "evidence_ids": [
             "MLA-001-c1"
@@ -60,11 +67,11 @@
           "confidence": 0.9
         },
         {
-          "finding_id": "operational-dependencies_obligations-a56ace9c",
+          "finding_id": "operational-dependencies_obligations-90d9919a",
           "dimension": "operational",
           "severity": "MEDIUM",
-          "title": "Client Payment Obligations",
-          "rationale": "The evidence outlines the obligations of the Client regarding payment terms, which are critical for the Vendor's performance.",
+          "title": "Client-Side Obligations for Vendor Performance",
+          "rationale": "The evidence outlines specific obligations of the Client that the Vendor relies on for performance, particularly regarding payment terms and cooperation in resolving invoice disputes.",
           "recommendation": null,
           "evidence_ids": [
             "MLA-001-c1"
@@ -76,89 +83,17 @@
           "confidence": 0.9
         },
         {
-          "finding_id": "operational-performance_reporting-09616a93",
+          "finding_id": "operational-performance_reporting-724f1b1f",
           "dimension": "operational",
           "severity": "HIGH",
           "title": "Service Performance Measurement and Reporting",
-          "rationale": "The contract specifies that the Vendor shall furnish weekly and monthly performance reports summarizing incidents, resolutions, SLA compliance, bottlenecks, and recommendations for improvement.",
+          "rationale": "The Vendor commits to resolving incidents within specified timeframes and provides regular performance reports, which are essential for measuring service performance.",
           "recommendation": null,
           "evidence_ids": [
             "MLA-001-c1"
           ],
           "evidence_excerpts": [
             "The Vendor shall furnish weekly and monthly performance reports summarizing incidents, resolutions, SLA compliance, bottlenecks, and recommendations for improvement."
-          ],
-          "verification_status": "verified",
-          "confidence": 0.95
-        }
-      ],
-      "error": null,
-      "retry_count": 0
-    },
-    {
-      "dimension": "financial",
-      "success": true,
-      "findings": [
-        {
-          "finding_id": "financial-payment_terms-92037534",
-          "dimension": "financial",
-          "severity": "MEDIUM",
-          "title": "Payment Terms and Schedule",
-          "rationale": "The payment terms specify that the Client shall make payments within forty-five (45) days from the date of receipt of the completed invoice, and any disputed component of an invoice must be notified within seven (7) days.",
-          "recommendation": null,
-          "evidence_ids": [
-            "MLA-001-c1"
-          ],
-          "evidence_excerpts": [
-            "The Client shall make payments within forty-five (45) days from the date of receipt of the completed invoice, subject to validation and reconciliation."
-          ],
-          "verification_status": "verified",
-          "confidence": 0.9
-        },
-        {
-          "finding_id": "financial-late_payment_penalties-9fc2d4ba",
-          "dimension": "financial",
-          "severity": "MEDIUM",
-          "title": "Late Payment Penalty Details",
-          "rationale": "The contract specifies that delays in invoice settlement beyond the stipulated period will incur an interest charge.",
-          "recommendation": null,
-          "evidence_ids": [
-            "MLA-001-c1"
-          ],
-          "evidence_excerpts": [
-            "Delay in invoice settlement beyond the stipulated period shall attract an interest charge of one percent (1%) per month until full payment is made."
-          ],
-          "verification_status": "verified",
-          "confidence": 0.9
-        },
-        {
-          "finding_id": "financial-pricing_structure-7bc020ab",
-          "dimension": "financial",
-          "severity": "MEDIUM",
-          "title": "Pricing Structure Defined",
-          "rationale": "The evidence clearly outlines the pricing structure and billing terms applicable to the agreement, including references to a Rate Card and specific payment terms.",
-          "recommendation": null,
-          "evidence_ids": [
-            "MLA-001-c1"
-          ],
-          "evidence_excerpts": [
-            "All pricing applicable to this Agreement shall be governed by the Rate Card or the individual SOWs executed between the Parties."
-          ],
-          "verification_status": "verified",
-          "confidence": 0.9
-        },
-        {
-          "finding_id": "financial-financial_exposure_cap-5b11cf42",
-          "dimension": "financial",
-          "severity": "MEDIUM",
-          "title": "Cap on Financial Exposure",
-          "rationale": "The contract specifies a limitation on liability, capping the total cumulative liability of each party under the agreement.",
-          "recommendation": null,
-          "evidence_ids": [
-            "MLA-001-c2"
-          ],
-          "evidence_excerpts": [
-            "each Party’s total cumulative liability under this Agreement shall not exceed the total amount paid by the Client to the Vendor in the preceding twelve (12) months."
           ],
           "verification_status": "verified",
           "confidence": 0.9
@@ -172,11 +107,11 @@
       "success": true,
       "findings": [
         {
-          "finding_id": "legal-liability_cap-b153ef53",
+          "finding_id": "legal-liability_cap-08a35b89",
           "dimension": "legal",
           "severity": "HIGH",
           "title": "Limitation of Liability Found",
-          "rationale": "The contract explicitly states a cap on total liability, limiting it to the total amount paid by the Client to the Vendor in the preceding twelve months, except for certain breaches.",
+          "rationale": "The evidence explicitly states the limitation on total liability under the agreement.",
           "recommendation": null,
           "evidence_ids": [
             "MLA-001-c2"
@@ -188,7 +123,7 @@
           "confidence": 0.95
         },
         {
-          "finding_id": "legal-indemnification-e31c0615",
+          "finding_id": "legal-indemnification-80afb581",
           "dimension": "legal",
           "severity": "HIGH",
           "title": "Indemnification Obligations",
@@ -204,23 +139,23 @@
           "confidence": 0.95
         },
         {
-          "finding_id": "legal-termination_for_cause-5c6a5326",
+          "finding_id": "legal-termination_for_cause-e1555f73",
           "dimension": "legal",
           "severity": "MEDIUM",
           "title": "Termination for Cause Conditions",
-          "rationale": "The contract specifies that either party may terminate the agreement for cause if there is a material breach that is not cured within 30 days of written notice. Specific situations constituting cause include persistent failure to meet service obligations, non-payment, misconduct, breach of confidentiality, or non-compliance with laws.",
+          "rationale": "The evidence specifies the conditions under which the agreement can be terminated for cause, including material breaches and the failure to cure such breaches within a specified period.",
           "recommendation": null,
           "evidence_ids": [
             "MLA-001-c0"
           ],
           "evidence_excerpts": [
-            "This Agreement may also be terminated for cause if either Party materially breaches its obligations and fails to cure such breach within a period of thirty (30) days from the receipt of a written notice specifying the nature of the breach. Situations constituting cause shall include, but are not limited to, persistent failure to meet service obligations, non-payment for delivered services or hardware, misconduct, breach of confidentiality, or non-compliance with applicable laws or industry regulations."
+            "This Agreement may also be terminated for cause if either Party materially breaches its obligations and fails to cure such breach within a period of thirty (30) days from the receipt of a written notice specifying the nature of the breach."
           ],
           "verification_status": "verified",
           "confidence": 0.9
         },
         {
-          "finding_id": "legal-termination_for_convenience-6be95f76",
+          "finding_id": "legal-termination_for_convenience-ee19f794",
           "dimension": "legal",
           "severity": "MEDIUM",
           "title": "Termination for Convenience Notice Period",
@@ -236,7 +171,7 @@
           "confidence": 0.9
         },
         {
-          "finding_id": "legal-confidentiality_survival-ce3398c3",
+          "finding_id": "legal-confidentiality_survival-aa81ffa8",
           "dimension": "legal",
           "severity": "MEDIUM",
           "title": "Confidentiality Obligations Survival Period",
@@ -252,7 +187,7 @@
           "confidence": 0.9
         },
         {
-          "finding_id": "legal-ip_ownership-3d31921a",
+          "finding_id": "legal-ip_ownership-5249cf5d",
           "dimension": "legal",
           "severity": "HIGH",
           "title": "Intellectual Property Ownership",
@@ -268,11 +203,11 @@
           "confidence": 0.95
         },
         {
-          "finding_id": "legal-governing_law_disputes-779c5304",
+          "finding_id": "legal-governing_law_disputes-1a88b954",
           "dimension": "legal",
           "severity": "HIGH",
           "title": "Governing Law and Dispute Resolution",
-          "rationale": "The evidence clearly outlines the governing law and the method for resolving disputes, specifying arbitration as the resolution method and the applicable jurisdiction.",
+          "rationale": "The evidence clearly outlines the governing law and the method for resolving disputes, specifying arbitration as the resolution method and mentioning the applicable jurisdiction.",
           "recommendation": null,
           "evidence_ids": [
             "MLA-001-c3",
@@ -291,7 +226,7 @@
   ],
   "unresolved_issues": [],
   "consensus_actions": [
-    "Review: [operational] Scope of Work Defined",
+    "Review: [operational] Scope of Services Defined",
     "Review: [operational] Vendor's Service Level Commitments",
     "Review: [operational] Service Performance Measurement and Reporting",
     "Review: [legal] Limitation of Liability Found",
@@ -300,5 +235,5 @@
     "Review: [legal] Governing Law and Dispute Resolution"
   ],
   "overall_risk": "HIGH",
-  "created_at": "2026-10-06T01:56:44.582515"
+  "created_at": "2026-10-22T23:55:45.364027"
 }

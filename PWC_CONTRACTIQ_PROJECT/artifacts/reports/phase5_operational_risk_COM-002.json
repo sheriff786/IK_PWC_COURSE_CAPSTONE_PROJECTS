@@ -3,7 +3,7 @@
   "success": true,
   "findings": [
     {
-      "finding_id": "operational-scope_of_work-1c93e7bb",
+      "finding_id": "operational-scope_of_work-de6eefb8",
       "dimension": "operational",
       "severity": "MEDIUM",
       "title": "Scope of Work and Deliverables Defined",

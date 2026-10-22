@@ -3,7 +3,7 @@
   "success": true,
   "findings": [
     {
-      "finding_id": "financial-payment_terms-cad1f65d",
+      "finding_id": "financial-payment_terms-0f53d65d",
       "dimension": "financial",
       "severity": "MEDIUM",
       "title": "Payment Terms and Schedule",
@@ -13,17 +13,17 @@
         "FIN-001-c0"
       ],
       "evidence_excerpts": [
-        "Payment is due within 30 calendar days from the date of invoice receipt. Late payments will attract an interest of 1.5% per month on the outstanding amount."
+        "Payment is due within 30 calendar days from the date of invoice receipt."
       ],
       "verification_status": "verified",
       "confidence": 0.9
     },
     {
-      "finding_id": "financial-late_payment_penalties-cd4c640f",
+      "finding_id": "financial-late_payment_penalties-b49a0eab",
       "dimension": "financial",
       "severity": "MEDIUM",
-      "title": "Late Payment Penalty Details",
-      "rationale": "The evidence specifies the penalties for late payments, including the interest rate applicable to outstanding amounts.",
+      "title": "Late Payment Penalties",
+      "rationale": "The contract specifies the penalties for late payments, including the interest rate applicable to outstanding amounts.",
       "recommendation": null,
       "evidence_ids": [
         "FIN-001-c0"
@@ -35,11 +35,11 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "financial-pricing_structure-f33f6b4a",
+      "finding_id": "financial-pricing_structure-ed5efb16",
       "dimension": "financial",
       "severity": "MEDIUM",
       "title": "Pricing Structure and Payment Terms",
-      "rationale": "The evidence provides a detailed description of the pricing structure, including billing frequency, payment terms, and milestone billing for large orders.",
+      "rationale": "The evidence outlines the pricing structure, including billing frequency, payment terms, and milestone billing for large orders, which directly addresses the topic of pricing structure.",
       "recommendation": null,
       "evidence_ids": [
         "FIN-001-c0"

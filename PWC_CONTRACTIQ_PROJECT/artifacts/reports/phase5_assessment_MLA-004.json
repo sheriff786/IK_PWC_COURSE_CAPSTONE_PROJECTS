@@ -1,20 +1,27 @@
 {
-  "assessment_id": "assessment-MLA-004-2e71c6b2",
+  "assessment_id": "assessment-MLA-004-c4c9c0ee",
   "doc_id": "MLA-004",
-  "run_id": "a1700c698b0f",
+  "run_id": "151552d8204d",
   "document_version": "1",
   "model_version": "gpt-4o-mini",
   "prompt_version": "phase5-specialist-prompts-v1",
   "policy_version": "risk-policy-v1",
   "dimension_results": [
     {
+      "dimension": "financial",
+      "success": true,
+      "findings": [],
+      "error": "skipped by routing: triage found no content for this dimension",
+      "retry_count": 0
+    },
+    {
       "dimension": "operational",
       "success": true,
       "findings": [
         {
-          "finding_id": "operational-dependencies_obligations-407a021a",
+          "finding_id": "operational-dependencies_obligations-ce6924f0",
           "dimension": "operational",
-          "severity": "MEDIUM",
+          "severity": "HIGH",
           "title": "Client-Side Obligations for Performance",
           "rationale": "The vendor relies on the client to provide various forms of Confidential Information necessary for the collaboration, including operational models, project plans, and compliance interpretations, which are essential for the vendor's performance.",
           "recommendation": null,
@@ -25,16 +32,9 @@
             "Such information includes, but is not limited to, engineering documentation such as block diagrams, circuit layouts, PCB manufacturing files, embedded code, source binaries, firmware logic, secure boot designs, encryption key structures for testing, device communication protocols, debugging tools, prototype devices, testing rigs, engineering samples, and custom embedded software created by or for either Party."
           ],
           "verification_status": "verified",
-          "confidence": 0.85
+          "confidence": 0.9
         }
       ],
-      "error": null,
-      "retry_count": 0
-    },
-    {
-      "dimension": "financial",
-      "success": true,
-      "findings": [],
       "error": null,
       "retry_count": 0
     },
@@ -43,11 +43,11 @@
       "success": true,
       "findings": [
         {
-          "finding_id": "legal-termination_for_cause-fb50b307",
+          "finding_id": "legal-termination_for_cause-b1899a98",
           "dimension": "legal",
           "severity": "HIGH",
           "title": "Conditions for Termination for Cause",
-          "rationale": "The evidence outlines the consequences of breach, including the right to terminate existing contracts and seek injunctive relief, which indicates conditions under which the agreement can be terminated for cause.",
+          "rationale": "The evidence outlines the consequences of breaches, including the right to terminate existing contracts and seek injunctive relief, which indicates conditions under which the agreement can be terminated for cause.",
           "recommendation": null,
           "evidence_ids": [
             "MLA-004-c2"
@@ -59,9 +59,9 @@
           "confidence": 0.9
         },
         {
-          "finding_id": "legal-confidentiality_survival-6a1b14d4",
+          "finding_id": "legal-confidentiality_survival-bcedfaf9",
           "dimension": "legal",
-          "severity": "MEDIUM",
+          "severity": "HIGH",
           "title": "Confidentiality Obligations Survival Period",
           "rationale": "The confidentiality obligations contained herein shall survive termination and shall continue to bind both Parties for a period of five (5) years from the date of termination or final disclosure, whichever is later.",
           "recommendation": null,
@@ -72,10 +72,10 @@
             "The confidentiality obligations contained herein shall survive termination and shall continue to bind both Parties for a period of five (5) years from the date of termination or final disclosure, whichever is later."
           ],
           "verification_status": "verified",
-          "confidence": 0.9
+          "confidence": 0.95
         },
         {
-          "finding_id": "legal-ip_ownership-2f53a125",
+          "finding_id": "legal-ip_ownership-26603572",
           "dimension": "legal",
           "severity": "HIGH",
           "title": "Intellectual Property Ownership",
@@ -88,10 +88,10 @@
             "All intellectual property rights connected to the Confidential Information remain solely with the Disclosing Party."
           ],
           "verification_status": "verified",
-          "confidence": 0.9
+          "confidence": 0.95
         },
         {
-          "finding_id": "legal-governing_law_disputes-c542b64e",
+          "finding_id": "legal-governing_law_disputes-190a2247",
           "dimension": "legal",
           "severity": "HIGH",
           "title": "Governing Law and Dispute Resolution",
@@ -107,9 +107,9 @@
           "confidence": 0.95
         },
         {
-          "finding_id": "legal-assignment_change_of_control-e496a219",
+          "finding_id": "legal-assignment_change_of_control-f0757a03",
           "dimension": "legal",
-          "severity": "MEDIUM",
+          "severity": "HIGH",
           "title": "Assignment and Change of Control Restrictions",
           "rationale": "The contract explicitly states that neither Party may assign, transfer, or delegate its rights or obligations without written approval from the other Party.",
           "recommendation": null,
@@ -129,10 +129,13 @@
   ],
   "unresolved_issues": [],
   "consensus_actions": [
+    "Review: [operational] Client-Side Obligations for Performance",
     "Review: [legal] Conditions for Termination for Cause",
+    "Review: [legal] Confidentiality Obligations Survival Period",
     "Review: [legal] Intellectual Property Ownership",
-    "Review: [legal] Governing Law and Dispute Resolution"
+    "Review: [legal] Governing Law and Dispute Resolution",
+    "Review: [legal] Assignment and Change of Control Restrictions"
   ],
   "overall_risk": "HIGH",
-  "created_at": "2026-10-06T01:57:27.899796"
+  "created_at": "2026-10-22T23:57:09.123101"
 }

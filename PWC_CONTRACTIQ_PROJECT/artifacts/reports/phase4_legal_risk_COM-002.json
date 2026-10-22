@@ -3,11 +3,11 @@
   "success": true,
   "findings": [
     {
-      "finding_id": "legal-termination_for_convenience-f40e3c67",
+      "finding_id": "legal-termination_for_convenience-9400f159",
       "dimension": "legal",
       "severity": "MEDIUM",
       "title": "Termination for Convenience Notice Period",
-      "rationale": "The contract specifies the notice period required for termination without cause.",
+      "rationale": "The evidence specifies the notice period required for termination without cause.",
       "recommendation": null,
       "evidence_ids": [
         "COM-002-c0"
@@ -19,11 +19,11 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "legal-ip_ownership-045300c7",
+      "finding_id": "legal-ip_ownership-14f356ec",
       "dimension": "legal",
       "severity": "HIGH",
       "title": "Intellectual Property Ownership",
-      "rationale": "The Vendor retains all intellectual property rights over hardware design, firmware, and proprietary software, indicating that the Vendor owns the intellectual property created under this agreement.",
+      "rationale": "The Vendor retains all intellectual property rights over hardware design, firmware, and proprietary software, indicating ownership of the intellectual property created under this agreement.",
       "recommendation": null,
       "evidence_ids": [
         "COM-002-c0"
@@ -35,11 +35,11 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "legal-governing_law_disputes-f619c7a5",
+      "finding_id": "legal-governing_law_disputes-ce1fe670",
       "dimension": "legal",
-      "severity": "MEDIUM",
+      "severity": "HIGH",
       "title": "Governing Law and Dispute Resolution",
-      "rationale": "The evidence explicitly states the governing law and the method for resolving disputes, which is arbitration under the Indian Arbitration and Conciliation Act, 1996.",
+      "rationale": "The evidence explicitly states the governing law and the method for resolving disputes.",
       "recommendation": null,
       "evidence_ids": [
         "COM-002-c0"
@@ -48,7 +48,7 @@
         "Unresolved disputes will be referred to arbitration under the Indian Arbitration and Conciliation Act, 1996. Arbitration proceedings will take place in [City, State], India, in English."
       ],
       "verification_status": "verified",
-      "confidence": 0.9
+      "confidence": 0.95
     }
   ],
   "error": null,

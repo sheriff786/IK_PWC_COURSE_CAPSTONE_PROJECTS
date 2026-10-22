@@ -1,7 +1,7 @@
 {
-  "assessment_id": "assessment-COM-001-ca659650",
+  "assessment_id": "assessment-COM-001-afa835b6",
   "doc_id": "COM-001",
-  "run_id": "6c5541c8f55d",
+  "run_id": "f8ac4b480c0b",
   "document_version": "1",
   "model_version": "gpt-4o-mini",
   "prompt_version": "phase5-specialist-prompts-v1",
@@ -12,11 +12,11 @@
       "success": true,
       "findings": [
         {
-          "finding_id": "operational-scope_of_work-dc6fa6aa",
+          "finding_id": "operational-scope_of_work-f24dae22",
           "dimension": "operational",
           "severity": "MEDIUM",
           "title": "Scope of Work Defined",
-          "rationale": "The evidence clearly outlines the scope of products covered under the agreement, detailing the categories of products and services to be supplied by the Vendor to the Client.",
+          "rationale": "The evidence clearly outlines the scope of products covered under the agreement, detailing the categories of products that the Vendor will supply to the Client.",
           "recommendation": null,
           "evidence_ids": [
             "COM-001-c0"
@@ -32,55 +32,15 @@
       "retry_count": 0
     },
     {
-      "dimension": "legal",
-      "success": true,
-      "findings": [
-        {
-          "finding_id": "legal-termination_for_convenience-a13b50ad",
-          "dimension": "legal",
-          "severity": "MEDIUM",
-          "title": "Termination for Convenience Notice Period",
-          "rationale": "The evidence specifies the notice period required for termination of the agreement without cause.",
-          "recommendation": null,
-          "evidence_ids": [
-            "COM-001-c0"
-          ],
-          "evidence_excerpts": [
-            "Either party may terminate the Agreement by providing 60 days written notice to the other party."
-          ],
-          "verification_status": "verified",
-          "confidence": 0.9
-        },
-        {
-          "finding_id": "legal-governing_law_disputes-591e0f03",
-          "dimension": "legal",
-          "severity": "MEDIUM",
-          "title": "Governing Law and Dispute Resolution",
-          "rationale": "The evidence explicitly outlines the process for dispute resolution and indicates the governing law applicable to the arbitration process.",
-          "recommendation": null,
-          "evidence_ids": [
-            "COM-001-c0"
-          ],
-          "evidence_excerpts": [
-            "Any dispute arising from this Agreement shall first be addressed through amicable discussions between the parties. If unresolved, the matter shall be referred to arbitration under the Indian Arbitration and Conciliation Act, 1996. The place of arbitration shall be [City, State], India, and the proceedings shall be conducted in English."
-          ],
-          "verification_status": "verified",
-          "confidence": 0.9
-        }
-      ],
-      "error": null,
-      "retry_count": 0
-    },
-    {
       "dimension": "financial",
       "success": true,
       "findings": [
         {
-          "finding_id": "financial-payment_terms-032293fa",
+          "finding_id": "financial-payment_terms-a195968e",
           "dimension": "financial",
           "severity": "MEDIUM",
           "title": "Payment Terms and Schedule",
-          "rationale": "The evidence clearly outlines the payment terms, including the due dates and conditions for late payments.",
+          "rationale": "The evidence clearly outlines the payment terms, including the due dates and conditions for payment under the agreement.",
           "recommendation": null,
           "evidence_ids": [
             "COM-001-c0"
@@ -92,7 +52,7 @@
           "confidence": 0.9
         },
         {
-          "finding_id": "financial-late_payment_penalties-514b88c5",
+          "finding_id": "financial-late_payment_penalties-49466fbd",
           "dimension": "financial",
           "severity": "MEDIUM",
           "title": "Late Payment Penalties",
@@ -108,27 +68,27 @@
           "confidence": 0.9
         },
         {
-          "finding_id": "financial-pricing_structure-6c35a9c0",
+          "finding_id": "financial-pricing_structure-d42d7de0",
           "dimension": "financial",
-          "severity": "HIGH",
+          "severity": "MEDIUM",
           "title": "Pricing Structure Defined",
-          "rationale": "The evidence explicitly outlines the pricing structure for the products and services provided by the Vendor to the Client, including details on base pricing, payment terms, and conditions for price revisions.",
+          "rationale": "The agreement explicitly outlines the pricing structure for products and services provided by the Vendor to the Client, including details on base pricing and conditions for price revisions.",
           "recommendation": null,
           "evidence_ids": [
             "COM-001-c0"
           ],
           "evidence_excerpts": [
-            "The pricing structure, terms, and conditions applicable to the sale and supply of electronic hardware products and related services provided by Vendor to Client."
+            "The pricing of each product is established in Table 1: Base Pricing, which shall be effective for the duration of this Agreement, unless modified through mutual written consent."
           ],
           "verification_status": "verified",
-          "confidence": 0.95
+          "confidence": 0.9
         },
         {
-          "finding_id": "financial-price_escalation-7a9ec31b",
+          "finding_id": "financial-price_escalation-3597efbe",
           "dimension": "financial",
           "severity": "MEDIUM",
           "title": "Price Revision Clause Present",
-          "rationale": "The contract includes a clause that allows for price revisions based on certain conditions, indicating a form of price escalation mechanism.",
+          "rationale": "The contract includes a clause that allows for price revisions based on inflation and changes in raw material costs, indicating a form of price escalation mechanism.",
           "recommendation": null,
           "evidence_ids": [
             "COM-001-c0"
@@ -142,12 +102,54 @@
       ],
       "error": null,
       "retry_count": 0
+    },
+    {
+      "dimension": "legal",
+      "success": true,
+      "findings": [
+        {
+          "finding_id": "legal-termination_for_convenience-3162eda3",
+          "dimension": "legal",
+          "severity": "MEDIUM",
+          "title": "Termination for Convenience Notice Period",
+          "rationale": "The evidence specifies the notice period required for termination of the agreement without cause.",
+          "recommendation": null,
+          "evidence_ids": [
+            "COM-001-c0"
+          ],
+          "evidence_excerpts": [
+            "Either party may terminate the Agreement by providing 60 days written notice to the other party."
+          ],
+          "verification_status": "verified",
+          "confidence": 0.9
+        },
+        {
+          "finding_id": "legal-governing_law_disputes-fb43e88c",
+          "dimension": "legal",
+          "severity": "HIGH",
+          "title": "Governing Law and Dispute Resolution",
+          "rationale": "The evidence explicitly outlines the process for dispute resolution and mentions arbitration as the method to resolve disputes, along with the governing law reference.",
+          "recommendation": null,
+          "evidence_ids": [
+            "COM-001-c0"
+          ],
+          "evidence_excerpts": [
+            "Any dispute arising from this Agreement shall first be addressed through amicable discussions between the parties. If unresolved, the matter shall be referred to arbitration under the Indian Arbitration and Conciliation Act, 1996."
+          ],
+          "verification_status": "verified",
+          "confidence": 0.95
+        }
+      ],
+      "error": null,
+      "retry_count": 0
     }
   ],
-  "unresolved_issues": [],
+  "unresolved_issues": [
+    "HITL [operational] 'Scope of Work Defined': quoted evidence could not be verified against source text — needs human confirmation before use."
+  ],
   "consensus_actions": [
-    "Review: [financial] Pricing Structure Defined"
+    "Review: [legal] Governing Law and Dispute Resolution"
   ],
   "overall_risk": "MEDIUM",
-  "created_at": "2026-10-06T01:58:38.159646"
+  "created_at": "2026-10-22T23:58:55.595561"
 }

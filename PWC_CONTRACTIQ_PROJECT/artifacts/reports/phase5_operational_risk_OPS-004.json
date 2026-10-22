@@ -3,11 +3,11 @@
   "success": true,
   "findings": [
     {
-      "finding_id": "operational-scope_of_work-1bb7e9e2",
+      "finding_id": "operational-scope_of_work-ab80eb55",
       "dimension": "operational",
       "severity": "MEDIUM",
-      "title": "Scope of Work for Primevolta Hardware Solutions",
-      "rationale": "The evidence provides a detailed description of the services delivered by Primevolta Hardware Solutions, outlining the specific operational tasks and responsibilities under the agreement with FinSecure Services.",
+      "title": "Scope of Work Defined",
+      "rationale": "The evidence clearly outlines the scope of services delivered by Primevolta Hardware Solutions, detailing specific operational tasks and responsibilities.",
       "recommendation": null,
       "evidence_ids": [
         "OPS-004-c0"
@@ -19,12 +19,12 @@
       "confidence": 0.3
     },
     {
-      "finding_id": "operational-sla_commitments-b4abfde0",
+      "finding_id": "operational-sla_commitments-13c6114b",
       "dimension": "operational",
       "severity": "MEDIUM",
       "title": "Service Level Commitments",
       "rationale": "The evidence provides specific performance metrics and commitments made by Primevolta Hardware Solutions regarding service delivery and operational efficiency.",
-      "recommendation": "Ensure ongoing monitoring of SLA compliance and address any identified issues promptly.",
+      "recommendation": "Continue monitoring SLA compliance and implement recommended improvements for future performance.",
       "evidence_ids": [
         "OPS-004-c0"
       ],
@@ -35,11 +35,11 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "operational-performance_reporting-cbe65393",
+      "finding_id": "operational-performance_reporting-a7275dcd",
       "dimension": "operational",
       "severity": "HIGH",
       "title": "Service Performance Measurement and Reporting",
-      "rationale": "The evidence provides a detailed overview of how service performance is measured and reported, including specific metrics and reporting periods.",
+      "rationale": "The evidence provides a detailed overview of how service performance is measured and reported, including metrics such as system uptime, incident resolution, and SLA compliance.",
       "recommendation": null,
       "evidence_ids": [
         "OPS-004-c0"

@@ -3,11 +3,11 @@
   "success": true,
   "findings": [
     {
-      "finding_id": "operational-scope_of_work-0b367735",
+      "finding_id": "operational-scope_of_work-e42a4762",
       "dimension": "operational",
       "severity": "MEDIUM",
       "title": "Scope of Work Defined",
-      "rationale": "The evidence clearly outlines the scope of work under the agreement, specifying the types of hardware products to be supplied by the Vendor to the Client.",
+      "rationale": "The evidence clearly outlines the scope of work under the agreement, specifying the hardware products to be supplied by the Vendor to the Client.",
       "recommendation": null,
       "evidence_ids": [
         "FIN-001-c0"
@@ -19,7 +19,7 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "operational-acceptance_criteria-5fe49ade",
+      "finding_id": "operational-acceptance_criteria-7598b064",
       "dimension": "operational",
       "severity": "HIGH",
       "title": "Acceptance Criteria for Deliverables",
@@ -35,7 +35,7 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "operational-dependencies_obligations-a5e56e53",
+      "finding_id": "operational-dependencies_obligations-e0202627",
       "dimension": "operational",
       "severity": "MEDIUM",
       "title": "Client Obligations for Vendor Performance",

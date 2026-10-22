@@ -3,11 +3,11 @@
   "success": true,
   "findings": [
     {
-      "finding_id": "operational-scope_of_work-dc6fa6aa",
+      "finding_id": "operational-scope_of_work-f24dae22",
       "dimension": "operational",
       "severity": "MEDIUM",
       "title": "Scope of Work Defined",
-      "rationale": "The evidence clearly outlines the scope of products covered under the agreement, detailing the categories of products and services to be supplied by the Vendor to the Client.",
+      "rationale": "The evidence clearly outlines the scope of products covered under the agreement, detailing the categories of products that the Vendor will supply to the Client.",
       "recommendation": null,
       "evidence_ids": [
         "COM-001-c0"

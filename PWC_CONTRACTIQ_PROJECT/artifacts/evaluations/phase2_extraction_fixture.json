@@ -5,7 +5,7 @@
     "raw_text": "30 days",
     "source_locator": "paragraph:67",
     "source_excerpt": "Either party may terminate the agreement with 30 days\u2019 notice, without affecting outstanding invoices or milestones.",
-    "reviewer_verdict": "correct",
+    "reviewer_verdict": null,
     "reviewer_notes": null
   },
   {
@@ -14,7 +14,7 @@
     "raw_text": "36 months",
     "source_locator": "paragraph:45",
     "source_excerpt": "The Agreement shall remain in force for 36 months from the effective date.",
-    "reviewer_verdict": "correct",
+    "reviewer_verdict": null,
     "reviewer_notes": null
   },
   {
@@ -23,7 +23,7 @@
     "raw_text": "termination for convenience",
     "source_locator": "paragraph:58",
     "source_excerpt": "9.1 Term: 4 years from effective date.\n9.2 Either party may terminate for material breach with 60 days\u2019 written notice.\n9.3 Termination for convenience requires 90 days\u2019 notice and payment for delivered and installed Hardware.",
-    "reviewer_verdict": "correct",
+    "reviewer_verdict": null,
     "reviewer_notes": null
   },
   {
@@ -32,7 +32,7 @@
     "raw_text": "50%",
     "source_locator": "paragraph:27",
     "source_excerpt": "50% upon acceptance of all Hardware",
-    "reviewer_verdict": "correct",
+    "reviewer_verdict": null,
     "reviewer_notes": null
   },
   {
@@ -41,7 +41,7 @@
     "raw_text": "termination for convenience",
     "source_locator": "paragraph:52",
     "source_excerpt": "8.1 Term: 3 years from effective date.\n8.2 Either party may terminate on material breach with 60 days\u2019 notice.\n8.3 Termination for convenience requires 90 days\u2019 notice with proportional payments for delivered goods.",
-    "reviewer_verdict": "correct",
+    "reviewer_verdict": null,
     "reviewer_notes": null
   },
   {
@@ -50,7 +50,7 @@
     "raw_text": "1.5%",
     "source_locator": "paragraph:10",
     "source_excerpt": "Late payment subject to 1.5% monthly interest.",
-    "reviewer_verdict": "correct",
+    "reviewer_verdict": null,
     "reviewer_notes": null
   },
   {
@@ -59,8 +59,8 @@
     "raw_text": "INR 50,00,000",
     "source_locator": "paragraph:19",
     "source_excerpt": "3.2 Staged / Milestone Billing:\nFor projects involving multiple sites or large-scale deployments exceeding INR 50,00,000:",
-    "reviewer_verdict": "correct",
-    "reviewer_notes": "Correctly abstained (unclassified) -- no money-context keyword within the local line/window, so it did not guess."
+    "reviewer_verdict": null,
+    "reviewer_notes": null
   },
   {
     "doc_id": "TXN-002",
@@ -68,7 +68,7 @@
     "raw_text": "0.8%",
     "source_locator": "paragraph:50",
     "source_excerpt": "\u22640.8% failure rate per batch",
-    "reviewer_verdict": "correct",
+    "reviewer_verdict": null,
     "reviewer_notes": null
   },
   {
@@ -77,7 +77,7 @@
     "raw_text": "1.5%",
     "source_locator": "paragraph:11",
     "source_excerpt": "Late payments will attract an interest of 1.5% per month on the outstanding amount.",
-    "reviewer_verdict": "correct",
+    "reviewer_verdict": null,
     "reviewer_notes": null
   },
   {
@@ -86,7 +86,7 @@
     "raw_text": "intellectual property",
     "source_locator": "paragraph:17",
     "source_excerpt": "5. INTELLECTUAL PROPERTY PROTECTION AND NON-REVERSE ENGINEERING",
-    "reviewer_verdict": "correct",
+    "reviewer_verdict": null,
     "reviewer_notes": null
   },
   {
@@ -95,7 +95,7 @@
     "raw_text": "12 months",
     "source_locator": "paragraph:44",
     "source_excerpt": "Logging of all network access and security events for 12 months minimum.",
-    "reviewer_verdict": "correct",
+    "reviewer_verdict": null,
     "reviewer_notes": null
   },
   {
@@ -104,7 +104,7 @@
     "raw_text": "material breach",
     "source_locator": "paragraph:31",
     "source_excerpt": "The parties acknowledge that hardware systems may store or process sensitive financial and personal information. Both parties agree to maintain confidentiality in accordance with contractual obligations and regulatory requirements. Any third-party engagement relating to hardware support must adhere to the same standards of confidentiality and compliance. Unauthorized disclosure, modification, or destruction of data shall constitute a material breach of this Annexure.",
-    "reviewer_verdict": "correct",
+    "reviewer_verdict": null,
     "reviewer_notes": null
   },
   {
@@ -113,7 +113,7 @@
     "raw_text": "40%",
     "source_locator": "paragraph:20",
     "source_excerpt": "40% upon delivery of hardware to site",
-    "reviewer_verdict": "correct",
+    "reviewer_verdict": null,
     "reviewer_notes": null
   },
   {
@@ -122,7 +122,7 @@
     "raw_text": "60 days",
     "source_locator": "paragraph:52",
     "source_excerpt": "8.1 Term: 3 years from effective date.\n8.2 Either party may terminate on material breach with 60 days\u2019 notice.\n8.3 Termination for convenience requires 90 days\u2019 notice with proportional payments for delivered goods.",
-    "reviewer_verdict": "correct",
+    "reviewer_verdict": null,
     "reviewer_notes": null
   },
   {
@@ -131,7 +131,7 @@
     "raw_text": "service level agreement",
     "source_locator": "paragraph:64",
     "source_excerpt": "Annexure B: Service Level Agreement",
-    "reviewer_verdict": "correct",
+    "reviewer_verdict": null,
     "reviewer_notes": null
   },
   {
@@ -140,7 +140,7 @@
     "raw_text": "30%",
     "source_locator": "paragraph:33",
     "source_excerpt": "30% advance upon Renewal execution",
-    "reviewer_verdict": "correct",
+    "reviewer_verdict": null,
     "reviewer_notes": null
   },
   {
@@ -149,7 +149,7 @@
     "raw_text": "60 days",
     "source_locator": "paragraph:46",
     "source_excerpt": "Either party may terminate by providing 60 days\u2019 prior written notice.",
-    "reviewer_verdict": "correct",
+    "reviewer_verdict": null,
     "reviewer_notes": null
   },
   {
@@ -158,7 +158,7 @@
     "raw_text": "50%",
     "source_locator": "paragraph:81",
     "source_excerpt": "50% post-delivery of hardware units",
-    "reviewer_verdict": "correct",
+    "reviewer_verdict": null,
     "reviewer_notes": null
   },
   {
@@ -167,7 +167,7 @@
     "raw_text": "2%",
     "source_locator": "paragraph:31",
     "source_excerpt": "Vendor included a 2% early payment discount; Client requested it to be 1.5%.",
-    "reviewer_verdict": "correct",
+    "reviewer_verdict": null,
     "reviewer_notes": null
   },
   {
@@ -176,7 +176,7 @@
     "raw_text": "confidential information",
     "source_locator": "paragraph:12",
     "source_excerpt": "The Receiving Party shall implement and strictly enforce access controls, role-based permissions, encryption protocols, password protection practices, secure storage environments, and multi-factor authentication mechanisms whenever storing or processing Confidential Information. The Receiving Party shall refrain from uploading Confidential Information to unauthorized cloud environments, personal email accounts, personal devices, or unvetted third-party systems. Any replication or backup of Confidential Information, if permitted, must be stored in equivalently secure environments, ensuring that confidentiality is preserved at all times. In the event that any breach, suspected breach, or unauthorized access incident is detected, the Receiving Party shall notify the Disclosing Party without delay, provide a detailed explanation of the incident, cooperate fully in investigating the cause, and implement corrective actions to mitigate risk of recurrence.",
-    "reviewer_verdict": "correct",
+    "reviewer_verdict": null,
     "reviewer_notes": null
   }
 ]

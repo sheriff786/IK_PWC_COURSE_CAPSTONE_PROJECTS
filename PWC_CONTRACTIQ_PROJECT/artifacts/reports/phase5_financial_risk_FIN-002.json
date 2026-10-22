@@ -3,7 +3,7 @@
   "success": true,
   "findings": [
     {
-      "finding_id": "financial-payment_terms-43cd9fdb",
+      "finding_id": "financial-payment_terms-71c018af",
       "dimension": "financial",
       "severity": "MEDIUM",
       "title": "Payment Terms and Schedule",
@@ -19,7 +19,7 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "financial-late_payment_penalties-5b57d922",
+      "finding_id": "financial-late_payment_penalties-7657079d",
       "dimension": "financial",
       "severity": "MEDIUM",
       "title": "Late Payment Penalty",
@@ -35,11 +35,11 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "financial-pricing_structure-ea2771e5",
+      "finding_id": "financial-pricing_structure-443a5d02",
       "dimension": "financial",
       "severity": "MEDIUM",
       "title": "Pricing Structure and Billing Schedule",
-      "rationale": "The evidence provides a detailed description of the billing schedule and payment terms, which constitutes the pricing structure for the agreement.",
+      "rationale": "The evidence provides a detailed description of the pricing structure and billing schedule for the agreement between Primevolta Hardware Solutions and FinSecure Services.",
       "recommendation": null,
       "evidence_ids": [
         "FIN-002-c0"

@@ -3,7 +3,7 @@
   "success": true,
   "findings": [
     {
-      "finding_id": "operational-scope_of_work-49c2c970",
+      "finding_id": "operational-scope_of_work-1248bb14",
       "dimension": "operational",
       "severity": "MEDIUM",
       "title": "Scope of Work and Deliverables",
@@ -19,11 +19,11 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "operational-acceptance_criteria-826ee824",
+      "finding_id": "operational-acceptance_criteria-c769a209",
       "dimension": "operational",
       "severity": "MEDIUM",
       "title": "Acceptance Criteria for Deliverables",
-      "rationale": "The acceptance criteria for deliverables are defined by the Key Performance Indicators (KPIs) outlined in the contract, which specify the minimum performance levels required for compliance.",
+      "rationale": "The acceptance criteria for deliverables under this agreement are defined by the Key Performance Indicators (KPIs) outlined in the contract, which specify the minimum performance levels required for compliance.",
       "recommendation": null,
       "evidence_ids": [
         "GOV-004-c1",
@@ -36,11 +36,11 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "operational-sla_commitments-f2b6e6b2",
+      "finding_id": "operational-sla_commitments-0168eeca",
       "dimension": "operational",
-      "severity": "MEDIUM",
+      "severity": "HIGH",
       "title": "Service Level Commitments",
-      "rationale": "The vendor commits to specific service levels and performance metrics as outlined in the contract.",
+      "rationale": "The vendor commits to specific service levels as outlined in the Key Performance Indicators (KPIs).",
       "recommendation": null,
       "evidence_ids": [
         "GOV-004-c1",
@@ -50,15 +50,15 @@
         "Delivery SLA compliance ≥ 98%\nPreventive maintenance completion ≥ 95%\nInvoice error rate ≤ 0.5%\nDispute resolution average ≤ 10 business days"
       ],
       "verification_status": "verified",
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "finding_id": "operational-sla_remedies-760c4027",
+      "finding_id": "operational-sla_remedies-de5d0377",
       "dimension": "operational",
       "severity": "MEDIUM",
       "title": "SLA Breach Penalties",
-      "rationale": "The contract includes provisions for penalties related to SLA breaches, specifically mentioning that penalties will be included for repeated SLA breaches beyond three instances per contract year.",
-      "recommendation": "Ensure that the SLA penalties are clearly defined and communicated to all stakeholders.",
+      "rationale": "The evidence discusses proposed SLA revisions and penalties for repeated SLA breaches, indicating that remedies are in place for missed service level targets.",
+      "recommendation": "Consider finalizing the proposed SLA revisions and penalties to ensure accountability.",
       "evidence_ids": [
         "GOV-004-c0"
       ],
@@ -69,12 +69,12 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "operational-dependencies_obligations-349c87ac",
+      "finding_id": "operational-dependencies_obligations-e7f0cf22",
       "dimension": "operational",
       "severity": "MEDIUM",
       "title": "Client-Side Obligations for Vendor Performance",
       "rationale": "The evidence outlines specific client action items that the vendor relies on for performance, indicating dependencies on the client's obligations.",
-      "recommendation": null,
+      "recommendation": "Ensure timely feedback and assessment of revised KPIs and SLA penalties to support vendor performance.",
       "evidence_ids": [
         "GOV-004-c1",
         "GOV-004-c0"
@@ -86,12 +86,12 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "operational-performance_reporting-0d984517",
+      "finding_id": "operational-performance_reporting-9588adf0",
       "dimension": "operational",
       "severity": "MEDIUM",
       "title": "Performance Reporting Mechanisms",
-      "rationale": "The contract specifies the use of Key Performance Indicators (KPIs) and outlines governance and reporting requirements, including monthly operational dashboards and quarterly executive reviews to measure service performance.",
-      "recommendation": "Ensure that the reporting mechanisms are implemented as outlined to maintain accountability and transparency.",
+      "rationale": "The contract outlines specific Key Performance Indicators (KPIs) and governance requirements for performance reporting, including monthly operational dashboards and quarterly executive reviews.",
+      "recommendation": "Ensure adherence to the outlined KPIs and governance structures for effective performance monitoring.",
       "evidence_ids": [
         "GOV-004-c0"
       ],

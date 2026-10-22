@@ -3,11 +3,11 @@
   "success": true,
   "findings": [
     {
-      "finding_id": "legal-liability_cap-b153ef53",
+      "finding_id": "legal-liability_cap-08a35b89",
       "dimension": "legal",
       "severity": "HIGH",
       "title": "Limitation of Liability Found",
-      "rationale": "The contract explicitly states a cap on total liability, limiting it to the total amount paid by the Client to the Vendor in the preceding twelve months, except for certain breaches.",
+      "rationale": "The evidence explicitly states the limitation on total liability under the agreement.",
       "recommendation": null,
       "evidence_ids": [
         "MLA-001-c2"
@@ -19,7 +19,7 @@
       "confidence": 0.95
     },
     {
-      "finding_id": "legal-indemnification-e31c0615",
+      "finding_id": "legal-indemnification-80afb581",
       "dimension": "legal",
       "severity": "HIGH",
       "title": "Indemnification Obligations",
@@ -35,23 +35,23 @@
       "confidence": 0.95
     },
     {
-      "finding_id": "legal-termination_for_cause-5c6a5326",
+      "finding_id": "legal-termination_for_cause-e1555f73",
       "dimension": "legal",
       "severity": "MEDIUM",
       "title": "Termination for Cause Conditions",
-      "rationale": "The contract specifies that either party may terminate the agreement for cause if there is a material breach that is not cured within 30 days of written notice. Specific situations constituting cause include persistent failure to meet service obligations, non-payment, misconduct, breach of confidentiality, or non-compliance with laws.",
+      "rationale": "The evidence specifies the conditions under which the agreement can be terminated for cause, including material breaches and the failure to cure such breaches within a specified period.",
       "recommendation": null,
       "evidence_ids": [
         "MLA-001-c0"
       ],
       "evidence_excerpts": [
-        "This Agreement may also be terminated for cause if either Party materially breaches its obligations and fails to cure such breach within a period of thirty (30) days from the receipt of a written notice specifying the nature of the breach. Situations constituting cause shall include, but are not limited to, persistent failure to meet service obligations, non-payment for delivered services or hardware, misconduct, breach of confidentiality, or non-compliance with applicable laws or industry regulations."
+        "This Agreement may also be terminated for cause if either Party materially breaches its obligations and fails to cure such breach within a period of thirty (30) days from the receipt of a written notice specifying the nature of the breach."
       ],
       "verification_status": "verified",
       "confidence": 0.9
     },
     {
-      "finding_id": "legal-termination_for_convenience-6be95f76",
+      "finding_id": "legal-termination_for_convenience-ee19f794",
       "dimension": "legal",
       "severity": "MEDIUM",
       "title": "Termination for Convenience Notice Period",
@@ -67,7 +67,7 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "legal-confidentiality_survival-ce3398c3",
+      "finding_id": "legal-confidentiality_survival-aa81ffa8",
       "dimension": "legal",
       "severity": "MEDIUM",
       "title": "Confidentiality Obligations Survival Period",
@@ -83,7 +83,7 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "legal-ip_ownership-3d31921a",
+      "finding_id": "legal-ip_ownership-5249cf5d",
       "dimension": "legal",
       "severity": "HIGH",
       "title": "Intellectual Property Ownership",
@@ -99,11 +99,11 @@
       "confidence": 0.95
     },
     {
-      "finding_id": "legal-governing_law_disputes-779c5304",
+      "finding_id": "legal-governing_law_disputes-1a88b954",
       "dimension": "legal",
       "severity": "HIGH",
       "title": "Governing Law and Dispute Resolution",
-      "rationale": "The evidence clearly outlines the governing law and the method for resolving disputes, specifying arbitration as the resolution method and the applicable jurisdiction.",
+      "rationale": "The evidence clearly outlines the governing law and the method for resolving disputes, specifying arbitration as the resolution method and mentioning the applicable jurisdiction.",
       "recommendation": null,
       "evidence_ids": [
         "MLA-001-c3",

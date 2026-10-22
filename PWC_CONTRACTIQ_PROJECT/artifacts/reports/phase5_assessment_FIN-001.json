@@ -1,7 +1,7 @@
 {
-  "assessment_id": "assessment-FIN-001-958dbb27",
+  "assessment_id": "assessment-FIN-001-82028c93",
   "doc_id": "FIN-001",
-  "run_id": "40493f46bc46",
+  "run_id": "12ec1bcb384e",
   "document_version": "1",
   "model_version": "gpt-4o-mini",
   "prompt_version": "phase5-specialist-prompts-v1",
@@ -12,7 +12,7 @@
       "success": true,
       "findings": [
         {
-          "finding_id": "financial-payment_terms-cad1f65d",
+          "finding_id": "financial-payment_terms-0f53d65d",
           "dimension": "financial",
           "severity": "MEDIUM",
           "title": "Payment Terms and Schedule",
@@ -22,17 +22,17 @@
             "FIN-001-c0"
           ],
           "evidence_excerpts": [
-            "Payment is due within 30 calendar days from the date of invoice receipt. Late payments will attract an interest of 1.5% per month on the outstanding amount."
+            "Payment is due within 30 calendar days from the date of invoice receipt."
           ],
           "verification_status": "verified",
           "confidence": 0.9
         },
         {
-          "finding_id": "financial-late_payment_penalties-cd4c640f",
+          "finding_id": "financial-late_payment_penalties-b49a0eab",
           "dimension": "financial",
           "severity": "MEDIUM",
-          "title": "Late Payment Penalty Details",
-          "rationale": "The evidence specifies the penalties for late payments, including the interest rate applicable to outstanding amounts.",
+          "title": "Late Payment Penalties",
+          "rationale": "The contract specifies the penalties for late payments, including the interest rate applicable to outstanding amounts.",
           "recommendation": null,
           "evidence_ids": [
             "FIN-001-c0"
@@ -44,11 +44,11 @@
           "confidence": 0.9
         },
         {
-          "finding_id": "financial-pricing_structure-f33f6b4a",
+          "finding_id": "financial-pricing_structure-ed5efb16",
           "dimension": "financial",
           "severity": "MEDIUM",
           "title": "Pricing Structure and Payment Terms",
-          "rationale": "The evidence provides a detailed description of the pricing structure, including billing frequency, payment terms, and milestone billing for large orders.",
+          "rationale": "The evidence outlines the pricing structure, including billing frequency, payment terms, and milestone billing for large orders, which directly addresses the topic of pricing structure.",
           "recommendation": null,
           "evidence_ids": [
             "FIN-001-c0"
@@ -68,11 +68,11 @@
       "success": true,
       "findings": [
         {
-          "finding_id": "operational-scope_of_work-0b367735",
+          "finding_id": "operational-scope_of_work-e42a4762",
           "dimension": "operational",
           "severity": "MEDIUM",
           "title": "Scope of Work Defined",
-          "rationale": "The evidence clearly outlines the scope of work under the agreement, specifying the types of hardware products to be supplied by the Vendor to the Client.",
+          "rationale": "The evidence clearly outlines the scope of work under the agreement, specifying the hardware products to be supplied by the Vendor to the Client.",
           "recommendation": null,
           "evidence_ids": [
             "FIN-001-c0"
@@ -84,7 +84,7 @@
           "confidence": 0.9
         },
         {
-          "finding_id": "operational-acceptance_criteria-5fe49ade",
+          "finding_id": "operational-acceptance_criteria-7598b064",
           "dimension": "operational",
           "severity": "HIGH",
           "title": "Acceptance Criteria for Deliverables",
@@ -100,7 +100,7 @@
           "confidence": 0.9
         },
         {
-          "finding_id": "operational-dependencies_obligations-a5e56e53",
+          "finding_id": "operational-dependencies_obligations-e0202627",
           "dimension": "operational",
           "severity": "MEDIUM",
           "title": "Client Obligations for Vendor Performance",
@@ -124,7 +124,7 @@
       "success": true,
       "findings": [
         {
-          "finding_id": "legal-termination_for_convenience-b1d57d07",
+          "finding_id": "legal-termination_for_convenience-9f845a63",
           "dimension": "legal",
           "severity": "MEDIUM",
           "title": "Termination for Convenience Notice Period",
@@ -140,9 +140,9 @@
           "confidence": 0.9
         },
         {
-          "finding_id": "legal-governing_law_disputes-b06e1660",
+          "finding_id": "legal-governing_law_disputes-3b74a321",
           "dimension": "legal",
-          "severity": "MEDIUM",
+          "severity": "HIGH",
           "title": "Governing Law and Dispute Resolution",
           "rationale": "The evidence explicitly states the governing law and outlines the process for resolving disputes.",
           "recommendation": null,
@@ -153,17 +153,20 @@
             "This Agreement shall be governed by the laws of India."
           ],
           "verification_status": "verified",
-          "confidence": 0.9
+          "confidence": 0.95
         }
       ],
       "error": null,
       "retry_count": 0
     }
   ],
-  "unresolved_issues": [],
-  "consensus_actions": [
-    "Review: [operational] Acceptance Criteria for Deliverables"
+  "unresolved_issues": [
+    "HITL [financial] 'Pricing Structure and Payment Terms': quoted evidence could not be verified against source text — needs human confirmation before use."
   ],
-  "overall_risk": "MEDIUM",
-  "created_at": "2026-10-06T01:58:04.919566"
+  "consensus_actions": [
+    "Review: [operational] Acceptance Criteria for Deliverables",
+    "Review: [legal] Governing Law and Dispute Resolution"
+  ],
+  "overall_risk": "HIGH",
+  "created_at": "2026-10-22T23:58:05.673622"
 }

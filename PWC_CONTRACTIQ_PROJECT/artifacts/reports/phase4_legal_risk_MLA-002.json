@@ -3,9 +3,9 @@
   "success": true,
   "findings": [
     {
-      "finding_id": "legal-liability_cap-47f8fd0d",
+      "finding_id": "legal-liability_cap-a4235b68",
       "dimension": "legal",
-      "severity": "MEDIUM",
+      "severity": "HIGH",
       "title": "Liability Cap and Limitations",
       "rationale": "The contract specifies limitations on liability, particularly regarding indirect or consequential damages.",
       "recommendation": null,
@@ -19,11 +19,11 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "legal-indemnification-57e0a863",
+      "finding_id": "legal-indemnification-6bb7f584",
       "dimension": "legal",
-      "severity": "MEDIUM",
+      "severity": "HIGH",
       "title": "Indemnification Obligations",
-      "rationale": "The evidence clearly outlines the indemnification obligations of both parties under the agreement, specifying the circumstances under which each party must indemnify the other.",
+      "rationale": "The evidence clearly outlines the indemnification obligations of both parties under the agreement.",
       "recommendation": null,
       "evidence_ids": [
         "MLA-002-c1"
@@ -32,10 +32,10 @@
         "The Vendor shall indemnify the Client against third-party claims, damages, or liabilities arising directly from manufacturing defects, faulty workmanship, or negligent acts attributable to the Vendor. The Client shall indemnify the Vendor against claims resulting from misuse of equipment, unauthorized modification of firmware or circuitry, breach of operational guidelines, or negligence by Client personnel."
       ],
       "verification_status": "verified",
-      "confidence": 0.9
+      "confidence": 0.95
     },
     {
-      "finding_id": "legal-termination_for_cause-599e1f08",
+      "finding_id": "legal-termination_for_cause-4fcecbd0",
       "dimension": "legal",
       "severity": "HIGH",
       "title": "Termination for Cause Conditions",
@@ -51,7 +51,7 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "legal-termination_for_convenience-c11dc33d",
+      "finding_id": "legal-termination_for_convenience-efce7d18",
       "dimension": "legal",
       "severity": "MEDIUM",
       "title": "Termination for Convenience Notice Period",
@@ -67,11 +67,11 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "legal-confidentiality_survival-4270e338",
+      "finding_id": "legal-confidentiality_survival-0e1cad81",
       "dimension": "legal",
       "severity": "MEDIUM",
       "title": "Confidentiality Obligations Survival Period",
-      "rationale": "The contract explicitly states the duration for which confidentiality obligations remain in effect after termination.",
+      "rationale": "The contract specifies the duration for which confidentiality obligations remain in effect after termination.",
       "recommendation": null,
       "evidence_ids": [
         "MLA-002-c2"
@@ -83,7 +83,7 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "legal-ip_ownership-25801f1c",
+      "finding_id": "legal-ip_ownership-6b83530a",
       "dimension": "legal",
       "severity": "HIGH",
       "title": "Intellectual Property Ownership",
@@ -99,7 +99,7 @@
       "confidence": 0.95
     },
     {
-      "finding_id": "legal-governing_law_disputes-0749ee0d",
+      "finding_id": "legal-governing_law_disputes-63403b25",
       "dimension": "legal",
       "severity": "HIGH",
       "title": "Governing Law and Dispute Resolution",

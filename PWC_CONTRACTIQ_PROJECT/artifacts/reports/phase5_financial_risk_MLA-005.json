@@ -3,27 +3,27 @@
   "success": true,
   "findings": [
     {
-      "finding_id": "financial-payment_terms-4f857481",
+      "finding_id": "financial-payment_terms-3d5bd640",
       "dimension": "financial",
       "severity": "MEDIUM",
-      "title": "Payment Terms and Conditions",
-      "rationale": "The evidence outlines the pricing structure and conditions under which payments are to be made, including invoice requirements and price protection mechanisms.",
+      "title": "Payment Terms and Invoice Requirements",
+      "rationale": "The evidence outlines the requirements for invoicing and pricing structures, ensuring that all invoices correspond to the agreed pricing categories and values, which directly relates to payment terms.",
       "recommendation": null,
       "evidence_ids": [
         "MLA-005-c2"
       ],
       "evidence_excerpts": [
-        "All invoices raised by the Vendor shall strictly correspond to the pricing categories and values stated in this Agreement. No invoice may include line items that deviate from or exceed the approved rate card."
+        "All invoices raised by the Vendor shall strictly correspond to the pricing categories and values stated in this Agreement."
       ],
       "verification_status": "verified",
-      "confidence": 0.85
+      "confidence": 0.9
     },
     {
-      "finding_id": "financial-pricing_structure-471c8606",
+      "finding_id": "financial-pricing_structure-7b423cd6",
       "dimension": "financial",
       "severity": "HIGH",
       "title": "Pricing Structure Overview",
-      "rationale": "The evidence provides a comprehensive overview of the pricing structure, including device pricing frameworks, service rates, and cost components, ensuring clarity and predictability for the Client.",
+      "rationale": "The evidence provides a comprehensive overview of the pricing structure, including device pricing frameworks, service rates, and cost transparency.",
       "recommendation": null,
       "evidence_ids": [
         "MLA-005-c0"
@@ -35,11 +35,11 @@
       "confidence": 0.95
     },
     {
-      "finding_id": "financial-price_escalation-f35c35b7",
+      "finding_id": "financial-price_escalation-380244f6",
       "dimension": "financial",
       "severity": "MEDIUM",
       "title": "Price Escalation Clauses Present",
-      "rationale": "The contract includes specific clauses regarding price protection and escalation constraints, detailing how and when price adjustments can occur, as well as the conditions under which they are permissible.",
+      "rationale": "The contract includes specific clauses regarding price protection and escalation constraints, detailing how prices can be reviewed and adjusted based on objective cost evidence.",
       "recommendation": null,
       "evidence_ids": [
         "MLA-005-c2"
@@ -51,11 +51,11 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "financial-renewal_pricing-db51f632",
+      "finding_id": "financial-renewal_pricing-35787778",
       "dimension": "financial",
       "severity": "MEDIUM",
       "title": "Renewal Pricing and Terms",
-      "rationale": "The contract specifies that any pricing amendments must be documented through a written addendum, and the Vendor will continue to honor all accepted purchase orders based on the current rate card until a new version is formally transitioned. This indicates that renewal pricing is tied to the existing rate card unless formally amended.",
+      "rationale": "The contract specifies that any pricing amendments must be documented through a written addendum and that the Vendor will continue to honor all accepted purchase orders based on the current rate card until a new version is formally transitioned. This indicates that renewal pricing is tied to the existing rate card unless formally amended.",
       "recommendation": null,
       "evidence_ids": [
         "MLA-005-c3"
@@ -67,18 +67,18 @@
       "confidence": 0.85
     },
     {
-      "finding_id": "financial-financial_exposure_cap-962fc311",
+      "finding_id": "financial-financial_exposure_cap-e77c6b48",
       "dimension": "financial",
-      "severity": "HIGH",
-      "title": "Cap on Financial Exposure and Charges",
-      "rationale": "The contract explicitly prohibits the Vendor from introducing any new financial charges outside the Agreement, ensuring that the Client is protected from unexpected financial exposure and maintains commercial predictability throughout the contract term.",
+      "severity": "MEDIUM",
+      "title": "Cap on Financial Exposure",
+      "rationale": "The contract explicitly states that the Vendor shall not introduce any new financial charge outside this Agreement without explicit written approval, which protects the Client from unexpected financial exposure and ensures absolute commercial predictability throughout the contract term.",
       "recommendation": null,
       "evidence_ids": [
         "MLA-005-c2",
         "MLA-005-c3"
       ],
       "evidence_excerpts": [
-        "The Client shall not be obligated to pay for resource wait times, idle engineer hours, or vendor-driven deployment delays. This protects the Client from unexpected financial exposure and ensures absolute commercial predictability throughout the contract term."
+        "This protects the Client from unexpected financial exposure and ensures absolute commercial predictability throughout the contract term."
       ],
       "verification_status": "verified",
       "confidence": 0.9

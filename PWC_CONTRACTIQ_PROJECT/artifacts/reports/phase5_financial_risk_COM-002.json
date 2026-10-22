@@ -3,11 +3,11 @@
   "success": true,
   "findings": [
     {
-      "finding_id": "financial-payment_terms-e2412036",
+      "finding_id": "financial-payment_terms-3b75ba36",
       "dimension": "financial",
       "severity": "MEDIUM",
       "title": "Payment Terms Overview",
-      "rationale": "The evidence clearly outlines the payment terms, including advance payment and due dates for the remaining balance.",
+      "rationale": "The evidence clearly outlines the payment terms under the agreement, specifying the advance payment and the timeline for the remaining payment.",
       "recommendation": null,
       "evidence_ids": [
         "COM-002-c0"
@@ -19,7 +19,7 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "financial-late_payment_penalties-cbd94ff7",
+      "finding_id": "financial-late_payment_penalties-cab3c1fc",
       "dimension": "financial",
       "severity": "MEDIUM",
       "title": "Late Payment Penalties",
@@ -35,23 +35,23 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "financial-pricing_structure-3ee71a0f",
+      "finding_id": "financial-pricing_structure-85dd67ba",
       "dimension": "financial",
       "severity": "MEDIUM",
       "title": "Pricing Structure Defined",
-      "rationale": "The evidence provides a detailed description of the pricing structure, including base prices, discounts, and payment terms.",
+      "rationale": "The agreement clearly outlines the pricing structure, including base prices, tiered volume discounts, and payment terms.",
       "recommendation": null,
       "evidence_ids": [
         "COM-002-c0"
       ],
       "evidence_excerpts": [
-        "This Agreement defines the pricing, terms, and conditions applicable to the supply of electronic hardware products, accessories, and support services to Client."
+        "The Vendor shall provide products at the following base prices, subject to tiered volume and contract duration discounts:"
       ],
       "verification_status": "verified",
       "confidence": 0.9
     },
     {
-      "finding_id": "financial-price_escalation-7dbbb1fd",
+      "finding_id": "financial-price_escalation-71cbec7a",
       "dimension": "financial",
       "severity": "MEDIUM",
       "title": "Price Revision Clause Present",

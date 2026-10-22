@@ -1,29 +1,22 @@
 {
-  "assessment_id": "assessment-FIN-004-8740098c",
+  "assessment_id": "assessment-FIN-004-c428ad78",
   "doc_id": "FIN-004",
-  "run_id": "08de5868c692",
+  "run_id": "78afac43482b",
   "document_version": "1",
   "model_version": "gpt-4o-mini",
   "prompt_version": "phase5-specialist-prompts-v1",
   "policy_version": "risk-policy-v1",
   "dimension_results": [
     {
-      "dimension": "legal",
-      "success": true,
-      "findings": [],
-      "error": null,
-      "retry_count": 0
-    },
-    {
       "dimension": "financial",
       "success": true,
       "findings": [
         {
-          "finding_id": "financial-payment_terms-9262f497",
+          "finding_id": "financial-payment_terms-fe987541",
           "dimension": "financial",
           "severity": "MEDIUM",
           "title": "Payment Terms and Schedule",
-          "rationale": "The evidence clearly outlines the payment terms, including the due date and conditions for late payment.",
+          "rationale": "The evidence specifies the payment terms, including the due date and conditions for late payment.",
           "recommendation": null,
           "evidence_ids": [
             "FIN-004-c0"
@@ -32,10 +25,10 @@
             "Payment due within 15 calendar days of invoice date. Late payment subject to 1.5% monthly interest."
           ],
           "verification_status": "verified",
-          "confidence": 0.9
+          "confidence": 0.95
         },
         {
-          "finding_id": "financial-late_payment_penalties-766924b8",
+          "finding_id": "financial-late_payment_penalties-7e42c1d6",
           "dimension": "financial",
           "severity": "MEDIUM",
           "title": "Late Payment Penalty Details",
@@ -51,22 +44,29 @@
           "confidence": 0.9
         },
         {
-          "finding_id": "financial-pricing_structure-5cf399ec",
+          "finding_id": "financial-pricing_structure-3eecfe67",
           "dimension": "financial",
           "severity": "MEDIUM",
           "title": "Pricing Structure and Fee Schedule",
-          "rationale": "The evidence provides a detailed breakdown of the pricing structure, including subtotal, GST, and total invoice amount, as well as payment terms and conditions.",
+          "rationale": "The evidence provides a detailed breakdown of the pricing structure, including subtotal, GST, and total invoice amount, along with payment terms and conditions.",
           "recommendation": null,
           "evidence_ids": [
             "FIN-004-c0"
           ],
           "evidence_excerpts": [
-            "Subtotal: INR 3,300,000\nGST @18%: INR 594,000\nTotal Invoice Amount: INR 3,894,000\nPayment due within 15 calendar days of invoice date.\nLate payment subject to 1.5% monthly interest."
+            "Subtotal: INR 3,300,000\nGST @18%: INR 594,000\nTotal Invoice Amount: INR 3,894,000"
           ],
-          "verification_status": "failed_verification",
-          "confidence": 0.3
+          "verification_status": "verified",
+          "confidence": 0.9
         }
       ],
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "dimension": "legal",
+      "success": true,
+      "findings": [],
       "error": null,
       "retry_count": 0
     },
@@ -75,23 +75,7 @@
       "success": true,
       "findings": [
         {
-          "finding_id": "operational-scope_of_work-33556b86",
-          "dimension": "operational",
-          "severity": "MEDIUM",
-          "title": "Scope of Work and Deliverables",
-          "rationale": "The evidence provides details about the products and services delivered under the contract, including hardware delivery, acceptance testing, and warranty support.",
-          "recommendation": null,
-          "evidence_ids": [
-            "FIN-004-c0"
-          ],
-          "evidence_excerpts": [
-            "Hardware delivered to FinSecure Mumbai HQ. Delivery completed on 10-Dec-2025, verified by client representative Mr. Anil Kapoor. Acceptance testing included: functional tests, performance benchmarks, and network integration tests."
-          ],
-          "verification_status": "verified",
-          "confidence": 0.9
-        },
-        {
-          "finding_id": "operational-acceptance_criteria-aff92b77",
+          "finding_id": "operational-acceptance_criteria-be5f4f72",
           "dimension": "operational",
           "severity": "MEDIUM",
           "title": "Acceptance Criteria for Deliverables",
@@ -107,7 +91,7 @@
           "confidence": 0.9
         },
         {
-          "finding_id": "operational-sla_commitments-457ea1f9",
+          "finding_id": "operational-sla_commitments-0421e7be",
           "dimension": "operational",
           "severity": "MEDIUM",
           "title": "Service Level and Performance Commitments",
@@ -123,11 +107,11 @@
           "confidence": 0.9
         },
         {
-          "finding_id": "operational-performance_reporting-c6490295",
+          "finding_id": "operational-performance_reporting-b98529f9",
           "dimension": "operational",
           "severity": "MEDIUM",
           "title": "Service Performance Measurement and Reporting",
-          "rationale": "The evidence specifies that acceptance testing included functional tests, performance benchmarks, and network integration tests, which are key indicators of service performance measurement.",
+          "rationale": "The evidence specifies that acceptance testing included functional tests, performance benchmarks, and network integration tests, which are methods of measuring service performance under the agreement.",
           "recommendation": null,
           "evidence_ids": [
             "FIN-004-c0"
@@ -146,5 +130,5 @@
   "unresolved_issues": [],
   "consensus_actions": [],
   "overall_risk": "MEDIUM",
-  "created_at": "2026-10-06T01:58:27.019255"
+  "created_at": "2026-10-22T23:58:38.101012"
 }

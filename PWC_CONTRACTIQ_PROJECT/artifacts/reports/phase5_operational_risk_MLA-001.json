@@ -3,10 +3,10 @@
   "success": true,
   "findings": [
     {
-      "finding_id": "operational-scope_of_work-60d42141",
+      "finding_id": "operational-scope_of_work-a7a8a7db",
       "dimension": "operational",
       "severity": "HIGH",
-      "title": "Scope of Work Defined",
+      "title": "Scope of Services Defined",
       "rationale": "The evidence clearly outlines the scope of services to be provided under the agreement, detailing the responsibilities and deliverables of the Vendor.",
       "recommendation": null,
       "evidence_ids": [
@@ -19,11 +19,11 @@
       "confidence": 0.95
     },
     {
-      "finding_id": "operational-sla_commitments-3afcaa6a",
+      "finding_id": "operational-sla_commitments-be5e15ed",
       "dimension": "operational",
       "severity": "HIGH",
       "title": "Vendor's Service Level Commitments",
-      "rationale": "The evidence specifies the Vendor's commitments regarding service levels, including incident response times and resolution timelines based on severity.",
+      "rationale": "The evidence outlines specific performance commitments made by the Vendor regarding incident response and resolution times, which are critical components of the service level agreement.",
       "recommendation": null,
       "evidence_ids": [
         "MLA-001-c1"
@@ -35,11 +35,11 @@
       "confidence": 0.95
     },
     {
-      "finding_id": "operational-sla_remedies-d7eb18fd",
+      "finding_id": "operational-sla_remedies-02d9f525",
       "dimension": "operational",
       "severity": "MEDIUM",
-      "title": "Service Level Agreement Remedies",
-      "rationale": "The contract specifies that continued failure to meet SLA commitments may result in service credits or financial penalties as detailed in the Rate Card or annexures.",
+      "title": "Service Credits for SLA Non-Compliance",
+      "rationale": "The evidence specifies that continued failure to meet SLA commitments may result in service credits or financial penalties as detailed in the Rate Card or annexures.",
       "recommendation": null,
       "evidence_ids": [
         "MLA-001-c1"
@@ -51,11 +51,11 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "operational-dependencies_obligations-a56ace9c",
+      "finding_id": "operational-dependencies_obligations-90d9919a",
       "dimension": "operational",
       "severity": "MEDIUM",
-      "title": "Client Payment Obligations",
-      "rationale": "The evidence outlines the obligations of the Client regarding payment terms, which are critical for the Vendor's performance.",
+      "title": "Client-Side Obligations for Vendor Performance",
+      "rationale": "The evidence outlines specific obligations of the Client that the Vendor relies on for performance, particularly regarding payment terms and cooperation in resolving invoice disputes.",
       "recommendation": null,
       "evidence_ids": [
         "MLA-001-c1"
@@ -67,11 +67,11 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "operational-performance_reporting-09616a93",
+      "finding_id": "operational-performance_reporting-724f1b1f",
       "dimension": "operational",
       "severity": "HIGH",
       "title": "Service Performance Measurement and Reporting",
-      "rationale": "The contract specifies that the Vendor shall furnish weekly and monthly performance reports summarizing incidents, resolutions, SLA compliance, bottlenecks, and recommendations for improvement.",
+      "rationale": "The Vendor commits to resolving incidents within specified timeframes and provides regular performance reports, which are essential for measuring service performance.",
       "recommendation": null,
       "evidence_ids": [
         "MLA-001-c1"
@@ -80,7 +80,7 @@
         "The Vendor shall furnish weekly and monthly performance reports summarizing incidents, resolutions, SLA compliance, bottlenecks, and recommendations for improvement."
       ],
       "verification_status": "verified",
-      "confidence": 0.95
+      "confidence": 0.9
     }
   ],
   "error": null,

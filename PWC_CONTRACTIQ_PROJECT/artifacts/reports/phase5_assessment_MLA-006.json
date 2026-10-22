@@ -1,42 +1,18 @@
 {
-  "assessment_id": "assessment-MLA-006-4113d472",
+  "assessment_id": "assessment-MLA-006-f2acabac",
   "doc_id": "MLA-006",
-  "run_id": "d771da3448bd",
+  "run_id": "6ee9927135cd",
   "document_version": "1",
   "model_version": "gpt-4o-mini",
   "prompt_version": "phase5-specialist-prompts-v1",
   "policy_version": "risk-policy-v1",
   "dimension_results": [
     {
-      "dimension": "legal",
-      "success": true,
-      "findings": [
-        {
-          "finding_id": "legal-confidentiality_survival-96655203",
-          "dimension": "legal",
-          "severity": "MEDIUM",
-          "title": "Confidentiality Obligations Survival",
-          "rationale": "The evidence explicitly states the duration for which confidentiality obligations survive after the agreement ends.",
-          "recommendation": null,
-          "evidence_ids": [
-            "MLA-006-c2"
-          ],
-          "evidence_excerpts": [
-            "The confidentiality obligations defined under this Agreement shall survive termination for a minimum of five years."
-          ],
-          "verification_status": "verified",
-          "confidence": 0.9
-        }
-      ],
-      "error": null,
-      "retry_count": 0
-    },
-    {
       "dimension": "operational",
       "success": true,
       "findings": [
         {
-          "finding_id": "operational-scope_of_work-9e96b4ca",
+          "finding_id": "operational-scope_of_work-9d56a642",
           "dimension": "operational",
           "severity": "MEDIUM",
           "title": "Scope of Work Defined",
@@ -52,11 +28,11 @@
           "confidence": 0.9
         },
         {
-          "finding_id": "operational-sla_commitments-9480e3b8",
+          "finding_id": "operational-sla_commitments-fb4d43d4",
           "dimension": "operational",
           "severity": "MEDIUM",
           "title": "Service Level Commitments in the Agreement",
-          "rationale": "The evidence outlines various service commitments related to installation, support, and maintenance, which are critical components of service level agreements.",
+          "rationale": "The evidence outlines various service commitments related to warranty, maintenance, and support pricing, which are essential components of service level agreements.",
           "recommendation": null,
           "evidence_ids": [
             "MLA-006-c0"
@@ -65,7 +41,23 @@
             "The Vendor shall extend a structured service pricing model covering all labour-intensive, field-oriented, and support-driven activities that the Client may require during the lifecycle of the supplied hardware devices."
           ],
           "verification_status": "verified",
-          "confidence": 0.9
+          "confidence": 0.85
+        },
+        {
+          "finding_id": "operational-dependencies_obligations-4a13c749",
+          "dimension": "operational",
+          "severity": "MEDIUM",
+          "title": "Client Obligations for Vendor Performance",
+          "rationale": "The evidence outlines the obligations of the Client regarding invoicing and payment processes, which are essential for the Vendor's performance.",
+          "recommendation": null,
+          "evidence_ids": [
+            "MLA-006-c1"
+          ],
+          "evidence_excerpts": [
+            "The Client shall process such invoices in accordance with the payment timelines and processes outlined under the Master Services Agreement."
+          ],
+          "verification_status": "verified",
+          "confidence": 0.85
         }
       ],
       "error": null,
@@ -76,7 +68,7 @@
       "success": true,
       "findings": [
         {
-          "finding_id": "financial-payment_terms-06b5246b",
+          "finding_id": "financial-payment_terms-19050274",
           "dimension": "financial",
           "severity": "MEDIUM",
           "title": "Payment Terms and Invoicing",
@@ -92,7 +84,7 @@
           "confidence": 0.9
         },
         {
-          "finding_id": "financial-pricing_structure-5fc39186",
+          "finding_id": "financial-pricing_structure-664c6507",
           "dimension": "financial",
           "severity": "HIGH",
           "title": "Pricing Structure Defined",
@@ -108,11 +100,11 @@
           "confidence": 0.95
         },
         {
-          "finding_id": "financial-price_escalation-b17e92ce",
+          "finding_id": "financial-price_escalation-e93d56c2",
           "dimension": "financial",
           "severity": "MEDIUM",
           "title": "Price Adjustment Mechanism",
-          "rationale": "The contract includes a mechanism for price adjustments based on market conditions and other factors, which indicates the presence of price escalation clauses.",
+          "rationale": "The contract includes a mechanism for price adjustments based on market fluctuations and other factors, which indicates the presence of price escalation clauses.",
           "recommendation": null,
           "evidence_ids": [
             "MLA-006-c1"
@@ -124,7 +116,7 @@
           "confidence": 0.9
         },
         {
-          "finding_id": "financial-renewal_pricing-6d8f8fe5",
+          "finding_id": "financial-renewal_pricing-9beaf62e",
           "dimension": "financial",
           "severity": "MEDIUM",
           "title": "Renewal Pricing Terms",
@@ -142,6 +134,30 @@
       ],
       "error": null,
       "retry_count": 0
+    },
+    {
+      "dimension": "legal",
+      "success": true,
+      "findings": [
+        {
+          "finding_id": "legal-confidentiality_survival-9228ba16",
+          "dimension": "legal",
+          "severity": "MEDIUM",
+          "title": "Confidentiality Obligations Survival",
+          "rationale": "The evidence explicitly states the duration for which confidentiality obligations survive after the agreement ends.",
+          "recommendation": null,
+          "evidence_ids": [
+            "MLA-006-c2"
+          ],
+          "evidence_excerpts": [
+            "The confidentiality obligations defined under this Agreement shall survive termination for a minimum of five years."
+          ],
+          "verification_status": "verified",
+          "confidence": 0.9
+        }
+      ],
+      "error": null,
+      "retry_count": 0
     }
   ],
   "unresolved_issues": [],
@@ -149,5 +165,5 @@
     "Review: [financial] Pricing Structure Defined"
   ],
   "overall_risk": "MEDIUM",
-  "created_at": "2026-10-06T01:57:53.997601"
+  "created_at": "2026-10-22T23:57:48.361656"
 }

@@ -3,7 +3,7 @@
   "success": true,
   "findings": [
     {
-      "finding_id": "operational-scope_of_work-9e96b4ca",
+      "finding_id": "operational-scope_of_work-9d56a642",
       "dimension": "operational",
       "severity": "MEDIUM",
       "title": "Scope of Work Defined",
@@ -19,11 +19,11 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "operational-sla_commitments-9480e3b8",
+      "finding_id": "operational-sla_commitments-fb4d43d4",
       "dimension": "operational",
       "severity": "MEDIUM",
       "title": "Service Level Commitments in the Agreement",
-      "rationale": "The evidence outlines various service commitments related to installation, support, and maintenance, which are critical components of service level agreements.",
+      "rationale": "The evidence outlines various service commitments related to warranty, maintenance, and support pricing, which are essential components of service level agreements.",
       "recommendation": null,
       "evidence_ids": [
         "MLA-006-c0"
@@ -32,7 +32,23 @@
         "The Vendor shall extend a structured service pricing model covering all labour-intensive, field-oriented, and support-driven activities that the Client may require during the lifecycle of the supplied hardware devices."
       ],
       "verification_status": "verified",
-      "confidence": 0.9
+      "confidence": 0.85
+    },
+    {
+      "finding_id": "operational-dependencies_obligations-4a13c749",
+      "dimension": "operational",
+      "severity": "MEDIUM",
+      "title": "Client Obligations for Vendor Performance",
+      "rationale": "The evidence outlines the obligations of the Client regarding invoicing and payment processes, which are essential for the Vendor's performance.",
+      "recommendation": null,
+      "evidence_ids": [
+        "MLA-006-c1"
+      ],
+      "evidence_excerpts": [
+        "The Client shall process such invoices in accordance with the payment timelines and processes outlined under the Master Services Agreement."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.85
     }
   ],
   "error": null,

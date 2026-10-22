@@ -1,19 +1,19 @@
 # ContractIQ Risk Report — FIN-002
 
 **Overall risk:** MEDIUM  
-**Assessment ID:** assessment-FIN-002-fec73b91  
-**Run ID:** 8e914076dff0  
+**Assessment ID:** assessment-FIN-002-21416512  
+**Run ID:** 450b2abe514c  
 **Document version:** 1  
 **Model version:** gpt-4o-mini  
 **Prompt version:** phase5-specialist-prompts-v1  
 **Policy version:** risk-policy-v1  
-**Created at:** 2026-10-06T01:58:16.396422  
-**Report generated:** 2026-10-05T20:32:44.992691+00:00
+**Created at:** 2026-10-22T23:58:23.392200  
+**Report generated:** 2026-10-22T18:32:54.274442+00:00
 
 ## Specialist statuses
 - **financial**: OK, 3 finding(s), retry_count=0
-- **legal**: OK, 2 finding(s), retry_count=0
 - **operational**: OK, 4 finding(s), retry_count=0
+- **legal**: OK, 2 finding(s), retry_count=0
 
 ## Findings (by severity)
 - **[HIGH] Governing Law and Dispute Resolution** (confidence=0.95)
@@ -29,32 +29,32 @@ Advance payments will not exceed 20% of total PO unless mutually..."
   - rationale: The contract specifies a penalty for late payments, which directly addresses the topic of late payment penalties.
   - evidence: `['FIN-002-c0']` — "Late payment penalty: 1.5% per month on overdue amounts."
 - **[MEDIUM] Pricing Structure and Billing Schedule** (confidence=0.9)
-  - rationale: The evidence provides a detailed description of the billing schedule and payment terms, which constitutes the pricing structure for the agreement.
+  - rationale: The evidence provides a detailed description of the pricing structure and billing schedule for the agreement between Primevolta Hardware Solutions and FinSecure Services.
   - evidence: `['FIN-002-c0']` — "3. Billing Schedule & Frequency
 3.1 Standard Billing:
 Monthly Invoicing: For ongoing supply contracts, invoices will be raised on the last business day of each month.
 Delivery-Based Billing: For one-t..."
-- **[MEDIUM] Termination for Convenience Notice Period** (confidence=0.9)
-  - rationale: The contract specifies the notice period required for termination without cause.
-  - evidence: `['FIN-002-c0']` — "Either party may terminate the agreement with 30 days’ notice, without affecting outstanding invoices or milestones."
 - **[MEDIUM] Scope of Work Defined** (confidence=0.9)
-  - rationale: The evidence clearly outlines the scope of work and deliverables under the agreement, specifying the hardware components and associated services to be provided.
+  - rationale: The evidence clearly outlines the scope of work under the agreement, detailing the hardware components and associated services to be provided.
   - evidence: `['FIN-002-c0']` — "This Agreement covers the supply of: Hardware components including servers, storage arrays, networking devices, and electronic peripherals. Multi-site deliveries for BFSI branch rollouts. Associated s..."
-- **[MEDIUM] Vendor's Service Level Commitments** (confidence=0.3)  ⚠ uncertainty: failed_verification
+- **[MEDIUM] Vendor Performance Commitments** (confidence=0.3)  ⚠ uncertainty: failed_verification
   - rationale: The vendor commits to deliver goods as per the specifications and timelines mentioned in the purchase order (PO) and to notify the client of any deviations in the delivery schedule at least 7 business days in advance.
   - evidence: `['FIN-002-c0']` — "Deliver goods as per the specifications and timelines mentioned in the PO. Notify the Client of any deviations in delivery schedule at least 7 business days in advance."
 - **[MEDIUM] Client Obligations for Vendor Performance** (confidence=0.9)
-  - rationale: The evidence outlines specific obligations of the Client that the Vendor relies on for performance, including timely processing of invoices and providing access for installation and testing.
+  - rationale: The evidence outlines specific obligations of the Client that the Vendor relies on for performance, including timely processing of invoices and providing access to sites for installation and testing activities.
   - evidence: `['FIN-002-c0']` — "6. Obligations of Client
 Process invoices within the agreed payment timeline.
 Notify the Vendor of any discrepancies in invoices or deliveries within 7 business days.
 Approve milestone payments and si..."
-- **[MEDIUM] Service Performance Reporting** (confidence=0.9)
-  - rationale: The agreement specifies that the Vendor shall provide monthly revenue tracking reports detailing billed, unbilled, and pending payments, which indicates how service performance is measured and reported.
+- **[MEDIUM] Service Performance Measurement and Reporting** (confidence=0.9)
+  - rationale: The agreement specifies that the Vendor shall provide monthly revenue tracking reports and that the Client may request quarterly reconciliation reports to ensure alignment between delivered hardware, invoices, and payments.
   - evidence: `['FIN-002-c0']` — "Vendor shall provide monthly revenue tracking reports detailing billed, unbilled, and pending payments."
+- **[MEDIUM] Termination for Convenience Notice Period** (confidence=0.9)
+  - rationale: The contract specifies the notice period required for termination without cause.
+  - evidence: `['FIN-002-c0']` — "Either party may terminate the agreement with 30 days’ notice, without affecting outstanding invoices or milestones."
 
 ## Uncertainty / unresolved issues
-_None reported._
+- HITL [operational] 'Vendor Performance Commitments': quoted evidence could not be verified against source text — needs human confirmation before use.
 
 ## Recommendations (consensus actions)
 - Review: [legal] Governing Law and Dispute Resolution

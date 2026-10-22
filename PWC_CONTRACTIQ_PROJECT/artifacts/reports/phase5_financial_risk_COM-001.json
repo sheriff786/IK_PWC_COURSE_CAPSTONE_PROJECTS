@@ -3,11 +3,11 @@
   "success": true,
   "findings": [
     {
-      "finding_id": "financial-payment_terms-032293fa",
+      "finding_id": "financial-payment_terms-a195968e",
       "dimension": "financial",
       "severity": "MEDIUM",
       "title": "Payment Terms and Schedule",
-      "rationale": "The evidence clearly outlines the payment terms, including the due dates and conditions for late payments.",
+      "rationale": "The evidence clearly outlines the payment terms, including the due dates and conditions for payment under the agreement.",
       "recommendation": null,
       "evidence_ids": [
         "COM-001-c0"
@@ -19,7 +19,7 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "financial-late_payment_penalties-514b88c5",
+      "finding_id": "financial-late_payment_penalties-49466fbd",
       "dimension": "financial",
       "severity": "MEDIUM",
       "title": "Late Payment Penalties",
@@ -35,27 +35,27 @@
       "confidence": 0.9
     },
     {
-      "finding_id": "financial-pricing_structure-6c35a9c0",
+      "finding_id": "financial-pricing_structure-d42d7de0",
       "dimension": "financial",
-      "severity": "HIGH",
+      "severity": "MEDIUM",
       "title": "Pricing Structure Defined",
-      "rationale": "The evidence explicitly outlines the pricing structure for the products and services provided by the Vendor to the Client, including details on base pricing, payment terms, and conditions for price revisions.",
+      "rationale": "The agreement explicitly outlines the pricing structure for products and services provided by the Vendor to the Client, including details on base pricing and conditions for price revisions.",
       "recommendation": null,
       "evidence_ids": [
         "COM-001-c0"
       ],
       "evidence_excerpts": [
-        "The pricing structure, terms, and conditions applicable to the sale and supply of electronic hardware products and related services provided by Vendor to Client."
+        "The pricing of each product is established in Table 1: Base Pricing, which shall be effective for the duration of this Agreement, unless modified through mutual written consent."
       ],
       "verification_status": "verified",
-      "confidence": 0.95
+      "confidence": 0.9
     },
     {
-      "finding_id": "financial-price_escalation-7a9ec31b",
+      "finding_id": "financial-price_escalation-3597efbe",
       "dimension": "financial",
       "severity": "MEDIUM",
       "title": "Price Revision Clause Present",
-      "rationale": "The contract includes a clause that allows for price revisions based on certain conditions, indicating a form of price escalation mechanism.",
+      "rationale": "The contract includes a clause that allows for price revisions based on inflation and changes in raw material costs, indicating a form of price escalation mechanism.",
       "recommendation": null,
       "evidence_ids": [
         "COM-001-c0"

@@ -11,8 +11,8 @@
     "assignment_change_of_control"
   ],
   "totals": {
-    "total_findings": 43,
-    "verified": 43,
+    "total_findings": 42,
+    "verified": 42,
     "failed_verification": 0,
     "unverified": 0
   },
@@ -84,20 +84,20 @@
       "doc_id": "MLA-004",
       "success": true,
       "error": null,
-      "total_findings": 5,
-      "verified": 5,
+      "total_findings": 4,
+      "verified": 4,
       "failed_verification": 0,
       "unverified": 0,
       "topics_found": [
         "assignment_change_of_control",
         "confidentiality_survival",
         "governing_law_disputes",
-        "ip_ownership",
-        "termination_for_cause"
+        "ip_ownership"
       ],
       "topics_not_addressed": [
         "indemnification",
         "liability_cap",
+        "termination_for_cause",
         "termination_for_convenience"
       ]
     },

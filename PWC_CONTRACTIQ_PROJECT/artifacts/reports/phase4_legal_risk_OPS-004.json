@@ -2,6 +2,6 @@
   "dimension": "legal",
   "success": true,
   "findings": [],
-  "error": null,
+  "error": "skipped by routing: triage found no content for this dimension",
   "retry_count": 0
 }

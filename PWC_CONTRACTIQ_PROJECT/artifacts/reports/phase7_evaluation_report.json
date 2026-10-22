@@ -7,10 +7,10 @@
   },
   "entity_accuracy": {
     "metric": "entity_accuracy",
-    "reviewed": 20,
+    "reviewed": 0,
     "total": 20,
-    "correct": 20,
-    "rate": 1.0
+    "rate": null,
+    "note": "fixture exists but has not been human-reviewed \u2014 fill reviewer_verdict first"
   },
   "retrieval_relevance": {
     "metric": "retrieval_relevance",
@@ -21,11 +21,11 @@
   "citation_validity_and_finding_support": {
     "metric": "citation_validity_and_finding_support",
     "documents": 15,
-    "total_findings": 129,
-    "verified": 122,
-    "failed_verification": 7,
+    "total_findings": 121,
+    "verified": 115,
+    "failed_verification": 6,
     "unverified": 0,
-    "citation_validity_rate": 0.946
+    "citation_validity_rate": 0.95
   },
   "partial_run_frequency": {
     "metric": "partial_run_frequency",
@@ -35,13 +35,13 @@
   },
   "schema_failure_rate": {
     "metric": "schema_failure_rate",
-    "total_calls": 681,
+    "total_calls": 1616,
     "schema_failures": 0,
     "rate": 0.0
   },
   "api_call_failure_rate": {
     "metric": "api_call_failure_rate",
-    "total_calls": 681,
+    "total_calls": 1616,
     "api_failures": 0,
     "rate": 0.0,
     "sample_errors": []
@@ -50,28 +50,34 @@
     "metric": "cost_and_latency_by_stage",
     "stages": {
       "embedding": {
-        "calls": 341,
-        "avg_latency_ms": 348.8,
-        "total_tokens": 4932,
-        "avg_tokens_per_call": 14.5
+        "calls": 847,
+        "avg_latency_ms": 363.1,
+        "total_tokens": 11729,
+        "avg_tokens_per_call": 13.8
       },
       "legal_specialist": {
-        "calls": 136,
-        "avg_latency_ms": 1334.6,
-        "total_tokens": 277785,
-        "avg_tokens_per_call": 2042.5
+        "calls": 392,
+        "avg_latency_ms": 1839.4,
+        "total_tokens": 813370,
+        "avg_tokens_per_call": 2074.9
       },
       "financial_specialist": {
-        "calls": 102,
-        "avg_latency_ms": 1472.6,
-        "total_tokens": 210514,
-        "avg_tokens_per_call": 2063.9
+        "calls": 162,
+        "avg_latency_ms": 1574.3,
+        "total_tokens": 320991,
+        "avg_tokens_per_call": 1981.4
       },
       "operational_specialist": {
-        "calls": 102,
-        "avg_latency_ms": 1532.1,
-        "total_tokens": 211395,
-        "avg_tokens_per_call": 2072.5
+        "calls": 198,
+        "avg_latency_ms": 1772.6,
+        "total_tokens": 406058,
+        "avg_tokens_per_call": 2050.8
+      },
+      "triage": {
+        "calls": 17,
+        "avg_latency_ms": 1735.8,
+        "total_tokens": 15420,
+        "avg_tokens_per_call": 907.1
       }
     }
   },
