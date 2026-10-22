@@ -27,7 +27,8 @@ from openai import OpenAI
 from rank_bm25 import BM25Okapi
 
 from .config import CHROMA_PERSIST_DIR, CHUNK_OVERLAP_WORDS, CHUNK_SIZE_WORDS, EMBEDDING_MODEL, \
-    EVALUATIONS_ROOT, OPENAI_API_KEY, REPORTS_ROOT
+    EVALUATIONS_ROOT, OPENAI_API_KEY, PASSAGE_CANDIDATE_CHUNKS, PASSAGE_MAX_PER_SEARCH, \
+    PASSAGE_MIN_WORDS, PASSAGE_TOP_K, REPORTS_ROOT, RETRIEVAL_MIN_SCORE
 from .models import Chunk, DocumentRecord
 from .parsing import load_parsed_document
 
@@ -338,6 +339,152 @@ def search(query: str, top_k: int = 5, category_key: Optional[str] = None,
             "source_location_range": meta["source_location_range"],
         })
     return output
+
+
+# ---------------------------------------------------------------------------
+# Shared text/locator helpers — defined here (next to the index that produces
+# the locators) so agents.py, app_service.py and chat.py all use one
+# implementation instead of each keeping their own copy.
+# ---------------------------------------------------------------------------
+
+def normalize_for_match(text: str) -> str:
+    """Collapses whitespace and case for verbatim-quote checking.
+
+    Models legitimately lowercase the first word of a quote taken
+    mid-sentence, and collapse the newline that joins two clauses inside one
+    chunk into a plain space. Neither is fabrication, so neither may count as
+    a failed verification. Wording and punctuation still have to match."""
+    return " ".join(text.split()).casefold()
+
+
+def expand_locator_range(source_location_range: str) -> List[str]:
+    """'paragraph:10-paragraph:18' -> every locator in that span.
+    A single locator ('paragraph:7') returns just itself."""
+    if not source_location_range:
+        return []
+    if "-" not in source_location_range:
+        return [source_location_range]
+    start, end = source_location_range.split("-", 1)
+    try:
+        kind, start_n = start.split(":")
+        _, end_n = end.split(":")
+        return [f"{kind}:{n}" for n in range(int(start_n), int(end_n) + 1)]
+    except ValueError:
+        return [start, end]
+
+
+# ---------------------------------------------------------------------------
+# Passage search — stage 2 of retrieval.
+#
+# search() finds the right CHUNK. For the 17 of 36 documents in this corpus
+# that are shorter than CHUNK_SIZE_WORDS, that chunk is the entire file, so
+# the answer to "where does it say that?" is "somewhere in this document" —
+# useless as a citation. search_passages() re-ranks the individual paragraphs
+# inside the best chunks, so even a 400-word billing schedule yields a
+# paragraph-level citation. No re-chunking, so Phase 3's evaluation stands.
+# ---------------------------------------------------------------------------
+
+def _cosine(a: List[float], b: List[float]) -> float:
+    dot = sum(x * y for x, y in zip(a, b))
+    na = sum(x * x for x in a) ** 0.5
+    nb = sum(y * y for y in b) ** 0.5
+    return dot / (na * nb) if na and nb else 0.0
+
+
+# A numbered title with no sentence punctuation — "8. DURATION OF OBLIGATIONS",
+# "3.2 Payment Terms:". Needed because ClauseRecord.is_heading is False for
+# every clause in this corpus (measured): these DOCX files never use Word
+# heading styles, so the Phase 1 style-based detector never fires. Headings
+# are short and score deceptively well against short queries, so returning
+# them as evidence produces confident-looking citations with no content.
+_NUMBERED_HEADING = re.compile(r"^\s*\d+(\.\d+)*[.)]?\s+[^.!?]{0,80}$")
+
+
+def _looks_like_heading(text: str) -> bool:
+    stripped = text.strip()
+    if "\n" in stripped:
+        return False  # multi-line blocks (e.g. the parties block) carry real content
+    words = stripped.split()
+    if len(words) > 14:
+        return False
+    if _NUMBERED_HEADING.match(stripped):
+        return True
+    letters = [c for c in stripped if c.isalpha()]
+    return bool(letters) and all(c.isupper() for c in letters) and len(words) <= 8
+
+
+@observe(name="search_passages")
+def search_passages(query: str, top_k: int = PASSAGE_TOP_K,
+                     doc_id: Optional[str] = None,
+                     candidate_chunks: int = PASSAGE_CANDIDATE_CHUNKS,
+                     min_score: Optional[float] = None) -> List[Dict[str, Any]]:
+    """Returns the most relevant PARAGRAPHS for a query, each with its own
+    exact locator and score.
+
+    min_score filters obvious noise, but it is deliberately NOT the thing
+    that decides "no answer exists" — a short heading can out-score a real
+    clause on a short query, so a threshold alone is unreliable. The caller
+    (chat.py) asks the model to judge sufficiency from the actual text,
+    which is the stronger signal."""
+    min_score = RETRIEVAL_MIN_SCORE if min_score is None else min_score
+
+    chunks = search(query, top_k=candidate_chunks, doc_id=doc_id)
+    if not chunks:
+        return []
+
+    seen: set = set()
+    candidates: List[Dict[str, Any]] = []
+    for chunk in chunks:
+        wanted = set(expand_locator_range(chunk["source_location_range"]))
+        try:
+            parsed = load_parsed_document(chunk["doc_id"])
+        except FileNotFoundError:
+            continue
+
+        section: Optional[str] = None
+        for clause in parsed["clauses"]:
+            locator = clause["source_location"]["locator"]
+            text = clause["text"]
+
+            # Track headings for context even when they fall outside this
+            # chunk, so a passage still knows which section it belongs to.
+            if _looks_like_heading(text):
+                section = text.strip()
+                continue
+
+            key = (chunk["doc_id"], locator)
+            if locator not in wanted or key in seen:
+                continue
+            if len(text.split()) < PASSAGE_MIN_WORDS:
+                continue  # fragments aren't quotable evidence
+            seen.add(key)
+            candidates.append({
+                "doc_id": chunk["doc_id"],
+                "chunk_id": chunk["chunk_id"],
+                "locator": locator,
+                "heading": clause.get("heading") or section,
+                "text": text,
+                "category_key": chunk["category_key"],
+                "chunk_score": chunk["score"],
+            })
+
+    if not candidates:
+        # Everything was heading or fragment — fall back to chunk-level
+        # results rather than silently returning nothing.
+        return [{**c, "locator": c["source_location_range"], "heading": None,
+                 "passage_id": c["chunk_id"]}
+                for c in chunks if c["score"] >= min_score]
+
+    candidates = candidates[:PASSAGE_MAX_PER_SEARCH]
+    vectors = embed_texts([query] + [c["text"] for c in candidates])
+    query_vector, passage_vectors = vectors[0], vectors[1:]
+
+    for candidate, vector in zip(candidates, passage_vectors):
+        candidate["score"] = round(_cosine(query_vector, vector), 4)
+        candidate["passage_id"] = f'{candidate["doc_id"]}@{candidate["locator"]}'
+
+    candidates.sort(key=lambda c: c["score"], reverse=True)
+    return [c for c in candidates if c["score"] >= min_score][:top_k]
 
 
 # ---------------------------------------------------------------------------

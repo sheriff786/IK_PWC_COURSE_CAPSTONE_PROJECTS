@@ -16,6 +16,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
+from .chat import answer_question
 from .config import ARTIFACTS_ROOT, DATA_ROOT, REPORTS_ROOT
 from .graph import ContractKnowledgeGraph
 from .ingestion import load_manifest, save_manifest
@@ -23,7 +24,15 @@ from .models import DocumentRecord, DocumentRole, ParseStatus
 from .parsing import load_parsed_document, parse_docx_document, save_parsed_document
 from .reporting import generate_document_report, load_assessment
 from .resilience import read_recovery_events
-from .retrieval import build_index, chunk_document, get_chroma_collection, search
+from .retrieval import (
+    build_index,
+    chunk_document,
+    expand_locator_range,
+    get_chroma_collection,
+    normalize_for_match,
+    search,
+    search_passages,
+)
 
 _TASKS_PATH = ARTIFACTS_ROOT / "app_review_tasks.json"
 _UPLOADS_ROOT = ARTIFACTS_ROOT / "uploads"
@@ -111,9 +120,30 @@ def get_risk_review(doc_id: str) -> Dict[str, Any]:
 # ---------------------------------------------------------------------------
 
 def ask(query: str, doc_id: Optional[str] = None, top_k: int = 5) -> List[Dict[str, Any]]:
+    """Chunk-level search. Kept for callers that want whole retrieved chunks;
+    the chat agent uses passage-level search instead."""
     if not query or not query.strip():
         return []
     return search(query, top_k=top_k, doc_id=doc_id or None)
+
+
+def ask_passages(query: str, doc_id: Optional[str] = None,
+                  top_k: int = 5) -> List[Dict[str, Any]]:
+    """Paragraph-level search — precise citations even for the 17 documents
+    that are a single whole-file chunk."""
+    if not query or not query.strip():
+        return []
+    return search_passages(query, top_k=top_k, doc_id=doc_id or None)
+
+
+def chat(message: str, history: Optional[List[Dict[str, str]]] = None,
+          doc_id: Optional[str] = None) -> Dict[str, Any]:
+    """One conversational turn: resolves follow-ups against history, retrieves
+    passages, answers only from them, and verifies every quote."""
+    if not message or not message.strip():
+        return {"status": "empty", "answer": "Ask a question to get started.",
+                "passages": [], "citations": [], "unverified_quotes": []}
+    return answer_question(message, history=history, doc_id=doc_id or None)
 
 
 # ---------------------------------------------------------------------------
@@ -139,19 +169,10 @@ def get_document_chunks(doc_id: str) -> List[Dict[str, Any]]:
 # ---------------------------------------------------------------------------
 
 def _parse_locator_range(source_location_range: str) -> List[str]:
-    """'paragraph:10-paragraph:18' -> every locator in that span.
-    A single locator ('paragraph:7') returns just itself."""
-    if not source_location_range:
-        return []
-    if "-" not in source_location_range:
-        return [source_location_range]
-    start, end = source_location_range.split("-", 1)
-    try:
-        kind, start_n = start.split(":")
-        _, end_n = end.split(":")
-        return [f"{kind}:{n}" for n in range(int(start_n), int(end_n) + 1)]
-    except ValueError:
-        return [start, end]
+    """Kept as a thin alias so existing callers/tests keep working; the real
+    implementation lives in retrieval.py next to the index that emits these
+    ranges, so chat/agents/app_service all share one copy."""
+    return expand_locator_range(source_location_range)
 
 
 def resolve_citation(doc_id: str, chunk_id: str,
@@ -178,21 +199,40 @@ def resolve_citation(doc_id: str, chunk_id: str,
         return {"found": False, "reason": f"no parsed artifact for {doc_id}"}
 
     def _norm(text: str) -> str:
-        return " ".join(text.split()).casefold()
+        return normalize_for_match(text)
 
     needle = _norm(quoted_excerpt) if quoted_excerpt else None
 
-    paragraphs = []
-    for clause in parsed["clauses"]:
-        locator = clause["source_location"]["locator"]
-        if locator not in wanted:
-            continue
-        paragraphs.append({
-            "locator": locator,
-            "heading": clause.get("heading"),
-            "text": clause["text"],
-            "is_quote_source": bool(needle and needle in _norm(clause["text"])),
-        })
+    covered = [c for c in parsed["clauses"]
+               if c["source_location"]["locator"] in wanted]
+
+    # A quote frequently spans a paragraph boundary, because the chunk the
+    # agent verified against joins paragraphs together. Checking paragraphs
+    # one at a time would then find nothing and wrongly report a verified
+    # finding as unlocatable, so the search runs over the joined text and
+    # maps the match back to every paragraph it overlaps.
+    quote_locators: set = set()
+    if needle:
+        normalized = [_norm(c["text"]) for c in covered]
+        joined = " ".join(normalized)
+        spans, cursor = [], 0
+        for text in normalized:
+            spans.append((cursor, cursor + len(text)))
+            cursor += len(text) + 1  # +1 for the joining space
+
+        start = joined.find(needle)
+        if start >= 0:
+            end = start + len(needle)
+            for clause, (span_start, span_end) in zip(covered, spans):
+                if span_start < end and span_end > start:
+                    quote_locators.add(clause["source_location"]["locator"])
+
+    paragraphs = [{
+        "locator": c["source_location"]["locator"],
+        "heading": c.get("heading"),
+        "text": c["text"],
+        "is_quote_source": c["source_location"]["locator"] in quote_locators,
+    } for c in covered]
 
     return {
         "found": True,

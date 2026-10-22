@@ -413,38 +413,101 @@ def build_risk_review_tab() -> None:
 
 
 # ---------------------------------------------------------------------------
-# 5. Ask ContractIQ
+# 5. Ask ContractIQ — conversational, grounded, with verified citations
 # ---------------------------------------------------------------------------
 
-def _render_ask(query: str, doc_id: Optional[str]) -> str:
-    if not query or not query.strip():
-        return '<div class="ciq-note">Ask a question to search the indexed corpus.</div>'
-    results = svc.ask(query, doc_id=doc_id or None)
-    if not results:
-        return '<div class="ciq-note">No results — try rephrasing, or clear the document filter.</div>'
-    return "".join(
-        f'<div class="ciq-finding sev-LOW"><div class="title">{r["doc_id"]} '
-        f'<span class="ciq-badge info">score {r["score"]}</span></div>'
-        f'<div class="meta">{r["category_key"]} · {r["source_location_range"]}</div>'
-        f'<div class="rationale">{r["text"][:420]}{"…" if len(r["text"]) > 420 else ""}</div></div>'
-        for r in results
-    )
+_STATUS_BADGE = {
+    "answered": '<span class="ciq-badge ok">ANSWERED FROM EVIDENCE</span>',
+    "no_evidence": '<span class="ciq-badge info">NO SUPPORTING EVIDENCE FOUND</span>',
+    "unverified_quotes": '<span class="ciq-badge warn">SOME QUOTES COULD NOT BE VERIFIED</span>',
+    "error": '<span class="ciq-badge warn">ANSWER UNAVAILABLE — EVIDENCE SHOWN</span>',
+    "empty": "",
+}
+
+
+def _render_evidence(result: Dict[str, Any]) -> str:
+    """Shows what the answer was actually built from: the exact paragraphs,
+    their locators, and whether each quote was found in the source."""
+    status = result.get("status", "empty")
+    parts = [f'<div style="margin-bottom:10px">{_STATUS_BADGE.get(status, "")}</div>']
+
+    rewritten = result.get("standalone_question")
+    if rewritten and rewritten.strip().lower() != (result.get("question") or "").strip().lower():
+        parts.append(f'<div class="ciq-note" style="margin-bottom:10px">Interpreted your follow-up as: '
+                      f'<b>{rewritten}</b></div>')
+
+    if result.get("unverified_quotes"):
+        quotes = "".join(f"<li>“{u['quote'][:160]}”</li>" for u in result["unverified_quotes"])
+        parts.append('<div class="ciq-note" style="border-color:#e8bcbc;background:#fbeded">'
+                      '<b>These quotes were not found verbatim in the retrieved text</b> and should '
+                      f'not be relied on:<ul>{quotes}</ul></div>')
+
+    shown = result.get("citations") or result.get("passages") or []
+    if not shown:
+        return "".join(parts) + '<div class="ciq-note">No passages were retrieved for this question.</div>'
+
+    verified_ids = {pid for item in result.get("verified_quotes", []) for pid in item["found_in"]}
+    parts.append(f"<h4>Evidence ({len(shown)} passage{'s' if len(shown) != 1 else ''})</h4>")
+    for p in shown:
+        badge = ('<span class="ciq-badge ok">QUOTE VERIFIED HERE</span>'
+                 if p.get("passage_id") in verified_ids else "")
+        heading = f' — {p["heading"]}' if p.get("heading") else ""
+        score = p.get("score")
+        parts.append(
+            f'<div class="ciq-para{" hit" if badge else ""}">'
+            f'<div class="loc">{p["doc_id"]} · {p["locator"]}{heading}'
+            f'{f" · score {score}" if score is not None else ""} {badge}</div>'
+            f'{p["text"]}</div>'
+        )
+    return "".join(parts)
+
+
+def _chat_submit(message: str, history: Optional[List[Dict[str, str]]], doc_id: Optional[str]):
+    history = list(history or [])
+    if not message or not message.strip():
+        return history, "", _render_evidence({"status": "empty"})
+
+    result = svc.chat(message, history, doc_id or None)
+    history.append({"role": "user", "content": message})
+    history.append({"role": "assistant", "content": result["answer"]})
+    return history, "", _render_evidence(result)   # "" clears the input box
 
 
 def build_ask_tab() -> None:
     gr.Markdown("## Ask ContractIQ")
-    gr.HTML('<div class="ciq-note">Semantic search over the indexed corpus — the same retrieval the '
-             'specialist agents use. This returns the real evidence passages with their source '
-             'locations, rather than a generated answer you would then have to fact-check.</div>')
+    gr.HTML('<div class="ciq-note">A grounded conversation over your contracts. Follow-ups work — '
+             'ask <i>"and when is it due?"</i> and the question is resolved against what you already '
+             'asked. Answers are written <b>only</b> from retrieved passages, every quote is '
+             're-checked against the source text, and when the documents don\'t contain the answer '
+             'the agent says so rather than guessing.</div>')
+
     with gr.Row():
-        query_box = gr.Textbox(label="Question", scale=3,
-                                placeholder="Is there a cap on total liability?")
-        doc_filter = gr.Dropdown(label="Scope (optional)", scale=1,
-                                  choices=[""] + [d["doc_id"] for d in svc.list_documents()])
-    ask_btn = gr.Button("Search", variant="primary")
-    results_panel = gr.HTML()
-    ask_btn.click(fn=_render_ask, inputs=[query_box, doc_filter], outputs=results_panel)
-    query_box.submit(fn=_render_ask, inputs=[query_box, doc_filter], outputs=results_panel)
+        with gr.Column(scale=3):
+            # Gradio 6 dropped Chatbot(type=...) and show_copy_button; the
+            # messages format (role/content dicts) is now the only one,
+            # which is what _chat_submit returns.
+            chatbot = gr.Chatbot(label="Conversation", height=420)
+            with gr.Row():
+                message_box = gr.Textbox(label="Your question", scale=5, autofocus=True,
+                                          placeholder="e.g. What interest applies to late payment?")
+                send_btn = gr.Button("Send", variant="primary", scale=1)
+            with gr.Row():
+                scope_dd = gr.Dropdown(label="Limit to one document (optional)", scale=3,
+                                        choices=[""] + [d["doc_id"] for d in svc.list_documents()],
+                                        value="")
+                clear_btn = gr.Button("New conversation", scale=1)
+        with gr.Column(scale=2):
+            gr.Markdown("### Evidence behind the answer")
+            evidence_panel = gr.HTML('<div class="ciq-note">Ask a question to see the exact '
+                                      'paragraphs an answer was built from.</div>')
+
+    send_btn.click(fn=_chat_submit, inputs=[message_box, chatbot, scope_dd],
+                    outputs=[chatbot, message_box, evidence_panel])
+    message_box.submit(fn=_chat_submit, inputs=[message_box, chatbot, scope_dd],
+                        outputs=[chatbot, message_box, evidence_panel])
+    clear_btn.click(
+        fn=lambda: ([], "", '<div class="ciq-note">New conversation — previous context cleared.</div>'),
+        outputs=[chatbot, message_box, evidence_panel])
 
 
 # ---------------------------------------------------------------------------

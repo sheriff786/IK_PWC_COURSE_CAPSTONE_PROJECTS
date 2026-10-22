@@ -146,6 +146,35 @@ ROUTING_ENABLED_BY_DEFAULT = True
 # instead of being presented as settled.
 HITL_CONFIDENCE_THRESHOLD = 0.6
 
+
+# ---------------------------------------------------------------------------
+# Ask ContractIQ — conversational retrieval settings
+#
+# Why a passage stage exists at all: CHUNK_SIZE_WORDS=700 means any document
+# shorter than that never splits, so 17 of 36 documents in this corpus are a
+# single chunk covering the whole file. Retrieving that chunk answers "which
+# document" but not "which clause", and dilutes the similarity score across
+# hundreds of irrelevant words. The passage stage re-ranks the paragraphs
+# INSIDE the best chunks so short documents get precise citations too —
+# without re-chunking the corpus and invalidating the Phase 3 evaluation.
+# ---------------------------------------------------------------------------
+
+CHAT_MODEL = DEFAULT_AGENT_MODEL          # answering + query rewriting
+PASSAGE_CANDIDATE_CHUNKS = 4              # chunks to drill into
+PASSAGE_TOP_K = 6                         # paragraphs handed to the answerer
+PASSAGE_MAX_PER_SEARCH = 80               # cap on paragraphs embedded per query
+PASSAGE_MIN_WORDS = 6                     # skip headings/fragments as evidence
+
+# Below this cosine similarity the best passage is treated as noise, and the
+# agent says it found nothing rather than answering from a weak match. Set
+# from the observed spread in this corpus: genuine hits land ~0.33-0.37 while
+# a whole-document non-answer scored 0.148.
+RETRIEVAL_MIN_SCORE = 0.22
+
+# How many previous turns are condensed into a standalone question. Kept
+# small on purpose — older turns add tokens and drift, not accuracy.
+CHAT_HISTORY_TURNS = 4
+
 CHUNK_SIZE_WORDS = 700     # start of the 600-800 range the roadmap specifies
 CHUNK_OVERLAP_WORDS = 100  # start of the 80-120 range; tune after Phase 3 eval
 

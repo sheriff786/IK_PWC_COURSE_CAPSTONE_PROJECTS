@@ -41,6 +41,20 @@ class AskRequest(BaseModel):
     top_k: int = Field(default=5, ge=1, le=20)
 
 
+class ChatMessage(BaseModel):
+    role: str = Field(pattern="^(user|assistant)$")
+    content: str
+
+
+class ChatRequest(BaseModel):
+    message: str = Field(min_length=1)
+    history: List[ChatMessage] = Field(
+        default_factory=list,
+        description="Prior turns. Sent by the client so the API stays stateless — "
+                    "follow-ups like 'and when is it due?' are resolved against this.")
+    doc_id: Optional[str] = Field(default=None)
+
+
 class TaskRequest(BaseModel):
     doc_id: str
     finding_title: str
@@ -136,6 +150,23 @@ def citation(doc_id: str, chunk_id: str,
 def ask(payload: AskRequest) -> Dict[str, Any]:
     results = svc.ask(payload.query, doc_id=payload.doc_id, top_k=payload.top_k)
     return {"query": payload.query, "count": len(results), "results": results}
+
+
+@app.post("/api/ask/passages", tags=["search"])
+def ask_passages(payload: AskRequest) -> Dict[str, Any]:
+    """Paragraph-level search — precise locators even for short documents that
+    are stored as one whole-file chunk."""
+    results = svc.ask_passages(payload.query, doc_id=payload.doc_id, top_k=payload.top_k)
+    return {"query": payload.query, "count": len(results), "results": results}
+
+
+@app.post("/api/chat", tags=["search"])
+def chat(payload: ChatRequest) -> Dict[str, Any]:
+    """One grounded conversational turn. Resolves follow-ups against the
+    supplied history, answers only from retrieved passages, and reports a
+    status of answered / no_evidence / unverified_quotes / error."""
+    history = [m.model_dump() for m in payload.history]
+    return svc.chat(payload.message, history=history, doc_id=payload.doc_id)
 
 
 # ---------------------------------------------------------------------------
