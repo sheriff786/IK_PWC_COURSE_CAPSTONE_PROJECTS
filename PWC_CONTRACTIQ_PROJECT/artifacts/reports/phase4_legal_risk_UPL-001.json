@@ -1,0 +1,72 @@
+{
+  "dimension": "legal",
+  "success": true,
+  "findings": [
+    {
+      "finding_id": "legal-termination_for_cause-69b0e7de",
+      "dimension": "legal",
+      "severity": "MEDIUM",
+      "title": "Termination for Cause or Material Breach",
+      "rationale": "The contract allows for termination by either party with a written notice, which can be interpreted as a condition for termination for cause or material breach.",
+      "recommendation": null,
+      "evidence_ids": [
+        "UPL-001-c1"
+      ],
+      "evidence_excerpts": [
+        "Either party may terminate this Agreement by giving 45 calendar days’ written notice, unless a relevant PO states otherwise."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.8
+    },
+    {
+      "finding_id": "legal-termination_for_convenience-a348130d",
+      "dimension": "legal",
+      "severity": "MEDIUM",
+      "title": "Termination for Convenience Notice Period",
+      "rationale": "The contract specifies the notice period required for termination without cause.",
+      "recommendation": null,
+      "evidence_ids": [
+        "UPL-001-c1"
+      ],
+      "evidence_excerpts": [
+        "Either party may terminate this Agreement by giving 45 calendar days’ written notice, unless a relevant PO states otherwise."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    },
+    {
+      "finding_id": "legal-confidentiality_survival-bf86267e",
+      "dimension": "legal",
+      "severity": "MEDIUM",
+      "title": "Confidentiality Obligations Survival",
+      "rationale": "The confidentiality obligations survive termination as they relate to the protection of non-public information received during the agreement.",
+      "recommendation": null,
+      "evidence_ids": [
+        "UPL-001-c1"
+      ],
+      "evidence_excerpts": [
+        "Each party will protect non-public billing, commercial, operational, and financial information received from the other party and will use it only for purposes connected with this Agreement."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    },
+    {
+      "finding_id": "legal-governing_law_disputes-ef4ffc50",
+      "dimension": "legal",
+      "severity": "MEDIUM",
+      "title": "Governing Law and Dispute Resolution",
+      "rationale": "The evidence specifies the governing law and outlines the dispute resolution process.",
+      "recommendation": null,
+      "evidence_ids": [
+        "UPL-001-c1"
+      ],
+      "evidence_excerpts": [
+        "This sample Agreement is intended to be governed by the laws of India. The parties should insert the agreed city and state for jurisdiction and obtain appropriate legal review before execution."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    }
+  ],
+  "error": null,
+  "retry_count": 0
+}

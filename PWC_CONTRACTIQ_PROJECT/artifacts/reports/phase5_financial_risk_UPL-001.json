@@ -1,0 +1,56 @@
+{
+  "dimension": "financial",
+  "success": true,
+  "findings": [
+    {
+      "finding_id": "financial-payment_terms-b42bdf87",
+      "dimension": "financial",
+      "severity": "MEDIUM",
+      "title": "Payment Terms and Schedule",
+      "rationale": "The payment terms specify that the standard payment term is 45 calendar days from the Client’s receipt of a valid invoice and required supporting documents, with late payment interest applicable on overdue amounts.",
+      "recommendation": null,
+      "evidence_ids": [
+        "UPL-001-c0"
+      ],
+      "evidence_excerpts": [
+        "Standard payment term: 45 calendar days from the Client’s receipt of a valid invoice and required supporting documents."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    },
+    {
+      "finding_id": "financial-late_payment_penalties-f3fef0eb",
+      "dimension": "financial",
+      "severity": "MEDIUM",
+      "title": "Late Payment Interest Rate",
+      "rationale": "The contract specifies the interest rate applicable to late payments, indicating the penalties for overdue amounts.",
+      "recommendation": null,
+      "evidence_ids": [
+        "UPL-001-c0"
+      ],
+      "evidence_excerpts": [
+        "Late payment interest, where legally permitted and applicable, will be 1.25% per month on undisputed overdue amounts."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    },
+    {
+      "finding_id": "financial-pricing_structure-3f8e57ae",
+      "dimension": "financial",
+      "severity": "MEDIUM",
+      "title": "Pricing Structure and Billing Terms",
+      "rationale": "The agreement outlines the pricing structure, including standard billing, milestone billing, and payment terms, which are essential components of the pricing structure.",
+      "recommendation": null,
+      "evidence_ids": [
+        "UPL-001-c0"
+      ],
+      "evidence_excerpts": [
+        "Recurring supply or support arrangements will be invoiced monthly, on the final business day of the billing month."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    }
+  ],
+  "error": null,
+  "retry_count": 0
+}

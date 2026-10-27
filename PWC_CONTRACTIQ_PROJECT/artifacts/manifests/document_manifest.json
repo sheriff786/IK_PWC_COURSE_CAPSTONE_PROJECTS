@@ -430,5 +430,17 @@
     "parse_status": "pending",
     "parse_error": null,
     "scanned_at": "2026-10-22T23:15:03.703157"
+  },
+  {
+    "doc_id": "UPL-001",
+    "filename": "Billing_Schedule_Agreement_Custom.docx",
+    "filepath": "E:\\Sheriff_faang\\full_end_to_end_project_implementation\\IK_PWC_Agentic_AI_Project\\PWC_CAPSTONE_PROJECT\\IK_PWC_COURSE_CAPSTONE_PROJECTS\\PWC_CONTRACTIQ_PROJECT\\artifacts\\uploads\\UPL-001.docx",
+    "category_key": "commercial_docs",
+    "document_role": "assessed_agreement",
+    "file_size_bytes": 40633,
+    "content_hash": "2a6a729d308e31aad2d1fd04e4d8664af30aece98aed2f1ddcd617beee9834e5",
+    "parse_status": "parsed",
+    "parse_error": null,
+    "scanned_at": "2026-10-24T11:08:49.566984"
   }
 ]

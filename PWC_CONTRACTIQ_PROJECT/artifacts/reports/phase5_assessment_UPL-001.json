@@ -1,0 +1,233 @@
+{
+  "assessment_id": "assessment-UPL-001-16c15751",
+  "doc_id": "UPL-001",
+  "run_id": "14070006eaec",
+  "document_version": "1",
+  "model_version": "gpt-4o-mini",
+  "prompt_version": "phase5-specialist-prompts-v1",
+  "policy_version": "risk-policy-v1",
+  "dimension_results": [
+    {
+      "dimension": "financial",
+      "success": true,
+      "findings": [
+        {
+          "finding_id": "financial-payment_terms-b42bdf87",
+          "dimension": "financial",
+          "severity": "MEDIUM",
+          "title": "Payment Terms and Schedule",
+          "rationale": "The payment terms specify that the standard payment term is 45 calendar days from the Client’s receipt of a valid invoice and required supporting documents, with late payment interest applicable on overdue amounts.",
+          "recommendation": null,
+          "evidence_ids": [
+            "UPL-001-c0"
+          ],
+          "evidence_excerpts": [
+            "Standard payment term: 45 calendar days from the Client’s receipt of a valid invoice and required supporting documents."
+          ],
+          "verification_status": "verified",
+          "confidence": 0.9
+        },
+        {
+          "finding_id": "financial-late_payment_penalties-f3fef0eb",
+          "dimension": "financial",
+          "severity": "MEDIUM",
+          "title": "Late Payment Interest Rate",
+          "rationale": "The contract specifies the interest rate applicable to late payments, indicating the penalties for overdue amounts.",
+          "recommendation": null,
+          "evidence_ids": [
+            "UPL-001-c0"
+          ],
+          "evidence_excerpts": [
+            "Late payment interest, where legally permitted and applicable, will be 1.25% per month on undisputed overdue amounts."
+          ],
+          "verification_status": "verified",
+          "confidence": 0.9
+        },
+        {
+          "finding_id": "financial-pricing_structure-3f8e57ae",
+          "dimension": "financial",
+          "severity": "MEDIUM",
+          "title": "Pricing Structure and Billing Terms",
+          "rationale": "The agreement outlines the pricing structure, including standard billing, milestone billing, and payment terms, which are essential components of the pricing structure.",
+          "recommendation": null,
+          "evidence_ids": [
+            "UPL-001-c0"
+          ],
+          "evidence_excerpts": [
+            "Recurring supply or support arrangements will be invoiced monthly, on the final business day of the billing month."
+          ],
+          "verification_status": "verified",
+          "confidence": 0.9
+        }
+      ],
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "dimension": "operational",
+      "success": true,
+      "findings": [
+        {
+          "finding_id": "operational-scope_of_work-cb2c54aa",
+          "dimension": "operational",
+          "severity": "MEDIUM",
+          "title": "Scope of Work Defined",
+          "rationale": "The scope of work under this agreement includes specific hardware and related services as outlined in the contract.",
+          "recommendation": null,
+          "evidence_ids": [
+            "UPL-001-c0"
+          ],
+          "evidence_excerpts": [
+            "This Agreement applies to hardware and related services supplied under purchase orders accepted by both parties, including: Servers, network switches, routers, storage systems, security appliances, and accessories."
+          ],
+          "verification_status": "verified",
+          "confidence": 0.9
+        },
+        {
+          "finding_id": "operational-acceptance_criteria-7d4df54a",
+          "dimension": "operational",
+          "severity": "MEDIUM",
+          "title": "Acceptance Criteria for Deliverables",
+          "rationale": "The evidence specifies that the Client must review milestone evidence and provide acceptance or written reasons for rejection within a reasonable period, indicating the acceptance criteria for deliverables.",
+          "recommendation": null,
+          "evidence_ids": [
+            "UPL-001-c0",
+            "UPL-001-c1"
+          ],
+          "evidence_excerpts": [
+            "Review milestone evidence and provide acceptance or written reasons for rejection within a reasonable period."
+          ],
+          "verification_status": "verified",
+          "confidence": 0.9
+        },
+        {
+          "finding_id": "operational-sla_commitments-a3ce9af7",
+          "dimension": "operational",
+          "severity": "MEDIUM",
+          "title": "Vendor Performance Commitments",
+          "rationale": "The vendor commits to supply goods and perform services in accordance with the accepted purchase order and agreed delivery schedule, and to notify the client of expected material delivery delays.",
+          "recommendation": null,
+          "evidence_ids": [
+            "UPL-001-c0"
+          ],
+          "evidence_excerpts": [
+            "Supply goods and perform services in accordance with the accepted PO and agreed delivery schedule."
+          ],
+          "verification_status": "verified",
+          "confidence": 0.9
+        },
+        {
+          "finding_id": "operational-dependencies_obligations-57c7bbbb",
+          "dimension": "operational",
+          "severity": "MEDIUM",
+          "title": "Client Obligations for Vendor Performance",
+          "rationale": "The evidence outlines specific obligations of the Client that the Vendor relies on for performance, including providing valid purchase orders, arranging access for delivery and installation, and reviewing invoices.",
+          "recommendation": null,
+          "evidence_ids": [
+            "UPL-001-c0",
+            "UPL-001-c1"
+          ],
+          "evidence_excerpts": [
+            "6. Obligations of the Client\nProvide valid purchase orders and identify authorized contacts for delivery, invoice, and payment queries.\nReview invoices and notify the Vendor of a discrepancy within 5 business days of receipt where practicable.\nArrange access to approved sites for delivery, installation, and testing activities.\nReview milestone evidence and provide acceptance or written reasons for rejection within a reasonable period.\nPay undisputed invoice amounts within the agreed payment period."
+          ],
+          "verification_status": "verified",
+          "confidence": 0.9
+        },
+        {
+          "finding_id": "operational-performance_reporting-673bcc67",
+          "dimension": "operational",
+          "severity": "MEDIUM",
+          "title": "Service Performance Reporting Mechanism",
+          "rationale": "The agreement outlines a structured approach to performance reporting through invoicing and reconciliation processes, ensuring transparency and accountability in service delivery.",
+          "recommendation": "Ensure regular reviews of performance reports to align service delivery with expectations.",
+          "evidence_ids": [
+            "UPL-001-c1"
+          ],
+          "evidence_excerpts": [
+            "The Vendor will provide a monthly statement showing invoices issued, amounts received, open balances, credit notes, and overdue undisputed amounts."
+          ],
+          "verification_status": "verified",
+          "confidence": 0.9
+        }
+      ],
+      "error": null,
+      "retry_count": 0
+    },
+    {
+      "dimension": "legal",
+      "success": true,
+      "findings": [
+        {
+          "finding_id": "legal-termination_for_cause-69b0e7de",
+          "dimension": "legal",
+          "severity": "MEDIUM",
+          "title": "Termination for Cause or Material Breach",
+          "rationale": "The contract allows for termination by either party with a written notice, which can be interpreted as a condition for termination for cause or material breach.",
+          "recommendation": null,
+          "evidence_ids": [
+            "UPL-001-c1"
+          ],
+          "evidence_excerpts": [
+            "Either party may terminate this Agreement by giving 45 calendar days’ written notice, unless a relevant PO states otherwise."
+          ],
+          "verification_status": "verified",
+          "confidence": 0.8
+        },
+        {
+          "finding_id": "legal-termination_for_convenience-a348130d",
+          "dimension": "legal",
+          "severity": "MEDIUM",
+          "title": "Termination for Convenience Notice Period",
+          "rationale": "The contract specifies the notice period required for termination without cause.",
+          "recommendation": null,
+          "evidence_ids": [
+            "UPL-001-c1"
+          ],
+          "evidence_excerpts": [
+            "Either party may terminate this Agreement by giving 45 calendar days’ written notice, unless a relevant PO states otherwise."
+          ],
+          "verification_status": "verified",
+          "confidence": 0.9
+        },
+        {
+          "finding_id": "legal-confidentiality_survival-bf86267e",
+          "dimension": "legal",
+          "severity": "MEDIUM",
+          "title": "Confidentiality Obligations Survival",
+          "rationale": "The confidentiality obligations survive termination as they relate to the protection of non-public information received during the agreement.",
+          "recommendation": null,
+          "evidence_ids": [
+            "UPL-001-c1"
+          ],
+          "evidence_excerpts": [
+            "Each party will protect non-public billing, commercial, operational, and financial information received from the other party and will use it only for purposes connected with this Agreement."
+          ],
+          "verification_status": "verified",
+          "confidence": 0.9
+        },
+        {
+          "finding_id": "legal-governing_law_disputes-ef4ffc50",
+          "dimension": "legal",
+          "severity": "MEDIUM",
+          "title": "Governing Law and Dispute Resolution",
+          "rationale": "The evidence specifies the governing law and outlines the dispute resolution process.",
+          "recommendation": null,
+          "evidence_ids": [
+            "UPL-001-c1"
+          ],
+          "evidence_excerpts": [
+            "This sample Agreement is intended to be governed by the laws of India. The parties should insert the agreed city and state for jurisdiction and obtain appropriate legal review before execution."
+          ],
+          "verification_status": "verified",
+          "confidence": 0.9
+        }
+      ],
+      "error": null,
+      "retry_count": 0
+    }
+  ],
+  "unresolved_issues": [],
+  "consensus_actions": [],
+  "overall_risk": "MEDIUM",
+  "created_at": "2026-10-24T11:13:11.241848"
+}

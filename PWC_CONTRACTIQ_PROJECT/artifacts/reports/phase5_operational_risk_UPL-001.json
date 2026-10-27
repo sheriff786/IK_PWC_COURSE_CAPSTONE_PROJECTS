@@ -1,0 +1,90 @@
+{
+  "dimension": "operational",
+  "success": true,
+  "findings": [
+    {
+      "finding_id": "operational-scope_of_work-cb2c54aa",
+      "dimension": "operational",
+      "severity": "MEDIUM",
+      "title": "Scope of Work Defined",
+      "rationale": "The scope of work under this agreement includes specific hardware and related services as outlined in the contract.",
+      "recommendation": null,
+      "evidence_ids": [
+        "UPL-001-c0"
+      ],
+      "evidence_excerpts": [
+        "This Agreement applies to hardware and related services supplied under purchase orders accepted by both parties, including: Servers, network switches, routers, storage systems, security appliances, and accessories."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    },
+    {
+      "finding_id": "operational-acceptance_criteria-7d4df54a",
+      "dimension": "operational",
+      "severity": "MEDIUM",
+      "title": "Acceptance Criteria for Deliverables",
+      "rationale": "The evidence specifies that the Client must review milestone evidence and provide acceptance or written reasons for rejection within a reasonable period, indicating the acceptance criteria for deliverables.",
+      "recommendation": null,
+      "evidence_ids": [
+        "UPL-001-c0",
+        "UPL-001-c1"
+      ],
+      "evidence_excerpts": [
+        "Review milestone evidence and provide acceptance or written reasons for rejection within a reasonable period."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    },
+    {
+      "finding_id": "operational-sla_commitments-a3ce9af7",
+      "dimension": "operational",
+      "severity": "MEDIUM",
+      "title": "Vendor Performance Commitments",
+      "rationale": "The vendor commits to supply goods and perform services in accordance with the accepted purchase order and agreed delivery schedule, and to notify the client of expected material delivery delays.",
+      "recommendation": null,
+      "evidence_ids": [
+        "UPL-001-c0"
+      ],
+      "evidence_excerpts": [
+        "Supply goods and perform services in accordance with the accepted PO and agreed delivery schedule."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    },
+    {
+      "finding_id": "operational-dependencies_obligations-57c7bbbb",
+      "dimension": "operational",
+      "severity": "MEDIUM",
+      "title": "Client Obligations for Vendor Performance",
+      "rationale": "The evidence outlines specific obligations of the Client that the Vendor relies on for performance, including providing valid purchase orders, arranging access for delivery and installation, and reviewing invoices.",
+      "recommendation": null,
+      "evidence_ids": [
+        "UPL-001-c0",
+        "UPL-001-c1"
+      ],
+      "evidence_excerpts": [
+        "6. Obligations of the Client\nProvide valid purchase orders and identify authorized contacts for delivery, invoice, and payment queries.\nReview invoices and notify the Vendor of a discrepancy within 5 business days of receipt where practicable.\nArrange access to approved sites for delivery, installation, and testing activities.\nReview milestone evidence and provide acceptance or written reasons for rejection within a reasonable period.\nPay undisputed invoice amounts within the agreed payment period."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    },
+    {
+      "finding_id": "operational-performance_reporting-673bcc67",
+      "dimension": "operational",
+      "severity": "MEDIUM",
+      "title": "Service Performance Reporting Mechanism",
+      "rationale": "The agreement outlines a structured approach to performance reporting through invoicing and reconciliation processes, ensuring transparency and accountability in service delivery.",
+      "recommendation": "Ensure regular reviews of performance reports to align service delivery with expectations.",
+      "evidence_ids": [
+        "UPL-001-c1"
+      ],
+      "evidence_excerpts": [
+        "The Vendor will provide a monthly statement showing invoices issued, amounts received, open balances, credit notes, and overdue undisputed amounts."
+      ],
+      "verification_status": "verified",
+      "confidence": 0.9
+    }
+  ],
+  "error": null,
+  "retry_count": 0
+}

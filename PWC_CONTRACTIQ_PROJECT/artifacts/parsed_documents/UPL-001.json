@@ -1,0 +1,1228 @@
+{
+  "doc_id": "UPL-001",
+  "clauses": [
+    {
+      "clause_id": "UPL-001-p0",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "NORTHBRIDGE TECHNOLOGY SYSTEMS",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:0",
+        "excerpt": "NORTHBRIDGE TECHNOLOGY SYSTEMS"
+      }
+    },
+    {
+      "clause_id": "UPL-001-p1",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "BILLING SCHEDULE AGREEMENT",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:1",
+        "excerpt": "BILLING SCHEDULE AGREEMENT"
+      }
+    },
+    {
+      "clause_id": "UPL-001-p2",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Client: Silverline Financial Services\nDate: 24 October 2026",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:2",
+        "excerpt": "Client: Silverline Financial Services\nDate: 24 October 2026"
+      }
+    },
+    {
+      "clause_id": "UPL-001-p3",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Document status: Sample agreement template for review and adaptation. The parties, terms, and examples below are illustrative.",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:3",
+        "excerpt": "Document status: Sample agreement template for review and adaptation. The parties, terms, and examples below are illustrative."
+      }
+    },
+    {
+      "clause_id": "UPL-001-p4",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": "heading",
+      "is_heading": true,
+      "text": "1. Purpose",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:4",
+        "excerpt": "1. Purpose"
+      }
+    },
+    {
+      "clause_id": "UPL-001-p5",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": "1. Purpose",
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "This Billing Schedule Agreement (\u201cAgreement\u201d) is entered into between Northbridge Technology Systems (\u201cVendor\u201d) and Silverline Financial Services (\u201cClient\u201d) to establish a clear process for invoicing, milestone billing, payment tracking, and resolution of billing discrepancies. The parties intend to maintain accurate records, align charges with delivered goods and services, and reduce avoidable payment delays.",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:5",
+        "excerpt": "This Billing Schedule Agreement (\u201cAgreement\u201d) is entered into between Northbridge Technology Systems (\u201cVendor\u201d) and Silverline Financial Services (\u201cClient\u201d) to establish a clear process for invoicing, milestone billing, payment tracking, and resolution of billing discrepancies. The parties intend to maintain accurate records, align charges with delivered goods and services, and reduce avoidable payment delays."
+      }
+    },
+    {
+      "clause_id": "UPL-001-p6",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": "1. Purpose",
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Establish consistent billing dates and supporting-document requirements.",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:6",
+        "excerpt": "Establish consistent billing dates and supporting-document requirements."
+      }
+    },
+    {
+      "clause_id": "UPL-001-p7",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": "1. Purpose",
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Connect invoices to approved purchase orders, delivery evidence, and acceptance milestones.",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:7",
+        "excerpt": "Connect invoices to approved purchase orders, delivery evidence, and acceptance milestones."
+      }
+    },
+    {
+      "clause_id": "UPL-001-p8",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": "1. Purpose",
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Provide a documented process for payment follow-up, credit notes, and disputes.",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:8",
+        "excerpt": "Provide a documented process for payment follow-up, credit notes, and disputes."
+      }
+    },
+    {
+      "clause_id": "UPL-001-p9",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": "heading",
+      "is_heading": true,
+      "text": "2. Scope of Agreement",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:9",
+        "excerpt": "2. Scope of Agreement"
+      }
+    },
+    {
+      "clause_id": "UPL-001-p10",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": "2. Scope of Agreement",
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "This Agreement applies to hardware and related services supplied under purchase orders accepted by both parties, including:",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:10",
+        "excerpt": "This Agreement applies to hardware and related services supplied under purchase orders accepted by both parties, including:"
+      }
+    },
+    {
+      "clause_id": "UPL-001-p11",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": "2. Scope of Agreement",
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Servers, network switches, routers, storage systems, security appliances, and accessories.",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:11",
+        "excerpt": "Servers, network switches, routers, storage systems, security appliances, and accessories."
+      }
+    },
+    {
+      "clause_id": "UPL-001-p12",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": "2. Scope of Agreement",
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Equipment deliveries to the Client\u2019s offices, data centres, and approved branch locations.",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:12",
+        "excerpt": "Equipment deliveries to the Client\u2019s offices, data centres, and approved branch locations."
+      }
+    },
+    {
+      "clause_id": "UPL-001-p13",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": "2. Scope of Agreement",
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Installation, configuration, testing, and warranty-related support expressly listed in an accepted purchase order.",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:13",
+        "excerpt": "Installation, configuration, testing, and warranty-related support expressly listed in an accepted purchase order."
+      }
+    },
+    {
+      "clause_id": "UPL-001-p14",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": "2. Scope of Agreement",
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Any work outside an accepted purchase order must be approved in writing by authorized representatives of both parties before it is billed.",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:14",
+        "excerpt": "Any work outside an accepted purchase order must be approved in writing by authorized representatives of both parties before it is billed."
+      }
+    },
+    {
+      "clause_id": "UPL-001-p15",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": "heading",
+      "is_heading": true,
+      "text": "3. Billing Schedule and Frequency",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:15",
+        "excerpt": "3. Billing Schedule and Frequency"
+      }
+    },
+    {
+      "clause_id": "UPL-001-p16",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": "heading",
+      "is_heading": true,
+      "text": "3.1 Standard Billing",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:16",
+        "excerpt": "3.1 Standard Billing"
+      }
+    },
+    {
+      "clause_id": "UPL-001-p17",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": "3.1 Standard Billing",
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Recurring supply or support arrangements will be invoiced monthly, on the final business day of the billing month.",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:17",
+        "excerpt": "Recurring supply or support arrangements will be invoiced monthly, on the final business day of the billing month."
+      }
+    },
+    {
+      "clause_id": "UPL-001-p18",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": "3.1 Standard Billing",
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "For one-time orders with a value exceeding INR 6,00,000, the Vendor may invoice after delivery confirmation, subject to the relevant purchase order.",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:18",
+        "excerpt": "For one-time orders with a value exceeding INR 6,00,000, the Vendor may invoice after delivery confirmation, subject to the relevant purchase order."
+      }
+    },
+    {
+      "clause_id": "UPL-001-p19",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": "3.1 Standard Billing",
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Invoices must reference the applicable purchase order and include delivery or service evidence appropriate to the items billed.",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:19",
+        "excerpt": "Invoices must reference the applicable purchase order and include delivery or service evidence appropriate to the items billed."
+      }
+    },
+    {
+      "clause_id": "UPL-001-p20",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": "heading",
+      "is_heading": true,
+      "text": "3.2 Staged / Milestone Billing",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:20",
+        "excerpt": "3.2 Staged / Milestone Billing"
+      }
+    },
+    {
+      "clause_id": "UPL-001-p21",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": "3.2 Staged / Milestone Billing",
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "For multi-location deployments or projects with a total purchase-order value exceeding INR 60,00,000, the parties may use the following milestone schedule unless the accepted purchase order specifies otherwise:",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:21",
+        "excerpt": "For multi-location deployments or projects with a total purchase-order value exceeding INR 60,00,000, the parties may use the following milestone schedule unless the accepted purchase order specifies otherwise:"
+      }
+    },
+    {
+      "clause_id": "UPL-001-p22",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": "heading",
+      "is_heading": true,
+      "text": "3.3 Payment Terms",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:22",
+        "excerpt": "3.3 Payment Terms"
+      }
+    },
+    {
+      "clause_id": "UPL-001-p23",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": "3.3 Payment Terms",
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Standard payment term: 45 calendar days from the Client\u2019s receipt of a valid invoice and required supporting documents.",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:23",
+        "excerpt": "Standard payment term: 45 calendar days from the Client\u2019s receipt of a valid invoice and required supporting documents."
+      }
+    },
+    {
+      "clause_id": "UPL-001-p24",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": "3.3 Payment Terms",
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Late payment interest, where legally permitted and applicable, will be 1.25% per month on undisputed overdue amounts.",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:24",
+        "excerpt": "Late payment interest, where legally permitted and applicable, will be 1.25% per month on undisputed overdue amounts."
+      }
+    },
+    {
+      "clause_id": "UPL-001-p25",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": "3.3 Payment Terms",
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Any advance payment must be stated in the purchase order and may not exceed 25% of the PO value unless agreed in writing.",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:25",
+        "excerpt": "Any advance payment must be stated in the purchase order and may not exceed 25% of the PO value unless agreed in writing."
+      }
+    },
+    {
+      "clause_id": "UPL-001-p26",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": "3.3 Payment Terms",
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "The Client may withhold the disputed portion of an invoice while the parties investigate; undisputed amounts remain payable under the agreed terms.",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:26",
+        "excerpt": "The Client may withhold the disputed portion of an invoice while the parties investigate; undisputed amounts remain payable under the agreed terms."
+      }
+    },
+    {
+      "clause_id": "UPL-001-p27",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": "heading",
+      "is_heading": true,
+      "text": "4. Invoice Details and Credit Notes",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:27",
+        "excerpt": "4. Invoice Details and Credit Notes"
+      }
+    },
+    {
+      "clause_id": "UPL-001-p28",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": "heading",
+      "is_heading": true,
+      "text": "4.1 Required Invoice Components",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:28",
+        "excerpt": "4.1 Required Invoice Components"
+      }
+    },
+    {
+      "clause_id": "UPL-001-p29",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": "4.1 Required Invoice Components",
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Each invoice must include, as applicable:",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:29",
+        "excerpt": "Each invoice must include, as applicable:"
+      }
+    },
+    {
+      "clause_id": "UPL-001-p30",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": "4.1 Required Invoice Components",
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Vendor and Client legal names and billing details.",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:30",
+        "excerpt": "Vendor and Client legal names and billing details."
+      }
+    },
+    {
+      "clause_id": "UPL-001-p31",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": "4.1 Required Invoice Components",
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Unique invoice number, invoice date, and purchase-order reference.",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:31",
+        "excerpt": "Unique invoice number, invoice date, and purchase-order reference."
+      }
+    },
+    {
+      "clause_id": "UPL-001-p32",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": "4.1 Required Invoice Components",
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Itemized goods or services, quantities, unit prices, and line totals.",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:32",
+        "excerpt": "Itemized goods or services, quantities, unit prices, and line totals."
+      }
+    },
+    {
+      "clause_id": "UPL-001-p33",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": "4.1 Required Invoice Components",
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Applicable taxes, levies, discounts, and the final amount payable.",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:33",
+        "excerpt": "Applicable taxes, levies, discounts, and the final amount payable."
+      }
+    },
+    {
+      "clause_id": "UPL-001-p34",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": "4.1 Required Invoice Components",
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Delivery date and delivery location, or service period where relevant.",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:34",
+        "excerpt": "Delivery date and delivery location, or service period where relevant."
+      }
+    },
+    {
+      "clause_id": "UPL-001-p35",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": "4.1 Required Invoice Components",
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Milestone reference and supporting evidence for milestone-based charges.",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:35",
+        "excerpt": "Milestone reference and supporting evidence for milestone-based charges."
+      }
+    },
+    {
+      "clause_id": "UPL-001-p36",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": "4.1 Required Invoice Components",
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Payment due date and remittance instructions.",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:36",
+        "excerpt": "Payment due date and remittance instructions."
+      }
+    },
+    {
+      "clause_id": "UPL-001-p37",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": "heading",
+      "is_heading": true,
+      "text": "4.2 Credit Notes and Adjustments",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:37",
+        "excerpt": "4.2 Credit Notes and Adjustments"
+      }
+    },
+    {
+      "clause_id": "UPL-001-p38",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": "4.2 Credit Notes and Adjustments",
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Credit notes may be issued for approved returns, short deliveries, duplicate charges, or confirmed billing errors.",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:38",
+        "excerpt": "Credit notes may be issued for approved returns, short deliveries, duplicate charges, or confirmed billing errors."
+      }
+    },
+    {
+      "clause_id": "UPL-001-p39",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": "4.2 Credit Notes and Adjustments",
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Each credit note must identify the original invoice and state the reason and value of the adjustment.",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:39",
+        "excerpt": "Each credit note must identify the original invoice and state the reason and value of the adjustment."
+      }
+    },
+    {
+      "clause_id": "UPL-001-p40",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": "4.2 Credit Notes and Adjustments",
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Unless applicable law or a written agreement requires otherwise, a credit-note request should be raised within 60 calendar days of the original invoice date.",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:40",
+        "excerpt": "Unless applicable law or a written agreement requires otherwise, a credit-note request should be raised within 60 calendar days of the original invoice date."
+      }
+    },
+    {
+      "clause_id": "UPL-001-p41",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": "4.2 Credit Notes and Adjustments",
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Approved credits will be reflected in the parties\u2019 billing records and reconciled against the relevant invoice or future invoice, as agreed.",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:41",
+        "excerpt": "Approved credits will be reflected in the parties\u2019 billing records and reconciled against the relevant invoice or future invoice, as agreed."
+      }
+    },
+    {
+      "clause_id": "UPL-001-p42",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": "heading",
+      "is_heading": true,
+      "text": "5. Obligations of the Vendor",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:42",
+        "excerpt": "5. Obligations of the Vendor"
+      }
+    },
+    {
+      "clause_id": "UPL-001-p43",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": "5. Obligations of the Vendor",
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Supply goods and perform services in accordance with the accepted PO and agreed delivery schedule.",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:43",
+        "excerpt": "Supply goods and perform services in accordance with the accepted PO and agreed delivery schedule."
+      }
+    },
+    {
+      "clause_id": "UPL-001-p44",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": "5. Obligations of the Vendor",
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Maintain accurate records of dispatch, delivery, installation, testing, and warranty coverage.",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:44",
+        "excerpt": "Maintain accurate records of dispatch, delivery, installation, testing, and warranty coverage."
+      }
+    },
+    {
+      "clause_id": "UPL-001-p45",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": "5. Obligations of the Vendor",
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Provide complete and legible supporting documents with each invoice.",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:45",
+        "excerpt": "Provide complete and legible supporting documents with each invoice."
+      }
+    },
+    {
+      "clause_id": "UPL-001-p46",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": "5. Obligations of the Vendor",
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Notify the Client of an expected material delivery delay as soon as reasonably practicable and, where possible, at least 5 business days in advance.",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:46",
+        "excerpt": "Notify the Client of an expected material delivery delay as soon as reasonably practicable and, where possible, at least 5 business days in advance."
+      }
+    },
+    {
+      "clause_id": "UPL-001-p47",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": "5. Obligations of the Vendor",
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Correct verified invoice errors and issue applicable credit notes or replacement invoices promptly.",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:47",
+        "excerpt": "Correct verified invoice errors and issue applicable credit notes or replacement invoices promptly."
+      }
+    },
+    {
+      "clause_id": "UPL-001-p48",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": "heading",
+      "is_heading": true,
+      "text": "6. Obligations of the Client",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:48",
+        "excerpt": "6. Obligations of the Client"
+      }
+    },
+    {
+      "clause_id": "UPL-001-p49",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": "6. Obligations of the Client",
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Provide valid purchase orders and identify authorized contacts for delivery, invoice, and payment queries.",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:49",
+        "excerpt": "Provide valid purchase orders and identify authorized contacts for delivery, invoice, and payment queries."
+      }
+    },
+    {
+      "clause_id": "UPL-001-p50",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": "6. Obligations of the Client",
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Review invoices and notify the Vendor of a discrepancy within 5 business days of receipt where practicable.",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:50",
+        "excerpt": "Review invoices and notify the Vendor of a discrepancy within 5 business days of receipt where practicable."
+      }
+    },
+    {
+      "clause_id": "UPL-001-p51",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": "6. Obligations of the Client",
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Arrange access to approved sites for delivery, installation, and testing activities.",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:51",
+        "excerpt": "Arrange access to approved sites for delivery, installation, and testing activities."
+      }
+    },
+    {
+      "clause_id": "UPL-001-p52",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": "6. Obligations of the Client",
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Review milestone evidence and provide acceptance or written reasons for rejection within a reasonable period.",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:52",
+        "excerpt": "Review milestone evidence and provide acceptance or written reasons for rejection within a reasonable period."
+      }
+    },
+    {
+      "clause_id": "UPL-001-p53",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": "6. Obligations of the Client",
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Pay undisputed invoice amounts within the agreed payment period.",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:53",
+        "excerpt": "Pay undisputed invoice amounts within the agreed payment period."
+      }
+    },
+    {
+      "clause_id": "UPL-001-p54",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": "heading",
+      "is_heading": true,
+      "text": "7. Dispute Resolution",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:54",
+        "excerpt": "7. Dispute Resolution"
+      }
+    },
+    {
+      "clause_id": "UPL-001-p55",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": "7. Dispute Resolution",
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "A billing dispute must be submitted in writing with the invoice number, disputed amount, reason, and available supporting evidence.",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:55",
+        "excerpt": "A billing dispute must be submitted in writing with the invoice number, disputed amount, reason, and available supporting evidence."
+      }
+    },
+    {
+      "clause_id": "UPL-001-p56",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": "7. Dispute Resolution",
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "The parties\u2019 billing contacts will attempt to resolve the dispute within 10 business days after receiving the written notice.",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:56",
+        "excerpt": "The parties\u2019 billing contacts will attempt to resolve the dispute within 10 business days after receiving the written notice."
+      }
+    },
+    {
+      "clause_id": "UPL-001-p57",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": "7. Dispute Resolution",
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "If the dispute remains unresolved, it will be escalated to designated senior representatives of both parties for good-faith discussion.",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:57",
+        "excerpt": "If the dispute remains unresolved, it will be escalated to designated senior representatives of both parties for good-faith discussion."
+      }
+    },
+    {
+      "clause_id": "UPL-001-p58",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": "7. Dispute Resolution",
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "The parties will continue to process undisputed amounts while a disputed amount is being reviewed, subject to applicable law and the relevant PO.",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:58",
+        "excerpt": "The parties will continue to process undisputed amounts while a disputed amount is being reviewed, subject to applicable law and the relevant PO."
+      }
+    },
+    {
+      "clause_id": "UPL-001-p59",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": "heading",
+      "is_heading": true,
+      "text": "8. Reporting and Reconciliation",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:59",
+        "excerpt": "8. Reporting and Reconciliation"
+      }
+    },
+    {
+      "clause_id": "UPL-001-p60",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": "8. Reporting and Reconciliation",
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "The Vendor will provide a monthly statement showing invoices issued, amounts received, open balances, credit notes, and overdue undisputed amounts.",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:60",
+        "excerpt": "The Vendor will provide a monthly statement showing invoices issued, amounts received, open balances, credit notes, and overdue undisputed amounts."
+      }
+    },
+    {
+      "clause_id": "UPL-001-p61",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": "8. Reporting and Reconciliation",
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Either party may request a quarterly reconciliation of purchase orders, delivery records, milestone approvals, invoices, and payments.",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:61",
+        "excerpt": "Either party may request a quarterly reconciliation of purchase orders, delivery records, milestone approvals, invoices, and payments."
+      }
+    },
+    {
+      "clause_id": "UPL-001-p62",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": "8. Reporting and Reconciliation",
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Both parties will retain billing and supporting records in accordance with their internal retention policies and applicable legal requirements.",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:62",
+        "excerpt": "Both parties will retain billing and supporting records in accordance with their internal retention policies and applicable legal requirements."
+      }
+    },
+    {
+      "clause_id": "UPL-001-p63",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": "heading",
+      "is_heading": true,
+      "text": "9. Confidentiality",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:63",
+        "excerpt": "9. Confidentiality"
+      }
+    },
+    {
+      "clause_id": "UPL-001-p64",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": "9. Confidentiality",
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Each party will protect non-public billing, commercial, operational, and financial information received from the other party and will use it only for purposes connected with this Agreement. Disclosure may be made to personnel or professional advisers who need the information, or where required by law, subject to appropriate confidentiality obligations.",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:64",
+        "excerpt": "Each party will protect non-public billing, commercial, operational, and financial information received from the other party and will use it only for purposes connected with this Agreement. Disclosure may be made to personnel or professional advisers who need the information, or where required by law, subject to appropriate confidentiality obligations."
+      }
+    },
+    {
+      "clause_id": "UPL-001-p65",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": "heading",
+      "is_heading": true,
+      "text": "10. Amendment and Termination",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:65",
+        "excerpt": "10. Amendment and Termination"
+      }
+    },
+    {
+      "clause_id": "UPL-001-p66",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": "10. Amendment and Termination",
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Any amendment to this Agreement must be recorded in writing and approved by authorized representatives of both parties.",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:66",
+        "excerpt": "Any amendment to this Agreement must be recorded in writing and approved by authorized representatives of both parties."
+      }
+    },
+    {
+      "clause_id": "UPL-001-p67",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": "10. Amendment and Termination",
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Either party may terminate this Agreement by giving 45 calendar days\u2019 written notice, unless a relevant PO states otherwise.",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:67",
+        "excerpt": "Either party may terminate this Agreement by giving 45 calendar days\u2019 written notice, unless a relevant PO states otherwise."
+      }
+    },
+    {
+      "clause_id": "UPL-001-p68",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": "10. Amendment and Termination",
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Termination will not remove obligations relating to accepted deliveries, approved milestones, valid invoices, credit notes, or payments accrued before the effective termination date.",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:68",
+        "excerpt": "Termination will not remove obligations relating to accepted deliveries, approved milestones, valid invoices, credit notes, or payments accrued before the effective termination date."
+      }
+    },
+    {
+      "clause_id": "UPL-001-p69",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": "10. Amendment and Termination",
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "The parties will cooperate to reconcile open invoices and outstanding obligations following termination.",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:69",
+        "excerpt": "The parties will cooperate to reconcile open invoices and outstanding obligations following termination."
+      }
+    },
+    {
+      "clause_id": "UPL-001-p70",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": "heading",
+      "is_heading": true,
+      "text": "11. Governing Law and Jurisdiction",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:70",
+        "excerpt": "11. Governing Law and Jurisdiction"
+      }
+    },
+    {
+      "clause_id": "UPL-001-p71",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": "11. Governing Law and Jurisdiction",
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "This sample Agreement is intended to be governed by the laws of India. The parties should insert the agreed city and state for jurisdiction and obtain appropriate legal review before execution.",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:71",
+        "excerpt": "This sample Agreement is intended to be governed by the laws of India. The parties should insert the agreed city and state for jurisdiction and obtain appropriate legal review before execution."
+      }
+    },
+    {
+      "clause_id": "UPL-001-p72",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": "11. Governing Law and Jurisdiction",
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Agreed jurisdiction: [City, State]",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:72",
+        "excerpt": "Agreed jurisdiction: [City, State]"
+      }
+    },
+    {
+      "clause_id": "UPL-001-p73",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": null,
+      "heading_hint": "heading",
+      "is_heading": true,
+      "text": "12. Signatures",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:73",
+        "excerpt": "12. Signatures"
+      }
+    },
+    {
+      "clause_id": "UPL-001-p74",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": "12. Signatures",
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "The undersigned confirm that they are authorized to sign on behalf of the respective parties.",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:74",
+        "excerpt": "The undersigned confirm that they are authorized to sign on behalf of the respective parties."
+      }
+    },
+    {
+      "clause_id": "UPL-001-p75",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "heading": "12. Signatures",
+      "heading_hint": null,
+      "is_heading": false,
+      "text": "Template note: This document is a newly drafted sample modeled on the structure of the supplied billing schedule agreement. The revised terms are illustrative and should be reviewed and approved by the parties before use.",
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "paragraph",
+        "locator": "paragraph:75",
+        "excerpt": "Template note: This document is a newly drafted sample modeled on the structure of the supplied billing schedule agreement. The revised terms are illustrative and should be reviewed and approved by the parties before use."
+      }
+    }
+  ],
+  "tables": [
+    {
+      "table_id": "UPL-001-t0",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "table_index": 0,
+      "rows": [
+        [
+          "Milestone",
+          "Billing %",
+          "Conditions",
+          "Documentation Required"
+        ],
+        [
+          "Purchase Order Approval",
+          "25%",
+          "Upon Vendor\u2019s written acceptance of the approved PO",
+          "Approved PO and order confirmation"
+        ],
+        [
+          "Dispatch Confirmation",
+          "25%",
+          "When equipment is dispatched to the agreed delivery location",
+          "Dispatch note and transport details"
+        ],
+        [
+          "Site Delivery and Installation",
+          "30%",
+          "After delivery and completion of installation at the applicable site",
+          "Delivery challan and installation report"
+        ],
+        [
+          "Acceptance and Handover",
+          "20%",
+          "After testing is completed and the Client signs the acceptance record",
+          "Test results and signed acceptance certificate"
+        ]
+      ],
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "table",
+        "locator": "table:0",
+        "excerpt": null
+      }
+    },
+    {
+      "table_id": "UPL-001-t1",
+      "doc_id": "UPL-001",
+      "doc_version": "1",
+      "table_index": 1,
+      "rows": [
+        [
+          "Party",
+          "Name",
+          "Designation",
+          "Signature",
+          "Date"
+        ],
+        [
+          "Northbridge Technology Systems",
+          "",
+          "",
+          "",
+          ""
+        ],
+        [
+          "Silverline Financial Services",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "source_location": {
+        "doc_id": "UPL-001",
+        "kind": "table",
+        "locator": "table:1",
+        "excerpt": null
+      }
+    }
+  ],
+  "parse_status": "parsed",
+  "parse_error": null
+}

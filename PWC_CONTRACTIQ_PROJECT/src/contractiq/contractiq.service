@@ -1,0 +1,17 @@
+[Unit]
+Description=ContractIQ (FastAPI API + Gradio UI)
+After=network.target
+
+[Service]
+User=ubuntu
+WorkingDirectory=/home/ubuntu/contractiq
+EnvironmentFile=/home/ubuntu/contractiq/.env
+Environment="PATH=/home/ubuntu/contractiq/venv/bin"
+Environment="MPLBACKEND=Agg"
+# Exactly one worker: state lives in a local Chroma client, a cached graph and JSON files.
+ExecStart=/home/ubuntu/contractiq/venv/bin/uvicorn serve:app --host 0.0.0.0 --port 8000 --workers 1
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
